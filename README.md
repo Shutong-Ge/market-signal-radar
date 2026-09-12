@@ -1,0 +1,87 @@
+# 投研舆情雷达 · 市场热点监控与晨报自动生成
+
+面向基金投研团队的市场热点监控工具：**多源采集 → 三层去重 → 无K值聚类 → 四因子热度 → 混合检索RAG深度分析 → 投研晨报**，全链路自动化、可挂定时任务每天自己跑。
+
+所有数据来自**公开免登录财经接口**，所有指标为**管道真实运行产出**，不是演示数据。
+
+**在线演示**：https://shutong-ge.github.io/market-signal-radar/
+
+## 实测结果
+
+| 环节 | 结果 |
+|---|---|
+| 采集 | 3 家媒体 7 个公开频道，库内 1,747 条真实财经资讯 |
+| 三层去重 | 窗口内 1,447 → 1,331 条（去重率 8.0%，重跑幂等）<br>L1 标题哈希 42 · L2 自研SimHash 5 · L3 语义向量 69 |
+| 无K值聚类 | 426 条相似边 → 1,168 个连通分量 → 过滤程式化公告与单一媒体簇 → **43 个有效热点** |
+| 热度分级 | 爆点 4 · 高热 8 · 升温中 13 · 一般 18 |
+| 检索评测 | 两路召回集平均重合度仅 **40.1%**；只用BM25漏 1.88 篇/query、只用向量漏 2.12 篇/query |
+| RAG 生成 | Top5 限流 + 7天缓存；模板降级 0/5；引用标注覆盖率 **0%**（本地1.5B局限，如实记录） |
+
+## 核心设计
+
+**① 去重必须分层** —— 财经资讯的重复有三种形态，一层解决不了：
+- L1 精确：同稿多频道收录 → 标题归一化哈希，O(1)
+- L2 近似：同一通稿改写标题/删节 → 自研 64 位 SimHash（jieba + 词频对数加权、汉明距 ≤3、64位切4段16位分块索引，鸽巢原理保证不漏）
+- L3 语义：同事件不同表述 → bge 向量余弦 ≥0.90
+
+指纹跨批次持久化（7天TTL），记录来源文章ID以保证重跑幂等。
+
+**② 聚类不预设 K** —— 每天有几个热点本就不固定，K-means 的全局结构假设在此错误。改用向量近邻（余弦≥0.80）建边 + 并查集连通合并；向量链路不可用时降级关键词规则聚类，已实测验证。
+
+**③ 热度可解释且自适应** —— 四因子（覆盖度/爆发速度/持续时长/媒体覆盖）窗口内对数归一。社交因子无数据源时触发权重动态归一；单日窗口内 duration 退化为常数时同样自动剔除。
+
+**④ 混合检索用数据论证** —— BM25 + 向量双路 → RRF 融合（只用排名不用分数，规避量纲不可比）。配套对照评测脚本，用重合度/名次差/单路盲区三个口径量化"混合检索值不值"。
+
+**⑤ 可溯源性靠架构不靠提示词** —— 引用清单由检索层独立产出、与报告并排展示。实测本地 1.5B 的引用标注覆盖率为 0%，架构层的溯源设计因此是必需而非可选。
+
+## 开发过程中修复的四个真实缺陷
+
+1. **SimHash 剥离数字导致误去重**：通用文本处理默认剥数字，但财经资讯里数字就是内容——"南向资金净卖出30亿"与"50亿"指纹相同，8 条不同事实被误杀。修法：SimHash 专用分词保留数字并加倍计权。
+2. **跨批次指纹破坏幂等**：重跑时全部命中自己写入的指纹（拦截数 8 → 1339）。修法：指纹记录来源ID，比对时排除当前输入集。
+3. **固定归一化分母换环境失效**：热度分全挤在 0.2–0.33；改分位数硬截断又大量并列。最终采用窗口内对数归一。
+4. **埋点缺口**：回补批次直连写库未计入采集日志，漏斗图上"去重后数量大于采集入库量"。未做数字对齐修饰，在工作台页面如实标注。
+
+## 运行
+
+```bash
+pip install httpx jieba numpy faiss-cpu sentence-transformers rank_bm25 python-docx transformers torch
+cd src
+python collect.py            # 多源采集 → SQLite
+python dedup.py 2            # 三层去重（窗口 2 天）
+python cluster.py            # 无K值聚类 + 热度模型
+python cluster.py --fallback # 验证降级链路（强制关闭向量）
+python rag.py 5              # 混合检索 + Top5 深度报告
+python eval_retrieval.py     # 检索对照评测
+python brief.py              # 组装投研晨报（Markdown + Word）
+python build_ui.py           # 装配单文件工作台
+```
+
+首次运行会下载 bge-small-zh-v1.5（约 100MB）与 Qwen2.5-1.5B-Instruct（约 3GB）。
+接生产强模型：`ENGINE=api API_BASE=... API_KEY=... API_MODEL=... python rag.py`
+
+## 目录
+
+```
+src/collect.py          多源采集（站点配置化、异常隔离）
+src/dedup.py            三层去重（含自研 SimHash）
+src/cluster.py          无K值聚类 + 热度模型 + 降级链路
+src/rag.py              混合检索（BM25+向量+RRF）+ RAG 报告 + JSON容错链
+src/eval_retrieval.py   检索对照评测
+src/brief.py            投研晨报组装与双格式导出
+src/build_ui.py         工作台装配
+index.html              单文件工作台（4 视图：热点看板 / 深度分析 / 数据管道 / 检索评测）
+```
+
+## 实现方式
+
+代码借助 AI 编程工具生成并逐轮调校；架构选择、阈值设定、指标口径、缺陷定位与修复方案由本人决定。
+
+## 声明
+
+个人作品集项目。数据源为公开免登录接口，不含任何机构内部数据；生成内容供研究参考，不构成投资建议。
+
+📫 shutong_kim@163.com
+
+---
+### English Summary
+A market-signal radar for buy-side research teams: multi-source ingestion → three-layer deduplication (exact hash / custom 64-bit SimHash / semantic vectors) → K-free clustering (vector neighbors + union-find) → four-factor heat scoring → hybrid-retrieval RAG (BM25 + dense, RRF fusion) → auto-generated morning brief. 1,747 real articles from public feeds; 1,447 → 1,331 after dedup; 43 valid hotspots. The two retrieval paths overlap only 40.1%, which is the measured case for hybrid retrieval. All figures are real pipeline output.

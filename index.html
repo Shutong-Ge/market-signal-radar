@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>投研舆情雷达 · 热点监控工作台</title>
+<style>
+:root{--navy:#16324F;--navy2:#1F4E79;--blue:#1F6FB2;--blue-l:#EAF3FB;--red:#C0392B;--red-l:#FBEDEB;
+--amber:#B26A00;--amber-l:#FDF3E1;--green:#2E9E5B;--green-l:#E9F7EF;--bg:#F4F7FA;--card:#fff;
+--ink:#22303E;--grey:#8A939E;--line:#E4EAF0}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+background:var(--bg);color:var(--ink);display:flex;overflow:hidden;font-size:14px}
+.sidebar{width:228px;min-width:228px;background:linear-gradient(168deg,var(--navy),var(--navy2));color:#fff;
+display:flex;flex-direction:column;padding:20px 14px}
+.logo{display:flex;align-items:center;gap:10px;padding:2px 6px 20px}
+.logo .ic{width:38px;height:38px;border-radius:10px;background:var(--blue);display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px rgba(31,111,178,.4)}
+.logo b{font-size:15.5px}.logo small{display:block;font-size:9.5px;color:#9FB6CC;font-weight:400;letter-spacing:.5px}
+.nav{display:flex;flex-direction:column;gap:2px}
+.nav a{display:flex;align-items:center;gap:10px;color:#C6D4E2;text-decoration:none;font-size:13.5px;padding:10px 12px;border-radius:9px;cursor:pointer}
+.nav a:hover{background:rgba(255,255,255,.07);color:#fff}
+.nav a.on{background:rgba(255,255,255,.13);color:#fff;font-weight:600}
+.nav svg{width:16px;height:16px;flex:none}
+.nav .cnt{margin-left:auto;background:var(--blue);border-radius:99px;font-size:10px;padding:1px 7px;font-weight:700}
+.spacer{flex:1}
+.pipe{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:12px 13px;font-size:11px;color:#C6D4E2;line-height:1.75}
+.pipe b{color:#fff}
+.pipe .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#4ADE80;margin-right:6px;box-shadow:0 0 6px #4ADE80}
+.main{flex:1;display:flex;flex-direction:column;min-width:0}
+.topbar{height:56px;background:var(--card);border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 22px;gap:10px;flex:none}
+.topbar h1{font-size:15px;font-weight:700;color:var(--navy)}
+.badge{font-size:11px;padding:3.5px 10px;border-radius:99px;background:var(--blue-l);color:var(--blue);font-weight:600}
+.badge.o{background:var(--amber-l);color:var(--amber)}
+.badge.g{background:var(--green-l);color:var(--green)}
+.tb-right{margin-left:auto;font-size:11.5px;color:var(--grey)}
+.content{flex:1;overflow-y:auto;padding:20px 22px}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:16px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 16px}
+.kpi .l{font-size:11.5px;color:var(--grey);font-weight:600}
+.kpi .v{font-size:21px;font-weight:800;color:var(--navy);margin-top:3px;font-variant-numeric:tabular-nums}
+.kpi .v.b{color:var(--blue)}.kpi .v.r{color:var(--red)}.kpi .v.g{color:var(--green)}
+.kpi .s{font-size:10.5px;color:var(--grey);margin-top:2px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:16px}
+.panel .hd{padding:12px 18px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px}
+.panel .hd b{font-size:13.5px;color:var(--navy)}
+.panel .hd .sub{font-size:11.5px;color:var(--grey)}
+.panel .hd .right{margin-left:auto;font-size:11.5px;color:var(--grey)}
+.pd{padding:14px 18px}
+table.q{width:100%;border-collapse:collapse;font-size:12.5px}
+table.q th{background:#F8FAFC;color:var(--grey);font-weight:600;text-align:left;padding:8px 14px;border-bottom:1px solid var(--line);font-size:11.5px}
+table.q td{padding:9px 14px;border-bottom:1px solid #F0F4F8}
+table.q tr.row{cursor:pointer}
+table.q tr.row:hover{background:#F6FAFD}
+.lv{display:inline-block;font-size:10.5px;font-weight:700;border-radius:6px;padding:2px 8px}
+.lv.爆点{background:var(--red-l);color:var(--red)}
+.lv.高热{background:var(--amber-l);color:var(--amber)}
+.lv.升温中{background:var(--blue-l);color:var(--blue)}
+.lv.一般{background:#EEF1F4;color:var(--grey)}
+.hbar{display:inline-block;width:70px;height:7px;border-radius:4px;background:#EDF1F5;vertical-align:1px;margin-right:7px;overflow:hidden}
+.hbar i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,#F5862B,#C0392B)}
+.tag{display:inline-block;font-size:10px;background:var(--blue-l);color:var(--blue);border-radius:5px;padding:1px 6px;margin-right:4px}
+/* 漏斗 */
+.funnel{display:flex;flex-direction:column;gap:9px}
+.fn-row{display:flex;align-items:center;gap:11px;font-size:12.5px}
+.fn-row .nm{width:150px;color:var(--ink);flex:none}
+.fn-track{flex:1;height:26px;background:#F1F5F9;border-radius:7px;position:relative;overflow:hidden}
+.fn-track i{display:block;height:100%;background:linear-gradient(90deg,#2B7FC4,#1F6FB2);border-radius:7px}
+.fn-track span{position:absolute;left:11px;top:5px;color:#fff;font-size:11.5px;font-weight:700}
+.fn-cut{width:120px;text-align:right;color:var(--red);font-weight:700;font-size:12px}
+/* 因子条 */
+.fb{display:flex;align-items:center;gap:9px;margin:6px 0;font-size:11.5px}
+.fb .fn2{width:92px;color:var(--grey);flex:none}
+.fb .tk{flex:1;height:8px;background:#EDF1F5;border-radius:4px;overflow:hidden}
+.fb .tk i{display:block;height:100%;border-radius:4px;background:var(--blue)}
+.fb .vv{width:44px;text-align:right;font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums}
+.sec{border-left:3px solid var(--blue);background:#FBFCFE;border-radius:0 8px 8px 0;padding:9px 13px;margin-bottom:9px;font-size:12.5px;line-height:1.85}
+.sec b{color:var(--navy)}
+.cite{border-left:3px solid var(--amber);background:#FFFDF9;border-radius:0 7px 7px 0;padding:6px 11px;font-size:11.5px;color:#5B6772;margin-bottom:5px}
+.cite code{background:#F1F5F9;border-radius:4px;padding:0 5px;font-size:10.5px;color:#8A5A00}
+.note{font-size:11px;color:var(--grey);line-height:1.8}
+.ev-tab{width:100%;border-collapse:collapse;font-size:12px}
+.ev-tab th{background:#F8FAFC;color:var(--grey);text-align:left;padding:7px 11px;border-bottom:1px solid var(--line);font-size:11px}
+.ev-tab td{padding:7px 11px;border-bottom:1px solid #F3F6F9}
+.mono{font-variant-numeric:tabular-nums}
+.pair{font-size:11.5px;line-height:1.75;padding:7px 11px;border-left:3px solid var(--green);background:#FAFDFB;border-radius:0 7px 7px 0;margin-bottom:6px;color:#5B6772}
+.pair b{color:var(--navy)}
+.pair .dr{color:var(--red)}
+.empty{padding:50px;text-align:center;color:var(--grey);font-size:13px}
+@media (max-width:980px){.sidebar{display:none}.kpis{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<aside class="sidebar">
+  <div class="logo">
+    <div class="ic"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg></div>
+    <div><b>投研舆情雷达</b><small>MARKET SIGNAL RADAR</small></div>
+  </div>
+  <nav class="nav">
+    <a class="on" data-v="board" onclick="show('board')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>热点看板<span class="cnt" id="cnt"></span></a>
+    <a data-v="detail" onclick="show('detail')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg>深度分析</a>
+    <a data-v="pipe" onclick="show('pipe')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M6 12h12M10 18h4"/></svg>数据管道</a>
+    <a data-v="eval" onclick="show('eval')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>检索评测</a>
+  </nav>
+  <div class="spacer"></div>
+  <div class="pipe">
+    <div><span class="dot"></span><b>全链路已跑通</b></div>
+    <div id="pipeInfo"></div>
+  </div>
+</aside>
+<main class="main">
+  <div class="topbar">
+    <h1 id="title">热点看板</h1>
+    <span class="badge">真实公开数据</span>
+    <span class="badge">三层去重</span>
+    <span class="badge">无K值聚类</span>
+    <span class="badge o">混合检索RRF</span>
+    <div class="tb-right" id="stamp"></div>
+  </div>
+  <div class="content" id="content"></div>
+</main>
+<script>
+const D={"collect": {"fetched": 1280, "inserted": 1197, "dup": 83, "media_n": 3, "total": 1747, "sites": [{"key": "sina_finance", "media": "新浪财经", "channel": "财经滚动", "fetched": 50, "inserted": 50, "status": "ok"}, {"key": "sina_tech", "media": "新浪财经", "channel": "科技滚动", "fetched": 50, "inserted": 11, "status": "ok"}, {"key": "sina_world", "media": "新浪财经", "channel": "国际滚动", "fetched": 50, "inserted": 50, "status": "ok"}, {"key": "sina_stock", "media": "新浪财经", "channel": "股市滚动", "fetched": 50, "inserted": 50, "status": "ok"}, {"key": "em_fast", "media": "东方财富", "channel": "全球快讯", "fetched": 50, "inserted": 50, "status": "ok"}, {"key": "wscn_live", "media": "华尔街见闻", "channel": "全球快讯", "fetched": 0, "inserted": 0, "status": "fail: ProxyError"}, {"key": "cns_finance", "media": "中新网", "channel": "财经", "fetched": 30, "inserted": 30, "status": "ok"}, {"key": "sina_finance_p2", "media": "新浪财经", "channel": "财经滚动", "fetched": 50, "inserted": 50, "status": "ok"}, {"key": "sina_finance_p3", "media": "新浪财经", "channel": "财经滚动", "fetched": 50, "inserted": 50, "status": "ok"}]}, "dedup": {"n_in": 1447, "l1": 42, "l2": 5, "l3": 69, "n_out": 1331, "rate": 0.08, "elapsed": 35.3, "examples": {"L1": [{"kept": "[新浪财经] 超强厄尔尼诺来袭！警告声不绝于耳：全球粮食危机逼近？", "dropped": "[东方财富] 超强厄尔尼诺来袭！警告声不绝于耳：全球粮食危机逼近？"}, {"kept": "[新浪财经] 影石创新一年跌去70%成“最熊股”，市值蒸发超千亿", "dropped": "[东方财富] 影石创新一年跌去70%成“最熊股” 市值蒸发超千亿"}, {"kept": "[新浪财经] 快讯！朱忠明任上海市副市长、代理市长", "dropped": "[新浪财经] 朱忠明任上海市副市长、代理市长"}, {"kept": "[新浪财经] 快讯！朱忠明任上海市副市长、代理市长", "dropped": "[东方财富] 朱忠明任上海市副市长、代理市长"}, {"kept": "[东方财富] 日本20年期国债收益率下跌10个基点至3.715%", "dropped": "[新浪财经] 日本20年期国债收益率下跌10个基点至3.715%。"}, {"kept": "[新浪财经] 沙特人工智能企业Humain寻求设立25亿美元数据中心基金", "dropped": "[东方财富] 沙特人工智能企业Humain寻求设立25亿美元数据中心基金"}, {"kept": "[东方财富] 黄金下一波牛市要来了？专家：年内还能涨30% “鹰派FED”光说不做！", "dropped": "[新浪财经] 黄金下一波牛市要来了？专家：年内还能涨30%！“鹰派FED”光说不做"}, {"kept": "[新浪财经] 中美或将就农业及相关非关税壁垒发布声明？ 外交部：无信息提供", "dropped": "[东方财富] 中美或将就农业及相关非关税壁垒发布声明？外交部：无信息提供"}], "L2": [{"kept": "[新浪财经] 西藏吉隆泥石流灾害已造成31人遇难，531人失联，发现遗物987件", "dropped": "[新浪财经] 西藏吉隆“8·26”泥石流灾害已造成31人遇难、531人失联，发现遗物987件", "hamming": 0}, {"kept": "[新浪财经] 江苏一市新任免3名副市长", "dropped": "[新浪财经] 盐城市新任免3名副市长", "hamming": 3}, {"kept": "[新浪财经] 员工被通知坐硬座通宵出差，次日9点打卡，她拒绝后被公司以旷工为由开除，仲裁认定：单位违法，劳动者有休息权", "dropped": "[新浪财经] 上海一女员工被通知坐硬座通宵出差，次日9点打卡，她拒绝后被公司以旷工为由开除，仲裁认定：单位违法，劳动者有休息权", "hamming": 2}, {"kept": "[新浪财经] 禄劝县关于征集涉黑涉恶违法犯罪线索的公告", "dropped": "[新浪财经] 云南省关于征集涉黑涉恶违法犯罪线索的公告", "hamming": 2}, {"kept": "[新浪财经] 上海一员工被通知硬座通宵出差，次日9时打卡，她拒绝后被公司以旷工为由开除，仲裁：劳动者有休息权", "dropped": "[新浪财经] 上海一员工被通知硬座通宵出差，次日9时打卡！她拒绝！公司：旷工开除！仲裁：劳动者有休息权！", "hamming": 3}], "L3": [{"kept": "[新浪财经] 永利澳门授出合共3597.55万股奖励股份", "dropped": "[新浪财经] 永利澳门根据股份计划发行3560万股新股", "cos": 0.9051}, {"kept": "[新浪财经] 美联储9月加息预期降温，现货黄金一度站上4500美元", "dropped": "[东方财富] 美联储9月加息预期降温，现货黄金一度站上4500美元，黄金ETF博时(159937)近1年累计上涨超17%", "cos": 0.9354}, {"kept": "[东方财富] 千问办公上线首月用户数突破3000万 企业用户占比过半", "dropped": "[东方财富] 千问办公上线首月用户数超3000万", "cos": 0.9735}, {"kept": "[东方财富] 南向资金净卖出额达30亿港元", "dropped": "[东方财富] 南向资金净卖出额达50亿港元", "cos": 0.9548}, {"kept": "[新浪财经] 港股午评：恒指涨2.08% 科指涨2.51% 科网股普涨 内房股走强", "dropped": "[东方财富] 港股午评：恒生指数涨2.08% 恒生科技指数涨2.51%", "cos": 0.9096}, {"kept": "[东方财富] 挪威石油基金管理方或减持800亿美元美国国债", "dropped": "[新浪财经] 挪威石油基金或减持800亿美元美国国债", "cos": 0.9228}, {"kept": "[东方财富] 南向资金净卖出额达30亿港元", "dropped": "[东方财富] 南向资金净卖出额达60亿港元", "cos": 0.9571}, {"kept": "[新浪财经] 快讯！朱忠明任上海市副市长、代理市长", "dropped": "[新浪财经] 朱忠明任上海市代市长，龚正辞去上海市市长职务", "cos": 0.9516}, {"kept": "[东方财富] 日本20年期国债收益率下跌10个基点至3.715%", "dropped": "[新浪财经] 日本超长期国债收益率全面走低 至少下跌10个基点", "cos": 0.902}, {"kept": "[东方财富] 沪深两市成交额突破1万亿 较上一日此时放量超1300亿", "dropped": "[东方财富] 沪深两市成交额突破1.5万亿 较上一日此时放量超1700亿", "cos": 0.9912}]}}, "cluster": {"components": 1168, "edges": 426, "noise": 4, "single": 49, "n": 43, "calib": {"max_size": 10.0, "max_first": 10.0, "window_days": 2, "n_media_total": 3}, "levels": {"爆点": 4, "高热": 8, "升温中": 13, "一般": 18}, "elapsed": 0.1, "mode": "vector"}, "clusters": [{"label": "超级大超预期！美国8月非农新增16.2万 失业率维持4.1% 前两月就业累计上修5.5万", "category": "国际市场", "n": 10, "media": 2, "heat": 0.804, "level": "爆点", "factors": {"coverage": 1.0, "burst": 1.0, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK1616"]}, {"label": "工业和信息化部发布《人工智能中小企业创业支持计划（2026—2028年）》 三年培育超万家AI科", "category": "AI与大模型", "n": 8, "media": 2, "heat": 0.748, "level": "爆点", "factors": {"coverage": 0.916, "burst": 0.867, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK0800"]}, {"label": "恒生科技指数放量大涨 明星科网股集体走强 恒生科技ETF易方达（513010）涨近3%", "category": "金融市场", "n": 4, "media": 3, "heat": 0.708, "level": "爆点", "factors": {"coverage": 0.671, "burst": 0.671, "duration": 0.5, "media": 1.0, "social": null}, "span": "1天", "sectors": ["BK0800"]}, {"label": "挪威主权基金提议降低政府债券持仓 有分析称或致减持800亿美元美债", "category": "宏观政策", "n": 6, "media": 2, "heat": 0.704, "level": "爆点", "factors": {"coverage": 0.812, "burst": 0.812, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "柴油价格创下历史新高：俄乌、伊朗冲突导致炼油厂停产，加剧通胀担忧", "category": "国际市场", "n": 5, "media": 2, "heat": 0.67, "level": "高热", "factors": {"coverage": 0.747, "burst": 0.747, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK0464"]}, {"label": "开盘|国内期货主力合约涨多跌少，钯、液化石油气（LPG）涨超3%", "category": "综合", "n": 4, "media": 2, "heat": 0.63, "level": "高热", "factors": {"coverage": 0.671, "burst": 0.671, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "光大期货0904热点追踪：成本钢招双重引爆，硅铁涨停创近两年新高", "category": "综合", "n": 4, "media": 2, "heat": 0.63, "level": "高热", "factors": {"coverage": 0.671, "burst": 0.671, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK1361", "BK0815"]}, {"label": "沪指上涨0.35% 全市场超4100股飘红 养殖业爆发", "category": "半导体", "n": 4, "media": 2, "heat": 0.63, "level": "高热", "factors": {"coverage": 0.671, "burst": 0.671, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK1259", "BK0800", "BK0475", "BK1283"]}, {"label": "联合国粮农组织：供应风险加剧 全球食品价格升至2022年以来最高水平", "category": "综合", "n": 4, "media": 2, "heat": 0.63, "level": "高热", "factors": {"coverage": 0.671, "burst": 0.671, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "北京：鼓励家政平台和相关企业加快研发创新养老照护机器人、情感陪伴机器人等新技术新产品", "category": "综合", "n": 4, "media": 2, "heat": 0.63, "level": "高热", "factors": {"coverage": 0.671, "burst": 0.671, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK0150", "BK1408"]}, {"label": "韩国被曝考虑向霍尔木兹海峡派兵 青瓦台称尚未作出决定", "category": "综合", "n": 3, "media": 2, "heat": 0.581, "level": "高热", "factors": {"coverage": 0.578, "burst": 0.578, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "韩国KOSPI指数收盘上涨1.6% 连续第二个交易日上涨", "category": "综合", "n": 3, "media": 2, "heat": 0.581, "level": "高热", "factors": {"coverage": 0.578, "burst": 0.578, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "兴业科技：因涉嫌信息披露违法违规 证监会决定对公司立案", "category": "金融市场", "n": 3, "media": 2, "heat": 0.581, "level": "升温中", "factors": {"coverage": 0.578, "burst": 0.578, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "迅策早盘涨超6% 正式推出TokenCloud一站式AI模型训推算力平台", "category": "AI与大模型", "n": 2, "media": 2, "heat": 0.517, "level": "升温中", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK0800"]}, {"label": "全国卫星导航定位基准站“一张网”扩至7569座", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "升温中", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK0480", "BK0629"]}, {"label": "第二批全国零售业创新提升试点城市发布", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "升温中", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK0482"]}, {"label": "国家发展改革委追加安排1亿元中央预算内投资支持福建进一步做好台风灾害灾后应急恢复", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "升温中", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "澳新银行上调布伦特原油预期至95美元/桶 缓冲空间不断收窄", "category": "国际市场", "n": 2, "media": 2, "heat": 0.517, "level": "升温中", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK1283"]}, {"label": "泰国暂停49个数据中心项目建设 拟加强行业监管", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "升温中", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK0922"]}, {"label": "阿根廷米莱升级马岛争端，特朗普质疑美国对英国的支持", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "升温中", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "接近霸王茶姬人士回应工商变更：相关公司的正常变更，不涉及业务调整", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "升温中", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "年内期货行业并购事件增至5起！证监会核准申银万国期货吸收合并宏源期货", "category": "金融市场", "n": 2, "media": 2, "heat": 0.517, "level": "升温中", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "英伟达向摩根大通表示：如果没有产能限制，那我们的业务规模会翻一倍", "category": "AI与大模型", "n": 2, "media": 2, "heat": 0.517, "level": "升温中", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK1161"]}, {"label": "为何选择两家电池企业一起合作？小米汽车副总裁：能保障用户提车周期的稳定性", "category": "新能源", "n": 2, "media": 2, "heat": 0.517, "level": "升温中", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK1155"]}, {"label": "广西：2025/26榨季截至8月底累计销糖620.13万吨 工业库存149.61万吨", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "升温中", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK0154"]}, {"label": "Lululemon下调全年展望，第二季度营收同比降4%", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "报道：美国特使威特科夫和库什纳周末将访问莫斯科和基辅", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "一众资管巨头开始重建黄金头寸 看好其估值便宜与对冲价值", "category": "国际市场", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK0732", "BK1617"]}, {"label": "结束两个月加量，央行等量续作买断式逆回购，释放什么信号？", "category": "宏观政策", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK0475", "BK1283"]}, {"label": "财政部发布《境内单位代扣代缴自然人增值税管理办法》", "category": "宏观政策", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "《市场监管总局关于开展电子计价秤计量监管试点工作的公告》解读", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK000053"]}, {"label": "康欣新材：因定期报告涉嫌信息披露违法违规被证监会立案", "category": "金融市场", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "9月4日涨停复盘：41只股涨停 龙版传媒5连板", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK0815", "BK0816"]}, {"label": "证监会对元道通信欺诈发行及信息披露违法行为进行行政处罚", "category": "金融市场", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "5天4板欢瑞世纪：公司AI短剧业务在上线数量、营收规模及成本效益转化方面尚未形成规模化效应", "category": "AI与大模型", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK1151"]}, {"label": "理想汽车斥资26.5亿入股欣旺达动力 推进自研芯片迭代 按造硅基人方式重构研发体系", "category": "汽车出行", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "百度集团将于9月7日起获纳入港股通", "category": "金融市场", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "西部陆海新通道再添南向开放新动脉！平陆运河多式联运班列四川首班发车", "category": "金融市场", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "加拿大就业人数减少41700人 惟制造业岗位大幅增加", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "另类资产管理巨头Blue Owl Capital正计划将其数据中心资产整合为一家上市房地产投资信", "category": "宏观政策", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK1364", "BK0922"]}, {"label": "AI云计算公司Nscale据悉寻求35亿美元IPO前融资", "category": "AI与大模型", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": ["BK0697"]}, {"label": "特朗普拟允许牧场主绕开大型肉类加工商 直接向消费者销售牛肉", "category": "综合", "n": 2, "media": 2, "heat": 0.517, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.458, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}, {"label": "美国商务部长霍华德·卢特尼克去年收入据悉超过了2.5亿美元", "category": "国际市场", "n": 2, "media": 2, "heat": 0.477, "level": "一般", "factors": {"coverage": 0.458, "burst": 0.289, "duration": 0.5, "media": 0.667, "social": null}, "span": "1天", "sectors": []}], "reports": [{"key": "f571f9d2408a617d", "label": "超级大超预期！美国8月非农新增16.2万 失业率维持4.1% 前两月就业累计上修5.5万", "cached": false, "sections": {"事件概述": "美国8月非农新增16.2万，失业率维持4.1%，前两月就业累计上修5.5万。", "关键信息": "美国8月非农就业人数增加16.2万人，失业率维持在4.1%不变，失业人数基本稳定在700万人。", "市场影响": "金融市场反应强烈，股市上涨，美元指数走强。", "关注要点": "后续美联储货币政策调整及经济复苏前景"}, "citations": [{"n": 1, "title": "超级大超预期！美国8月非农新增16.2万 失业率维持4.1% 前两月就业累计上修5.5万", "media": "新浪财经", "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskus6030003.shtml", "rrf": 0.03279, "bm25_rank": 1, "vec_rank": 1}, {"n": 2, "title": "美国8月新增非农就业岗位16.2万个 远高于预期", "media": "新浪财经", "url": "https://finance.sina.com.cn/world/2026-09-04/doc-iniqskus6037311.shtml", "rrf": 0.032, "bm25_rank": 2, "vec_rank": 3}, {"n": 3, "title": "美国8月非农数据大超预期！美联储加息预期升温", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865601026.html", "rrf": 0.03151, "bm25_rank": 5, "vec_rank": 2}, {"n": 4, "title": "美国8月新增就业16.2万人，远超预期两倍", "media": "新浪财经", "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqsran0810790.shtml", "rrf": 0.03125, "bm25_rank": 4, "vec_rank": 4}, {"n": 5, "title": "美国6月和7月非农就业新增人数合计上修5.5万人", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865622084.html", "rrf": 0.0308, "bm25_rank": 3, "vec_rank": 7}, {"n": 6, "title": "美债价格大幅下跌", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865602042.html", "rrf": 0.03008, "bm25_rank": 7, "vec_rank": 6}, {"n": 7, "title": "美国8月非农今晚揭晓 但华尔街预测分歧极大", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865373081.html", "rrf": 0.02944, "bm25_rank": 6, "vec_rank": 10}, {"n": 8, "title": "非农大超预期后，加息预期飙升：15分钟内加息概率涨了接近8%", "media": "新浪财经", "url": "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsran0774018.shtml", "rrf": 0.0284, "bm25_rank": 8, "vec_rank": 13}], "degraded": 0, "retrieval": {"query": "超级大超预期！美国8月非农新增16.2万 失业率维持4.1% 前两月就业累计上修", "bm25_only": 2, "vec_only": 0, "both": 6, "neither_topk": 0}, "elapsed": 41.6}, {"key": "39794e82202e63db", "label": "工业和信息化部发布《人工智能中小企业创业支持计划（2026—2028年）》 三年培育超万家AI科", "cached": false, "sections": {"事件概述": "工业和信息化部发布《人工智能中小企业创业支持计划（2026—2028年）》", "关键信息": "三年培育超万家AI科创中小企业", "市场影响": "利好消息，推动优质中小企业持续涌现", "关注要点": "后续政策落地及具体扶持措施"}, "citations": [{"n": 1, "title": "工业和信息化部发布《人工智能中小企业创业支持计划（2026—2028年）》 三年培育超万家AI科创中小企业", "media": "新浪财经", "url": "https://finance.sina.com.cn/jjxw/2026-09-05/doc-iniqsvkn1015887.shtml", "rrf": 0.03252, "bm25_rank": 2, "vec_rank": 1}, {"n": 2, "title": "利好来了！工信部发文：三年培育超万家AI科创中小企业", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865460745.html", "rrf": 0.03202, "bm25_rank": 1, "vec_rank": 4}, {"n": 3, "title": "工信部印发《人工智能中小企业创业支持计划（2026-2028年）》", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865352420.html", "rrf": 0.032, "bm25_rank": 3, "vec_rank": 2}, {"n": 4, "title": "工信部：未来三年新培育科技和创新型中小企业1万家以上｜快讯", "media": "新浪财经", "url": "https://finance.sina.com.cn/stock/wbstock/2026-09-04/doc-iniqskus6027580.shtml", "rrf": 0.0315, "bm25_rank": 4, "vec_rank": 3}, {"n": 5, "title": "工信部：推动形成“中小企业人工智能应用探索”与“人工智能中小企业创业创新”双向促进的良性循环", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865359283.html", "rrf": 0.03031, "bm25_rank": 7, "vec_rank": 5}, {"n": 6, "title": "工信部：支持国家高新技术产业开发区聚焦人工智能领域新赛道 加强对中小企业的培育支持力度", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865355550.html", "rrf": 0.0303, "bm25_rank": 6, "vec_rank": 6}, {"n": 7, "title": "工信部：鼓励人工智能创业企业积极参与开源生态建设", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865359537.html", "rrf": 0.02963, "bm25_rank": 8, "vec_rank": 7}, {"n": 8, "title": "【财闻联播】康欣新材，被证监会立案！江波龙：H股发售价厘定为236港元/股", "media": "新浪财经", "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-04/doc-iniqsraq1088559.shtml", "rrf": 0.02908, "bm25_rank": 5, "vec_rank": 13}], "degraded": 0, "retrieval": {"query": "工业和信息化部发布《人工智能中小企业创业支持计划（2026—2028年）》 三年", "bm25_only": 1, "vec_only": 0, "both": 7, "neither_topk": 0}, "elapsed": 21.9}, {"key": "102d08a190795f7f", "label": "恒生科技指数放量大涨 明星科网股集体走强 恒生科技ETF易方达（513010）涨近3%", "cached": false, "sections": {"事件概述": "恒生科技指数放量大涨，明星科网股集体走强，恒生科技ETF易方达（513010）涨近3%。", "关键信息": "恒生科技指数涨幅扩大至3%，明星科网股走高，百度、京东、小米涨超4%，阿里巴巴涨逾3%。", "市场影响": "恒生科技ETF易方达（513010）涨近3%，银行板块与地产链直接受益，短端利率下行。", "关注要点": "后续MLF续作力度与信贷投放节奏。"}, "citations": [{"n": 1, "title": "恒生科技指数放量大涨 明星科网股集体走强 恒生科技ETF易方达（513010）涨近3%", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865073542.html", "rrf": 0.03279, "bm25_rank": 1, "vec_rank": 1}, {"n": 2, "title": "恒生科技指数涨幅扩大至3%", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865051840.html", "rrf": 0.03226, "bm25_rank": 2, "vec_rank": 2}, {"n": 3, "title": "港股午评：恒指涨2.08% 科指涨2.51% 科网股普涨 内房股走强", "media": "新浪财经", "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-04/doc-iniqrtwu4043105.shtml", "rrf": 0.0315, "bm25_rank": 3, "vec_rank": 4}, {"n": 4, "title": "港股全线走强 恒指系列成分股扩容拓宽市场投资空间", "media": "中新网", "url": "https://www.chinanews.com.cn/cj/2026/09-04/10690612.shtml", "rrf": 0.03126, "bm25_rank": 5, "vec_rank": 3}, {"n": 5, "title": "英伟达斥资129亿美元收购Hugging Face！恒生科技ETF天弘标的指数盘中大涨超3%，近10日净流入超9000万", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865164240.html", "rrf": 0.03101, "bm25_rank": 4, "vec_rank": 5}, {"n": 6, "title": "港股存储股走强 澜起科技涨近5%", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043864988275.html", "rrf": 0.0303, "bm25_rank": 6, "vec_rank": 6}, {"n": 7, "title": "数字货币概念涨停潮 AI应用接力 金融科技ETF易方达（159299）涨超4%", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865075330.html", "rrf": 0.02879, "bm25_rank": 8, "vec_rank": 11}, {"n": 8, "title": "IFA柏林消费电子展今日开幕，港股通互联网ETF永赢盘中涨超3%！港股科技板块集体走强", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865088595.html", "rrf": 0.02817, "bm25_rank": 10, "vec_rank": 12}], "degraded": 0, "retrieval": {"query": "恒生科技指数放量大涨 明星科网股集体走强 恒生科技ETF易方达（513010）涨", "bm25_only": 1, "vec_only": 0, "both": 6, "neither_topk": 1}, "elapsed": 37.8}, {"key": "b60467afe483d739", "label": "挪威主权基金提议降低政府债券持仓 有分析称或致减持800亿美元美债", "cached": false, "sections": {"事件概述": "挪威主权基金提议降低政府债券持仓，有分析称或致减持800亿美元美债。", "关键信息": "挪威主权财富基金提议削减其2.3万亿美元投资组合中的政府债券数量，称降低仓位可以为流动性需求提供充足边际保障。", "市场影响": "银行板块与地产链直接受益，短端利率下行。", "关注要点": "后续MLF续作力度与信贷投放节奏。"}, "citations": [{"n": 1, "title": "挪威主权基金提议降低政府债券持仓 有分析称或致减持800亿美元美债", "media": "新浪财经", "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqrtwu4113549.shtml", "rrf": 0.03279, "bm25_rank": 1, "vec_rank": 1}, {"n": 2, "title": "挪威央行投资管理机构提议降低政府债券持仓 或致减持800亿美元美债", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865343022.html", "rrf": 0.03226, "bm25_rank": 2, "vec_rank": 2}, {"n": 3, "title": "美债或遭800亿美元减持？挪威主权财富基金考虑调低政府债券权重", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865384962.html", "rrf": 0.03175, "bm25_rank": 3, "vec_rank": 3}, {"n": 4, "title": "挪威石油基金管理方或减持800亿美元美国国债", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865224410.html", "rrf": 0.03078, "bm25_rank": 6, "vec_rank": 4}, {"n": 5, "title": "西太平洋银行：挪威主权财富基金减持债券预示市场将迎来重新定价", "media": "新浪财经", "url": "https://finance.sina.com.cn/tob/2026-09-04/doc-iniqsens0829771.shtml", "rrf": 0.03077, "bm25_rank": 5, "vec_rank": 5}, {"n": 6, "title": "挪威主权财富基金提议将政府债券指数配置比例从70%下调至50%", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865225819.html", "rrf": 0.03055, "bm25_rank": 4, "vec_rank": 7}, {"n": 7, "title": "全球最大主权财富基金计划减持美国国债", "media": "新浪财经", "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqsenu6085227.shtml", "rrf": 0.03008, "bm25_rank": 7, "vec_rank": 6}, {"n": 8, "title": "安联首席经济顾问：全球政府债券抛售或将持续，英日法最危险", "media": "新浪财经", "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqryeu0890046.shtml", "rrf": 0.02879, "bm25_rank": 11, "vec_rank": 8}], "degraded": 0, "retrieval": {"query": "挪威主权基金提议降低政府债券持仓 有分析称或致减持800亿美元美债", "bm25_only": 0, "vec_only": 1, "both": 7, "neither_topk": 0}, "elapsed": 28.4}, {"key": "4e59da62664981ea", "label": "柴油价格创下历史新高：俄乌、伊朗冲突导致炼油厂停产，加剧通胀担忧", "cached": false, "sections": {"事件概述": "美国零售柴油价格创历史新高：俄乌、伊朗冲突导致炼油厂停产，加剧通胀担忧", "关键信息": "美国柴油价格创下历史新高，较美伊冲突前已上涨超53%，引发通胀担忧", "市场影响": "石油价格上涨，推高通胀，可能对经济产生负面影响", "关注要点": "后续原油价格走势及对全球经济的影响"}, "citations": [{"n": 1, "title": "柴油价格创下历史新高：俄乌、伊朗冲突导致炼油厂停产，加剧通胀担忧", "media": "新浪财经", "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqsraq5941983.shtml", "rrf": 0.03279, "bm25_rank": 1, "vec_rank": 1}, {"n": 2, "title": "伊朗战事、俄乌冲突持续发酵 美国零售柴油价格创历史新高", "media": "新浪财经", "url": "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsenq4079881.shtml", "rrf": 0.03226, "bm25_rank": 2, "vec_rank": 2}, {"n": 3, "title": "美国柴油价格创历史新高 较美伊冲突前已上涨超53%！", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865159962.html", "rrf": 0.03175, "bm25_rank": 3, "vec_rank": 3}, {"n": 4, "title": "美国零售柴油价格升至历史新高", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865391639.html", "rrf": 0.03101, "bm25_rank": 4, "vec_rank": 5}, {"n": 5, "title": "美国零售柴油价格升至5.85美元 创历史新高", "media": "东方财富", "url": "https://finance.eastmoney.com/a/202609043865400795.html", "rrf": 0.03101, "bm25_rank": 5, "vec_rank": 4}, {"n": 6, "title": "受伊朗战事风险影响 原油有望录得7月以来最大单周涨幅", "media": "新浪财经", "url": "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsenq4067413.shtml", "rrf": 0.02986, "bm25_rank": 8, "vec_rank": 6}, {"n": 7, "title": "伊朗战事持续，欧洲天然气有望实现周线四连涨", "media": "新浪财经", "url": "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsens0827375.shtml", "rrf": 0.02899, "bm25_rank": 9, "vec_rank": 9}, {"n": 8, "title": "澳新银行上调布伦特原油预期至95美元/桶 缓冲空间不断收窄", "media": "新浪财经", "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqrtwy1411481.shtml", "rrf": 0.02636, "bm25_rank": 13, "vec_rank": 19}], "degraded": 0, "retrieval": {"query": "柴油价格创下历史新高：俄乌、伊朗冲突导致炼油厂停产，加剧通胀担忧", "bm25_only": 0, "vec_only": 0, "both": 6, "neither_topk": 2}, "elapsed": 24.3}], "rag": {"engine": "Qwen2.5-1.5B-Instruct (本地)", "n": 5, "degraded": 0, "cite_rate": 0.0, "elapsed": 172.2}, "eval": {"summary": {"n_queries": 8, "top_k": 8, "avg_jaccard": 0.401, "avg_rank_diff": 1.78, "avg_missed_by_bm25": 1.88, "avg_missed_by_vector": 2.12, "conclusion": "两路召回集平均重合度仅 40%；即便重合的文档，两路名次平均相差 1.78 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.88 篇最终进入 Top8 的文档；只用向量则漏掉 2.12 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"}, "per_query": [{"type": "原标题式", "query": "美国8月非农新增16.2万 失业率维持4.1%", "jaccard": 0.455, "rank_diff": 1.8, "missed_by_bm25": 2, "missed_by_vector": 1, "example_top1": "超级大超预期！美国8月非农新增16.2万 失业率维持4.1% 前两月就业累计上修5.5万"}, {"type": "口语改写", "query": "美国就业数据比预期好很多，市场怎么反应", "jaccard": 0.143, "rank_diff": 4.0, "missed_by_bm25": 3, "missed_by_vector": 3, "example_top1": "美国8月新增非农就业岗位16.2万个 远高于预期"}, {"type": "专名代码", "query": "恒生科技指数 ETF", "jaccard": 0.333, "rank_diff": 2.25, "missed_by_bm25": 2, "missed_by_vector": 3, "example_top1": "恒生科技指数放量大涨 明星科网股集体走强 恒生科技ETF易方达（513010）涨近3%"}, {"type": "概念泛化", "query": "地缘冲突推高能源价格", "jaccard": 0.143, "rank_diff": 0.5, "missed_by_bm25": 3, "missed_by_vector": 4, "example_top1": "地缘冲突反复！烧碱这次为啥没跟上节奏？"}, {"type": "政策类", "query": "国家支持人工智能中小企业的新政策", "jaccard": 0.6, "rank_diff": 1.5, "missed_by_bm25": 1, "missed_by_vector": 1, "example_top1": "工信部：支持国家高新技术产业开发区聚焦人工智能领域新赛道 加强对中小企业的培育支持力度"}, {"type": "数值定位", "query": "柴油价格创历史新高 上涨53%", "jaccard": 0.6, "rank_diff": 1.17, "missed_by_bm25": 1, "missed_by_vector": 1, "example_top1": "美国柴油价格创历史新高 较美伊冲突前已上涨超53%！"}, {"type": "跨主题", "query": "主权基金调整债券配置", "jaccard": 0.6, "rank_diff": 2.0, "missed_by_bm25": 1, "missed_by_vector": 1, "example_top1": "挪威主权财富基金提议将政府债券指数配置比例从70%下调至50%"}, {"type": "行业术语", "query": "硅铁 钢招 成本支撑", "jaccard": 0.333, "rank_diff": 1.0, "missed_by_bm25": 2, "missed_by_vector": 3, "example_top1": "光大期货0904热点追踪：成本钢招双重引爆，硅铁涨停创近两年新高"}]}};
+const $=i=>document.getElementById(i);
+const F=n=>Number(n).toLocaleString('zh-CN');
+let view='board', sel=0;
+
+$('cnt').textContent=D.clusters.length;
+$('pipeInfo').innerHTML=`采集 <b>${F(D.collect.inserted)}</b> 条 · ${D.collect.media_n} 家媒体<br>`+
+  `去重 ${F(D.dedup.n_in)}→<b>${F(D.dedup.n_out)}</b> 条<br>热点 <b>${D.cluster.n}</b> 个 · 报告 ${D.rag.n} 篇<br>`+
+  `引擎 ${D.rag.engine}`;
+$('stamp').textContent='数据窗口：当日采集 · 全部数字由管道真实计算';
+
+function board(){
+  const c=D.clusters, lv=D.cluster.levels;
+  const cats={}; c.forEach(x=>cats[x.category]=(cats[x.category]||0)+1);
+  const secs={}; c.forEach(x=>(x.sectors||[]).forEach(s=>secs[s]=(secs[s]||0)+1));
+  const catRows=Object.entries(cats).sort((a,b)=>b[1]-a[1]);
+  const mx=Math.max(...catRows.map(r=>r[1]));
+  return `
+  <div class="kpis">
+    <div class="kpi"><div class="l">入库资讯</div><div class="v">${F(D.collect.inserted)}</div><div class="s">${D.collect.media_n} 家媒体 · 7 个频道</div></div>
+    <div class="kpi"><div class="l">去重后进入分析</div><div class="v b">${F(D.dedup.n_out)}</div><div class="s">去重率 ${(D.dedup.rate*100).toFixed(1)}%</div></div>
+    <div class="kpi"><div class="l">识别热点</div><div class="v">${D.cluster.n}</div><div class="s">连通分量 ${F(D.cluster.components)} → 有效簇</div></div>
+    <div class="kpi"><div class="l">爆点事件</div><div class="v r">${lv['爆点']||0}</div><div class="s">高热 ${lv['高热']||0} · 升温 ${lv['升温中']||0}</div></div>
+    <div class="kpi"><div class="l">深度分析</div><div class="v g">${D.rag.n}</div><div class="s">Top5 限流 · 降级 ${D.rag.degraded}</div></div>
+  </div>
+  <div class="panel"><div class="hd"><b>今日热点榜</b><span class="sub">按四因子热度排序 · 点击查看深度分析</span>
+    <div class="right">分级按窗口内分位标定</div></div>
+    <table class="q"><tr><th>#</th><th>热度</th><th>分级</th><th>类目</th><th>热点事件</th><th>报道</th><th>媒体</th><th>关联板块</th></tr>
+    ${c.slice(0,20).map((x,i)=>`<tr class="row" onclick="sel=${i};show('detail')">
+      <td class="mono">${i+1}</td>
+      <td><span class="hbar"><i style="width:${(x.heat*100).toFixed(0)}%"></i></span><b class="mono">${x.heat.toFixed(3)}</b></td>
+      <td><span class="lv ${x.level}">${x.level}</span></td><td>${x.category}</td>
+      <td>${x.label.slice(0,34)}</td><td class="mono">${x.n}</td><td class="mono">${x.media}</td>
+      <td>${(x.sectors||[]).slice(0,2).map(s=>`<span class="tag">${s}</span>`).join('')||'<span class="note">—</span>'}</td></tr>`).join('')}
+    </table></div>
+  <div class="panel"><div class="hd"><b>板块类目分布</b><span class="sub">8 大投研板块词表归类</span></div>
+    <div class="pd">${catRows.map(([k,v])=>`<div class="fb"><span class="fn2">${k}</span>
+      <span class="tk"><i style="width:${v/mx*100}%"></i></span><span class="vv">${v}</span></div>`).join('')}
+      <div class="note" style="margin-top:9px">关联板块代码（东财快讯标签）Top5：${Object.entries(secs).sort((a,b)=>b[1]-a[1]).slice(0,5).map(([k,v])=>`<span class="tag">${k}×${v}</span>`).join('')||'—'}</div>
+    </div></div>`;
+}
+
+function detail(){
+  const c=D.clusters[sel]; if(!c) return '<div class="empty">请选择热点</div>';
+  const rep=D.reports.find(r=>r.label===c.label);
+  const f=c.factors||{};
+  const FN={coverage:'覆盖度',burst:'爆发速度',duration:'持续时长',media:'媒体覆盖'};
+  return `
+  <div class="panel"><div class="hd"><b>${c.label.slice(0,50)}</b>
+    <span class="lv ${c.level}">${c.level}</span>
+    <div class="right">热度 ${c.heat.toFixed(3)} · ${c.n} 篇 / ${c.media} 家媒体 · ${c.category} · ${c.span}</div></div>
+    <div class="pd">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+        <div><b style="font-size:12.5px;color:var(--navy)">热度因子拆解</b>
+          ${Object.entries(FN).map(([k,n])=>`<div class="fb"><span class="fn2">${n}</span>
+            <span class="tk"><i style="width:${((f[k]||0)*100).toFixed(0)}%"></i></span>
+            <span class="vv">${(f[k]||0).toFixed(3)}</span></div>`).join('')}
+          <div class="note" style="margin-top:6px">社交因子：<b style="color:var(--amber)">无数据源</b>（微博热搜需登录态）→ 权重归一化至其余四因子</div></div>
+        <div><b style="font-size:12.5px;color:var(--navy)">关联板块</b>
+          <div style="margin-top:8px">${(c.sectors||[]).map(s=>`<span class="tag" style="font-size:11.5px;padding:3px 9px">${s}</span>`).join('')||'<span class="note">本簇未携带板块标签</span>'}</div>
+          <div class="note" style="margin-top:10px">板块代码来自东方财富快讯自带 stockList 字段，把热点直接落到投研可用维度</div></div>
+      </div></div></div>
+  ${rep?`
+  <div class="panel"><div class="hd"><b>RAG 深度分析</b>
+    <span class="sub">${rep.degraded?'⚠ LLM输出未过校验 · 模板降级':'LLM 生成 · 混合检索上下文'}</span>
+    <div class="right">${D.rag.engine}</div></div>
+    <div class="pd">${Object.entries(rep.sections).map(([k,v])=>v?`<div class="sec"><b>${k}</b>：${v}</div>`:'').join('')}
+      <div style="margin-top:12px"><b style="font-size:12.5px;color:var(--navy)">引用溯源（混合检索 Top8）</b>
+      <div class="note" style="margin:5px 0 8px">rrf=融合分；bm25#/vec# 为各路在候选池中的名次——名次分歧正是融合的价值来源</div>
+      ${rep.citations.slice(0,8).map(ct=>`<div class="cite">[${ct.n}]（${ct.media}）${ct.title}
+        <code>rrf=${ct.rrf} bm25#${ct.bm25_rank??'—'} vec#${ct.vec_rank??'—'}</code></div>`).join('')}</div>
+      <div class="note" style="margin-top:10px">召回归因：仅BM25 ${rep.retrieval.bm25_only} · 仅向量 ${rep.retrieval.vec_only} · 双路 ${rep.retrieval.both} · 融合捞回 ${rep.retrieval.neither_topk??0}</div>
+    </div></div>`:'<div class="panel"><div class="pd note">该热点未进入 Top5 限流范围，未生成深度报告（LLM 成本控制）。</div></div>'}`;
+}
+
+function pipe(){
+  const d=D.dedup, c=D.cluster;
+  const steps=[['窗口内原始文章',d.n_in,''],
+    ['L1 精确去重后',d.n_in-d.l1,`-${d.l1}`],
+    ['L2 SimHash近似后',d.n_in-d.l1-d.l2,`-${d.l2}`],
+    ['L3 语义去重后',d.n_out,`-${d.l3}`]];
+  const mx=steps[0][1];
+  return `
+  <div class="panel"><div class="hd"><b>数据管道漏斗</b><span class="sub">每层拦截量均为真实运行结果</span>
+    <div class="right">去重耗时 ${d.elapsed}s · 聚类 ${c.elapsed}s</div></div>
+    <div class="pd"><div class="funnel">
+    ${steps.map(([n,v,cut])=>`<div class="fn-row"><span class="nm">${n}</span>
+      <span class="fn-track"><i style="width:${v/mx*100}%"></i><span>${F(v)}</span></span>
+      <span class="fn-cut">${cut}</span></div>`).join('')}
+    </div>
+    <div class="note" style="margin-top:10px">采集侧：累计抓取 ${F(D.collect.fetched)} 条、入库 ${F(D.collect.inserted)} 条、URL层哈希拦截 ${D.collect.dup} 条（<b>口径说明</b>：该统计仅覆盖走采集器记录的批次；历史回补批次经直连写库未计入运行日志，因此采集侧数字小于库内实际量 ${F(D.collect.total)} 条——埋点缺口已如实标注，不做数字对齐修饰）。</div>
+    <div class="note" style="margin-top:8px">聚类：${F(c.components)} 个连通分量 → 多篇簇 → 过滤程式化公告 ${c.noise} 个、单一媒体簇 ${c.single} 个 → <b>有效热点 ${c.n} 个</b>（模式：${c.mode==='vector'?'向量近邻（主）':'关键词规则（降级）'}）</div>
+    </div></div>
+
+  <div class="panel"><div class="hd"><b>去重证据留痕</b><span class="sub">每层实际拦截了什么——可人工复核，不是黑箱</span></div>
+    <div class="pd">
+      <b style="font-size:12.5px;color:var(--navy)">L1 精确层（同稿多频道/多媒体收录）</b>
+      ${(d.examples.L1||[]).slice(0,3).map(x=>`<div class="pair"><b>保留</b> ${x.kept.slice(0,54)}<br><span class="dr">丢弃</span> ${x.dropped.slice(0,54)}</div>`).join('')}
+      <b style="font-size:12.5px;color:var(--navy)">L2 SimHash 近似层（标题改写/删节）</b>
+      ${(d.examples.L2||[]).slice(0,3).map(x=>`<div class="pair"><b>保留</b> ${x.kept.slice(0,54)}<br><span class="dr">丢弃</span> ${x.dropped.slice(0,54)} <code style="font-size:10px">汉明距${x.hamming}</code></div>`).join('')}
+      <b style="font-size:12.5px;color:var(--navy)">L3 语义层（同事件不同表述）</b>
+      ${(d.examples.L3||[]).slice(0,4).map(x=>`<div class="pair"><b>保留</b> ${x.kept.slice(0,54)}<br><span class="dr">丢弃</span> ${x.dropped.slice(0,54)} <code style="font-size:10px">cos=${x.cos}</code></div>`).join('')}
+    </div></div>
+
+  <div class="panel"><div class="hd"><b>采集站点状态</b><span class="sub">单站失败不影响整体（异常隔离）</span></div>
+    <table class="q"><tr><th>媒体</th><th>频道</th><th>抓取</th><th>新增</th><th>状态</th></tr>
+    ${D.collect.sites.map(s=>`<tr><td>${s.media}</td><td>${s.channel}</td><td class="mono">${s.fetched}</td>
+      <td class="mono">${s.inserted}</td><td>${s.status==='ok'?'<span class="lv 升温中">正常</span>':`<span class="lv 爆点">${s.status}</span>`}</td></tr>`).join('')}
+    </table></div>
+
+  <div class="panel"><div class="hd"><b>热度模型标定</b></div><div class="pd note">
+    窗口内对数归一：最大簇 ${c.calib.max_size} 篇、最大首日 ${c.calib.max_first} 篇、窗口 ${c.calib.window_days} 天、媒体数 ${c.calib.n_media_total}。<br>
+    原设计使用固定分母（/50、/20），换数据规模后热度分全部挤在低分区、分级失效；改为按当期分布对数归一，自适应规模且严格保序。代价：热度绝对值不跨期可比，仅用于期内排序——这一点在晨报口径页也如实标注。
+  </div></div>`;
+}
+
+function evalv(){
+  const e=D.eval, s=e.summary;
+  return `
+  <div class="kpis" style="grid-template-columns:repeat(4,1fr)">
+    <div class="kpi"><div class="l">两路召回集重合度</div><div class="v b">${(s.avg_jaccard*100).toFixed(0)}%</div><div class="s">Jaccard 均值 · ${s.n_queries} 个 query</div></div>
+    <div class="kpi"><div class="l">重合文档名次差</div><div class="v">${s.avg_rank_diff}</div><div class="s">重合≠等价</div></div>
+    <div class="kpi"><div class="l">只用BM25会漏</div><div class="v r">${s.avg_missed_by_bm25}</div><div class="s">篇/query（Top${s.top_k}）</div></div>
+    <div class="kpi"><div class="l">只用向量会漏</div><div class="v r">${s.avg_missed_by_vector}</div><div class="s">篇/query（Top${s.top_k}）</div></div>
+  </div>
+  <div class="panel"><div class="hd"><b>检索对照评测</b><span class="sub">BM25 / 向量 / RRF——用数据回答"混合检索值不值"</span></div>
+    <table class="ev-tab"><tr><th>提问形态</th><th>query</th><th>重合度</th><th>名次差</th><th>仅向量能召回</th><th>仅BM25能召回</th></tr>
+    ${e.per_query.map(r=>`<tr><td><b>${r.type}</b></td><td>${r.query.slice(0,26)}</td>
+      <td class="mono">${r.jaccard}</td><td class="mono">${r.rank_diff}</td>
+      <td class="mono" style="color:var(--blue)">${r.missed_by_bm25}</td>
+      <td class="mono" style="color:var(--amber)">${r.missed_by_vector}</td></tr>`).join('')}
+    </table>
+    <div class="pd note">${s.conclusion}</div></div>
+  <div class="panel"><div class="hd"><b>生成侧治理指标</b></div><div class="pd note">
+    引擎：${D.rag.engine} · 生成 ${D.rag.n} 篇 · 模板降级 ${D.rag.degraded} 篇 · 总耗时 ${D.rag.elapsed}s<br>
+    <b style="color:var(--amber)">引用标注覆盖率 ${(D.rag.cite_rate*100).toFixed(0)}%</b>：提示词明确要求句末标注 [n]（且给了带标注的样例），
+    本地 1.5B 仍全部省略。结论——<b>可溯源性不能只靠提示词约束，要靠架构</b>：本项目的引用清单由检索层独立产出并与报告并排展示，
+    即便模型不标注，每条结论的候选材料仍然可核验。生产环境接强模型 API 可显著改善标注遵循度。
+  </div></div>`;
+}
+
+function show(v){
+  view=v;
+  document.querySelectorAll('.nav a[data-v]').forEach(a=>a.classList.toggle('on',a.dataset.v===v));
+  $('title').textContent={board:'热点看板',detail:'深度分析',pipe:'数据管道',eval:'检索评测'}[v];
+  $('content').innerHTML={board:board,detail:detail,pipe:pipe,eval:evalv}[v]();
+  $('content').scrollTop=0;
+}
+show('board');
+</script>
+</body>
+</html>
