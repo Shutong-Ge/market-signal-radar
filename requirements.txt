@@ -4,7 +4,9 @@ requests>=2.31
 # 去重（SimHash 分词）与聚类
 jieba>=0.42
 numpy>=1.26
-# L3 语义去重 / 向量检索（bge-small-zh-v1.5）
+faiss-cpu>=1.8          # 向量近邻；缺了会静默降级成关键词规则聚类
+# L3 语义去重 / 混合检索（bge-small-zh-v1.5）
 sentence-transformers>=3.0
+rank_bm25>=0.2          # 混合检索的 BM25 一路
 # 晨报导出
 python-docx>=1.1
