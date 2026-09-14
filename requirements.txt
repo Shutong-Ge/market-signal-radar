@@ -1,0 +1,10 @@
+# 采集
+httpx>=0.27
+requests>=2.31
+# 去重（SimHash 分词）与聚类
+jieba>=0.42
+numpy>=1.26
+# L3 语义去重 / 向量检索（bge-small-zh-v1.5）
+sentence-transformers>=3.0
+# 晨报导出
+python-docx>=1.1

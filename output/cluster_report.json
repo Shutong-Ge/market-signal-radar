@@ -1,0 +1,247 @@
+{
+ "n_articles": 628,
+ "mode": "vector",
+ "edges": 138,
+ "n_components": 574,
+ "n_clusters": 12,
+ "n_noise_filtered": 0,
+ "n_single_media_filtered": 19,
+ "active_factors": [
+  "burst",
+  "coverage",
+  "media"
+ ],
+ "calibration": {
+  "max_size": 8.0,
+  "max_first": 8.0,
+  "window_days": 1,
+  "n_media_total": 4
+ },
+ "elapsed": 2.3,
+ "level_dist": {
+  "爆点": 1,
+  "高热": 2,
+  "升温中": 4,
+  "一般": 5
+ },
+ "top": [
+  {
+   "label": "市场监管总局答中经报问：严格反不正当竞争执法，严惩大型企业滥用优势地位故意拉长账期",
+   "heat": 0.846,
+   "level": "爆点",
+   "n": 8,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 1.0,
+    "burst": 1.0,
+    "duration": 1.0,
+    "media": 0.5,
+    "social": null
+   },
+   "article_ids": [
+    66,
+    70,
+    73,
+    407,
+    452,
+    578,
+    588,
+    589
+   ]
+  },
+  {
+   "label": "美股盘初：纳指跌1.2%，费城半导体指数跌5.5%，存储芯片股、光通信股大跌",
+   "heat": 0.738,
+   "level": "高热",
+   "n": 4,
+   "media": 3,
+   "cat": "AI与大模型",
+   "sectors": [
+    "BK1036",
+    "BK0459"
+   ],
+   "factors": {
+    "coverage": 0.732,
+    "burst": 0.732,
+    "duration": 1.0,
+    "media": 0.75,
+    "social": null
+   },
+   "article_ids": [
+    521,
+    595,
+    597,
+    598
+   ]
+  },
+  {
+   "label": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元",
+   "heat": 0.718,
+   "level": "高热",
+   "n": 5,
+   "media": 2,
+   "cat": "国际市场",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.815,
+    "burst": 0.815,
+    "duration": 1.0,
+    "media": 0.5,
+    "social": null
+   },
+   "article_ids": [
+    35,
+    106,
+    111,
+    511,
+    556
+   ]
+  },
+  {
+   "label": "快讯：现货黄金失守4300美元/盎司，日内跌1.11%。",
+   "heat": 0.668,
+   "level": "升温中",
+   "n": 3,
+   "media": 3,
+   "cat": "国际市场",
+   "sectors": [
+    "BK0732",
+    "BK1617"
+   ],
+   "factors": {
+    "coverage": 0.631,
+    "burst": 0.631,
+    "duration": 1.0,
+    "media": 0.75,
+    "social": null
+   },
+   "article_ids": [
+    135,
+    526,
+    559
+   ]
+  },
+  {
+   "label": "广汽集团：拟发行股份收购某整车合资公司部分股权并停牌",
+   "heat": 0.5,
+   "level": "升温中",
+   "n": 2,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.5,
+    "burst": 0.5,
+    "duration": 1.0,
+    "media": 0.5,
+    "social": null
+   },
+   "article_ids": [
+    3,
+    576
+   ]
+  },
+  {
+   "label": "商务部等8部门：引导金融机构加大对智能家居消费等贷款支持力度",
+   "heat": 0.5,
+   "level": "升温中",
+   "n": 2,
+   "media": 2,
+   "cat": "宏观政策",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.5,
+    "burst": 0.5,
+    "duration": 1.0,
+    "media": 0.5,
+    "social": null
+   },
+   "article_ids": [
+    48,
+    523
+   ]
+  },
+  {
+   "label": "香山股份：拟8亿元收购武珞智慧100%股权新增AI算力业务",
+   "heat": 0.5,
+   "level": "升温中",
+   "n": 2,
+   "media": 2,
+   "cat": "AI与大模型",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.5,
+    "burst": 0.5,
+    "duration": 1.0,
+    "media": 0.5,
+    "social": null
+   },
+   "article_ids": [
+    289,
+    574
+   ]
+  },
+  {
+   "label": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？",
+   "heat": 0.5,
+   "level": "一般",
+   "n": 2,
+   "media": 2,
+   "cat": "宏观政策",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.5,
+    "burst": 0.5,
+    "duration": 1.0,
+    "media": 0.5,
+    "social": null
+   },
+   "article_ids": [
+    363,
+    609
+   ]
+  },
+  {
+   "label": "“核心条款未达成一致”！688291，重大资产重组拟终止",
+   "heat": 0.5,
+   "level": "一般",
+   "n": 2,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.5,
+    "burst": 0.5,
+    "duration": 1.0,
+    "media": 0.5,
+    "social": null
+   },
+   "article_ids": [
+    455,
+    606
+   ]
+  },
+  {
+   "label": "加拿大8月CPI环比 -0.1%，前值 0.5%。",
+   "heat": 0.5,
+   "level": "一般",
+   "n": 2,
+   "media": 2,
+   "cat": "宏观政策",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.5,
+    "burst": 0.5,
+    "duration": 1.0,
+    "media": 0.5,
+    "social": null
+   },
+   "article_ids": [
+    471,
+    480
+   ]
+  }
+ ]
+}

@@ -129,7 +129,13 @@ $('cnt').textContent=D.clusters.length;
 $('pipeInfo').innerHTML=`采集 <b>${F(D.collect.inserted)}</b> 条 · ${D.collect.media_n} 家媒体<br>`+
   `去重 ${F(D.dedup.n_in)}→<b>${F(D.dedup.n_out)}</b> 条<br>热点 <b>${D.cluster.n}</b> 个 · 报告 ${D.rag.n} 篇<br>`+
   `引擎 ${D.rag.engine}`;
-$('stamp').textContent='数据窗口：当日采集 · 全部数字由管道真实计算';
+(function(){
+  // 页面是一次运行的静态导出，顶栏如实标明数据截止时间，避免被当成实时看板
+  var m=D.meta||{}, d=function(s){return s?String(s).slice(0,16).replace('T',' '):''};
+  $('stamp').textContent = m.win_start
+    ? '数据窗口 '+d(m.win_start)+' ~ '+d(m.win_end)+' · 静态快照，生成于 '+d(m.built_at)+' · 全部数字由管道真实计算'
+    : '静态快照 · 非实时 · 全部数字由管道真实计算';
+})();
 
 function board(){
   const c=D.clusters, lv=D.cluster.levels;
@@ -255,8 +261,12 @@ function evalv(){
     <div class="pd note">${s.conclusion}</div></div>
   <div class="panel"><div class="hd"><b>生成侧治理指标</b></div><div class="pd note">
     引擎：${D.rag.engine} · 生成 ${D.rag.n} 篇 · 模板降级 ${D.rag.degraded} 篇 · 总耗时 ${D.rag.elapsed}s<br>
-    <b style="color:var(--amber)">引用标注覆盖率 ${(D.rag.cite_rate*100).toFixed(0)}%</b>：提示词明确要求句末标注 [n]（且给了带标注的样例），
-    本地 1.5B 仍全部省略。结论——<b>可溯源性不能只靠提示词约束，要靠架构</b>：本项目的引用清单由检索层独立产出并与报告并排展示，
+    ${D.rag.cite_rate==null
+      ? `<b style="color:var(--amber)">引用标注覆盖率：本次无 LLM 产出</b>：本次全部走模板降级（未配置生成模型），
+         引用覆盖率无从计算。`
+      : `<b style="color:var(--amber)">引用标注覆盖率 ${(D.rag.cite_rate*100).toFixed(0)}%</b>：提示词明确要求句末标注 [n]（且给了带标注的样例），
+         实测小模型仍大量省略。`}
+    结论——<b>可溯源性不能只靠提示词约束，要靠架构</b>：本项目的引用清单由检索层独立产出并与报告并排展示，
     即便模型不标注，每条结论的候选材料仍然可核验。生产环境接强模型 API 可显著改善标注遵循度。
   </div></div>`;
 }

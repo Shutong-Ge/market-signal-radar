@@ -1,0 +1,481 @@
+{
+ "engine": "template(降级)",
+ "n_clusters": 12,
+ "n_reports": 5,
+ "n_cached": 0,
+ "n_degraded": 5,
+ "citation_marker_rate": null,
+ "elapsed": 8.9,
+ "reports": [
+  {
+   "key": "1cd589d91b3eaf41",
+   "label": "市场监管总局答中经报问：严格反不正当竞争执法，严惩大型企业滥用优势地位故意拉长账期",
+   "cached": false,
+   "sections": {
+    "事件概述": "「市场监管总局答中经报问：严格反不正当竞争执法，严惩大型企业滥用优势地位故意拉长账期」由 8 篇报道聚合而成，覆盖 2 家媒体，热度 0.846（爆点），所属板块类目：综合。",
+    "关键信息": "市场监管总局答中经报问：严格反不正当竞争执法，严惩大型企业滥用优势地位故意拉长账；市场监管总局：将对变相延长账期等行为依法依规进行严厉处罚；多部门治理中小企业回款难，央企须带头及时支付账款",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "市场监管总局答中经报问：严格反不正当竞争执法，严惩大型企业滥用优势地位故意拉长账期",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-inirveas7224940.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "市场监管总局：将对变相延长账期等行为依法依规进行严厉处罚",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/china/2026-09-14/doc-inirutpa4587134.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "多部门治理中小企业回款难，央企须带头及时支付账款",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-14/doc-inirveaq9304478.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "4方面10条措施！五部门出手治理中小企业回款难",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/china/2026-09-14/doc-inirupew9547376.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 5,
+     "vec_rank": 7
+    },
+    {
+     "n": 5,
+     "title": "证监会：引导上市公司压缩账期，及时支付中小企业款项",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/china/2026-09-14/doc-inirutnw7243687.shtml",
+     "rrf": 0.02996,
+     "bm25_rank": 11,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "国资委点名央企：带头付钱！此前工信部已狠抓车企账期",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-14/doc-inirveau4026179.shtml",
+     "rrf": 0.02885,
+     "bm25_rank": 13,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "央行：将对压降账款、账期成效明显企业给予债券融资便利",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/china/2026-09-14/doc-inirutny4000321.shtml",
+     "rrf": 0.02781,
+     "bm25_rank": 6,
+     "vec_rank": 19
+    },
+    {
+     "n": 8,
+     "title": "中国大力整治大企业拖欠中小企业账款问题",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-14/10696294.shtml",
+     "rrf": 0.02725,
+     "bm25_rank": 26,
+     "vec_rank": 4
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "市场监管总局答中经报问：严格反不正当竞争执法，严惩大型企业滥用优势地位故意拉长账",
+    "bm25_only": 1,
+    "vec_only": 3,
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "cb810b5317dc71b3",
+   "label": "美股盘初：纳指跌1.2%，费城半导体指数跌5.5%，存储芯片股、光通信股大跌",
+   "cached": false,
+   "sections": {
+    "事件概述": "「美股盘初：纳指跌1.2%，费城半导体指数跌5.5%，存储芯片股、光通信股大跌」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.738（高热），所属板块类目：AI与大模型。",
+    "关键信息": "美股盘初：纳指跌1.2%，费城半导体指数跌5.5%，存储芯片股、光通信股大跌；费城半导体指数开盘跌5.5%；费城半导体指数跌幅扩大至6%。",
+    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "美股盘初：纳指跌1.2%，费城半导体指数跌5.5%，存储芯片股、光通信股大跌",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3164884",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "费城半导体指数开盘跌5.5%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609143873670094.html",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "费城半导体指数跌幅扩大至6%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3164887",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "美股盘初，主要行业ETF涨跌不一，日常消费品ETF、医疗业ETF涨近2%，半导体",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3164886",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "美股光通信板块盘初集体重挫 康宁跌超9%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609143873673943.html",
+     "rrf": 0.03105,
+     "bm25_rank": 2,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "美股纳斯达克指数低开1.2% AI硬件产业链股票大幅下挫",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609143873669772.html",
+     "rrf": 0.02967,
+     "bm25_rank": 10,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "美股“科技七巨头”盘初涨跌不一 英伟达跌3.57%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609143873670457.html",
+     "rrf": 0.02924,
+     "bm25_rank": 6,
+     "vec_rank": 11
+    },
+    {
+     "n": 8,
+     "title": "开盘：三大股指齐跌 投资者权衡AI放缓与油价上涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirveas7261607.shtml",
+     "rrf": 0.02837,
+     "bm25_rank": 11,
+     "vec_rank": 10
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "美股盘初：纳指跌1.2%，费城半导体指数跌5.5%，存储芯片股、光通信股大跌",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "ae6f584cf3542a30",
+   "label": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元",
+   "cached": false,
+   "sections": {
+    "事件概述": "「沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元」由 5 篇报道聚合而成，覆盖 2 家媒体，热度 0.718（高热），所属板块类目：国际市场。",
+    "关键信息": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元；沙特东西输油管道遭无人机袭击后停运 关键石油绕行通道受阻；沙特关闭关键输油管道，油价应声上涨",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirveaq9297610.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "沙特东西输油管道遭无人机袭击后停运 关键石油绕行通道受阻",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirupew9516090.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "沙特关闭关键输油管道，油价应声上涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirutnu9459293.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "油价拉升，报道称沙特阿拉伯东西向输油管道大部分区域将停运数周",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3164862",
+     "rrf": 0.03128,
+     "bm25_rank": 6,
+     "vec_rank": 2
+    },
+    {
+     "n": 5,
+     "title": "沙特关键输油管道遇袭受损 主力运力将停运数周",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609143873636842.html",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "输油管道关闭后 亚洲炼油商等待沙特方面最新消息",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-09-14/doc-inirutny4085756.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "澳新银行：沙特输油管道关停属暂时性事件 但风险上升",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-09-14/doc-iniruxus9345020.shtml",
+     "rrf": 0.02988,
+     "bm25_rank": 5,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "美国能源部长：预计（沙特）东西管道将很快投入运行。 美国希望从中东获得更多成品油",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3164850",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "86d3b2ed83e1c188",
+   "label": "快讯：现货黄金失守4300美元/盎司，日内跌1.11%。",
+   "cached": false,
+   "sections": {
+    "事件概述": "「快讯：现货黄金失守4300美元/盎司，日内跌1.11%。」由 3 篇报道聚合而成，覆盖 3 家媒体，热度 0.668（升温中），所属板块类目：国际市场。",
+    "关键信息": "快讯：现货黄金失守4300美元/盎司，日内跌1.11%。；现货黄金日内跌幅达2.0%，报4259.35美元/盎司。；现货黄金跌破4270美元",
+    "市场影响": "关联板块代码：BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "快讯：现货黄金失守4300美元/盎司，日内跌1.11%。",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/nmetal/hjfx/2026-09-14/doc-inirutpa4636447.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "现货黄金日内跌幅达2.0%，报4259.35美元/盎司。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3164875",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "现货黄金跌破4270美元",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609143873640186.html",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "美联储本周加息概率近九成，但不改黄金长期牛市趋势",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-09-14/doc-inirupey7268143.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "美元指数涨0.6%，现报99.66。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3164867",
+     "rrf": 0.02988,
+     "bm25_rank": 9,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "LME三个月期铜跌破每吨14000美元",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609143873634074.html",
+     "rrf": 0.02921,
+     "bm25_rank": 10,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "美国8月CPI出炉强化加息预期，现货黄金短期承压",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-inirupfa4051011.shtml",
+     "rrf": 0.02901,
+     "bm25_rank": 7,
+     "vec_rank": 11
+    },
+    {
+     "n": 8,
+     "title": "瑞银：美联储9月加息不会破坏金价整体复苏趋势 黄金年底前风险回报偏向上行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-14/doc-inirutnu9416872.shtml",
+     "rrf": 0.02778,
+     "bm25_rank": 12,
+     "vec_rank": 12
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "快讯：现货黄金失守4300美元/盎司，日内跌1.11%。",
+    "bm25_only": 1,
+    "vec_only": 2,
+    "both": 4,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "33f0dcbe41f19726",
+   "label": "广汽集团：拟发行股份收购某整车合资公司部分股权并停牌",
+   "cached": false,
+   "sections": {
+    "事件概述": "「广汽集团：拟发行股份收购某整车合资公司部分股权并停牌」由 2 篇报道聚合而成，覆盖 2 家媒体，热度 0.5（升温中），所属板块类目：综合。",
+    "关键信息": "广汽集团：拟发行股份收购某整车合资公司部分股权并停牌；广汽集团于9月14日上午起停牌 以待刊发内幕消息；8亿并购，跨界算力，明日复牌",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "广汽集团：拟发行股份收购某整车合资公司部分股权并停牌",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3164878",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "广汽集团于9月14日上午起停牌 以待刊发内幕消息",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-14/doc-iniruhxa7335199.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "8亿并购，跨界算力，明日复牌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-09-14/doc-inirveaw4466194.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "华之杰：拟收购格丽明电子100%股权 股票明起停牌",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609143873618841.html",
+     "rrf": 0.03041,
+     "bm25_rank": 2,
+     "vec_rank": 10
+    },
+    {
+     "n": 5,
+     "title": "一汽入股广汽？H股已先涨8.64%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-14/doc-iniruxuw4029008.shtml",
+     "rrf": 0.03016,
+     "bm25_rank": 10,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "香山股份：拟8亿元收购武珞智慧100%股权新增AI算力业务",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3164825",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "轮胎业巨头，完成12亿重磅收购",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-14/doc-iniruxuu7254137.shtml",
+     "rrf": 0.02924,
+     "bm25_rank": 6,
+     "vec_rank": 11
+    },
+    {
+     "n": 8,
+     "title": "200706，拟主动终止上市",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-14/doc-iniruxus9377314.shtml",
+     "rrf": 0.02901,
+     "bm25_rank": 11,
+     "vec_rank": 7
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "广汽集团：拟发行股份收购某整车合资公司部分股权并停牌",
+    "bm25_only": 2,
+    "vec_only": 2,
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  }
+ ]
+}

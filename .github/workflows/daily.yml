@@ -1,0 +1,122 @@
+name: 每日舆情管道
+
+# 北京时间每天 07:30 跑一遍：采集 → 去重 → 聚类 → 检索评测 → RAG → 晨报 → 重建工作台
+# cron 用的是 UTC，23:30 UTC = 次日 07:30 北京时间
+on:
+  schedule:
+    - cron: "30 23 * * *"
+  workflow_dispatch:        # 也可以在 Actions 页面手动点一次
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-pipeline
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      HF_HOME: ${{ github.workspace }}/hf_cache
+      TOKENIZERS_PARALLELISM: "false"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      # 运行期状态（sqlite 库 + 向量）跨天延续：指纹 TTL、RAG 缓存、重跑幂等都依赖它。
+      # 缓存丢了也不会坏，只是当天从空库重新开始。
+      - name: 取回上一天的数据库
+        uses: actions/cache@v4
+        with:
+          path: data
+          key: radar-db-${{ github.run_id }}
+          restore-keys: radar-db-
+
+      - name: 取回模型缓存
+        uses: actions/cache@v4
+        with:
+          path: hf_cache
+          key: radar-hf-${{ hashFiles('requirements.txt') }}
+          restore-keys: radar-hf-
+
+      - name: 安装依赖
+        run: |
+          python -m pip install -U pip
+          # CPU 版 torch：默认的 PyPI wheel 带 CUDA，在 runner 上白下 700MB
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+
+      - name: 采集
+        run: python src/collect.py
+
+      # 源站不可达时宁可让这次运行失败，也不要把空页面发上线
+      - name: 采集量体检
+        run: |
+          python - <<'PY'
+          import sqlite3, sys
+          c = sqlite3.connect("data/radar.db").cursor()
+          n = c.execute("select count(*) from raw_articles where published_at >= "
+                        "datetime((select max(collected_at) from raw_articles), '-2 days')").fetchone()[0]
+          print("窗口内资讯 %d 条" % n)
+          if n < 200:
+              sys.exit("窗口内只有 %d 条，低于 200 的下限——源站可能不可达，本次不发布" % n)
+          PY
+
+      - name: 清理过期数据
+        run: python src/prune.py 14
+
+      - name: 三层去重
+        run: python src/dedup.py 2
+
+      - name: 无K值聚类
+        run: python src/cluster.py
+
+      - name: 检索对照评测
+        run: python src/eval_retrieval.py
+
+      # 有 API Key 就真调模型；没有就显式走模板降级，并在页面上如实标注，
+      # 不在 runner 上拉 3GB 的本地模型
+      - name: 选择生成引擎
+        run: |
+          if [ -n "${{ secrets.API_KEY }}" ]; then
+            echo "ENGINE=api" >> $GITHUB_ENV
+            echo "引擎：API"
+          else
+            echo "ENGINE=template" >> $GITHUB_ENV
+            echo "引擎：模板降级（未配置 API_KEY）"
+          fi
+
+      - name: RAG 深度分析
+        env:
+          API_BASE: ${{ secrets.API_BASE }}
+          API_KEY: ${{ secrets.API_KEY }}
+          API_MODEL: ${{ secrets.API_MODEL }}
+        run: python src/rag.py 5
+
+      - name: 生成投研晨报
+        run: python src/brief.py
+
+      - name: 重建工作台页面
+        run: |
+          python src/build_data.py
+          python src/build_ui.py
+          cp 投研舆情雷达_热点监控工作台.html index.html
+
+      - name: 提交并发布
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A index.html 投研舆情雷达_热点监控工作台.html output
+          if git diff --cached --quiet; then
+            echo "今天没有内容变化，不提交"
+          else
+            git commit -m "每日更新：$(date -u -d '+8 hours' +%Y-%m-%d) 舆情快照"
+            git push
+          fi

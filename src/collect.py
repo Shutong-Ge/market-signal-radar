@@ -40,6 +40,20 @@ SOURCES = [
          url="https://www.chinanews.com.cn/rss/finance.xml"),
 ]
 
+# 滚动频道翻页：单页 50 条只覆盖几小时，做每日窗口不够用。
+# 翻页不新增频道，站点统计里 *_p2/_p3 会并回主频道（见 build_data.py）。
+def _paged(keys, pages=(2, 3, 4)):
+    base = {s["key"]: s for s in SOURCES}
+    out = []
+    for k in keys:
+        s = base[k]
+        for p in pages:
+            out.append(dict(s, key=f"{k}_p{p}", url=s["url"].replace("page=1", f"page={p}")))
+    return out
+
+
+SOURCES += _paged(["sina_finance", "sina_tech", "sina_world", "sina_stock"])
+
 # ---------------- 存储 ----------------
 def db():
     os.makedirs(os.path.dirname(DB), exist_ok=True)

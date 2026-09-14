@@ -104,6 +104,10 @@ class APILLM:
         return r.json()["choices"][0]["message"]["content"].strip()
 
 def get_llm():
+    # ENGINE=template：显式跳过 LLM（CI 里没有 API Key 时用），
+    # 让 run() 走模板降级并在页面上如实标出，而不是假装调用了模型
+    if ENGINE == "template":
+        raise RuntimeError("ENGINE=template：按配置跳过 LLM")
     if ENGINE == "api": return APILLM()
     return LocalLLM()
 
