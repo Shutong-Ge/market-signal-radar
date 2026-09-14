@@ -1,32 +1,14 @@
 {
  "summary": {
-  "n_queries": 8,
+  "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.534,
-  "avg_rank_diff": 1.37,
-  "avg_missed_by_bm25": 1.5,
-  "avg_missed_by_vector": 1.62,
-  "conclusion": "两路召回集平均重合度仅 53%；即便重合的文档，两路名次平均相差 1.37 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.5 篇最终进入 Top8 的文档；只用向量则漏掉 1.62 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.597,
+  "avg_rank_diff": 1.19,
+  "avg_missed_by_bm25": 1.11,
+  "avg_missed_by_vector": 1.33,
+  "conclusion": "两路召回集平均重合度仅 60%；即便重合的文档，两路名次平均相差 1.19 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.11 篇最终进入 Top8 的文档；只用向量则漏掉 1.33 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
-  {
-   "type": "原标题式",
-   "query": "市场监管总局答中经报问：严格反不正当竞争执法，严惩大型企业滥",
-   "jaccard": 0.333,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 2,
-   "example_top1": "市场监管总局答中经报问：严格反不正当竞争执法，严惩大型企业滥用优势地位故意拉长账期"
-  },
-  {
-   "type": "关键词式",
-   "query": "市场监管 总局 答中 经报 严格 正当竞争",
-   "jaccard": 0.143,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 4,
-   "example_top1": "市场监管总局答中经报问：严格反不正当竞争执法，严惩大型企业滥用优势地位故意拉长账期"
-  },
   {
    "type": "原标题式",
    "query": "美股盘初：纳指跌1.2%，费城半导体指数跌5.5%，存储芯片",
@@ -58,7 +40,7 @@
    "type": "原标题式",
    "query": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元",
    "jaccard": 0.778,
-   "rank_diff": 1.29,
+   "rank_diff": 1.14,
    "missed_by_bm25": 0,
    "missed_by_vector": 1,
    "example_top1": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元"
@@ -67,19 +49,46 @@
    "type": "关键词式",
    "query": "沙特 绕开 霍尔木兹海峡 关键 管道 关停",
    "jaccard": 0.778,
-   "rank_diff": 1.29,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 0,
+   "rank_diff": 1.43,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 1,
    "example_top1": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元"
   },
   {
    "type": "去数字泛化",
    "query": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破美元",
-   "jaccard": 1.0,
-   "rank_diff": 1.25,
+   "jaccard": 0.778,
+   "rank_diff": 0.86,
    "missed_by_bm25": 0,
-   "missed_by_vector": 0,
+   "missed_by_vector": 1,
    "example_top1": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元"
+  },
+  {
+   "type": "原标题式",
+   "query": "央行：8月末社会融资规模存量为464.8万亿元 同比增长7.",
+   "jaccard": 0.6,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "央行：8月末社会融资规模存量为464.8万亿元 同比增长7.2%"
+  },
+  {
+   "type": "关键词式",
+   "query": "央行 月末 社会 融资 规模 存量",
+   "jaccard": 0.6,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "央行：8月末社会融资规模存量为464.8万亿元 同比增长7.2%"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "央行：月末社会融资规模存量为万亿元 同比增长",
+   "jaccard": 0.6,
+   "rank_diff": 1.17,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "央行：8月末社会融资规模存量为464.8万亿元 同比增长7.2%"
   }
  ]
 }
