@@ -1,94 +1,76 @@
 {
  "summary": {
-  "n_queries": 9,
+  "n_queries": 7,
   "top_k": 8,
-  "avg_jaccard": 0.597,
-  "avg_rank_diff": 1.19,
-  "avg_missed_by_bm25": 1.11,
-  "avg_missed_by_vector": 1.33,
-  "conclusion": "两路召回集平均重合度仅 60%；即便重合的文档，两路名次平均相差 1.19 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.11 篇最终进入 Top8 的文档；只用向量则漏掉 1.33 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.418,
+  "avg_rank_diff": 1.34,
+  "avg_missed_by_bm25": 2.29,
+  "avg_missed_by_vector": 2.43,
+  "conclusion": "两路召回集平均重合度仅 42%；即便重合的文档，两路名次平均相差 1.34 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.29 篇最终进入 Top8 的文档；只用向量则漏掉 2.43 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "美股盘初：纳指跌1.2%，费城半导体指数跌5.5%，存储芯片",
-   "jaccard": 0.333,
+   "query": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益",
+   "jaccard": 0.231,
    "rank_diff": 1.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
+   "example_top1": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫"
+  },
+  {
+   "type": "关键词式",
+   "query": "隔夜 要闻 欧美 股指 收跌 油价",
+   "jaccard": 0.333,
+   "rank_diff": 1.25,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 2,
+   "example_top1": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "月日隔夜要闻：欧美股指收跌 油价上涨 年期美债收益率突破 华",
+   "jaccard": 0.143,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 4,
+   "example_top1": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫"
+  },
+  {
+   "type": "原标题式",
+   "query": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支",
+   "jaccard": 0.333,
+   "rank_diff": 2.5,
    "missed_by_bm25": 2,
    "missed_by_vector": 3,
-   "example_top1": "美股盘初：纳指跌1.2%，费城半导体指数跌5.5%，存储芯片股、光通信股大跌"
+   "example_top1": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌"
   },
   {
    "type": "关键词式",
-   "query": "美股 盘初 纳指 费城 半导体 指数",
-   "jaccard": 0.455,
-   "rank_diff": 1.2,
+   "query": "部门 推进 第五代 精简指令 研发 产业化",
+   "jaccard": 0.333,
+   "rank_diff": 2.25,
    "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "美股盘初：纳指跌1.2%，费城半导体指数跌5.5%，存储芯片股、光通信股大跌"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "美股盘初：纳指跌，费城半导体指数跌，存储芯片股、光通信股大跌",
-   "jaccard": 0.455,
-   "rank_diff": 2.4,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "美股盘初：纳指跌1.2%，费城半导体指数跌5.5%，存储芯片股、光通信股大跌"
+   "missed_by_vector": 4,
+   "example_top1": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌"
   },
   {
    "type": "原标题式",
-   "query": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元",
+   "query": "微软发布AI行为准则：强调“人比AI重要”，拒绝追逐无边界超",
+   "jaccard": 0.778,
+   "rank_diff": 0.71,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 0,
+   "example_top1": "微软发布AI行为准则：强调“人比AI重要”，拒绝追逐无边界超级智能"
+  },
+  {
+   "type": "关键词式",
+   "query": "微软 行为准则 强调 人比 重要 拒绝",
    "jaccard": 0.778,
    "rank_diff": 1.14,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 1,
-   "example_top1": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元"
-  },
-  {
-   "type": "关键词式",
-   "query": "沙特 绕开 霍尔木兹海峡 关键 管道 关停",
-   "jaccard": 0.778,
-   "rank_diff": 1.43,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 1,
-   "example_top1": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破美元",
-   "jaccard": 0.778,
-   "rank_diff": 0.86,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 1,
-   "example_top1": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元"
-  },
-  {
-   "type": "原标题式",
-   "query": "央行：8月末社会融资规模存量为464.8万亿元 同比增长7.",
-   "jaccard": 0.6,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "央行：8月末社会融资规模存量为464.8万亿元 同比增长7.2%"
-  },
-  {
-   "type": "关键词式",
-   "query": "央行 月末 社会 融资 规模 存量",
-   "jaccard": 0.6,
-   "rank_diff": 0.5,
    "missed_by_bm25": 1,
    "missed_by_vector": 1,
-   "example_top1": "央行：8月末社会融资规模存量为464.8万亿元 同比增长7.2%"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "央行：月末社会融资规模存量为万亿元 同比增长",
-   "jaccard": 0.6,
-   "rank_diff": 1.17,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "央行：8月末社会融资规模存量为464.8万亿元 同比增长7.2%"
+   "example_top1": "微软发布AI行为准则：强调“人比AI重要”，拒绝追逐无边界超级智能"
   }
  ]
 }

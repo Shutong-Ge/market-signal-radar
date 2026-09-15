@@ -1,35 +1,36 @@
 {
- "n_articles": 628,
+ "n_articles": 1115,
  "mode": "vector",
- "edges": 158,
- "n_components": 567,
- "n_clusters": 12,
+ "edges": 448,
+ "n_components": 959,
+ "n_clusters": 30,
  "n_noise_filtered": 0,
- "n_single_media_filtered": 20,
+ "n_single_media_filtered": 35,
  "active_factors": [
   "burst",
   "coverage",
+  "duration",
   "media"
  ],
  "calibration": {
-  "max_size": 5.0,
-  "max_first": 5.0,
-  "window_days": 1,
+  "max_size": 14.0,
+  "max_first": 12.0,
+  "window_days": 2,
   "n_media_total": 4
  },
  "elapsed": 0.1,
  "level_dist": {
-  "爆点": 1,
-  "高热": 2,
-  "升温中": 4,
-  "一般": 5
+  "爆点": 3,
+  "高热": 6,
+  "升温中": 9,
+  "一般": 12
  },
  "top": [
   {
-   "label": "美股盘初：纳指跌1.2%，费城半导体指数跌5.5%，存储芯片股、光通信股大跌",
-   "heat": 0.853,
+   "label": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
+   "heat": 0.779,
    "level": "爆点",
-   "n": 4,
+   "n": 14,
    "media": 3,
    "cat": "AI与大模型",
    "sectors": [
@@ -37,69 +38,218 @@
     "BK0459"
    ],
    "factors": {
-    "coverage": 0.898,
-    "burst": 0.898,
-    "duration": 1.0,
+    "coverage": 1.0,
+    "burst": 0.811,
+    "duration": 0.5,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    479,
-    566,
-    568,
-    569
+    721,
+    752,
+    1107,
+    1195,
+    1197,
+    1198,
+    1266,
+    1346,
+    1351,
+    1405,
+    1432,
+    1458,
+    1475,
+    1495
+   ]
+  },
+  {
+   "label": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌入式",
+   "heat": 0.749,
+   "level": "爆点",
+   "n": 12,
+   "media": 2,
+   "cat": "AI与大模型",
+   "sectors": [
+    "BK0800",
+    "BK1201",
+    "BK0839",
+    "BK0459",
+    "BK000195"
+   ],
+   "factors": {
+    "coverage": 0.947,
+    "burst": 1.0,
+    "duration": 0.5,
+    "media": 0.5,
+    "social": null
+   },
+   "article_ids": [
+    1655,
+    1658,
+    1659,
+    1661,
+    1663,
+    1664,
+    1667,
+    1668,
+    1670,
+    1676,
+    1682,
+    1700
+   ]
+  },
+  {
+   "label": "微软发布AI行为准则：强调“人比AI重要”，拒绝追逐无边界超级智能",
+   "heat": 0.684,
+   "level": "爆点",
+   "n": 7,
+   "media": 3,
+   "cat": "AI与大模型",
+   "sectors": [
+    "BK0800"
+   ],
+   "factors": {
+    "coverage": 0.768,
+    "burst": 0.699,
+    "duration": 0.5,
+    "media": 0.75,
+    "social": null
+   },
+   "article_ids": [
+    1133,
+    1155,
+    1176,
+    1264,
+    1268,
+    1320,
+    1337
+   ]
+  },
+  {
+   "label": "夜盘期货开盘，沪银跌近3%，沪锡、沪金、玻璃跌超2%，沪锌、纯碱跌近2%，菜粕、",
+   "heat": 0.633,
+   "level": "高热",
+   "n": 6,
+   "media": 3,
+   "cat": "国际市场",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.719,
+    "burst": 0.54,
+    "duration": 0.5,
+    "media": 0.75,
+    "social": null
+   },
+   "article_ids": [
+    684,
+    1119,
+    1120,
+    1435,
+    1484,
+    1650
+   ]
+  },
+  {
+   "label": "8月末人民币贷款余额同比增长4.9% 金融“五篇大文章”领域贷款增量占比超七成",
+   "heat": 0.626,
+   "level": "高热",
+   "n": 7,
+   "media": 2,
+   "cat": "宏观政策",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.768,
+    "burst": 0.699,
+    "duration": 0.5,
+    "media": 0.5,
+    "social": null
+   },
+   "article_ids": [
+    737,
+    748,
+    860,
+    1126,
+    1157,
+    1344,
+    1362
+   ]
+  },
+  {
+   "label": "深夜，广汽集团公布停牌原因！拟并购标的为“整车企业”部分股权，且在境外上市",
+   "heat": 0.606,
+   "level": "高热",
+   "n": 6,
+   "media": 3,
+   "cat": "汽车出行",
+   "sectors": [
+    "BK0499",
+    "BK1029"
+   ],
+   "factors": {
+    "coverage": 0.719,
+    "burst": 0.428,
+    "duration": 0.5,
+    "media": 0.75,
+    "social": null
+   },
+   "article_ids": [
+    807,
+    1165,
+    1319,
+    1323,
+    1711,
+    1730
    ]
   },
   {
    "label": "沙特绕开霍尔木兹海峡的关键管道关停，布伦特原油突破109美元",
-   "heat": 0.846,
+   "heat": 0.594,
    "level": "高热",
    "n": 5,
    "media": 2,
    "cat": "国际市场",
    "sectors": [],
    "factors": {
-    "coverage": 1.0,
-    "burst": 1.0,
-    "duration": 1.0,
+    "coverage": 0.662,
+    "burst": 0.699,
+    "duration": 0.5,
     "media": 0.5,
     "social": null
    },
    "article_ids": [
-    31,
-    103,
-    108,
-    469,
-    515
+    659,
+    731,
+    736,
+    1097,
+    1143
    ]
   },
   {
-   "label": "央行：8月末社会融资规模存量为464.8万亿元 同比增长7.2%",
-   "heat": 0.846,
+   "label": "美国国债收益率小幅走高，2年期至10年期国债收益率触及9月11日高点。",
+   "heat": 0.578,
    "level": "高热",
    "n": 5,
    "media": 2,
    "cat": "宏观政策",
    "sectors": [],
    "factors": {
-    "coverage": 1.0,
-    "burst": 1.0,
-    "duration": 1.0,
+    "coverage": 0.662,
+    "burst": 0.627,
+    "duration": 0.5,
     "media": 0.5,
     "social": null
    },
    "article_ids": [
-    109,
-    120,
-    232,
-    498,
-    529
+    1161,
+    1269,
+    1291,
+    1297,
+    1369
    ]
   },
   {
    "label": "快讯：现货黄金失守4300美元/盎司，日内跌1.11%。",
-   "heat": 0.766,
-   "level": "升温中",
+   "heat": 0.572,
+   "level": "高热",
    "n": 3,
    "media": 3,
    "cat": "国际市场",
@@ -108,136 +258,37 @@
     "BK1617"
    ],
    "factors": {
-    "coverage": 0.774,
-    "burst": 0.774,
-    "duration": 1.0,
+    "coverage": 0.512,
+    "burst": 0.54,
+    "duration": 0.5,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    132,
-    484,
-    518
+    760,
+    1112,
+    1146
    ]
   },
   {
-   "label": "商务部等8部门：引导金融机构加大对智能家居消费等贷款支持力度",
-   "heat": 0.578,
+   "label": "人民币兑美元中间价报6.7670，创2023年2月3日以来新高，上调28点；上一",
+   "heat": 0.572,
    "level": "升温中",
-   "n": 2,
-   "media": 2,
-   "cat": "宏观政策",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.613,
-    "burst": 0.613,
-    "duration": 1.0,
-    "media": 0.5,
-    "social": null
-   },
-   "article_ids": [
-    44,
-    481
-   ]
-  },
-  {
-   "label": "香山股份：拟8亿元收购武珞智慧100%股权新增AI算力业务",
-   "heat": 0.578,
-   "level": "升温中",
-   "n": 2,
-   "media": 2,
-   "cat": "AI与大模型",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.613,
-    "burst": 0.613,
-    "duration": 1.0,
-    "media": 0.5,
-    "social": null
-   },
-   "article_ids": [
-    279,
-    535
-   ]
-  },
-  {
-   "label": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？",
-   "heat": 0.578,
-   "level": "升温中",
-   "n": 2,
-   "media": 2,
-   "cat": "宏观政策",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.613,
-    "burst": 0.613,
-    "duration": 1.0,
-    "media": 0.5,
-    "social": null
-   },
-   "article_ids": [
-    326,
-    581
-   ]
-  },
-  {
-   "label": "“核心条款未达成一致”！688291，重大资产重组拟终止",
-   "heat": 0.578,
-   "level": "一般",
-   "n": 2,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.613,
-    "burst": 0.613,
-    "duration": 1.0,
-    "media": 0.5,
-    "social": null
-   },
-   "article_ids": [
-    415,
-    577
-   ]
-  },
-  {
-   "label": "加拿大8月CPI环比 -0.1%，前值 0.5%。",
-   "heat": 0.578,
-   "level": "一般",
-   "n": 2,
-   "media": 2,
-   "cat": "宏观政策",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.613,
-    "burst": 0.613,
-    "duration": 1.0,
-    "media": 0.5,
-    "social": null
-   },
-   "article_ids": [
-    429,
-    438
-   ]
-  },
-  {
-   "label": "油价拉升，报道称沙特阿拉伯东西向输油管道大部分区域将停运数周",
-   "heat": 0.578,
-   "level": "一般",
-   "n": 2,
-   "media": 2,
+   "n": 3,
+   "media": 3,
    "cat": "国际市场",
    "sectors": [],
    "factors": {
-    "coverage": 0.613,
-    "burst": 0.613,
-    "duration": 1.0,
-    "media": 0.5,
+    "coverage": 0.512,
+    "burst": 0.54,
+    "duration": 0.5,
+    "media": 0.75,
     "social": null
    },
    "article_ids": [
-    447,
-    626
+    1671,
+    1673,
+    1691
    ]
   }
  ]
