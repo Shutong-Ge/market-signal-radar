@@ -1,112 +1,206 @@
 {
  "engine": "template(降级)",
- "n_clusters": 65,
+ "n_clusters": 75,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.4,
+ "elapsed": 6.2,
  "reports": [
   {
-   "key": "2e921b9a39e5c088",
-   "label": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
+   "key": "7a463f75f06b7554",
+   "label": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国产替代共振",
    "cached": false,
    "sections": {
-    "事件概述": "「9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫」由 22 篇报道聚合而成，覆盖 3 家媒体，热度 0.738（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大；9月16日隔夜要闻：美股三大指数收跌 沙特供应风险推升油价 金价震荡 市场关注联；10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
-    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国产替代共振」由 29 篇报道聚合而成，覆盖 4 家媒体，热度 0.817（爆点），所属板块类目：金融市场。",
+    "关键信息": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国；科创板块逆市走强，科创100增强ETF易方达（588500）涨2.39%，科技成；“十五五”规划明确“提升人工智能芯片设计水平”！20cm的科创芯片设计ETF永赢",
+    "市场影响": "关联板块代码：BK0459、BK1134、BK0732、BK0800、BK0877。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirvzhe8923333.shtml",
+     "title": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国产替代共振",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875804283.html",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "9月16日隔夜要闻：美股三大指数收跌 沙特供应风险推升油价 金价震荡 市场关注联储决议",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-16/doc-inirykph3355284.shtml",
+     "title": "科创板块逆市走强，科创100增强ETF易方达（588500）涨2.39%，科技成长风格领涨",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875817822.html",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykpe6592249.shtml",
-     "rrf": 0.03175,
+     "title": "“十五五”规划明确“提升人工智能芯片设计水平”！20cm的科创芯片设计ETF永赢盘中涨超2%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875816998.html",
+     "rrf": 0.03102,
      "bm25_rank": 3,
-     "vec_rank": 3
+     "vec_rank": 6
     },
     {
      "n": 4,
-     "title": "9月16日美股收盘：三大指数收跌 油价回升 10年期美债收益率触及19年高位",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-16/doc-iniryefe8114192.shtml",
-     "rrf": 0.02854,
-     "bm25_rank": 16,
+     "title": "我国算力基础设施取得应用新进展，科创AIETF博时(588790)跟踪指数涨超2%，机构长期看好国产AI算力产业链",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875864251.html",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
      "vec_rank": 5
     },
     {
      "n": 5,
-     "title": "中信建投期货：9月16日黑色系早报",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-16/doc-iniryqva6560199.shtml",
-     "rrf": 0.02837,
-     "bm25_rank": 5,
-     "vec_rank": 17
+     "title": "创业板指涨超1%，沪指跌0.03%，深成指涨0.33%，科创50涨近2.8%，半",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165892",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
     },
     {
      "n": 6,
-     "title": "10年期美债破5！芯片股光通信重挫，金融板块跳水，恐慌指数VIX飙升8%",
+     "title": "科创50逆势上涨1.55% 风电、存储、PCB三线共振",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirvzhe8936052.shtml",
-     "rrf": 0.02753,
-     "bm25_rank": 18,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirxxxk6728461.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 7,
+     "vec_rank": 9
     },
     {
      "n": 7,
-     "title": "警报拉响，“全球资产定价之锚”攻破5%大关",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykpk3179381.shtml",
-     "rrf": 0.02712,
-     "bm25_rank": 7,
-     "vec_rank": 22
+     "title": "9月16日午间收评：科创50指数半日涨4.5%，算力硬件、半导体板块集体走强",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165919",
+     "rrf": 0.02932,
+     "bm25_rank": 13,
+     "vec_rank": 4
     },
     {
      "n": 8,
-     "title": "华尔街见闻早餐 | 2026年9月15日",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165097",
-     "rrf": 0.02678,
-     "bm25_rank": 26,
-     "vec_rank": 6
+     "title": "国产半导体自主可控预期快速升温，科创50ETF华泰柏瑞涨超2.09%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875810561.html",
+     "rrf": 0.02908,
+     "bm25_rank": 5,
+     "vec_rank": 13
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大",
+    "query": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国",
     "bm25_only": 2,
-    "vec_only": 3,
-    "both": 3,
+    "vec_only": 1,
+    "both": 5,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "5931ca1feec3444b",
+   "key": "20a9381b4cec9059",
+   "label": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
+   "cached": false,
+   "sections": {
+    "事件概述": "「助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心」由 23 篇报道聚合而成，覆盖 3 家媒体，热度 0.73（爆点），所属板块类目：综合。",
+    "关键信息": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心；两部门印发《电子信息制造业发展“十五五”规划》；李家超：香港首份五年规划深度对接国家战略 依托国家后盾把握最大机遇",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165950",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "两部门印发《电子信息制造业发展“十五五”规划》",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-15/10696548.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 3,
+     "title": "李家超：香港首份五年规划深度对接国家战略 依托国家后盾把握最大机遇",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-09-16/doc-inirzfsu6630224.shtml",
+     "rrf": 0.02832,
+     "bm25_rank": 2,
+     "vec_rank": 22
+    },
+    {
+     "n": 4,
+     "title": "电子信息制造业发展“十五五”规划出炉！两部门：推动集成电路全链条攻关，发展高性能处理器等高端芯片产品",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirxhzq8488761.shtml",
+     "rrf": 0.02721,
+     "bm25_rank": 14,
+     "vec_rank": 13
+    },
+    {
+     "n": 5,
+     "title": "两部门：推动光子产业核心环节技术取得突破 支持光子设计自动化、光电协同设计自动化等仿真设计软件研发迭代",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609153874197658.html",
+     "rrf": 0.02594,
+     "bm25_rank": 12,
+     "vec_rank": 23
+    },
+    {
+     "n": 6,
+     "title": "电子信息制造业发展“十五五”规划发布",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609153874146570.html",
+     "rrf": 0.02533,
+     "bm25_rank": 13,
+     "vec_rank": 26
+    },
+    {
+     "n": 7,
+     "title": "香港将参与国产飞机研制及认证工作",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165923",
+     "rrf": 0.01613,
+     "bm25_rank": null,
+     "vec_rank": 2
+    },
+    {
+     "n": 8,
+     "title": "香港五年规划设有六大目标",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875865350.html",
+     "rrf": 0.01587,
+     "bm25_rank": 3,
+     "vec_rank": null
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 2,
+    "neither_topk": 3
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "d83b25b10f21655e",
    "label": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店只卖",
    "cached": false,
    "sections": {
-    "事件概述": "「华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店只卖」由 20 篇报道聚合而成，覆盖 3 家媒体，热度 0.72（爆点），所属板块类目：综合。",
+    "事件概述": "「华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店只卖」由 20 篇报道聚合而成，覆盖 3 家媒体，热度 0.701（爆点），所属板块类目：综合。",
     "关键信息": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：；华为“放手”，赛力斯接手：问界主导权交接的一本账；问界合作模式调整：赛力斯主导全链条，华为赋能",
     "市场影响": "关联板块代码：BK0854、BK000293。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -196,105 +290,11 @@
    "elapsed": 0.0
   },
   {
-   "key": "d7bd41185ccac919",
-   "label": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
-   "cached": false,
-   "sections": {
-    "事件概述": "「助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心」由 19 篇报道聚合而成，覆盖 3 家媒体，热度 0.719（爆点），所属板块类目：综合。",
-    "关键信息": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心；两部门印发《电子信息制造业发展“十五五”规划》；电子信息制造业发展“十五五”规划出炉！两部门：推动集成电路全链条攻关，发展高性能",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165950",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "两部门印发《电子信息制造业发展“十五五”规划》",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-15/10696548.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 3,
-     "title": "电子信息制造业发展“十五五”规划出炉！两部门：推动集成电路全链条攻关，发展高性能处理器等高端芯片产品",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirxhzq8488761.shtml",
-     "rrf": 0.02686,
-     "bm25_rank": 16,
-     "vec_rank": 13
-    },
-    {
-     "n": 4,
-     "title": "两部门：推动光子产业核心环节技术取得突破 支持光子设计自动化、光电协同设计自动化等仿真设计软件研发迭代",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609153874197658.html",
-     "rrf": 0.02556,
-     "bm25_rank": 14,
-     "vec_rank": 23
-    },
-    {
-     "n": 5,
-     "title": "电子信息制造业发展“十五五”规划发布",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609153874146570.html",
-     "rrf": 0.02461,
-     "bm25_rank": 17,
-     "vec_rank": 26
-    },
-    {
-     "n": 6,
-     "title": "香港五年规划设有六大目标",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609163875865350.html",
-     "rrf": 0.01613,
-     "bm25_rank": 2,
-     "vec_rank": null
-    },
-    {
-     "n": 7,
-     "title": "香港将参与国产飞机研制及认证工作",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165923",
-     "rrf": 0.01613,
-     "bm25_rank": null,
-     "vec_rank": 2
-    },
-    {
-     "n": 8,
-     "title": "我省再获数据标注领域国家级试点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirwfqh3674410.shtml",
-     "rrf": 0.01587,
-     "bm25_rank": 3,
-     "vec_rank": null
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 2,
-    "neither_topk": 3
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "94d0feed67441524",
+   "key": "f6c2dbe46cb7f5e1",
    "label": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌入式",
    "cached": false,
    "sections": {
-    "事件概述": "「两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌入式」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.702（爆点），所属板块类目：综合。",
+    "事件概述": "「两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌入式」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.684（爆点），所属板块类目：综合。",
     "关键信息": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在；两部门：加强端侧大模型、计算芯片、存储芯片、操作系统兼容适配 加快智能体与终端产；两部门：提升人工智能芯片设计水平",
     "市场影响": "关联板块代码：BK0459、BK0800、BK0428、BK1201、BK0839。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -314,8 +314,8 @@
      "title": "两部门：加强端侧大模型、计算芯片、存储芯片、操作系统兼容适配 加快智能体与终端产品深度融合",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609153874227464.html",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
@@ -323,8 +323,8 @@
      "title": "两部门：提升人工智能芯片设计水平",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609153874271253.html",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
+     "rrf": 0.03125,
+     "bm25_rank": 4,
      "vec_rank": 4
     },
     {
@@ -332,8 +332,8 @@
      "title": "两部门：纵深推进北斗规模化应用 推动北斗从行业应用转向全民普及",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609153874219557.html",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
+     "rrf": 0.03009,
+     "bm25_rank": 5,
      "vec_rank": 8
     },
     {
@@ -341,8 +341,8 @@
      "title": "两部门：加快发展电子设计自动化工具（EDA）和知识产权核（IP核） 推进三维集成等技术突破和应用",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609153874169975.html",
-     "rrf": 0.02976,
-     "bm25_rank": 12,
+     "rrf": 0.02996,
+     "bm25_rank": 11,
      "vec_rank": 3
     },
     {
@@ -350,8 +350,8 @@
      "title": "两部门：提升多类型处理器微架构设计能力 提高计算芯片性能水平",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirwfqk4019223.shtml",
-     "rrf": 0.0289,
-     "bm25_rank": 14,
+     "rrf": 0.02908,
+     "bm25_rank": 13,
      "vec_rank": 5
     },
     {
@@ -365,114 +365,114 @@
     },
     {
      "n": 8,
-     "title": "OpenAI首席执行官支持对前沿AI研发“控制节奏”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirupfa4036657.shtml",
-     "rrf": 0.02767,
-     "bm25_rank": 4,
-     "vec_rank": 23
+     "title": "科技部部长阴和俊：推进人工智能赋能科研创新，完善算力、数据等基础设施，拓展科学研究智能化应用场景",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875774998.html",
+     "rrf": 0.02632,
+     "bm25_rank": 16,
+     "vec_rank": 16
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在",
-    "bm25_only": 1,
+    "bm25_only": 0,
     "vec_only": 2,
     "both": 4,
-    "neither_topk": 1
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "d9792feefba10c89",
-   "label": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国产替代共振",
+   "key": "96a8faf85c59684e",
+   "label": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
    "cached": false,
    "sections": {
-    "事件概述": "「科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国产替代共振」由 27 篇报道聚合而成，覆盖 4 家媒体，热度 0.694（爆点），所属板块类目：金融市场。",
-    "关键信息": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国；科创板块逆市走强，科创100增强ETF易方达（588500）涨2.39%，科技成；“十五五”规划明确“提升人工智能芯片设计水平”！20cm的科创芯片设计ETF永赢",
-    "市场影响": "关联板块代码：BK0459、BK1134、BK0732、BK0800、BK0877。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫」由 17 篇报道聚合而成，覆盖 3 家媒体，热度 0.667（爆点），所属板块类目：半导体。",
+    "关键信息": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大；9月16日隔夜要闻：美股三大指数收跌 沙特供应风险推升油价 金价震荡 市场关注联；10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
+    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国产替代共振",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609163875804283.html",
+     "title": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirvzhe8923333.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "科创板块逆市走强，科创100增强ETF易方达（588500）涨2.39%，科技成长风格领涨",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609163875817822.html",
+     "title": "9月16日隔夜要闻：美股三大指数收跌 沙特供应风险推升油价 金价震荡 市场关注联储决议",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-09-16/doc-inirykph3355284.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "“十五五”规划明确“提升人工智能芯片设计水平”！20cm的科创芯片设计ETF永赢盘中涨超2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609163875816998.html",
-     "rrf": 0.03102,
+     "title": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykpe6592249.shtml",
+     "rrf": 0.03175,
      "bm25_rank": 3,
-     "vec_rank": 6
+     "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "我国算力基础设施取得应用新进展，科创AIETF博时(588790)跟踪指数涨超2%，机构长期看好国产AI算力产业链",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609163875864251.html",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
+     "title": "9月16日美股收盘：三大指数收跌 油价回升 10年期美债收益率触及19年高位",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-09-16/doc-iniryefe8114192.shtml",
+     "rrf": 0.02854,
+     "bm25_rank": 16,
      "vec_rank": 5
     },
     {
      "n": 5,
-     "title": "科创50逆势上涨1.55% 风电、存储、PCB三线共振",
+     "title": "中信建投期货：9月16日黑色系早报",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirxxxk6728461.shtml",
-     "rrf": 0.02942,
-     "bm25_rank": 7,
-     "vec_rank": 9
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-16/doc-iniryqva6560199.shtml",
+     "rrf": 0.02837,
+     "bm25_rank": 5,
+     "vec_rank": 17
     },
     {
      "n": 6,
-     "title": "创业板指涨超1%，沪指跌0.03%，深成指涨0.33%，科创50涨近2.8%，半",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165892",
-     "rrf": 0.02942,
-     "bm25_rank": 9,
-     "vec_rank": 7
+     "title": "10年期美债破5！芯片股光通信重挫，金融板块跳水，恐慌指数VIX飙升8%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirvzhe8936052.shtml",
+     "rrf": 0.02753,
+     "bm25_rank": 18,
+     "vec_rank": 8
     },
     {
      "n": 7,
-     "title": "9月16日午间收评：科创50指数半日涨4.5%，算力硬件、半导体板块集体走强",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165919",
-     "rrf": 0.02914,
-     "bm25_rank": 14,
-     "vec_rank": 4
+     "title": "警报拉响，“全球资产定价之锚”攻破5%大关",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykpk3179381.shtml",
+     "rrf": 0.02712,
+     "bm25_rank": 7,
+     "vec_rank": 22
     },
     {
      "n": 8,
-     "title": "国产半导体自主可控预期快速升温，科创50ETF华泰柏瑞涨超2.09%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609163875810561.html",
-     "rrf": 0.02908,
-     "bm25_rank": 5,
-     "vec_rank": 13
+     "title": "华尔街见闻早餐 | 2026年9月15日",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165097",
+     "rrf": 0.02665,
+     "bm25_rank": 27,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国",
+    "query": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大",
     "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
+    "vec_only": 3,
+    "both": 3,
     "neither_topk": 0
    },
    "elapsed": 0.0
