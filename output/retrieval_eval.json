@@ -2,20 +2,65 @@
  "summary": {
   "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.33,
-  "avg_rank_diff": 0.92,
-  "avg_missed_by_bm25": 3.0,
-  "avg_missed_by_vector": 2.5,
-  "conclusion": "两路召回集平均重合度仅 33%；即便重合的文档，两路名次平均相差 0.92 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.0 篇最终进入 Top8 的文档；只用向量则漏掉 2.5 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.27,
+  "avg_rank_diff": 0.53,
+  "avg_missed_by_bm25": 3.12,
+  "avg_missed_by_vector": 3.38,
+  "conclusion": "两路召回集平均重合度仅 27%；即便重合的文档，两路名次平均相差 0.53 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.12 篇最终进入 Top8 的文档；只用向量则漏掉 3.38 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
+  {
+   "type": "原标题式",
+   "query": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益",
+   "jaccard": 0.455,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫"
+  },
+  {
+   "type": "关键词式",
+   "query": "隔夜 要闻 欧美 股指 收跌 油价",
+   "jaccard": 0.143,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 6,
+   "example_top1": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "月日隔夜要闻：欧美股指收跌 油价上涨 年期美债收益率突破 华",
+   "jaccard": 0.231,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫"
+  },
+  {
+   "type": "原标题式",
+   "query": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，",
+   "jaccard": 0.455,
+   "rank_diff": 1.6,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店"
+  },
+  {
+   "type": "关键词式",
+   "query": "华为 放权 问界 调整 产品 营销",
+   "jaccard": 0.6,
+   "rank_diff": 0.67,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店"
+  },
   {
    "type": "原标题式",
    "query": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造",
    "jaccard": 0.067,
    "rank_diff": 0.0,
    "missed_by_bm25": 4,
-   "missed_by_vector": 5,
+   "missed_by_vector": 4,
    "example_top1": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心"
   },
   {
@@ -24,62 +69,17 @@
    "jaccard": 0.067,
    "rank_diff": 0.0,
    "missed_by_bm25": 6,
-   "missed_by_vector": 4,
+   "missed_by_vector": 5,
    "example_top1": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心"
   },
   {
    "type": "去数字泛化",
    "query": "助力国家在功率半导体领域取得领先，香港年成立国家制造业创新中",
-   "jaccard": 0.067,
+   "jaccard": 0.143,
    "rank_diff": 0.0,
    "missed_by_bm25": 5,
    "missed_by_vector": 5,
    "example_top1": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心"
-  },
-  {
-   "type": "原标题式",
-   "query": "创业板指上涨2.35% 科创50拉升4.5% 全市场超420",
-   "jaccard": 0.455,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "创业板指上涨2.35% 科创50拉升4.5% 全市场超4200股飘红 科技股、贵金属爆发"
-  },
-  {
-   "type": "关键词式",
-   "query": "创业板 上涨 科创 拉升 市场 飘红",
-   "jaccard": 0.455,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "创业板指上涨2.35% 科创50拉升4.5% 全市场超4200股飘红 科技股、贵金属爆发"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "创业板指上涨 科创拉升 全市场超股飘红 科技股、贵金属爆发",
-   "jaccard": 0.333,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "创业板指上涨2.35% 科创50拉升4.5% 全市场超4200股飘红 科技股、贵金属爆发"
-  },
-  {
-   "type": "原标题式",
-   "query": "新华鲜报丨平陆运河建成通航 西南从“内陆”变“沿海”",
-   "jaccard": 0.6,
-   "rank_diff": 2.17,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 0,
-   "example_top1": "新华鲜报丨平陆运河建成通航 西南从“内陆”变“沿海”"
-  },
-  {
-   "type": "关键词式",
-   "query": "新华 鲜报 平陆 运河 建成 通航",
-   "jaccard": 0.6,
-   "rank_diff": 2.67,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "新华鲜报丨平陆运河建成通航 西南从“内陆”变“沿海”"
   }
  ]
 }
