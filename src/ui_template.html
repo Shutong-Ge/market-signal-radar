@@ -76,6 +76,20 @@ table.q tr.row:hover{background:#F6FAFD}
 .fb .vv{width:44px;text-align:right;font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums}
 .sec{border-left:3px solid var(--blue);background:#FBFCFE;border-radius:0 8px 8px 0;padding:9px 13px;margin-bottom:9px;font-size:12.5px;line-height:1.85}
 .sec b{color:var(--navy)}
+/* 板块筛选 */
+.filters{padding:11px 14px 4px;border-bottom:1px solid var(--line);background:#FCFDFE}
+.frow{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:7px}
+.frow .lbl{font-size:11px;color:var(--grey);width:52px;flex:none}
+.chip{font-size:12px;padding:3px 11px;border-radius:999px;border:1px solid var(--line);
+  background:#fff;color:var(--ink);cursor:pointer;user-select:none;transition:all .12s}
+.chip:hover{border-color:var(--blue);color:var(--blue)}
+.chip.on{background:var(--navy);border-color:var(--navy);color:#fff;font-weight:600}
+.chip .n{opacity:.62;margin-left:4px;font-size:11px}
+.chip.sub{border-style:dashed}
+.chip.sub.on{background:var(--blue);border-color:var(--blue);border-style:solid}
+.fnone{font-size:12px;color:var(--grey);padding:16px 14px}
+td .subtag{display:inline-block;font-size:10.5px;color:var(--blue);background:#EAF3FB;
+  border-radius:3px;padding:1px 6px;margin-left:5px;white-space:nowrap}
 .cite{border-left:3px solid var(--amber);background:#FFFDF9;border-radius:0 7px 7px 0;padding:6px 11px;font-size:11.5px;color:#5B6772;margin-bottom:5px}
 .cite a{color:var(--navy);text-decoration:none;border-bottom:1px solid rgba(22,50,79,.28)}
 .cite a:hover{color:var(--blue);border-bottom-color:var(--blue)}
@@ -148,10 +162,26 @@ $('pipeInfo').innerHTML=`采集 <b>${F(D.collect.inserted)}</b> 条 · ${D.colle
     : '静态快照 · 非实时 · 全部数字由管道真实计算';
 })();
 
+let fL1='all', fL2='all';           // 板块筛选状态（一级 / 二级）
+function pickL1(k){ fL1=k; fL2='all'; show('board'); }
+function pickL2(k){ fL2=k; show('board'); }
+function filtered(){
+  return D.clusters.filter(x=>
+    (fL1==='all' || x.cat_key===fL1) && (fL2==='all' || x.sub_key===fL2));
+}
 function board(){
-  const c=D.clusters, lv=D.cluster.levels;
+  const lv=D.cluster.levels;
+  const c=filtered();
   const cats={}; c.forEach(x=>cats[x.category]=(cats[x.category]||0)+1);
   const secs={}; c.forEach(x=>(x.sectors||[]).forEach(s=>secs[s]=(secs[s]||0)+1));
+  const tree=D.tree||[];
+  const node=tree.find(t=>t.key===fL1);
+  const chipsL1=`<div class="frow"><span class="lbl">板块</span>
+    <span class="chip ${fL1==='all'?'on':''}" onclick="pickL1('all')">全部<span class="n">${D.clusters.length}</span></span>
+    ${tree.map(t=>`<span class="chip ${fL1===t.key?'on':''}" onclick="pickL1('${t.key}')">${t.label}<span class="n">${t.n}</span></span>`).join('')}</div>`;
+  const chipsL2=(node&&node.subs.length)?`<div class="frow"><span class="lbl">细分</span>
+    <span class="chip sub ${fL2==='all'?'on':''}" onclick="pickL2('all')">全部<span class="n">${node.n}</span></span>
+    ${node.subs.map(b=>`<span class="chip sub ${fL2===b.key?'on':''}" onclick="pickL2('${b.key}')">${b.label}<span class="n">${b.n}</span></span>`).join('')}</div>`:'';
   const catRows=Object.entries(cats).sort((a,b)=>b[1]-a[1]);
   const mx=Math.max(...catRows.map(r=>r[1]));
   return `
@@ -163,16 +193,19 @@ function board(){
     <div class="kpi"><div class="l">深度分析</div><div class="v g">${D.rag.n}</div><div class="s">Top5 限流 · 降级 ${D.rag.degraded}</div></div>
   </div>
   <div class="panel"><div class="hd"><b>今日热点榜</b><span class="sub">按四因子热度排序 · 点击查看深度分析</span>
-    <div class="right">分级按窗口内分位标定</div></div>
-    <table class="q"><tr><th>#</th><th>热度</th><th>分级</th><th>类目</th><th>热点事件</th><th>报道</th><th>媒体</th><th>关联板块</th></tr>
-    ${c.slice(0,20).map((x,i)=>`<tr class="row" onclick="sel=${i};show('detail')">
-      <td class="mono">${i+1}</td>
+    <div class="right">${fL1==='all'?'分级按窗口内分位标定':`已筛选 ${c.length} / ${D.clusters.length} 条`}</div></div>
+    <div class="filters">${chipsL1}${chipsL2}</div>
+    ${c.length===0?'<div class="fnone">该板块本批没有识别到热点——不是过滤掉了，是当期确实没有跨媒体成簇的事件。</div>':`
+    <table class="q"><tr><th>#</th><th>热度</th><th>分级</th><th>板块 / 细分</th><th>热点事件</th><th>报道</th><th>媒体</th><th>关联板块</th></tr>
+    ${c.slice(0,25).map((x)=>`<tr class="row" onclick="sel=${D.clusters.indexOf(x)};show('detail')">
+      <td class="mono">${D.clusters.indexOf(x)+1}</td>
       <td><span class="hbar"><i style="width:${(x.heat*100).toFixed(0)}%"></i></span><b class="mono">${x.heat.toFixed(3)}</b></td>
-      <td><span class="lv ${x.level}">${x.level}</span></td><td>${x.category}</td>
+      <td><span class="lv ${x.level}">${x.level}</span></td>
+      <td>${x.category}${x.sub?`<span class="subtag">${x.sub}</span>`:''}</td>
       <td>${x.label.slice(0,34)}</td><td class="mono">${x.n}</td><td class="mono">${x.media}</td>
       <td>${(x.sectors||[]).slice(0,2).map(s=>`<span class="tag">${s}</span>`).join('')||'<span class="note">—</span>'}</td></tr>`).join('')}
-    </table></div>
-  <div class="panel"><div class="hd"><b>板块类目分布</b><span class="sub">8 大投研板块词表归类</span></div>
+    </table>`}</div>
+  <div class="panel"><div class="hd"><b>板块分布</b><span class="sub">两级词表归类 · 点上方板块可下钻到细分</span></div>
     <div class="pd">${catRows.map(([k,v])=>`<div class="fb"><span class="fn2">${k}</span>
       <span class="tk"><i style="width:${v/mx*100}%"></i></span><span class="vv">${v}</span></div>`).join('')}
       <div class="note" style="margin-top:9px">关联板块代码（东财快讯标签）Top5：${Object.entries(secs).sort((a,b)=>b[1]-a[1]).slice(0,5).map(([k,v])=>`<span class="tag">${k}×${v}</span>`).join('')||'—'}</div>
@@ -257,6 +290,24 @@ function pipe(){
     ${D.collect.sites.map(s=>`<tr><td>${s.media}</td><td>${s.channel}</td><td class="mono">${s.fetched}</td>
       <td class="mono">${s.inserted}</td><td>${s.status==='ok'?'<span class="lv 升温中">正常</span>':`<span class="lv 爆点">${s.status}</span>`}</td></tr>`).join('')}
     </table></div>
+
+  <div class="panel"><div class="hd"><b>数据源登记表</b>
+    <span class="sub">接了什么 / 还能接什么 / 接不了什么——三种状态分开写</span>
+    <div class="right">${(D.registry||[]).filter(r=>r.s==='live').length} 已接入 ·
+      ${(D.registry||[]).filter(r=>r.s==='public').length} 可接入 ·
+      ${(D.registry||[]).filter(r=>r.s==='licensed').length} 需授权</div></div>
+    <table class="q"><tr><th>分组</th><th>数据源</th><th>状态</th><th>说明</th></tr>
+    ${(D.registry||[]).map(r=>`<tr>
+      <td class="note" style="white-space:nowrap">${r.g}</td>
+      <td>${r.name}</td>
+      <td><span class="lv ${r.s==='live'?'升温中':(r.s==='public'?'一般':'爆点')}"
+        style="white-space:nowrap">${(D.registry_label||{})[r.s]||r.s}</span></td>
+      <td class="note">${r.note}</td></tr>`).join('')}
+    </table>
+    <div class="pd note">商业终端（Wind / iFinD / Choice / Bloomberg / LSEG / FactSet / Capital IQ）
+      与券商内部报告库按机构席位授权、无公开接口，个人项目<b>不具备合法接入条件</b>。
+      本项目按同一套 adapter 协议为其预留接口位，生产环境取得授权后补实现即可——
+      在此之前页面如实标注为未接入，不计入任何采集口径。</div></div>
 
   <div class="panel"><div class="hd"><b>热度模型标定</b></div><div class="pd note">
     窗口内对数归一：最大簇 ${c.calib.max_size} 篇、最大首日 ${c.calib.max_first} 篇、窗口 ${c.calib.window_days} 天、媒体数 ${c.calib.n_media_total}。<br>

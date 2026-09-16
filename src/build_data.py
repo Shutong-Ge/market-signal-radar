@@ -8,7 +8,11 @@
 读取：data/radar.db（采集/聚类/报告）+ output/{dedup,cluster,retrieval_eval}.json
 输出：output/ui_data.json
 """
-import json, os, sqlite3
+import json, os, sqlite3, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from taxonomy import SECTORS as TAX_SECTORS
+from sources_registry import REGISTRY as SRC_REGISTRY, LABEL as SRC_LABEL
 
 B = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB = os.path.join(B, "data", "radar.db")
@@ -70,16 +74,36 @@ def build_clusters(cur):
     run_at = cur.execute("select max(run_at) from clusters").fetchone()[0]
     rows = cur.execute(
         "select label, category, n_articles, n_media, heat_score, importance, "
-        "heat_factors, time_span, sectors, article_ids from clusters where run_at=? "
-        "order by heat_score desc", (run_at,)).fetchall()
+        "heat_factors, time_span, sectors, article_ids, cat_key, subcategory, sub_key "
+        "from clusters where run_at=? order by heat_score desc", (run_at,)).fetchall()
     out = []
-    for lb, cat, n, nm, heat, imp, fac, span, sec, aids in rows:
-        out.append(dict(label=lb, category=cat, n=n, media=nm,
+    for (lb, cat, n, nm, heat, imp, fac, span, sec, aids, ck, sub, sk) in rows:
+        out.append(dict(label=lb, category=cat, cat_key=ck or "misc",
+                        sub=sub, sub_key=sk, n=n, media=nm,
                         heat=round(heat or 0, 3), level=LEVEL_OF.get(imp, "一般"),
                         factors=json.loads(fac or "{}"), span=span,
                         sectors=json.loads(sec or "[]"),
                         articles=cluster_articles(cur, json.loads(aids or "[]"))))
     return out, run_at
+
+
+def build_tree(clusters):
+    """给页面用的板块筛选树：只列出本批真实出现过的板块，不摆空筐。"""
+    import collections
+    order = [(s["key"], s["label"]) for s in TAX_SECTORS] + [("misc", "综合")]
+    n1 = collections.Counter(c["cat_key"] for c in clusters)
+    n2 = collections.Counter((c["cat_key"], c["sub_key"]) for c in clusters if c["sub_key"])
+    lab2 = {(c["cat_key"], c["sub_key"]): c["sub"] for c in clusters if c["sub_key"]}
+    tree = []
+    for k, lab in order:
+        if not n1.get(k):
+            continue
+        subs = [dict(key=sk, label=lab2[(k, sk)], n=v)
+                for (ck, sk), v in n2.items() if ck == k]
+        subs.sort(key=lambda x: -x["n"])
+        tree.append(dict(key=k, label=lab, n=n1[k], subs=subs))
+    tree.sort(key=lambda x: -x["n"])
+    return tree
 
 
 def main():
@@ -103,12 +127,15 @@ def main():
                         calib=cl.get("calibration", {}), levels=cl.get("level_dist", {}),
                         elapsed=cl.get("elapsed", 0), mode=cl.get("mode", "vector")),
         "clusters": clusters,
+        "tree": build_tree(clusters),
         "reports": rg.get("reports", []),
         "rag": dict(engine=rg.get("engine", "—"), n=rg.get("n_reports", 0),
                     degraded=rg.get("n_degraded", 0),
                     cite_rate=rg.get("citation_marker_rate", 0),
                     elapsed=rg.get("elapsed", 0)),
         "eval": ev,
+        "registry": SRC_REGISTRY,
+        "registry_label": SRC_LABEL,
     }
     p = os.path.join(OUT, "ui_data.json")
     os.makedirs(OUT, exist_ok=True)

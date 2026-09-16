@@ -1,478 +1,478 @@
 {
  "engine": "template(降级)",
- "n_clusters": 63,
+ "n_clusters": 9,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.2,
+ "elapsed": 7.9,
  "reports": [
   {
-   "key": "fcbe91efc374a7e8",
-   "label": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
+   "key": "93e6e7b1bed1a26a",
+   "label": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
    "cached": false,
    "sections": {
-    "事件概述": "「9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫」由 22 篇报道聚合而成，覆盖 3 家媒体，热度 0.794（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大；9月16日隔夜要闻：美股三大指数收跌 沙特供应风险推升油价 金价震荡 市场关注联；10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
-    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心」由 17 篇报道聚合而成，覆盖 3 家媒体，热度 0.877（高热），所属板块类目：综合。",
+    "关键信息": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心；香港将参与国产飞机研制及认证工作；中国建设银行发布支持上海（长三角）国际科技创新中心建设高质量发展服务方案和集成电",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirvzhe8923333.shtml",
+     "title": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165950",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "9月16日隔夜要闻：美股三大指数收跌 沙特供应风险推升油价 金价震荡 市场关注联储决议",
+     "title": "香港将参与国产飞机研制及认证工作",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165923",
+     "rrf": 0.02736,
+     "bm25_rank": 29,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "中国建设银行发布支持上海（长三角）国际科技创新中心建设高质量发展服务方案和集成电路产业发展行动方案",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-16/10697269.shtml",
+     "rrf": 0.02683,
+     "bm25_rank": 7,
+     "vec_rank": 24
+    },
+    {
+     "n": 4,
+     "title": "香港首个五年规划：驱动更多国际和内地家族资本及长期资金落户香港",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165958",
+     "rrf": 0.02633,
+     "bm25_rank": 18,
+     "vec_rank": 14
+    },
+    {
+     "n": 5,
+     "title": "香港：优化科技企业上市制度，扩阔融资渠道",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-16/doc-inirykph3355284.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryvaw7890177.shtml",
+     "rrf": 0.02489,
+     "bm25_rank": 24,
+     "vec_rank": 17
+    },
+    {
+     "n": 6,
+     "title": "香港：建设国际药械权威监管机构 建立自主药械审评能力",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875891973.html",
+     "rrf": 0.02389,
+     "bm25_rank": 19,
+     "vec_rank": 29
+    },
+    {
+     "n": 7,
+     "title": "香港五年规划设有六大目标",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875865350.html",
+     "rrf": 0.01613,
+     "bm25_rank": 2,
+     "vec_rank": null
+    },
+    {
+     "n": 8,
+     "title": "电子信息制造业“十五五”规划出炉 2030年营收冲刺30万亿元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirxxxk6728471.shtml",
+     "rrf": 0.01587,
+     "bm25_rank": 3,
+     "vec_rank": null
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
+    "bm25_only": 3,
+    "vec_only": 1,
+    "both": 1,
+    "neither_topk": 3
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "36404dfe372607bf",
+   "label": "创业板指上涨2.35% 科创50拉升4.5% 全市场超4200股飘红 科技股、贵金属爆发",
+   "cached": false,
+   "sections": {
+    "事件概述": "「创业板指上涨2.35% 科创50拉升4.5% 全市场超4200股飘红 科技股、贵金属爆发」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.759（高热），所属板块类目：消费电子。",
+    "关键信息": "创业板指上涨2.35% 科创50拉升4.5% 全市场超4200股飘红 科技股、贵；创业板指涨超1%，沪指跌0.03%，深成指涨0.33%，科创50涨近2.8%，半；9月16日午间收评：科创50指数半日涨4.5%，算力硬件、半导体板块集体走强",
+    "市场影响": "关联板块代码：BK0732、BK0800、BK0877、BK0816、BK0815。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "创业板指上涨2.35% 科创50拉升4.5% 全市场超4200股飘红 科技股、贵金属爆发",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875890044.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "创业板指涨超1%，沪指跌0.03%，深成指涨0.33%，科创50涨近2.8%，半",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165892",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykpe6592249.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "9月16日美股收盘：三大指数收跌 油价回升 10年期美债收益率触及19年高位",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-16/doc-iniryefe8114192.shtml",
-     "rrf": 0.02872,
-     "bm25_rank": 15,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "中信建投期货：9月16日黑色系早报",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-16/doc-iniryqva6560199.shtml",
-     "rrf": 0.02854,
-     "bm25_rank": 5,
-     "vec_rank": 16
-    },
-    {
-     "n": 6,
-     "title": "10年期美债破5！芯片股光通信重挫，金融板块跳水，恐慌指数VIX飙升8%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirvzhe8936052.shtml",
-     "rrf": 0.02769,
-     "bm25_rank": 17,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "警报拉响，“全球资产定价之锚”攻破5%大关",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykpk3179381.shtml",
-     "rrf": 0.02727,
-     "bm25_rank": 7,
-     "vec_rank": 21
-    },
-    {
-     "n": 8,
-     "title": "华尔街见闻早餐 | 2026年9月15日",
+     "title": "9月16日午间收评：科创50指数半日涨4.5%，算力硬件、半导体板块集体走强",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165097",
-     "rrf": 0.02678,
-     "bm25_rank": 26,
-     "vec_rank": 6
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大",
-    "bm25_only": 2,
-    "vec_only": 3,
-    "both": 3,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "5c1314a3fd249d00",
-   "label": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌入式",
-   "cached": false,
-   "sections": {
-    "事件概述": "「两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌入式」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.758（爆点），所属板块类目：综合。",
-    "关键信息": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在；两部门：加强端侧大模型、计算芯片、存储芯片、操作系统兼容适配 加快智能体与终端产；两部门：提升人工智能芯片设计水平",
-    "市场影响": "关联板块代码：BK0459、BK0800、BK0428、BK1201、BK0839。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌入式系统等领域应用",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609153874206272.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "两部门：加强端侧大模型、计算芯片、存储芯片、操作系统兼容适配 加快智能体与终端产品深度融合",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609153874227464.html",
-     "rrf": 0.032,
+     "url": "https://wallstreetcn.com/livenews/3165919",
+     "rrf": 0.0315,
      "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "两部门：提升人工智能芯片设计水平",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609153874271253.html",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
      "vec_rank": 4
     },
     {
      "n": 4,
-     "title": "两部门：加快发展电子设计自动化工具（EDA）和知识产权核（IP核） 推进三维集成等技术突破和应用",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609153874169975.html",
-     "rrf": 0.02996,
-     "bm25_rank": 11,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "两部门：纵深推进北斗规模化应用 推动北斗从行业应用转向全民普及",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609153874219557.html",
+     "title": "直线拉升！605058，4连板！PCB概念股爆发",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-16/doc-iniryquy7969154.shtml",
      "rrf": 0.02986,
      "bm25_rank": 6,
      "vec_rank": 8
     },
     {
+     "n": 5,
+     "title": "上证指数早盘收报3886.48点，涨0.57%。 深证成指早盘收报13476.8",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165920",
+     "rrf": 0.02964,
+     "bm25_rank": 9,
+     "vec_rank": 6
+    },
+    {
      "n": 6,
-     "title": "两部门：提升多类型处理器微架构设计能力 提高计算芯片性能水平",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirwfqk4019223.shtml",
-     "rrf": 0.02908,
-     "bm25_rank": 13,
-     "vec_rank": 5
+     "title": "存储坚挺+AI爆发，芯片ETF东财上涨3.59%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875861460.html",
+     "rrf": 0.02951,
+     "bm25_rank": 4,
+     "vec_rank": 12
     },
     {
      "n": 7,
-     "title": "两部门：推动光子产业核心环节技术取得突破 支持光子设计自动化、光电协同设计自动化等仿真设计软件研发迭代",
+     "title": "政策暖风叠加周期上行，科创50ETF东财涨超3.8%",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609153874197658.html",
-     "rrf": 0.02899,
-     "bm25_rank": 9,
+     "url": "https://finance.eastmoney.com/a/202609163875875219.html",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
      "vec_rank": 9
     },
     {
      "n": 8,
-     "title": "OpenAI首席执行官支持对前沿AI研发“控制节奏”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirupfa4036657.shtml",
-     "rrf": 0.02767,
-     "bm25_rank": 4,
-     "vec_rank": 23
+     "title": "科创50指数涨超3%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165899",
+     "rrf": 0.02908,
+     "bm25_rank": 13,
+     "vec_rank": 5
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在",
-    "bm25_only": 1,
+    "query": "创业板指上涨2.35% 科创50拉升4.5% 全市场超4200股飘红 科技股、贵",
+    "bm25_only": 2,
     "vec_only": 2,
     "both": 4,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "9eb63ed44f4e92fc",
-   "label": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？",
-   "cached": false,
-   "sections": {
-    "事件概述": "「结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？」由 8 篇报道聚合而成，覆盖 4 家媒体，热度 0.709（爆点），所属板块类目：宏观政策。",
-    "关键信息": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？；中国央行将等量续作6个月期买断式逆回购；流动性“收长放短”，9月买断式逆回购停止加量",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-iniruxuy4564758.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "中国央行将等量续作6个月期买断式逆回购",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-14/10696375.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "流动性“收长放短”，9月买断式逆回购停止加量",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirxats8588263.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "央行等量续做6个月期买断式逆回购",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/gzqh/futuresyspzx/2026-09-14/doc-inirvqss4260365.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "央行：开展了5970亿元隔夜逆回购操作",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609153874273495.html",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "中国央行公开市场今日净投放920亿元人民币",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165134",
-     "rrf": 0.03009,
-     "bm25_rank": 5,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "9月16日央行开展1100亿元7天期逆回购操作",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-16/10697185.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 8,
-     "vec_rank": 6
-    },
-    {
-     "n": 8,
-     "title": "央行今日开展1100亿元人民币7天期逆回购操作",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609163875615466.html",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 8,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "887288c00b56ade4",
-   "label": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店只卖",
+   "key": "74ce2ab2ca8b6c13",
+   "label": "新华鲜报丨平陆运河建成通航 西南从“内陆”变“沿海”",
    "cached": false,
    "sections": {
-    "事件概述": "「华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店只卖」由 18 篇报道聚合而成，覆盖 2 家媒体，热度 0.708（爆点），所属板块类目：综合。",
-    "关键信息": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：；问界合作模式调整：赛力斯主导全链条，华为赋能；问界仍属鸿蒙智行五界，但品牌渠道等转由赛力斯主导",
+    "事件概述": "「新华鲜报丨平陆运河建成通航 西南从“内陆”变“沿海”」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.589（升温中），所属板块类目：综合。",
+    "关键信息": "新华鲜报丨平陆运河建成通航 西南从“内陆”变“沿海”；平陆运河通航西南货物出海少走560公里；开“新”平陆运河丨少跑623公里，一图看懂航程巨变",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店只卖问界车",
+     "title": "新华鲜报丨平陆运河建成通航 西南从“内陆”变“沿海”",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/t/2026-09-15/doc-inirxhzu3656219.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryvaw7871978.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "问界合作模式调整：赛力斯主导全链条，华为赋能",
+     "title": "平陆运河通航西南货物出海少走560公里",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/t/2026-09-15/doc-inirxaty3753754.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryvaw7885791.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 2,
+     "vec_rank": 5
+    },
+    {
+     "n": 3,
+     "title": "开“新”平陆运河丨少跑623公里，一图看懂航程巨变",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryqve3282708.shtml",
      "rrf": 0.0315,
      "bm25_rank": 4,
      "vec_rank": 3
     },
     {
-     "n": 3,
-     "title": "问界仍属鸿蒙智行五界，但品牌渠道等转由赛力斯主导",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/wbstock/2026-09-15/doc-inirxatu6941271.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
      "n": 4,
-     "title": "华为与赛力斯合作模式调整后资源聚焦其余四大品牌",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165488",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
+     "title": "新华社权威快报丨平陆运河建成通航",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryvay6642479.shtml",
+     "rrf": 0.0308,
+     "bm25_rank": 3,
+     "vec_rank": 7
     },
     {
      "n": 5,
-     "title": "问界官宣重磅调整：赛力斯主导五大核心领域，华为终端退居赋能角色",
+     "title": "运河正式通航",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/roll/2026-09-15/doc-inirxatw3735361.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
-     "vec_rank": 5
+     "url": "https://finance.sina.com.cn/wm/2026-09-16/doc-iniryvaw7895524.shtml",
+     "rrf": 0.03041,
+     "bm25_rank": 10,
+     "vec_rank": 2
     },
     {
      "n": 6,
-     "title": "赛力斯接管问界 撑得住华为给的身价吗？",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609153875769261.html",
-     "rrf": 0.02996,
-     "bm25_rank": 3,
-     "vec_rank": 11
+     "title": "平陆运河，正式通航！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-09-16/doc-iniryvay6618042.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
+     "vec_rank": 4
     },
     {
      "n": 7,
-     "title": "华为与赛力斯合作生变，问界交由赛力斯主导",
+     "title": "平陆运河正式通航 下行首艘船舶通过马道枢纽",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/roll/2026-09-15/doc-inirxatu6968962.shtml",
-     "rrf": 0.02963,
-     "bm25_rank": 7,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryvca3422284.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 9,
+     "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "华为与赛力斯合作模式正式调整 鸿蒙智行：华为终端参与赋能，产品定义、品牌营销、渠道零售等由赛力斯主导",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/t/2026-09-15/doc-inirxatw3741384.shtml",
-     "rrf": 0.02912,
-     "bm25_rank": 2,
-     "vec_rank": 17
+     "title": "西部陆海新通道骨干工程——平陆运河正式通航。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165883",
+     "rrf": 0.02963,
+     "bm25_rank": 7,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：",
-    "bm25_only": 2,
-    "vec_only": 0,
+    "query": "新华鲜报丨平陆运河建成通航 西南从“内陆”变“沿海”",
+    "bm25_only": 0,
+    "vec_only": 2,
     "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "174167b00053aaa2",
-   "label": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
+   "key": "1584b44dcaa92d65",
+   "label": "下游车企加速“去宁德化”？宁德时代连日下挫创阶段新低，较高位回调超35%",
    "cached": false,
    "sections": {
-    "事件概述": "「10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨」由 18 篇报道聚合而成，覆盖 2 家媒体，热度 0.679（爆点），所属板块类目：宏观政策。",
-    "关键信息": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨；10年期美债破5！芯片股光通信重挫，金融板块跳水，恐慌指数VIX飙升8%；盘前：纳指期货跌0.07% 美债收益率持续攀升",
+    "事件概述": "「下游车企加速“去宁德化”？宁德时代连日下挫创阶段新低，较高位回调超35%」由 5 篇报道聚合而成，覆盖 2 家媒体，热度 0.552（升温中），所属板块类目：综合。",
+    "关键信息": "下游车企加速“去宁德化”？宁德时代连日下挫创阶段新低，较高位回调超35%；港股锂电池股开盘下挫 宁德时代H股跌超4%；宁德时代跌超5%失守300元大关 股价续创1年以来新低",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
+     "title": "下游车企加速“去宁德化”？宁德时代连日下挫创阶段新低，较高位回调超35%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykpe6592249.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryqve3419208.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "10年期美债破5！芯片股光通信重挫，金融板块跳水，恐慌指数VIX飙升8%",
+     "title": "港股锂电池股开盘下挫 宁德时代H股跌超4%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirvzhe8936052.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 3,
-     "title": "盘前：纳指期货跌0.07% 美债收益率持续攀升",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxhzu3737900.shtml",
-     "rrf": 0.03105,
-     "bm25_rank": 7,
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-09-16/doc-iniryqva6601339.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
-     "n": 4,
-     "title": "国际油价涨超2%，金银下挫，美股三大期指集体下跌",
+     "n": 3,
+     "title": "宁德时代跌超5%失守300元大关 股价续创1年以来新低",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/wbstock/2026-09-15/doc-inirxhzq8472364.shtml",
-     "rrf": 0.03078,
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryquy7976411.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "“宁王”大跌，欣旺达大涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-09-16/doc-iniryvca3403444.shtml",
+     "rrf": 0.03101,
      "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "宁德时代A股、港股延续跌势，均跌超4%，A股股价下行接近300元关口。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165872",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "中创新航盘中涨超7% 车企加速绑定二线电池厂商公司客户结构持续优化",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-16/doc-iniryvce3044263.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 6,
+     "vec_rank": 9
+    },
+    {
+     "n": 7,
+     "title": "WTI继续刷新下半年高点，供应担忧发酵，警惕高位风险",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-16/doc-inirykpk3191139.shtml",
+     "rrf": 0.02685,
+     "bm25_rank": 15,
+     "vec_rank": 14
+    },
+    {
+     "n": 8,
+     "title": "吉利回应宁德时代收购电池公司：未放弃电池自研 “85亿元投资”不实",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875890126.html",
+     "rrf": 0.02683,
+     "bm25_rank": 7,
+     "vec_rank": 24
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "下游车企加速“去宁德化”？宁德时代连日下挫创阶段新低，较高位回调超35%",
+    "bm25_only": 2,
+    "vec_only": 0,
+    "both": 5,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "4a277917405465f5",
+   "label": "8月新兴产业延续较好态势 稳增长政策效用有待释放",
+   "cached": false,
+   "sections": {
+    "事件概述": "「8月新兴产业延续较好态势 稳增长政策效用有待释放」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.509（升温中），所属板块类目：宏观政策。",
+    "关键信息": "8月新兴产业延续较好态势 稳增长政策效用有待释放；一组数据看8月份国民经济运行平稳、发展向新向优；1至7月份秦皇岛经济运行延续稳中向新稳中向优发展态势",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "8月新兴产业延续较好态势 稳增长政策效用有待释放",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykpa8016119.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "一组数据看8月份国民经济运行平稳、发展向新向优",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-16/10697320.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "1至7月份秦皇岛经济运行延续稳中向新稳中向优发展态势",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirykpk3199156.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "1至8月，北京市居民消费价格同比上涨0.6%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryvca3353105.shtml",
+     "rrf": 0.03102,
+     "bm25_rank": 3,
      "vec_rank": 6
     },
     {
      "n": 5,
-     "title": "美国10年期国债收益率2023年以来首次升破5%",
+     "title": "前8个月经济运行呈现向新向优发展态势",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4360288.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 15,
-     "vec_rank": 3
+     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirxxxn3500999.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 7,
+     "vec_rank": 8
     },
     {
      "n": 6,
-     "title": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
+     "title": "财信宏观丨内需延续走弱，政策加力在路上——2026年1-8月份经济数据点评",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirvzhe8923333.shtml",
-     "rrf": 0.02762,
-     "bm25_rank": 2,
-     "vec_rank": 27
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-16/doc-iniryqve3326389.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
     },
     {
      "n": 7,
-     "title": "开盘：三大股指齐跌，10年期美债收益率创19年新高，AI 芯片股反弹",
+     "title": "8月经济向新向优 扩内需加力正当时",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxpiu3573151.shtml",
-     "rrf": 0.02753,
-     "bm25_rank": 8,
-     "vec_rank": 18
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryqvh3096539.shtml",
+     "rrf": 0.02869,
+     "bm25_rank": 18,
+     "vec_rank": 3
     },
     {
      "n": 8,
-     "title": "10年期美债收益率自2023年以来首次突破5%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkkn9211930.shtml",
-     "rrf": 0.02683,
-     "bm25_rank": 24,
+     "title": "1至8月全国铁路完成固定资产投资5118亿元 同比增长1.5%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875853237.html",
+     "rrf": 0.02862,
+     "bm25_rank": 13,
      "vec_rank": 7
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
-    "bm25_only": 2,
+    "query": "8月新兴产业延续较好态势 稳增长政策效用有待释放",
+    "bm25_only": 1,
     "vec_only": 2,
-    "both": 4,
+    "both": 5,
     "neither_topk": 0
    },
    "elapsed": 0.0

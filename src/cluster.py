@@ -47,7 +47,9 @@ FALLBACK_CAT = dict(key="misc", label="综合", kw=[])
 # 程式化公告噪声：单家媒体批量发布的模板文本，不构成"热点"
 NOISE_PAT = re.compile(r"(临时股东会|股东大会|业绩说明会|业绩发布会|获.{0,8}增持|遭.{0,8}减持|"
                        r"授出.{0,6}股份|发行.{0,6}新股|回购.{0,4}股份|股份质押|限售股|解除质押|"
-                       r"董事会决议|监事会决议|募集资金|龙虎榜|涨停板|资金流向|每股作价)")
+                       r"董事会决议|监事会决议|募集资金|龙虎榜|涨停板|资金流向|每股作价|"
+                       r"可转换公司债券|可转债|律师事务所|保荐|摊薄即期回报|独立董事|"
+                       r"关联交易|业绩预告|限制性股票|激励计划|会计师事务所)")
 
 def is_noise(title):
     return bool(NOISE_PAT.search(str(title or "")))
@@ -58,6 +60,12 @@ def db():
         id INTEGER PRIMARY KEY AUTOINCREMENT, run_at TEXT, label TEXT, category TEXT,
         n_articles INTEGER, n_media INTEGER, heat_score REAL, importance INTEGER,
         heat_factors TEXT, time_span TEXT, sectors TEXT, article_ids TEXT, rep_title TEXT)""")
+    # 两级板块：老库没有这两列，按需补上（重复执行无害）
+    for col in ("cat_key TEXT", "subcategory TEXT", "sub_key TEXT"):
+        try:
+            c.execute("ALTER TABLE clusters ADD COLUMN %s" % col)
+        except sqlite3.OperationalError:
+            pass
     return c
 
 # ---------------- 并查集 ----------------
@@ -95,13 +103,29 @@ def cluster_by_keywords(arts):
         groups[category_of(a)["key"]].append(i)
     return list(groups.values()), 0
 
+from taxonomy import classify as _classify, SECTORS as TAX_SECTORS  # 两级板块词表
+
+
 def category_of(a):
-    text = f"{a['title']} {(a.get('content') or '')[:200]}"
-    best, hits = FALLBACK_CAT, 0
-    for c in CATEGORIES:
-        h = sum(1 for k in c["kw"] if k.lower() in text.lower())
-        if h > hits: best, hits = c, h
-    return best
+    """兼容旧接口：返回 {key,label}，key 为一级板块。"""
+    r = _classify(a)
+    return dict(key=r["l1"], label=r["l1_label"])
+
+
+def category2_of(members):
+    """簇级两级板块：先按成员投票定一级，再在该一级内投票定二级。
+
+    投票而不是取第一篇，是因为一条热点里常混着几篇边缘稿；
+    二级必须限定在已定的一级之内，否则会出现「一级金融、二级存储」这种错配。"""
+    rs = [_classify(a) for a in members]
+    l1 = Counter(r["l1"] for r in rs).most_common(1)[0][0]
+    lab1 = next((r["l1_label"] for r in rs if r["l1"] == l1), "综合")
+    subs = Counter(r["l2"] for r in rs if r["l1"] == l1 and r["l2"])
+    if not subs:
+        return l1, lab1, None, None
+    l2 = subs.most_common(1)[0][0]
+    lab2 = next((r["l2_label"] for r in rs if r["l2"] == l2), None)
+    return l1, lab1, l2, lab2
 
 # ---------------- 热度模型 ----------------
 def compute_heat(members, active=None, calib=None):
@@ -245,18 +269,20 @@ def run(min_size=2, min_media=2, use_vector=True, verbose=True):
     for g in multi:
         members = [arts[i] for i in g]
         h = compute_heat(members, active, calib)
-        cat = Counter(category_of(a)["label"] for a in members).most_common(1)[0][0]
-        rec = dict(label=label_of(members), category=cat, n_articles=len(members),
+        ck, cat, sk, sub = category2_of(members)
+        rec = dict(label=label_of(members), category=cat, subcategory=sub,
+                   cat_key=ck, sub_key=sk, n_articles=len(members),
                    sectors=sectors_of(members), rep_title=label_of(members),
                    article_ids=[a["id"] for a in members], **h)
         out.append(rec)
         conn.execute("INSERT INTO clusters(run_at,label,category,n_articles,n_media,heat_score,"
-                     "importance,heat_factors,time_span,sectors,article_ids,rep_title)"
-                     " VALUES(?,?,?,?,?,?,?,?,?,?,?,?)",
+                     "importance,heat_factors,time_span,sectors,article_ids,rep_title,"
+                     "cat_key,subcategory,sub_key)"
+                     " VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                      (run_at, rec["label"], cat, len(members), h["n_media"], h["heat_score"],
                       h["importance"], json.dumps(h["factors"], ensure_ascii=False), h["time_span"],
                       json.dumps(rec["sectors"], ensure_ascii=False),
-                      json.dumps(rec["article_ids"]), rec["rep_title"]))
+                      json.dumps(rec["article_ids"]), rec["rep_title"], ck, sub, sk))
     conn.commit()
     out.sort(key=lambda x: -x["heat_score"])
     assign_levels(out)

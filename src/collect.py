@@ -54,6 +54,48 @@ def _paged(keys, pages=(2, 3, 4)):
 
 SOURCES += _paged(["sina_finance", "sina_tech", "sina_world", "sina_stock"])
 
+
+# ── 披露源：法定披露平台与监管数据库 ────────────────────────────────
+# 与新闻源的区别：公告是「事实」，新闻是「对事实的转述」。
+# 做投研，公告优先级更高——但公告量太大且噪声重，所以按板块关键词检索，
+# 不做全市场灌入。关键词与 taxonomy.py 的二级板块对齐。
+CNINFO_PROBES = ["存储芯片", "半导体", "算力", "消费电子", "晶圆"]
+EDGAR_PROBES = ["HBM", "memory pricing", "advanced packaging", "wafer capacity"]
+
+
+ANN_WINDOW_DAYS = 7          # 公告只取近一周，和分析窗口对齐
+
+
+def _cninfo(kw, page_size=30):
+    end = datetime.now(CST).date()
+    start = end - timedelta(days=ANN_WINDOW_DAYS)
+    return dict(
+        key="cninfo_%s" % kw, media="巨潮资讯", channel="沪深公告", type="api_cninfo",
+        method="POST", probe=kw,
+        url="http://www.cninfo.com.cn/new/hisAnnouncement/query",
+        headers={"Content-Type": "application/x-www-form-urlencoded",
+                 "Referer": "http://www.cninfo.com.cn/new/commonUrl?url=disclosure/list/notice"},
+        data={"pageNum": 1, "pageSize": page_size, "column": "szse", "tabName": "fulltext",
+              "plate": "", "searchkey": kw, "secid": "", "category": "", "trade": "",
+              "seDate": "%s~%s" % (start, end), "sortName": "", "sortType": "",
+              "isHLtitle": "true"},
+    )
+
+
+def _edgar(kw, forms="8-K"):
+    import urllib.parse as _u
+    return dict(
+        key="edgar_%s" % kw.replace(" ", "_"), media="SEC EDGAR", channel="美股披露",
+        type="api_edgar", probe=kw,
+        url="https://efts.sec.gov/LATEST/search-index?q=%s&forms=%s" % (_u.quote('"%s"' % kw), forms),
+        # efts 的 dateRange 参数在本项目实测不生效，改为解析阶段按窗口过滤
+        headers={"User-Agent": "market-signal-radar research shutong_kim@163.com"},
+    )
+
+
+SOURCES += [_cninfo(k) for k in CNINFO_PROBES]
+SOURCES += [_edgar(k) for k in EDGAR_PROBES]
+
 # ---------------- 存储 ----------------
 def db():
     os.makedirs(os.path.dirname(DB), exist_ok=True)
@@ -136,12 +178,72 @@ def parse_rss(text, src):
                         published_at=pt, raw={}))
     return out
 
-PARSERS = {"api_sina": parse_sina, "api_em": parse_em, "api_wscn": parse_wscn}
+def parse_cninfo(j, src):
+    """巨潮资讯：沪深两市的法定指定披露平台，公告原文都在这里。
+
+    不做全市场灌入——那是 39 万条量级，且绝大多数是程式化公告。
+    改为按板块关键词检索，谁在关心哪条线，就只把那条线的公告拉进来。"""
+    def _tight(t):                       # <em> 高亮剥掉后会在中文之间留空格
+        return re.sub(r"(?<=[\u4e00-\u9fff]) +(?=[\u4e00-\u9fff])", "", t)
+
+    out = []
+    for d in (j.get("announcements") or []):
+        title = _tight(clean(d.get("announcementTitle")))
+        sec = _tight(clean(d.get("secName")))
+        if len(title) < 4:
+            continue
+        adj = d.get("adjunctUrl") or ""
+        out.append(dict(
+            title=("%s：%s" % (sec, title)) if sec else title,
+            content=clean(d.get("announcementTypeName") or ""),
+            url=("http://static.cninfo.com.cn/" + adj) if adj else "",
+            published_at=ts2str(int(d.get("announcementTime", 0)) // 1000),
+            raw=dict(sec_code=d.get("secCode"), sec_name=sec,
+                     plate=d.get("orgId"), probe=src.get("probe"))))
+    return out
+
+
+EDGAR_WINDOW_DAYS = 45      # 美股披露密度低，窗口放宽到 45 天
+
+
+def parse_edgar(j, src):
+    """SEC EDGAR 全文检索：海外对标公司的 8-K / 10-Q 原文。
+
+    A 股口径看不到的东西，往往先出现在美股的 8-K 里——
+    电子这条链上，设备、存储、封装的对标公司几乎都在美股。"""
+    out = []
+    cut = (datetime.now(CST) - timedelta(days=EDGAR_WINDOW_DAYS)).strftime("%Y-%m-%d")
+    for h in (j.get("hits", {}).get("hits") or []):
+        so = h.get("_source", {})
+        if (so.get("file_date") or "") < cut:      # 全文检索会一路翻到 2010 年，按窗口截断
+            continue
+        names = so.get("display_names") or []
+        form = so.get("form", "")
+        title = "%s %s：%s" % (names[0].split("  (")[0] if names else "SEC",
+                              form, src.get("probe", ""))
+        aid = (h.get("_id") or "").split(":")
+        acc = aid[0].replace("-", "") if aid else ""
+        cik = (so.get("ciks") or ["0"])[0].lstrip("0")
+        url = ("https://www.sec.gov/Archives/edgar/data/%s/%s/%s" % (cik, acc, aid[1])
+               if len(aid) > 1 and cik else "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany")
+        out.append(dict(title=clean(title), content=", ".join(names)[:200], url=url,
+                        published_at=(so.get("file_date") or "")[:10] + " 00:00:00",
+                        raw=dict(form=form, ciks=so.get("ciks"), probe=src.get("probe"))))
+    return out
+
+
+PARSERS = {"api_sina": parse_sina, "api_em": parse_em, "api_wscn": parse_wscn,
+           "api_cninfo": parse_cninfo, "api_edgar": parse_edgar}
 
 def fetch_one(client, src):
-    """单站采集，异常隔离：失败只影响该站"""
-    r = client.get(src["url"], headers=HEADERS, timeout=httpx.Timeout(20.0, connect=10.0),
-                   follow_redirects=True)
+    """单站采集，异常隔离：失败只影响该站。支持 GET / POST 与自定义请求头。"""
+    hdr = dict(HEADERS, **(src.get("headers") or {}))
+    to = httpx.Timeout(25.0, connect=10.0)
+    if src.get("method") == "POST":
+        r = client.post(src["url"], data=src.get("data"), json=src.get("json"),
+                        headers=hdr, timeout=to, follow_redirects=True)
+    else:
+        r = client.get(src["url"], headers=hdr, timeout=to, follow_redirects=True)
     r.raise_for_status()
     if src["type"] == "rss":
         r.encoding = "utf-8"
