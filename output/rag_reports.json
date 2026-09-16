@@ -1,18 +1,112 @@
 {
  "engine": "template(降级)",
- "n_clusters": 40,
+ "n_clusters": 56,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.6,
+ "elapsed": 6.3,
  "reports": [
   {
-   "key": "7637e4b3a46516db",
+   "key": "edd7d3979d287dcc",
+   "label": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
+   "cached": false,
+   "sections": {
+    "事件概述": "「9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫」由 22 篇报道聚合而成，覆盖 3 家媒体，热度 0.794（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大；9月16日隔夜要闻：美股三大指数收跌 沙特供应风险推升油价 金价震荡 市场关注联；10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
+    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirvzhe8923333.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "9月16日隔夜要闻：美股三大指数收跌 沙特供应风险推升油价 金价震荡 市场关注联储决议",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-09-16/doc-inirykph3355284.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykpe6592249.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "中信建投期货：9月16日黑色系早报",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-16/doc-iniryqva6560199.shtml",
+     "rrf": 0.02854,
+     "bm25_rank": 5,
+     "vec_rank": 16
+    },
+    {
+     "n": 5,
+     "title": "9月16日美股收盘：三大指数收跌 油价回升 10年期美债收益率触及19年高位",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-09-16/doc-iniryefe8114192.shtml",
+     "rrf": 0.02854,
+     "bm25_rank": 16,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "10年期美债破5！芯片股光通信重挫，金融板块跳水，恐慌指数VIX飙升8%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirvzhe8936052.shtml",
+     "rrf": 0.02769,
+     "bm25_rank": 17,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "警报拉响，“全球资产定价之锚”攻破5%大关",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykpk3179381.shtml",
+     "rrf": 0.02727,
+     "bm25_rank": 7,
+     "vec_rank": 21
+    },
+    {
+     "n": 8,
+     "title": "华尔街见闻早餐 | 2026年9月15日",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165097",
+     "rrf": 0.02678,
+     "bm25_rank": 26,
+     "vec_rank": 6
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大",
+    "bm25_only": 2,
+    "vec_only": 3,
+    "both": 3,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "ba51142c1188d9a0",
    "label": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌入式",
    "cached": false,
    "sections": {
-    "事件概述": "「两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌入式」由 16 篇报道聚合而成，覆盖 3 家媒体，热度 0.813（爆点），所属板块类目：综合。",
+    "事件概述": "「两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌入式」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.758（爆点），所属板块类目：综合。",
     "关键信息": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在；两部门：加强端侧大模型、计算芯片、存储芯片、操作系统兼容适配 加快智能体与终端产；两部门：提升人工智能芯片设计水平",
     "市场影响": "关联板块代码：BK0459、BK0800、BK0428、BK1201、BK0839。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -86,9 +180,9 @@
      "title": "OpenAI首席执行官支持对前沿AI研发“控制节奏”",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirupfa4036657.shtml",
-     "rrf": 0.02828,
+     "rrf": 0.02782,
      "bm25_rank": 4,
-     "vec_rank": 19
+     "vec_rank": 22
     }
    ],
    "degraded": 1,
@@ -102,11 +196,11 @@
    "elapsed": 0.0
   },
   {
-   "key": "186e13029c1fe796",
+   "key": "4ff185ebab718050",
    "label": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店只卖",
    "cached": false,
    "sections": {
-    "事件概述": "「华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店只卖」由 17 篇报道聚合而成，覆盖 2 家媒体，热度 0.765（爆点），所属板块类目：综合。",
+    "事件概述": "「华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店只卖」由 18 篇报道聚合而成，覆盖 2 家媒体，热度 0.708（爆点），所属板块类目：综合。",
     "关键信息": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：；问界合作模式调整：赛力斯主导全链条，华为赋能；问界仍属鸿蒙智行五界，但品牌渠道等转由赛力斯主导",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -162,27 +256,27 @@
      "title": "华为与赛力斯合作生变，问界交由赛力斯主导",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/roll/2026-09-15/doc-inirxatu6968962.shtml",
-     "rrf": 0.03008,
+     "rrf": 0.02986,
      "bm25_rank": 6,
-     "vec_rank": 7
+     "vec_rank": 8
     },
     {
      "n": 7,
      "title": "华为与赛力斯合作模式正式调整 鸿蒙智行：华为终端参与赋能，产品定义、品牌营销、渠道零售等由赛力斯主导",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/t/2026-09-15/doc-inirxatw3741384.shtml",
-     "rrf": 0.02946,
+     "rrf": 0.02929,
      "bm25_rank": 2,
-     "vec_rank": 15
+     "vec_rank": 16
     },
     {
      "n": 8,
      "title": "鸿蒙智行官宣问界合作模式调整：赛力斯主导、华为赋能",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/t/2026-09-15/doc-inirxats8569631.shtml",
-     "rrf": 0.0292,
+     "rrf": 0.02899,
      "bm25_rank": 8,
-     "vec_rank": 9
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
@@ -196,21 +290,21 @@
    "elapsed": 0.0
   },
   {
-   "key": "d6d7582fd2ed0628",
-   "label": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
+   "key": "9d1073e264f28d50",
+   "label": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
    "cached": false,
    "sections": {
-    "事件概述": "「9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫」由 14 篇报道聚合而成，覆盖 3 家媒体，热度 0.739（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大；10年期美债破5！芯片股光通信重挫，金融板块跳水，恐慌指数VIX飙升8%；华尔街见闻早餐 | 2026年9月15日",
-    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨」由 18 篇报道聚合而成，覆盖 2 家媒体，热度 0.679（爆点），所属板块类目：宏观政策。",
+    "关键信息": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨；10年期美债破5！芯片股光通信重挫，金融板块跳水，恐慌指数VIX飙升8%；盘前：纳指期货跌0.07% 美债收益率持续攀升",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
+     "title": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirvzhe8923333.shtml",
+     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykpe6592249.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
@@ -220,162 +314,68 @@
      "title": "10年期美债破5！芯片股光通信重挫，金融板块跳水，恐慌指数VIX飙升8%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirvzhe8936052.shtml",
-     "rrf": 0.02976,
-     "bm25_rank": 12,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "华尔街见闻早餐 | 2026年9月15日",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165097",
-     "rrf": 0.02929,
-     "bm25_rank": 16,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "美银CEO预计第三季交易收入“相对持平” 华尔街大行股价应声重挫",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-15/doc-inirvqsq3900992.shtml",
-     "rrf": 0.02858,
-     "bm25_rank": 9,
-     "vec_rank": 11
-    },
-    {
-     "n": 5,
-     "title": "光大期货0915黄金点评：10年期美债收益率突破5%，黄金延续弱势运行",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-09-15/doc-inirwfqa8858481.shtml",
-     "rrf": 0.02848,
-     "bm25_rank": 15,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "10年期美债收益率冲破5%！“预言家”警告：抛售还没结束",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-09-14/doc-inirvkku4374787.shtml",
-     "rrf": 0.02807,
+     "rrf": 0.03126,
      "bm25_rank": 3,
-     "vec_rank": 22
-    },
-    {
-     "n": 7,
-     "title": "美联储，重磅来袭！美债风暴席卷，全球资产跳水！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirxhzu3722418.shtml",
-     "rrf": 0.02725,
-     "bm25_rank": 4,
-     "vec_rank": 26
-    },
-    {
-     "n": 8,
-     "title": "美国10年期国债收益率2023年以来首次升破5%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4360288.shtml",
-     "rrf": 0.02711,
-     "bm25_rank": 10,
-     "vec_rank": 18
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大",
-    "bm25_only": 2,
-    "vec_only": 3,
-    "both": 1,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "d7130b48fc8260b2",
-   "label": "深夜，广汽集团公布停牌原因！拟并购标的为“整车企业”部分股权，且在境外上市",
-   "cached": false,
-   "sections": {
-    "事件概述": "「深夜，广汽集团公布停牌原因！拟并购标的为“整车企业”部分股权，且在境外上市」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.736（爆点），所属板块类目：汽车出行。",
-    "关键信息": "深夜，广汽集团公布停牌原因！拟并购标的为“整车企业”部分股权，且在境外上市；广汽集团：拟发行股份收购某整车合资公司部分股权并停牌；​广汽“换股”一汽：南北丰田整合走向台前",
-    "市场影响": "关联板块代码：BK0499、BK1029。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "深夜，广汽集团公布停牌原因！拟并购标的为“整车企业”部分股权，且在境外上市",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/s/2026-09-15/doc-inirvkku4385490.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "广汽集团：拟发行股份收购某整车合资公司部分股权并停牌",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3164878",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "​广汽“换股”一汽：南北丰田整合走向台前",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-15/doc-inirxats8563824.shtml",
-     "rrf": 0.03058,
-     "bm25_rank": 8,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "广汽集团H股涨超12% 拟发A股购一汽股份所持合资车企股权",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609153874363390.html",
-     "rrf": 0.03037,
-     "bm25_rank": 3,
-     "vec_rank": 9
-    },
-    {
-     "n": 5,
-     "title": "汽车整车股延续涨势，安凯客车2连板，众泰汽车、海马汽车、中通客车、曙光股份等纷纷",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165138",
-     "rrf": 0.02991,
-     "bm25_rank": 4,
-     "vec_rank": 10
-    },
-    {
-     "n": 6,
-     "title": "央地汽车巨头重磅“联姻”！拟发股收购旗下合资车企",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-09-15/doc-inirxhzs6877965.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 9,
      "vec_rank": 5
     },
     {
-     "n": 7,
-     "title": "广汽集团H股复牌大涨近16%，一汽拟入股成第二大股东",
+     "n": 3,
+     "title": "盘前：纳指期货跌0.07% 美债收益率持续攀升",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-09-15/doc-inirwmvy8736597.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxhzu3737900.shtml",
+     "rrf": 0.03105,
+     "bm25_rank": 7,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "国际油价涨超2%，金银下挫，美股三大期指集体下跌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/wbstock/2026-09-15/doc-inirxhzq8472364.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "美国10年期国债收益率2023年以来首次升破5%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4360288.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 15,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirvzhe8923333.shtml",
+     "rrf": 0.02762,
+     "bm25_rank": 2,
+     "vec_rank": 27
+    },
+    {
+     "n": 7,
+     "title": "开盘：三大股指齐跌，10年期美债收益率创19年新高，AI 芯片股反弹",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxpiu3573151.shtml",
+     "rrf": 0.02753,
+     "bm25_rank": 8,
+     "vec_rank": 18
     },
     {
      "n": 8,
-     "title": "​广汽集团​：H股将于今天上午9时起恢复买卖",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165119",
-     "rrf": 0.02765,
-     "bm25_rank": 20,
-     "vec_rank": 6
+     "title": "10年期美债收益率自2023年以来首次突破5%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkkn9211930.shtml",
+     "rrf": 0.02669,
+     "bm25_rank": 25,
+     "vec_rank": 7
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "深夜，广汽集团公布停牌原因！拟并购标的为“整车企业”部分股权，且在境外上市",
+    "query": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
     "bm25_only": 2,
     "vec_only": 2,
     "both": 4,
@@ -384,96 +384,96 @@
    "elapsed": 0.0
   },
   {
-   "key": "842f0e1b0e8182e0",
-   "label": "沙特东西输油管道大部分运力或停摆三至五周，红海出口通道再度受限",
+   "key": "230e69aa55ba1fc9",
+   "label": "同程旅行：坚决落实在线酒店预订平台服务行业合规要求 反对“内卷式”的恶性竞争",
    "cached": false,
    "sections": {
-    "事件概述": "「沙特东西输油管道大部分运力或停摆三至五周，红海出口通道再度受限」由 7 篇报道聚合而成，覆盖 2 家媒体，热度 0.71（高热），所属板块类目：国际市场。",
-    "关键信息": "沙特东西输油管道大部分运力或停摆三至五周，红海出口通道再度受限；沙特关键输油管道遇袭受损 主力运力将停运数周；沙特东西输油管道遭无人机袭击后停运 关键石油绕行通道受阻",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「同程旅行：坚决落实在线酒店预订平台服务行业合规要求 反对“内卷式”的恶性竞争」由 7 篇报道聚合而成，覆盖 4 家媒体，热度 0.664（爆点），所属板块类目：综合。",
+    "关键信息": "同程旅行：坚决落实在线酒店预订平台服务行业合规要求 反对“内卷式”的恶性竞争；美团：坚决落实在线酒店预订平台服务行业合规要求；携程集团：坚决落实在线酒店预订行业合规要求",
+    "市场影响": "关联板块代码：BK1560、BK000118。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "沙特东西输油管道大部分运力或停摆三至五周，红海出口通道再度受限",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwwmy3716134.shtml",
+     "title": "同程旅行：坚决落实在线酒店预订平台服务行业合规要求 反对“内卷式”的恶性竞争",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609153874880076.html",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "沙特关键输油管道遇袭受损 主力运力将停运数周",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609143873636842.html",
-     "rrf": 0.03226,
+     "title": "美团：坚决落实在线酒店预订平台服务行业合规要求",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165536",
+     "rrf": 0.032,
      "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "沙特东西输油管道遭无人机袭击后停运 关键石油绕行通道受阻",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirupew9516090.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "石油安全缓冲正在失效，沙特加紧抢修关键输油管道",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxhzw3656909.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
      "vec_rank": 3
     },
     {
-     "n": 5,
-     "title": "输油管道关闭后 亚洲炼油商等待沙特方面最新消息",
+     "n": 3,
+     "title": "携程集团：坚决落实在线酒店预订行业合规要求",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165491",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "针对“全网最低价”等问题，两部门开展行政指导！",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-14/doc-inirutny4085756.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
+     "url": "https://finance.sina.com.cn/wm/2026-09-15/doc-inirxhzq8489022.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "两部门对在线酒店预订平台服务行业开展行政指导",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirykpa8026834.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
      "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "沙特关闭关键输油管道，油价应声上涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirutnu9459293.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 5,
-     "vec_rank": 9
+     "title": "中国两部门要求酒店预订平台防范“全网最低价”等问题",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-15/10697069.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
     },
     {
      "n": 7,
-     "title": "油价大涨 据报沙特输油管道重启需数周",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirveau4047145.shtml",
-     "rrf": 0.02942,
-     "bm25_rank": 9,
+     "title": "飞猪：坚决抵制“排他性独家合作”、“全网最低价”等不正当竞争行为",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165538",
+     "rrf": 0.03008,
+     "bm25_rank": 6,
      "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "油价拉升，报道称沙特阿拉伯东西向输油管道大部分区域将停运数周",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3164862",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
+     "title": "“双节”预订持续升温 旅游板块进入旺季验证期",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirvzhh6948734.shtml",
+     "rrf": 0.02694,
+     "bm25_rank": 19,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "沙特东西输油管道大部分运力或停摆三至五周，红海出口通道再度受限",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
-    "neither_topk": 0
+    "query": "同程旅行：坚决落实在线酒店预订平台服务行业合规要求 反对“内卷式”的恶性竞争",
+    "bm25_only": 0,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }

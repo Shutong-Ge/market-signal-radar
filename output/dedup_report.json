@@ -1,12 +1,12 @@
 {
- "n_in": 1920,
- "l1": 79,
+ "n_in": 2476,
+ "l1": 107,
  "l2": 5,
  "l2_cross": 0,
- "l3": 102,
- "n_out": 1734,
- "dedup_rate": 0.097,
- "elapsed": 32.8,
+ "l3": 160,
+ "n_out": 2204,
+ "dedup_rate": 0.11,
+ "elapsed": 60.8,
  "examples": {
   "L1": [
    {
