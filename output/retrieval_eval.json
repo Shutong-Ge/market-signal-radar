@@ -1,12 +1,12 @@
 {
  "summary": {
-  "n_queries": 7,
+  "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.364,
-  "avg_rank_diff": 1.15,
-  "avg_missed_by_bm25": 2.14,
-  "avg_missed_by_vector": 2.86,
-  "conclusion": "两路召回集平均重合度仅 36%；即便重合的文档，两路名次平均相差 1.15 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.14 篇最终进入 Top8 的文档；只用向量则漏掉 2.86 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.479,
+  "avg_rank_diff": 1.28,
+  "avg_missed_by_bm25": 2.12,
+  "avg_missed_by_vector": 2.62,
+  "conclusion": "两路召回集平均重合度仅 48%；即便重合的文档，两路名次平均相差 1.28 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.12 篇最终进入 Top8 的文档；只用向量则漏掉 2.62 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
@@ -23,7 +23,7 @@
    "query": "隔夜 要闻 欧美 股指 收跌 油价",
    "jaccard": 0.143,
    "rank_diff": 0.0,
-   "missed_by_bm25": 2,
+   "missed_by_bm25": 3,
    "missed_by_vector": 6,
    "example_top1": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫"
   },
@@ -41,7 +41,7 @@
    "query": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支",
    "jaccard": 0.333,
    "rank_diff": 2.25,
-   "missed_by_bm25": 3,
+   "missed_by_bm25": 2,
    "missed_by_vector": 4,
    "example_top1": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌"
   },
@@ -56,21 +56,30 @@
   },
   {
    "type": "原标题式",
-   "query": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，",
-   "jaccard": 0.6,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店"
+   "query": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考",
+   "jaccard": 1.0,
+   "rank_diff": 1.5,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 0,
+   "example_top1": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？"
   },
   {
    "type": "关键词式",
-   "query": "华为 放权 问界 调整 产品 营销",
-   "jaccard": 0.455,
-   "rank_diff": 0.2,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店"
+   "query": "结束 两个 加量 央行 等量 续作",
+   "jaccard": 0.333,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
+   "example_top1": "流动性“收长放短”，9月买断式逆回购停止加量"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "结束两个月加量！央行等量续作亿元买断式逆回购，有何考量？",
+   "jaccard": 1.0,
+   "rank_diff": 1.25,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 0,
+   "example_top1": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？"
   }
  ]
 }

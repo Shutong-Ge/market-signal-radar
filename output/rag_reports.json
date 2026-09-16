@@ -1,14 +1,14 @@
 {
  "engine": "template(降级)",
- "n_clusters": 56,
+ "n_clusters": 63,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.3,
+ "elapsed": 6.2,
  "reports": [
   {
-   "key": "edd7d3979d287dcc",
+   "key": "fcbe91efc374a7e8",
    "label": "9月15日隔夜要闻：欧美股指收跌 油价上涨 10年期美债收益率突破5% 华尔街大行股价重挫",
    "cached": false,
    "sections": {
@@ -47,21 +47,21 @@
     },
     {
      "n": 4,
+     "title": "9月16日美股收盘：三大指数收跌 油价回升 10年期美债收益率触及19年高位",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-09-16/doc-iniryefe8114192.shtml",
+     "rrf": 0.02872,
+     "bm25_rank": 15,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
      "title": "中信建投期货：9月16日黑色系早报",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-16/doc-iniryqva6560199.shtml",
      "rrf": 0.02854,
      "bm25_rank": 5,
      "vec_rank": 16
-    },
-    {
-     "n": 5,
-     "title": "9月16日美股收盘：三大指数收跌 油价回升 10年期美债收益率触及19年高位",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-16/doc-iniryefe8114192.shtml",
-     "rrf": 0.02854,
-     "bm25_rank": 16,
-     "vec_rank": 5
     },
     {
      "n": 6,
@@ -102,7 +102,7 @@
    "elapsed": 0.0
   },
   {
-   "key": "ba51142c1188d9a0",
+   "key": "5c1314a3fd249d00",
    "label": "两部门：推进第五代精简指令集（RISC-V）研发与产业化 支持RISC-V芯片在人工智能、嵌入式",
    "cached": false,
    "sections": {
@@ -144,8 +144,8 @@
      "title": "两部门：加快发展电子设计自动化工具（EDA）和知识产权核（IP核） 推进三维集成等技术突破和应用",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609153874169975.html",
-     "rrf": 0.03016,
-     "bm25_rank": 10,
+     "rrf": 0.02996,
+     "bm25_rank": 11,
      "vec_rank": 3
     },
     {
@@ -162,8 +162,8 @@
      "title": "两部门：提升多类型处理器微架构设计能力 提高计算芯片性能水平",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirwfqk4019223.shtml",
-     "rrf": 0.02927,
-     "bm25_rank": 12,
+     "rrf": 0.02908,
+     "bm25_rank": 13,
      "vec_rank": 5
     },
     {
@@ -180,9 +180,9 @@
      "title": "OpenAI首席执行官支持对前沿AI研发“控制节奏”",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirupfa4036657.shtml",
-     "rrf": 0.02782,
+     "rrf": 0.02767,
      "bm25_rank": 4,
-     "vec_rank": 22
+     "vec_rank": 23
     }
    ],
    "degraded": 1,
@@ -196,7 +196,101 @@
    "elapsed": 0.0
   },
   {
-   "key": "4ff185ebab718050",
+   "key": "9eb63ed44f4e92fc",
+   "label": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？",
+   "cached": false,
+   "sections": {
+    "事件概述": "「结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？」由 8 篇报道聚合而成，覆盖 4 家媒体，热度 0.709（爆点），所属板块类目：宏观政策。",
+    "关键信息": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？；中国央行将等量续作6个月期买断式逆回购；流动性“收长放短”，9月买断式逆回购停止加量",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-iniruxuy4564758.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "中国央行将等量续作6个月期买断式逆回购",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-14/10696375.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "流动性“收长放短”，9月买断式逆回购停止加量",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirxats8588263.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "央行等量续做6个月期买断式逆回购",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/gzqh/futuresyspzx/2026-09-14/doc-inirvqss4260365.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "央行：开展了5970亿元隔夜逆回购操作",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609153874273495.html",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "中国央行公开市场今日净投放920亿元人民币",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165134",
+     "rrf": 0.03009,
+     "bm25_rank": 5,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "9月16日央行开展1100亿元7天期逆回购操作",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-16/10697185.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 8,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "央行今日开展1100亿元人民币7天期逆回购操作",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875615466.html",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
+     "vec_rank": 7
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "结束两个月加量！央行等量续作5000亿元买断式逆回购，有何考量？",
+    "bm25_only": 0,
+    "vec_only": 0,
+    "both": 8,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "887288c00b56ade4",
    "label": "华为放权，问界大调整：产品、营销、销售、服务均由赛力斯主导，华为仅赋能！知情人：以后问界门店只卖",
    "cached": false,
    "sections": {
@@ -220,8 +314,8 @@
      "title": "问界合作模式调整：赛力斯主导全链条，华为赋能",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/t/2026-09-15/doc-inirxaty3753754.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
+     "rrf": 0.0315,
+     "bm25_rank": 4,
      "vec_rank": 3
     },
     {
@@ -229,8 +323,8 @@
      "title": "问界仍属鸿蒙智行五界，但品牌渠道等转由赛力斯主导",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/wbstock/2026-09-15/doc-inirxatu6941271.shtml",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
+     "rrf": 0.03128,
+     "bm25_rank": 6,
      "vec_rank": 2
     },
     {
@@ -238,8 +332,8 @@
      "title": "华为与赛力斯合作模式调整后资源聚焦其余四大品牌",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3165488",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
+     "rrf": 0.03101,
+     "bm25_rank": 5,
      "vec_rank": 4
     },
     {
@@ -247,36 +341,36 @@
      "title": "问界官宣重磅调整：赛力斯主导五大核心领域，华为终端退居赋能角色",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/roll/2026-09-15/doc-inirxatw3735361.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
+     "rrf": 0.03009,
+     "bm25_rank": 8,
      "vec_rank": 5
     },
     {
      "n": 6,
-     "title": "华为与赛力斯合作生变，问界交由赛力斯主导",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/roll/2026-09-15/doc-inirxatu6968962.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
+     "title": "赛力斯接管问界 撑得住华为给的身价吗？",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609153875769261.html",
+     "rrf": 0.02996,
+     "bm25_rank": 3,
+     "vec_rank": 11
     },
     {
      "n": 7,
-     "title": "华为与赛力斯合作模式正式调整 鸿蒙智行：华为终端参与赋能，产品定义、品牌营销、渠道零售等由赛力斯主导",
+     "title": "华为与赛力斯合作生变，问界交由赛力斯主导",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/t/2026-09-15/doc-inirxatw3741384.shtml",
-     "rrf": 0.02929,
-     "bm25_rank": 2,
-     "vec_rank": 16
+     "url": "https://finance.sina.com.cn/stock/roll/2026-09-15/doc-inirxatu6968962.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 7,
+     "vec_rank": 8
     },
     {
      "n": 8,
-     "title": "鸿蒙智行官宣问界合作模式调整：赛力斯主导、华为赋能",
+     "title": "华为与赛力斯合作模式正式调整 鸿蒙智行：华为终端参与赋能，产品定义、品牌营销、渠道零售等由赛力斯主导",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/t/2026-09-15/doc-inirxats8569631.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 8,
-     "vec_rank": 10
+     "url": "https://finance.sina.com.cn/stock/t/2026-09-15/doc-inirxatw3741384.shtml",
+     "rrf": 0.02912,
+     "bm25_rank": 2,
+     "vec_rank": 17
     }
    ],
    "degraded": 1,
@@ -290,7 +384,7 @@
    "elapsed": 0.0
   },
   {
-   "key": "9d1073e264f28d50",
+   "key": "174167b00053aaa2",
    "label": "10年期美债收益率升破5%，美股三大股指全线下挫，纳指跌超200点，国际油价大涨",
    "cached": false,
    "sections": {
@@ -368,8 +462,8 @@
      "title": "10年期美债收益率自2023年以来首次突破5%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkkn9211930.shtml",
-     "rrf": 0.02669,
-     "bm25_rank": 25,
+     "rrf": 0.02683,
+     "bm25_rank": 24,
      "vec_rank": 7
     }
    ],
@@ -380,100 +474,6 @@
     "vec_only": 2,
     "both": 4,
     "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "230e69aa55ba1fc9",
-   "label": "同程旅行：坚决落实在线酒店预订平台服务行业合规要求 反对“内卷式”的恶性竞争",
-   "cached": false,
-   "sections": {
-    "事件概述": "「同程旅行：坚决落实在线酒店预订平台服务行业合规要求 反对“内卷式”的恶性竞争」由 7 篇报道聚合而成，覆盖 4 家媒体，热度 0.664（爆点），所属板块类目：综合。",
-    "关键信息": "同程旅行：坚决落实在线酒店预订平台服务行业合规要求 反对“内卷式”的恶性竞争；美团：坚决落实在线酒店预订平台服务行业合规要求；携程集团：坚决落实在线酒店预订行业合规要求",
-    "市场影响": "关联板块代码：BK1560、BK000118。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "同程旅行：坚决落实在线酒店预订平台服务行业合规要求 反对“内卷式”的恶性竞争",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609153874880076.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "美团：坚决落实在线酒店预订平台服务行业合规要求",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165536",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "携程集团：坚决落实在线酒店预订行业合规要求",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165491",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "针对“全网最低价”等问题，两部门开展行政指导！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-15/doc-inirxhzq8489022.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "两部门对在线酒店预订平台服务行业开展行政指导",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirykpa8026834.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "中国两部门要求酒店预订平台防范“全网最低价”等问题",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-15/10697069.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "飞猪：坚决抵制“排他性独家合作”、“全网最低价”等不正当竞争行为",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165538",
-     "rrf": 0.03008,
-     "bm25_rank": 6,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "“双节”预订持续升温 旅游板块进入旺季验证期",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirvzhh6948734.shtml",
-     "rrf": 0.02694,
-     "bm25_rank": 19,
-     "vec_rank": 10
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "同程旅行：坚决落实在线酒店预订平台服务行业合规要求 反对“内卷式”的恶性竞争",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 7,
-    "neither_topk": 1
    },
    "elapsed": 0.0
   }
