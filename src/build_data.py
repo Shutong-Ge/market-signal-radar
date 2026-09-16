@@ -47,18 +47,38 @@ def build_collect(cur):
                 total=total, sites=list(sites.values()))
 
 
+MAX_ARTICLES = 20          # 单簇最多带多少篇原文，避免页面体积失控
+
+
+def cluster_articles(cur, ids):
+    """把簇成员的 id 换成可点开的原文（标题 / 媒体 / 时间 / 链接）。
+
+    页面上只给结论而不给原文，等于让人没法复核——热点榜的每一条都应该能点回去。
+    article_ids 指向 processed_articles（去重后的处理层），URL 在该表里就有。
+    """
+    if not ids:
+        return []
+    qs = ",".join("?" * len(ids))
+    rows = cur.execute(
+        "select title, media, channel, published_at, url from processed_articles "
+        "where id in (%s) order by published_at" % qs, list(ids)).fetchall()
+    return [dict(title=t, media=m, channel=ch, at=(pa or "")[:16], url=u)
+            for t, m, ch, pa, u in rows[:MAX_ARTICLES] if u]
+
+
 def build_clusters(cur):
     run_at = cur.execute("select max(run_at) from clusters").fetchone()[0]
     rows = cur.execute(
         "select label, category, n_articles, n_media, heat_score, importance, "
-        "heat_factors, time_span, sectors from clusters where run_at=? "
+        "heat_factors, time_span, sectors, article_ids from clusters where run_at=? "
         "order by heat_score desc", (run_at,)).fetchall()
     out = []
-    for lb, cat, n, nm, heat, imp, fac, span, sec in rows:
+    for lb, cat, n, nm, heat, imp, fac, span, sec, aids in rows:
         out.append(dict(label=lb, category=cat, n=n, media=nm,
                         heat=round(heat or 0, 3), level=LEVEL_OF.get(imp, "一般"),
                         factors=json.loads(fac or "{}"), span=span,
-                        sectors=json.loads(sec or "[]")))
+                        sectors=json.loads(sec or "[]"),
+                        articles=cluster_articles(cur, json.loads(aids or "[]"))))
     return out, run_at
 
 

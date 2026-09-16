@@ -77,6 +77,17 @@ table.q tr.row:hover{background:#F6FAFD}
 .sec{border-left:3px solid var(--blue);background:#FBFCFE;border-radius:0 8px 8px 0;padding:9px 13px;margin-bottom:9px;font-size:12.5px;line-height:1.85}
 .sec b{color:var(--navy)}
 .cite{border-left:3px solid var(--amber);background:#FFFDF9;border-radius:0 7px 7px 0;padding:6px 11px;font-size:11.5px;color:#5B6772;margin-bottom:5px}
+.cite a{color:var(--navy);text-decoration:none;border-bottom:1px solid rgba(22,50,79,.28)}
+.cite a:hover{color:var(--blue);border-bottom-color:var(--blue)}
+.src-list{display:flex;flex-direction:column;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.src-row{display:flex;gap:10px;align-items:baseline;background:var(--card);padding:7px 11px;font-size:12px;text-decoration:none;color:var(--ink)}
+.src-row:hover{background:#F6FAFD}
+.src-row .t{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.src-row:hover .t{color:var(--blue);text-decoration:underline}
+.src-row .m{flex:none;color:var(--grey);font-size:11px}
+.src-row .d{flex:none;color:var(--grey);font-size:11px;font-variant-numeric:tabular-nums}
+.src-row .go{flex:none;color:#9FB6C9;font-size:11px}
+@media (max-width:760px){.src-row .d{display:none}}
 .cite code{background:#F1F5F9;border-radius:4px;padding:0 5px;font-size:10.5px;color:#8A5A00}
 .note{font-size:11px;color:var(--grey);line-height:1.8}
 .ev-tab{width:100%;border-collapse:collapse;font-size:12px}
@@ -188,6 +199,17 @@ function detail(){
           <div style="margin-top:8px">${(c.sectors||[]).map(s=>`<span class="tag" style="font-size:11.5px;padding:3px 9px">${s}</span>`).join('')||'<span class="note">本簇未携带板块标签</span>'}</div>
           <div class="note" style="margin-top:10px">板块代码来自东方财富快讯自带 stockList 字段，把热点直接落到投研可用维度</div></div>
       </div></div></div>
+  ${(c.articles||[]).length?`
+  <div class="panel"><div class="hd"><b>本簇报道原文</b>
+    <span class="sub">聚到这条热点下的每一篇，点标题打开原文</span>
+    <div class="right">共 ${c.n} 篇 · 列出 ${c.articles.length} 篇</div></div>
+    <div class="pd"><div class="src-list">
+    ${c.articles.map(a=>`<a class="src-row" href="${a.url}" target="_blank" rel="noopener noreferrer">
+      <span class="d">${a.at}</span><span class="m">${a.media}</span>
+      <span class="t">${a.title}</span><span class="go">↗</span></a>`).join('')}
+    </div>
+    <div class="note" style="margin-top:9px">链接指向媒体原文。热度、分级、深度分析都是从这批稿子算出来的——结论可以一路点回到来源。</div>
+    </div></div>`:''}
   ${rep?`
   <div class="panel"><div class="hd"><b>RAG 深度分析</b>
     <span class="sub">${rep.degraded?'⚠ LLM输出未过校验 · 模板降级':'LLM 生成 · 混合检索上下文'}</span>
@@ -195,7 +217,7 @@ function detail(){
     <div class="pd">${Object.entries(rep.sections).map(([k,v])=>v?`<div class="sec"><b>${k}</b>：${v}</div>`:'').join('')}
       <div style="margin-top:12px"><b style="font-size:12.5px;color:var(--navy)">引用溯源（混合检索 Top8）</b>
       <div class="note" style="margin:5px 0 8px">rrf=融合分；bm25#/vec# 为各路在候选池中的名次——名次分歧正是融合的价值来源</div>
-      ${rep.citations.slice(0,8).map(ct=>`<div class="cite">[${ct.n}]（${ct.media}）${ct.title}
+      ${rep.citations.slice(0,8).map(ct=>`<div class="cite">[${ct.n}]（${ct.media}）${ct.url?`<a href="${ct.url}" target="_blank" rel="noopener noreferrer">${ct.title}</a>`:ct.title}
         <code>rrf=${ct.rrf} bm25#${ct.bm25_rank??'—'} vec#${ct.vec_rank??'—'}</code></div>`).join('')}</div>
       <div class="note" style="margin-top:10px">召回归因：仅BM25 ${rep.retrieval.bm25_only} · 仅向量 ${rep.retrieval.vec_only} · 双路 ${rep.retrieval.both} · 融合捞回 ${rep.retrieval.neither_topk??0}</div>
     </div></div>`:'<div class="panel"><div class="pd note">该热点未进入 Top5 限流范围，未生成深度报告（LLM 成本控制）。</div></div>'}`;
