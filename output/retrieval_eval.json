@@ -2,46 +2,19 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.248,
-  "avg_rank_diff": 1.44,
-  "avg_missed_by_bm25": 3.33,
-  "avg_missed_by_vector": 2.67,
-  "conclusion": "两路召回集平均重合度仅 25%；即便重合的文档，两路名次平均相差 1.44 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.33 篇最终进入 Top8 的文档；只用向量则漏掉 2.67 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.23,
+  "avg_rank_diff": 1.41,
+  "avg_missed_by_bm25": 3.22,
+  "avg_missed_by_vector": 2.78,
+  "conclusion": "两路召回集平均重合度仅 23%；即便重合的文档，两路名次平均相差 1.41 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.22 篇最终进入 Top8 的文档；只用向量则漏掉 2.78 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
-  {
-   "type": "原标题式",
-   "query": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造",
-   "jaccard": 0.143,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
-   "example_top1": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心"
-  },
-  {
-   "type": "关键词式",
-   "query": "助力 国家 功率 半导体 领域 取得",
-   "jaccard": 0.231,
-   "rank_diff": 0.33,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
-   "example_top1": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "助力国家在功率半导体领域取得领先，香港年成立国家制造业创新中",
-   "jaccard": 0.143,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 4,
-   "example_top1": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心"
-  },
   {
    "type": "原标题式",
    "query": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.",
    "jaccard": 0.143,
    "rank_diff": 0.0,
-   "missed_by_bm25": 5,
+   "missed_by_bm25": 3,
    "missed_by_vector": 3,
    "example_top1": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国产替代共振"
   },
@@ -49,9 +22,9 @@
    "type": "关键词式",
    "query": "科创 芯片 板块 回暖 科创 芯片",
    "jaccard": 0.143,
-   "rank_diff": 0.0,
+   "rank_diff": 0.5,
    "missed_by_bm25": 3,
-   "missed_by_vector": 4,
+   "missed_by_vector": 3,
    "example_top1": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国产替代共振"
   },
   {
@@ -65,18 +38,45 @@
   },
   {
    "type": "原标题式",
+   "query": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造",
+   "jaccard": 0.143,
+   "rank_diff": 1.5,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
+   "example_top1": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心"
+  },
+  {
+   "type": "关键词式",
+   "query": "助力 国家 功率 半导体 领域 取得",
+   "jaccard": 0.231,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
+   "example_top1": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "助力国家在功率半导体领域取得领先，香港年成立国家制造业创新中",
+   "jaccard": 0.143,
+   "rank_diff": 2.5,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
+   "example_top1": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心"
+  },
+  {
+   "type": "原标题式",
    "query": "一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃",
-   "jaccard": 0.455,
-   "rank_diff": 3.2,
+   "jaccard": 0.333,
+   "rank_diff": 3.5,
    "missed_by_bm25": 2,
-   "missed_by_vector": 1,
+   "missed_by_vector": 2,
    "example_top1": "一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续太久了” 特"
   },
   {
    "type": "关键词式",
    "query": "一文 读懂 时隔 三年 美联储 首次",
-   "jaccard": 0.067,
-   "rank_diff": 3.0,
+   "jaccard": 0.143,
+   "rank_diff": 2.0,
    "missed_by_bm25": 5,
    "missed_by_vector": 2,
    "example_top1": "一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续太久了” 特"
@@ -84,10 +84,10 @@
   {
    "type": "去数字泛化",
    "query": "一文读懂|时隔三年 美联储首次加息基点 全员同意 主席沃什强",
-   "jaccard": 0.455,
-   "rank_diff": 2.2,
+   "jaccard": 0.333,
+   "rank_diff": 1.5,
    "missed_by_bm25": 2,
-   "missed_by_vector": 1,
+   "missed_by_vector": 2,
    "example_top1": "一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续太久了” 特"
   }
  ]

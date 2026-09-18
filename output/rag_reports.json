@@ -1,112 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 77,
+ "n_clusters": 76,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.5,
+ "elapsed": 7.1,
  "reports": [
   {
-   "key": "97d0151a65ee07a1",
-   "label": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
-   "cached": false,
-   "sections": {
-    "事件概述": "「助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心」由 28 篇报道聚合而成，覆盖 3 家媒体，热度 0.775（爆点），所属板块类目：综合。",
-    "关键信息": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心；李家超：香港首份五年规划深度对接国家战略 依托国家后盾把握最大机遇；中国建设银行发布支持上海（长三角）国际科技创新中心建设高质量发展服务方案和集成电",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165950",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "李家超：香港首份五年规划深度对接国家战略 依托国家后盾把握最大机遇",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-09-16/doc-inirzfsu6630224.shtml",
-     "rrf": 0.03037,
-     "bm25_rank": 3,
-     "vec_rank": 9
-    },
-    {
-     "n": 3,
-     "title": "中国建设银行发布支持上海（长三角）国际科技创新中心建设高质量发展服务方案和集成电路产业发展行动方案",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-16/10697269.shtml",
-     "rrf": 0.02688,
-     "bm25_rank": 12,
-     "vec_rank": 17
-    },
-    {
-     "n": 4,
-     "title": "李家超：确立五大目标 依托“内联外通”深化大湾区融合",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-09-16/doc-inirzfsw3427548.shtml",
-     "rrf": 0.02586,
-     "bm25_rank": 9,
-     "vec_rank": 28
-    },
-    {
-     "n": 5,
-     "title": "先进制造业向强突围",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-16/10697580.shtml",
-     "rrf": 0.02565,
-     "bm25_rank": 25,
-     "vec_rank": 12
-    },
-    {
-     "n": 6,
-     "title": "功率半导体龙头，主体信用等级被下调",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/s/2026-09-16/doc-inirzmyz3786237.shtml",
-     "rrf": 0.0255,
-     "bm25_rank": 16,
-     "vec_rank": 21
-    },
-    {
-     "n": 7,
-     "title": "光合组织（广西）产业生态创新中心揭牌成立",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609173877503164.html",
-     "rrf": 0.01613,
-     "bm25_rank": 2,
-     "vec_rank": null
-    },
-    {
-     "n": 8,
-     "title": "香港将参与国产飞机研制及认证工作",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3165923",
-     "rrf": 0.01613,
-     "bm25_rank": null,
-     "vec_rank": 2
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 1,
-    "neither_topk": 4
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "a808fbcba6bdfcd4",
+   "key": "58abd86335ee10c7",
    "label": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国产替代共振",
    "cached": false,
    "sections": {
-    "事件概述": "「科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国产替代共振」由 36 篇报道聚合而成，覆盖 4 家媒体，热度 0.649（爆点），所属板块类目：金融市场。",
+    "事件概述": "「科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国产替代共振」由 32 篇报道聚合而成，覆盖 4 家媒体，热度 0.779（爆点），所属板块类目：金融市场。",
     "关键信息": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国；科创板块逆市走强，科创100增强ETF易方达（588500）涨2.39%，科技成；“十五五”规划明确“提升人工智能芯片设计水平”！20cm的科创芯片设计ETF永赢",
     "市场影响": "关联板块代码：BK0459、BK1134、BK0732、BK0800、BK0877。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -153,8 +59,8 @@
      "title": "9月16日午间收评：科创50指数半日涨4.5%，算力硬件、半导体板块集体走强",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3165919",
-     "rrf": 0.02991,
-     "bm25_rank": 10,
+     "rrf": 0.03012,
+     "bm25_rank": 9,
      "vec_rank": 4
     },
     {
@@ -162,45 +68,139 @@
      "title": "创业板指涨超1%，沪指跌0.03%，深成指涨0.33%，科创50涨近2.8%，半",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3165892",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
+     "rrf": 0.03008,
+     "bm25_rank": 6,
      "vec_rank": 7
     },
     {
      "n": 7,
-     "title": "科创50逆势上涨1.55% 风电、存储、PCB三线共振",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirxxxk6728461.shtml",
-     "rrf": 0.02964,
-     "bm25_rank": 6,
-     "vec_rank": 9
-    },
-    {
-     "n": 8,
      "title": "国产半导体自主可控预期快速升温，科创50ETF华泰柏瑞涨超2.09%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609163875810561.html",
-     "rrf": 0.02927,
+     "rrf": 0.02947,
      "bm25_rank": 5,
-     "vec_rank": 12
+     "vec_rank": 11
+    },
+    {
+     "n": 8,
+     "title": "半导体设备板块走强，半导体设备ETF易方达（159558）涨2.29%，晶圆扩产景气向上游传导",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609163875804065.html",
+     "rrf": 0.02939,
+     "bm25_rank": 14,
+     "vec_rank": 3
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "科创芯片板块回暖，科创芯片ETF易方达（589130）涨2.07%，AI算力与国",
-    "bm25_only": 2,
-    "vec_only": 1,
+    "bm25_only": 1,
+    "vec_only": 2,
     "both": 5,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "73574ed96baf357a",
+   "key": "7a2ff65bb871d01e",
+   "label": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
+   "cached": false,
+   "sections": {
+    "事件概述": "「助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心」由 27 篇报道聚合而成，覆盖 3 家媒体，热度 0.742（爆点），所属板块类目：综合。",
+    "关键信息": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心；李家超：香港首份五年规划深度对接国家战略 依托国家后盾把握最大机遇；中国建设银行发布支持上海（长三角）国际科技创新中心建设高质量发展服务方案和集成电",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165950",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "李家超：香港首份五年规划深度对接国家战略 依托国家后盾把握最大机遇",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-09-16/doc-inirzfsu6630224.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 3,
+     "vec_rank": 9
+    },
+    {
+     "n": 3,
+     "title": "中国建设银行发布支持上海（长三角）国际科技创新中心建设高质量发展服务方案和集成电路产业发展行动方案",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-16/10697269.shtml",
+     "rrf": 0.02617,
+     "bm25_rank": 14,
+     "vec_rank": 19
+    },
+    {
+     "n": 4,
+     "title": "李家超：确立五大目标 依托“内联外通”深化大湾区融合",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-09-16/doc-inirzfsw3427548.shtml",
+     "rrf": 0.02545,
+     "bm25_rank": 11,
+     "vec_rank": 28
+    },
+    {
+     "n": 5,
+     "title": "功率半导体龙头，主体信用等级被下调",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-09-16/doc-inirzmyz3786237.shtml",
+     "rrf": 0.02471,
+     "bm25_rank": 19,
+     "vec_rank": 23
+    },
+    {
+     "n": 6,
+     "title": "先进制造业向强突围",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-16/10697580.shtml",
+     "rrf": 0.0247,
+     "bm25_rank": 28,
+     "vec_rank": 15
+    },
+    {
+     "n": 7,
+     "title": "光合组织（广西）产业生态创新中心揭牌成立",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609173877503164.html",
+     "rrf": 0.01613,
+     "bm25_rank": 2,
+     "vec_rank": null
+    },
+    {
+     "n": 8,
+     "title": "香港将参与国产飞机研制及认证工作",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3165923",
+     "rrf": 0.01613,
+     "bm25_rank": null,
+     "vec_rank": 2
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "助力国家在功率半导体领域取得领先，香港2027年成立国家制造业创新中心",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 1,
+    "neither_topk": 4
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "1aec6a4716f7f31f",
    "label": "一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续太久了” 特朗普",
    "cached": false,
    "sections": {
-    "事件概述": "「一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续太久了” 特朗普」由 41 篇报道聚合而成，覆盖 3 家媒体，热度 0.619（爆点），所属板块类目：国际市场。",
+    "事件概述": "「一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续太久了” 特朗普」由 67 篇报道聚合而成，覆盖 3 家媒体，热度 0.713（爆点），所属板块类目：国际市场。",
     "关键信息": "一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续；9月17日外盘头条：联储加息 沃什强调通胀太高持续太久 特朗普敦促降息 苹果考虑；美联储主席沃什发布会全文 ：通胀“太高了，而且已经持续太久”！（深度解读）",
     "市场影响": "关联板块代码：BK0464。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -244,21 +244,21 @@
     },
     {
      "n": 5,
-     "title": "美联储三年来首次加息！沃什释放鹰派信号 年内或再加25基点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-09-17/doc-inisapnp3559827.shtml",
-     "rrf": 0.03012,
-     "bm25_rank": 4,
-     "vec_rank": 9
-    },
-    {
-     "n": 6,
      "title": "经济学家：美联储应当顶住特朗普压力，选择加息",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-iniryzma2994185.shtml",
      "rrf": 0.03009,
      "bm25_rank": 8,
      "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "美联储三年来首次加息！沃什释放鹰派信号 年内或再加25基点",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-09-17/doc-inisapnp3559827.shtml",
+     "rrf": 0.02991,
+     "bm25_rank": 4,
+     "vec_rank": 10
     },
     {
      "n": 7,
@@ -274,205 +274,205 @@
      "title": "美联储如期加息25基点 点阵图显示鹰派倾向增强",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/world/2026-09-17/doc-inisaawt3679701.shtml",
-     "rrf": 0.0292,
+     "rrf": 0.02899,
      "bm25_rank": 9,
-     "vec_rank": 8
+     "vec_rank": 9
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续",
     "bm25_only": 1,
-    "vec_only": 2,
+    "vec_only": 1,
     "both": 5,
-    "neither_topk": 0
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "a0a6a77913376087",
-   "label": "开“新”平陆运河丨少跑623公里，一张AI长图看懂航程巨变",
+   "key": "b26b0b72d27ee5bc",
+   "label": "平陆运河今天通航：少跑623公里，一张AI长图看懂航程巨变",
    "cached": false,
    "sections": {
-    "事件概述": "「开“新”平陆运河丨少跑623公里，一张AI长图看懂航程巨变」由 12 篇报道聚合而成，覆盖 2 家媒体，热度 0.619（爆点），所属板块类目：综合。",
-    "关键信息": "开“新”平陆运河丨少跑623公里，一张AI长图看懂航程巨变；平陆运河通航西南货物出海少走560公里；正式通航！平陆运河究竟是条什么河？",
+    "事件概述": "「平陆运河今天通航：少跑623公里，一张AI长图看懂航程巨变」由 13 篇报道聚合而成，覆盖 2 家媒体，热度 0.603（爆点），所属板块类目：综合。",
+    "关键信息": "平陆运河今天通航：少跑623公里，一张AI长图看懂航程巨变；平陆运河正式通航；平陆运河通航西南货物出海少走560公里",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "开“新”平陆运河丨少跑623公里，一张AI长图看懂航程巨变",
+     "title": "平陆运河今天通航：少跑623公里，一张AI长图看懂航程巨变",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirykpe6571917.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryqve3377080.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "平陆运河通航西南货物出海少走560公里",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryvaw7885791.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "正式通航！平陆运河究竟是条什么河？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-16/doc-iniryvay6681354.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "正式通航！平陆运河重塑西部陆海开放新格局",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisatup0235088.shtml",
-     "rrf": 0.03083,
-     "bm25_rank": 2,
-     "vec_rank": 8
-    },
-    {
-     "n": 5,
-     "title": "200多岁的它，花了一年多“搬家”丨财米油盐不定时Vlog",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirzshu2756084.shtml",
-     "rrf": 0.03002,
-     "bm25_rank": 12,
-     "vec_rank": 2
-    },
-    {
-     "n": 6,
      "title": "平陆运河正式通航",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609163875814438.html",
-     "rrf": 0.02901,
-     "bm25_rank": 11,
-     "vec_rank": 7
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "平陆运河通航西南货物出海少走560公里",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryvaw7885791.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "正式通航！平陆运河究竟是条什么河？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-09-16/doc-iniryvay6681354.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 6,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "正式通航！平陆运河重塑西部陆海开放新格局",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisatup0235088.shtml",
+     "rrf": 0.03041,
+     "bm25_rank": 2,
+     "vec_rank": 10
+    },
+    {
+     "n": 6,
+     "title": "国家投资727亿的“超级工程”，要让这些地方打个翻身仗！来看看有你家吗→",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-09-18/doc-inisfazn8656090.shtml",
+     "rrf": 0.02983,
+     "bm25_rank": 13,
+     "vec_rank": 2
     },
     {
      "n": 7,
-     "title": "新华社权威快报丨平陆运河建成通航",
+     "title": "平陆运河正式通航 下行首艘船舶通过马道枢纽",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryvay6642479.shtml",
-     "rrf": 0.02881,
-     "bm25_rank": 7,
-     "vec_rank": 12
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryvca3422284.shtml",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
+     "vec_rank": 8
     },
     {
      "n": 8,
      "title": "世纪工程通江达海 一组关键词看平陆运河硬核实力",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirzshx3691598.shtml",
-     "rrf": 0.02878,
-     "bm25_rank": 4,
-     "vec_rank": 16
+     "rrf": 0.0289,
+     "bm25_rank": 5,
+     "vec_rank": 14
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "开“新”平陆运河丨少跑623公里，一张AI长图看懂航程巨变",
+    "query": "平陆运河今天通航：少跑623公里，一张AI长图看懂航程巨变",
     "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
+    "vec_only": 1,
+    "both": 5,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "22576ba3fe8f22b3",
-   "label": "新产业新动能加快培育 新技术新产品迭代升级 前8个月经济运行呈现向新向优发展态势",
+   "key": "68896d4d882ff385",
+   "label": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平",
    "cached": false,
    "sections": {
-    "事件概述": "「新产业新动能加快培育 新技术新产品迭代升级 前8个月经济运行呈现向新向优发展态势」由 11 篇报道聚合而成，覆盖 2 家媒体，热度 0.599（爆点），所属板块类目：宏观政策。",
-    "关键信息": "新产业新动能加快培育 新技术新产品迭代升级 前8个月经济运行呈现向新向优发展态势；先进制造业向强突围；晶采观察丨新旧动能转换加速 三个关键信号凸显中国经济韧性活力",
+    "事件概述": "「澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.527（爆点），所属板块类目：综合。",
+    "关键信息": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平；澳洲联储主席布洛克：由于全球不确定性，投资者希望获得更高的回报。 贸易和关税公告；澳洲联储主席布洛克：通胀风险偏向上行。 很难忽略持续存在的通胀冲击。 将通胀率控",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "新产业新动能加快培育 新技术新产品迭代升级 前8个月经济运行呈现向新向优发展态势",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirxxxn3500964.shtml",
+     "title": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167054",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "先进制造业向强突围",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-16/10697580.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 2,
-     "vec_rank": 6
-    },
-    {
-     "n": 3,
-     "title": "晶采观察丨新旧动能转换加速 三个关键信号凸显中国经济韧性活力",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-17/doc-inisatup0324711.shtml",
-     "rrf": 0.03105,
-     "bm25_rank": 7,
+     "title": "澳洲联储主席布洛克：由于全球不确定性，投资者希望获得更高的回报。 贸易和关税公告",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167072",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
      "vec_rank": 2
     },
     {
+     "n": 3,
+     "title": "澳洲联储主席布洛克：通胀风险偏向上行。 很难忽略持续存在的通胀冲击。 将通胀率控",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167082",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
      "n": 4,
-     "title": "一组数据看8月份国民经济运行平稳、发展向新向优",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-16/10697320.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
+     "title": "澳洲联储主席布洛克：我们正在思考当前的政策紧缩程度是否足够。 从整体局势来看，房",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167071",
+     "rrf": 0.0308,
+     "bm25_rank": 7,
      "vec_rank": 3
     },
     {
      "n": 5,
-     "title": "前8个月经济运行呈现向新向优发展态势",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirxxxn3500999.shtml",
-     "rrf": 0.03058,
-     "bm25_rank": 3,
-     "vec_rank": 8
+     "title": "澳洲联储主席布洛克：全球债券收益率上升并未失序。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167063",
+     "rrf": 0.03012,
+     "bm25_rank": 4,
+     "vec_rank": 9
     },
     {
      "n": 6,
-     "title": "1至7月份秦皇岛经济运行延续稳中向新稳中向优发展态势",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirykpk3199156.shtml",
-     "rrf": 0.02991,
-     "bm25_rank": 4,
-     "vec_rank": 10
-    },
-    {
-     "n": 7,
-     "title": "三稳两快 八月经济运行总体平稳向新向优",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirxxxn3519526.shtml",
-     "rrf": 0.02826,
-     "bm25_rank": 15,
+     "title": "澳洲联储主席布洛克：我们处在油价维持高位更久的环境下。 企业现在更有可能转嫁成本",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167059",
+     "rrf": 0.03008,
+     "bm25_rank": 6,
      "vec_rank": 7
     },
     {
-     "n": 8,
-     "title": "8月新兴产业延续较好态势 稳增长政策效用有待释放",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykpa8016119.shtml",
-     "rrf": 0.02813,
-     "bm25_rank": 20,
+     "n": 7,
+     "title": "澳联储主席布洛克：通胀上行风险正成为现实 9月议息将评估紧缩力度",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609183878058458.html",
+     "rrf": 0.02991,
+     "bm25_rank": 10,
      "vec_rank": 4
+    },
+    {
+     "n": 8,
+     "title": "澳联储主席布洛克：政策会议前，抑制通胀是核心",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisewtp0231045.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 8,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "新产业新动能加快培育 新技术新产品迭代升级 前8个月经济运行呈现向新向优发展态势",
+    "query": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平",
     "bm25_only": 1,
-    "vec_only": 2,
-    "both": 5,
+    "vec_only": 1,
+    "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
