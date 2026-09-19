@@ -2,11 +2,11 @@
  "summary": {
   "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.364,
-  "avg_rank_diff": 0.85,
-  "avg_missed_by_bm25": 2.88,
-  "avg_missed_by_vector": 2.5,
-  "conclusion": "两路召回集平均重合度仅 36%；即便重合的文档，两路名次平均相差 0.85 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.88 篇最终进入 Top8 的文档；只用向量则漏掉 2.5 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.478,
+  "avg_rank_diff": 1.07,
+  "avg_missed_by_bm25": 2.5,
+  "avg_missed_by_vector": 2.25,
+  "conclusion": "两路召回集平均重合度仅 48%；即便重合的文档，两路名次平均相差 1.07 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.5 篇最终进入 Top8 的文档；只用向量则漏掉 2.25 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
@@ -22,8 +22,8 @@
    "type": "关键词式",
    "query": "日本 生鲜食品 同比 预期 前值",
    "jaccard": 0.231,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 5,
+   "rank_diff": 0.67,
+   "missed_by_bm25": 4,
    "missed_by_vector": 4,
    "example_top1": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。"
   },
@@ -31,28 +31,10 @@
    "type": "去数字泛化",
    "query": "日本月CPI(除生鲜食品)同比 ，预期 ，前值 。",
    "jaccard": 0.231,
-   "rank_diff": 0.0,
+   "rank_diff": 0.67,
    "missed_by_bm25": 4,
    "missed_by_vector": 3,
    "example_top1": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。"
-  },
-  {
-   "type": "原标题式",
-   "query": "美联储加息落地，或不可简单理解为利空出尽——银华投顾每日观点",
-   "jaccard": 0.231,
-   "rank_diff": 1.67,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 4,
-   "example_top1": "美联储加息落地，或不可简单理解为利空出尽——银华投顾每日观点2026.9.17"
-  },
-  {
-   "type": "关键词式",
-   "query": "美联储 加息 落地 不可 简单 理解",
-   "jaccard": 0.231,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
-   "example_top1": "美联储加息落地，或不可简单理解为利空出尽——银华投顾每日观点2026.9.17"
   },
   {
    "type": "原标题式",
@@ -69,7 +51,7 @@
    "jaccard": 0.455,
    "rank_diff": 0.8,
    "missed_by_bm25": 3,
-   "missed_by_vector": 1,
+   "missed_by_vector": 3,
    "example_top1": "人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳”"
   },
   {
@@ -77,9 +59,27 @@
    "query": "人民币升破关口！多重因素构成强支撑 业内预计全年人民币汇率走",
    "jaccard": 0.6,
    "rank_diff": 0.67,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳”"
+  },
+  {
+   "type": "原标题式",
+   "query": "上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了",
+   "jaccard": 0.778,
+   "rank_diff": 1.29,
    "missed_by_bm25": 1,
    "missed_by_vector": 1,
-   "example_top1": "人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳”"
+   "example_top1": "上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施"
+  },
+  {
+   "type": "关键词式",
+   "query": "上交所 新股 沈鼓 股票价格 大幅 波动",
+   "jaccard": 0.6,
+   "rank_diff": 1.83,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施"
   }
  ]
 }
