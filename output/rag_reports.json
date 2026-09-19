@@ -1,112 +1,206 @@
 {
  "engine": "template(降级)",
- "n_clusters": 62,
+ "n_clusters": 68,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.9,
+ "elapsed": 6.0,
  "reports": [
   {
-   "key": "beb249d797ebb02f",
-   "label": "一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续太久了” 特朗普",
+   "key": "cb3a6f5b8b4c9359",
+   "label": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。",
    "cached": false,
    "sections": {
-    "事件概述": "「一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续太久了” 特朗普」由 58 篇报道聚合而成，覆盖 3 家媒体，热度 0.804（爆点），所属板块类目：国际市场。",
-    "关键信息": "一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续；9月17日外盘头条：联储加息 沃什强调通胀太高持续太久 特朗普敦促降息 苹果考虑；美联储主席沃什发布会全文 ：通胀“太高了，而且已经持续太久”！（深度解读）",
-    "市场影响": "关联板块代码：BK0464。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。」由 22 篇报道聚合而成，覆盖 3 家媒体，热度 0.82（爆点），所属板块类目：宏观政策。",
+    "关键信息": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。；日本核心CPI连续60个月上涨；日本8月份全国消费者价格指数增速放缓 低于预期 日本央行利率加息预期保持不变",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续太久了” 特朗普敦促降息",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisaiep4456007.shtml",
+     "title": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167050",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "9月17日外盘头条：联储加息 沃什强调通胀太高持续太久 特朗普敦促降息 苹果考虑重返服务器市场",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisapns9515429.shtml",
-     "rrf": 0.03175,
+     "title": "日本核心CPI连续60个月上涨",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609193879159680.html",
+     "rrf": 0.032,
      "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "美联储主席沃什发布会全文 ：通胀“太高了，而且已经持续太久”！（深度解读）",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisapnp3512929.shtml",
-     "rrf": 0.03105,
-     "bm25_rank": 7,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "美联储三年来首次加息 点阵图及沃什发言释放进一步紧缩信号",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisapns9504490.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
      "vec_rank": 3
     },
     {
-     "n": 5,
-     "title": "美联储三年来首次加息！沃什释放鹰派信号 年内或再加25基点",
+     "n": 3,
+     "title": "日本8月份全国消费者价格指数增速放缓 低于预期 日本央行利率加息预期保持不变",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-09-17/doc-inisapnp3559827.shtml",
-     "rrf": 0.03012,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisewti3581224.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "加拿大8月原材料价格指数环比 3.1%，预期 0.8%，前值 -2.2%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3166829",
+     "rrf": 0.03078,
      "bm25_rank": 4,
-     "vec_rank": 9
-    },
-    {
-     "n": 6,
-     "title": "美联储如期加息但通胀预期高企 沃什公信力修复",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-iniscksc3638450.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "硬刚特朗普！美联储时隔三年再加息，“沃什时代”紧缩周期或刚开始",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisatuq9414754.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 11,
      "vec_rank": 6
     },
     {
-     "n": 8,
-     "title": "美联储如期加息25基点 点阵图显示鹰派倾向增强",
+     "n": 5,
+     "title": "日本8月核心CPI同比上涨1.7% 预估为上涨1.8%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-17/doc-inisaawt3679701.shtml",
-     "rrf": 0.0292,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisewtp0219814.shtml",
+     "rrf": 0.03021,
+     "bm25_rank": 11,
+     "vec_rank": 2
+    },
+    {
+     "n": 6,
+     "title": "美国8月新屋开工环比 -2.6%，预期 6.6%，前值 -12.4%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3166822",
+     "rrf": 0.02988,
+     "bm25_rank": 5,
+     "vec_rank": 9
+    },
+    {
+     "n": 7,
+     "title": "美国8月营建许可环比初值 -2.7%，预期 -1.4%，前值 4.3%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3166825",
+     "rrf": 0.02697,
+     "bm25_rank": 7,
+     "vec_rank": 23
+    },
+    {
+     "n": 8,
+     "title": "美国8月新屋开工 127.5万户，预期 131.9万户，前值 123.9万户。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3166823",
+     "rrf": 0.02573,
      "bm25_rank": 9,
-     "vec_rank": 8
+     "vec_rank": 29
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "一文读懂|时隔三年 美联储首次加息25基点 全员同意 主席沃什强调通胀“太高持续",
-    "bm25_only": 1,
-    "vec_only": 2,
-    "both": 5,
-    "neither_topk": 0
+    "query": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 4,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "23f54097a89c9f64",
+   "key": "155b6a02b73d7026",
+   "label": "美联储加息落地，或不可简单理解为利空出尽——银华投顾每日观点2026.9.17",
+   "cached": false,
+   "sections": {
+    "事件概述": "「美联储加息落地，或不可简单理解为利空出尽——银华投顾每日观点2026.9.17」由 24 篇报道聚合而成，覆盖 3 家媒体，热度 0.808（爆点），所属板块类目：国际市场。",
+    "关键信息": "美联储加息落地，或不可简单理解为利空出尽——银华投顾每日观点2026.9.17；【宏观】美联储加息落地，但不是结束；光大期货0918黄金点评：美联储加息落地，黄金是否利空出尽？",
+    "市场影响": "关联板块代码：BK0464。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "美联储加息落地，或不可简单理解为利空出尽——银华投顾每日观点2026.9.17",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-17/doc-iniscqxz3595661.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "【宏观】美联储加息落地，但不是结束",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-17/doc-iniscqxx4028066.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "光大期货0918黄金点评：美联储加息落地，黄金是否利空出尽？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-09-18/doc-inisfiii0211319.shtml",
+     "rrf": 0.03041,
+     "bm25_rank": 2,
+     "vec_rank": 10
+    },
+    {
+     "n": 4,
+     "title": "美联储加息落地，机构：金价下行空间有限",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-17/doc-iniscekf3614277.shtml",
+     "rrf": 0.03002,
+     "bm25_rank": 12,
+     "vec_rank": 2
+    },
+    {
+     "n": 5,
+     "title": "国泰君安期货：重启加息，利空落尽还是继续埋雷？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-09-17/doc-iniscekc4175390.shtml",
+     "rrf": 0.02899,
+     "bm25_rank": 10,
+     "vec_rank": 8
+    },
+    {
+     "n": 6,
+     "title": "华创证券张瑜：美联储加息的六个困惑",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/2026-09-18/doc-inisftwx3322996.shtml",
+     "rrf": 0.02886,
+     "bm25_rank": 3,
+     "vec_rank": 17
+    },
+    {
+     "n": 7,
+     "title": "美联储加息落地 我国货币政策定力不减",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-09-18/doc-inisefvt3596246.shtml",
+     "rrf": 0.02879,
+     "bm25_rank": 8,
+     "vec_rank": 11
+    },
+    {
+     "n": 8,
+     "title": "加息靴子落地！美联储紧缩周期或重启 全球市场恐面临连锁冲击",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-09-17/doc-iniscksf0315853.shtml",
+     "rrf": 0.02759,
+     "bm25_rank": 13,
+     "vec_rank": 12
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "美联储加息落地，或不可简单理解为利空出尽——银华投顾每日观点2026.9.17",
+    "bm25_only": 3,
+    "vec_only": 2,
+    "both": 2,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "fc9f3ce945556d2c",
    "label": "人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳”",
    "cached": false,
    "sections": {
-    "事件概述": "「人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳”」由 10 篇报道聚合而成，覆盖 4 家媒体，热度 0.555（爆点），所属板块类目：国际市场。",
+    "事件概述": "「人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳”」由 9 篇报道聚合而成，覆盖 4 家媒体，热度 0.677（爆点），所属板块类目：国际市场。",
     "关键信息": "人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳；在岸、离岸人民币，双双升破6.7；在岸、离岸人民币对美元汇率双双升破6.7",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -162,314 +256,220 @@
      "title": "离岸人民币兑美元涨至6.6967元，为2022年7月来盘中新高。",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3167088",
-     "rrf": 0.02964,
-     "bm25_rank": 9,
+     "rrf": 0.02986,
+     "bm25_rank": 8,
      "vec_rank": 6
     },
     {
      "n": 7,
-     "title": "人民币兑美元中间价报6.7580 上调48点",
+     "title": "人民币兑美元中间价报6.7521 上调59点",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609173876927052.html",
-     "rrf": 0.02901,
+     "url": "https://finance.eastmoney.com/a/202609183878123490.html",
+     "rrf": 0.02921,
      "bm25_rank": 7,
-     "vec_rank": 11
+     "vec_rank": 10
     },
     {
      "n": 8,
-     "title": "人民币兑美元中间价连续八个交易日调强，为2023年以来最长连涨",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167084",
-     "rrf": 0.02859,
-     "bm25_rank": 12,
-     "vec_rank": 8
+     "title": "9月18日人民币对美元中间价报6.7521 上调59个基点",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-18/10698666.shtml",
+     "rrf": 0.02904,
+     "bm25_rank": 6,
+     "vec_rank": 12
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳",
-    "bm25_only": 1,
-    "vec_only": 2,
+    "bm25_only": 2,
+    "vec_only": 0,
+    "both": 6,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "c440ae02e27d0207",
+   "label": "上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施",
+   "cached": false,
+   "sections": {
+    "事件概述": "「上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.663（爆点），所属板块类目：综合。",
+    "关键信息": "上交所：依规对沈鼓集团异常交易相关投资者采取暂停账户交易等自律监管措施；上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监；沈鼓集团相关异常账户暂停交易！刚刚，上交所出手→",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "上交所：依规对沈鼓集团异常交易相关投资者采取暂停账户交易等自律监管措施",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609183878739945.html",
+     "rrf": 0.03252,
+     "bm25_rank": 1,
+     "vec_rank": 2
+    },
+    {
+     "n": 2,
+     "title": "上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167313",
+     "rrf": 0.03252,
+     "bm25_rank": 2,
+     "vec_rank": 1
+    },
+    {
+     "n": 3,
+     "title": "沈鼓集团相关异常账户暂停交易！刚刚，上交所出手→",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-09-18/doc-inisheny8319173.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "上交所出手：对沈鼓集团部分投资者暂停交易",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/roll/2026-09-18/doc-inishent3169137.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "沈鼓集团：目前短期股价波动加剧 存在快速上涨后大幅回调的风险",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-18/doc-inishenv3432989.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "上交所：本周对龙版传媒等波动幅度较大的股票进行重点监控",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-18/doc-inisfyev3280154.shtml",
+     "rrf": 0.02971,
+     "bm25_rank": 4,
+     "vec_rank": 11
+    },
+    {
+     "n": 7,
+     "title": "深交所：2026年9月14日至9月18日，本所共对102起证券异常交易行为采取了",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167298",
+     "rrf": 0.02904,
+     "bm25_rank": 6,
+     "vec_rank": 12
+    },
+    {
+     "n": 8,
+     "title": "午后，暴拉超297%！沈鼓变“神鼓”，什么情况？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-18/doc-inisfprf0283555.shtml",
+     "rrf": 0.02899,
+     "bm25_rank": 8,
+     "vec_rank": 10
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监",
+    "bm25_only": 3,
+    "vec_only": 0,
     "both": 5,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "920d6fd4527c8b3e",
-   "label": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。",
+   "key": "b500aacf5e83c89f",
+   "label": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平",
    "cached": false,
    "sections": {
-    "事件概述": "「日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。」由 19 篇报道聚合而成，覆盖 2 家媒体，热度 0.551（爆点），所属板块类目：宏观政策。",
-    "关键信息": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。；日本8月份全国消费者价格指数增速放缓 低于预期 日本央行利率加息预期保持不变；美国8月进口价格指数同比 7%，预期 6.6%，前值 5.9%。",
+    "事件概述": "「澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.63（爆点），所属板块类目：综合。",
+    "关键信息": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平；澳洲联储主席布洛克：由于全球不确定性，投资者希望获得更高的回报。 贸易和关税公告；澳洲联储主席布洛克：通胀风险偏向上行。 很难忽略持续存在的通胀冲击。 将通胀率控",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。",
+     "title": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167050",
+     "url": "https://wallstreetcn.com/livenews/3167054",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "日本8月份全国消费者价格指数增速放缓 低于预期 日本央行利率加息预期保持不变",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisewti3581224.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "美国8月进口价格指数同比 7%，预期 6.6%，前值 5.9%。",
+     "title": "澳洲联储主席布洛克：由于全球不确定性，投资者希望获得更高的回报。 贸易和关税公告",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3166274",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "日本8月核心CPI同比上涨1.7% 预估为上涨1.8%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisewtp0219814.shtml",
-     "rrf": 0.03083,
-     "bm25_rank": 8,
-     "vec_rank": 2
-    },
-    {
-     "n": 5,
-     "title": "加拿大8月原材料价格指数环比 3.1%，预期 0.8%，前值 -2.2%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3166829",
-     "rrf": 0.02921,
-     "bm25_rank": 7,
-     "vec_rank": 10
-    },
-    {
-     "n": 6,
-     "title": "美国8月进口价格指数(除汽油)环比 0.8%，预期 0.3%，前值 0.3%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3166272",
-     "rrf": 0.02921,
-     "bm25_rank": 10,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "美国8月新屋开工环比 -2.6%，预期 6.6%，前值 -12.4%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3166822",
-     "rrf": 0.02885,
-     "bm25_rank": 6,
-     "vec_rank": 13
-    },
-    {
-     "n": 8,
-     "title": "日元风向突变！美联储强硬加息，日本央行或迎来年内首次加息",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/forexinfo/2026-09-17/doc-inisapnp3583703.shtml",
-     "rrf": 0.02821,
-     "bm25_rank": 18,
-     "vec_rank": 5
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "8976354d2b6d6a53",
-   "label": "港股广汽集团、MINIMAX大涨7%，阿里、百度、网易、京东集体下跌，珠峰黄金跌超7%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「港股广汽集团、MINIMAX大涨7%，阿里、百度、网易、京东集体下跌，珠峰黄金跌超7%」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.524（爆点），所属板块类目：金融市场。",
-    "关键信息": "港股广汽集团、MINIMAX大涨7%，阿里、百度、网易、京东集体下跌，珠峰黄金跌；9月17日热门中概股涨跌不一 携程涨超3% 百度跌超2% B站跌超3%；港股午评：恒指跌0.73% 科指跌0.76% 科网股低迷 黄金股下挫",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "港股广汽集团、MINIMAX大涨7%，阿里、百度、网易、京东集体下跌，珠峰黄金跌超7%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-17/doc-iniscqye9172308.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "9月17日热门中概股涨跌不一 携程涨超3% 百度跌超2% B站跌超3%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisapnr0274784.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
+     "url": "https://wallstreetcn.com/livenews/3167072",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "港股午评：恒指跌0.73% 科指跌0.76% 科网股低迷 黄金股下挫",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-17/doc-iniscekc4135543.shtml",
+     "title": "澳洲联储主席布洛克：通胀风险偏向上行。 很难忽略持续存在的通胀冲击。 将通胀率控",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167082",
      "rrf": 0.03126,
      "bm25_rank": 3,
      "vec_rank": 5
     },
     {
      "n": 4,
-     "title": "广汽集团午前涨超5% 一汽拟成广汽第二大股东",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-17/doc-inisceki0266626.shtml",
+     "title": "澳洲联储主席布洛克：我们正在思考当前的政策紧缩程度是否足够。 从整体局势来看，房",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167071",
      "rrf": 0.0308,
      "bm25_rank": 7,
      "vec_rank": 3
     },
     {
      "n": 5,
-     "title": "恒指低开0.94%，报24480.57点；恒生科技指数跌1.03%。京东健康跌超",
+     "title": "澳洲联储主席布洛克：全球债券收益率上升并未失序。",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3166587",
-     "rrf": 0.02895,
-     "bm25_rank": 2,
-     "vec_rank": 18
-    },
-    {
-     "n": 6,
-     "title": "港股开盘：恒生指数涨0.49% 恒生科技指数涨0.41%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609183878149631.html",
-     "rrf": 0.02879,
-     "bm25_rank": 8,
-     "vec_rank": 11
-    },
-    {
-     "n": 7,
-     "title": "A股三大指数集体收跌 汽车、农业、医药逆势活跃",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-17/doc-iniscqxx4015094.shtml",
-     "rrf": 0.02872,
-     "bm25_rank": 5,
-     "vec_rank": 15
-    },
-    {
-     "n": 8,
-     "title": "港股午评：恒指涨0.67% 科指涨1.74% 科网股活跃 芯片股走强 联想涨超7%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-18/doc-inisfiii0272256.shtml",
-     "rrf": 0.02801,
-     "bm25_rank": 9,
-     "vec_rank": 14
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "港股广汽集团、MINIMAX大涨7%，阿里、百度、网易、京东集体下跌，珠峰黄金跌",
-    "bm25_only": 3,
-    "vec_only": 0,
-    "both": 4,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "750a5c86247cb274",
-   "label": "商品期货开盘，原油主力合约跌超5%，燃料油跌超4%，LU燃油跌超3%，苯乙烯、纯",
-   "cached": false,
-   "sections": {
-    "事件概述": "「商品期货开盘，原油主力合约跌超5%，燃料油跌超4%，LU燃油跌超3%，苯乙烯、纯」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.514（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "商品期货开盘，原油主力合约跌超5%，燃料油跌超4%，LU燃油跌超3%，苯乙烯、纯；国内商品期货早盘开盘 主力合约跌多涨少；商品期货开盘，原油主力合约跌超5%，液化气、焦煤跌超3%，燃料油跌近3%。集运欧",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "商品期货开盘，原油主力合约跌超5%，燃料油跌超4%，LU燃油跌超3%，苯乙烯、纯",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3166583",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "国内商品期货早盘开盘 主力合约跌多涨少",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609173876812023.html",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "商品期货开盘，原油主力合约跌超5%，液化气、焦煤跌超3%，燃料油跌近3%。集运欧",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167076",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "收评|国内期货主力合约跌多涨少 纯苯触及跌停",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-17/doc-iniscksf0338664.shtml",
-     "rrf": 0.0315,
+     "url": "https://wallstreetcn.com/livenews/3167063",
+     "rrf": 0.03012,
      "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "原油板块全线暴跌！这一品种已“六连阴”，跌势刹不住？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-17/doc-iniscksf0418601.shtml",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "快讯：午后SC原油主力合约加速下跌，日内跌超6%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-17/doc-iniscksh9234037.shtml",
-     "rrf": 0.02964,
-     "bm25_rank": 6,
      "vec_rank": 9
     },
     {
+     "n": 6,
+     "title": "澳洲联储主席布洛克：我们处在油价维持高位更久的环境下。 企业现在更有可能转嫁成本",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167059",
+     "rrf": 0.03008,
+     "bm25_rank": 6,
+     "vec_rank": 7
+    },
+    {
      "n": 7,
-     "title": "WTI原油期货主力合约日内跌超1%，现报101.29美元/桶",
+     "title": "澳联储主席布洛克：通胀上行风险正成为现实 9月议息将评估紧缩力度",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609173876730395.html",
-     "rrf": 0.02963,
-     "bm25_rank": 7,
-     "vec_rank": 8
+     "url": "https://finance.eastmoney.com/a/202609183878058458.html",
+     "rrf": 0.02991,
+     "bm25_rank": 10,
+     "vec_rank": 4
     },
     {
      "n": 8,
-     "title": "收评：国内期货主力合约跌多涨少 原油大跌超9%",
+     "title": "澳联储主席布洛克：政策会议前，抑制通胀是核心",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-18/doc-inisftxc0197537.shtml",
-     "rrf": 0.02885,
-     "bm25_rank": 13,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisewtp0231045.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 8,
      "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "商品期货开盘，原油主力合约跌超5%，燃料油跌超4%，LU燃油跌超3%，苯乙烯、纯",
+    "query": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平",
     "bm25_only": 1,
     "vec_only": 1,
     "both": 6,
