@@ -1,112 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 52,
+ "n_clusters": 51,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.0,
+ "elapsed": 5.9,
  "reports": [
   {
-   "key": "9085b45d1740aa5e",
-   "label": "上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施",
-   "cached": false,
-   "sections": {
-    "事件概述": "「上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：综合。",
-    "关键信息": "上交所：依规对沈鼓集团异常交易相关投资者采取暂停账户交易等自律监管措施；上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监；沈鼓集团相关异常账户暂停交易！刚刚，上交所出手→",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "上交所：依规对沈鼓集团异常交易相关投资者采取暂停账户交易等自律监管措施",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609183878739945.html",
-     "rrf": 0.03252,
-     "bm25_rank": 1,
-     "vec_rank": 2
-    },
-    {
-     "n": 2,
-     "title": "上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167313",
-     "rrf": 0.03252,
-     "bm25_rank": 2,
-     "vec_rank": 1
-    },
-    {
-     "n": 3,
-     "title": "沈鼓集团相关异常账户暂停交易！刚刚，上交所出手→",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-18/doc-inisheny8319173.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "上交所出手：对沈鼓集团部分投资者暂停交易",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/roll/2026-09-18/doc-inishent3169137.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "沈鼓集团：目前短期股价波动加剧 存在快速上涨后大幅回调的风险",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-18/doc-inishenv3432989.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "上交所：本周对龙版传媒等波动幅度较大的股票进行重点监控",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-18/doc-inisfyev3280154.shtml",
-     "rrf": 0.02971,
-     "bm25_rank": 4,
-     "vec_rank": 11
-    },
-    {
-     "n": 7,
-     "title": "深交所：2026年9月14日至9月18日，本所共对102起证券异常交易行为采取了",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167298",
-     "rrf": 0.02904,
-     "bm25_rank": 6,
-     "vec_rank": 12
-    },
-    {
-     "n": 8,
-     "title": "午后，暴拉超297%！沈鼓变“神鼓”，什么情况？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-18/doc-inisfprf0283555.shtml",
-     "rrf": 0.02878,
-     "bm25_rank": 9,
-     "vec_rank": 10
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监",
-    "bm25_only": 2,
-    "vec_only": 0,
-    "both": 5,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "82a432780516a563",
+   "key": "4d451f0c0854a7e9",
    "label": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？",
    "cached": false,
    "sections": {
-    "事件概述": "「美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.698（爆点），所属板块类目：综合。",
+    "事件概述": "「美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.73（爆点），所属板块类目：综合。",
     "关键信息": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？；丹麦、格陵兰称与美国达成的协议不会让渡主权；特朗普称“永久控制”格陵兰岛 丹麦如何接招？",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -196,105 +102,105 @@
    "elapsed": 0.0
   },
   {
-   "key": "33036ae1b54180d4",
-   "label": "伯克希尔·哈撒韦任命沃伦·巴菲特为名誉董事长，霍华德·巴菲特任董事长",
+   "key": "a5f646a08cdfe825",
+   "label": "沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹",
    "cached": false,
    "sections": {
-    "事件概述": "「伯克希尔·哈撒韦任命沃伦·巴菲特为名誉董事长，霍华德·巴菲特任董事长」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.688（爆点），所属板块类目：综合。",
-    "关键信息": "伯克希尔·哈撒韦任命沃伦·巴菲特为名誉董事长，霍华德·巴菲特任董事长；霍华德・巴菲特是谁？伯克希尔‑哈撒韦新任董事长；沃伦·巴菲特卸任伯克希尔-哈撒韦董事长",
+    "事件概述": "「沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.711（爆点），所属板块类目：综合。",
+    "关键信息": "沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹；胡塞武装称对沙特敏感目标及设施发动袭击；沙特首都利雅得遭空袭",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "伯克希尔·哈撒韦任命沃伦·巴菲特为名誉董事长，霍华德·巴菲特任董事长",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167284",
+     "title": "沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismerq7105861.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "霍华德・巴菲特是谁？伯克希尔‑哈撒韦新任董事长",
+     "title": "胡塞武装称对沙特敏感目标及设施发动袭击",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishkur3124159.shtml",
-     "rrf": 0.03128,
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-iniskyip2830687.shtml",
+     "rrf": 0.032,
      "bm25_rank": 2,
-     "vec_rank": 6
-    },
-    {
-     "n": 3,
-     "title": "沃伦·巴菲特卸任伯克希尔-哈撒韦董事长",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-18/10699130.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "巴菲特卸任伯克希尔董事长：“时间老人终将获胜”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishent3160316.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "巴菲特卸任伯克希尔董事长 其次子霍华德即刻接任该职务",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishkut3482284.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "伯克希尔任命沃伦·巴菲特为名誉主席",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisfyev3254378.shtml",
-     "rrf": 0.03058,
-     "bm25_rank": 8,
      "vec_rank": 3
     },
     {
-     "n": 7,
-     "title": "全文|巴菲特致信伯克希尔股东：现在正是完成交接的时机",
+     "n": 3,
+     "title": "沙特首都利雅得遭空袭",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609193879148071.html",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "沙特拦截弹即将耗尽，紧急求援",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167722",
+     "rrf": 0.03083,
+     "bm25_rank": 8,
+     "vec_rank": 2
+    },
+    {
+     "n": 5,
+     "title": "7月也门冲突升级以来首次 沙特首都遭袭",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishkuw8278873.shtml",
-     "rrf": 0.03009,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisisqe9872951.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "沙特向法国、英国、巴基斯坦、埃及求援",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-20/doc-inisnhav1493505.shtml",
+     "rrf": 0.03077,
      "bm25_rank": 5,
-     "vec_rank": 8
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "沙特首都传出爆炸声 民防总局称“危险已解除”",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167544",
+     "rrf": 0.02964,
+     "bm25_rank": 6,
+     "vec_rank": 9
     },
     {
      "n": 8,
-     "title": "巴菲特之子接任伯克希尔董事长 交班程序再推进一步",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisfyex3552777.shtml",
-     "rrf": 0.02985,
+     "title": "胡塞称沙特升级行动将遭更强烈反击",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609203879401613.html",
+     "rrf": 0.02963,
      "bm25_rank": 7,
-     "vec_rank": 7
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "伯克希尔·哈撒韦任命沃伦·巴菲特为名誉董事长，霍华德·巴菲特任董事长",
-    "bm25_only": 0,
+    "query": "沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹",
+    "bm25_only": 1,
     "vec_only": 0,
-    "both": 8,
+    "both": 7,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "d29c34fe7ba049ac",
+   "key": "af7408ff2fe15966",
    "label": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
    "cached": false,
    "sections": {
-    "事件概述": "「黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.663（爆点），所属板块类目：综合。",
+    "事件概述": "「黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.702（爆点），所属板块类目：综合。",
     "关键信息": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧；赵峥：把握时代要求培养智能经济高质量人才；黄仁勋“唱反调” 呼吁加快人工智能研发进程",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -314,8 +220,8 @@
      "title": "赵峥：把握时代要求培养智能经济高质量人才",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismkxf1844136.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
+     "rrf": 0.03102,
+     "bm25_rank": 6,
      "vec_rank": 3
     },
     {
@@ -323,30 +229,21 @@
      "title": "黄仁勋“唱反调” 呼吁加快人工智能研发进程",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisifyn7894604.shtml",
-     "rrf": 0.02946,
-     "bm25_rank": 15,
+     "rrf": 0.02912,
+     "bm25_rank": 17,
      "vec_rank": 2
     },
     {
      "n": 4,
-     "title": "AI高管忧心：人工智能会给新闻出版商带来生存级威胁",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisfyex3507927.shtml",
-     "rrf": 0.02862,
-     "bm25_rank": 7,
-     "vec_rank": 13
-    },
-    {
-     "n": 5,
      "title": "河北将培育人工智能应用服务商",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-09-19/doc-inisifyk9972281.shtml",
-     "rrf": 0.02853,
-     "bm25_rank": 3,
-     "vec_rank": 19
+     "rrf": 0.02813,
+     "bm25_rank": 4,
+     "vec_rank": 20
     },
     {
-     "n": 6,
+     "n": 5,
      "title": "2026网安周｜直面隐性环境代价，促进数绿协同发展",
      "media": "中新网",
      "url": "https://www.chinanews.com.cn/cj/2026/09-19/10699412.shtml",
@@ -355,40 +252,49 @@
      "vec_rank": 4
     },
     {
-     "n": 7,
+     "n": 6,
      "title": "AI向科研端纵深渗透 重塑传统产业创新范式",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inishrap3029819.shtml",
-     "rrf": 0.02661,
-     "bm25_rank": 8,
+     "rrf": 0.02683,
+     "bm25_rank": 7,
      "vec_rank": 24
     },
     {
-     "n": 8,
-     "title": "欧洲央行官员为进一步加息做铺垫 最早可能10月行动",
+     "n": 7,
+     "title": "Meta与谷歌押注新型清洁能源技术 以满足AI的电力需求",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishkuv0212508.shtml",
-     "rrf": 0.01613,
-     "bm25_rank": 2,
-     "vec_rank": null
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-20/doc-inismzve6739947.shtml",
+     "rrf": 0.02396,
+     "bm25_rank": 25,
+     "vec_rank": 22
+    },
+    {
+     "n": 8,
+     "title": "国家药监局：对新靶点、新机制创新药加强前置指导",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167761",
+     "rrf": 0.02374,
+     "bm25_rank": 20,
+     "vec_rank": 29
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
-    "bm25_only": 4,
+    "bm25_only": 2,
     "vec_only": 2,
     "both": 2,
-    "neither_topk": 0
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "467a6d354c0ab9e8",
+   "key": "e6f8873b88f068cf",
    "label": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英",
    "cached": false,
    "sections": {
-    "事件概述": "「英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.641（爆点），所属板块类目：半导体。",
+    "事件概述": "「英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.669（爆点），所属板块类目：半导体。",
     "关键信息": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英；黄仁勋减持4.6万股英伟达股票，成交价约每股212美元；英伟达5名高管披露持股变动：黄仁勋4.57万股用于缴税，CFO套现765万美元",
     "市场影响": "关联板块代码：BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -441,39 +347,133 @@
     },
     {
      "n": 6,
-     "title": "阿斯利康CEO斥资726万英镑购入公司股票",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167289",
-     "rrf": 0.02881,
-     "bm25_rank": 12,
+     "title": "英伟达参投的 “英版甲骨文”冲刺美股IPO 目标估值350亿美元",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609203879414870.html",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
      "vec_rank": 7
     },
     {
      "n": 7,
-     "title": "金斯瑞生物科技遭摩根大通减持约3375.10万股 每股作价约32.74港元",
+     "title": "迈越科技遭叶善敏减持2100万股 每股作价1.18港元",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-20/doc-inismrff2597806.shtml",
-     "rrf": 0.02753,
-     "bm25_rank": 8,
-     "vec_rank": 18
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-20/doc-inismvph6812123.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 10,
+     "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "天数智芯早盘涨逾16% 长江证券维持“买入”评级",
+     "title": "ASMPT遭The Capital Group Companies, Inc.减持169.82万股 每股作价约159.0",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-18/doc-inisfiif3450470.shtml",
-     "rrf": 0.02722,
-     "bm25_rank": 15,
-     "vec_rank": 12
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-20/doc-inismvpe9303532.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 9,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英",
-    "bm25_only": 1,
+    "bm25_only": 0,
+    "vec_only": 2,
+    "both": 6,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "fa2484a591cb9bfb",
+   "label": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息",
+   "cached": false,
+   "sections": {
+    "事件概述": "「西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.645（爆点），所属板块类目：综合。",
+    "关键信息": "西贝回应倒闭传闻：目前全国门店均正常运营；西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息；西贝将彻底倒闭？成都6个月内关停6家，如今仅剩6家",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "西贝回应倒闭传闻：目前全国门店均正常运营",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609193879222032.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167652",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "西贝将彻底倒闭？成都6个月内关停6家，如今仅剩6家",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-19/doc-iniskimy7468622.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "西贝还能撑多久？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hyyj/2026-09-20/doc-inisnnky6604323.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "西贝倒闭陷罗生门，谁在为炮轰和炒作埋单？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hyyj/2026-09-20/doc-inisnnkw9303844.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "理记点名罗永浩团队“黑公关”！揭上市公司“交个朋友”与西贝利益纠缠~",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-09-20/doc-inisnhav1538548.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 5,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "说到做到！西贝被曝已起诉罗永浩，即将开庭",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-09-20/doc-inisnhav1512832.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "持续关店、缓发工资……西贝来到“生死线”边缘",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnnkv2481304.shtml",
+     "rrf": 0.02736,
+     "bm25_rank": 19,
+     "vec_rank": 8
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息",
+    "bm25_only": 0,
     "vec_only": 1,
-    "both": 5,
-    "neither_topk": 1
+    "both": 7,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   }

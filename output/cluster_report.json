@@ -1,11 +1,11 @@
 {
- "n_articles": 1709,
+ "n_articles": 1679,
  "mode": "vector",
- "edges": 634,
- "n_components": 1483,
- "n_clusters": 52,
- "n_noise_filtered": 4,
- "n_single_media_filtered": 58,
+ "edges": 534,
+ "n_components": 1478,
+ "n_clusters": 51,
+ "n_noise_filtered": 5,
+ "n_single_media_filtered": 60,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,8 +13,8 @@
   "media"
  ],
  "calibration": {
-  "max_size": 11.0,
-  "max_first": 11.0,
+  "max_size": 9.0,
+  "max_first": 9.0,
   "window_days": 3,
   "n_media_total": 5
  },
@@ -22,119 +22,88 @@
  "level_dist": {
   "爆点": 5,
   "高热": 10,
-  "升温中": 16,
+  "升温中": 15,
   "一般": 21
  },
  "top": [
   {
-   "label": "上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施",
-   "heat": 0.749,
-   "level": "爆点",
-   "n": 11,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 1.0,
-    "burst": 1.0,
-    "duration": 0.333,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    27239,
-    27302,
-    27339,
-    27617,
-    27623,
-    27628,
-    27643,
-    27660,
-    27687,
-    27732,
-    27757
-   ]
-  },
-  {
    "label": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？",
-   "heat": 0.698,
+   "heat": 0.73,
    "level": "爆点",
    "n": 6,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.783,
-    "burst": 0.721,
+    "coverage": 0.845,
+    "burst": 0.778,
     "duration": 0.667,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    27974,
-    27976,
-    28134,
-    28208,
-    28430,
-    28682
+    29118,
+    29120,
+    29282,
+    29356,
+    29582,
+    29835
    ]
   },
   {
-   "label": "伯克希尔·哈撒韦任命沃伦·巴菲特为名誉董事长，霍华德·巴菲特任董事长",
-   "heat": 0.688,
+   "label": "沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹",
+   "heat": 0.711,
    "level": "爆点",
-   "n": 8,
+   "n": 6,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.884,
-    "burst": 0.884,
-    "duration": 0.333,
+    "coverage": 0.845,
+    "burst": 0.699,
+    "duration": 0.667,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    27402,
-    27471,
-    27629,
-    27634,
-    27713,
-    27871,
-    27872,
-    27883
+    29275,
+    29351,
+    29733,
+    29736,
+    29796,
+    30101
    ]
   },
   {
    "label": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
-   "heat": 0.663,
+   "heat": 0.702,
    "level": "爆点",
    "n": 9,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.927,
-    "burst": 0.927,
+    "coverage": 1.0,
+    "burst": 1.0,
     "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    28227,
-    28231,
-    28258,
-    28265,
-    28273,
-    28278,
-    28289,
-    28311,
-    28312
+    29378,
+    29382,
+    29409,
+    29416,
+    29424,
+    29429,
+    29440,
+    29462,
+    29463
    ]
   },
   {
    "label": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英",
-   "heat": 0.641,
+   "heat": 0.669,
    "level": "爆点",
    "n": 5,
    "media": 3,
@@ -143,132 +112,156 @@
     "BK1161"
    ],
    "factors": {
-    "coverage": 0.721,
-    "burst": 0.558,
+    "coverage": 0.778,
+    "burst": 0.602,
     "duration": 0.667,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    27971,
-    28224,
-    28592,
-    28799,
-    28819
+    29115,
+    29375,
+    29745,
+    29952,
+    29974
    ]
   },
   {
-   "label": "全链条激活房车消费潜力 十部门联合出台“房车消费大礼包”",
-   "heat": 0.631,
-   "level": "高热",
-   "n": 5,
-   "media": 4,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.721,
-    "burst": 0.648,
-    "duration": 0.333,
-    "media": 0.8,
-    "social": null
-   },
-   "article_ids": [
-    27342,
-    27350,
-    27353,
-    27503,
-    28080
-   ]
-  },
-  {
-   "label": "油价短线拉升，报道：沙特告知欧洲炼油商，下月他们将不会获得原油供应",
-   "heat": 0.584,
-   "level": "高热",
-   "n": 5,
-   "media": 3,
-   "cat": "国际市场",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.721,
-    "burst": 0.648,
-    "duration": 0.333,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    27583,
-    27584,
-    27743,
-    27815,
-    28314
-   ]
-  },
-  {
-   "label": "沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹",
-   "heat": 0.584,
-   "level": "高热",
-   "n": 5,
+   "label": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息",
+   "heat": 0.645,
+   "level": "爆点",
+   "n": 4,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.721,
-    "burst": 0.648,
-    "duration": 0.333,
+    "coverage": 0.699,
+    "burst": 0.602,
+    "duration": 0.667,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    28127,
-    28203,
-    28580,
-    28583,
-    28643
+    29357,
+    29418,
+    29431,
+    30273
    ]
   },
   {
-   "label": "广交会在中国外贸发展进程中发挥了怎样的作用？商务部回应",
-   "heat": 0.563,
+   "label": "十部门，重磅发文！事关万亿赛道 ！三分钟看完周末发生了什么？",
+   "heat": 0.632,
    "level": "高热",
    "n": 5,
    "media": 3,
    "cat": "宏观政策",
    "sectors": [],
    "factors": {
-    "coverage": 0.721,
-    "burst": 0.558,
+    "coverage": 0.778,
+    "burst": 0.778,
     "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    27298,
-    27329,
-    27347,
-    27884,
-    27913
+    29988,
+    29991,
+    30132,
+    30141,
+    30240
    ]
   },
   {
-   "label": "李强主持召开国务院常务会议 部署实施医疗康复护理扩容提升工程",
-   "heat": 0.563,
+   "label": "北京：聚焦工业制造、科学研究、生物医药、教育教学等重点领域，开放智能体应用场景",
+   "heat": 0.551,
    "level": "高热",
-   "n": 4,
-   "media": 3,
-   "cat": "生物医药",
+   "n": 5,
+   "media": 2,
+   "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.648,
-    "burst": 0.648,
-    "duration": 0.333,
-    "media": 0.6,
+    "coverage": 0.778,
+    "burst": 0.301,
+    "duration": 0.667,
+    "media": 0.4,
     "social": null
    },
    "article_ids": [
-    27595,
-    27597,
-    27688,
-    27737
+    28977,
+    29043,
+    29048,
+    29291,
+    30481
+   ]
+  },
+  {
+   "label": "《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司发展新质生产力",
+   "heat": 0.543,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [
+    "BK0475",
+    "BK1283",
+    "BK0800"
+   ],
+   "factors": {
+    "coverage": 0.699,
+    "burst": 0.699,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    29700,
+    29708,
+    29709,
+    29710
+   ]
+  },
+  {
+   "label": "Anthropic、OpenAI、SpaceX AI、谷歌因呼吁“放缓”AI发展被起诉",
+   "heat": 0.54,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "AI与大模型",
+   "sectors": [
+    "BK0800"
+   ],
+   "factors": {
+    "coverage": 0.602,
+    "burst": 0.477,
+    "duration": 0.667,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    29347,
+    29355,
+    30130
+   ]
+  },
+  {
+   "label": "中泰证券一员工代客操盘，巨亏9206万元！累计交易超25亿元",
+   "heat": 0.54,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.602,
+    "burst": 0.477,
+    "duration": 0.667,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    29414,
+    29687,
+    30469
    ]
   }
  ]
