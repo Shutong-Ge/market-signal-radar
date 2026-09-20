@@ -1,206 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 69,
+ "n_clusters": 52,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.3,
+ "elapsed": 6.0,
  "reports": [
   {
-   "key": "d1d906a8d5c3efb9",
-   "label": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。",
-   "cached": false,
-   "sections": {
-    "事件概述": "「日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。」由 22 篇报道聚合而成，覆盖 3 家媒体，热度 0.906（爆点），所属板块类目：宏观政策。",
-    "关键信息": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。；日本8月份全国消费者价格指数增速放缓 低于预期 日本央行利率加息预期保持不变；日本核心CPI连续60个月上涨",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167050",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "日本8月份全国消费者价格指数增速放缓 低于预期 日本央行利率加息预期保持不变",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisewti3581224.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "日本核心CPI连续60个月上涨",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609193879159680.html",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "加拿大8月原材料价格指数环比 3.1%，预期 0.8%，前值 -2.2%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3166829",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "日本8月核心CPI同比上涨1.7% 预估为上涨1.8%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisewtp0219814.shtml",
-     "rrf": 0.03021,
-     "bm25_rank": 11,
-     "vec_rank": 2
-    },
-    {
-     "n": 6,
-     "title": "美国8月新屋开工环比 -2.6%，预期 6.6%，前值 -12.4%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3166822",
-     "rrf": 0.03012,
-     "bm25_rank": 4,
-     "vec_rank": 9
-    },
-    {
-     "n": 7,
-     "title": "美国8月营建许可环比初值 -2.7%，预期 -1.4%，前值 4.3%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3166825",
-     "rrf": 0.02727,
-     "bm25_rank": 7,
-     "vec_rank": 21
-    },
-    {
-     "n": 8,
-     "title": "美国8月新屋开工 127.5万户，预期 131.9万户，前值 123.9万户。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3166823",
-     "rrf": 0.0262,
-     "bm25_rank": 8,
-     "vec_rank": 27
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。",
-    "bm25_only": 3,
-    "vec_only": 1,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "bfbafb32af8ad5db",
-   "label": "人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳”",
-   "cached": false,
-   "sections": {
-    "事件概述": "「人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳”」由 9 篇报道聚合而成，覆盖 4 家媒体，热度 0.722（爆点），所属板块类目：国际市场。",
-    "关键信息": "人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳；在岸、离岸人民币，双双升破6.7；在岸、离岸人民币对美元汇率双双升破6.7",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-09-18/doc-inisftxe8442729.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "在岸、离岸人民币，双双升破6.7",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/rmb/2026-09-18/doc-inisftwx3284575.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "在岸、离岸人民币对美元汇率双双升破6.7",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-18/10698995.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "离岸人民币兑美元升破6.70关口，创2023年1月16日以来新高。 此前人民币兑",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167085",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "在岸、离岸人民币双双升破6.7，原因找到了！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/china/2026-09-18/doc-inisftwz3535927.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "离岸人民币兑美元涨至6.6967元，为2022年7月来盘中新高。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167088",
-     "rrf": 0.02986,
-     "bm25_rank": 8,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "人民币兑美元中间价报6.7521 上调59点",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609183878123490.html",
-     "rrf": 0.02881,
-     "bm25_rank": 7,
-     "vec_rank": 12
-    },
-    {
-     "n": 8,
-     "title": "人民币兑美元中间价连续八个交易日调强，为2023年以来最长连涨",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167084",
-     "rrf": 0.02858,
-     "bm25_rank": 11,
-     "vec_rank": 9
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳",
-    "bm25_only": 1,
-    "vec_only": 0,
-    "both": 6,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "88a4add29da3e93f",
+   "key": "9085b45d1740aa5e",
    "label": "上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施",
    "cached": false,
    "sections": {
-    "事件概述": "「上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.708（爆点），所属板块类目：综合。",
+    "事件概述": "「上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：综合。",
     "关键信息": "上交所：依规对沈鼓集团异常交易相关投资者采取暂停账户交易等自律监管措施；上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监；沈鼓集团相关异常账户暂停交易！刚刚，上交所出手→",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -290,106 +102,106 @@
    "elapsed": 0.0
   },
   {
-   "key": "ad5379b236044326",
-   "label": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平",
+   "key": "82a432780516a563",
+   "label": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？",
    "cached": false,
    "sections": {
-    "事件概述": "「澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.675（爆点），所属板块类目：综合。",
-    "关键信息": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平；澳洲联储主席布洛克：由于全球不确定性，投资者希望获得更高的回报。 贸易和关税公告；澳洲联储主席布洛克：通胀风险偏向上行。 很难忽略持续存在的通胀冲击。 将通胀率控",
+    "事件概述": "「美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.698（爆点），所属板块类目：综合。",
+    "关键信息": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？；丹麦、格陵兰称与美国达成的协议不会让渡主权；特朗普称“永久控制”格陵兰岛 丹麦如何接招？",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167054",
+     "title": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-20/doc-inismkxi2645076.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "澳洲联储主席布洛克：由于全球不确定性，投资者希望获得更高的回报。 贸易和关税公告",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167072",
+     "title": "丹麦、格陵兰称与美国达成的协议不会让渡主权",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609193879236224.html",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "特朗普称“永久控制”格陵兰岛 丹麦如何接招？",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609193879159546.html",
+     "rrf": 0.03151,
+     "bm25_rank": 2,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "三方即将签署协议 特朗普称获格陵兰岛永久防御权、参与开发",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609193879147997.html",
      "rrf": 0.03151,
      "bm25_rank": 5,
      "vec_rank": 2
     },
     {
-     "n": 3,
-     "title": "澳洲联储主席布洛克：通胀风险偏向上行。 很难忽略持续存在的通胀冲击。 将通胀率控",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167082",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "澳洲联储主席布洛克：我们正在思考当前的政策紧缩程度是否足够。 从整体局势来看，房",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167071",
-     "rrf": 0.0308,
-     "bm25_rank": 7,
-     "vec_rank": 3
-    },
-    {
      "n": 5,
-     "title": "澳洲联储主席布洛克：全球债券收益率上升并未失序。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167063",
-     "rrf": 0.03012,
+     "title": "特朗普：美国将获得对格陵兰岛安全“永久控制权”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-19/doc-inishzsq7999078.shtml",
+     "rrf": 0.03078,
      "bm25_rank": 4,
-     "vec_rank": 9
+     "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "澳洲联储主席布洛克：我们处在油价维持高位更久的环境下。 企业现在更有可能转嫁成本",
+     "title": "特朗普：美国已与丹麦达成协议，将永久控制格陵兰岛的安全",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167059",
+     "url": "https://wallstreetcn.com/livenews/3167487",
+     "rrf": 0.03055,
+     "bm25_rank": 7,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "丹麦和格陵兰岛将与美签安全协议",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167532",
      "rrf": 0.03008,
      "bm25_rank": 6,
      "vec_rank": 7
     },
     {
-     "n": 7,
-     "title": "澳联储主席布洛克：通胀上行风险正成为现实 9月议息将评估紧缩力度",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609183878058458.html",
-     "rrf": 0.02991,
-     "bm25_rank": 10,
-     "vec_rank": 4
-    },
-    {
      "n": 8,
-     "title": "澳联储主席布洛克：政策会议前，抑制通胀是核心",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisewtp0231045.shtml",
-     "rrf": 0.02986,
+     "title": "北约发言人：对美国、丹麦与格陵兰即将签署协议的公告表示欢迎",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609193879232729.html",
+     "rrf": 0.02941,
      "bm25_rank": 8,
-     "vec_rank": 6
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
+    "query": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？",
+    "bm25_only": 0,
+    "vec_only": 0,
+    "both": 8,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "3545f36cf3b4f220",
+   "key": "33036ae1b54180d4",
    "label": "伯克希尔·哈撒韦任命沃伦·巴菲特为名誉董事长，霍华德·巴菲特任董事长",
    "cached": false,
    "sections": {
-    "事件概述": "「伯克希尔·哈撒韦任命沃伦·巴菲特为名誉董事长，霍华德·巴菲特任董事长」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.656（爆点），所属板块类目：综合。",
-    "关键信息": "伯克希尔·哈撒韦任命沃伦·巴菲特为名誉董事长，霍华德·巴菲特任董事长；沃伦·巴菲特卸任伯克希尔-哈撒韦董事长；霍华德・巴菲特是谁？伯克希尔‑哈撒韦新任董事长",
+    "事件概述": "「伯克希尔·哈撒韦任命沃伦·巴菲特为名誉董事长，霍华德·巴菲特任董事长」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.688（爆点），所属板块类目：综合。",
+    "关键信息": "伯克希尔·哈撒韦任命沃伦·巴菲特为名誉董事长，霍华德·巴菲特任董事长；霍华德・巴菲特是谁？伯克希尔‑哈撒韦新任董事长；沃伦·巴菲特卸任伯克希尔-哈撒韦董事长",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -405,21 +217,21 @@
     },
     {
      "n": 2,
-     "title": "沃伦·巴菲特卸任伯克希尔-哈撒韦董事长",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-18/10699130.shtml",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
      "title": "霍华德・巴菲特是谁？伯克希尔‑哈撒韦新任董事长",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishkur3124159.shtml",
      "rrf": 0.03128,
      "bm25_rank": 2,
      "vec_rank": 6
+    },
+    {
+     "n": 3,
+     "title": "沃伦·巴菲特卸任伯克希尔-哈撒韦董事长",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-18/10699130.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 6,
+     "vec_rank": 2
     },
     {
      "n": 4,
@@ -453,8 +265,8 @@
      "title": "全文|巴菲特致信伯克希尔股东：现在正是完成交接的时机",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishkuw8278873.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
+     "rrf": 0.03009,
+     "bm25_rank": 5,
      "vec_rank": 8
     },
     {
@@ -474,6 +286,194 @@
     "vec_only": 0,
     "both": 8,
     "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "d29c34fe7ba049ac",
+   "label": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
+   "cached": false,
+   "sections": {
+    "事件概述": "「黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.663（爆点），所属板块类目：综合。",
+    "关键信息": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧；赵峥：把握时代要求培养智能经济高质量人才；黄仁勋“唱反调” 呼吁加快人工智能研发进程",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/hy/hyjz/2026-09-19/doc-iniskccv2388962.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "赵峥：把握时代要求培养智能经济高质量人才",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismkxf1844136.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "黄仁勋“唱反调” 呼吁加快人工智能研发进程",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisifyn7894604.shtml",
+     "rrf": 0.02946,
+     "bm25_rank": 15,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "AI高管忧心：人工智能会给新闻出版商带来生存级威胁",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisfyex3507927.shtml",
+     "rrf": 0.02862,
+     "bm25_rank": 7,
+     "vec_rank": 13
+    },
+    {
+     "n": 5,
+     "title": "河北将培育人工智能应用服务商",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-19/doc-inisifyk9972281.shtml",
+     "rrf": 0.02853,
+     "bm25_rank": 3,
+     "vec_rank": 19
+    },
+    {
+     "n": 6,
+     "title": "2026网安周｜直面隐性环境代价，促进数绿协同发展",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-19/10699412.shtml",
+     "rrf": 0.02797,
+     "bm25_rank": 21,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "AI向科研端纵深渗透 重塑传统产业创新范式",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inishrap3029819.shtml",
+     "rrf": 0.02661,
+     "bm25_rank": 8,
+     "vec_rank": 24
+    },
+    {
+     "n": 8,
+     "title": "欧洲央行官员为进一步加息做铺垫 最早可能10月行动",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishkuv0212508.shtml",
+     "rrf": 0.01613,
+     "bm25_rank": 2,
+     "vec_rank": null
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
+    "bm25_only": 4,
+    "vec_only": 2,
+    "both": 2,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "467a6d354c0ab9e8",
+   "label": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英",
+   "cached": false,
+   "sections": {
+    "事件概述": "「英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.641（爆点），所属板块类目：半导体。",
+    "关键信息": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英；黄仁勋减持4.6万股英伟达股票，成交价约每股212美元；英伟达5名高管披露持股变动：黄仁勋4.57万股用于缴税，CFO套现765万美元",
+    "市场影响": "关联板块代码：BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167486",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "黄仁勋减持4.6万股英伟达股票，成交价约每股212美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inisisqc3101405.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "英伟达5名高管披露持股变动：黄仁勋4.57万股用于缴税，CFO套现765万美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-19/doc-iniskptr2230344.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "英伟达5名高管持股变动：黄仁勋近千万美元股票被预扣税款",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609203879283197.html",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "黄仁勋夫妇，捐赠43.8万股英伟达股票",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-09-20/doc-inismrfk6909184.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "阿斯利康CEO斥资726万英镑购入公司股票",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167289",
+     "rrf": 0.02881,
+     "bm25_rank": 12,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "金斯瑞生物科技遭摩根大通减持约3375.10万股 每股作价约32.74港元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-20/doc-inismrff2597806.shtml",
+     "rrf": 0.02753,
+     "bm25_rank": 8,
+     "vec_rank": 18
+    },
+    {
+     "n": 8,
+     "title": "天数智芯早盘涨逾16% 长江证券维持“买入”评级",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-18/doc-inisfiif3450470.shtml",
+     "rrf": 0.02722,
+     "bm25_rank": 15,
+     "vec_rank": 12
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }

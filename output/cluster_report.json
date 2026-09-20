@@ -1,11 +1,11 @@
 {
- "n_articles": 1980,
+ "n_articles": 1709,
  "mode": "vector",
- "edges": 814,
- "n_components": 1682,
- "n_clusters": 69,
- "n_noise_filtered": 6,
- "n_single_media_filtered": 68,
+ "edges": 634,
+ "n_components": 1483,
+ "n_clusters": 52,
+ "n_noise_filtered": 4,
+ "n_single_media_filtered": 58,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,284 +13,262 @@
   "media"
  ],
  "calibration": {
-  "max_size": 22.0,
-  "max_first": 14.0,
-  "window_days": 2,
+  "max_size": 11.0,
+  "max_first": 11.0,
+  "window_days": 3,
   "n_media_total": 5
  },
  "elapsed": 0.1,
  "level_dist": {
-  "爆点": 6,
-  "高热": 14,
-  "升温中": 21,
-  "一般": 28
+  "爆点": 5,
+  "高热": 10,
+  "升温中": 16,
+  "一般": 21
  },
  "top": [
   {
-   "label": "日本8月CPI(除生鲜食品)同比 1.7%，预期 1.8%，前值 1.8%。",
-   "heat": 0.906,
-   "level": "爆点",
-   "n": 22,
-   "media": 3,
-   "cat": "宏观政策",
-   "sectors": [],
-   "factors": {
-    "coverage": 1.0,
-    "burst": 1.0,
-    "duration": 1.0,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    25451,
-    25528,
-    25574,
-    25592,
-    25594,
-    25604,
-    25800,
-    25806,
-    25824,
-    25869,
-    25871,
-    25954,
-    25958,
-    26001,
-    26534,
-    26545,
-    26549,
-    26566,
-    26584,
-    26589,
-    26671,
-    26833
-   ]
-  },
-  {
-   "label": "人民币升破6.7关口！多重因素构成强支撑 业内预计全年人民币汇率走势或“先升后稳”",
-   "heat": 0.722,
-   "level": "爆点",
-   "n": 9,
-   "media": 4,
-   "cat": "国际市场",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.734,
-    "burst": 0.85,
-    "duration": 0.5,
-    "media": 0.8,
-    "social": null
-   },
-   "article_ids": [
-    25780,
-    25781,
-    25786,
-    25788,
-    25796,
-    25888,
-    25889,
-    25920,
-    25922
-   ]
-  },
-  {
    "label": "上交所：新股沈鼓集团股票价格大幅波动 依规对相关投资者采取了暂停账户交易等自律监管措施",
-   "heat": 0.708,
+   "heat": 0.749,
    "level": "爆点",
    "n": 11,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.793,
-    "burst": 0.918,
-    "duration": 0.5,
+    "coverage": 1.0,
+    "burst": 1.0,
+    "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    25876,
-    25939,
-    25976,
-    26252,
-    26258,
-    26263,
-    26278,
-    26295,
-    26322,
-    26366,
-    26391
+    27239,
+    27302,
+    27339,
+    27617,
+    27623,
+    27628,
+    27643,
+    27660,
+    27687,
+    27732,
+    27757
    ]
   },
   {
-   "label": "澳洲联储主席布洛克：多项指标持续表明，劳动力市场状况依旧接近且略紧于充分就业水平",
-   "heat": 0.675,
+   "label": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？",
+   "heat": 0.698,
    "level": "爆点",
-   "n": 9,
+   "n": 6,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.734,
-    "burst": 0.85,
-    "duration": 0.5,
+    "coverage": 0.783,
+    "burst": 0.721,
+    "duration": 0.667,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    25586,
-    25608,
-    25615,
-    25625,
-    25674,
-    25725,
-    25734,
-    25763,
-    25775
+    27974,
+    27976,
+    28134,
+    28208,
+    28430,
+    28682
    ]
   },
   {
    "label": "伯克希尔·哈撒韦任命沃伦·巴菲特为名誉董事长，霍华德·巴菲特任董事长",
-   "heat": 0.656,
+   "heat": 0.688,
    "level": "爆点",
    "n": 8,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.701,
-    "burst": 0.811,
-    "duration": 0.5,
+    "coverage": 0.884,
+    "burst": 0.884,
+    "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    26039,
-    26107,
-    26264,
-    26269,
-    26348,
-    26505,
-    26506,
-    26517
+    27402,
+    27471,
+    27629,
+    27634,
+    27713,
+    27871,
+    27872,
+    27883
    ]
   },
   {
    "label": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
-   "heat": 0.628,
+   "heat": 0.663,
    "level": "爆点",
    "n": 9,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.734,
-    "burst": 0.85,
-    "duration": 0.5,
+    "coverage": 0.927,
+    "burst": 0.927,
+    "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    26855,
-    26858,
-    26879,
-    26885,
-    26892,
-    26897,
-    26907,
-    26921,
-    26922
+    28227,
+    28231,
+    28258,
+    28265,
+    28273,
+    28278,
+    28289,
+    28311,
+    28312
+   ]
+  },
+  {
+   "label": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英",
+   "heat": 0.641,
+   "level": "爆点",
+   "n": 5,
+   "media": 3,
+   "cat": "半导体",
+   "sectors": [
+    "BK1161"
+   ],
+   "factors": {
+    "coverage": 0.721,
+    "burst": 0.558,
+    "duration": 0.667,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    27971,
+    28224,
+    28592,
+    28799,
+    28819
    ]
   },
   {
    "label": "全链条激活房车消费潜力 十部门联合出台“房车消费大礼包”",
-   "heat": 0.614,
+   "heat": 0.631,
    "level": "高热",
    "n": 5,
    "media": 4,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.571,
-    "burst": 0.594,
-    "duration": 0.5,
+    "coverage": 0.721,
+    "burst": 0.648,
+    "duration": 0.333,
     "media": 0.8,
     "social": null
    },
    "article_ids": [
-    25979,
-    25987,
-    25990,
-    26139,
-    26710
-   ]
-  },
-  {
-   "label": "商品期货开盘，原油主力合约跌超5%，液化气、焦煤跌超3%，燃料油跌近3%。集运欧",
-   "heat": 0.61,
-   "level": "高热",
-   "n": 6,
-   "media": 3,
-   "cat": "大宗与能化",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.621,
-    "burst": 0.719,
-    "duration": 0.5,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    25752,
-    25753,
-    25851,
-    25873,
-    25891,
-    25900
+    27342,
+    27350,
+    27353,
+    27503,
+    28080
    ]
   },
   {
    "label": "油价短线拉升，报道：沙特告知欧洲炼油商，下月他们将不会获得原油供应",
-   "heat": 0.567,
+   "heat": 0.584,
    "level": "高热",
    "n": 5,
    "media": 3,
    "cat": "国际市场",
    "sectors": [],
    "factors": {
-    "coverage": 0.571,
-    "burst": 0.594,
-    "duration": 0.5,
+    "coverage": 0.721,
+    "burst": 0.648,
+    "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    26218,
-    26219,
-    26377,
-    26449,
-    26924
+    27583,
+    27584,
+    27743,
+    27815,
+    28314
    ]
   },
   {
-   "label": "网信办加强涉企侵权信息管理 涉及歪曲解读企业家过往言论、拉踩引战等",
-   "heat": 0.555,
+   "label": "沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹",
+   "heat": 0.584,
    "level": "高热",
-   "n": 3,
-   "media": 2,
+   "n": 5,
+   "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.442,
-    "burst": 0.406,
-    "duration": 1.0,
-    "media": 0.4,
+    "coverage": 0.721,
+    "burst": 0.648,
+    "duration": 0.333,
+    "media": 0.6,
     "social": null
    },
    "article_ids": [
-    25750,
-    25765,
-    26820
+    28127,
+    28203,
+    28580,
+    28583,
+    28643
+   ]
+  },
+  {
+   "label": "广交会在中国外贸发展进程中发挥了怎样的作用？商务部回应",
+   "heat": 0.563,
+   "level": "高热",
+   "n": 5,
+   "media": 3,
+   "cat": "宏观政策",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.721,
+    "burst": 0.558,
+    "duration": 0.333,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    27298,
+    27329,
+    27347,
+    27884,
+    27913
+   ]
+  },
+  {
+   "label": "李强主持召开国务院常务会议 部署实施医疗康复护理扩容提升工程",
+   "heat": 0.563,
+   "level": "高热",
+   "n": 4,
+   "media": 3,
+   "cat": "生物医药",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.648,
+    "burst": 0.648,
+    "duration": 0.333,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    27595,
+    27597,
+    27688,
+    27737
    ]
   }
  ]
