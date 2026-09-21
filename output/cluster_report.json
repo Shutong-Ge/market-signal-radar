@@ -1,11 +1,11 @@
 {
- "n_articles": 1679,
+ "n_articles": 1685,
  "mode": "vector",
- "edges": 534,
- "n_components": 1478,
- "n_clusters": 51,
- "n_noise_filtered": 5,
- "n_single_media_filtered": 60,
+ "edges": 434,
+ "n_components": 1517,
+ "n_clusters": 50,
+ "n_noise_filtered": 3,
+ "n_single_media_filtered": 56,
  "active_factors": [
   "burst",
   "coverage",
@@ -23,57 +23,9 @@
   "爆点": 5,
   "高热": 10,
   "升温中": 15,
-  "一般": 21
+  "一般": 20
  },
  "top": [
-  {
-   "label": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？",
-   "heat": 0.73,
-   "level": "爆点",
-   "n": 6,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.845,
-    "burst": 0.778,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    29118,
-    29120,
-    29282,
-    29356,
-    29582,
-    29835
-   ]
-  },
-  {
-   "label": "沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹",
-   "heat": 0.711,
-   "level": "爆点",
-   "n": 6,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.845,
-    "burst": 0.699,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    29275,
-    29351,
-    29733,
-    29736,
-    29796,
-    30101
-   ]
-  },
   {
    "label": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
    "heat": 0.702,
@@ -90,114 +42,68 @@
     "social": null
    },
    "article_ids": [
-    29378,
-    29382,
-    29409,
-    29416,
-    29424,
-    29429,
-    29440,
-    29462,
-    29463
+    30569,
+    30573,
+    30600,
+    30607,
+    30615,
+    30620,
+    30631,
+    30653,
+    30654
    ]
   },
   {
-   "label": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英",
-   "heat": 0.669,
+   "label": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负",
+   "heat": 0.667,
    "level": "爆点",
-   "n": 5,
-   "media": 3,
-   "cat": "半导体",
-   "sectors": [
-    "BK1161"
-   ],
-   "factors": {
-    "coverage": 0.778,
-    "burst": 0.602,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    29115,
-    29375,
-    29745,
-    29952,
-    29974
-   ]
-  },
-  {
-   "label": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息",
-   "heat": 0.645,
-   "level": "爆点",
-   "n": 4,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.699,
-    "burst": 0.602,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    29357,
-    29418,
-    29431,
-    30273
-   ]
-  },
-  {
-   "label": "十部门，重磅发文！事关万亿赛道 ！三分钟看完周末发生了什么？",
-   "heat": 0.632,
-   "level": "高热",
-   "n": 5,
+   "n": 6,
    "media": 3,
    "cat": "宏观政策",
    "sectors": [],
    "factors": {
-    "coverage": 0.778,
-    "burst": 0.778,
+    "coverage": 0.845,
+    "burst": 0.845,
     "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    29988,
-    29991,
-    30132,
-    30141,
-    30240
+    31192,
+    31195,
+    31337,
+    31346,
+    31445,
+    31851
    ]
   },
   {
-   "label": "北京：聚焦工业制造、科学研究、生物医药、教育教学等重点领域，开放智能体应用场景",
-   "heat": 0.551,
-   "level": "高热",
+   "label": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息",
+   "heat": 0.639,
+   "level": "爆点",
    "n": 5,
-   "media": 2,
+   "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
     "coverage": 0.778,
-    "burst": 0.301,
+    "burst": 0.477,
     "duration": 0.667,
-    "media": 0.4,
+    "media": 0.6,
     "social": null
    },
    "article_ids": [
-    28977,
-    29043,
-    29048,
-    29291,
-    30481
+    30609,
+    30622,
+    31225,
+    31478,
+    31787
    ]
   },
   {
    "label": "《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司发展新质生产力",
    "heat": 0.543,
-   "level": "高热",
+   "level": "爆点",
    "n": 4,
    "media": 2,
    "cat": "综合",
@@ -214,33 +120,54 @@
     "social": null
    },
    "article_ids": [
-    29700,
-    29708,
-    29709,
-    29710
+    30897,
+    30905,
+    30906,
+    30907
    ]
   },
   {
-   "label": "Anthropic、OpenAI、SpaceX AI、谷歌因呼吁“放缓”AI发展被起诉",
-   "heat": 0.54,
-   "level": "高热",
-   "n": 3,
+   "label": "盛和资源：控股股东不存在拟对外转让公司控股权的情形",
+   "heat": 0.543,
+   "level": "爆点",
+   "n": 4,
    "media": 2,
-   "cat": "AI与大模型",
-   "sectors": [
-    "BK0800"
-   ],
+   "cat": "综合",
+   "sectors": [],
    "factors": {
-    "coverage": 0.602,
-    "burst": 0.477,
-    "duration": 0.667,
+    "coverage": 0.699,
+    "burst": 0.699,
+    "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    29347,
-    29355,
-    30130
+    31368,
+    31378,
+    31486,
+    31798
+   ]
+  },
+  {
+   "label": "韩国9月1-20日出口创纪录新高，半导体出口激增259.4%",
+   "heat": 0.543,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "半导体",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.699,
+    "burst": 0.699,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    32061,
+    32103,
+    32108,
+    32119
    ]
   },
   {
@@ -259,9 +186,74 @@
     "social": null
    },
    "article_ids": [
-    29414,
-    29687,
-    30469
+    30605,
+    30884,
+    31677
+   ]
+  },
+  {
+   "label": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。",
+   "heat": 0.54,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "宏观政策",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.602,
+    "burst": 0.477,
+    "duration": 0.667,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    31223,
+    31447,
+    32224
+   ]
+  },
+  {
+   "label": "中共中央办公厅、国务院办公厅印发《关于分类推进高校改革的意见》",
+   "heat": 0.538,
+   "level": "高热",
+   "n": 3,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [
+    "BK000386"
+   ],
+   "factors": {
+    "coverage": 0.602,
+    "burst": 0.602,
+    "duration": 0.333,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    31494,
+    31496,
+    31680
+   ]
+  },
+  {
+   "label": "商务部新闻发言人就美方将《2026年格雷厄姆制裁俄罗斯和伊朗法案》签署成法答记者问",
+   "heat": 0.509,
+   "level": "高热",
+   "n": 3,
+   "media": 3,
+   "cat": "大宗与能化",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.602,
+    "burst": 0.477,
+    "duration": 0.333,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    30908,
+    30909,
+    30978
    ]
   }
  ]

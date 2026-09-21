@@ -1,207 +1,19 @@
 {
  "engine": "template(降级)",
- "n_clusters": 51,
+ "n_clusters": 50,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.9,
+ "elapsed": 6.4,
  "reports": [
   {
-   "key": "4d451f0c0854a7e9",
-   "label": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？",
-   "cached": false,
-   "sections": {
-    "事件概述": "「美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.73（爆点），所属板块类目：综合。",
-    "关键信息": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？；丹麦、格陵兰称与美国达成的协议不会让渡主权；特朗普称“永久控制”格陵兰岛 丹麦如何接招？",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-20/doc-inismkxi2645076.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "丹麦、格陵兰称与美国达成的协议不会让渡主权",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609193879236224.html",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "特朗普称“永久控制”格陵兰岛 丹麦如何接招？",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609193879159546.html",
-     "rrf": 0.03151,
-     "bm25_rank": 2,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "三方即将签署协议 特朗普称获格陵兰岛永久防御权、参与开发",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609193879147997.html",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
-     "vec_rank": 2
-    },
-    {
-     "n": 5,
-     "title": "特朗普：美国将获得对格陵兰岛安全“永久控制权”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-19/doc-inishzsq7999078.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "特朗普：美国已与丹麦达成协议，将永久控制格陵兰岛的安全",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167487",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
-    },
-    {
-     "n": 7,
-     "title": "丹麦和格陵兰岛将与美签安全协议",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167532",
-     "rrf": 0.03008,
-     "bm25_rank": 6,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "北约发言人：对美国、丹麦与格陵兰即将签署协议的公告表示欢迎",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609193879232729.html",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "美方宣扬“永久控制”，丹麦否认“出让主权”，“格陵兰岛协议”谁是赢家？",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 8,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "a5f646a08cdfe825",
-   "label": "沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹",
-   "cached": false,
-   "sections": {
-    "事件概述": "「沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.711（爆点），所属板块类目：综合。",
-    "关键信息": "沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹；胡塞武装称对沙特敏感目标及设施发动袭击；沙特首都利雅得遭空袭",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismerq7105861.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "胡塞武装称对沙特敏感目标及设施发动袭击",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-iniskyip2830687.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "沙特首都利雅得遭空袭",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609193879148071.html",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "沙特拦截弹即将耗尽，紧急求援",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167722",
-     "rrf": 0.03083,
-     "bm25_rank": 8,
-     "vec_rank": 2
-    },
-    {
-     "n": 5,
-     "title": "7月也门冲突升级以来首次 沙特首都遭袭",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisisqe9872951.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "沙特向法国、英国、巴基斯坦、埃及求援",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-20/doc-inisnhav1493505.shtml",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "沙特首都传出爆炸声 民防总局称“危险已解除”",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167544",
-     "rrf": 0.02964,
-     "bm25_rank": 6,
-     "vec_rank": 9
-    },
-    {
-     "n": 8,
-     "title": "胡塞称沙特升级行动将遭更强烈反击",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609203879401613.html",
-     "rrf": 0.02963,
-     "bm25_rank": 7,
-     "vec_rank": 8
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "沙特主导联军称拦截胡塞武装射向利雅得的弹道导弹",
-    "bm25_only": 1,
-    "vec_only": 0,
-    "both": 7,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "af7408ff2fe15966",
+   "key": "81c2ad2da9db3695",
    "label": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
    "cached": false,
    "sections": {
     "事件概述": "「黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.702（爆点），所属板块类目：综合。",
-    "关键信息": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧；赵峥：把握时代要求培养智能经济高质量人才；黄仁勋“唱反调” 呼吁加快人工智能研发进程",
+    "关键信息": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧；明日主题前瞻技术、政策与需求共振下，AI安全商业化落地趋势明确；赵峥：把握时代要求培养智能经济高质量人才",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -217,179 +29,179 @@
     },
     {
      "n": 2,
-     "title": "赵峥：把握时代要求培养智能经济高质量人才",
+     "title": "明日主题前瞻技术、政策与需求共振下，AI安全商业化落地趋势明确",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismkxf1844136.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "黄仁勋“唱反调” 呼吁加快人工智能研发进程",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisifyn7894604.shtml",
-     "rrf": 0.02912,
-     "bm25_rank": 17,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "河北将培育人工智能应用服务商",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-19/doc-inisifyk9972281.shtml",
-     "rrf": 0.02813,
-     "bm25_rank": 4,
-     "vec_rank": 20
-    },
-    {
-     "n": 5,
-     "title": "2026网安周｜直面隐性环境代价，促进数绿协同发展",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-19/10699412.shtml",
-     "rrf": 0.02797,
-     "bm25_rank": 21,
+     "url": "https://finance.sina.com.cn/stock/t/2026-09-20/doc-inisnsst2449654.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
      "vec_rank": 4
     },
     {
-     "n": 6,
-     "title": "AI向科研端纵深渗透 重塑传统产业创新范式",
+     "n": 3,
+     "title": "赵峥：把握时代要求培养智能经济高质量人才",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inishrap3029819.shtml",
-     "rrf": 0.02683,
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismkxf1844136.shtml",
+     "rrf": 0.0308,
      "bm25_rank": 7,
-     "vec_rank": 24
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "花旗CEO称全球企业争相修补系统漏洞 以防御人工智能风险",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inispynh5982640.shtml",
+     "rrf": 0.02854,
+     "bm25_rank": 5,
+     "vec_rank": 16
+    },
+    {
+     "n": 5,
+     "title": "深化人机协同，东莞加速破局",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-21/doc-inispuef2167627.shtml",
+     "rrf": 0.02847,
+     "bm25_rank": 21,
+     "vec_rank": 2
+    },
+    {
+     "n": 6,
+     "title": "AI 算力封装刚需爆发，ABF 膜开启百亿国产替代大时代",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-20/doc-inisnwyp1266319.shtml",
+     "rrf": 0.02808,
+     "bm25_rank": 16,
+     "vec_rank": 7
     },
     {
      "n": 7,
-     "title": "Meta与谷歌押注新型清洁能源技术 以满足AI的电力需求",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-20/doc-inismzve6739947.shtml",
-     "rrf": 0.02396,
-     "bm25_rank": 25,
-     "vec_rank": 22
+     "title": "2026网安周｜直面隐性环境代价，促进数绿协同发展",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-19/10699412.shtml",
+     "rrf": 0.02758,
+     "bm25_rank": 22,
+     "vec_rank": 5
     },
     {
      "n": 8,
-     "title": "国家药监局：对新靶点、新机制创新药加强前置指导",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167761",
-     "rrf": 0.02374,
-     "bm25_rank": 20,
-     "vec_rank": 29
+     "title": "我省加力拓展智能经济新形态",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-21/doc-inisppwn6175763.shtml",
+     "rrf": 0.02585,
+     "bm25_rank": 25,
+     "vec_rank": 11
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 2,
-    "neither_topk": 2
+    "bm25_only": 1,
+    "vec_only": 3,
+    "both": 3,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "e6f8873b88f068cf",
-   "label": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英",
+   "key": "0ce996edf82c191f",
+   "label": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负",
    "cached": false,
    "sections": {
-    "事件概述": "「英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.669（爆点），所属板块类目：半导体。",
-    "关键信息": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英；黄仁勋减持4.6万股英伟达股票，成交价约每股212美元；英伟达5名高管披露持股变动：黄仁勋4.57万股用于缴税，CFO套现765万美元",
-    "市场影响": "关联板块代码：BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.667（爆点），所属板块类目：宏观政策。",
+    "关键信息": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协；LPR连续16个月不变，业内称短期降息必要性不高；9月最新LPR出炉，连续16个月“按兵不动”！",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167486",
+     "title": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnwyu6458941.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "黄仁勋减持4.6万股英伟达股票，成交价约每股212美元",
+     "title": "LPR连续16个月不变，业内称短期降息必要性不高",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inisisqc3101405.shtml",
-     "rrf": 0.03226,
+     "url": "https://finance.sina.com.cn/roll/2026-09-20/doc-inisnhay9359075.shtml",
+     "rrf": 0.032,
      "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "英伟达5名高管披露持股变动：黄仁勋4.57万股用于缴税，CFO套现765万美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-19/doc-iniskptr2230344.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
      "vec_rank": 3
     },
     {
+     "n": 3,
+     "title": "9月最新LPR出炉，连续16个月“按兵不动”！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-20/doc-inisnhav1512554.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
      "n": 4,
-     "title": "英伟达5名高管持股变动：黄仁勋近千万美元股票被预扣税款",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609203879283197.html",
-     "rrf": 0.03101,
+     "title": "100万房贷月供少636元，总利息多20万！多家银行落地40年房贷，有银行设45岁年龄门槛",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismrff2565564.shtml",
+     "rrf": 0.02845,
      "bm25_rank": 4,
-     "vec_rank": 5
+     "vec_rank": 18
     },
     {
      "n": 5,
-     "title": "黄仁勋夫妇，捐赠43.8万股英伟达股票",
+     "title": "中信证券：美欧日加息落地，关注什么？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-20/doc-inismrfk6909184.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
+     "url": "https://finance.sina.com.cn/stock/stockptd/2026-09-19/doc-inisiwwe7643223.shtml",
+     "rrf": 0.02759,
+     "bm25_rank": 13,
+     "vec_rank": 12
     },
     {
      "n": 6,
-     "title": "英伟达参投的 “英版甲骨文”冲刺美股IPO 目标估值350亿美元",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609203879414870.html",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
+     "title": "钢材：成本支撑松动，延续承压回调态势2026.9.19",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/wemedia/2026-09-19/doc-iniskcea7552871.shtml",
+     "rrf": 0.02619,
+     "bm25_rank": 24,
+     "vec_rank": 10
     },
     {
      "n": 7,
-     "title": "迈越科技遭叶善敏减持2100万股 每股作价1.18港元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-20/doc-inismvph6812123.shtml",
-     "rrf": 0.02944,
-     "bm25_rank": 10,
-     "vec_rank": 6
+     "title": "1年期和5年期以上LPR保持不变",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609203879283723.html",
+     "rrf": 0.01562,
+     "bm25_rank": null,
+     "vec_rank": 4
     },
     {
      "n": 8,
-     "title": "ASMPT遭The Capital Group Companies, Inc.减持169.82万股 每股作价约159.0",
+     "title": "贝壳：8月28日新政落地后 深圳楼市新房二手房成交量明显上升",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-20/doc-inismvpe9303532.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-09-20/doc-inisnwys9207396.shtml",
+     "rrf": 0.01538,
+     "bm25_rank": 5,
+     "vec_rank": null
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "英伟达CEO黄仁勋减持45,728股公司股票。 CFO克雷斯出售34,918股英",
-    "bm25_only": 0,
-    "vec_only": 2,
-    "both": 6,
-    "neither_topk": 0
+    "query": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 3,
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "fa2484a591cb9bfb",
+   "key": "a5197d704333abdf",
    "label": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息",
    "cached": false,
    "sections": {
-    "事件概述": "「西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.645（爆点），所属板块类目：综合。",
-    "关键信息": "西贝回应倒闭传闻：目前全国门店均正常运营；西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息；西贝将彻底倒闭？成都6个月内关停6家，如今仅剩6家",
+    "事件概述": "「西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.639（爆点），所属板块类目：综合。",
+    "关键信息": "西贝回应倒闭传闻：目前全国门店均正常运营；西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息；“西贝被曝将彻底倒闭”冲上热搜，最新回应",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -414,66 +226,254 @@
     },
     {
      "n": 3,
-     "title": "西贝将彻底倒闭？成都6个月内关停6家，如今仅剩6家",
+     "title": "“西贝被曝将彻底倒闭”冲上热搜，最新回应",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-19/doc-iniskimy7468622.shtml",
+     "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-iniskccv2389174.shtml",
      "rrf": 0.03175,
      "bm25_rank": 3,
      "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "西贝还能撑多久？",
+     "title": "西贝回应“将在两三个月内彻底倒闭”",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hyyj/2026-09-20/doc-inisnnky6604323.shtml",
+     "url": "https://finance.sina.com.cn/wm/2026-09-20/doc-inisnssr1381467.shtml",
      "rrf": 0.03125,
      "bm25_rank": 4,
      "vec_rank": 4
     },
     {
      "n": 5,
-     "title": "西贝倒闭陷罗生门，谁在为炮轰和炒作埋单？",
+     "title": "西贝还能撑多久？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hyyj/2026-09-20/doc-inisnnkw9303844.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
+     "url": "https://finance.sina.com.cn/stock/hyyj/2026-09-20/doc-inisnnky6604323.shtml",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
      "vec_rank": 5
     },
     {
      "n": 6,
-     "title": "理记点名罗永浩团队“黑公关”！揭上市公司“交个朋友”与西贝利益纠缠~",
+     "title": "西贝倒闭陷罗生门，谁在为炮轰和炒作埋单？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-09-20/doc-inisnhav1538548.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 5,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "说到做到！西贝被曝已起诉罗永浩，即将开庭",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-09-20/doc-inisnhav1512832.shtml",
+     "url": "https://finance.sina.com.cn/stock/hyyj/2026-09-20/doc-inisnnkw9303844.shtml",
      "rrf": 0.03008,
      "bm25_rank": 7,
      "vec_rank": 6
     },
     {
-     "n": 8,
-     "title": "持续关店、缓发工资……西贝来到“生死线”边缘",
+     "n": 7,
+     "title": "理记点名罗永浩团队“黑公关”！揭上市公司“交个朋友”与西贝利益纠缠~",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnnkv2481304.shtml",
-     "rrf": 0.02736,
-     "bm25_rank": 19,
+     "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-09-20/doc-inisnhav1538548.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
      "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "说到做到！西贝被曝已起诉罗永浩，即将开庭",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-09-20/doc-inisnhav1512832.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息",
     "bm25_only": 0,
-    "vec_only": 1,
-    "both": 7,
+    "vec_only": 0,
+    "both": 8,
     "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "46dbf56e0733f79d",
+   "label": "《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司发展新质生产力",
+   "cached": false,
+   "sections": {
+    "事件概述": "「《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司发展新质生产力」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.543（爆点），所属板块类目：综合。",
+    "关键信息": "《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司；《广西金融业发展“十五五”规划》印发：加快构建总规模不低于500亿元的人工智能领；《广西金融业发展“十五五”规划》印发：推进人民币面向东盟跨区域使用",
+    "市场影响": "关联板块代码：BK0475、BK1283、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司发展新质生产力",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609193879246394.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "《广西金融业发展“十五五”规划》印发：加快构建总规模不低于500亿元的人工智能领域基金集群",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609193879246249.html",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "《广西金融业发展“十五五”规划》印发：推进人民币面向东盟跨区域使用",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609193879244456.html",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "广西：到2030年金融业整体实力明显增强",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167697",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "重庆“十五五”现代服务业发展规划出台",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismrfk6920861.shtml",
+     "rrf": 0.0303,
+     "bm25_rank": 6,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "建设现代化金融市场 以多元融资助力经济转型升级",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-21/doc-inispchp2381648.shtml",
+     "rrf": 0.02908,
+     "bm25_rank": 13,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "奋楫扬帆赴新潮：中国铁建高质量发展战略性新兴产业",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-19/doc-inisiwwe7659580.shtml",
+     "rrf": 0.0278,
+     "bm25_rank": 14,
+     "vec_rank": 10
+    },
+    {
+     "n": 8,
+     "title": "“十五五”，江西工业这样干",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-21/doc-inispync2096648.shtml",
+     "rrf": 0.0269,
+     "bm25_rank": 22,
+     "vec_rank": 8
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司",
+    "bm25_only": 0,
+    "vec_only": 2,
+    "both": 5,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "e3de1645a3234fa0",
+   "label": "盛和资源：控股股东不存在拟对外转让公司控股权的情形",
+   "cached": false,
+   "sections": {
+    "事件概述": "「盛和资源：控股股东不存在拟对外转让公司控股权的情形」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.543（爆点），所属板块类目：综合。",
+    "关键信息": "盛和资源：控股股东不存在拟对外转让公司控股权的情形；600392，澄清控股权转让传闻；控股权转让？稀土龙头600392，紧急澄清",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "盛和资源：控股股东不存在拟对外转让公司控股权的情形",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167789",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "600392，澄清控股权转让传闻",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-20/doc-inisnsst2503995.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "控股权转让？稀土龙头600392，紧急澄清",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-09-20/doc-inisnnky6595645.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "兑吧控股股东Xiaoliang Holding拟转让1.21亿股至雇员股份奖励平台",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-21/doc-inispuec0912394.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "稀土概念股紧急澄清：公司控股权拟被收购传闻不实",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhca6699230.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 6,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "中国万天控股附属以2325.5万元收购中山市东区街道土地使用权",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-21/doc-inispuef2154508.shtml",
+     "rrf": 0.02837,
+     "bm25_rank": 10,
+     "vec_rank": 11
+    },
+    {
+     "n": 7,
+     "title": "两家上市公司联手出海！藏格矿业、云图控股超11亿元布局非洲钾盐资源",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-20/doc-inisnhav1502220.shtml",
+     "rrf": 0.02731,
+     "bm25_rank": 9,
+     "vec_rank": 18
+    },
+    {
+     "n": 8,
+     "title": "天山生物3.49亿定增进入审核 实控人兜底注资能否破局",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/aigcy/2026-09-20/doc-inisnnky6595341.shtml",
+     "rrf": 0.02629,
+     "bm25_rank": 7,
+     "vec_rank": 28
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "盛和资源：控股股东不存在拟对外转让公司控股权的情形",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 5,
+    "neither_topk": 2
    },
    "elapsed": 0.0
   }
