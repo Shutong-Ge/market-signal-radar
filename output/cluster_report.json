@@ -1,11 +1,11 @@
 {
- "n_articles": 1685,
+ "n_articles": 1927,
  "mode": "vector",
- "edges": 434,
- "n_components": 1517,
+ "edges": 468,
+ "n_components": 1729,
  "n_clusters": 50,
- "n_noise_filtered": 3,
- "n_single_media_filtered": 56,
+ "n_noise_filtered": 6,
+ "n_single_media_filtered": 80,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,12 +13,12 @@
   "media"
  ],
  "calibration": {
-  "max_size": 9.0,
-  "max_first": 9.0,
-  "window_days": 3,
+  "max_size": 6.0,
+  "max_first": 6.0,
+  "window_days": 2,
   "n_media_total": 5
  },
- "elapsed": 0.1,
+ "elapsed": 0.2,
  "level_dist": {
   "爆点": 5,
   "高热": 10,
@@ -27,194 +27,170 @@
  },
  "top": [
   {
-   "label": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
-   "heat": 0.702,
-   "level": "爆点",
-   "n": 9,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 1.0,
-    "burst": 1.0,
-    "duration": 0.333,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    30569,
-    30573,
-    30600,
-    30607,
-    30615,
-    30620,
-    30631,
-    30653,
-    30654
-   ]
-  },
-  {
    "label": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负",
-   "heat": 0.667,
+   "heat": 0.788,
    "level": "爆点",
    "n": 6,
    "media": 3,
    "cat": "宏观政策",
    "sectors": [],
    "factors": {
-    "coverage": 0.845,
-    "burst": 0.845,
-    "duration": 0.333,
+    "coverage": 1.0,
+    "burst": 1.0,
+    "duration": 0.5,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    31192,
-    31195,
-    31337,
-    31346,
-    31445,
-    31851
+    32491,
+    32494,
+    32637,
+    32646,
+    32745,
+    33152
    ]
   },
   {
-   "label": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息",
-   "heat": 0.639,
-   "level": "爆点",
-   "n": 5,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.778,
-    "burst": 0.477,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    30609,
-    30622,
-    31225,
-    31478,
-    31787
-   ]
-  },
-  {
-   "label": "《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司发展新质生产力",
-   "heat": 0.543,
+   "label": "三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动仍需警惕",
+   "heat": 0.706,
    "level": "爆点",
    "n": 4,
    "media": 2,
-   "cat": "综合",
+   "cat": "金融市场",
    "sectors": [
-    "BK0475",
-    "BK1283",
+    "BK0464",
     "BK0800"
    ],
    "factors": {
-    "coverage": 0.699,
-    "burst": 0.699,
-    "duration": 0.333,
+    "coverage": 0.827,
+    "burst": 0.565,
+    "duration": 1.0,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    30897,
-    30905,
-    30906,
-    30907
-   ]
-  },
-  {
-   "label": "盛和资源：控股股东不存在拟对外转让公司控股权的情形",
-   "heat": 0.543,
-   "level": "爆点",
-   "n": 4,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.699,
-    "burst": 0.699,
-    "duration": 0.333,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    31368,
-    31378,
-    31486,
-    31798
-   ]
-  },
-  {
-   "label": "韩国9月1-20日出口创纪录新高，半导体出口激增259.4%",
-   "heat": 0.543,
-   "level": "高热",
-   "n": 4,
-   "media": 2,
-   "cat": "半导体",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.699,
-    "burst": 0.699,
-    "duration": 0.333,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    32061,
-    32103,
-    32108,
-    32119
-   ]
-  },
-  {
-   "label": "中泰证券一员工代客操盘，巨亏9206万元！累计交易超25亿元",
-   "heat": 0.54,
-   "level": "高热",
-   "n": 3,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.602,
-    "burst": 0.477,
-    "duration": 0.667,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    30605,
-    30884,
-    31677
+    32895,
+    32986,
+    33803,
+    33817
    ]
   },
   {
    "label": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。",
-   "heat": 0.54,
-   "level": "高热",
+   "heat": 0.672,
+   "level": "爆点",
    "n": 3,
    "media": 2,
    "cat": "宏观政策",
    "sectors": [],
    "factors": {
-    "coverage": 0.602,
-    "burst": 0.477,
-    "duration": 0.667,
+    "coverage": 0.712,
+    "burst": 0.565,
+    "duration": 1.0,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    31223,
-    31447,
-    32224
+    32523,
+    32747,
+    33526
+   ]
+  },
+  {
+   "label": "盛和资源：控股股东不存在拟对外转让公司控股权的情形",
+   "heat": 0.65,
+   "level": "爆点",
+   "n": 4,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.827,
+    "burst": 0.827,
+    "duration": 0.5,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    32668,
+    32678,
+    32786,
+    33099
+   ]
+  },
+  {
+   "label": "韩国9月1-20日出口创纪录新高，半导体出口激增259.4%",
+   "heat": 0.65,
+   "level": "爆点",
+   "n": 4,
+   "media": 2,
+   "cat": "半导体",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.827,
+    "burst": 0.827,
+    "duration": 0.5,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    33363,
+    33405,
+    33410,
+    33421
+   ]
+  },
+  {
+   "label": "美国零售柴油价格已正式突破每加仑 6.50 美元大关 刷新历史名义最高纪录",
+   "heat": 0.65,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "国际市场",
+   "sectors": [
+    "BK1675"
+   ],
+   "factors": {
+    "coverage": 0.827,
+    "burst": 0.827,
+    "duration": 0.5,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    33478,
+    33479,
+    33498,
+    33640
+   ]
+  },
+  {
+   "label": "比特币一度升破85000美元",
+   "heat": 0.65,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "国际市场",
+   "sectors": [
+    "BK0830"
+   ],
+   "factors": {
+    "coverage": 0.827,
+    "burst": 0.827,
+    "duration": 0.5,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    33528,
+    33565,
+    33677,
+    33678
    ]
   },
   {
    "label": "中共中央办公厅、国务院办公厅印发《关于分类推进高校改革的意见》",
-   "heat": 0.538,
+   "heat": 0.636,
    "level": "高热",
    "n": 3,
    "media": 3,
@@ -223,37 +199,58 @@
     "BK000386"
    ],
    "factors": {
-    "coverage": 0.602,
-    "burst": 0.602,
-    "duration": 0.333,
+    "coverage": 0.712,
+    "burst": 0.712,
+    "duration": 0.5,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    31494,
-    31496,
-    31680
+    32794,
+    32796,
+    32981
    ]
   },
   {
-   "label": "商务部新闻发言人就美方将《2026年格雷厄姆制裁俄罗斯和伊朗法案》签署成法答记者问",
-   "heat": 0.509,
+   "label": "商品期货开盘，原油主力合约跌超3%，菜籽粕跌超2%，碳酸锂、燃料油、焦煤、集运欧",
+   "heat": 0.636,
    "level": "高热",
    "n": 3,
    "media": 3,
    "cat": "大宗与能化",
    "sectors": [],
    "factors": {
-    "coverage": 0.602,
-    "burst": 0.477,
-    "duration": 0.333,
+    "coverage": 0.712,
+    "burst": 0.712,
+    "duration": 0.5,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    30908,
-    30909,
-    30978
+    33487,
+    33488,
+    33580
+   ]
+  },
+  {
+   "label": "特朗普称将组建“人工智能部队”并任命AI事务负责人",
+   "heat": 0.589,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "AI与大模型",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.712,
+    "burst": 0.712,
+    "duration": 0.5,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    32273,
+    32285,
+    32642
    ]
   }
  ]

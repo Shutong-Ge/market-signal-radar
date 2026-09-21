@@ -5,108 +5,14 @@
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.4,
+ "elapsed": 5.9,
  "reports": [
   {
-   "key": "81c2ad2da9db3695",
-   "label": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
-   "cached": false,
-   "sections": {
-    "事件概述": "「黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.702（爆点），所属板块类目：综合。",
-    "关键信息": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧；明日主题前瞻技术、政策与需求共振下，AI安全商业化落地趋势明确；赵峥：把握时代要求培养智能经济高质量人才",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/hy/hyjz/2026-09-19/doc-iniskccv2388962.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "明日主题前瞻技术、政策与需求共振下，AI安全商业化落地趋势明确",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/t/2026-09-20/doc-inisnsst2449654.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "赵峥：把握时代要求培养智能经济高质量人才",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismkxf1844136.shtml",
-     "rrf": 0.0308,
-     "bm25_rank": 7,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "花旗CEO称全球企业争相修补系统漏洞 以防御人工智能风险",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inispynh5982640.shtml",
-     "rrf": 0.02854,
-     "bm25_rank": 5,
-     "vec_rank": 16
-    },
-    {
-     "n": 5,
-     "title": "深化人机协同，东莞加速破局",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-21/doc-inispuef2167627.shtml",
-     "rrf": 0.02847,
-     "bm25_rank": 21,
-     "vec_rank": 2
-    },
-    {
-     "n": 6,
-     "title": "AI 算力封装刚需爆发，ABF 膜开启百亿国产替代大时代",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-20/doc-inisnwyp1266319.shtml",
-     "rrf": 0.02808,
-     "bm25_rank": 16,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "2026网安周｜直面隐性环境代价，促进数绿协同发展",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-19/10699412.shtml",
-     "rrf": 0.02758,
-     "bm25_rank": 22,
-     "vec_rank": 5
-    },
-    {
-     "n": 8,
-     "title": "我省加力拓展智能经济新形态",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-21/doc-inisppwn6175763.shtml",
-     "rrf": 0.02585,
-     "bm25_rank": 25,
-     "vec_rank": 11
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧",
-    "bm25_only": 1,
-    "vec_only": 3,
-    "both": 3,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "0ce996edf82c191f",
+   "key": "896fbeaaf2cc11e5",
    "label": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负",
    "cached": false,
    "sections": {
-    "事件概述": "「LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.667（爆点），所属板块类目：宏观政策。",
+    "事件概述": "「LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.788（爆点），所属板块类目：宏观政策。",
     "关键信息": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协；LPR连续16个月不变，业内称短期降息必要性不高；9月最新LPR出炉，连续16个月“按兵不动”！",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -141,6 +47,15 @@
     },
     {
      "n": 4,
+     "title": "全球融资成本大幅下行，美债收益率有所回落",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqriv2144077.shtml",
+     "rrf": 0.02881,
+     "bm25_rank": 7,
+     "vec_rank": 12
+    },
+    {
+     "n": 5,
      "title": "100万房贷月供少636元，总利息多20万！多家银行落地40年房贷，有银行设45岁年龄门槛",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismrff2565564.shtml",
@@ -149,25 +64,7 @@
      "vec_rank": 18
     },
     {
-     "n": 5,
-     "title": "中信证券：美欧日加息落地，关注什么？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/stockptd/2026-09-19/doc-inisiwwe7643223.shtml",
-     "rrf": 0.02759,
-     "bm25_rank": 13,
-     "vec_rank": 12
-    },
-    {
      "n": 6,
-     "title": "钢材：成本支撑松动，延续承压回调态势2026.9.19",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/wemedia/2026-09-19/doc-iniskcea7552871.shtml",
-     "rrf": 0.02619,
-     "bm25_rank": 24,
-     "vec_rank": 10
-    },
-    {
-     "n": 7,
      "title": "1年期和5年期以上LPR保持不变",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609203879283723.html",
@@ -176,219 +73,228 @@
      "vec_rank": 4
     },
     {
-     "n": 8,
+     "n": 7,
      "title": "贝壳：8月28日新政落地后 深圳楼市新房二手房成交量明显上升",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-09-20/doc-inisnwys9207396.shtml",
      "rrf": 0.01538,
      "bm25_rank": 5,
      "vec_rank": null
+    },
+    {
+     "n": 8,
+     "title": "9月LPR报价出炉：5年期和1年期利率均维持不变",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167746",
+     "rrf": 0.01538,
+     "bm25_rank": null,
+     "vec_rank": 5
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协",
-    "bm25_only": 2,
-    "vec_only": 1,
+    "bm25_only": 3,
+    "vec_only": 2,
     "both": 3,
-    "neither_topk": 2
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "a5197d704333abdf",
-   "label": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息",
+   "key": "fe607b082cfc90d5",
+   "label": "三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动仍需警惕",
    "cached": false,
    "sections": {
-    "事件概述": "「西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.639（爆点），所属板块类目：综合。",
-    "关键信息": "西贝回应倒闭传闻：目前全国门店均正常运营；西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息；“西贝被曝将彻底倒闭”冲上热搜，最新回应",
+    "事件概述": "「三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动仍需警惕」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.706（爆点），所属板块类目：金融市场。",
+    "关键信息": "三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动仍需警惕；A股反弹态势有望延续，六大机构后市看好这些板块；开盘：三大股指齐涨 原油、美债收益率回落",
+    "市场影响": "关联板块代码：BK0464、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动仍需警惕",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-21/doc-inisqvrz9266129.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "A股反弹态势有望延续，六大机构后市看好这些板块",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-20/doc-inisnssw6518252.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "开盘：三大股指齐涨 原油、美债收益率回落",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqzxx9226283.shtml",
+     "rrf": 0.0308,
+     "bm25_rank": 3,
+     "vec_rank": 7
+    },
+    {
+     "n": 4,
+     "title": "中信建投研报称：A股开启第二轮修复行情 进攻端优选算力涨价环节",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/estate/integration/2026-09-20/doc-inisnwys9171029.shtml",
+     "rrf": 0.03021,
+     "bm25_rank": 2,
+     "vec_rank": 11
+    },
+    {
+     "n": 5,
+     "title": "华泰证券A股策略：反弹延续但需防节前扰动",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167878",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
+    },
+    {
+     "n": 6,
+     "title": "4天暴涨41.64%！成都先导迎多重利好，股东减持计划暗藏波动风险",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-09-21/doc-inisqvrw5703457.shtml",
+     "rrf": 0.02817,
+     "bm25_rank": 12,
+     "vec_rank": 10
+    },
+    {
+     "n": 7,
+     "title": "午后异动！300691，“20cm”涨停！万科A两连板",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-09-21/doc-inisqriv2121929.shtml",
+     "rrf": 0.02807,
+     "bm25_rank": 22,
+     "vec_rank": 3
+    },
+    {
+     "n": 8,
+     "title": "华泰证券港股策略：继续保持港股仓位灵活度",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167879",
+     "rrf": 0.0272,
+     "bm25_rank": 6,
+     "vec_rank": 23
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动仍需警惕",
+    "bm25_only": 3,
+    "vec_only": 1,
+    "both": 3,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "3ef180c837087cec",
+   "label": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。",
+   "cached": false,
+   "sections": {
+    "事件概述": "「中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。」由 3 篇报道聚合而成，覆盖 2 家媒体，热度 0.672（爆点），所属板块类目：宏观政策。",
+    "关键信息": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。；央行今日开展320亿元7天逆回购操作；1000亿元14天逆回购落地，央行提前对冲双节资金扰动",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "西贝回应倒闭传闻：目前全国门店均正常运营",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609193879222032.html",
+     "title": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167906",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167652",
+     "title": "央行今日开展320亿元7天逆回购操作",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609203879285614.html",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "“西贝被曝将彻底倒闭”冲上热搜，最新回应",
+     "title": "1000亿元14天逆回购落地，央行提前对冲双节资金扰动",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-iniskccv2389174.shtml",
-     "rrf": 0.03175,
+     "url": "https://finance.sina.com.cn/stock/wbstock/2026-09-20/doc-inisnssr1369023.shtml",
+     "rrf": 0.03126,
      "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "西贝回应“将在两三个月内彻底倒闭”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-20/doc-inisnssr1381467.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "西贝还能撑多久？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hyyj/2026-09-20/doc-inisnnky6604323.shtml",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
      "vec_rank": 5
     },
     {
-     "n": 6,
-     "title": "西贝倒闭陷罗生门，谁在为炮轰和炒作埋单？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hyyj/2026-09-20/doc-inisnnkw9303844.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "理记点名罗永浩团队“黑公关”！揭上市公司“交个朋友”与西贝利益纠缠~",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-09-20/doc-inisnhav1538548.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
-    },
-    {
-     "n": 8,
-     "title": "说到做到！西贝被曝已起诉罗永浩，即将开庭",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-09-20/doc-inisnhav1512832.shtml",
-     "rrf": 0.02963,
-     "bm25_rank": 8,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 8,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "46dbf56e0733f79d",
-   "label": "《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司发展新质生产力",
-   "cached": false,
-   "sections": {
-    "事件概述": "「《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司发展新质生产力」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.543（爆点），所属板块类目：综合。",
-    "关键信息": "《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司；《广西金融业发展“十五五”规划》印发：加快构建总规模不低于500亿元的人工智能领；《广西金融业发展“十五五”规划》印发：推进人民币面向东盟跨区域使用",
-    "市场影响": "关联板块代码：BK0475、BK1283、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司发展新质生产力",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609193879246394.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "《广西金融业发展“十五五”规划》印发：加快构建总规模不低于500亿元的人工智能领域基金集群",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609193879246249.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "《广西金融业发展“十五五”规划》印发：推进人民币面向东盟跨区域使用",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609193879244456.html",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
      "n": 4,
-     "title": "广西：到2030年金融业整体实力明显增强",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167697",
+     "title": "央行运用多种工具灵活对冲 资金面料平稳跨月跨季",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/fxsdt/2026-09-21/doc-inispueh8897393.shtml",
      "rrf": 0.03126,
      "bm25_rank": 5,
      "vec_rank": 3
     },
     {
      "n": 5,
-     "title": "重庆“十五五”现代服务业发展规划出台",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inismrfk6920861.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
+     "title": "下周央行公开市场将有2720亿元逆回购到期",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609203879391941.html",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
     },
     {
      "n": 6,
-     "title": "建设现代化金融市场 以多元融资助力经济转型升级",
+     "title": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-21/doc-inispchp2381648.shtml",
-     "rrf": 0.02908,
-     "bm25_rank": 13,
-     "vec_rank": 5
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnwyu6458941.shtml",
+     "rrf": 0.02736,
+     "bm25_rank": 19,
+     "vec_rank": 8
     },
     {
      "n": 7,
-     "title": "奋楫扬帆赴新潮：中国铁建高质量发展战略性新兴产业",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-19/doc-inisiwwe7659580.shtml",
-     "rrf": 0.0278,
-     "bm25_rank": 14,
-     "vec_rank": 10
+     "title": "9月LPR报价出炉：5年期和1年期利率均维持不变",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167746",
+     "rrf": 0.02715,
+     "bm25_rank": 9,
+     "vec_rank": 19
     },
     {
      "n": 8,
-     "title": "“十五五”，江西工业这样干",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-21/doc-inispync2096648.shtml",
-     "rrf": 0.0269,
-     "bm25_rank": 22,
-     "vec_rank": 8
+     "title": "中国人民银行将在香港发行600亿元人民币央行票据",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-21/10701131.shtml",
+     "rrf": 0.02667,
+     "bm25_rank": 16,
+     "vec_rank": 14
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "《广西金融业发展“十五五”规划》印发：鼓励上市公司并购重组和再融资 支持上市公司",
+    "query": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。",
     "bm25_only": 0,
-    "vec_only": 2,
+    "vec_only": 1,
     "both": 5,
-    "neither_topk": 1
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "e3de1645a3234fa0",
+   "key": "b20c7d08d7320024",
    "label": "盛和资源：控股股东不存在拟对外转让公司控股权的情形",
    "cached": false,
    "sections": {
-    "事件概述": "「盛和资源：控股股东不存在拟对外转让公司控股权的情形」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.543（爆点），所属板块类目：综合。",
+    "事件概述": "「盛和资源：控股股东不存在拟对外转让公司控股权的情形」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.65（爆点），所属板块类目：综合。",
     "关键信息": "盛和资源：控股股东不存在拟对外转让公司控股权的情形；600392，澄清控股权转让传闻；控股权转让？稀土龙头600392，紧急澄清",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -417,63 +323,157 @@
      "title": "控股权转让？稀土龙头600392，紧急澄清",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/wm/2026-09-20/doc-inisnnky6595645.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
+     "rrf": 0.03102,
+     "bm25_rank": 6,
      "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "兑吧控股股东Xiaoliang Holding拟转让1.21亿股至雇员股份奖励平台",
+     "title": "澄星股份：公司不存在对控股股东和实际控制人及其关联人提供担保的情形",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-21/doc-inispuec0912394.shtml",
-     "rrf": 0.03126,
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-21/doc-inisqvrw5745413.shtml",
+     "rrf": 0.0308,
      "bm25_rank": 3,
-     "vec_rank": 5
+     "vec_rank": 7
     },
     {
      "n": 5,
-     "title": "稀土概念股紧急澄清：公司控股权拟被收购传闻不实",
+     "title": "兑吧控股股东Xiaoliang Holding拟转让1.21亿股至雇员股份奖励平台",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhca6699230.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
-     "vec_rank": 4
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-21/doc-inispuec0912394.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 4,
+     "vec_rank": 8
     },
     {
      "n": 6,
-     "title": "中国万天控股附属以2325.5万元收购中山市东区街道土地使用权",
+     "title": "稀土概念股紧急澄清：公司控股权拟被收购传闻不实",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-21/doc-inispuef2154508.shtml",
-     "rrf": 0.02837,
-     "bm25_rank": 10,
-     "vec_rank": 11
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhca6699230.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
+     "vec_rank": 4
     },
     {
      "n": 7,
-     "title": "两家上市公司联手出海！藏格矿业、云图控股超11亿元布局非洲钾盐资源",
+     "title": "同和药业：关于公司控股股东、实际控制人之一增持公司股份计划的公告",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-20/doc-inisnhav1502220.shtml",
-     "rrf": 0.02731,
-     "bm25_rank": 9,
-     "vec_rank": 18
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-21/doc-inisqvrz9271476.shtml",
+     "rrf": 0.02967,
+     "bm25_rank": 10,
+     "vec_rank": 5
     },
     {
      "n": 8,
-     "title": "天山生物3.49亿定增进入审核 实控人兜底注资能否破局",
+     "title": "这场国资股权腾挪，各取所需",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/aigcy/2026-09-20/doc-inisnnky6595341.shtml",
-     "rrf": 0.02629,
-     "bm25_rank": 7,
-     "vec_rank": 28
+     "url": "https://finance.sina.com.cn/stock/s/2026-09-21/doc-inisqrkf6066367.shtml",
+     "rrf": 0.02904,
+     "bm25_rank": 12,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "盛和资源：控股股东不存在拟对外转让公司控股权的情形",
-    "bm25_only": 1,
-    "vec_only": 0,
+    "bm25_only": 0,
+    "vec_only": 2,
+    "both": 6,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "f200ac544f924b4a",
+   "label": "韩国9月1-20日出口创纪录新高，半导体出口激增259.4%",
+   "cached": false,
+   "sections": {
+    "事件概述": "「韩国9月1-20日出口创纪录新高，半导体出口激增259.4%」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.65（爆点），所属板块类目：半导体。",
+    "关键信息": "韩国9月1-20日出口创纪录新高，半导体出口激增259.4%；早期贸易数据显示芯片热潮推动下 韩国出口保持稳健增长势头；韩国9月前20天出口同比增长78%，芯片出口飙升259%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "韩国9月1-20日出口创纪录新高，半导体出口激增259.4%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167889",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "早期贸易数据显示芯片热潮推动下 韩国出口保持稳健增长势头",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inispuec0924411.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "韩国9月前20天出口同比增长78%，芯片出口飙升259%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inispuec0927492.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "韩国9月出口20天同比 78.3%，前值 56%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167881",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "韩元涨幅扩大至逾1% 跑赢所有亚币",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqriz7735342.shtml",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "标普：韩国将投入1200万亿韩元建数据中心 韩企投资成本压力激增",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqkzy8942869.shtml",
+     "rrf": 0.02901,
+     "bm25_rank": 7,
+     "vec_rank": 11
+    },
+    {
+     "n": 7,
+     "title": "AMD涨超6%再度创下历史新高",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609213880278810.html",
+     "rrf": 0.02859,
+     "bm25_rank": 8,
+     "vec_rank": 12
+    },
+    {
+     "n": 8,
+     "title": "韩国首尔综指涨幅扩大至1.6%，三星电子股价上涨3%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3167886",
+     "rrf": 0.02735,
+     "bm25_rank": 22,
+     "vec_rank": 6
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "韩国9月1-20日出口创纪录新高，半导体出口激增259.4%",
+    "bm25_only": 2,
+    "vec_only": 1,
     "both": 5,
-    "neither_topk": 2
+    "neither_topk": 0
    },
    "elapsed": 0.0
   }

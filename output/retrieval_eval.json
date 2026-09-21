@@ -1,47 +1,29 @@
 {
  "summary": {
-  "n_queries": 7,
+  "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.453,
-  "avg_rank_diff": 1.25,
-  "avg_missed_by_bm25": 2.29,
-  "avg_missed_by_vector": 2.57,
-  "conclusion": "两路召回集平均重合度仅 45%；即便重合的文档，两路名次平均相差 1.25 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.29 篇最终进入 Top8 的文档；只用向量则漏掉 2.57 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.307,
+  "avg_rank_diff": 0.85,
+  "avg_missed_by_bm25": 2.5,
+  "avg_missed_by_vector": 2.75,
+  "conclusion": "两路召回集平均重合度仅 31%；即便重合的文档，两路名次平均相差 0.85 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.5 篇最终进入 Top8 的文档；只用向量则漏掉 2.75 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加",
-   "jaccard": 0.231,
-   "rank_diff": 2.33,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 3,
-   "example_top1": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧"
-  },
-  {
-   "type": "关键词式",
-   "query": "黄益平 随着 人工智能 技术 落地 创新",
-   "jaccard": 0.333,
-   "rank_diff": 2.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 3,
-   "example_top1": "黄益平：随着人工智能技术的落地和创新，供强需弱矛盾或进一步加剧"
-  },
-  {
-   "type": "原标题式",
    "query": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7",
-   "jaccard": 0.231,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 4,
+   "jaccard": 0.143,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
    "example_top1": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负"
   },
   {
    "type": "关键词式",
    "query": "连续 按兵不动 房贷利率 逆势 下行 最低",
-   "jaccard": 0.231,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 2,
+   "jaccard": 0.143,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 3,
    "missed_by_vector": 4,
    "example_top1": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负"
   },
@@ -50,27 +32,54 @@
    "query": "LPR连续个月按兵不动，房贷利率逆势下行，最低可至，部分存量",
    "jaccard": 0.143,
    "rank_diff": 0.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
    "example_top1": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负"
   },
   {
    "type": "原标题式",
-   "query": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网",
-   "jaccard": 1.0,
-   "rank_diff": 0.75,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 0,
-   "example_top1": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息"
+   "query": "三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动",
+   "jaccard": 0.333,
+   "rank_diff": 2.5,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动仍需警惕"
   },
   {
    "type": "关键词式",
-   "query": "西贝 彻底 倒闭 客服 辟谣 全国",
-   "jaccard": 1.0,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 0,
-   "example_top1": "西贝将彻底倒闭？客服辟谣：全国门店均正常运营，恳请理性看待网络信息"
+   "query": "三大 股指 齐涨 百股 涨停 再现",
+   "jaccard": 0.333,
+   "rank_diff": 2.5,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动仍需警惕"
+  },
+  {
+   "type": "原标题式",
+   "query": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1",
+   "jaccard": 0.455,
+   "rank_diff": 0.8,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 3,
+   "example_top1": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。"
+  },
+  {
+   "type": "关键词式",
+   "query": "中国 央行 公开市场 开展 亿元 天期",
+   "jaccard": 0.455,
+   "rank_diff": 0.2,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "中国央行公开市场开展亿元天期逆回购操作，操作利率，持平上次。",
+   "jaccard": 0.455,
+   "rank_diff": 0.8,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
+   "example_top1": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。"
   }
  ]
 }
