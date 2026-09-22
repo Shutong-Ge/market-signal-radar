@@ -1,85 +1,94 @@
 {
  "summary": {
-  "n_queries": 8,
+  "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.307,
-  "avg_rank_diff": 0.85,
-  "avg_missed_by_bm25": 2.5,
-  "avg_missed_by_vector": 2.75,
-  "conclusion": "两路召回集平均重合度仅 31%；即便重合的文档，两路名次平均相差 0.85 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.5 篇最终进入 Top8 的文档；只用向量则漏掉 2.75 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.328,
+  "avg_rank_diff": 1.1,
+  "avg_missed_by_bm25": 2.11,
+  "avg_missed_by_vector": 2.22,
+  "conclusion": "两路召回集平均重合度仅 33%；即便重合的文档，两路名次平均相差 1.1 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.11 篇最终进入 Top8 的文档；只用向量则漏掉 2.22 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
-   "example_top1": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负"
-  },
-  {
-   "type": "关键词式",
-   "query": "连续 按兵不动 房贷利率 逆势 下行 最低",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 4,
-   "example_top1": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "LPR连续个月按兵不动，房贷利率逆势下行，最低可至，部分存量",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
-   "example_top1": "LPR连续16个月按兵不动，房贷利率逆势下行，最低可至2.7%，部分存量房贷可协商降息减负"
-  },
-  {
-   "type": "原标题式",
-   "query": "三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动",
-   "jaccard": 0.333,
-   "rank_diff": 2.5,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动仍需警惕"
-  },
-  {
-   "type": "关键词式",
-   "query": "三大 股指 齐涨 百股 涨停 再现",
-   "jaccard": 0.333,
-   "rank_diff": 2.5,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 2,
-   "example_top1": "三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动仍需警惕"
-  },
-  {
-   "type": "原标题式",
-   "query": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1",
+   "query": "9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨",
    "jaccard": 0.455,
-   "rank_diff": 0.8,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。"
-  },
-  {
-   "type": "关键词式",
-   "query": "中国 央行 公开市场 开展 亿元 天期",
-   "jaccard": 0.455,
-   "rank_diff": 0.2,
+   "rank_diff": 1.0,
    "missed_by_bm25": 1,
    "missed_by_vector": 2,
-   "example_top1": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。"
+   "example_top1": "9月22日隔夜要闻：美股全线走高 原油下跌 铜价延续涨势 金价走低 欧盟通过延长对俄制裁方案"
+  },
+  {
+   "type": "关键词式",
+   "query": "收盘 美股 全线 走高 纳指 涨超",
+   "jaccard": 0.333,
+   "rank_diff": 1.75,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11% 英特尔涨超"
   },
   {
    "type": "去数字泛化",
-   "query": "中国央行公开市场开展亿元天期逆回购操作，操作利率，持平上次。",
+   "query": "月日收盘：美股全线走高 纳指涨超 AI与芯片股领涨 Meta",
    "jaccard": 0.455,
-   "rank_diff": 0.8,
+   "rank_diff": 1.2,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "9月22日隔夜要闻：美股全线走高 原油下跌 铜价延续涨势 金价走低 欧盟通过延长对俄制裁方案"
+  },
+  {
+   "type": "原标题式",
+   "query": "人民币兑美元中间价报6.7487，上调34点；上一交易日中间",
+   "jaccard": 0.333,
+   "rank_diff": 0.5,
    "missed_by_bm25": 3,
+   "missed_by_vector": 1,
+   "example_top1": "人民币兑美元中间价报6.7487，上调34点；上一交易日中间价6.7521，上一"
+  },
+  {
+   "type": "关键词式",
+   "query": "人民币 美元 中间价 上调 交易日 中间价",
+   "jaccard": 0.333,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "人民币兑美元中间价报6.7487，上调34点；上一交易日中间价6.7521，上一"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "人民币兑美元中间价报，上调点；上一交易日中间价，上一",
+   "jaccard": 0.333,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 1,
+   "example_top1": "人民币兑美元中间价报6.7487，上调34点；上一交易日中间价6.7521，上一"
+  },
+  {
+   "type": "原标题式",
+   "query": "比特币5天上涨超7%，风头要盖过AI投资了？",
+   "jaccard": 0.231,
+   "rank_diff": 1.67,
+   "missed_by_bm25": 2,
    "missed_by_vector": 3,
-   "example_top1": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。"
+   "example_top1": "比特币5天上涨超7%，风头要盖过AI投资了？"
+  },
+  {
+   "type": "关键词式",
+   "query": "比特 上涨 风头 投资",
+   "jaccard": 0.333,
+   "rank_diff": 2.75,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 3,
+   "example_top1": "比特币5天上涨超7%，风头要盖过AI投资了？"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "比特币天上涨超，风头要盖过AI投资了？",
+   "jaccard": 0.143,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 4,
+   "example_top1": "比特币5天上涨超7%，风头要盖过AI投资了？"
   }
  ]
 }
