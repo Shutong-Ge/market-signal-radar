@@ -1,10 +1,10 @@
 {
- "n_articles": 2133,
+ "n_articles": 2212,
  "mode": "vector",
- "edges": 606,
- "n_components": 1882,
- "n_clusters": 48,
- "n_noise_filtered": 11,
+ "edges": 698,
+ "n_components": 1942,
+ "n_clusters": 47,
+ "n_noise_filtered": 10,
  "n_single_media_filtered": 98,
  "active_factors": [
   "burst",
@@ -13,9 +13,9 @@
   "media"
  ],
  "calibration": {
-  "max_size": 20.0,
-  "max_first": 5.0,
-  "window_days": 3,
+  "max_size": 22.0,
+  "max_first": 10.0,
+  "window_days": 2,
   "n_media_total": 5
  },
  "elapsed": 0.1,
@@ -23,14 +23,14 @@
   "爆点": 4,
   "高热": 10,
   "升温中": 14,
-  "一般": 20
+  "一般": 19
  },
  "top": [
   {
    "label": "9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11% 英特尔涨超12",
-   "heat": 0.73,
+   "heat": 0.953,
    "level": "爆点",
-   "n": 20,
+   "n": 22,
    "media": 4,
    "cat": "金融市场",
    "sectors": [
@@ -38,241 +38,243 @@
    ],
    "factors": {
     "coverage": 1.0,
-    "burst": 0.387,
-    "duration": 0.667,
+    "burst": 1.0,
+    "duration": 1.0,
     "media": 0.8,
     "social": null
    },
    "article_ids": [
-    34571,
-    34859,
-    35153,
-    35155,
-    35156,
-    35165,
-    35166,
-    35242,
-    35764,
-    35767,
-    35936,
-    36022,
-    36068,
-    36075,
-    36250,
-    36253,
-    36261,
-    36267,
-    36272,
-    36282
+    36438,
+    36741,
+    36743,
+    36744,
+    36753,
+    36754,
+    36830,
+    36841,
+    37352,
+    37355,
+    37524,
+    37611,
+    37657,
+    37664,
+    37840,
+    37843,
+    37851,
+    37857,
+    37862,
+    37872,
+    37988,
+    38259
    ]
   },
   {
-   "label": "人民币兑美元中间价报6.7487，上调34点；上一交易日中间价6.7521，上一",
-   "heat": 0.645,
+   "label": "比特币升破8.5万美元创八个月新高：立法折戟反成催化，资金从AI回流加密",
+   "heat": 0.711,
    "level": "爆点",
-   "n": 4,
-   "media": 4,
-   "cat": "国际市场",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.529,
-    "burst": 0.613,
-    "duration": 0.667,
-    "media": 0.8,
-    "social": null
-   },
-   "article_ids": [
-    35144,
-    35147,
-    35939,
-    36257
-   ]
-  },
-  {
-   "label": "比特币5天上涨超7%，风头要盖过AI投资了？",
-   "heat": 0.581,
-   "level": "爆点",
-   "n": 5,
+   "n": 8,
    "media": 2,
    "cat": "国际市场",
    "sectors": [
     "BK0830"
    ],
    "factors": {
-    "coverage": 0.589,
-    "burst": 1.0,
-    "duration": 0.333,
+    "coverage": 0.701,
+    "burst": 0.747,
+    "duration": 1.0,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    35161,
-    35198,
-    35311,
-    35312,
-    35819
+    36749,
+    36786,
+    36899,
+    36900,
+    37407,
+    37535,
+    37553,
+    37887
    ]
   },
   {
-   "label": "三大股指齐涨，百股涨停再现！A股开启第二轮修复行情，短期波动仍需警惕",
-   "heat": 0.568,
+   "label": "人民币兑美元中间价报6.7487，上调34点；上一交易日中间价6.7521，上一",
+   "heat": 0.699,
    "level": "爆点",
    "n": 5,
-   "media": 2,
-   "cat": "金融市场",
-   "sectors": [
-    "BK0464",
-    "BK0800"
-   ],
+   "media": 4,
+   "cat": "国际市场",
+   "sectors": [],
    "factors": {
-    "coverage": 0.589,
-    "burst": 0.613,
-    "duration": 0.667,
-    "media": 0.4,
+    "coverage": 0.571,
+    "burst": 0.458,
+    "duration": 1.0,
+    "media": 0.8,
     "social": null
    },
    "article_ids": [
-    34525,
-    34617,
-    35437,
-    35451,
-    36047
+    36732,
+    36735,
+    37528,
+    37847,
+    38047
    ]
   },
   {
-   "label": "中国央行公开市场开展1650亿元7天期逆回购操作，操作利率1.40%，持平上次。",
-   "heat": 0.562,
+   "label": "商品期货开盘，原油主力合约跌超3%，菜籽粕跌超2%，碳酸锂、燃料油、焦煤、集运欧",
+   "heat": 0.663,
+   "level": "爆点",
+   "n": 4,
+   "media": 3,
+   "cat": "大宗与能化",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.513,
+    "burst": 0.578,
+    "duration": 1.0,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    36707,
+    36708,
+    36802,
+    37960
+   ]
+  },
+  {
+   "label": "软银寻求通过多期限垃圾债券发行筹集超过110亿美元等值资金。",
+   "heat": 0.614,
+   "level": "高热",
+   "n": 3,
+   "media": 3,
+   "cat": "国际市场",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.442,
+    "burst": 0.458,
+    "duration": 1.0,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    36742,
+    36746,
+    38072
+   ]
+  },
+  {
+   "label": "中国央行公开市场本周（9月21日至24日）将有2720亿元7天期逆回购到期，其中",
+   "heat": 0.603,
    "level": "高热",
    "n": 5,
    "media": 3,
    "cat": "宏观政策",
    "sectors": [],
    "factors": {
-    "coverage": 0.589,
-    "burst": 0.387,
-    "duration": 0.667,
+    "coverage": 0.571,
+    "burst": 0.747,
+    "duration": 0.5,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    34377,
-    34792,
-    35157,
-    35159,
-    35846
+    36371,
+    36638,
+    36745,
+    36747,
+    37434
    ]
   },
   {
-   "label": "盛和资源：控股股东不存在拟对外转让公司控股权的情形",
-   "heat": 0.539,
+   "label": "沙特空袭也门致4人死亡！伊朗部署大规模部队！特朗普：胡塞武装同意不与美国交战",
+   "heat": 0.567,
    "level": "高热",
-   "n": 4,
+   "n": 3,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.529,
-    "burst": 0.898,
-    "duration": 0.333,
+    "coverage": 0.442,
+    "burst": 0.458,
+    "duration": 1.0,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    34298,
-    34308,
-    34416,
-    34730
+    36405,
+    36505,
+    38504
+   ]
+  },
+  {
+   "label": "9月22日美股成交前20：智能体Muse引爆AI行情 Meta大涨11.43% CPU生产商AM",
+   "heat": 0.544,
+   "level": "高热",
+   "n": 10,
+   "media": 2,
+   "cat": "AI与大模型",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.765,
+    "burst": 0.458,
+    "duration": 0.5,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    37364,
+    37416,
+    37484,
+    37512,
+    37595,
+    37665,
+    37827,
+    37953,
+    38079,
+    38107
+   ]
+  },
+  {
+   "label": "霍尔木兹海峡周末可追踪船舶通行量降至12艘",
+   "heat": 0.527,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.442,
+    "burst": 0.289,
+    "duration": 1.0,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    37047,
+    37580,
+    38382
    ]
   },
   {
    "label": "韩国9月1-20日出口创纪录新高，半导体出口激增259.4%",
-   "heat": 0.539,
+   "heat": 0.521,
    "level": "高热",
    "n": 4,
    "media": 2,
    "cat": "半导体",
    "sectors": [],
    "factors": {
-    "coverage": 0.529,
-    "burst": 0.898,
-    "duration": 0.333,
+    "coverage": 0.513,
+    "burst": 0.671,
+    "duration": 0.5,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    34994,
-    35037,
-    35042,
-    35053
-   ]
-  },
-  {
-   "label": "美国零售柴油价格已正式突破每加仑 6.50 美元大关 刷新历史名义最高纪录",
-   "heat": 0.539,
-   "level": "高热",
-   "n": 4,
-   "media": 2,
-   "cat": "国际市场",
-   "sectors": [
-    "BK1675"
-   ],
-   "factors": {
-    "coverage": 0.529,
-    "burst": 0.898,
-    "duration": 0.333,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    35110,
-    35111,
-    35130,
-    35274
-   ]
-  },
-  {
-   "label": "美联储古尔斯比：如果供给冲击型通胀持续，美联储唯一的选择就是降低总需求。 在移民",
-   "heat": 0.539,
-   "level": "高热",
-   "n": 4,
-   "media": 2,
-   "cat": "国际市场",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.529,
-    "burst": 0.898,
-    "duration": 0.333,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    35390,
-    35665,
-    35717,
-    35738
-   ]
-  },
-  {
-   "label": "中共中央办公厅、国务院办公厅印发《关于分类推进高校改革的意见》",
-   "heat": 0.536,
-   "level": "高热",
-   "n": 3,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [
-    "BK000386"
-   ],
-   "factors": {
-    "coverage": 0.455,
-    "burst": 0.774,
-    "duration": 0.333,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    34424,
-    34426,
-    34612
+    36579,
+    36624,
+    36629,
+    36641
    ]
   }
  ]
