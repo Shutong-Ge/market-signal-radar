@@ -1,18 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 47,
+ "n_clusters": 62,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 7.1,
+ "elapsed": 5.8,
  "reports": [
   {
-   "key": "812919361d9133d1",
+   "key": "507f4464c0f7d141",
    "label": "9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11% 英特尔涨超12",
    "cached": false,
    "sections": {
-    "事件概述": "「9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11% 英特尔涨超12」由 22 篇报道聚合而成，覆盖 4 家媒体，热度 0.953（爆点），所属板块类目：金融市场。",
+    "事件概述": "「9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11% 英特尔涨超12」由 24 篇报道聚合而成，覆盖 4 家媒体，热度 0.783（爆点），所属板块类目：金融市场。",
     "关键信息": "9月22日隔夜要闻：美股全线走高 原油下跌 铜价延续涨势 金价走低 欧盟通过延长；9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11%；美股三大股指高开，道指涨0.49%，标普500指数涨0.6%，纳指涨0.7%。明",
     "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -47,24 +47,15 @@
     },
     {
      "n": 4,
-     "title": "9月21日周末要闻：原油期货走高 交易员关注中东供应风险与外交动向 特朗普称胡塞武装同意不与美交战",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisppwi2245898.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 8,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
      "title": "美股三大指数集体高开 英特尔涨超9%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609213880270328.html",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
+     "rrf": 0.02986,
+     "bm25_rank": 6,
+     "vec_rank": 8
     },
     {
-     "n": 6,
+     "n": 5,
      "title": "凌晨，全线暴拉！两大利好引爆！芯片股，集体沸腾",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-22/doc-inisscmr2260070.shtml",
@@ -73,22 +64,31 @@
      "vec_rank": 4
     },
     {
-     "n": 7,
-     "title": "华尔街见闻早餐 | 2026年9月22日",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3168531",
-     "rrf": 0.0275,
-     "bm25_rank": 26,
-     "vec_rank": 3
-    },
-    {
-     "n": 8,
+     "n": 6,
      "title": "美股芯片全线暴涨点燃行情，科创芯片设计ETF易方达（589030）涨3.48%，昇腾+国产替代双轮驱动",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609223880932521.html",
-     "rrf": 0.02744,
-     "bm25_rank": 16,
-     "vec_rank": 10
+     "rrf": 0.02778,
+     "bm25_rank": 12,
+     "vec_rank": 12
+    },
+    {
+     "n": 7,
+     "title": "港股收评：恒指涨1.18%重回25000点 科指涨0.4% 科网股普涨 创新药概念股大涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-21/doc-inisqriw8876687.shtml",
+     "rrf": 0.02648,
+     "bm25_rank": 10,
+     "vec_rank": 22
+    },
+    {
+     "n": 8,
+     "title": "9月23日隔夜要闻：纳指四连涨 原油下跌 铜价六连涨 金价走高 伊朗外长与美特使在纽约会晤",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisuaat1619231.shtml",
+     "rrf": 0.02616,
+     "bm25_rank": 29,
+     "vec_rank": 7
     }
    ],
    "degraded": 1,
@@ -96,130 +96,130 @@
     "query": "9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11%",
     "bm25_only": 0,
     "vec_only": 2,
-    "both": 5,
-    "neither_topk": 1
+    "both": 4,
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "6d3be6b6d7ddbb19",
-   "label": "比特币升破8.5万美元创八个月新高：立法折戟反成催化，资金从AI回流加密",
+   "key": "bb26186e0b09cb80",
+   "label": "9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元",
    "cached": false,
    "sections": {
-    "事件概述": "「比特币升破8.5万美元创八个月新高：立法折戟反成催化，资金从AI回流加密」由 8 篇报道聚合而成，覆盖 2 家媒体，热度 0.711（爆点），所属板块类目：国际市场。",
-    "关键信息": "比特币升破8.5万美元创八个月新高：立法折戟反成催化，资金从AI回流加密；美国加速推进资产“上链” 加密市场应声大涨 比特币创八个月新高；比特币升破82000美元",
-    "市场影响": "关联板块代码：BK0830。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "比特币升破8.5万美元创八个月新高：立法折戟反成催化，资金从AI回流加密",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/t/2026-09-22/doc-inisrxct2363841.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "美国加速推进资产“上链” 加密市场应声大涨 比特币创八个月新高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-22/doc-inisrxcm7210688.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "比特币升破82000美元",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609213879552674.html",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "比特币涨超13%触及八个月高位后回落 市场聚焦8.4万美元关口",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-22/doc-inissitp2232960.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "比特币升破8.1万美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqkzx2133636.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "比特币涨至85000美元，创下1月以来新高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqvrz9285572.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 6,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "比特币升至1月以来最高水平85000美元，市场争论“加密寒冬”是否结束",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpt9066811.shtml",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
-    },
-    {
-     "n": 8,
-     "title": "比特币一度升破85000美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqrkf6076055.shtml",
-     "rrf": 0.02858,
-     "bm25_rank": 9,
-     "vec_rank": 11
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "比特币升破8.5万美元创八个月新高：立法折戟反成催化，资金从AI回流加密",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 7,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "b5375efe0260e7f0",
-   "label": "人民币兑美元中间价报6.7487，上调34点；上一交易日中间价6.7521，上一",
-   "cached": false,
-   "sections": {
-    "事件概述": "「人民币兑美元中间价报6.7487，上调34点；上一交易日中间价6.7521，上一」由 5 篇报道聚合而成，覆盖 4 家媒体，热度 0.699（爆点），所属板块类目：国际市场。",
-    "关键信息": "人民币兑美元中间价报6.7487，上调34点；上一交易日中间价6.7521，上一；人民币兑美元中间价报6.7487 上调34点；人民币汇率稳中走强",
+    "事件概述": "「9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元」由 15 篇报道聚合而成，覆盖 2 家媒体，热度 0.661（爆点），所属板块类目：综合。",
+    "关键信息": "9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元；广东49家企业上榜中国民企500强，华为、比亚迪、腾讯稳居TOP10；最新中国民企500强榜单，镇江新增2家！",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "人民币兑美元中间价报6.7487，上调34点；上一交易日中间价6.7521，上一",
+     "title": "9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-09-22/doc-inissyqx6852462.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "广东49家企业上榜中国民企500强，华为、比亚迪、腾讯稳居TOP10",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-09-22/doc-inistewv6756430.shtml",
+     "rrf": 0.0308,
+     "bm25_rank": 7,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "最新中国民企500强榜单，镇江新增2家！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-09-22/doc-inistewv6774552.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "2026中国民营企业500强出炉！（附榜单）",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-22/doc-inissyrf2028705.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "市工商联2家执常委企业荣登2026中国民营企业500强系列榜单",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-22/doc-inistewx8854270.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 5,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "2026中国民营企业top500：比亚迪稳居前五 营收规模再创新高",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/2026-09-22/doc-inissyrc5714853.shtml",
+     "rrf": 0.02991,
+     "bm25_rank": 4,
+     "vec_rank": 10
+    },
+    {
+     "n": 7,
+     "title": "向新向优 中国民企500强彰显韧性活力",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisuhki6333942.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 9,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "2026中国民营企业500强发布：小鹏汽车跃升167位 跻身全国前150",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/2026-09-22/doc-inistewx8826672.shtml",
+     "rrf": 0.02853,
+     "bm25_rank": 3,
+     "vec_rank": 19
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "a317bc302639c389",
+   "label": "人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一",
+   "cached": false,
+   "sections": {
+    "事件概述": "「人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一」由 5 篇报道聚合而成，覆盖 4 家媒体，热度 0.59（爆点），所属板块类目：国际市场。",
+    "关键信息": "人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一；人民币兑美元中间价报6.7459；人民币汇率稳中走强",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167898",
+     "url": "https://wallstreetcn.com/livenews/3168554",
      "rrf": 0.03252,
      "bm25_rank": 1,
      "vec_rank": 2
     },
     {
      "n": 2,
-     "title": "人民币兑美元中间价报6.7487 上调34点",
+     "title": "人民币兑美元中间价报6.7459",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609213879548148.html",
+     "url": "https://finance.eastmoney.com/a/202609223880829093.html",
      "rrf": 0.03252,
      "bm25_rank": 2,
      "vec_rank": 1
@@ -229,18 +229,18 @@
      "title": "人民币汇率稳中走强",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-09-22/doc-inissyrf1989205.shtml",
-     "rrf": 0.03175,
+     "rrf": 0.0315,
      "bm25_rank": 3,
-     "vec_rank": 3
+     "vec_rank": 4
     },
     {
      "n": 4,
      "title": "9月22日人民币对美元中间价报6.7459 上调28个基点",
      "media": "中新网",
      "url": "https://www.chinanews.com.cn/cj/2026/09-22/10701237.shtml",
-     "rrf": 0.03125,
+     "rrf": 0.0315,
      "bm25_rank": 4,
-     "vec_rank": 4
+     "vec_rank": 3
     },
     {
      "n": 5,
@@ -253,227 +253,227 @@
     },
     {
      "n": 6,
-     "title": "中国外汇交易中心（CFETS）：9月18日人民币汇率指数按周涨1.05至102.",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167891",
-     "rrf": 0.02885,
-     "bm25_rank": 13,
+     "title": "四季度人民币汇率 或偏强运行双向波动",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-22/doc-inisrxcp8939425.shtml",
+     "rrf": 0.02831,
+     "bm25_rank": 16,
      "vec_rank": 6
     },
     {
      "n": 7,
-     "title": "四季度人民币汇率 或偏强运行双向波动",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-22/doc-inisrxcp8939425.shtml",
-     "rrf": 0.02786,
-     "bm25_rank": 16,
-     "vec_rank": 8
-    },
-    {
-     "n": 8,
      "title": "纽约汇市：美元走强 美联储官员暗示将进一步加息 日元表现落后",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/world/2026-09-22/doc-inisrsvp7308612.shtml",
-     "rrf": 0.02727,
-     "bm25_rank": 10,
-     "vec_rank": 17
+     "rrf": 0.02643,
+     "bm25_rank": 11,
+     "vec_rank": 21
+    },
+    {
+     "n": 8,
+     "title": "B. Riley上调STRATEGY股票目标价",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609223881407681.html",
+     "rrf": 0.02639,
+     "bm25_rank": 6,
+     "vec_rank": 29
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "人民币兑美元中间价报6.7487，上调34点；上一交易日中间价6.7521，上一",
-    "bm25_only": 0,
-    "vec_only": 2,
+    "query": "人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一",
+    "bm25_only": 1,
+    "vec_only": 1,
     "both": 5,
     "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "ade818288e8bb39d",
-   "label": "商品期货开盘，原油主力合约跌超3%，菜籽粕跌超2%，碳酸锂、燃料油、焦煤、集运欧",
+   "key": "5986cf2c082257a9",
+   "label": "9月22日美股成交前20：智能体Muse引爆AI行情 Meta大涨11.43% CPU生产商AM",
    "cached": false,
    "sections": {
-    "事件概述": "「商品期货开盘，原油主力合约跌超3%，菜籽粕跌超2%，碳酸锂、燃料油、焦煤、集运欧」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.663（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "商品期货开盘，原油主力合约跌超3%，菜籽粕跌超2%，碳酸锂、燃料油、焦煤、集运欧；国内商品期货早盘开盘 主力合约涨跌不一；收评|国内期货主力合约涨跌不一 纸浆涨近4%",
+    "事件概述": "「9月22日美股成交前20：智能体Muse引爆AI行情 Meta大涨11.43% CPU生产商AM」由 11 篇报道聚合而成，覆盖 2 家媒体，热度 0.576（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "9月22日美股成交前20：智能体Muse引爆AI行情 Meta大涨11.43% ；9月22日隔夜要闻：美股全线走高 原油下跌 铜价延续涨势 金价走低 欧盟通过延长；Meta智能体火爆刺激芯片股大涨 AMD有望跻身市值万亿美元俱乐部",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "商品期货开盘，原油主力合约跌超3%，菜籽粕跌超2%，碳酸锂、燃料油、焦煤、集运欧",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167895",
+     "title": "9月22日美股成交前20：智能体Muse引爆AI行情 Meta大涨11.43% CPU生产商AMD大涨近10% 市值首破",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-09-22/doc-inisrxcm7213445.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "国内商品期货早盘开盘 主力合约涨跌不一",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609213879541149.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "收评|国内期货主力合约涨跌不一 纸浆涨近4%",
+     "title": "9月22日隔夜要闻：美股全线走高 原油下跌 铜价延续涨势 金价走低 欧盟通过延长对俄制裁方案",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-21/doc-inisqkzx2154177.shtml",
+     "url": "https://finance.sina.com.cn/world/2026-09-22/doc-inisrxcm7218020.shtml",
      "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "商品期货收盘涨跌不一：欧线涨超4% 乙二醇跌超3%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/2026-09-22/doc-inissuic8840240.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
+     "bm25_rank": 2,
      "vec_rank": 4
     },
     {
-     "n": 5,
-     "title": "光大期货0921热点追踪：地缘缓和信号密集释放 SC原油继续回吐溢价",
+     "n": 3,
+     "title": "Meta智能体火爆刺激芯片股大涨 AMD有望跻身市值万亿美元俱乐部",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-21/doc-inisqriv2089153.shtml",
-     "rrf": 0.0303,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpx2590817.shtml",
+     "rrf": 0.03105,
+     "bm25_rank": 7,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "Meta势创1月以来最高收盘价 智能体Muse登上苹果应用商店榜首",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpv5871394.shtml",
+     "rrf": 0.03102,
      "bm25_rank": 6,
-     "vec_rank": 6
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "AI行情卷土重来，科创人工智能ETF易方达（588730）涨3.66%，Meta智能体+算力景气共振",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609223880934458.html",
+     "rrf": 0.03033,
+     "bm25_rank": 4,
+     "vec_rank": 8
     },
     {
      "n": 6,
-     "title": "原油：多方推动局势缓和，油价高位回吐部分地缘溢价",
+     "title": "AMD市值首破万亿美元！Meta智能体热潮点燃CPU行情",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-21/doc-inisqriv2141383.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
-     "vec_rank": 5
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-22/doc-inisrnpr7401414.shtml",
+     "rrf": 0.02885,
+     "bm25_rank": 13,
+     "vec_rank": 6
     },
     {
      "n": 7,
-     "title": "光大期货：9月21日能源化工日报",
+     "title": "AMD市值突破1万亿美元，英特尔飙涨12%！CPU行情传导， A股半导体板块能否走出结构性行情？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-21/doc-inisqmac7798986.shtml",
-     "rrf": 0.02881,
-     "bm25_rank": 12,
-     "vec_rank": 7
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-22/doc-inissyqx6835192.shtml",
+     "rrf": 0.02804,
+     "bm25_rank": 5,
+     "vec_rank": 19
     },
     {
      "n": 8,
-     "title": "国债期货开盘，30年期主力合约涨0.05%，10年期主力合约涨0.00%，5年期",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3168564",
-     "rrf": 0.02872,
-     "bm25_rank": 5,
-     "vec_rank": 15
+     "title": "腾讯、阿里，放量大涨！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-09-22/doc-inissyrf1997540.shtml",
+     "rrf": 0.02705,
+     "bm25_rank": 12,
+     "vec_rank": 16
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "商品期货开盘，原油主力合约跌超3%，菜籽粕跌超2%，碳酸锂、燃料油、焦煤、集运欧",
+    "query": "9月22日美股成交前20：智能体Muse引爆AI行情 Meta大涨11.43% ",
     "bm25_only": 1,
     "vec_only": 1,
-    "both": 6,
-    "neither_topk": 0
+    "both": 5,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "1e575689c0d86606",
-   "label": "软银寻求通过多期限垃圾债券发行筹集超过110亿美元等值资金。",
+   "key": "fa3a5dc8b2424438",
+   "label": "内盘商品期货开盘，菜籽粕、国际铜、豆二主力合约涨超1%，乙二醇、丙烯跌超2%，原",
    "cached": false,
    "sections": {
-    "事件概述": "「软银寻求通过多期限垃圾债券发行筹集超过110亿美元等值资金。」由 3 篇报道聚合而成，覆盖 3 家媒体，热度 0.614（高热），所属板块类目：国际市场。",
-    "关键信息": "软银寻求通过多期限垃圾债券发行筹集超过110亿美元等值资金。；软银据悉寻求通过多批次垃圾债券交易筹集逾110亿美元的资金；软银再发行债券投资OpenAI，此后OpenAI的估值变动将直接计入软银的投资损",
+    "事件概述": "「内盘商品期货开盘，菜籽粕、国际铜、豆二主力合约涨超1%，乙二醇、丙烯跌超2%，原」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.56（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "内盘商品期货开盘，菜籽粕、国际铜、豆二主力合约涨超1%，乙二醇、丙烯跌超2%，原；国内商品期货夜盘开盘 主力合约多数上涨；商品期货收盘涨跌不一：欧线涨超4% 乙二醇跌超3%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "软银寻求通过多期限垃圾债券发行筹集超过110亿美元等值资金。",
+     "title": "内盘商品期货开盘，菜籽粕、国际铜、豆二主力合约涨超1%，乙二醇、丙烯跌超2%，原",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3167904",
+     "url": "https://wallstreetcn.com/livenews/3168551",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "软银据悉寻求通过多批次垃圾债券交易筹集逾110亿美元的资金",
+     "title": "国内商品期货夜盘开盘 主力合约多数上涨",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609213879551747.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
+     "url": "https://finance.eastmoney.com/a/202609213880235570.html",
+     "rrf": 0.032,
+     "bm25_rank": 3,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "软银再发行债券投资OpenAI，此后OpenAI的估值变动将直接计入软银的投资损益",
+     "title": "商品期货收盘涨跌不一：欧线涨超4% 乙二醇跌超3%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqriw8891071.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "软银重磅垃圾债发行交易据悉已吸引逾200亿美元初步认购需求",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inissyqz8847531.shtml",
+     "url": "https://finance.sina.com.cn/money/future/2026-09-22/doc-inissuic8840240.shtml",
      "rrf": 0.0315,
      "bm25_rank": 4,
      "vec_rank": 3
     },
     {
+     "n": 4,
+     "title": "商品期货开盘，集运欧线主力合约涨超2%，铂、沪银、沪镍、碳酸锂、铝合金涨超1%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3169216",
+     "rrf": 0.03128,
+     "bm25_rank": 2,
+     "vec_rank": 6
+    },
+    {
      "n": 5,
-     "title": "软银估值500亿美元的数据中心集团放缓IPO进程",
+     "title": "收评|国内期货主力合约涨跌不一 纸浆涨近4%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inissuhz6940298.shtml",
-     "rrf": 0.02927,
-     "bm25_rank": 12,
-     "vec_rank": 5
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-21/doc-inisqkzx2154177.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
     },
     {
      "n": 6,
-     "title": "华泰证券完成发行19亿元永续次级债券",
+     "title": "这个品种，盘中重挫！多头集中离场？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-22/doc-inisscmi7132782.shtml",
-     "rrf": 0.0284,
-     "bm25_rank": 8,
-     "vec_rank": 13
+     "url": "https://finance.sina.com.cn/money/future/2026-09-22/doc-inissuic8923984.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 7,
+     "vec_rank": 8
     },
     {
      "n": 7,
-     "title": "中原银行发行100亿元无固定期限资本债券",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-22/doc-inisscmi7137285.shtml",
-     "rrf": 0.02821,
-     "bm25_rank": 5,
-     "vec_rank": 18
+     "title": "国债期货开盘，30年期主力合约涨0.05%，10年期主力合约涨0.00%，5年期",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3168564",
+     "rrf": 0.02924,
+     "bm25_rank": 6,
+     "vec_rank": 11
     },
     {
      "n": 8,
-     "title": "险企密集发债增资 永续债利率进入“1字头”",
+     "title": "纸浆期货再度大涨 发生了什么",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-21/doc-inispiqq6279553.shtml",
-     "rrf": 0.02724,
-     "bm25_rank": 16,
-     "vec_rank": 11
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-21/doc-inisqriv2139915.shtml",
+     "rrf": 0.02786,
+     "bm25_rank": 8,
+     "vec_rank": 16
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "软银寻求通过多期限垃圾债券发行筹集超过110亿美元等值资金。",
+    "query": "内盘商品期货开盘，菜籽粕、国际铜、豆二主力合约涨超1%，乙二醇、丙烯跌超2%，原",
     "bm25_only": 2,
-    "vec_only": 1,
-    "both": 4,
-    "neither_topk": 1
+    "vec_only": 0,
+    "both": 6,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   }
