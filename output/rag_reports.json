@@ -1,19 +1,19 @@
 {
  "engine": "template(降级)",
- "n_clusters": 73,
+ "n_clusters": 69,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.1,
+ "elapsed": 6.8,
  "reports": [
   {
-   "key": "56b99aa07d342478",
+   "key": "c2cdec1c3247313f",
    "label": "9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元",
    "cached": false,
    "sections": {
-    "事件概述": "「9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.783（爆点），所属板块类目：综合。",
-    "关键信息": "9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元；广东49家企业上榜中国民企500强，华为、比亚迪、腾讯稳居TOP10；2026中国民营企业500强出炉！（附榜单）",
+    "事件概述": "「9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元」由 21 篇报道聚合而成，覆盖 3 家媒体，热度 0.819（爆点），所属板块类目：综合。",
+    "关键信息": "9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元；变化太大！民企500强榜单背后的新信号；广东49家企业上榜中国民企500强，华为、比亚迪、腾讯稳居TOP10",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -29,451 +29,451 @@
     },
     {
      "n": 2,
-     "title": "广东49家企业上榜中国民企500强，华为、比亚迪、腾讯稳居TOP10",
+     "title": "变化太大！民企500强榜单背后的新信号",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-22/doc-inistewv6756430.shtml",
-     "rrf": 0.03058,
-     "bm25_rank": 8,
+     "url": "https://finance.sina.com.cn/wm/2026-09-23/doc-inisvumv5266640.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
      "vec_rank": 3
     },
     {
      "n": 3,
-     "title": "2026中国民营企业500强出炉！（附榜单）",
+     "title": "广东49家企业上榜中国民企500强，华为、比亚迪、腾讯稳居TOP10",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-22/doc-inissyrf2028705.shtml",
-     "rrf": 0.03012,
-     "bm25_rank": 9,
+     "url": "https://finance.sina.com.cn/wm/2026-09-22/doc-inistewv6756430.shtml",
+     "rrf": 0.02991,
+     "bm25_rank": 10,
      "vec_rank": 4
     },
     {
      "n": 4,
-     "title": "最新中国民企500强榜单，镇江新增2家！",
+     "title": "11家福州企业入选2026中国民营企业500强！",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-22/doc-inistewv6774552.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-24/doc-iniswrrf5460875.shtml",
+     "rrf": 0.02971,
+     "bm25_rank": 4,
+     "vec_rank": 11
     },
     {
      "n": 5,
-     "title": "市工商联2家执常委企业荣登2026中国民营企业500强系列榜单",
+     "title": "2026中国民营企业500强出炉！（附榜单）",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-22/doc-inistewx8854270.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/roll/2026-09-22/doc-inissyrf2028705.shtml",
+     "rrf": 0.02947,
+     "bm25_rank": 11,
+     "vec_rank": 5
     },
     {
      "n": 6,
-     "title": "2026中国民营企业top500：比亚迪稳居前五 营收规模再创新高",
+     "title": "最新中国民企500强榜单，镇江新增2家！",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/2026-09-22/doc-inissyrc5714853.shtml",
-     "rrf": 0.02951,
-     "bm25_rank": 4,
-     "vec_rank": 12
-    },
-    {
-     "n": 7,
-     "title": "向新向优 中国民企500强彰显韧性活力",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisuhki6333942.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 10,
+     "url": "https://finance.sina.com.cn/wm/2026-09-22/doc-inistewv6774552.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 9,
      "vec_rank": 7
     },
     {
-     "n": 8,
-     "title": "2026中国民营企业500强发布：小鹏汽车跃升167位 跻身全国前150",
+     "n": 7,
+     "title": "市工商联2家执常委企业荣登2026中国民营企业500强系列榜单",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/2026-09-22/doc-inistewx8826672.shtml",
-     "rrf": 0.02807,
-     "bm25_rank": 3,
-     "vec_rank": 22
+     "url": "https://finance.sina.com.cn/roll/2026-09-22/doc-inistewx8854270.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "向新向优 中国民企500强彰显韧性活力",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisuhki6333942.shtml",
+     "rrf": 0.02859,
+     "bm25_rank": 12,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元",
     "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
+    "vec_only": 4,
+    "both": 2,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "f457b29b891f1865",
-   "label": "9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11% 英特尔涨超12",
+   "key": "a7af0ec216cd7cbe",
+   "label": "地产风云突变！万科A炸板，地产ETF标的指数一度冲高4.5%！港股通创新药实力抗跌！科创芯片利好",
    "cached": false,
    "sections": {
-    "事件概述": "「9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11% 英特尔涨超12」由 31 篇报道聚合而成，覆盖 4 家媒体，热度 0.737（爆点），所属板块类目：金融市场。",
-    "关键信息": "9月22日隔夜要闻：美股全线走高 原油下跌 铜价延续涨势 金价走低 欧盟通过延长；9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11%；美股三大股指高开，道指涨0.49%，标普500指数涨0.6%，纳指涨0.7%。明",
-    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「地产风云突变！万科A炸板，地产ETF标的指数一度冲高4.5%！港股通创新药实力抗跌！科创芯片利好」由 19 篇报道聚合而成，覆盖 4 家媒体，热度 0.746（爆点），所属板块类目：金融市场。",
+    "关键信息": "地产风云突变！万科A炸板，地产ETF标的指数一度冲高4.5%！港股通创新药实力抗；美股芯片暴涨点燃行情，科创芯片ETF易方达（589130）涨3.12%，国产替代；120亿涉案，1788亿元短期负债及借款！昔日的“地产一哥”，竟涨到“异动”了！",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "9月22日隔夜要闻：美股全线走高 原油下跌 铜价延续涨势 金价走低 欧盟通过延长对俄制裁方案",
+     "title": "地产风云突变！万科A炸板，地产ETF标的指数一度冲高4.5%！港股通创新药实力抗跌！科创芯片利好密集",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-22/doc-inisrxcm7218020.shtml",
-     "rrf": 0.03252,
+     "url": "https://finance.sina.com.cn/money/fund/etf/2026-09-23/doc-inisvivx8564981.shtml",
+     "rrf": 0.03279,
      "bm25_rank": 1,
-     "vec_rank": 2
-    },
-    {
-     "n": 2,
-     "title": "9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11% 英特尔涨超12% AMD市值首破1万亿",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-22/doc-inisrsvv2483208.shtml",
-     "rrf": 0.03252,
-     "bm25_rank": 2,
      "vec_rank": 1
     },
     {
+     "n": 2,
+     "title": "美股芯片暴涨点燃行情，科创芯片ETF易方达（589130）涨3.12%，国产替代+算力升级共振",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609223880942820.html",
+     "rrf": 0.0308,
+     "bm25_rank": 7,
+     "vec_rank": 3
+    },
+    {
      "n": 3,
-     "title": "美股三大股指高开，道指涨0.49%，标普500指数涨0.6%，纳指涨0.7%。明",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3168345",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
+     "title": "120亿涉案，1788亿元短期负债及借款！昔日的“地产一哥”，竟涨到“异动”了！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-09-22/doc-inistmet6724618.shtml",
+     "rrf": 0.02929,
+     "bm25_rank": 2,
+     "vec_rank": 16
     },
     {
      "n": 4,
-     "title": "美股三大指数集体高开 英特尔涨超9%",
+     "title": "港股开盘：恒生指数跌0.74% 恒生科技指数跌0.78%",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609213880270328.html",
+     "url": "https://finance.eastmoney.com/a/202609243883296615.html",
+     "rrf": 0.02899,
+     "bm25_rank": 10,
+     "vec_rank": 8
+    },
+    {
+     "n": 5,
+     "title": "科创综指逆势飘红 PCB概念全天活跃 机构：市场反弹持续性可期",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-24/doc-inisvytt5202122.shtml",
+     "rrf": 0.02872,
+     "bm25_rank": 15,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "港股午评：恒指涨0.36% 科指涨0.99% 科网股普涨 存储概念股走强 腾讯涨超6%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-22/doc-inissitf7085998.shtml",
+     "rrf": 0.02798,
+     "bm25_rank": 13,
+     "vec_rank": 10
+    },
+    {
+     "n": 7,
+     "title": "创业板指涨逾2% 芯片股领涨",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609223880917668.html",
+     "rrf": 0.02765,
+     "bm25_rank": 20,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "港股开盘：恒生指数低开0.09% 恒生科技指数高开0.01%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609233882085624.html",
+     "rrf": 0.02753,
+     "bm25_rank": 8,
+     "vec_rank": 18
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "地产风云突变！万科A炸板，地产ETF标的指数一度冲高4.5%！港股通创新药实力抗",
+    "bm25_only": 2,
+    "vec_only": 3,
+    "both": 2,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "c10c5a377b559232",
+   "label": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%",
+   "cached": false,
+   "sections": {
+    "事件概述": "「多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%」由 23 篇报道聚合而成，覆盖 3 家媒体，热度 0.654（爆点），所属板块类目：国际市场。",
+    "关键信息": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1；市场计入美联储再度加息预期，10年期美债收益率创2007年以来新高；美债收益率持续走高，2年期美债收益率升至4.79%，创年内新高。",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/forex/whxwsd/2026-09-24/doc-iniswezr5091931.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "市场计入美联储再度加息预期，10年期美债收益率创2007年以来新高",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytt5160814.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "美债收益率持续走高，2年期美债收益率升至4.79%，创年内新高。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3169609",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "一文读懂美债\"黑色星期三\"：\"完美风暴\"冲击，\"10月再加息\"风起",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-24/doc-iniswrrp0627392.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "10年期美债收益率飙升至19年来新高",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvumx0991362.shtml",
+     "rrf": 0.02988,
+     "bm25_rank": 5,
+     "vec_rank": 9
+    },
+    {
+     "n": 6,
+     "title": "美国5年期国债收益率自2007年以来首次升逾5%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytv0918362.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 14,
+     "vec_rank": 2
+    },
+    {
+     "n": 7,
+     "title": "美债收益率曲线再度逼近倒挂，债市警报开始传导至美股",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-09-23/doc-inisusyc6200241.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "美债跌势加剧 收益率刷新近20年高位",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswrrm4959747.shtml",
+     "rrf": 0.02854,
+     "bm25_rank": 16,
+     "vec_rank": 5
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1",
+    "bm25_only": 1,
+    "vec_only": 2,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "13d3b2c6d25901ba",
+   "label": "伊朗提出重开霍尔木兹海峡条件，特朗普称或在中期选举后达成协议",
+   "cached": false,
+   "sections": {
+    "事件概述": "「伊朗提出重开霍尔木兹海峡条件，特朗普称或在中期选举后达成协议」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.555（爆点），所属板块类目：综合。",
+    "关键信息": "伊朗提出重开霍尔木兹海峡条件，特朗普称或在中期选举后达成协议；报道：伊朗提议7天内重开霍尔木兹海峡，以此推动外交谈判；伊朗向美国提出重启谈判条件 包括接受霍尔木兹海峡方案",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "伊朗提出重开霍尔木兹海峡条件，特朗普称或在中期选举后达成协议",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvcqf1247767.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "报道：伊朗提议7天内重开霍尔木兹海峡，以此推动外交谈判",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inissuhz6948723.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "伊朗向美国提出重启谈判条件 包括接受霍尔木兹海峡方案",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytr8384613.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "伊朗高级官员：“新”外交不会回到过去",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytt5171225.shtml",
      "rrf": 0.02986,
      "bm25_rank": 6,
      "vec_rank": 8
     },
     {
      "n": 5,
-     "title": "凌晨，全线暴拉！两大利好引爆！芯片股，集体沸腾",
+     "title": "特朗普：中期选举后美伊或达成协议",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-22/doc-inisscmr2260070.shtml",
-     "rrf": 0.02932,
-     "bm25_rank": 13,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "美股芯片全线暴涨点燃行情，科创芯片设计ETF易方达（589030）涨3.48%，昇腾+国产替代双轮驱动",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609223880932521.html",
-     "rrf": 0.02797,
-     "bm25_rank": 11,
+     "url": "https://finance.sina.com.cn/roll/2026-09-23/doc-inisuaat1623982.shtml",
+     "rrf": 0.02976,
+     "bm25_rank": 3,
      "vec_rank": 12
     },
     {
-     "n": 7,
-     "title": "纳斯达克100指数涨约1.3%，重返30000点整数位心理关口上方。成分股Arm",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3168351",
-     "rrf": 0.02583,
-     "bm25_rank": 20,
-     "vec_rank": 15
-    },
-    {
-     "n": 8,
-     "title": "港股午评：恒指涨0.36% 科指涨0.99% 科网股普涨 存储概念股走强 腾讯涨超6%",
+     "n": 6,
+     "title": "华泰期货：特朗普称中期选举后将与伊朗达成协议 黄金震荡偏强",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-22/doc-inissitf7085998.shtml",
-     "rrf": 0.02552,
-     "bm25_rank": 12,
-     "vec_rank": 26
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11%",
-    "bm25_only": 0,
-    "vec_only": 1,
-    "both": 4,
-    "neither_topk": 3
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "d3f2ac884b69c002",
-   "label": "人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一",
-   "cached": false,
-   "sections": {
-    "事件概述": "「人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一」由 5 篇报道聚合而成，覆盖 4 家媒体，热度 0.578（爆点），所属板块类目：国际市场。",
-    "关键信息": "人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一；人民币兑美元中间价报6.7459；人民币汇率稳中走强",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3168554",
-     "rrf": 0.03252,
-     "bm25_rank": 1,
-     "vec_rank": 2
-    },
-    {
-     "n": 2,
-     "title": "人民币兑美元中间价报6.7459",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609223880829093.html",
-     "rrf": 0.03252,
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-09-23/doc-inisunsi8611694.shtml",
+     "rrf": 0.02964,
      "bm25_rank": 2,
-     "vec_rank": 1
+     "vec_rank": 14
     },
     {
-     "n": 3,
-     "title": "人民币汇率稳中走强",
+     "n": 7,
+     "title": "联大成美伊会谈“黄金窗口”，霍尔木兹可能在7天内重开",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-22/doc-inissyrf1989205.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-22/doc-inistmev8866646.shtml",
+     "rrf": 0.02951,
+     "bm25_rank": 12,
      "vec_rank": 4
     },
     {
-     "n": 4,
-     "title": "9月22日人民币对美元中间价报6.7459 上调28个基点",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-22/10701237.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "多因素推动近期人民币汇率波动上升",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-22/doc-inisrsvv2484823.shtml",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "四季度人民币汇率 或偏强运行双向波动",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-22/doc-inisrxcp8939425.shtml",
-     "rrf": 0.02867,
-     "bm25_rank": 14,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "台币兑美元上涨0.3%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609223880849556.html",
-     "rrf": 0.02655,
-     "bm25_rank": 26,
-     "vec_rank": 7
-    },
-    {
      "n": 8,
-     "title": "中国人民银行将在香港发行600亿元人民币央行票据",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-21/10701131.shtml",
-     "rrf": 0.02654,
-     "bm25_rank": 23,
-     "vec_rank": 9
+     "title": "又跌了！重磅：伊朗再提重开霍尔木兹海峡条件！沙特否认购买25艘油轮！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-23/doc-inisvcpx6037928.shtml",
+     "rrf": 0.02879,
+     "bm25_rank": 8,
+     "vec_rank": 11
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一",
-    "bm25_only": 0,
-    "vec_only": 2,
-    "both": 5,
-    "neither_topk": 1
+    "query": "伊朗提出重开霍尔木兹海峡条件，特朗普称或在中期选举后达成协议",
+    "bm25_only": 3,
+    "vec_only": 1,
+    "both": 4,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "0a18a1cf0cc1f343",
-   "label": "美债收益率持续走高，2年期美债收益率升至4.79%，创年内新高。",
+   "key": "69cea800808ef83c",
+   "label": "Meta AI智能体Muse爆红后，遭亚马逊“封杀”！美国银行等六家银行预警：AI可能发生诈骗或",
    "cached": false,
    "sections": {
-    "事件概述": "「美债收益率持续走高，2年期美债收益率升至4.79%，创年内新高。」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.572（爆点），所属板块类目：宏观政策。",
-    "关键信息": "美债收益率持续走高，2年期美债收益率升至4.79%，创年内新高。；美国2年期国债收益率升至4.79% 创下年内最高水平；美债收益率曲线再度逼近倒挂，债市警报开始传导至美股",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「Meta AI智能体Muse爆红后，遭亚马逊“封杀”！美国银行等六家银行预警：AI可能发生诈骗或」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.555（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "Meta AI智能体Muse爆红后，遭亚马逊“封杀”！美国银行等六家银行预警：A；Meta的Muse试图颠覆亚马逊，却遭遇挫败；亚马逊将Meta的Muse拒之门外",
+    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "美债收益率持续走高，2年期美债收益率升至4.79%，创年内新高。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3169609",
+     "title": "Meta AI智能体Muse爆红后，遭亚马逊“封杀”！美国银行等六家银行预警：AI可能发生诈骗或错误交易",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-24/doc-inisvytr8393725.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "美国2年期国债收益率升至4.79% 创下年内最高水平",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609233882599671.html",
+     "title": "Meta的Muse试图颠覆亚马逊，却遭遇挫败",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inissyqz8921151.shtml",
      "rrf": 0.032,
      "bm25_rank": 3,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "美债收益率曲线再度逼近倒挂，债市警报开始传导至美股",
+     "title": "亚马逊将Meta的Muse拒之门外",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-09-23/doc-inisusyc6200241.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inistmex5573469.shtml",
      "rrf": 0.03126,
      "bm25_rank": 5,
      "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "策略师：美债10年期实际收益率创20年新高，黄金ETF却持续反向增仓",
+     "title": "Muse为何让Meta市值暴涨数千亿美元",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-09-23/doc-inisuxhc8505281.shtml",
-     "rrf": 0.03033,
-     "bm25_rank": 4,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inistmez1899206.shtml",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
      "vec_rank": 8
     },
     {
      "n": 5,
-     "title": "美债收益率小幅回落，投资者静待最新就业数据与美联储官员讲话",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inistewv6776636.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "美国债市：中期国债领涨 收益率曲线继续走平",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-22/doc-inisrxcr5713909.shtml",
-     "rrf": 0.02947,
-     "bm25_rank": 11,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "最新解读！美联储重启加息，10年期美债收益率“破5”，全球资产定价锚走向何方？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-21/doc-inisrhfx5919994.shtml",
-     "rrf": 0.02901,
-     "bm25_rank": 7,
-     "vec_rank": 11
-    },
-    {
-     "n": 8,
-     "title": "美国2年期国债中标收益率创2024年以来最高 需求略低于预期",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-23/doc-inistrnx1821096.shtml",
-     "rrf": 0.02896,
-     "bm25_rank": 15,
-     "vec_rank": 4
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "美债收益率持续走高，2年期美债收益率升至4.79%，创年内新高。",
-    "bm25_only": 1,
-    "vec_only": 2,
-    "both": 5,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "eb711a33be835aa3",
-   "label": "9月22日美股成交前20：智能体Muse引爆AI行情 Meta大涨11.43% CPU生产商AM",
-   "cached": false,
-   "sections": {
-    "事件概述": "「9月22日美股成交前20：智能体Muse引爆AI行情 Meta大涨11.43% CPU生产商AM」由 11 篇报道聚合而成，覆盖 2 家媒体，热度 0.56（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "9月22日美股成交前20：智能体Muse引爆AI行情 Meta大涨11.43% ；9月22日隔夜要闻：美股全线走高 原油下跌 铜价延续涨势 金价走低 欧盟通过延长；Meta智能体火爆刺激芯片股大涨 AMD有望跻身市值万亿美元俱乐部",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "9月22日美股成交前20：智能体Muse引爆AI行情 Meta大涨11.43% CPU生产商AMD大涨近10% 市值首破",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-22/doc-inisrxcm7213445.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "9月22日隔夜要闻：美股全线走高 原油下跌 铜价延续涨势 金价走低 欧盟通过延长对俄制裁方案",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-22/doc-inisrxcm7218020.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "Meta智能体火爆刺激芯片股大涨 AMD有望跻身市值万亿美元俱乐部",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpx2590817.shtml",
-     "rrf": 0.03105,
-     "bm25_rank": 7,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "Meta势创1月以来最高收盘价 智能体Muse登上苹果应用商店榜首",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpv5871394.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "AI行情卷土重来，科创人工智能ETF易方达（588730）涨3.66%，Meta智能体+算力景气共振",
+     "title": "Meta带火AI助手 但新产品已被亚马逊封禁",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609223880934458.html",
-     "rrf": 0.03033,
-     "bm25_rank": 4,
-     "vec_rank": 8
-    },
-    {
-     "n": 6,
-     "title": "AMD市值首破万亿美元！Meta智能体热潮点燃CPU行情",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-22/doc-inisrnpr7401414.shtml",
-     "rrf": 0.02885,
-     "bm25_rank": 13,
+     "url": "https://finance.eastmoney.com/a/202609223881368895.html",
+     "rrf": 0.02848,
+     "bm25_rank": 15,
      "vec_rank": 6
     },
     {
-     "n": 7,
-     "title": "AMD市值突破1万亿美元，英特尔飙涨12%！CPU行情传导， A股半导体板块能否走出结构性行情？",
+     "n": 6,
+     "title": "澳大利亚称OpenAI智能体入侵其政府健康数据网站",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-22/doc-inissyqx6835192.shtml",
-     "rrf": 0.02788,
-     "bm25_rank": 5,
-     "vec_rank": 20
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswrri8162220.shtml",
+     "rrf": 0.02819,
+     "bm25_rank": 9,
+     "vec_rank": 13
+    },
+    {
+     "n": 7,
+     "title": "AI价格战全面打响：微软、亚马逊、Adobe等集体降价挽留企业客户",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisuxfz6127911.shtml",
+     "rrf": 0.02533,
+     "bm25_rank": 13,
+     "vec_rank": 26
     },
     {
      "n": 8,
-     "title": "财经早报丨Meta智能体热潮点燃CPU行情 “3连板”妖股再喊话丨2026年9月22日",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/y/2026-09-22/doc-inisscmp5635021.shtml",
-     "rrf": 0.02703,
-     "bm25_rank": 14,
-     "vec_rank": 14
+     "title": "美国银行全球研究表示，预计英国央行将于2026年11月和2027年2月加息，放弃",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3169952",
+     "rrf": 0.01613,
+     "bm25_rank": 2,
+     "vec_rank": null
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "9月22日美股成交前20：智能体Muse引爆AI行情 Meta大涨11.43% ",
+    "query": "Meta AI智能体Muse爆红后，遭亚马逊“封杀”！美国银行等六家银行预警：A",
     "bm25_only": 1,
     "vec_only": 1,
-    "both": 5,
-    "neither_topk": 1
+    "both": 4,
+    "neither_topk": 2
    },
    "elapsed": 0.0
   }

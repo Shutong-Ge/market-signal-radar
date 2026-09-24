@@ -2,18 +2,18 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.435,
-  "avg_rank_diff": 1.12,
-  "avg_missed_by_bm25": 2.11,
-  "avg_missed_by_vector": 2.0,
-  "conclusion": "两路召回集平均重合度仅 44%；即便重合的文档，两路名次平均相差 1.12 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.11 篇最终进入 Top8 的文档；只用向量则漏掉 2.0 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.294,
+  "avg_rank_diff": 0.88,
+  "avg_missed_by_bm25": 2.78,
+  "avg_missed_by_vector": 2.56,
+  "conclusion": "两路召回集平均重合度仅 29%；即便重合的文档，两路名次平均相差 0.88 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.78 篇最终进入 Top8 的文档；只用向量则漏掉 2.56 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
    "query": "9家川企跻身2026中国民营企业500强，通威、其亚、新希望",
-   "jaccard": 0.455,
-   "rank_diff": 2.0,
+   "jaccard": 0.333,
+   "rank_diff": 1.5,
    "missed_by_bm25": 2,
    "missed_by_vector": 2,
    "example_top1": "9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元"
@@ -30,65 +30,65 @@
   {
    "type": "去数字泛化",
    "query": "家川企跻身中国民营企业强，通威、其亚、新希望收入超千亿元",
-   "jaccard": 0.333,
-   "rank_diff": 1.25,
-   "missed_by_bm25": 2,
+   "jaccard": 0.143,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 3,
    "missed_by_vector": 3,
    "example_top1": "9家川企跻身2026中国民营企业500强，通威、其亚、新希望收入超千亿元"
   },
   {
    "type": "原标题式",
-   "query": "9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨",
-   "jaccard": 0.6,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "9月22日隔夜要闻：美股全线走高 原油下跌 铜价延续涨势 金价走低 欧盟通过延长对俄制裁方案"
+   "query": "地产风云突变！万科A炸板，地产ETF标的指数一度冲高4.5%",
+   "jaccard": 0.143,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
+   "example_top1": "地产风云突变！万科A炸板，地产ETF标的指数一度冲高4.5%！港股通创新药实力抗跌！科创芯片"
   },
   {
    "type": "关键词式",
-   "query": "收盘 美股 全线 走高 纳指 涨超",
-   "jaccard": 0.333,
-   "rank_diff": 1.75,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "9月22日收盘：美股全线走高 纳指涨超2% AI与芯片股领涨 Meta涨超11% 英特尔涨超"
+   "query": "地产 风云突变 万科 炸板 地产 标的",
+   "jaccard": 0.143,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 5,
+   "missed_by_vector": 2,
+   "example_top1": "地产风云突变！万科A炸板，地产ETF标的指数一度冲高4.5%！港股通创新药实力抗跌！科创芯片"
   },
   {
    "type": "去数字泛化",
-   "query": "月日收盘：美股全线走高 纳指涨超 AI与芯片股领涨 Meta",
-   "jaccard": 0.455,
-   "rank_diff": 1.2,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "9月22日隔夜要闻：美股全线走高 原油下跌 铜价延续涨势 金价走低 欧盟通过延长对俄制裁方案"
+   "query": "地产风云突变！万科A炸板，地产ETF标的指数一度冲高！港股通",
+   "jaccard": 0.143,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 3,
+   "example_top1": "地产风云突变！万科A炸板，地产ETF标的指数一度冲高4.5%！港股通创新药实力抗跌！科创芯片"
   },
   {
    "type": "原标题式",
-   "query": "人民币兑美元中间价报6.7459，上调28点；上一交易日中间",
+   "query": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%",
    "jaccard": 0.455,
-   "rank_diff": 1.2,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 1,
-   "example_top1": "人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一"
+   "rank_diff": 0.8,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%"
   },
   {
    "type": "关键词式",
-   "query": "人民币 美元 中间价 上调 交易日 中间价",
-   "jaccard": 0.6,
-   "rank_diff": 0.67,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一"
+   "query": "多重 因素 夹击 美债 抛售 加剧",
+   "jaccard": 0.455,
+   "rank_diff": 1.8,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%"
   },
   {
    "type": "去数字泛化",
-   "query": "人民币兑美元中间价报，上调点；上一交易日中间价，上一",
-   "jaccard": 0.455,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 2,
-   "example_top1": "人民币兑美元中间价报6.7459，上调28点；上一交易日中间价6.7487，上一"
+   "query": "多重因素夹击，美债抛售加剧！年期收益率年来首破，年期站上",
+   "jaccard": 0.6,
+   "rank_diff": 2.17,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%"
   }
  ]
 }
