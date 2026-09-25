@@ -1,113 +1,19 @@
 {
  "engine": "template(降级)",
- "n_clusters": 57,
+ "n_clusters": 53,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.9,
+ "elapsed": 6.7,
  "reports": [
   {
-   "key": "ed46b8a8f381ac3b",
-   "label": "A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天佑德酒涨停后炸板",
-   "cached": false,
-   "sections": {
-    "事件概述": "「A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天佑德酒涨停后炸板」由 17 篇报道聚合而成，覆盖 4 家媒体，热度 0.824（爆点），所属板块类目：金融市场。",
-    "关键信息": "A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天；房地产板块再度拉升，我爱我家、华远控股3连板，中华企业直线涨停，万科A、华丽家族；又是小作文！地产股大涨的原因找到了",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天佑德酒涨停后炸板",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-23/doc-inisusym1376804.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "房地产板块再度拉升，我爱我家、华远控股3连板，中华企业直线涨停，万科A、华丽家族",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3169241",
-     "rrf": 0.03105,
-     "bm25_rank": 2,
-     "vec_rank": 7
-    },
-    {
-     "n": 3,
-     "title": "又是小作文！地产股大涨的原因找到了",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-23/doc-inisuxhc8604487.shtml",
-     "rrf": 0.0308,
-     "bm25_rank": 7,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "“一根穿云箭”，秒拉涨停",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-23/doc-inisuxhf5345065.shtml",
-     "rrf": 0.02845,
-     "bm25_rank": 4,
-     "vec_rank": 18
-    },
-    {
-     "n": 5,
-     "title": "中船系概念涨1.53%，主力资金净流入5股",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-24/doc-inisxnuz4993045.shtml",
-     "rrf": 0.02783,
-     "bm25_rank": 15,
-     "vec_rank": 9
-    },
-    {
-     "n": 6,
-     "title": "CRO概念反复活跃 义翘神州涨超10%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609233882156264.html",
-     "rrf": 0.02778,
-     "bm25_rank": 3,
-     "vec_rank": 24
-    },
-    {
-     "n": 7,
-     "title": "新概念，突然火了！龙头暴涨近70%（附股）",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-24/doc-iniswrrm4935167.shtml",
-     "rrf": 0.02759,
-     "bm25_rank": 13,
-     "vec_rank": 12
-    },
-    {
-     "n": 8,
-     "title": "601811“4连板”！股价五日涨超50%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-23/doc-inisvcpx6076038.shtml",
-     "rrf": 0.02758,
-     "bm25_rank": 5,
-     "vec_rank": 22
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天",
-    "bm25_only": 3,
-    "vec_only": 0,
-    "both": 3,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "3aef9ab4cfc6781f",
+   "key": "ffbc5c27445c4f43",
    "label": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%",
    "cached": false,
    "sections": {
-    "事件概述": "「多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%」由 32 篇报道聚合而成，覆盖 3 家媒体，热度 0.801（爆点），所属板块类目：国际市场。",
-    "关键信息": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1；市场计入美联储再度加息预期，10年期美债收益率创2007年以来新高；美债抛售加剧 30年期收益率升至2004年以来最高",
+    "事件概述": "「多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%」由 44 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：国际市场。",
+    "关键信息": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1；美债抛售潮加剧，30年期美债收益率创2004年以来新高；市场计入美联储再度加息预期，10年期美债收益率创2007年以来新高",
     "市场影响": "关联板块代码：BK1361。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -123,178 +29,178 @@
     },
     {
      "n": 2,
-     "title": "市场计入美联储再度加息预期，10年期美债收益率创2007年以来新高",
+     "title": "美债抛售潮加剧，30年期美债收益率创2004年以来新高",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytt5160814.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "美债抛售加剧 30年期收益率升至2004年以来最高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxnuv5188090.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "美债收益率持续走高，2年期美债收益率升至4.79%，创年内新高。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3169609",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "10年期美债收益率飙升至19年来新高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvumx0991362.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 7,
-     "vec_rank": 10
-    },
-    {
-     "n": 6,
-     "title": "一文读懂美债\"黑色星期三\"：\"完美风暴\"冲击，\"10月再加息\"风起",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-24/doc-iniswrrp0627392.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 10,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "日本10年期国债收益率大涨10个基点至3.075% 创1996年以来最高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxaez5330472.shtml",
-     "rrf": 0.02879,
-     "bm25_rank": 8,
-     "vec_rank": 11
-    },
-    {
-     "n": 8,
-     "title": "日本10年期国债收益率冲上1996年来新高 全球债市抛售潮席卷东京",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxafc8225366.shtml",
-     "rrf": 0.02867,
-     "bm25_rank": 6,
-     "vec_rank": 14
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1",
-    "bm25_only": 3,
-    "vec_only": 1,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "a52ce1437cb1f582",
-   "label": "商品期货开盘，集运欧线主力合约涨超2%，铂、沪银、沪镍、碳酸锂、铝合金涨超1%。",
-   "cached": false,
-   "sections": {
-    "事件概述": "「商品期货开盘，集运欧线主力合约涨超2%，铂、沪银、沪镍、碳酸锂、铝合金涨超1%。」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.554（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "商品期货开盘，集运欧线主力合约涨超2%，铂、沪银、沪镍、碳酸锂、铝合金涨超1%。；国内商品期货早盘开盘 主力合约涨跌不一；商品期货开盘，原油主力合约涨超4%，BR橡胶、燃料油、LU燃油涨超3%，苯乙烯、",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "商品期货开盘，集运欧线主力合约涨超2%，铂、沪银、沪镍、碳酸锂、铝合金涨超1%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3169216",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "国内商品期货早盘开盘 主力合约涨跌不一",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609233881941426.html",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxtaz0317611.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "商品期货开盘，原油主力合约涨超4%，BR橡胶、燃料油、LU燃油涨超3%，苯乙烯、",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3169956",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "国债期货开盘，30年期主力合约跌0.06%，10年期主力合约跌0.00%，5年期",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3169226",
-     "rrf": 0.03055,
-     "bm25_rank": 4,
-     "vec_rank": 7
-    },
-    {
-     "n": 5,
-     "title": "快讯：午后原油期货延续涨势，SC原油主力合约日内涨超6%",
+     "title": "市场计入美联储再度加息预期，10年期美债收益率创2007年以来新高",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-24/doc-inisxhnz8181638.shtml",
-     "rrf": 0.03054,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytt5160814.shtml",
+     "rrf": 0.03101,
      "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "开盘|国内期货主力合约涨跌不一 SC原油、乙二醇（EG）跌超3%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-23/doc-inisunsm5289212.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "华泰期货：RKAB仍是关键变量，镍不锈钢震荡上涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-23/doc-inisunsm5379882.shtml",
-     "rrf": 0.02951,
-     "bm25_rank": 12,
      "vec_rank": 4
     },
     {
-     "n": 8,
-     "title": "中天期货:橡胶强势上涨 碳酸锂继续走弱",
+     "n": 4,
+     "title": "美债抛售加剧 30年期收益率升至2004年以来最高",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-24/doc-inisxnux8252701.shtml",
-     "rrf": 0.02817,
-     "bm25_rank": 11,
-     "vec_rank": 11
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxnuv5188090.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "美债收益率持续走高，2年期美债收益率升至4.79%，创年内新高。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3169609",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "全球债券抛售潮加剧，推高世界各地借贷成本",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkr5075988.shtml",
+     "rrf": 0.02904,
+     "bm25_rank": 6,
+     "vec_rank": 12
+    },
+    {
+     "n": 7,
+     "title": "一文读懂美债\"黑色星期三\"：\"完美风暴\"冲击，\"10月再加息\"风起",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-24/doc-iniswrrp0627392.shtml",
+     "rrf": 0.02822,
+     "bm25_rank": 14,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "10年期美债收益率飙升至19年来新高",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvumx0991362.shtml",
+     "rrf": 0.02801,
+     "bm25_rank": 9,
+     "vec_rank": 14
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "商品期货开盘，集运欧线主力合约涨超2%，铂、沪银、沪镍、碳酸锂、铝合金涨超1%。",
-    "bm25_only": 0,
+    "query": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1",
+    "bm25_only": 1,
     "vec_only": 1,
-    "both": 6,
+    "both": 5,
     "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "76e41101f83aa791",
+   "key": "fa5dd3f9f8516aff",
+   "label": "A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天佑德酒涨停后炸板",
+   "cached": false,
+   "sections": {
+    "事件概述": "「A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天佑德酒涨停后炸板」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.637（爆点），所属板块类目：金融市场。",
+    "关键信息": "A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天；又是小作文！地产股大涨的原因找到了；“一根穿云箭”，秒拉涨停",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天佑德酒涨停后炸板",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-23/doc-inisusym1376804.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "又是小作文！地产股大涨的原因找到了",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-23/doc-inisuxhc8604487.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "“一根穿云箭”，秒拉涨停",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-09-23/doc-inisuxhf5345065.shtml",
+     "rrf": 0.02983,
+     "bm25_rank": 2,
+     "vec_rank": 13
+    },
+    {
+     "n": 4,
+     "title": "股价3日累涨逾30%！688056提示半导体相关业务收入占比仅2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-24/doc-inisxtax5021537.shtml",
+     "rrf": 0.02983,
+     "bm25_rank": 13,
+     "vec_rank": 2
+    },
+    {
+     "n": 5,
+     "title": "中船系概念涨1.53%，主力资金净流入5股",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-24/doc-inisxnuz4993045.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 10,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "新概念，突然火了！龙头暴涨近70%（附股）",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-24/doc-iniswrrm4935167.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
+    },
+    {
+     "n": 7,
+     "title": "601811“4连板”！股价五日涨超50%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-23/doc-inisvcpx6076038.shtml",
+     "rrf": 0.02903,
+     "bm25_rank": 3,
+     "vec_rank": 16
+    },
+    {
+     "n": 8,
+     "title": "A股传媒板块继续活跃，新华文轩5连板，新华传媒4连板，天威视讯3连板，粤传媒、内",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3169975",
+     "rrf": 0.02858,
+     "bm25_rank": 9,
+     "vec_rank": 11
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天",
+    "bm25_only": 3,
+    "vec_only": 2,
+    "both": 2,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "e2d5abc43bdf1e6c",
    "label": "澳大利亚国防部长Marles：OpenAI智能体入侵是一起“严重事件”。 Ope",
    "cached": false,
    "sections": {
-    "事件概述": "「澳大利亚国防部长Marles：OpenAI智能体入侵是一起“严重事件”。 Ope」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.552（爆点），所属板块类目：AI与大模型。",
+    "事件概述": "「澳大利亚国防部长Marles：OpenAI智能体入侵是一起“严重事件”。 Ope」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.603（爆点），所属板块类目：AI与大模型。",
     "关键信息": "澳大利亚国防部长Marles：OpenAI智能体入侵是一起“严重事件”。 Ope；OpenAI智能体入侵澳大利亚公共医疗服务网站；澳大利亚总理称：OpenAI的AI智能体入侵澳政府系统",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -338,39 +244,39 @@
     },
     {
      "n": 5,
-     "title": "澳大利亚称OpenAI智能体入侵其政府健康数据网站",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswrri8162220.shtml",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
      "title": "澳大利亚总理称OpenAI智能体侵入政府网站 三个月后才被告知",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswrri8180229.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
+     "rrf": 0.03054,
+     "bm25_rank": 5,
      "vec_rank": 6
     },
     {
+     "n": 6,
+     "title": "澳大利亚称OpenAI智能体入侵其政府健康数据网站",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswrri8162220.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
+    },
+    {
      "n": 7,
-     "title": "以色列总理称打死哈马斯财务部门负责人",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3169537",
-     "rrf": 0.02632,
-     "bm25_rank": 16,
-     "vec_rank": 16
+     "title": "OpenAI智能体在搜集数据期间，又尝试入侵另外四家网站",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkt8156800.shtml",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
+     "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "加拿大总理卡尼据报曾考虑过美国入侵这一“极端尾部风险”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswvxi5049244.shtml",
-     "rrf": 0.02475,
-     "bm25_rank": 29,
-     "vec_rank": 14
+     "title": "以色列总理称打死哈马斯财务部门负责人",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3169537",
+     "rrf": 0.02614,
+     "bm25_rank": 16,
+     "vec_rank": 17
     }
    ],
    "degraded": 1,
@@ -378,100 +284,194 @@
     "query": "澳大利亚国防部长Marles：OpenAI智能体入侵是一起“严重事件”。 Ope",
     "bm25_only": 0,
     "vec_only": 0,
-    "both": 6,
-    "neither_topk": 2
+    "both": 7,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "6f71532fbc48806c",
-   "label": "四川榜首！通威荣膺2026中国民营企业500强、中国制造业民营企业500强榜单",
+   "key": "1d192c63c5053a4f",
+   "label": "甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗力通知。",
    "cached": false,
    "sections": {
-    "事件概述": "「四川榜首！通威荣膺2026中国民营企业500强、中国制造业民营企业500强榜单」由 10 篇报道聚合而成，覆盖 2 家媒体，热度 0.513（爆点），所属板块类目：综合。",
-    "关键信息": "四川榜首！通威荣膺2026中国民营企业500强、中国制造业民营企业500强榜单；2026中国民企500强鲁企全景图；【重点关注】2026中国制造业民营企业500强榜单",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗力通知。」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.603（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗力通知。；甲骨文就数据中心项目发出“不可抗力”通知，股价大跌5%；甲骨文就新墨西哥州数据中心发出不可抗力通知",
+    "市场影响": "关联板块代码：BK0922。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "四川榜首！通威荣膺2026中国民营企业500强、中国制造业民营企业500强榜单",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-22/doc-inisxnux8276389.shtml",
+     "title": "甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗力通知。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3170415",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "2026中国民企500强鲁企全景图",
+     "title": "甲骨文就数据中心项目发出“不可抗力”通知，股价大跌5%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-23/doc-inisunsi8541175.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkt8207287.shtml",
      "rrf": 0.032,
      "bm25_rank": 3,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "【重点关注】2026中国制造业民营企业500强榜单",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-23/doc-inisviwc1159757.shtml",
+     "title": "甲骨文就新墨西哥州数据中心发出不可抗力通知",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609243883870751.html",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "甲骨文美股盘前跌超4%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609243883873293.html",
      "rrf": 0.03126,
      "bm25_rank": 5,
      "vec_rank": 3
     },
     {
-     "n": 4,
-     "title": "2026中国制造业民营企业500强榜单发布，黑龙江两家企业上榜",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-23/doc-inisvqcx5241743.shtml",
+     "n": 5,
+     "title": "甲骨文美股盘前下跌2.8%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609243883870889.html",
      "rrf": 0.03101,
      "bm25_rank": 4,
      "vec_rank": 5
     },
     {
-     "n": 5,
-     "title": "甘肃两家企业上榜2026中国制造业民营企业500强",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisuhki6375256.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
-    },
-    {
      "n": 6,
-     "title": "这家“长乐系”钢企，营收超1100亿！列中国民营企业500强第94位！",
+     "title": "科技巨头，引爆“大雷”！",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-23/doc-inisvivz5352848.shtml",
-     "rrf": 0.03002,
-     "bm25_rank": 2,
-     "vec_rank": 12
+     "url": "https://finance.sina.com.cn/stock/s/2026-09-24/doc-inisxxkt8187017.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
+     "vec_rank": 8
     },
     {
      "n": 7,
-     "title": "向新向优 中国民企500强彰显韧性活力",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisuhki6333942.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 8,
-     "vec_rank": 6
+     "title": "甲骨文就新墨西哥数据中心发出不可抗力通知",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3170416",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
+     "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "11家福州企业入选2026中国民营企业500强！",
+     "title": "甲骨文股价下跌6.1%，公司采取行动规避争议数据中心项目带来的成本风险",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-24/doc-iniswrrf5460875.shtml",
-     "rrf": 0.02944,
-     "bm25_rank": 6,
-     "vec_rank": 10
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkt8180355.shtml",
+     "rrf": 0.02924,
+     "bm25_rank": 11,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "四川榜首！通威荣膺2026中国民营企业500强、中国制造业民营企业500强榜单",
-    "bm25_only": 2,
-    "vec_only": 0,
+    "query": "甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗力通知。",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 7,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "23664449214d35c9",
+   "label": "恒指低开0.74%，报24649.45点；恒生科技指数跌0.78%。天数智芯跌超",
+   "cached": false,
+   "sections": {
+    "事件概述": "「恒指低开0.74%，报24649.45点；恒生科技指数跌0.78%。天数智芯跌超」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.585（爆点），所属板块类目：金融市场。",
+    "关键信息": "恒指低开0.74%，报24649.45点；恒生科技指数跌0.78%。天数智芯跌超；恒指低开0.96%，报24523.50点；恒生科技指数跌0.99%。阿里巴巴、网；港股开盘：恒生指数跌0.74% 恒生科技指数跌0.78%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "恒指低开0.74%，报24649.45点；恒生科技指数跌0.78%。天数智芯跌超",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3169961",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "恒指低开0.96%，报24523.50点；恒生科技指数跌0.99%。阿里巴巴、网",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3170668",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "港股开盘：恒生指数跌0.74% 恒生科技指数跌0.78%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609243883296615.html",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "港股三大指数开盘下挫，恒生科技指数跌超2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-09-25/doc-inisyywk9757260.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "港股午评：恒指跌0.76% 科指跌0.97% 科网股低迷 内房股强势",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-23/doc-inisusyf8570604.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 6,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "港股开盘：恒生指数跌0.96% 恒生科技指数跌0.99%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609253884226497.html",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "恒生科技指数日内跌幅扩大至2%。小米、阿里巴巴跌超3%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3170669",
+     "rrf": 0.02988,
+     "bm25_rank": 5,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "快讯：恒指低开0.96% 科指跌0.99% 科网股低迷 保险股走弱",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-25/doc-inisyywi4619818.shtml",
+     "rrf": 0.02899,
+     "bm25_rank": 10,
+     "vec_rank": 8
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "恒指低开0.74%，报24649.45点；恒生科技指数跌0.78%。天数智芯跌超",
+    "bm25_only": 1,
+    "vec_only": 1,
     "both": 6,
     "neither_topk": 0
    },
