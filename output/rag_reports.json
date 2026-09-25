@@ -1,20 +1,20 @@
 {
  "engine": "template(降级)",
- "n_clusters": 53,
+ "n_clusters": 56,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.7,
+ "elapsed": 5.8,
  "reports": [
   {
-   "key": "ffbc5c27445c4f43",
+   "key": "87461ea9dee63c84",
    "label": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%",
    "cached": false,
    "sections": {
-    "事件概述": "「多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%」由 44 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：国际市场。",
-    "关键信息": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1；美债抛售潮加剧，30年期美债收益率创2004年以来新高；市场计入美联储再度加息预期，10年期美债收益率创2007年以来新高",
-    "市场影响": "关联板块代码：BK1361。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%」由 51 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：国际市场。",
+    "关键信息": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1；美债抛售潮加剧，30年期美债收益率创2004年以来新高；美债抛售加剧 30年期收益率升至2004年以来最高",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
@@ -38,6 +38,15 @@
     },
     {
      "n": 3,
+     "title": "美债抛售加剧 30年期收益率升至2004年以来最高",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxnuv5188090.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
      "title": "市场计入美联储再度加息预期，10年期美债收益率创2007年以来新高",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytt5160814.shtml",
@@ -46,161 +55,152 @@
      "vec_rank": 4
     },
     {
-     "n": 4,
-     "title": "美债抛售加剧 30年期收益率升至2004年以来最高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxnuv5188090.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
      "n": 5,
-     "title": "美债收益率持续走高，2年期美债收益率升至4.79%，创年内新高。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3169609",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
      "title": "全球债券抛售潮加剧，推高世界各地借贷成本",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkr5075988.shtml",
-     "rrf": 0.02904,
+     "rrf": 0.02924,
      "bm25_rank": 6,
-     "vec_rank": 12
+     "vec_rank": 11
     },
     {
-     "n": 7,
+     "n": 6,
      "title": "一文读懂美债\"黑色星期三\"：\"完美风暴\"冲击，\"10月再加息\"风起",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-09-24/doc-iniswrrp0627392.shtml",
-     "rrf": 0.02822,
-     "bm25_rank": 14,
-     "vec_rank": 8
+     "rrf": 0.02881,
+     "bm25_rank": 12,
+     "vec_rank": 7
     },
     {
-     "n": 8,
+     "n": 7,
      "title": "10年期美债收益率飙升至19年来新高",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvumx0991362.shtml",
-     "rrf": 0.02801,
-     "bm25_rank": 9,
-     "vec_rank": 14
+     "rrf": 0.0284,
+     "bm25_rank": 8,
+     "vec_rank": 13
+    },
+    {
+     "n": 8,
+     "title": "全球债券抛售潮延续，美国国债收益率小幅走高",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtv4366149.shtml",
+     "rrf": 0.0284,
+     "bm25_rank": 13,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 5,
-    "neither_topk": 1
+    "bm25_only": 2,
+    "vec_only": 2,
+    "both": 4,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "fa5dd3f9f8516aff",
-   "label": "A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天佑德酒涨停后炸板",
+   "key": "a298faaae8e04a49",
+   "label": "日元势创逾两周来最大单日涨幅 此前日本财务大臣发表汇率言论",
    "cached": false,
    "sections": {
-    "事件概述": "「A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天佑德酒涨停后炸板」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.637（爆点），所属板块类目：金融市场。",
-    "关键信息": "A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天；又是小作文！地产股大涨的原因找到了；“一根穿云箭”，秒拉涨停",
+    "事件概述": "「日元势创逾两周来最大单日涨幅 此前日本财务大臣发表汇率言论」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.618（爆点），所属板块类目：国际市场。",
+    "关键信息": "日元势创逾两周来最大单日涨幅 此前日本财务大臣发表汇率言论；日元兑美元汇率接近160日元关口 干预风险再度浮现；高盛下调美元兑日元12个月目标价至150，市场风向转变",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天佑德酒涨停后炸板",
+     "title": "日元势创逾两周来最大单日涨幅 此前日本财务大臣发表汇率言论",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-23/doc-inisusym1376804.shtml",
+     "url": "https://finance.sina.com.cn/world/2026-09-25/doc-iniszrtx7695230.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "又是小作文！地产股大涨的原因找到了",
+     "title": "日元兑美元汇率接近160日元关口 干预风险再度浮现",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-23/doc-inisuxhc8604487.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "“一根穿云箭”，秒拉涨停",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-23/doc-inisuxhf5345065.shtml",
-     "rrf": 0.02983,
-     "bm25_rank": 2,
-     "vec_rank": 13
-    },
-    {
-     "n": 4,
-     "title": "股价3日累涨逾30%！688056提示半导体相关业务收入占比仅2%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-24/doc-inisxtax5021537.shtml",
-     "rrf": 0.02983,
-     "bm25_rank": 13,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswvxc5445854.shtml",
+     "rrf": 0.03083,
+     "bm25_rank": 8,
      "vec_rank": 2
     },
     {
-     "n": 5,
-     "title": "中船系概念涨1.53%，主力资金净流入5股",
+     "n": 3,
+     "title": "高盛下调美元兑日元12个月目标价至150，市场风向转变",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-24/doc-inisxnuz4993045.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 10,
-     "vec_rank": 7
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-inisyuqn9841079.shtml",
+     "rrf": 0.02924,
+     "bm25_rank": 6,
+     "vec_rank": 11
     },
     {
-     "n": 6,
-     "title": "新概念，突然火了！龙头暴涨近70%（附股）",
+     "n": 4,
+     "title": "日本财务大臣：特朗普向高市早苗表达对日元的担忧",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-24/doc-iniswrrm4935167.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
-    },
-    {
-     "n": 7,
-     "title": "601811“4连板”！股价五日涨超50%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-23/doc-inisvcpx6076038.shtml",
+     "url": "https://finance.sina.com.cn/world/2026-09-25/doc-inisyywk9780797.shtml",
      "rrf": 0.02903,
      "bm25_rank": 3,
      "vec_rank": 16
     },
     {
+     "n": 5,
+     "title": "特朗普向高市早苗就日元疲软表达了关切",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszfef4589000.shtml",
+     "rrf": 0.02863,
+     "bm25_rank": 2,
+     "vec_rank": 20
+    },
+    {
+     "n": 6,
+     "title": "高盛逆转看空日元立场 上调日元兑美元12个月目标位至150",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszmne9580919.shtml",
+     "rrf": 0.02822,
+     "bm25_rank": 14,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "日元兑美元短暂走强至157.91",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswrrm5029849.shtml",
+     "rrf": 0.02792,
+     "bm25_rank": 23,
+     "vec_rank": 3
+    },
+    {
      "n": 8,
-     "title": "A股传媒板块继续活跃，新华文轩5连板，新华传媒4连板，天威视讯3连板，粤传媒、内",
+     "title": "日本财务大臣片山皋月：日本首相高市早苗“并非再通胀主义者”。 高市早苗非常尊重日",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3169975",
-     "rrf": 0.02858,
-     "bm25_rank": 9,
-     "vec_rank": 11
+     "url": "https://wallstreetcn.com/livenews/3170738",
+     "rrf": 0.02758,
+     "bm25_rank": 7,
+     "vec_rank": 19
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "A股半导体多股大涨超10%，佰维存储涨超2% 房地产2股3连板，白酒概念拉升，天",
-    "bm25_only": 3,
+    "query": "日元势创逾两周来最大单日涨幅 此前日本财务大臣发表汇率言论",
+    "bm25_only": 4,
     "vec_only": 2,
     "both": 2,
-    "neither_topk": 1
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "e2d5abc43bdf1e6c",
+   "key": "1af038e8517081c9",
    "label": "澳大利亚国防部长Marles：OpenAI智能体入侵是一起“严重事件”。 Ope",
    "cached": false,
    "sections": {
-    "事件概述": "「澳大利亚国防部长Marles：OpenAI智能体入侵是一起“严重事件”。 Ope」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.603（爆点），所属板块类目：AI与大模型。",
+    "事件概述": "「澳大利亚国防部长Marles：OpenAI智能体入侵是一起“严重事件”。 Ope」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.61（爆点），所属板块类目：AI与大模型。",
     "关键信息": "澳大利亚国防部长Marles：OpenAI智能体入侵是一起“严重事件”。 Ope；OpenAI智能体入侵澳大利亚公共医疗服务网站；澳大利亚总理称：OpenAI的AI智能体入侵澳政府系统",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -244,21 +244,21 @@
     },
     {
      "n": 5,
-     "title": "澳大利亚总理称OpenAI智能体侵入政府网站 三个月后才被告知",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswrri8180229.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
      "title": "澳大利亚称OpenAI智能体入侵其政府健康数据网站",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswrri8162220.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
+     "rrf": 0.03077,
+     "bm25_rank": 5,
      "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "澳大利亚总理称OpenAI智能体侵入政府网站 三个月后才被告知",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswrri8180229.shtml",
+     "rrf": 0.0303,
+     "bm25_rank": 6,
+     "vec_rank": 6
     },
     {
      "n": 7,
@@ -271,12 +271,12 @@
     },
     {
      "n": 8,
-     "title": "以色列总理称打死哈马斯财务部门负责人",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3169537",
-     "rrf": 0.02614,
-     "bm25_rank": 16,
-     "vec_rank": 17
+     "title": "加拿大总理卡尼据报曾考虑过美国入侵这一“极端尾部风险”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-iniswvxi5049244.shtml",
+     "rrf": 0.02556,
+     "bm25_rank": 23,
+     "vec_rank": 14
     }
    ],
    "degraded": 1,
@@ -290,11 +290,11 @@
    "elapsed": 0.0
   },
   {
-   "key": "1d192c63c5053a4f",
+   "key": "dabc102c27597b9e",
    "label": "甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗力通知。",
    "cached": false,
    "sections": {
-    "事件概述": "「甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗力通知。」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.603（爆点），所属板块类目：AI与大模型。",
+    "事件概述": "「甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗力通知。」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.61（爆点），所属板块类目：AI与大模型。",
     "关键信息": "甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗力通知。；甲骨文就数据中心项目发出“不可抗力”通知，股价大跌5%；甲骨文就新墨西哥州数据中心发出不可抗力通知",
     "市场影响": "关联板块代码：BK0922。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -332,8 +332,8 @@
      "title": "甲骨文美股盘前跌超4%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609243883873293.html",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
+     "rrf": 0.03102,
+     "bm25_rank": 6,
      "vec_rank": 3
     },
     {
@@ -350,8 +350,8 @@
      "title": "科技巨头，引爆“大雷”！",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/s/2026-09-24/doc-inisxxkt8187017.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
+     "rrf": 0.03009,
+     "bm25_rank": 5,
      "vec_rank": 8
     },
     {
@@ -384,96 +384,96 @@
    "elapsed": 0.0
   },
   {
-   "key": "23664449214d35c9",
-   "label": "恒指低开0.74%，报24649.45点；恒生科技指数跌0.78%。天数智芯跌超",
+   "key": "e8fa45c49c6001d7",
+   "label": "特朗普：今年到访北京感受到中国人民的热情好客，我们希望以同样的热情款待各位",
    "cached": false,
    "sections": {
-    "事件概述": "「恒指低开0.74%，报24649.45点；恒生科技指数跌0.78%。天数智芯跌超」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.585（爆点），所属板块类目：金融市场。",
-    "关键信息": "恒指低开0.74%，报24649.45点；恒生科技指数跌0.78%。天数智芯跌超；恒指低开0.96%，报24523.50点；恒生科技指数跌0.99%。阿里巴巴、网；港股开盘：恒生指数跌0.74% 恒生科技指数跌0.78%",
+    "事件概述": "「特朗普：今年到访北京感受到中国人民的热情好客，我们希望以同样的热情款待各位」由 8 篇报道聚合而成，覆盖 2 家媒体，热度 0.571（爆点），所属板块类目：综合。",
+    "关键信息": "特朗普：今年到访北京感受到中国人民的热情好客，我们希望以同样的热情款待各位；视频丨特朗普夫妇亲自迎接习近平主席到访；视频 | 拾光纪·欢迎仪式现场，特朗普夫妇热情迎接习近平主席",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "恒指低开0.74%，报24649.45点；恒生科技指数跌0.78%。天数智芯跌超",
+     "title": "特朗普：今年到访北京感受到中国人民的热情好客，我们希望以同样的热情款待各位",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3169961",
+     "url": "https://wallstreetcn.com/livenews/3170670",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "恒指低开0.96%，报24523.50点；恒生科技指数跌0.99%。阿里巴巴、网",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170668",
-     "rrf": 0.03226,
+     "title": "视频丨特朗普夫妇亲自迎接习近平主席到访",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/2026-09-24/doc-iniswrri8257822.shtml",
+     "rrf": 0.032,
      "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "港股开盘：恒生指数跌0.74% 恒生科技指数跌0.78%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609243883296615.html",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
      "vec_rank": 3
     },
     {
-     "n": 4,
-     "title": "港股三大指数开盘下挫，恒生科技指数跌超2%",
+     "n": 3,
+     "title": "视频 | 拾光纪·欢迎仪式现场，特朗普夫妇热情迎接习近平主席",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-09-25/doc-inisyywk9757260.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "港股午评：恒指跌0.76% 科指跌0.97% 科网股低迷 内房股强势",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-23/doc-inisusyf8570604.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
+     "url": "https://finance.sina.com.cn/china/2026-09-24/doc-inisxxkv4964550.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
      "vec_rank": 4
     },
     {
+     "n": 4,
+     "title": "特朗普在白宫欢迎仪式上的讲话",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-25/doc-iniszrtx7692794.shtml",
+     "rrf": 0.02946,
+     "bm25_rank": 15,
+     "vec_rank": 2
+    },
+    {
+     "n": 5,
+     "title": "中美元首夫人参观国立亚洲艺术博物馆",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3170618",
+     "rrf": 0.02371,
+     "bm25_rank": 21,
+     "vec_rank": 28
+    },
+    {
      "n": 6,
-     "title": "港股开盘：恒生指数跌0.96% 恒生科技指数跌0.99%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609253884226497.html",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
-     "vec_rank": 5
+     "title": "今年前8月中国新设经营主体1550.2万户",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-24/10703232.shtml",
+     "rrf": 0.01562,
+     "bm25_rank": 4,
+     "vec_rank": null
     },
     {
      "n": 7,
-     "title": "恒生科技指数日内跌幅扩大至2%。小米、阿里巴巴跌超3%。",
+     "title": "伊朗总统佩泽希齐扬： 我们从未谋求战争，现在也不想要战争。 我深信人类不应互相残",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170669",
-     "rrf": 0.02988,
+     "url": "https://wallstreetcn.com/livenews/3170645",
+     "rrf": 0.01538,
      "bm25_rank": 5,
-     "vec_rank": 9
+     "vec_rank": null
     },
     {
      "n": 8,
-     "title": "快讯：恒指低开0.96% 科指跌0.99% 科网股低迷 保险股走弱",
+     "title": "外交部：中美双方就年内两国元首的互动安排保持着沟通",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-25/doc-inisyywi4619818.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 10,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/china/2026-09-24/doc-inisxhpf0443306.shtml",
+     "rrf": 0.01538,
+     "bm25_rank": null,
+     "vec_rank": 5
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "恒指低开0.74%，报24649.45点；恒生科技指数跌0.78%。天数智芯跌超",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
-    "neither_topk": 0
+    "query": "特朗普：今年到访北京感受到中国人民的热情好客，我们希望以同样的热情款待各位",
+    "bm25_only": 2,
+    "vec_only": 2,
+    "both": 3,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }
