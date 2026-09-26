@@ -1,76 +1,94 @@
 {
  "summary": {
-  "n_queries": 7,
+  "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.436,
-  "avg_rank_diff": 1.34,
-  "avg_missed_by_bm25": 2.0,
-  "avg_missed_by_vector": 1.86,
-  "conclusion": "两路召回集平均重合度仅 44%；即便重合的文档，两路名次平均相差 1.34 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.0 篇最终进入 Top8 的文档；只用向量则漏掉 1.86 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.622,
+  "avg_rank_diff": 1.26,
+  "avg_missed_by_bm25": 1.0,
+  "avg_missed_by_vector": 1.11,
+  "conclusion": "两路召回集平均重合度仅 62%；即便重合的文档，两路名次平均相差 1.26 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.0 篇最终进入 Top8 的文档；只用向量则漏掉 1.11 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%",
-   "jaccard": 0.455,
-   "rank_diff": 0.6,
-   "missed_by_bm25": 2,
+   "query": "日本10年期国债收益率大涨10个基点至3.075% 创199",
+   "jaccard": 0.778,
+   "rank_diff": 0.43,
+   "missed_by_bm25": 0,
    "missed_by_vector": 1,
-   "example_top1": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%"
+   "example_top1": "日本10年期国债收益率大涨10个基点至3.075% 创1996年以来最高"
   },
   {
    "type": "关键词式",
-   "query": "多重 因素 夹击 美债 抛售 加剧",
-   "jaccard": 0.333,
-   "rank_diff": 2.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 1,
-   "example_top1": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%"
+   "query": "日本 年期 国债 收益率 大涨 基点",
+   "jaccard": 0.6,
+   "rank_diff": 0.67,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 2,
+   "example_top1": "日本10年期国债收益率大涨10个基点至3.075% 创1996年以来最高"
   },
   {
    "type": "去数字泛化",
-   "query": "多重因素夹击，美债抛售加剧！年期收益率年来首破，年期站上",
-   "jaccard": 0.231,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "多重因素夹击，美债抛售加剧！5年期收益率2007年来首破5%，10年期站上5.1%"
+   "query": "日本年期国债收益率大涨个基点至 创年以来最高",
+   "jaccard": 0.6,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "日本10年期国债收益率大涨10个基点至3.075% 创1996年以来最高"
   },
   {
    "type": "原标题式",
-   "query": "日元势创逾两周来最大单日涨幅 此前日本财务大臣发表汇率言论",
-   "jaccard": 0.143,
-   "rank_diff": 3.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 4,
-   "example_top1": "日元势创逾两周来最大单日涨幅 此前日本财务大臣发表汇率言论"
+   "query": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软",
+   "jaccard": 0.455,
+   "rank_diff": 1.6,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美"
   },
   {
    "type": "关键词式",
-   "query": "日元 势创 两周 最大 单日 涨幅",
+   "query": "美股 半导体 深夜 拉升 涨超 科技",
    "jaccard": 0.333,
    "rank_diff": 1.75,
    "missed_by_bm25": 3,
    "missed_by_vector": 2,
-   "example_top1": "日元势创逾两周来最大单日涨幅 此前日本财务大臣发表汇率言论"
+   "example_top1": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "美股半导体股深夜拉升，ARM涨超，科技巨头走势分化，微软大涨",
+   "jaccard": 0.455,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美"
   },
   {
    "type": "原标题式",
-   "query": "澳大利亚国防部长Marles：OpenAI智能体入侵是一起“",
-   "jaccard": 0.778,
-   "rank_diff": 0.86,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "澳大利亚国防部长Marles：OpenAI智能体入侵是一起“严重事件”。 Ope"
+   "query": "甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗",
+   "jaccard": 1.0,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 0,
+   "example_top1": "甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗力通知。"
   },
   {
    "type": "关键词式",
-   "query": "澳大利亚 国防部长 智能 入侵 一起 严重",
-   "jaccard": 0.778,
-   "rank_diff": 1.14,
+   "query": "甲骨文 盘前 股价 下跌 新墨西哥 数据中心",
+   "jaccard": 0.6,
+   "rank_diff": 1.83,
    "missed_by_bm25": 1,
    "missed_by_vector": 1,
-   "example_top1": "澳大利亚国防部长Marles：OpenAI智能体入侵是一起“严重事件”。 Ope"
+   "example_top1": "甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗力通知。"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "甲骨文盘前股价下跌，公司就新墨西哥数据中心发出不可抗力通知。",
+   "jaccard": 0.778,
+   "rank_diff": 1.57,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 0,
+   "example_top1": "甲骨文盘前股价下跌2.8%，公司就新墨西哥数据中心发出不可抗力通知。"
   }
  ]
 }
