@@ -1,19 +1,19 @@
 {
  "engine": "template(降级)",
- "n_clusters": 42,
+ "n_clusters": 33,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.9,
+ "elapsed": 5.9,
  "reports": [
   {
-   "key": "cdc8f8ccbcd6146a",
+   "key": "933b3e5149d007cc",
    "label": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美伊被",
    "cached": false,
    "sections": {
-    "事件概述": "「美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美伊被」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.863（爆点），所属板块类目：国际市场。",
-    "关键信息": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌；微软领涨美股科技“七巨头” 市值一夜暴增9000亿元；美股芯片股、光通信盘前拉升，ARM涨近4%，老牌科技股飙涨23%，加密货币集体大",
+    "事件概述": "「美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美伊被」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.74（爆点），所属板块类目：国际市场。",
+    "关键信息": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌；微软领涨美股科技“七巨头” 市值一夜暴增9000亿元；利好突袭！1天暴涨9000亿元！25万亿巨头股价飙涨",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -32,81 +32,81 @@
      "title": "微软领涨美股科技“七巨头” 市值一夜暴增9000亿元",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609263884370290.html",
-     "rrf": 0.032,
+     "rrf": 0.03226,
      "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "美股芯片股、光通信盘前拉升，ARM涨近4%，老牌科技股飙涨23%，加密货币集体大涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/2026-09-25/doc-iniszvzt4264404.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
      "vec_rank": 2
     },
     {
-     "n": 4,
+     "n": 3,
      "title": "利好突袭！1天暴涨9000亿元！25万亿巨头股价飙涨",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609263884406851.html",
-     "rrf": 0.03126,
+     "rrf": 0.0315,
      "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "美股芯片股，集体上涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-25/doc-initahru9225733.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 5,
-     "vec_rank": 7
-    },
-    {
-     "n": 6,
-     "title": "美股科技巨头，历史新高，市值逼近5万亿美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-26/doc-initccvi3964796.shtml",
-     "rrf": 0.02951,
-     "bm25_rank": 12,
      "vec_rank": 4
     },
     {
-     "n": 7,
-     "title": "利好来了！刚刚，全线拉升！美国、伊朗，传出大消息",
+     "n": 4,
+     "title": "美股芯片股，集体上涨",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/2026-09-25/doc-iniszrtv4380032.shtml",
-     "rrf": 0.02944,
-     "bm25_rank": 6,
-     "vec_rank": 10
+     "url": "https://finance.sina.com.cn/wm/2026-09-25/doc-initahru9225733.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "美股科技巨头，历史新高，市值逼近5万亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-26/doc-initccvi3964796.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 9,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "美股高开高走三大指数集体收涨 苹果再创历史收盘新高",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609263884351663.html",
+     "rrf": 0.03009,
+     "bm25_rank": 5,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "苹果，逼近5万亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-26/doc-initefie0862597.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "利空突袭！AI巨头，突遭疯狂套现！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-25/doc-iniszmmx4447302.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 10,
-     "vec_rank": 8
+     "title": "美股走高 道指涨逾1%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609263884353533.html",
+     "rrf": 0.02927,
+     "bm25_rank": 12,
+     "vec_rank": 5
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌",
-    "bm25_only": 1,
+    "bm25_only": 0,
     "vec_only": 2,
-    "both": 5,
+    "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "8081c5ff2265de19",
+   "key": "174aa6df8309e201",
    "label": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局",
    "cached": false,
    "sections": {
-    "事件概述": "「伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.7（爆点），所属板块类目：综合。",
+    "事件概述": "「伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.733（爆点），所属板块类目：综合。",
     "关键信息": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局；伊朗外交部长：伊朗方面可以接受这份七天计划，霍尔木兹海峡最终将恢复通航。；伊朗外长: 霍尔木兹海峡开放取决于伊方条件是否满足",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -141,33 +141,24 @@
     },
     {
      "n": 4,
-     "title": "伊朗外长与沙特外交大臣会晤 讨论霍尔木兹海峡等议题",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170959",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "通航换解封 美伊被曝探讨阶段性协议",
+     "title": "特朗普过去24小时都忙了什么？（2026-09-27）",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-25/doc-iniszvzt4256956.shtml",
-     "rrf": 0.03033,
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-27/doc-inithkfx9402050.shtml",
+     "rrf": 0.03078,
      "bm25_rank": 4,
-     "vec_rank": 8
-    },
-    {
-     "n": 6,
-     "title": "伊朗外交部长：若美方接受伊朗的传达7天计划 霍尔木兹海峡将会开放",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609263884353743.html",
-     "rrf": 0.02964,
-     "bm25_rank": 9,
      "vec_rank": 6
     },
     {
-     "n": 7,
+     "n": 5,
+     "title": "伊朗外长与沙特外交大臣会晤 讨论霍尔木兹海峡等议题",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3170959",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
      "title": "美官员称美伊正就重新开放霍尔木兹海峡进行讨论",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609263884354935.html",
@@ -176,12 +167,21 @@
      "vec_rank": 9
     },
     {
+     "n": 7,
+     "title": "伊朗外交部长：若美方接受伊朗的传达7天计划 霍尔木兹海峡将会开放",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609263884353743.html",
+     "rrf": 0.02942,
+     "bm25_rank": 9,
+     "vec_rank": 7
+    },
+    {
      "n": 8,
      "title": "美军：过去两天在霍尔木兹海峡迫使7艘商船改航",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initanxp7472033.shtml",
-     "rrf": 0.02914,
-     "bm25_rank": 14,
+     "rrf": 0.02896,
+     "bm25_rank": 15,
      "vec_rank": 4
     }
    ],
@@ -196,283 +196,283 @@
    "elapsed": 0.0
   },
   {
-   "key": "54407961a07457ec",
-   "label": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%",
+   "key": "4c51200ad9b3c25d",
+   "label": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点",
    "cached": false,
    "sections": {
-    "事件概述": "「9月26日热门中概股多数下跌，阿里巴巴跌0.8%」由 3 篇报道聚合而成，覆盖 3 家媒体，热度 0.596（爆点），所属板块类目：国际市场。",
-    "关键信息": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%；中概指数收跌超0.6%，世纪互联跌4%；9月26日隔夜要闻：美股三大指数收涨 原油下跌 金价微升 美官员称美伊正就重新开",
+    "事件概述": "「返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.729（爆点），所属板块类目：交运物流。",
+    "关键信息": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点；全国铁路迎中秋返程客流高峰 9月27日预计发送旅客1686万人次；长三角铁路迎来返程高峰，预计今日发送旅客332万人次",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%",
+     "title": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-26/doc-initaxpn8935658.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initfanp9959555.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "中概指数收跌超0.6%，世纪互联跌4%",
+     "title": "全国铁路迎中秋返程客流高峰 9月27日预计发送旅客1686万人次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/estate/integration/2026-09-27/doc-inithkfx9402515.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "长三角铁路迎来返程高峰，预计今日发送旅客332万人次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initfpaq0389411.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "铁路、民航、公路齐发力 各地全力保障中秋返程出行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-inithqqc4472139.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "长三角铁路26日计划增开列车106列 预计发送旅客290万人次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-26/doc-initccvc3688060.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 9,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "中秋节中国铁路预计发送旅客2234万人次",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-25/10703820.shtml",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "9月26日全国铁路预计发送旅客1300万人次",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170898",
+     "url": "https://wallstreetcn.com/livenews/3170965",
+     "rrf": 0.02908,
+     "bm25_rank": 5,
+     "vec_rank": 13
+    },
+    {
+     "n": 8,
+     "title": "今晚1、2、10、17号线加开定点加班车",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-inithkha3378739.shtml",
+     "rrf": 0.02775,
+     "bm25_rank": 7,
+     "vec_rank": 18
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "ce2dae0446c45125",
+   "label": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”",
+   "cached": false,
+   "sections": {
+    "事件概述": "「AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.717（高热），所属板块类目：综合。",
+    "关键信息": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”；中秋遇上数贸会 科技风潮点亮假日新生活；遇见AI未来链接全球商机 第五届数贸会在杭州闭幕",
+    "市场影响": "关联板块代码：BK1408、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609263884413676.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "中秋遇上数贸会 科技风潮点亮假日新生活",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-25/10703850.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "遇见AI未来链接全球商机 第五届数贸会在杭州闭幕",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-27/10704460.shtml",
+     "rrf": 0.03041,
+     "bm25_rank": 10,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "数博会侧记：机器人“跨界”，从“被观看”到“被需要”",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-25/10703904.shtml",
+     "rrf": 0.02901,
+     "bm25_rank": 7,
+     "vec_rank": 11
+    },
+    {
+     "n": 5,
+     "title": "启元机器人开放机器人生态底座",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609263884402215.html",
+     "rrf": 0.02792,
+     "bm25_rank": 3,
+     "vec_rank": 23
+    },
+    {
+     "n": 6,
+     "title": "OpenAI在博客文章中详述9月20日发现的沙箱“漏洞”，AI Agent获得互",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3170956",
+     "rrf": 0.0275,
+     "bm25_rank": 21,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "特斯拉Optimus机器人量产遇阻：手部结构、供应链问题凸显，扩产进程启动",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-initaaiw9343490.shtml",
+     "rrf": 0.02707,
+     "bm25_rank": 11,
+     "vec_rank": 17
+    },
+    {
+     "n": 8,
+     "title": "逛展数贸会：硬科技圈粉全球 耐心资本长期陪跑",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-26/10704102.shtml",
+     "rrf": 0.02655,
+     "bm25_rank": 12,
+     "vec_rank": 19
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”",
+    "bm25_only": 2,
+    "vec_only": 2,
+    "both": 2,
+    "neither_topk": 2
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "9ae21d457e98476d",
+   "label": "特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得",
+   "cached": false,
+   "sections": {
+    "事件概述": "「特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得」由 5 篇报道聚合而成，覆盖 2 家媒体，热度 0.697（高热），所属板块类目：综合。",
+    "关键信息": "特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得；美媒：特朗普拒绝伊朗七日内重开霍尔木兹海峡提议；特朗普过去24小时都忙了什么？（2026-09-27）",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initerww3927998.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "美媒：特朗普拒绝伊朗七日内重开霍尔木兹海峡提议",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3170943",
      "rrf": 0.032,
      "bm25_rank": 3,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "9月26日隔夜要闻：美股三大指数收涨 原油下跌 金价微升 美官员称美伊正就重新开放霍尔木兹海峡进行讨论",
+     "title": "特朗普过去24小时都忙了什么？（2026-09-27）",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-26/doc-initaxpm4073998.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-27/doc-inithkfx9402050.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "港股收盘：恒生指数跌1.01%，恒生科技指数跌1.13%。网易跌超3%，小米集团",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170715",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
+     "title": "美官员：就重开霍尔木兹海峡协议开展谈判 但美方不急于达成协议",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initanxs9139055.shtml",
+     "rrf": 0.02988,
+     "bm25_rank": 9,
      "vec_rank": 5
     },
     {
      "n": 5,
-     "title": "美元兑日元日内一度下跌0.8%至157.67。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170730",
-     "rrf": 0.0284,
-     "bm25_rank": 8,
+     "title": "和平曙光乍现又生阴云 特朗普拒绝“七天协议” 伊朗总统再谈信任问题",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609273884417590.html",
+     "rrf": 0.02929,
+     "bm25_rank": 2,
+     "vec_rank": 16
+    },
+    {
+     "n": 6,
+     "title": "特朗普拒绝伊朗“七天停火提议” 预计中期选举后重启轰炸行动",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-09-26/doc-initccvi3989604.shtml",
+     "rrf": 0.02885,
+     "bm25_rank": 6,
      "vec_rank": 13
     },
     {
-     "n": 6,
-     "title": "港股午评：恒指跌1.69% 科指跌2.14% 科网股普跌 内房股下挫",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-25/doc-iniszfec7822839.shtml",
-     "rrf": 0.0275,
-     "bm25_rank": 26,
-     "vec_rank": 3
-    },
-    {
      "n": 7,
-     "title": "巴斯夫股价下跌1.7%，EVONIK股价一度上涨4.8%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170750",
-     "rrf": 0.02694,
-     "bm25_rank": 10,
-     "vec_rank": 19
-    },
-    {
-     "n": 8,
-     "title": "喊了2个月的“科技反弹”，结果竟是这样 | 一图看懂",
+     "title": "伊朗外长: 霍尔木兹海峡开放取决于伊方条件是否满足",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-26/doc-initcqkz7109188.shtml",
-     "rrf": 0.02581,
-     "bm25_rank": 17,
-     "vec_rank": 18
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 4,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "6aa3b98b9b8e4615",
-   "label": "日本财务大臣片山皋月：日本首相高市早苗“并非再通胀主义者”。 高市早苗非常尊重日",
-   "cached": false,
-   "sections": {
-    "事件概述": "「日本财务大臣片山皋月：日本首相高市早苗“并非再通胀主义者”。 高市早苗非常尊重日」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.592（爆点），所属板块类目：综合。",
-    "关键信息": "日本财务大臣片山皋月：日本首相高市早苗“并非再通胀主义者”。 高市早苗非常尊重日；日本财务大臣：特朗普向高市早苗表达对日元的担忧；特朗普与高市早苗讨论日元疲软问题",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "日本财务大臣片山皋月：日本首相高市早苗“并非再通胀主义者”。 高市早苗非常尊重日",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170738",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "日本财务大臣：特朗普向高市早苗表达对日元的担忧",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-25/doc-inisyywk9780797.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "特朗普与高市早苗讨论日元疲软问题",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtv4341763.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "特朗普向高市早苗就日元疲软表达了关切",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszfef4589000.shtml",
-     "rrf": 0.03033,
-     "bm25_rank": 4,
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initfanp9970318.shtml",
+     "rrf": 0.02879,
+     "bm25_rank": 11,
      "vec_rank": 8
     },
     {
-     "n": 5,
-     "title": "日本首相高市早苗：告知特朗普日元被低估是个问题。 没有和特朗普讨论货币政策或财政",
+     "n": 8,
+     "title": "报道：特朗普拒绝伊朗7天停火提议",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170729",
-     "rrf": 0.03031,
+     "url": "https://wallstreetcn.com/livenews/3170943",
+     "rrf": 0.02837,
      "bm25_rank": 5,
-     "vec_rank": 7
-    },
-    {
-     "n": 6,
-     "title": "贝森特：与日本财务大臣讨论了对强势日元的期许",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-initahru9239872.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "受片山皋月言论提振 日元涨幅扩大至逾1%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-initaair4192593.shtml",
-     "rrf": 0.02991,
-     "bm25_rank": 10,
-     "vec_rank": 4
-    },
-    {
-     "n": 8,
-     "title": "盛宝银行：片山皋月口头喊话难以改变日元基本面",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-25/doc-inisyywi4667143.shtml",
-     "rrf": 0.02927,
-     "bm25_rank": 12,
-     "vec_rank": 5
+     "vec_rank": 17
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "日本财务大臣片山皋月：日本首相高市早苗“并非再通胀主义者”。 高市早苗非常尊重日",
-    "bm25_only": 0,
+    "query": "特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得",
+    "bm25_only": 3,
     "vec_only": 2,
-    "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "d163678b81c78f5e",
-   "label": "港股收盘：恒生指数跌1.01%，恒生科技指数跌1.13%。网易跌超3%，小米集团",
-   "cached": false,
-   "sections": {
-    "事件概述": "「港股收盘：恒生指数跌1.01%，恒生科技指数跌1.13%。网易跌超3%，小米集团」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.592（高热），所属板块类目：金融市场。",
-    "关键信息": "港股收盘：恒生指数跌1.01%，恒生科技指数跌1.13%。网易跌超3%，小米集团；港股午评：恒指跌1.69% 科指跌2.14% 科网股普跌 内房股下挫；创新药三倍牛股，大涨8%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "港股收盘：恒生指数跌1.01%，恒生科技指数跌1.13%。网易跌超3%，小米集团",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170715",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "港股午评：恒指跌1.69% 科指跌2.14% 科网股普跌 内房股下挫",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-25/doc-iniszfec7822839.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "创新药三倍牛股，大涨8%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-25/doc-iniszrtx7739562.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "港股主要指数探底回升，恒指、科指跌幅均收窄至1.5%以内",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-09-25/doc-iniszmnc4550254.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "刚刚，集体调整！港股科技、内房股走低",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-25/doc-iniszmmz7753769.shtml",
-     "rrf": 0.02947,
-     "bm25_rank": 11,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "纳斯达克中国金龙指数收跌0.64%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609263884351586.html",
-     "rrf": 0.02944,
-     "bm25_rank": 10,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "甲骨文数据中心风波叠加瑞银下调评级，港股电力设备股走弱",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-09-25/doc-inisyywf7886167.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 6,
-     "vec_rank": 11
-    },
-    {
-     "n": 8,
-     "title": "港股全周冲高回落 机构料今年IPO融资额至少4800亿港元",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-25/10703845.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 7,
-     "vec_rank": 10
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "港股收盘：恒生指数跌1.01%，恒生科技指数跌1.13%。网易跌超3%，小米集团",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
+    "both": 3,
     "neither_topk": 0
    },
    "elapsed": 0.0

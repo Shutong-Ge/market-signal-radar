@@ -1,11 +1,11 @@
 {
- "n_articles": 1341,
+ "n_articles": 1267,
  "mode": "vector",
- "edges": 352,
- "n_components": 1191,
- "n_clusters": 42,
+ "edges": 340,
+ "n_components": 1133,
+ "n_clusters": 33,
  "n_noise_filtered": 0,
- "n_single_media_filtered": 54,
+ "n_single_media_filtered": 44,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,242 +13,254 @@
   "media"
  ],
  "calibration": {
-  "max_size": 12.0,
-  "max_first": 5.0,
+  "max_size": 10.0,
+  "max_first": 4.0,
   "window_days": 3,
   "n_media_total": 4
  },
  "elapsed": 0.1,
  "level_dist": {
-  "爆点": 4,
-  "高热": 8,
-  "升温中": 13,
-  "一般": 17
+  "爆点": 3,
+  "高热": 6,
+  "升温中": 10,
+  "一般": 14
  },
  "top": [
   {
    "label": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美伊被",
-   "heat": 0.863,
+   "heat": 0.74,
    "level": "爆点",
-   "n": 12,
+   "n": 9,
    "media": 3,
    "cat": "国际市场",
    "sectors": [],
    "factors": {
-    "coverage": 1.0,
-    "burst": 1.0,
-    "duration": 0.667,
+    "coverage": 0.96,
+    "burst": 0.861,
+    "duration": 0.333,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    55778,
-    56016,
-    56035,
-    56043,
-    56050,
-    56110,
-    56115,
-    56117,
-    56135,
-    56150,
-    56260,
-    56675
+    56931,
+    56940,
+    56947,
+    57009,
+    57014,
+    57016,
+    57034,
+    57161,
+    57584
    ]
   },
   {
    "label": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局",
-   "heat": 0.7,
+   "heat": 0.733,
    "level": "爆点",
    "n": 4,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.627,
-    "burst": 0.774,
+    "coverage": 0.671,
+    "burst": 0.861,
     "duration": 0.667,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    56127,
-    56128,
-    56146,
-    56778
+    57026,
+    57027,
+    57045,
+    57689
    ]
   },
   {
-   "label": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%",
-   "heat": 0.596,
+   "label": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点",
+   "heat": 0.729,
    "level": "爆点",
-   "n": 3,
+   "n": 10,
    "media": 3,
-   "cat": "国际市场",
+   "cat": "交运物流",
    "sectors": [],
    "factors": {
-    "coverage": 0.54,
-    "burst": 0.774,
-    "duration": 0.333,
+    "coverage": 1.0,
+    "burst": 0.431,
+    "duration": 0.667,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    56116,
-    56118,
-    56197
+    56925,
+    57196,
+    57233,
+    57319,
+    57427,
+    57445,
+    57684,
+    57833,
+    58003,
+    58181
    ]
   },
   {
-   "label": "日本财务大臣片山皋月：日本首相高市早苗“并非再通胀主义者”。 高市早苗非常尊重日",
-   "heat": 0.592,
-   "level": "爆点",
-   "n": 4,
+   "label": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”",
+   "heat": 0.717,
+   "level": "高热",
+   "n": 9,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [
+    "BK1408",
+    "BK0800"
+   ],
+   "factors": {
+    "coverage": 0.96,
+    "burst": 0.431,
+    "duration": 0.667,
+    "media": 0.75,
+    "social": null
+   },
+   "article_ids": [
+    56944,
+    57072,
+    57310,
+    57313,
+    57489,
+    57681,
+    57920,
+    57942,
+    57949
+   ]
+  },
+  {
+   "label": "特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得",
+   "heat": 0.697,
+   "level": "高热",
+   "n": 5,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.627,
-    "burst": 0.898,
-    "duration": 0.333,
+    "coverage": 0.747,
+    "burst": 0.861,
+    "duration": 0.667,
     "media": 0.5,
     "social": null
    },
    "article_ids": [
-    55597,
-    55628,
-    55694,
-    55761
-   ]
-  },
-  {
-   "label": "港股收盘：恒生指数跌1.01%，恒生科技指数跌1.13%。网易跌超3%，小米集团",
-   "heat": 0.592,
-   "level": "高热",
-   "n": 4,
-   "media": 2,
-   "cat": "金融市场",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.627,
-    "burst": 0.898,
-    "duration": 0.333,
-    "media": 0.5,
-    "social": null
-   },
-   "article_ids": [
-    55631,
-    55670,
-    55700,
-    55710
-   ]
-  },
-  {
-   "label": "美国8月扣除运输类耐用品订单环比初值 0.3%，预期 0.6%，前值 0.4%。",
-   "heat": 0.592,
-   "level": "高热",
-   "n": 4,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.627,
-    "burst": 0.898,
-    "duration": 0.333,
-    "media": 0.5,
-    "social": null
-   },
-   "article_ids": [
-    56009,
-    56012,
-    56013,
-    56017
+    57216,
+    57217,
+    57221,
+    57656,
+    58012
    ]
   },
   {
    "label": "Solidigm冲刺美股史上最大半导体IPO！英特尔曾以90亿美元卖掉，如今估值或达1500亿美",
-   "heat": 0.592,
+   "heat": 0.629,
    "level": "高热",
    "n": 4,
    "media": 2,
    "cat": "半导体",
    "sectors": [],
    "factors": {
-    "coverage": 0.627,
-    "burst": 0.898,
+    "coverage": 0.671,
+    "burst": 1.0,
     "duration": 0.333,
     "media": 0.5,
     "social": null
    },
    "article_ids": [
-    56105,
-    56106,
-    56334,
-    56386
+    57004,
+    57005,
+    57237,
+    57289
    ]
   },
   {
-   "label": "交通运输部：9月24日全社会跨区域人员流动量22850.9万人次",
-   "heat": 0.578,
-   "level": "高热",
-   "n": 3,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.54,
-    "burst": 0.613,
-    "duration": 0.667,
-    "media": 0.5,
-    "social": null
-   },
-   "article_ids": [
-    55702,
-    55817,
-    56515
-   ]
-  },
-  {
-   "label": "特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得",
-   "heat": 0.563,
+   "label": "特朗普：已批准旨在终结电动车强制令的新燃油经济性标准",
+   "heat": 0.629,
    "level": "高热",
    "n": 4,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.627,
-    "burst": 0.774,
+    "coverage": 0.671,
+    "burst": 1.0,
     "duration": 0.333,
     "media": 0.5,
     "social": null
    },
    "article_ids": [
-    56314,
-    56315,
-    56319,
-    56745
+    57672,
+    57674,
+    57696,
+    58067
    ]
   },
   {
-   "label": "中国地震台网自动测定：09月26日05时01分在四川宜宾市高县附近（北纬28.5",
-   "heat": 0.558,
+   "label": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%",
+   "heat": 0.628,
    "level": "高热",
    "n": 3,
    "media": 3,
-   "cat": "综合",
+   "cat": "国际市场",
    "sectors": [],
    "factors": {
-    "coverage": 0.54,
-    "burst": 0.613,
+    "coverage": 0.578,
+    "burst": 0.861,
     "duration": 0.333,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    56144,
-    56155,
-    56755
+    57015,
+    57017,
+    57098
+   ]
+  },
+  {
+   "label": "自然资源部与中国气象局联合发布橙色地质灾害气象风险预警",
+   "heat": 0.605,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.578,
+    "burst": 0.683,
+    "duration": 0.667,
+    "media": 0.5,
+    "social": null
+   },
+   "article_ids": [
+    57437,
+    57512,
+    58129
+   ]
+  },
+  {
+   "label": "中国地震台网自动测定：09月26日05时01分在四川宜宾市高县附近（北纬28.5",
+   "heat": 0.586,
+   "level": "升温中",
+   "n": 3,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.578,
+    "burst": 0.683,
+    "duration": 0.333,
+    "media": 0.75,
+    "social": null
+   },
+   "article_ids": [
+    57043,
+    57054,
+    57666
    ]
   }
  ]

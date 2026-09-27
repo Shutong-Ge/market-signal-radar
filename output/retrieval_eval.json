@@ -2,20 +2,20 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.417,
-  "avg_rank_diff": 1.25,
-  "avg_missed_by_bm25": 2.22,
-  "avg_missed_by_vector": 1.89,
-  "conclusion": "两路召回集平均重合度仅 42%；即便重合的文档，两路名次平均相差 1.25 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.22 篇最终进入 Top8 的文档；只用向量则漏掉 1.89 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.512,
+  "avg_rank_diff": 0.72,
+  "avg_missed_by_bm25": 1.22,
+  "avg_missed_by_vector": 1.67,
+  "conclusion": "两路召回集平均重合度仅 51%；即便重合的文档，两路名次平均相差 0.72 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.22 篇最终进入 Top8 的文档；只用向量则漏掉 1.67 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
    "query": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软",
-   "jaccard": 0.455,
-   "rank_diff": 1.8,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
+   "jaccard": 0.778,
+   "rank_diff": 1.71,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 1,
    "example_top1": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美"
   },
   {
@@ -24,15 +24,15 @@
    "jaccard": 0.333,
    "rank_diff": 1.25,
    "missed_by_bm25": 2,
-   "missed_by_vector": 2,
+   "missed_by_vector": 3,
    "example_top1": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美"
   },
   {
    "type": "去数字泛化",
    "query": "美股半导体股深夜拉升，ARM涨超，科技巨头走势分化，微软大涨",
-   "jaccard": 0.455,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 2,
+   "jaccard": 0.6,
+   "rank_diff": 0.83,
+   "missed_by_bm25": 1,
    "missed_by_vector": 1,
    "example_top1": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美"
   },
@@ -40,55 +40,55 @@
    "type": "原标题式",
    "query": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木",
    "jaccard": 0.455,
-   "rank_diff": 0.8,
+   "rank_diff": 0.2,
    "missed_by_bm25": 2,
-   "missed_by_vector": 2,
+   "missed_by_vector": 1,
    "example_top1": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局"
   },
   {
    "type": "关键词式",
    "query": "伊朗 外长 之前 霍尔木兹海峡 一直 保持",
-   "jaccard": 0.455,
-   "rank_diff": 1.0,
+   "jaccard": 0.6,
+   "rank_diff": 0.83,
    "missed_by_bm25": 2,
-   "missed_by_vector": 1,
+   "missed_by_vector": 0,
    "example_top1": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局"
   },
   {
    "type": "去数字泛化",
    "query": "伊朗外长：月日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡",
    "jaccard": 0.6,
-   "rank_diff": 0.67,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 0,
+   "rank_diff": 0.83,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
    "example_top1": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局"
   },
   {
    "type": "原标题式",
-   "query": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%",
-   "jaccard": 0.333,
-   "rank_diff": 1.25,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
-   "example_top1": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%"
+   "query": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长",
+   "jaccard": 0.455,
+   "rank_diff": 0.2,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点"
   },
   {
    "type": "关键词式",
-   "query": "热门 中概 多数 下跌 阿里巴巴",
-   "jaccard": 0.333,
-   "rank_diff": 1.75,
-   "missed_by_bm25": 3,
+   "query": "返程 高峰 预计 万人次 坐火车 抵京",
+   "jaccard": 0.455,
+   "rank_diff": 0.6,
+   "missed_by_bm25": 1,
    "missed_by_vector": 3,
-   "example_top1": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%"
+   "example_top1": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点"
   },
   {
    "type": "去数字泛化",
-   "query": "月日热门中概股多数下跌，阿里巴巴跌",
+   "query": "返程高峰日预计有万人次坐火车抵京 多条地铁日延长运营至凌晨点",
    "jaccard": 0.333,
-   "rank_diff": 1.75,
-   "missed_by_bm25": 3,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 1,
    "missed_by_vector": 3,
-   "example_top1": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%"
+   "example_top1": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点"
   }
  ]
 }
