@@ -1,26 +1,17 @@
 {
  "summary": {
-  "n_queries": 8,
+  "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.556,
-  "avg_rank_diff": 1.6,
-  "avg_missed_by_bm25": 1.38,
-  "avg_missed_by_vector": 1.25,
-  "conclusion": "两路召回集平均重合度仅 56%；即便重合的文档，两路名次平均相差 1.6 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.38 篇最终进入 Top8 的文档；只用向量则漏掉 1.25 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.417,
+  "avg_rank_diff": 1.25,
+  "avg_missed_by_bm25": 2.22,
+  "avg_missed_by_vector": 1.89,
+  "conclusion": "两路召回集平均重合度仅 42%；即便重合的文档，两路名次平均相差 1.25 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.22 篇最终进入 Top8 的文档；只用向量则漏掉 1.89 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
    "query": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软",
-   "jaccard": 0.6,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美"
-  },
-  {
-   "type": "关键词式",
-   "query": "美股 半导体 深夜 拉升 涨超 科技",
    "jaccard": 0.455,
    "rank_diff": 1.8,
    "missed_by_bm25": 1,
@@ -28,58 +19,76 @@
    "example_top1": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美"
   },
   {
+   "type": "关键词式",
+   "query": "美股 半导体 深夜 拉升 涨超 科技",
+   "jaccard": 0.333,
+   "rank_diff": 1.25,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美"
+  },
+  {
    "type": "去数字泛化",
    "query": "美股半导体股深夜拉升，ARM涨超，科技巨头走势分化，微软大涨",
-   "jaccard": 0.6,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 1,
+   "jaccard": 0.455,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
    "missed_by_vector": 1,
    "example_top1": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美"
   },
   {
    "type": "原标题式",
-   "query": "恒指低开0.96%，报24523.50点；恒生科技指数跌0.",
-   "jaccard": 0.778,
-   "rank_diff": 1.57,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 0,
-   "example_top1": "恒指低开0.96%，报24523.50点；恒生科技指数跌0.99%。阿里巴巴、网"
+   "query": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木",
+   "jaccard": 0.455,
+   "rank_diff": 0.8,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局"
   },
   {
    "type": "关键词式",
-   "query": "恒指 低开 恒生 科技 指数 阿里巴巴",
-   "jaccard": 0.778,
-   "rank_diff": 1.14,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 0,
-   "example_top1": "恒指低开0.96%，报24523.50点；恒生科技指数跌0.99%。阿里巴巴、网"
+   "query": "伊朗 外长 之前 霍尔木兹海峡 一直 保持",
+   "jaccard": 0.455,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局"
   },
   {
    "type": "去数字泛化",
-   "query": "恒指低开，报点；恒生科技指数跌。阿里巴巴、网",
-   "jaccard": 0.778,
-   "rank_diff": 1.43,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 1,
-   "example_top1": "恒指低开0.96%，报24523.50点；恒生科技指数跌0.99%。阿里巴巴、网"
+   "query": "伊朗外长：月日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡",
+   "jaccard": 0.6,
+   "rank_diff": 0.67,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 0,
+   "example_top1": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局"
   },
   {
    "type": "原标题式",
-   "query": "道指三连阴，美债收益率再创二十余年新高，油价大涨，美联储官员",
-   "jaccard": 0.231,
-   "rank_diff": 1.67,
+   "query": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%",
+   "jaccard": 0.333,
+   "rank_diff": 1.25,
    "missed_by_bm25": 3,
    "missed_by_vector": 3,
-   "example_top1": "道指三连阴，美债收益率再创二十余年新高，油价大涨，美联储官员接连“放鹰”"
+   "example_top1": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%"
   },
   {
    "type": "关键词式",
-   "query": "指三连 美债 收益率 再创 二十余年 新高",
-   "jaccard": 0.231,
-   "rank_diff": 2.33,
+   "query": "热门 中概 多数 下跌 阿里巴巴",
+   "jaccard": 0.333,
+   "rank_diff": 1.75,
    "missed_by_bm25": 3,
-   "missed_by_vector": 2,
-   "example_top1": "道指三连阴，美债收益率再创二十余年新高，油价大涨，美联储官员接连“放鹰”"
+   "missed_by_vector": 3,
+   "example_top1": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "月日热门中概股多数下跌，阿里巴巴跌",
+   "jaccard": 0.333,
+   "rank_diff": 1.75,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
+   "example_top1": "9月26日热门中概股多数下跌，阿里巴巴跌0.8%"
   }
  ]
 }
