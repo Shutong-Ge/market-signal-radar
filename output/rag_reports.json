@@ -1,6 +1,6 @@
 {
  "engine": "template(降级)",
- "n_clusters": 33,
+ "n_clusters": 35,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
@@ -8,200 +8,106 @@
  "elapsed": 5.9,
  "reports": [
   {
-   "key": "933b3e5149d007cc",
-   "label": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美伊被",
+   "key": "f6073e256f911e81",
+   "label": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62",
    "cached": false,
    "sections": {
-    "事件概述": "「美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美伊被」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.74（爆点），所属板块类目：国际市场。",
-    "关键信息": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌；微软领涨美股科技“七巨头” 市值一夜暴增9000亿元；利好突袭！1天暴涨9000亿元！25万亿巨头股价飙涨",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：宏观政策。",
+    "关键信息": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增；国家统计局：1—8月份全国规模以上工业企业利润增长15.7%；国家统计局：电子行业对利润增长拉动明显",
+    "市场影响": "关联板块代码：BK0459、BK0464、BK0458。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美伊被曝探讨阶段性协议",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-25/doc-initahrr7517186.shtml",
+     "title": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62.0%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609283884654020.html",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "微软领涨美股科技“七巨头” 市值一夜暴增9000亿元",
+     "title": "国家统计局：1—8月份全国规模以上工业企业利润增长15.7%",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609263884370290.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
+     "url": "https://finance.eastmoney.com/a/202609283884606896.html",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "利好突袭！1天暴涨9000亿元！25万亿巨头股价飙涨",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609263884406851.html",
-     "rrf": 0.0315,
+     "title": "国家统计局：电子行业对利润增长拉动明显",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171155",
+     "rrf": 0.03102,
      "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "美股芯片股，集体上涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-09-25/doc-initahru9225733.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
      "vec_rank": 6
     },
     {
-     "n": 5,
-     "title": "美股科技巨头，历史新高，市值逼近5万亿美元",
+     "n": 4,
+     "title": "国家统计局：1—8月份规模以上原材料制造业利润同比增长47.3%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-26/doc-initccvi3964796.shtml",
-     "rrf": 0.03037,
-     "bm25_rank": 9,
-     "vec_rank": 3
-    },
-    {
-     "n": 6,
-     "title": "美股高开高走三大指数集体收涨 苹果再创历史收盘新高",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609263884351663.html",
-     "rrf": 0.03009,
-     "bm25_rank": 5,
+     "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-28/doc-initiwik2913656.shtml",
+     "rrf": 0.03083,
+     "bm25_rank": 2,
      "vec_rank": 8
     },
     {
-     "n": 7,
-     "title": "苹果，逼近5万亿美元",
+     "n": 5,
+     "title": "国家统计局：1—8月份规模以上工业企业营业收入同比增长6.6%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-26/doc-initefie0862597.shtml",
-     "rrf": 0.02963,
+     "url": "https://finance.sina.com.cn/roll/2026-09-28/doc-initiwif8734549.shtml",
+     "rrf": 0.03058,
      "bm25_rank": 8,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "美股走高 道指涨逾1%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609263884353533.html",
-     "rrf": 0.02927,
-     "bm25_rank": 12,
-     "vec_rank": 5
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌",
-    "bm25_only": 0,
-    "vec_only": 2,
-    "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "174aa6df8309e201",
-   "label": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局",
-   "cached": false,
-   "sections": {
-    "事件概述": "「伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.733（爆点），所属板块类目：综合。",
-    "关键信息": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局；伊朗外交部长：伊朗方面可以接受这份七天计划，霍尔木兹海峡最终将恢复通航。；伊朗外长: 霍尔木兹海峡开放取决于伊方条件是否满足",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170916",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "伊朗外交部长：伊朗方面可以接受这份七天计划，霍尔木兹海峡最终将恢复通航。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170907",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "伊朗外长: 霍尔木兹海峡开放取决于伊方条件是否满足",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initfanp9970318.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
      "vec_rank": 3
     },
     {
-     "n": 4,
-     "title": "特朗普过去24小时都忙了什么？（2026-09-27）",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-27/doc-inithkfx9402050.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "伊朗外长与沙特外交大臣会晤 讨论霍尔木兹海峡等议题",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170959",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
      "n": 6,
-     "title": "美官员称美伊正就重新开放霍尔木兹海峡进行讨论",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609263884354935.html",
-     "rrf": 0.02942,
+     "title": "国家统计局：1—8月份工业企业利润保持较快增长",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initiwip3895358.shtml",
+     "rrf": 0.03055,
      "bm25_rank": 7,
-     "vec_rank": 9
+     "vec_rank": 4
     },
     {
      "n": 7,
-     "title": "伊朗外交部长：若美方接受伊朗的传达7天计划 霍尔木兹海峡将会开放",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609263884353743.html",
-     "rrf": 0.02942,
-     "bm25_rank": 9,
-     "vec_rank": 7
+     "title": "国家统计局：8月份，受去年同期较高基数影响，规模以上工业企业利润增速有所回落，同",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171154",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
     },
     {
      "n": 8,
-     "title": "美军：过去两天在霍尔木兹海峡迫使7艘商船改航",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initanxp7472033.shtml",
-     "rrf": 0.02896,
-     "bm25_rank": 15,
-     "vec_rank": 4
+     "title": "国家统计局：1—8月光纤制造、光缆制造行业利润分别增长5.3倍和1.0倍",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609283884664283.html",
+     "rrf": 0.03031,
+     "bm25_rank": 5,
+     "vec_rank": 7
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局",
-    "bm25_only": 1,
-    "vec_only": 2,
-    "both": 5,
+    "query": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增",
+    "bm25_only": 0,
+    "vec_only": 0,
+    "both": 8,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "4c51200ad9b3c25d",
+   "key": "154c2ee5010c7e5c",
    "label": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点",
    "cached": false,
    "sections": {
-    "事件概述": "「返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.729（爆点），所属板块类目：交运物流。",
-    "关键信息": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点；全国铁路迎中秋返程客流高峰 9月27日预计发送旅客1686万人次；长三角铁路迎来返程高峰，预计今日发送旅客332万人次",
+    "事件概述": "「返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.72（爆点），所属板块类目：交运物流。",
+    "关键信息": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点；中国铁路迎来中秋假期返程客流高峰；全国铁路迎来中秋假期返程客流高峰 9月27日预计发送旅客1686万人次",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -217,85 +123,85 @@
     },
     {
      "n": 2,
-     "title": "全国铁路迎中秋返程客流高峰 9月27日预计发送旅客1686万人次",
+     "title": "中国铁路迎来中秋假期返程客流高峰",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/estate/integration/2026-09-27/doc-inithkfx9402515.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
+     "url": "https://finance.sina.com.cn/roll/2026-09-27/doc-inithkha3398210.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "长三角铁路迎来返程高峰，预计今日发送旅客332万人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initfpaq0389411.shtml",
-     "rrf": 0.0315,
+     "title": "全国铁路迎来中秋假期返程客流高峰 9月27日预计发送旅客1686万人次",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-27/10704445.shtml",
+     "rrf": 0.03175,
      "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "铁路、民航、公路齐发力 各地全力保障中秋返程出行",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-inithqqc4472139.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
      "vec_rank": 3
     },
     {
-     "n": 5,
-     "title": "长三角铁路26日计划增开列车106列 预计发送旅客290万人次",
+     "n": 4,
+     "title": "长三角铁路迎来返程高峰，预计今日发送旅客332万人次",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-26/doc-initccvc3688060.shtml",
-     "rrf": 0.02964,
-     "bm25_rank": 9,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initfpaq0389411.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 2,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "铁路、民航、公路齐发力 各地全力保障中秋返程出行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-inithqqc4472139.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
     },
     {
      "n": 6,
-     "title": "中秋节中国铁路预计发送旅客2234万人次",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-25/10703820.shtml",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
      "title": "9月26日全国铁路预计发送旅客1300万人次",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3170965",
-     "rrf": 0.02908,
-     "bm25_rank": 5,
+     "rrf": 0.02924,
+     "bm25_rank": 6,
+     "vec_rank": 11
+    },
+    {
+     "n": 7,
+     "title": "今晚1、2、10、17号线加开定点加班车",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-inithkha3378739.shtml",
+     "rrf": 0.0284,
+     "bm25_rank": 8,
      "vec_rank": 13
     },
     {
      "n": 8,
-     "title": "今晚1、2、10、17号线加开定点加班车",
+     "title": "中秋假期第二天 全国铁路预计发送旅客1300万人次",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-inithkha3378739.shtml",
-     "rrf": 0.02775,
-     "bm25_rank": 7,
-     "vec_rank": 18
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-26/doc-initcyze4141297.shtml",
+     "rrf": 0.02686,
+     "bm25_rank": 13,
+     "vec_rank": 16
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点",
     "bm25_only": 2,
-    "vec_only": 1,
+    "vec_only": 0,
     "both": 5,
-    "neither_topk": 0
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "ce2dae0446c45125",
+   "key": "3bc78aafeb64d841",
    "label": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”",
    "cached": false,
    "sections": {
-    "事件概述": "「AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.717（高热），所属板块类目：综合。",
-    "关键信息": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”；中秋遇上数贸会 科技风潮点亮假日新生活；遇见AI未来链接全球商机 第五届数贸会在杭州闭幕",
+    "事件概述": "「AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”」由 8 篇报道聚合而成，覆盖 2 家媒体，热度 0.673（爆点），所属板块类目：综合。",
+    "关键信息": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”；遇见AI未来链接全球商机 第五届数贸会在杭州闭幕；突破百万台在即，机器人细分赛道，高歌猛进！12股获融资客加仓",
     "市场影响": "关联板块代码：BK1408、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -311,169 +217,263 @@
     },
     {
      "n": 2,
-     "title": "中秋遇上数贸会 科技风潮点亮假日新生活",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-25/10703850.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
      "title": "遇见AI未来链接全球商机 第五届数贸会在杭州闭幕",
      "media": "中新网",
      "url": "https://www.chinanews.com.cn/cj/2026/09-27/10704460.shtml",
-     "rrf": 0.03041,
-     "bm25_rank": 10,
+     "rrf": 0.03083,
+     "bm25_rank": 8,
      "vec_rank": 2
     },
     {
+     "n": 3,
+     "title": "突破百万台在即，机器人细分赛道，高歌猛进！12股获融资客加仓",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/roll/2026-09-28/doc-initirzi8820824.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 5,
+     "vec_rank": 7
+    },
+    {
      "n": 4,
-     "title": "数博会侧记：机器人“跨界”，从“被观看”到“被需要”",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-25/10703904.shtml",
-     "rrf": 0.02901,
-     "bm25_rank": 7,
-     "vec_rank": 11
+     "title": "深圳龙岗：以改革探路，打造AI“超级试验场”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-28/doc-initirzn2934061.shtml",
+     "rrf": 0.02848,
+     "bm25_rank": 15,
+     "vec_rank": 6
     },
     {
      "n": 5,
      "title": "启元机器人开放机器人生态底座",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202609263884402215.html",
-     "rrf": 0.02792,
-     "bm25_rank": 3,
-     "vec_rank": 23
+     "rrf": 0.02739,
+     "bm25_rank": 4,
+     "vec_rank": 25
     },
     {
      "n": 6,
-     "title": "OpenAI在博客文章中详述9月20日发现的沙箱“漏洞”，AI Agent获得互",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170956",
-     "rrf": 0.0275,
-     "bm25_rank": 21,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "特斯拉Optimus机器人量产遇阻：手部结构、供应链问题凸显，扩产进程启动",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-initaaiw9343490.shtml",
-     "rrf": 0.02707,
-     "bm25_rank": 11,
-     "vec_rank": 17
-    },
-    {
-     "n": 8,
      "title": "逛展数贸会：硬科技圈粉全球 耐心资本长期陪跑",
      "media": "中新网",
      "url": "https://www.chinanews.com.cn/cj/2026/09-26/10704102.shtml",
-     "rrf": 0.02655,
-     "bm25_rank": 12,
-     "vec_rank": 19
+     "rrf": 0.02643,
+     "bm25_rank": 11,
+     "vec_rank": 21
+    },
+    {
+     "n": 7,
+     "title": "数贸会“朋友圈”扩容 海外客商盼加速拥抱中国市场",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-26/10704100.shtml",
+     "rrf": 0.02589,
+     "bm25_rank": 13,
+     "vec_rank": 22
+    },
+    {
+     "n": 8,
+     "title": "从共享到共筑：数贸会上的开放之约",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-27/10704473.shtml",
+     "rrf": 0.02374,
+     "bm25_rank": 20,
+     "vec_rank": 29
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 2,
-    "neither_topk": 2
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 3,
+    "neither_topk": 3
    },
    "elapsed": 0.0
   },
   {
-   "key": "9ae21d457e98476d",
-   "label": "特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得",
+   "key": "a5380a908dcef888",
+   "label": "新股提示：联亚药业、北交所南方乳业今日申购",
    "cached": false,
    "sections": {
-    "事件概述": "「特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得」由 5 篇报道聚合而成，覆盖 2 家媒体，热度 0.697（高热），所属板块类目：综合。",
-    "关键信息": "特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得；美媒：特朗普拒绝伊朗七日内重开霍尔木兹海峡提议；特朗普过去24小时都忙了什么？（2026-09-27）",
+    "事件概述": "「新股提示：联亚药业、北交所南方乳业今日申购」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.664（高热），所属板块类目：综合。",
+    "关键信息": "新股提示：联亚药业、北交所南方乳业今日申购；两只新股，明日申购；高中签率！两只新股今日申购",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得",
+     "title": "新股提示：联亚药业、北交所南方乳业今日申购",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initerww3927998.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initimtm8937767.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "美媒：特朗普拒绝伊朗七日内重开霍尔木兹海峡提议",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170943",
+     "title": "两只新股，明日申购",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initfhus0421765.shtml",
      "rrf": 0.032,
      "bm25_rank": 3,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "特朗普过去24小时都忙了什么？（2026-09-27）",
+     "title": "高中签率！两只新股今日申购",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-27/doc-inithkfx9402050.shtml",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-28/doc-initirzr3978542.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "下周可申购2只新股",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609263884413129.html",
      "rrf": 0.0315,
      "bm25_rank": 4,
      "vec_rank": 3
     },
     {
-     "n": 4,
-     "title": "美官员：就重开霍尔木兹海峡协议开展谈判 但美方不急于达成协议",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initanxs9139055.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 9,
-     "vec_rank": 5
-    },
-    {
      "n": 5,
-     "title": "和平曙光乍现又生阴云 特朗普拒绝“七天协议” 伊朗总统再谈信任问题",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609273884417590.html",
-     "rrf": 0.02929,
-     "bm25_rank": 2,
-     "vec_rank": 16
+     "title": "就在明天！预期“高中签率”新股，来了",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initftkp4820999.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "特朗普拒绝伊朗“七天停火提议” 预计中期选举后重启轰炸行动",
+     "title": "发行价7元/股，联亚药业9月28日申购",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-26/doc-initccvi3989604.shtml",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-27/doc-inithqpv9295921.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "IPO周报｜“十一”前将有2只新股申购，均为细分领域龙头",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initirzr3978145.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "即将集体发行，北交所增量资金要来了",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-27/doc-inithcyh0226751.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 7,
+     "vec_rank": 10
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "新股提示：联亚药业、北交所南方乳业今日申购",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "eba65c74e65be620",
+   "label": "上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点",
+   "cached": false,
+   "sections": {
+    "事件概述": "「上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.632（高热），所属板块类目：金融市场。",
+    "关键信息": "上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点；创业板指跌1%；牛市早报｜中美达成八点成果共识",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171144",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "创业板指跌1%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609283884611921.html",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "牛市早报｜中美达成八点成果共识",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initirzi8828875.shtml",
+     "rrf": 0.03083,
+     "bm25_rank": 8,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "十大机构看后市：当前A股市场已经进入了情绪面的修复期，反弹将持续",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-27/doc-initfxsh3521655.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171142",
+     "rrf": 0.03009,
+     "bm25_rank": 5,
+     "vec_rank": 8
+    },
+    {
+     "n": 6,
+     "title": "日韩股市开盘涨跌不一 日经指数上涨0.2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-28/doc-initirzp9713789.shtml",
+     "rrf": 0.02996,
+     "bm25_rank": 3,
+     "vec_rank": 11
+    },
+    {
+     "n": 7,
+     "title": "港股开盘：恒生指数高开0.18% 恒生科技指数高开0.29%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609283884597721.html",
      "rrf": 0.02885,
      "bm25_rank": 6,
      "vec_rank": 13
     },
     {
-     "n": 7,
-     "title": "伊朗外长: 霍尔木兹海峡开放取决于伊方条件是否满足",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initfanp9970318.shtml",
-     "rrf": 0.02879,
-     "bm25_rank": 11,
-     "vec_rank": 8
-    },
-    {
      "n": 8,
-     "title": "报道：特朗普拒绝伊朗7天停火提议",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170943",
-     "rrf": 0.02837,
-     "bm25_rank": 5,
-     "vec_rank": 17
+     "title": "国内商品期货早盘开盘 主力合约涨多跌少",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609283884589625.html",
+     "rrf": 0.02691,
+     "bm25_rank": 11,
+     "vec_rank": 18
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得",
-    "bm25_only": 3,
-    "vec_only": 2,
-    "both": 3,
-    "neither_topk": 0
+    "query": "上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点",
+    "bm25_only": 2,
+    "vec_only": 0,
+    "both": 5,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }
