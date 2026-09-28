@@ -1,207 +1,19 @@
 {
  "engine": "template(降级)",
- "n_clusters": 35,
+ "n_clusters": 49,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.9,
+ "elapsed": 7.8,
  "reports": [
   {
-   "key": "f6073e256f911e81",
-   "label": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62",
-   "cached": false,
-   "sections": {
-    "事件概述": "「国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：宏观政策。",
-    "关键信息": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增；国家统计局：1—8月份全国规模以上工业企业利润增长15.7%；国家统计局：电子行业对利润增长拉动明显",
-    "市场影响": "关联板块代码：BK0459、BK0464、BK0458。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62.0%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609283884654020.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "国家统计局：1—8月份全国规模以上工业企业利润增长15.7%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609283884606896.html",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "国家统计局：电子行业对利润增长拉动明显",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3171155",
-     "rrf": 0.03102,
-     "bm25_rank": 3,
-     "vec_rank": 6
-    },
-    {
-     "n": 4,
-     "title": "国家统计局：1—8月份规模以上原材料制造业利润同比增长47.3%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-28/doc-initiwik2913656.shtml",
-     "rrf": 0.03083,
-     "bm25_rank": 2,
-     "vec_rank": 8
-    },
-    {
-     "n": 5,
-     "title": "国家统计局：1—8月份规模以上工业企业营业收入同比增长6.6%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-28/doc-initiwif8734549.shtml",
-     "rrf": 0.03058,
-     "bm25_rank": 8,
-     "vec_rank": 3
-    },
-    {
-     "n": 6,
-     "title": "国家统计局：1—8月份工业企业利润保持较快增长",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initiwip3895358.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
-    },
-    {
-     "n": 7,
-     "title": "国家统计局：8月份，受去年同期较高基数影响，规模以上工业企业利润增速有所回落，同",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3171154",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
-    },
-    {
-     "n": 8,
-     "title": "国家统计局：1—8月光纤制造、光缆制造行业利润分别增长5.3倍和1.0倍",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609283884664283.html",
-     "rrf": 0.03031,
-     "bm25_rank": 5,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 8,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "154c2ee5010c7e5c",
-   "label": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点",
-   "cached": false,
-   "sections": {
-    "事件概述": "「返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.72（爆点），所属板块类目：交运物流。",
-    "关键信息": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点；中国铁路迎来中秋假期返程客流高峰；全国铁路迎来中秋假期返程客流高峰 9月27日预计发送旅客1686万人次",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initfanp9959555.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "中国铁路迎来中秋假期返程客流高峰",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-27/doc-inithkha3398210.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "全国铁路迎来中秋假期返程客流高峰 9月27日预计发送旅客1686万人次",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-27/10704445.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "长三角铁路迎来返程高峰，预计今日发送旅客332万人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-initfpaq0389411.shtml",
-     "rrf": 0.03151,
-     "bm25_rank": 2,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "铁路、民航、公路齐发力 各地全力保障中秋返程出行",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-inithqqc4472139.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "9月26日全国铁路预计发送旅客1300万人次",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3170965",
-     "rrf": 0.02924,
-     "bm25_rank": 6,
-     "vec_rank": 11
-    },
-    {
-     "n": 7,
-     "title": "今晚1、2、10、17号线加开定点加班车",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-27/doc-inithkha3378739.shtml",
-     "rrf": 0.0284,
-     "bm25_rank": 8,
-     "vec_rank": 13
-    },
-    {
-     "n": 8,
-     "title": "中秋假期第二天 全国铁路预计发送旅客1300万人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-26/doc-initcyze4141297.shtml",
-     "rrf": 0.02686,
-     "bm25_rank": 13,
-     "vec_rank": 16
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点",
-    "bm25_only": 2,
-    "vec_only": 0,
-    "both": 5,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "3bc78aafeb64d841",
+   "key": "b5e256279e4b5447",
    "label": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”",
    "cached": false,
    "sections": {
-    "事件概述": "「AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”」由 8 篇报道聚合而成，覆盖 2 家媒体，热度 0.673（爆点），所属板块类目：综合。",
-    "关键信息": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”；遇见AI未来链接全球商机 第五届数贸会在杭州闭幕；突破百万台在即，机器人细分赛道，高歌猛进！12股获融资客加仓",
+    "事件概述": "「AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.792（爆点），所属板块类目：综合。",
+    "关键信息": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”；从制造到贸易，数贸会见证AI加速融入产业与创新；遇见AI未来链接全球商机 第五届数贸会在杭州闭幕",
     "市场影响": "关联板块代码：BK1408、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -217,84 +29,272 @@
     },
     {
      "n": 2,
-     "title": "遇见AI未来链接全球商机 第五届数贸会在杭州闭幕",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-27/10704460.shtml",
-     "rrf": 0.03083,
-     "bm25_rank": 8,
+     "title": "从制造到贸易，数贸会见证AI加速融入产业与创新",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-28/doc-initktny2937097.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "突破百万台在即，机器人细分赛道，高歌猛进！12股获融资客加仓",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/roll/2026-09-28/doc-initirzi8820824.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 5,
-     "vec_rank": 7
+     "title": "遇见AI未来链接全球商机 第五届数贸会在杭州闭幕",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-27/10704460.shtml",
+     "rrf": 0.0308,
+     "bm25_rank": 7,
+     "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "深圳龙岗：以改革探路，打造AI“超级试验场”",
+     "title": "突破百万台在即，机器人细分赛道，高歌猛进！12股获融资客加仓",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-28/doc-initirzn2934061.shtml",
-     "rrf": 0.02848,
-     "bm25_rank": 15,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/stock/roll/2026-09-28/doc-initirzi8820824.shtml",
+     "rrf": 0.02971,
+     "bm25_rank": 4,
+     "vec_rank": 11
     },
     {
      "n": 5,
-     "title": "启元机器人开放机器人生态底座",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609263884402215.html",
-     "rrf": 0.02739,
-     "bm25_rank": 4,
-     "vec_rank": 25
+     "title": "深圳龙岗：以改革探路，打造AI“超级试验场”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-28/doc-initirzn2934061.shtml",
+     "rrf": 0.02837,
+     "bm25_rank": 11,
+     "vec_rank": 10
     },
     {
      "n": 6,
-     "title": "逛展数贸会：硬科技圈粉全球 耐心资本长期陪跑",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-26/10704102.shtml",
-     "rrf": 0.02643,
-     "bm25_rank": 11,
-     "vec_rank": 21
+     "title": "数贸会观察：解锁大健康创新的全球对话场",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-28/doc-initkxuz3568276.shtml",
+     "rrf": 0.0254,
+     "bm25_rank": 10,
+     "vec_rank": 30
     },
     {
      "n": 7,
-     "title": "数贸会“朋友圈”扩容 海外客商盼加速拥抱中国市场",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-26/10704100.shtml",
-     "rrf": 0.02589,
-     "bm25_rank": 13,
-     "vec_rank": 22
+     "title": "英伟达推出双层AI安全系统 旨在防止AI智能体失控",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-28/doc-initkpex8548810.shtml",
+     "rrf": 0.023,
+     "bm25_rank": 29,
+     "vec_rank": 25
     },
     {
      "n": 8,
-     "title": "从共享到共筑：数贸会上的开放之约",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/09-27/10704473.shtml",
-     "rrf": 0.02374,
-     "bm25_rank": 20,
-     "vec_rank": 29
+     "title": "11个新职业来了",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-09-27/doc-initfpaq0359052.shtml",
+     "rrf": 0.01613,
+     "bm25_rank": 2,
+     "vec_rank": null
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”",
-    "bm25_only": 1,
-    "vec_only": 1,
+    "bm25_only": 2,
+    "vec_only": 0,
     "both": 3,
     "neither_topk": 3
    },
    "elapsed": 0.0
   },
   {
-   "key": "a5380a908dcef888",
+   "key": "cef41e4a8c0776c2",
+   "label": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62",
+   "cached": false,
+   "sections": {
+    "事件概述": "「国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.788（爆点），所属板块类目：宏观政策。",
+    "关键信息": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增；前8月电子行业对规上工业企业利润贡献率达62.0%，凭什么？；国家统计局：1—8月份全国规模以上工业企业利润增长15.7%",
+    "市场影响": "关联板块代码：BK0459、BK0464、BK0458。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62.0%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609283884654020.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "前8月电子行业对规上工业企业利润贡献率达62.0%，凭什么？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-28/doc-initmear8290936.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "国家统计局：1—8月份全国规模以上工业企业利润增长15.7%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609283884606896.html",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "国家统计局：电子行业对利润增长拉动明显",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171155",
+     "rrf": 0.03055,
+     "bm25_rank": 4,
+     "vec_rank": 7
+    },
+    {
+     "n": 5,
+     "title": "国家统计局：1—8月份规模以上原材料制造业利润同比增长47.3%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-28/doc-initiwik2913656.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 3,
+     "vec_rank": 9
+    },
+    {
+     "n": 6,
+     "title": "国家统计局：1—8月份规模以上工业企业营业收入同比增长6.6%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-28/doc-initiwif8734549.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 9,
+     "vec_rank": 3
+    },
+    {
+     "n": 7,
+     "title": "国家统计局：1—8月份工业企业利润保持较快增长",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initiwip3895358.shtml",
+     "rrf": 0.03009,
+     "bm25_rank": 8,
+     "vec_rank": 5
+    },
+    {
+     "n": 8,
+     "title": "国家统计局：8月份，受去年同期较高基数影响，规模以上工业企业利润增速有所回落，同",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171154",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "3e8b4dafafb33309",
+   "label": "香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾",
+   "cached": false,
+   "sections": {
+    "事件概述": "「香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.727（爆点），所属板块类目：金融市场。",
+    "关键信息": "香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾；港股开盘：恒生指数高开0.18% 恒生科技指数高开0.29%；香港恒生指数上涨1%。",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171142",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "港股开盘：恒生指数高开0.18% 恒生科技指数高开0.29%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609283884597721.html",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "香港恒生指数上涨1%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171166",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "港股午评：恒指涨0.64% 科指跌0.54% 石油股活跃 光通信板块下挫",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-28/doc-initkarc8672493.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "恒生指数涨幅扩大至1% 机构：节日期间短期流动性或承压",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-09-28/doc-initiwif8743984.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "港股CPO、半导体大跳水，长飞光纤光缆跌16%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/wbstock/2026-09-28/doc-initkpex8561172.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 6,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171144",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "日韩股市开盘涨跌不一 日经指数上涨0.2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-28/doc-initirzp9713789.shtml",
+     "rrf": 0.02578,
+     "bm25_rank": 10,
+     "vec_rank": 27
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾",
+    "bm25_only": 0,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "9a202964f4770c27",
    "label": "新股提示：联亚药业、北交所南方乳业今日申购",
    "cached": false,
    "sections": {
-    "事件概述": "「新股提示：联亚药业、北交所南方乳业今日申购」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.664（高热），所属板块类目：综合。",
+    "事件概述": "「新股提示：联亚药业、北交所南方乳业今日申购」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.712（爆点），所属板块类目：综合。",
     "关键信息": "新股提示：联亚药业、北交所南方乳业今日申购；两只新股，明日申购；高中签率！两只新股今日申购",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -359,18 +359,18 @@
      "title": "IPO周报｜“十一”前将有2只新股申购，均为细分领域龙头",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initirzr3978145.shtml",
-     "rrf": 0.02963,
+     "rrf": 0.02941,
      "bm25_rank": 8,
-     "vec_rank": 7
+     "vec_rank": 8
     },
     {
      "n": 8,
      "title": "即将集体发行，北交所增量资金要来了",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-27/doc-inithcyh0226751.shtml",
-     "rrf": 0.02921,
+     "rrf": 0.02881,
      "bm25_rank": 7,
-     "vec_rank": 10
+     "vec_rank": 12
     }
    ],
    "degraded": 1,
@@ -384,96 +384,96 @@
    "elapsed": 0.0
   },
   {
-   "key": "eba65c74e65be620",
-   "label": "上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点",
+   "key": "a64d32237433c74c",
+   "label": "现货黄金日内跌幅达3.5%，报4135.14美元/盎司。 黄金技术面全面承压，跌",
    "cached": false,
    "sections": {
-    "事件概述": "「上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.632（高热），所属板块类目：金融市场。",
-    "关键信息": "上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点；创业板指跌1%；牛市早报｜中美达成八点成果共识",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「现货黄金日内跌幅达3.5%，报4135.14美元/盎司。 黄金技术面全面承压，跌」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.702（高热），所属板块类目：国际市场。",
+    "关键信息": "现货黄金日内跌幅达3.5%，报4135.14美元/盎司。 黄金技术面全面承压，跌；现货黄金日内跌幅扩大至4% 报4110.92美元/盎司；纽约金日内跌幅达4.0%，报4147.37美元/盎司；现货白银日内跌幅达5.5%",
+    "市场影响": "关联板块代码：BK1616、BK0547、BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点",
+     "title": "现货黄金日内跌幅达3.5%，报4135.14美元/盎司。 黄金技术面全面承压，跌",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3171144",
+     "url": "https://wallstreetcn.com/livenews/3171615",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "创业板指跌1%",
+     "title": "现货黄金日内跌幅扩大至4% 报4110.92美元/盎司",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609283884611921.html",
-     "rrf": 0.032,
+     "url": "https://finance.eastmoney.com/a/202609283885548361.html",
+     "rrf": 0.03226,
      "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "牛市早报｜中美达成八点成果共识",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initirzi8828875.shtml",
-     "rrf": 0.03083,
-     "bm25_rank": 8,
      "vec_rank": 2
     },
     {
+     "n": 3,
+     "title": "纽约金日内跌幅达4.0%，报4147.37美元/盎司；现货白银日内跌幅达5.5%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171622",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
      "n": 4,
-     "title": "十大机构看后市：当前A股市场已经进入了情绪面的修复期，反弹将持续",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-27/doc-initfxsh3521655.shtml",
-     "rrf": 0.03078,
+     "title": "黄金概念震荡下挫 山东黄金跌超9%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609283884685098.html",
+     "rrf": 0.0315,
      "bm25_rank": 4,
-     "vec_rank": 6
+     "vec_rank": 3
     },
     {
      "n": 5,
-     "title": "香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾",
+     "title": "2050年到期美国国债价格创历史新低，国际金价跌4%",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3171142",
-     "rrf": 0.03009,
+     "url": "https://wallstreetcn.com/livenews/3171623",
+     "rrf": 0.03054,
      "bm25_rank": 5,
-     "vec_rank": 8
+     "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "日韩股市开盘涨跌不一 日经指数上涨0.2%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-28/doc-initirzp9713789.shtml",
-     "rrf": 0.02996,
-     "bm25_rank": 3,
-     "vec_rank": 11
+     "title": "现货白银大幅跳水现跌2.7%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609283884600597.html",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
+     "vec_rank": 7
     },
     {
      "n": 7,
-     "title": "港股开盘：恒生指数高开0.18% 恒生科技指数高开0.29%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609283884597721.html",
-     "rrf": 0.02885,
+     "title": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-09-28/doc-initirzi8815039.shtml",
+     "rrf": 0.02964,
      "bm25_rank": 6,
-     "vec_rank": 13
+     "vec_rank": 9
     },
     {
      "n": 8,
-     "title": "国内商品期货早盘开盘 主力合约涨多跌少",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609283884589625.html",
-     "rrf": 0.02691,
-     "bm25_rank": 11,
-     "vec_rank": 18
+     "title": "金价下跌 霍尔木兹海峡僵局令加息预期高企",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-28/doc-initirzr4001416.shtml",
+     "rrf": 0.02859,
+     "bm25_rank": 12,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点",
-    "bm25_only": 2,
-    "vec_only": 0,
-    "both": 5,
-    "neither_topk": 1
+    "query": "现货黄金日内跌幅达3.5%，报4135.14美元/盎司。 黄金技术面全面承压，跌",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   }

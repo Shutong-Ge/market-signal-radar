@@ -1,11 +1,11 @@
 {
- "n_articles": 1366,
+ "n_articles": 1645,
  "mode": "vector",
- "edges": 430,
- "n_components": 1206,
- "n_clusters": 35,
+ "edges": 638,
+ "n_components": 1421,
+ "n_clusters": 49,
  "n_noise_filtered": 2,
- "n_single_media_filtered": 48,
+ "n_single_media_filtered": 50,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,24 +13,52 @@
   "media"
  ],
  "calibration": {
-  "max_size": 9.0,
-  "max_first": 9.0,
-  "window_days": 3,
+  "max_size": 11.0,
+  "max_first": 11.0,
+  "window_days": 2,
   "n_media_total": 5
  },
  "elapsed": 0.1,
  "level_dist": {
-  "爆点": 3,
-  "高热": 7,
-  "升温中": 11,
-  "一般": 14
+  "爆点": 4,
+  "高热": 10,
+  "升温中": 15,
+  "一般": 20
  },
  "top": [
   {
-   "label": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62",
-   "heat": 0.749,
+   "label": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”",
+   "heat": 0.792,
    "level": "爆点",
-   "n": 9,
+   "n": 7,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [
+    "BK1408",
+    "BK0800"
+   ],
+   "factors": {
+    "coverage": 0.837,
+    "burst": 0.721,
+    "duration": 1.0,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    59601,
+    59850,
+    59873,
+    59880,
+    60161,
+    60804,
+    61124
+   ]
+  },
+  {
+   "label": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62",
+   "heat": 0.788,
+   "level": "爆点",
+   "n": 11,
    "media": 3,
    "cat": "宏观政策",
    "sectors": [
@@ -41,215 +69,157 @@
    "factors": {
     "coverage": 1.0,
     "burst": 1.0,
-    "duration": 0.333,
+    "duration": 0.5,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    59507,
-    59508,
-    59510,
-    59513,
-    59514,
-    59515,
-    59519,
-    59520,
-    59536
+    60520,
+    60521,
+    60523,
+    60526,
+    60527,
+    60528,
+    60532,
+    60533,
+    60549,
+    60937,
+    61196
    ]
   },
   {
-   "label": "返程高峰日预计有76.8万人次坐火车抵京 多条地铁27日延长运营至凌晨2点",
-   "heat": 0.72,
+   "label": "香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾",
+   "heat": 0.727,
    "level": "爆点",
    "n": 8,
    "media": 3,
-   "cat": "交运物流",
+   "cat": "金融市场",
    "sectors": [],
    "factors": {
-    "coverage": 0.954,
-    "burst": 0.602,
-    "duration": 0.667,
+    "coverage": 0.884,
+    "burst": 0.884,
+    "duration": 0.5,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    58232,
-    58340,
-    58359,
-    58602,
-    58754,
-    58859,
-    59004,
-    59104
-   ]
-  },
-  {
-   "label": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差 安全厂商开始“以AI制AI”",
-   "heat": 0.673,
-   "level": "爆点",
-   "n": 8,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [
-    "BK1408",
-    "BK0800"
-   ],
-   "factors": {
-    "coverage": 0.954,
-    "burst": 0.602,
-    "duration": 0.667,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    58222,
-    58225,
-    58403,
-    58599,
-    58841,
-    58864,
-    58871,
-    59148
+    60497,
+    60501,
+    60552,
+    60556,
+    60561,
+    60578,
+    60707,
+    60811
    ]
   },
   {
    "label": "新股提示：联亚药业、北交所南方乳业今日申购",
-   "heat": 0.664,
-   "level": "高热",
+   "heat": 0.712,
+   "level": "爆点",
    "n": 6,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.845,
-    "burst": 0.699,
-    "duration": 0.667,
+    "coverage": 0.783,
+    "burst": 0.648,
+    "duration": 1.0,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    58608,
-    58616,
-    58760,
-    59019,
-    59257,
-    59287
+    59611,
+    59619,
+    59768,
+    60030,
+    60270,
+    60300
    ]
   },
   {
-   "label": "上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点",
-   "heat": 0.632,
+   "label": "现货黄金日内跌幅达3.5%，报4135.14美元/盎司。 黄金技术面全面承压，跌",
+   "heat": 0.702,
    "level": "高热",
-   "n": 5,
-   "media": 3,
-   "cat": "金融市场",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.778,
-    "burst": 0.778,
-    "duration": 0.333,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    59362,
-    59496,
-    59498,
-    59509,
-    59511
-   ]
-  },
-  {
-   "label": "香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾",
-   "heat": 0.59,
-   "level": "高热",
-   "n": 4,
-   "media": 3,
-   "cat": "金融市场",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.699,
-    "burst": 0.699,
-    "duration": 0.333,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    59484,
-    59488,
-    59543,
-    59548
-   ]
-  },
-  {
-   "label": "特朗普：已批准旨在终结电动车强制令的新燃油经济性标准",
-   "heat": 0.543,
-   "level": "高热",
-   "n": 4,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.699,
-    "burst": 0.699,
-    "duration": 0.333,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    58590,
-    58592,
-    58614,
-    58989
-   ]
-  },
-  {
-   "label": "自然资源部与中国气象局联合发布橙色地质灾害气象风险预警",
-   "heat": 0.54,
-   "level": "高热",
-   "n": 3,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.602,
-    "burst": 0.477,
-    "duration": 0.667,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    58351,
-    58426,
-    59052
-   ]
-  },
-  {
-   "label": "人民币兑美元中间价报6.7399，上调90点；上一交易日中间价6.7489，上一",
-   "heat": 0.538,
-   "level": "高热",
-   "n": 3,
+   "n": 7,
    "media": 3,
    "cat": "国际市场",
-   "sectors": [],
+   "sectors": [
+    "BK1616",
+    "BK0547",
+    "BK0732",
+    "BK1617"
+   ],
    "factors": {
-    "coverage": 0.602,
-    "burst": 0.602,
-    "duration": 0.333,
+    "coverage": 0.837,
+    "burst": 0.837,
+    "duration": 0.5,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    59477,
-    59478,
-    59489
+    60508,
+    60530,
+    60540,
+    60686,
+    61147,
+    61172,
+    61180
+   ]
+  },
+  {
+   "label": "特朗普政府拟放宽汽车燃油经济性标准，2031年目标降至约34.5英里/加仑",
+   "heat": 0.694,
+   "level": "高热",
+   "n": 5,
+   "media": 2,
+   "cat": "汽车出行",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.721,
+    "burst": 0.648,
+    "duration": 1.0,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    59592,
+    59594,
+    59617,
+    60000,
+    60623
+   ]
+  },
+  {
+   "label": "京港高铁雄商段开通运营 河南商丘至北京行程缩短近1小时",
+   "heat": 0.68,
+   "level": "高热",
+   "n": 7,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.837,
+    "burst": 0.442,
+    "duration": 1.0,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    59715,
+    59895,
+    60401,
+    60785,
+    60862,
+    61101,
+    61188
    ]
   },
   {
    "label": "汇绿生态：拟3.09亿元投建钧恒科技研发生产基地项目 新增年产200万支高速率光模块生产线",
-   "heat": 0.52,
+   "heat": 0.673,
    "level": "高热",
-   "n": 4,
+   "n": 5,
    "media": 2,
    "cat": "半导体",
    "sectors": [
@@ -257,17 +227,69 @@
     "BK000391"
    ],
    "factors": {
-    "coverage": 0.699,
-    "burst": 0.602,
-    "duration": 0.333,
+    "coverage": 0.721,
+    "burst": 0.558,
+    "duration": 1.0,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    58855,
-    59084,
-    59095,
-    59285
+    59864,
+    60096,
+    60108,
+    60298,
+    60780
+   ]
+  },
+  {
+   "label": "上证指数开盘报3878.41点，跌0.26%。 深证成指开盘报13265.79点",
+   "heat": 0.673,
+   "level": "高热",
+   "n": 6,
+   "media": 3,
+   "cat": "金融市场",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.783,
+    "burst": 0.783,
+    "duration": 0.5,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    60375,
+    60509,
+    60511,
+    60522,
+    60524,
+    60774
+   ]
+  },
+  {
+   "label": "美国10年期收益率上升5个基点至5.21%，2年期收益率上升5个基点至4.90%",
+   "heat": 0.655,
+   "level": "高热",
+   "n": 7,
+   "media": 2,
+   "cat": "宏观政策",
+   "sectors": [
+    "BK0800"
+   ],
+   "factors": {
+    "coverage": 0.837,
+    "burst": 0.837,
+    "duration": 0.5,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    60384,
+    60404,
+    61170,
+    61171,
+    61173,
+    61178,
+    61193
    ]
   }
  ]
