@@ -5,108 +5,14 @@
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 7.1,
+ "elapsed": 6.0,
  "reports": [
   {
-   "key": "5e893244de8e4188",
-   "label": "香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾",
-   "cached": false,
-   "sections": {
-    "事件概述": "「香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.791（爆点），所属板块类目：金融市场。",
-    "关键信息": "香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾；港股开盘：恒生指数高开0.18% 恒生科技指数高开0.29%；香港恒生指数上涨1%。",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3171142",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "港股开盘：恒生指数高开0.18% 恒生科技指数高开0.29%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609283884597721.html",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "香港恒生指数上涨1%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3171166",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "恒生科技指数盘初跌1%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3171836",
-     "rrf": 0.0308,
-     "bm25_rank": 3,
-     "vec_rank": 7
-    },
-    {
-     "n": 5,
-     "title": "港股午评：恒指涨0.64% 科指跌0.54% 石油股活跃 光通信板块下挫",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-28/doc-initkarc8672493.shtml",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "恒生指数涨幅扩大至1% 机构：节日期间短期流动性或承压",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-09-28/doc-initiwif8743984.shtml",
-     "rrf": 0.03033,
-     "bm25_rank": 8,
-     "vec_rank": 4
-    },
-    {
-     "n": 7,
-     "title": "恒指高开0.02%，报24648.64点；恒生科技指数跌0.21%。蔚来跌2%，",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3171824",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
-    },
-    {
-     "n": 8,
-     "title": "港股午评：恒指跌0.63% 科指跌1.37% 科网股普跌 内房股强势",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-29/doc-initnfqp2937806.shtml",
-     "rrf": 0.02963,
-     "bm25_rank": 7,
-     "vec_rank": 8
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "香港恒生指数开盘涨0.18%，报24554.58点；恒生科技指数涨0.29%。腾",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 8,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "9b5db7d0fdd7cd0b",
+   "key": "4a7cad0ca7872f95",
    "label": "美债抛售潮下的大反转！债市老将Bianco六年来首次看多，称5%收益率是“价值买点”",
    "cached": false,
    "sections": {
-    "事件概述": "「美债抛售潮下的大反转！债市老将Bianco六年来首次看多，称5%收益率是“价值买点”」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.789（爆点），所属板块类目：宏观政策。",
+    "事件概述": "「美债抛售潮下的大反转！债市老将Bianco六年来首次看多，称5%收益率是“价值买点”」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.795（爆点），所属板块类目：宏观政策。",
     "关键信息": "美债抛售潮下的大反转！债市老将Bianco六年来首次看多，称5%收益率是“价值买；美债收益率飙至20年高点 债市老将六年来首度转为看多；5.27%！10年期美债收益率创2007年以来新高 万物皆在重估？",
     "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -135,166 +41,72 @@
      "title": "5.27%！10年期美债收益率创2007年以来新高 万物皆在重估？",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-09-29/doc-initmzhm9337944.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
+     "rrf": 0.0315,
+     "bm25_rank": 4,
      "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "抛售潮加剧，美国10年期国债收益率破5.2%，创近20年新高",
+     "title": "美国债市抛售潮越过又一重要关口 30年期收益率创下二十四年来最高",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-29/doc-initmuyn2638670.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzz2878092.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
     },
     {
      "n": 5,
-     "title": "美债收益率曲线逼近倒挂！债市质疑美国经济前景？",
+     "title": "抛售潮加剧，美国10年期国债收益率破5.2%，创近20年新高",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-09-28/doc-initirzr3993120.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
+     "url": "https://finance.sina.com.cn/roll/2026-09-29/doc-initmuyn2638670.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 9,
+     "vec_rank": 4
     },
     {
      "n": 6,
-     "title": "全球长债市场上演抛售潮 黄金、AI资产同步承压",
+     "title": "尽管油价走低、尽管美联储高管“放鸽”，美债收益率依旧在走高",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-29/doc-initmkks2766840.shtml",
-     "rrf": 0.02908,
-     "bm25_rank": 5,
-     "vec_rank": 13
+     "url": "https://finance.sina.com.cn/money/bond/market/2026-09-30/doc-initqeff7179309.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 10,
+     "vec_rank": 7
     },
     {
      "n": 7,
-     "title": "美债恐慌指数狂飙：长债收益率正从“涨得高”步入“涨得快”？",
+     "title": "30年期美债收益率连涨6日 巴克莱：公允水平或升至6%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-28/doc-initirzi8842132.shtml",
-     "rrf": 0.02858,
-     "bm25_rank": 9,
-     "vec_rank": 11
+     "url": "https://finance.sina.com.cn/roll/2026-09-30/doc-initptrt2505273.shtml",
+     "rrf": 0.02899,
+     "bm25_rank": 8,
+     "vec_rank": 10
     },
     {
      "n": 8,
-     "title": "全球主权债券承压，美国国债收益率小幅走高",
+     "title": "通胀与加息担忧持续施压下美债抛售加剧 30年期收益率一度突破5.6%创逾24年新高",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-28/doc-initkpfa2938624.shtml",
-     "rrf": 0.02857,
-     "bm25_rank": 10,
-     "vec_rank": 10
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-30/doc-initpxxr2429666.shtml",
+     "rrf": 0.02817,
+     "bm25_rank": 11,
+     "vec_rank": 11
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "美债抛售潮下的大反转！债市老将Bianco六年来首次看多，称5%收益率是“价值买",
-    "bm25_only": 2,
-    "vec_only": 0,
-    "both": 4,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "931cffcc8f1be6ad",
-   "label": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62",
-   "cached": false,
-   "sections": {
-    "事件概述": "「国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：宏观政策。",
-    "关键信息": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增；前8月电子行业对规上工业企业利润贡献率达62.0%，凭什么？；国家统计局：1—8月份全国规模以上工业企业利润增长15.7%",
-    "市场影响": "关联板块代码：BK0459、BK0464、BK0458。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增长的贡献率达62.0%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609283884654020.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "前8月电子行业对规上工业企业利润贡献率达62.0%，凭什么？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-28/doc-initmear8290936.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "国家统计局：1—8月份全国规模以上工业企业利润增长15.7%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609283884606896.html",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "前八月规上工业企业利润同比增长15.7% 电子行业拉动作用明显",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-29/doc-initmzhk2581157.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "国家统计局：电子行业对利润增长拉动明显",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3171155",
-     "rrf": 0.03033,
-     "bm25_rank": 4,
-     "vec_rank": 8
-    },
-    {
-     "n": 6,
-     "title": "国家统计局：1—8月份规模以上原材料制造业利润同比增长47.3%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-28/doc-initiwik2913656.shtml",
-     "rrf": 0.03016,
-     "bm25_rank": 3,
-     "vec_rank": 10
-    },
-    {
-     "n": 7,
-     "title": "国家统计局：1—8月份规模以上工业企业营业收入同比增长6.6%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-09-28/doc-initiwif8734549.shtml",
-     "rrf": 0.02996,
-     "bm25_rank": 11,
-     "vec_rank": 3
-    },
-    {
-     "n": 8,
-     "title": "国家统计局：1—8月份工业企业利润保持较快增长",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initiwip3895358.shtml",
-     "rrf": 0.02967,
-     "bm25_rank": 10,
-     "vec_rank": 5
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "国家统计局：1—8月份电子行业利润同比增长1.1倍 对全部规模以上工业企业利润增",
     "bm25_only": 1,
     "vec_only": 2,
-    "both": 5,
-    "neither_topk": 0
+    "both": 4,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "7dd18f52d9e3cf54",
+   "key": "c027afa132fc49fe",
    "label": "美股科技股冰火两重天，ARM大跌近9%，英伟达逼近历史新高，中国资产逆势上涨，网易涨超5%",
    "cached": false,
    "sections": {
-    "事件概述": "「美股科技股冰火两重天，ARM大跌近9%，英伟达逼近历史新高，中国资产逆势上涨，网易涨超5%」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.725（爆点），所属板块类目：半导体。",
+    "事件概述": "「美股科技股冰火两重天，ARM大跌近9%，英伟达逼近历史新高，中国资产逆势上涨，网易涨超5%」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.774（爆点），所属板块类目：半导体。",
     "关键信息": "美股科技股冰火两重天，ARM大跌近9%，英伟达逼近历史新高，中国资产逆势上涨，网；美股集体低开 英伟达逆势涨近2%逼近历史新高；美股整体下跌之际中概股多数上涨 网易涨超5%",
     "市场影响": "关联板块代码：BK1161、BK1675、BK1036、BK0459、BK0448。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -356,124 +168,312 @@
     },
     {
      "n": 7,
-     "title": "美股芯片股，盘前普涨",
+     "title": "9月29日热门中概股多数上涨 网易涨超4% 贝壳涨超3%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-29/doc-initnsei2928931.shtml",
-     "rrf": 0.02837,
-     "bm25_rank": 17,
-     "vec_rank": 5
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmqsq2679338.shtml",
+     "rrf": 0.02831,
+     "bm25_rank": 6,
+     "vec_rank": 16
     },
     {
      "n": 8,
      "title": "美股三大股指集体低开，道指跌0.64%，标普500指数跌0.43%，纳指跌0.4",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3171575",
-     "rrf": 0.02817,
-     "bm25_rank": 12,
+     "rrf": 0.02798,
+     "bm25_rank": 13,
      "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "美股科技股冰火两重天，ARM大跌近9%，英伟达逼近历史新高，中国资产逆势上涨，网",
-    "bm25_only": 1,
-    "vec_only": 2,
+    "bm25_only": 2,
+    "vec_only": 1,
     "both": 4,
     "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "7a7ba7119d22b212",
-   "label": "国内商品期货开盘，集运欧线涨超5%，沥青、甲醇涨超2%，沪银、碳酸锂跌超2%，玻",
+   "key": "cfd4312b2845bd8d",
+   "label": "财政部 中国人民银行 金融监管总局关于实施居民购房贷款贴息政策的通知",
    "cached": false,
    "sections": {
-    "事件概述": "「国内商品期货开盘，集运欧线涨超5%，沥青、甲醇涨超2%，沪银、碳酸锂跌超2%，玻」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.706（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "国内商品期货开盘，集运欧线涨超5%，沥青、甲醇涨超2%，沪银、碳酸锂跌超2%，玻；国内商品期货早盘开盘 主力合约涨多跌少；收评|国内期货主力合约跌多涨少 集运欧线涨近7%",
+    "事件概述": "「财政部 中国人民银行 金融监管总局关于实施居民购房贷款贴息政策的通知」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.734（爆点），所属板块类目：综合。",
+    "关键信息": "三部门有关负责人就实施居民购房贷款贴息政策答记者问；财政部 中国人民银行 金融监管总局关于实施居民购房贷款贴息政策的通知；居民房贷贴息政策10月1日起实施",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "国内商品期货开盘，集运欧线涨超5%，沥青、甲醇涨超2%，沪银、碳酸锂跌超2%，玻",
+     "title": "三部门有关负责人就实施居民购房贷款贴息政策答记者问",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-29/10705738.shtml",
+     "rrf": 0.03252,
+     "bm25_rank": 1,
+     "vec_rank": 2
+    },
+    {
+     "n": 2,
+     "title": "财政部 中国人民银行 金融监管总局关于实施居民购房贷款贴息政策的通知",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/bank/2026-09-29/doc-initnwnc2841994.shtml",
+     "rrf": 0.03202,
+     "bm25_rank": 4,
+     "vec_rank": 1
+    },
+    {
+     "n": 3,
+     "title": "居民房贷贴息政策10月1日起实施",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/china/2026-09-29/doc-initnwmv7681178.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "中央财政首次出手：首套房贴息1个百分点，最长补5年",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/bank/2026-09-29/doc-initpauc2889414.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 2,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "居民购房贷款贴息政策10月1日起实施",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-30/10705962.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "6连涨牛股，今起停牌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initpxxr5883697.shtml",
+     "rrf": 0.02967,
+     "bm25_rank": 5,
+     "vec_rank": 10
+    },
+    {
+     "n": 7,
+     "title": "购房贷款贴息明起全国实施，哪些人受益、月供能省多少？",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-30/10706018.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 6,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "房贷贴息来了 一图看懂政策要点",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609293886682444.html",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "财政部 中国人民银行 金融监管总局关于实施居民购房贷款贴息政策的通知",
+    "bm25_only": 2,
+    "vec_only": 0,
+    "both": 6,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "40dc4b66fd1dc151",
+   "label": "恒指高开0.02%，报24648.64点；恒生科技指数跌0.21%。蔚来跌2%，",
+   "cached": false,
+   "sections": {
+    "事件概述": "「恒指高开0.02%，报24648.64点；恒生科技指数跌0.21%。蔚来跌2%，」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.727（爆点），所属板块类目：综合。",
+    "关键信息": "恒指高开0.02%，报24648.64点；恒生科技指数跌0.21%。蔚来跌2%，；恒指低开0.53%，报24393.88点；恒生科技指数跌0.41%。腾讯音乐、京；恒生科技指数盘初跌1%。",
+    "市场影响": "关联板块代码：BK1202、BK0451。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "恒指高开0.02%，报24648.64点；恒生科技指数跌0.21%。蔚来跌2%，",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3171137",
+     "url": "https://wallstreetcn.com/livenews/3171824",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "国内商品期货早盘开盘 主力合约涨多跌少",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609283884589625.html",
+     "title": "恒指低开0.53%，报24393.88点；恒生科技指数跌0.41%。腾讯音乐、京",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3172549",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "收评|国内期货主力合约跌多涨少 集运欧线涨近7%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-28/doc-initkhwz8615879.shtml",
-     "rrf": 0.03175,
+     "title": "恒生科技指数盘初跌1%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171836",
+     "rrf": 0.0315,
      "bm25_rank": 3,
-     "vec_rank": 3
+     "vec_rank": 4
     },
     {
      "n": 4,
-     "title": "开盘|国内期货主力合约跌多涨少 甲醇涨近4%",
+     "title": "港股午评：恒指跌0.63% 科指跌1.37% 科网股普跌 内房股强势",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-29/doc-initmzhp3081461.shtml",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-29/doc-initnfqp2937806.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "港股午评：恒指涨0.64% 科指跌0.54% 石油股活跃 光通信板块下挫",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-28/doc-initkarc8672493.shtml",
      "rrf": 0.03101,
      "bm25_rank": 4,
      "vec_rank": 5
     },
     {
-     "n": 5,
-     "title": "夜盘期货开盘，原油、燃油跌逾3%，低硫燃油、乙二醇、液化石油气跌逾2%，甲醇、沥",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3172239",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
-     "vec_rank": 4
-    },
-    {
      "n": 6,
-     "title": "集运指数（欧线）主力合约日内涨超8%",
+     "title": "港股开盘：恒生指数低开0.53% 恒生科技指数低开0.41%",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609283884591756.html",
-     "rrf": 0.02988,
-     "bm25_rank": 5,
-     "vec_rank": 9
+     "url": "https://finance.eastmoney.com/a/202609303887310455.html",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
     },
     {
      "n": 7,
-     "title": "【国投期货|航运专题】集运（欧线）：宣涨预期充分释放，兑现成色决定成败",
+     "title": "快讯：恒指高开0.02% 科指跌0.21% 黄金股低迷 创新药概念股高开 四只新股上市三只破发",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/2026-09-29/doc-initnwnc2807408.shtml",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-29/doc-initmzhk2586968.shtml",
      "rrf": 0.02881,
-     "bm25_rank": 7,
-     "vec_rank": 12
+     "bm25_rank": 12,
+     "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "【市场聚焦】碳酸锂：节前备货落幕 弱预期再主导",
+     "title": "港股CPO、半导体大跳水，长飞光纤光缆跌16%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/2026-09-29/doc-initnscx7759416.shtml",
-     "rrf": 0.02822,
-     "bm25_rank": 14,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/stock/wbstock/2026-09-28/doc-initkpex8561172.shtml",
+     "rrf": 0.02831,
+     "bm25_rank": 6,
+     "vec_rank": 16
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "国内商品期货开盘，集运欧线涨超5%，沥青、甲醇涨超2%，沪银、碳酸锂跌超2%，玻",
-    "bm25_only": 2,
+    "query": "恒指高开0.02%，报24648.64点；恒生科技指数跌0.21%。蔚来跌2%，",
+    "bm25_only": 1,
     "vec_only": 1,
-    "both": 5,
+    "both": 6,
     "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "d98154d8cd306f57",
+   "label": "A股地产股继续走强，深物业A2连板，特发服务、信达地产、沙河股份、深振业A、我爱",
+   "cached": false,
+   "sections": {
+    "事件概述": "「A股地产股继续走强，深物业A2连板，特发服务、信达地产、沙河股份、深振业A、我爱」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.701（爆点），所属板块类目：金融市场。",
+    "关键信息": "A股地产股继续走强，深物业A2连板，特发服务、信达地产、沙河股份、深振业A、我爱；A股地产股持续拉升，万科A触及涨停，信达地产、深物业A、华联控股等多股封板，特发；A股地产股开盘调整，我爱我家、世联行触及跌停，深物业A、深振业A、特发服务、万科",
+    "市场影响": "关联板块代码：BK0451、BK0815、BK1050。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "A股地产股继续走强，深物业A2连板，特发服务、信达地产、沙河股份、深振业A、我爱",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171834",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "A股地产股持续拉升，万科A触及涨停，信达地产、深物业A、华联控股等多股封板，特发",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3171856",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "A股地产股开盘调整，我爱我家、世联行触及跌停，深物业A、深振业A、特发服务、万科",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3172555",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "地量又现！地产股走强，地产ETF华宝（159707）标的指数涨超5%！顶级药企20亿美元入局",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/fund/etf/2026-09-29/doc-initnwnf2953511.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "000011，昨日涨停今日跌停！地产股调整",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609303887474422.html",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "房地产板块低开 我爱我家、世联行跌停",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609303887323688.html",
+     "rrf": 0.03008,
+     "bm25_rank": 6,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "房地产板块持续拉升 万科A冲击涨停",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609293886236857.html",
+     "rrf": 0.02986,
+     "bm25_rank": 8,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "大爆发！多只房地产ETF涨超6%，地产板块投资机会来了？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-29/doc-initnwnc6172976.shtml",
+     "rrf": 0.02819,
+     "bm25_rank": 13,
+     "vec_rank": 9
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "A股地产股继续走强，深物业A2连板，特发服务、信达地产、沙河股份、深振业A、我爱",
+    "bm25_only": 0,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }
