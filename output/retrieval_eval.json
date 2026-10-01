@@ -2,93 +2,93 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.534,
-  "avg_rank_diff": 1.21,
-  "avg_missed_by_bm25": 1.78,
-  "avg_missed_by_vector": 1.33,
-  "conclusion": "两路召回集平均重合度仅 53%；即便重合的文档，两路名次平均相差 1.21 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.78 篇最终进入 Top8 的文档；只用向量则漏掉 1.33 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.523,
+  "avg_rank_diff": 1.04,
+  "avg_missed_by_bm25": 1.0,
+  "avg_missed_by_vector": 1.89,
+  "conclusion": "两路召回集平均重合度仅 52%；即便重合的文档，两路名次平均相差 1.04 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.0 篇最终进入 Top8 的文档；只用向量则漏掉 1.89 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
    "query": "首套房贷贴息政策10月起执行！符合条件可享1个百分点贴息、“",
-   "jaccard": 0.6,
-   "rank_diff": 1.83,
+   "jaccard": 0.455,
+   "rank_diff": 1.2,
    "missed_by_bm25": 0,
-   "missed_by_vector": 2,
+   "missed_by_vector": 3,
    "example_top1": "首套房贷贴息政策10月起执行！符合条件可享1个百分点贴息、“免申即享”！银行密集响应，机构展"
   },
   {
    "type": "关键词式",
    "query": "首套 房贷 贴息 政策 执行 符合条件",
-   "jaccard": 0.333,
-   "rank_diff": 1.5,
+   "jaccard": 0.455,
+   "rank_diff": 1.4,
    "missed_by_bm25": 2,
-   "missed_by_vector": 2,
+   "missed_by_vector": 1,
    "example_top1": "首套房贷贴息政策10月起执行！符合条件可享1个百分点贴息、“免申即享”！银行密集响应，机构展"
   },
   {
    "type": "去数字泛化",
    "query": "首套房贷贴息政策月起执行！符合条件可享个百分点贴息、“免申即",
-   "jaccard": 0.6,
-   "rank_diff": 2.33,
-   "missed_by_bm25": 2,
+   "jaccard": 1.0,
+   "rank_diff": 1.75,
+   "missed_by_bm25": 0,
    "missed_by_vector": 0,
    "example_top1": "首套房贷贴息政策10月起执行！符合条件可享1个百分点贴息、“免申即享”！银行密集响应，机构展"
   },
   {
    "type": "原标题式",
-   "query": "美股三大股指涨跌不一，道指跌0.03%，纳指涨0.31%，标",
-   "jaccard": 0.778,
-   "rank_diff": 1.29,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 0,
-   "example_top1": "美股三大股指涨跌不一，道指跌0.03%，纳指涨0.31%，标普500指数涨0.1"
+   "query": "美国二季度个人消费支出(PCE)年化季环比终值 3.8%，预",
+   "jaccard": 0.6,
+   "rank_diff": 0.67,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 2,
+   "example_top1": "美国二季度个人消费支出(PCE)年化季环比终值 3.8%，预期 3.4%，初值 "
   },
   {
    "type": "关键词式",
-   "query": "美股 三大 股指 涨跌 指跌 纳指",
+   "query": "美国 二季度 个人消费 支出 年化季 环比",
    "jaccard": 0.6,
-   "rank_diff": 1.67,
-   "missed_by_bm25": 1,
+   "rank_diff": 0.83,
+   "missed_by_bm25": 0,
    "missed_by_vector": 2,
-   "example_top1": "美股三大股指涨跌不一，道指跌0.03%，纳指涨0.31%，标普500指数涨0.1"
+   "example_top1": "美国二季度个人消费支出(PCE)年化季环比终值 3.8%，预期 3.4%，初值 "
   },
   {
    "type": "去数字泛化",
-   "query": "美股三大股指涨跌不一，道指跌，纳指涨，标普指数涨",
-   "jaccard": 0.778,
-   "rank_diff": 1.57,
+   "query": "美国二季度个人消费支出(PCE)年化季环比终值 ，预期 ，初",
+   "jaccard": 0.6,
+   "rank_diff": 1.0,
    "missed_by_bm25": 1,
    "missed_by_vector": 1,
-   "example_top1": "美股三大股指涨跌不一，道指跌0.03%，纳指涨0.31%，标普500指数涨0.1"
+   "example_top1": "美国二季度个人消费支出(PCE)年化季环比终值 3.8%，预期 3.4%，初值 "
   },
   {
    "type": "原标题式",
-   "query": "美国7月S&P/CS20座大城市房价指数同比 2.47%，预",
+   "query": "港股午评：恒指跌0.04% 科指跌0.15% 半导体板块下挫",
    "jaccard": 0.333,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "美国7月S&P/CS20座大城市房价指数同比 2.47%，预期 2.2%，前值 "
+   "rank_diff": 1.25,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "港股午评：恒指跌0.04% 科指跌0.15% 半导体板块下挫 创新药概念股强势 欢创科技上市"
   },
   {
    "type": "关键词式",
-   "query": "美国 大城市 房价 指数 同比 预期",
-   "jaccard": 0.455,
-   "rank_diff": 0.2,
-   "missed_by_bm25": 3,
+   "query": "港股 午评 恒指 科指 半导体 板块",
+   "jaccard": 0.333,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
    "missed_by_vector": 2,
-   "example_top1": "美国7月S&P/CS20座大城市房价指数同比 2.47%，预期 2.2%，前值 "
+   "example_top1": "港股午评：恒指跌0.04% 科指跌0.15% 半导体板块下挫 创新药概念股强势 欢创科技上市"
   },
   {
    "type": "去数字泛化",
-   "query": "美国月S&P/CS座大城市房价指数同比 ，预期 ，前值",
+   "query": "港股午评：恒指跌 科指跌 半导体板块下挫 创新药概念股强势",
    "jaccard": 0.333,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 0,
-   "example_top1": "美国7月S&P/CS20座大城市房价指数同比 2.47%，预期 2.2%，前值 "
+   "rank_diff": 0.25,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 4,
+   "example_top1": "港股午评：恒指跌0.04% 科指跌0.15% 半导体板块下挫 创新药概念股强势 欢创科技上市"
   }
  ]
 }

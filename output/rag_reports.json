@@ -1,19 +1,19 @@
 {
  "engine": "template(降级)",
- "n_clusters": 61,
+ "n_clusters": 55,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.1,
+ "elapsed": 6.0,
  "reports": [
   {
-   "key": "348705ee3e239c0d",
+   "key": "604563d69e6242e2",
    "label": "首套房贷贴息政策10月起执行！符合条件可享1个百分点贴息、“免申即享”！银行密集响应，机构展望市",
    "cached": false,
    "sections": {
-    "事件概述": "「首套房贷贴息政策10月起执行！符合条件可享1个百分点贴息、“免申即享”！银行密集响应，机构展望市」由 19 篇报道聚合而成，覆盖 3 家媒体，热度 0.801（爆点），所属板块类目：综合。",
-    "关键信息": "首套房贷贴息政策10月起执行！符合条件可享1个百分点贴息、“免申即享”！银行密集；财政央行协同发力！居民购房贷款贴息政策即将落地，多家银行可“免申即享”；10月1日起符合条件的居民房贷可享贴息",
+    "事件概述": "「首套房贷贴息政策10月起执行！符合条件可享1个百分点贴息、“免申即享”！银行密集响应，机构展望市」由 14 篇报道聚合而成，覆盖 3 家媒体，热度 0.821（爆点），所属板块类目：综合。",
+    "关键信息": "首套房贷贴息政策10月起执行！符合条件可享1个百分点贴息、“免申即享”！银行密集；财政央行协同发力！居民购房贷款贴息政策即将落地，多家银行可“免申即享”；多家银行快速响应房贷贴息政策：“免申即享” 不额外收取服务费",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -32,68 +32,350 @@
      "title": "财政央行协同发力！居民购房贷款贴息政策即将落地，多家银行可“免申即享”",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initqvci2605036.shtml",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
+     "rrf": 0.03175,
+     "bm25_rank": 4,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "10月1日起符合条件的居民房贷可享贴息",
+     "title": "多家银行快速响应房贷贴息政策：“免申即享” 不额外收取服务费",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/estate/2026-09-30/doc-initpxxi7265250.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
+     "url": "https://finance.sina.com.cn/money/bank/gsdt/2026-09-30/doc-initqvax6992552.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 2,
      "vec_rank": 5
     },
     {
      "n": 4,
-     "title": "多家银行快速响应房贷贴息政策：“免申即享” 不额外收取服务费",
+     "title": "10月1日起符合条件的居民房贷可享贴息",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/bank/gsdt/2026-09-30/doc-initqvax6992552.shtml",
-     "rrf": 0.03105,
-     "bm25_rank": 2,
-     "vec_rank": 7
+     "url": "https://finance.sina.com.cn/stock/estate/2026-09-30/doc-initpxxi7265250.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
     },
     {
      "n": 5,
      "title": "（经济观察）中央财政首次“贴息”房贷 传递稳楼市与保民生双重信号",
      "media": "中新网",
      "url": "https://www.chinanews.com.cn/cj/2026/09-30/10706390.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
+     "rrf": 0.03126,
+     "bm25_rank": 5,
      "vec_rank": 3
     },
     {
      "n": 6,
-     "title": "房贷贴息来了 一图看懂政策要点",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609293886682444.html",
-     "rrf": 0.03012,
-     "bm25_rank": 4,
-     "vec_rank": 9
-    },
-    {
-     "n": 7,
      "title": "新华财经早报：9月30日",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initqefr2557734.shtml",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "购房贷款贴息明起全国实施，哪些人受益、月供能省多少？",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/09-30/10706018.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
      "vec_rank": 8
     },
     {
      "n": 8,
-     "title": "中央财政首次出手：首套房贴息1个百分点，最长补5年",
+     "title": "月供自动“减负”！六大行房贷贴息明日落地",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/bank/2026-09-29/doc-initpauc2889414.shtml",
-     "rrf": 0.02932,
-     "bm25_rank": 13,
-     "vec_rank": 4
+     "url": "https://finance.sina.com.cn/roll/2026-09-30/doc-initqvax6975491.shtml",
+     "rrf": 0.02899,
+     "bm25_rank": 8,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "首套房贷贴息政策10月起执行！符合条件可享1个百分点贴息、“免申即享”！银行密集",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "3db645f1d67b4b07",
+   "label": "美国二季度个人消费支出(PCE)年化季环比终值 3.8%，预期 3.4%，初值 ",
+   "cached": false,
+   "sections": {
+    "事件概述": "「美国二季度个人消费支出(PCE)年化季环比终值 3.8%，预期 3.4%，初值 」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.694（爆点），所属板块类目：综合。",
+    "关键信息": "美国二季度个人消费支出(PCE)年化季环比终值 3.8%，预期 3.4%，初值 ；美国二季度实际GDP年化季环比终值 2.2%，预期 1.5%，初值 1.5%。；美国二季度GDP平减指数年化季环比终值 6.1，预期 6.4，初值 6.4。",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "美国二季度个人消费支出(PCE)年化季环比终值 3.8%，预期 3.4%，初值 ",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3172940",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "美国二季度实际GDP年化季环比终值 2.2%，预期 1.5%，初值 1.5%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3172934",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "美国二季度GDP平减指数年化季环比终值 6.1，预期 6.4，初值 6.4。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3172942",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "美国8月实际个人消费支出(PCE)环比 0.6%，预期 0.5%，前值 0%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3172936",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "提醒：北京时间20:30，将公布美国二季度GDP终值，8月个人收入、个人消费支出",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3172927",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "美国8月个人支出环比增长0.9% 预期0.8%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609303887871626.html",
+     "rrf": 0.02963,
+     "bm25_rank": 7,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "美国8月PCE数据低于预期 市场削减美联储10月加息的押注",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609303887868954.html",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "美国8月批发库存环比初值 0.7%，预期 0.5%，前值 1.3%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3172933",
+     "rrf": 0.02904,
+     "bm25_rank": 6,
+     "vec_rank": 12
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "美国二季度个人消费支出(PCE)年化季环比终值 3.8%，预期 3.4%，初值 ",
+    "bm25_only": 2,
+    "vec_only": 0,
+    "both": 6,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "f1dff5f0c2b05817",
+   "label": "港股午评：恒指跌0.04% 科指跌0.15% 半导体板块下挫 创新药概念股强势 欢创科技上市首日",
+   "cached": false,
+   "sections": {
+    "事件概述": "「港股午评：恒指跌0.04% 科指跌0.15% 半导体板块下挫 创新药概念股强势 欢创科技上市首日」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.675（爆点），所属板块类目：金融市场。",
+    "关键信息": "港股午评：恒指跌0.04% 科指跌0.15% 半导体板块下挫 创新药概念股强势 ；快讯：恒指低开0.53% 科指跌0.41% 黄金股回暖 欢创科技上市首日涨超18；港股生物医药股爆发，3600亿港元龙头飙涨10%，半导体大跌，天数智芯跌超9%，",
+    "市场影响": "关联板块代码：BK0451、BK1050、BK0815。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "港股午评：恒指跌0.04% 科指跌0.15% 半导体板块下挫 创新药概念股强势 欢创科技上市首日涨超194%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-30/doc-initqqvi5771415.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "快讯：恒指低开0.53% 科指跌0.41% 黄金股回暖 欢创科技上市首日涨超185%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-30/doc-initqkpm5736413.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "港股生物医药股爆发，3600亿港元龙头飙涨10%，半导体大跌，天数智芯跌超9%，兆易创新跌超3%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-30/doc-initqzmc5807941.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "欢创科技港股上市首日收涨超265%，去年刚扭亏为盈",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initrftc2507854.shtml",
+     "rrf": 0.0308,
+     "bm25_rank": 3,
+     "vec_rank": 7
+    },
+    {
+     "n": 5,
+     "title": "港股9月收官！恒生科技指数月内跌近8% 新股破发率近六成",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-30/doc-initqzmc5724433.shtml",
+     "rrf": 0.03058,
+     "bm25_rank": 8,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "恒指低开0.53%，报24393.88点；恒生科技指数跌0.41%。腾讯音乐、京",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3172549",
+     "rrf": 0.02988,
+     "bm25_rank": 9,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "AI发展加速新药研发，相关订单有望逐季递增，港股创新药ETF博时(520690)跟踪指数强势拉升涨超2%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609303887492558.html",
+     "rrf": 0.02867,
+     "bm25_rank": 6,
+     "vec_rank": 14
+    },
+    {
+     "n": 8,
+     "title": "欢创科技首挂上市 早盘大涨226.25%公司为全球智能机器人空间感知解决方案第一",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggipo/2026-09-30/doc-initqkpp2531508.shtml",
+     "rrf": 0.02826,
+     "bm25_rank": 7,
+     "vec_rank": 15
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "港股午评：恒指跌0.04% 科指跌0.15% 半导体板块下挫 创新药概念股强势 ",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "01cdd79e6041c98f",
+   "label": "美光科技CFO：2027财年第一财季收入将达615亿美元 各季度毛利率预计逐步回升",
+   "cached": false,
+   "sections": {
+    "事件概述": "「美光科技CFO：2027财年第一财季收入将达615亿美元 各季度毛利率预计逐步回升」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.675（爆点），所属板块类目：国际市场。",
+    "关键信息": "美光科技CFO：2027财年第一财季收入将达615亿美元 各季度毛利率预计逐步回；美光第四财季业绩、下季指引均超预期 盘后股价小幅震荡；美光Q4营收单季破542亿美元 预判存储2027-2028持续供给紧缺",
+    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "美光科技CFO：2027财年第一财季收入将达615亿美元 各季度毛利率预计逐步回升",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610013888192113.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "美光第四财季业绩、下季指引均超预期 盘后股价小幅震荡",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610013887990366.html",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "美光Q4营收单季破542亿美元 预判存储2027-2028持续供给紧缺",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initsawr5523815.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "美光科技分析师电话会议要点总结",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3173392",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "美光第四财季营收增长379%，新财季指引升至615亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittekc1216244.shtml",
+     "rrf": 0.03062,
+     "bm25_rank": 9,
+     "vec_rank": 2
+    },
+    {
+     "n": 6,
+     "title": "捷普预计2027财年营收增长24%，AI相关收入将增至221亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initteki6721771.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 5,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "美光盘前跌0.8% Q4利润、营收大幅飙升",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittksc1977641.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 8,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "美股三大股指小幅高开，埃森哲大涨超20%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3173372",
+     "rrf": 0.02904,
+     "bm25_rank": 6,
+     "vec_rank": 12
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "美光科技CFO：2027财年第一财季收入将达615亿美元 各季度毛利率预计逐步回",
     "bm25_only": 1,
     "vec_only": 1,
     "both": 6,
@@ -102,378 +384,96 @@
    "elapsed": 0.0
   },
   {
-   "key": "55485b7409852599",
-   "label": "美股三大股指涨跌不一，道指跌0.03%，纳指涨0.31%，标普500指数涨0.1",
+   "key": "8e65fbf56326aef5",
+   "label": "10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超71个基点",
    "cached": false,
    "sections": {
-    "事件概述": "「美股三大股指涨跌不一，道指跌0.03%，纳指涨0.31%，标普500指数涨0.1」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.766（爆点），所属板块类目：半导体。",
-    "关键信息": "美股三大股指涨跌不一，道指跌0.03%，纳指涨0.31%，标普500指数涨0.1；美股开盘三大股指涨跌不一 存储板块集体上扬；美股三大股指开盘小幅上涨，道指涨0.2%，标普500指数涨0.3%，纳指涨0.4",
-    "市场影响": "关联板块代码：BK1036、BK0459、BK0448、BK0736。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "美股三大股指涨跌不一，道指跌0.03%，纳指涨0.31%，标普500指数涨0.1",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3172256",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "美股开盘三大股指涨跌不一 存储板块集体上扬",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609293886685677.html",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "美股三大股指开盘小幅上涨，道指涨0.2%，标普500指数涨0.3%，纳指涨0.4",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3172972",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "10月1日美股收盘：9月收官日美股三大股指涨跌不一 道指跌440点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initsawi6476390.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "美股三大股指齐拉升",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609303887869994.html",
-     "rrf": 0.03102,
-     "bm25_rank": 3,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "开盘：三大股指高开，油价、收益率回落，科技股上涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initpauc2928417.shtml",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "开盘：上月通胀放缓，三大股指齐涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrmyx5733866.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "美国股指期货上涨",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610013888062356.html",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
-     "vec_rank": 8
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "美股三大股指涨跌不一，道指跌0.03%，纳指涨0.31%，标普500指数涨0.1",
-    "bm25_only": 0,
-    "vec_only": 1,
-    "both": 7,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "0eec00e2d777c0f5",
-   "label": "美国7月S&P/CS20座大城市房价指数同比 2.47%，预期 2.2%，前值 ",
-   "cached": false,
-   "sections": {
-    "事件概述": "「美国7月S&P/CS20座大城市房价指数同比 2.47%，预期 2.2%，前值 」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.706（爆点），所属板块类目：综合。",
-    "关键信息": "美国7月S&P/CS20座大城市房价指数同比 2.47%，预期 2.2%，前值 ；美国7月FHFA房价指数环比 0.3%，预期 0.1%，前值 0%。；S&P Cotality美国20城房价指数同比上涨2.47% 预期涨2.2%",
+    "事件概述": "「10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超71个基点」由 15 篇报道聚合而成，覆盖 3 家媒体，热度 0.656（爆点），所属板块类目：宏观政策。",
+    "关键信息": "10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超7；美债10年期收益率逼近2007年高位，9月或创两年来最大单月升幅；美债收益率小幅回落，2年期国债收益率下行3个基点至4.86%。",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "美国7月S&P/CS20座大城市房价指数同比 2.47%，预期 2.2%，前值 ",
+     "title": "10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超71个基点",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3172235",
+     "url": "https://wallstreetcn.com/livenews/3173195",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "美国7月FHFA房价指数环比 0.3%，预期 0.1%，前值 0%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3172237",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "S&P Cotality美国20城房价指数同比上涨2.47% 预期涨2.2%",
+     "title": "美债10年期收益率逼近2007年高位，9月或创两年来最大单月升幅",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzz2814458.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "美国7月房价环比上涨0.3%，中大西洋地区涨幅居首",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initqvcf5822939.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "美国8月PCE物价指数环比 0.3%，预期 0.3%，前值 0.2%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3172937",
-     "rrf": 0.02967,
-     "bm25_rank": 10,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "美国8月PCE数据低于预期 市场削减美联储10月加息的押注",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609303887868954.html",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "澳大利亚8月CPI同比 4%，预期 4.1%，前值 3.5%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3172558",
-     "rrf": 0.02878,
-     "bm25_rank": 4,
-     "vec_rank": 16
-    },
-    {
-     "n": 8,
-     "title": "美国8月实际个人消费支出(PCE)环比 0.6%，预期 0.5%，前值 0%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3172936",
-     "rrf": 0.02862,
-     "bm25_rank": 13,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "美国7月S&P/CS20座大城市房价指数同比 2.47%，预期 2.2%，前值 ",
-    "bm25_only": 1,
-    "vec_only": 3,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "b8ae7ceb385bd4e4",
-   "label": "9月30日隔夜要闻：美股收跌 油价下挫 金价反弹 美联储威廉姆斯表示9月加息后“不急于采取行动”",
-   "cached": false,
-   "sections": {
-    "事件概述": "「9月30日隔夜要闻：美股收跌 油价下挫 金价反弹 美联储威廉姆斯表示9月加息后“不急于采取行动”」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.69（爆点），所属板块类目：国际市场。",
-    "关键信息": "9月30日隔夜要闻：美股收跌 油价下挫 金价反弹 美联储威廉姆斯表示9月加息后“；威廉姆斯给10月加息踩刹车：今年或再加一次，但现在“不必急”；高盛将美联储加息预期从10月推迟至12月",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "9月30日隔夜要闻：美股收跌 油价下挫 金价反弹 美联储威廉姆斯表示9月加息后“不急于采取行动”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-30/doc-initqefr2529266.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "威廉姆斯给10月加息踩刹车：今年或再加一次，但现在“不必急”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/whxwsd/2026-09-30/doc-initpxxt2655564.shtml",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "高盛将美联储加息预期从10月推迟至12月",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-01/doc-initrwqv2346593.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "10月1日隔夜要闻：特朗普又逼鲍威尔辞职 派拉蒙发债300亿美元 美国8月通胀低预期 高盛推迟加息预期至12月",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initsier2198985.shtml",
-     "rrf": 0.02971,
-     "bm25_rank": 11,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "降温效果显著！美国嗷一嗓子抛储，WTI夜盘大跌4%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-30/doc-initqefp5768608.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 6,
-     "vec_rank": 11
-    },
-    {
-     "n": 6,
-     "title": "纽约联储行长预计2026年底还将有一次加息",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initptrt5919661.shtml",
-     "rrf": 0.02879,
-     "bm25_rank": 2,
-     "vec_rank": 19
-    },
-    {
-     "n": 7,
-     "title": "比特币守住8.3万美元 油价再度上涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnmwi2970907.shtml",
-     "rrf": 0.02872,
-     "bm25_rank": 15,
-     "vec_rank": 5
-    },
-    {
-     "n": 8,
-     "title": "美国债市：国债收盘涨跌互现 收益率曲线趋陡 纽约联储行长谈加息",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-09-30/doc-initpxxr5842730.shtml",
-     "rrf": 0.02844,
-     "bm25_rank": 14,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "9月30日隔夜要闻：美股收跌 油价下挫 金价反弹 美联储威廉姆斯表示9月加息后“",
-    "bm25_only": 2,
-    "vec_only": 3,
-    "both": 3,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "60ebcfcd2624e3ee",
-   "label": "美国9月ADP就业人数变动 9万人，预期 7.5万人，前值 3.8万人。",
-   "cached": false,
-   "sections": {
-    "事件概述": "「美国9月ADP就业人数变动 9万人，预期 7.5万人，前值 3.8万人。」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.671（爆点），所属板块类目：综合。",
-    "关键信息": "美国9月ADP就业人数变动 9万人，预期 7.5万人，前值 3.8万人。；美国9月私营就业人数增加9万人 预估增加7.4万人；ADP数据显示美国企业9月新增9万个就业岗位",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "美国9月ADP就业人数变动 9万人，预期 7.5万人，前值 3.8万人。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3172925",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "美国9月私营就业人数增加9万人 预估增加7.4万人",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202609303887862044.html",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initqzmc2043570.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "ADP数据显示美国企业9月新增9万个就业岗位",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrmyx5758681.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
+     "title": "美债收益率小幅回落，2年期国债收益率下行3个基点至4.86%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3173354",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "德国9月失业人数增加1.2万，明显高于预期",
+     "title": "全球债券抛售潮愈演愈烈，美国10年期美债收益率创2002年以来新高",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initqzmc2044596.shtml",
-     "rrf": 0.03058,
-     "bm25_rank": 3,
-     "vec_rank": 8
-    },
-    {
-     "n": 5,
-     "title": "ADP报告：9月私营部门新增就业9万人，好于市场预期",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrmyz2519366.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittekc1223395.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
      "vec_rank": 4
     },
     {
+     "n": 5,
+     "title": "10年期日本国债收益率上升3个基点至3.09%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610013888162460.html",
+     "rrf": 0.02963,
+     "bm25_rank": 7,
+     "vec_rank": 8
+    },
+    {
      "n": 6,
-     "title": "美国8月个人收入环比 0.2%，预期 0.5%，前值 0.4%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3172939",
-     "rrf": 0.02899,
-     "bm25_rank": 9,
-     "vec_rank": 9
+     "title": "创2002年以来最高！30年期美债收益率冲破5.6%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initqefr2606516.shtml",
+     "rrf": 0.02908,
+     "bm25_rank": 13,
+     "vec_rank": 5
     },
     {
      "n": 7,
-     "title": "美国8月PCE物价指数环比 0.3%，预期 0.3%，前值 0.2%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3172937",
-     "rrf": 0.02762,
-     "bm25_rank": 10,
-     "vec_rank": 15
+     "title": "30年期美债收益率连涨6日 巴克莱：公允水平或升至6%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-09-30/doc-initptrt2505273.shtml",
+     "rrf": 0.02797,
+     "bm25_rank": 12,
+     "vec_rank": 11
     },
     {
      "n": 8,
-     "title": "周三美股盘前你需要了解的全球要闻",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3172955",
-     "rrf": 0.02762,
-     "bm25_rank": 15,
-     "vec_rank": 10
+     "title": "美国两年期国债收益率在数据公布后继续下跌",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202609303887872352.html",
+     "rrf": 0.0278,
+     "bm25_rank": 10,
+     "vec_rank": 14
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "美国9月ADP就业人数变动 9万人，预期 7.5万人，前值 3.8万人。",
+    "query": "10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超7",
     "bm25_only": 0,
-    "vec_only": 0,
+    "vec_only": 1,
     "both": 5,
-    "neither_topk": 3
+    "neither_topk": 2
    },
    "elapsed": 0.0
   }
