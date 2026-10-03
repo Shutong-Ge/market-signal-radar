@@ -1,112 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 41,
+ "n_clusters": 48,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.7,
+ "elapsed": 6.6,
  "reports": [
   {
-   "key": "63b3a91c1b2989a0",
-   "label": "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加剧",
-   "cached": false,
-   "sections": {
-    "事件概述": "「美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加剧」由 25 篇报道聚合而成，覆盖 3 家媒体，热度 0.82（爆点），所属板块类目：宏观政策。",
-    "关键信息": "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加；全球债券抛售潮愈演愈烈，美国10年期美债收益率创2002年以来新高；开盘：三大股指齐涨 AI相关股票上涨 尽管10年期美债收益率再创新高",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加剧",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-03/doc-initwvkr5157670.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "全球债券抛售潮愈演愈烈，美国10年期美债收益率创2002年以来新高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittekc1223395.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
-    },
-    {
-     "n": 3,
-     "title": "开盘：三大股指齐涨 AI相关股票上涨 尽管10年期美债收益率再创新高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvfv5050910.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 8,
-     "vec_rank": 10
-    },
-    {
-     "n": 4,
-     "title": "创24年来新高！全球债市再遭抛售，美债“恶性循环”已难破局",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-10-01/doc-inittkrz5195587.shtml",
-     "rrf": 0.02896,
-     "bm25_rank": 15,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "10年期美债收益率创2022年以来最大单月涨幅",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvfv5095202.shtml",
-     "rrf": 0.02879,
-     "bm25_rank": 11,
-     "vec_rank": 8
-    },
-    {
-     "n": 6,
-     "title": "美英长期国债收益率飙升 通胀与财政压力加剧债市抛售",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-01/doc-inittekc5265905.shtml",
-     "rrf": 0.02853,
-     "bm25_rank": 19,
-     "vec_rank": 3
-    },
-    {
-     "n": 7,
-     "title": "投资者静待重磅就业报告，美债收益率小幅走高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvpqz4616065.shtml",
-     "rrf": 0.02724,
-     "bm25_rank": 30,
-     "vec_rank": 2
-    },
-    {
-     "n": 8,
-     "title": "英国长期借贷成本触及6% 为1998年以来首次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-01/doc-inittkrz1099289.shtml",
-     "rrf": 0.02683,
-     "bm25_rank": 7,
-     "vec_rank": 24
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加",
-    "bm25_only": 2,
-    "vec_only": 4,
-    "both": 2,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "c4fb8f17ec170932",
+   "key": "89ea32240b1bfe95",
    "label": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每",
    "cached": false,
    "sections": {
-    "事件概述": "「提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每」由 44 篇报道聚合而成，覆盖 3 家媒体，热度 0.78（爆点），所属板块类目：国际市场。",
+    "事件概述": "「提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每」由 45 篇报道聚合而成，覆盖 3 家媒体，热度 0.745（爆点），所属板块类目：国际市场。",
     "关键信息": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每；美国9月非农就业人口变动 2.9万人，预期 9万人，前值 16.2万人。；美联储本月加不加息？美国9月非农今晚揭晓 全球市场严阵以待",
     "市场影响": "关联板块代码：BK0481、BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -126,8 +32,8 @@
      "title": "美国9月非农就业人口变动 2.9万人，预期 9万人，前值 16.2万人。",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3173671",
-     "rrf": 0.03105,
-     "bm25_rank": 7,
+     "rrf": 0.03062,
+     "bm25_rank": 9,
      "vec_rank": 2
     },
     {
@@ -159,142 +65,48 @@
     },
     {
      "n": 6,
-     "title": "提醒：北京时间22:00，将公布美国9月ISM制造业指数、8月营建支出。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173382",
-     "rrf": 0.02929,
-     "bm25_rank": 2,
-     "vec_rank": 16
+     "title": "美国9月就业发布后比特币24小时内上涨超过2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3932715.shtml",
+     "rrf": 0.02927,
+     "bm25_rank": 5,
+     "vec_rank": 12
     },
     {
      "n": 7,
-     "title": "美联储加息预期生变，美股期指短线拉升",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-10-02/doc-initvyez5540033.shtml",
-     "rrf": 0.02869,
-     "bm25_rank": 3,
-     "vec_rank": 18
+     "title": "提醒：北京时间22:00，将公布美国9月ISM制造业指数、8月营建支出。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3173382",
+     "rrf": 0.02912,
+     "bm25_rank": 2,
+     "vec_rank": 17
     },
     {
      "n": 8,
-     "title": "美国上月仅新增2.9万个就业岗位，失业率小幅升至4.2%",
+     "title": "美联储加息预期生变，美股期指短线拉升",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyfc7145617.shtml",
-     "rrf": 0.02742,
-     "bm25_rank": 15,
-     "vec_rank": 11
+     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-10-02/doc-initvyez5540033.shtml",
+     "rrf": 0.02853,
+     "bm25_rank": 3,
+     "vec_rank": 19
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 4,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "378ca350ac84e041",
-   "label": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次",
-   "cached": false,
-   "sections": {
-    "事件概述": "「国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次」由 20 篇报道聚合而成，覆盖 3 家媒体，热度 0.738（爆点），所属板块类目：综合。",
-    "关键信息": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次；国庆假期首日 全社会跨区域人员流动量超3.3亿人次；视频丨国庆假期首日迎出行高峰 交通部门全力保障",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-initwzsm0893992.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "国庆假期首日 全社会跨区域人员流动量超3.3亿人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-02/doc-initusmp1541659.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "视频丨国庆假期首日迎出行高峰 交通部门全力保障",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittqyc6520806.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "国庆假期第二天全社会跨区域人员流动量超3亿人次",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610033888449310.html",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "国庆假期首日中国跨区域人员流动量预计超3.3亿人次",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-01/10706825.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "交通运输部预计国庆假期全国出行客流量21.3亿人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/estate/integration/2026-10-02/doc-inituwti4695853.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 11,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "21.3亿、268%！数说流动中国的假日新活力",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-02/doc-initusmp1527177.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
-    },
-    {
-     "n": 8,
-     "title": "10月1日，全社会跨区域人员流动量预计超3.3亿人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittqxx5159199.shtml",
-     "rrf": 0.02821,
-     "bm25_rank": 5,
-     "vec_rank": 18
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 5,
+    "bm25_only": 3,
+    "vec_only": 2,
+    "both": 3,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "b7ea79e58d97fab3",
+   "key": "9e1cb715a903dd25",
    "label": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿里均",
    "cached": false,
    "sections": {
-    "事件概述": "「恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿里均」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.688（爆点），所属板块类目：金融市场。",
+    "事件概述": "「恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿里均」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.652（爆点），所属板块类目：金融市场。",
     "关键信息": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体；港股午评：恒指跌2.64%失守24000点 科指跌2.45% 科网股普跌 赛力斯；港股三大指数均跌超2%，恒生指数失守24000点",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -332,21 +144,12 @@
      "title": "恒指日内跌超3%，恒生科技指数跌幅扩大至3.3%，恒生生物科技指数跌4.5%。哔",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3173583",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
+     "rrf": 0.03033,
+     "bm25_rank": 8,
      "vec_rank": 4
     },
     {
      "n": 5,
-     "title": "港股开盘下挫，恒生科技指数跌超2%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-02/doc-inituwtp5952152.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 5,
-     "vec_rank": 8
-    },
-    {
-     "n": 6,
      "title": "快讯：恒指低开2.09% 科指跌1.87% 科网股普跌 中资券商股活跃",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-02/doc-inituwtr7553752.shtml",
@@ -355,12 +158,21 @@
      "vec_rank": 5
     },
     {
+     "n": 6,
+     "title": "港股开盘下挫，恒生科技指数跌超2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-02/doc-inituwtp5952152.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
+     "vec_rank": 8
+    },
+    {
      "n": 7,
      "title": "港股国庆后首日交易遇冷 三大指数集体重挫 金融股成拖累指数核心力量",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-10-02/doc-initvtxf7219250.shtml",
-     "rrf": 0.02879,
-     "bm25_rank": 8,
+     "rrf": 0.02901,
+     "bm25_rank": 7,
      "vec_rank": 11
     },
     {
@@ -384,11 +196,11 @@
    "elapsed": 0.0
   },
   {
-   "key": "f0dd586fafabca8d",
+   "key": "10abaa9683664d3d",
    "label": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温",
    "cached": false,
    "sections": {
-    "事件概述": "「核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.667（高热），所属板块类目：宏观政策。",
+    "事件概述": "「核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.631（爆点），所属板块类目：宏观政策。",
     "关键信息": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温；韩国9月通胀保持高位 料支持韩国央行维持紧缩倾向；韩国9月通胀回落至2.9%，央行预计10月仍接近3%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -435,45 +247,233 @@
      "title": "周四美股盘前你需要了解的全球要闻",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3173365",
-     "rrf": 0.02988,
-     "bm25_rank": 5,
+     "rrf": 0.03012,
+     "bm25_rank": 4,
      "vec_rank": 9
     },
     {
      "n": 6,
-     "title": "韩国9月CPI同比 2.9%，预期 2.9%，前值 3.1%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173549",
-     "rrf": 0.02947,
-     "bm25_rank": 11,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
      "title": "日本东京9月份核心通胀率升至2.7%，支持加息预期",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initusmr6056754.shtml",
-     "rrf": 0.02944,
-     "bm25_rank": 10,
+     "rrf": 0.02986,
+     "bm25_rank": 8,
      "vec_rank": 6
     },
     {
+     "n": 7,
+     "title": "韩国9月CPI同比 2.9%，预期 2.9%，前值 3.1%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3173549",
+     "rrf": 0.02967,
+     "bm25_rank": 10,
+     "vec_rank": 5
+    },
+    {
      "n": 8,
-     "title": "外围涨疯了：美光业绩提振市场情绪 美联储本月加息概率下调 韩国芯片出口暴增263%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittekc1202103.shtml",
-     "rrf": 0.02679,
-     "bm25_rank": 20,
-     "vec_rank": 10
+     "title": "加息预期骤变！美联储官员鹰派立场软化 又一大行“撕报告”",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610033888457516.html",
+     "rrf": 0.02658,
+     "bm25_rank": 11,
+     "vec_rank": 20
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温",
     "bm25_only": 1,
-    "vec_only": 2,
-    "both": 4,
+    "vec_only": 1,
+    "both": 5,
     "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "f089fb74feac3782",
+   "label": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次",
+   "cached": false,
+   "sections": {
+    "事件概述": "「国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次」由 16 篇报道聚合而成，覆盖 3 家媒体，热度 0.62（爆点），所属板块类目：综合。",
+    "关键信息": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次；国庆假期首日，全社会跨区域人员流动量预计超3.3亿人次；国庆假期第二天全社会跨区域人员流动量超3亿人次",
+    "市场影响": "关联板块代码：BK0422。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-initwzsm0893992.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "国庆假期首日，全社会跨区域人员流动量预计超3.3亿人次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittqxx5166463.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "国庆假期第二天全社会跨区域人员流动量超3亿人次",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610033888449310.html",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "国庆假期迎出行高峰 交通部门全力保障",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-02/doc-initusmr6045913.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "交通运输部：10月2日全社会跨区域人员流动量30550.4万人次",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610033888482790.html",
+     "rrf": 0.02947,
+     "bm25_rank": 5,
+     "vec_rank": 11
+    },
+    {
+     "n": 6,
+     "title": "21.3亿、268%！数说流动中国的假日新活力",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-02/doc-initusmp1527177.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
+    },
+    {
+     "n": 7,
+     "title": "交通运输部预计国庆假期全国出行客流量21.3亿人次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/estate/integration/2026-10-02/doc-inituwti4695853.shtml",
+     "rrf": 0.02904,
+     "bm25_rank": 12,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "10月1日，全社会跨区域人员流动量预计超3.3亿人次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittqxx5159199.shtml",
+     "rrf": 0.02861,
+     "bm25_rank": 4,
+     "vec_rank": 17
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次",
+    "bm25_only": 3,
+    "vec_only": 1,
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "9f81b52ce7d01a6b",
+   "label": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀",
+   "cached": false,
+   "sections": {
+    "事件概述": "「G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.614（高热），所属板块类目：大宗与能化。",
+    "关键信息": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减；G7同意联手释放1亿桶能源储备 换取美国放弃柴油出口禁令；视频丨七国集团释放1亿桶战略石油储备 能否稳住油价？",
+    "市场影响": "关联板块代码：BK0464。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-10-03/doc-initwzsp5057993.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "G7同意联手释放1亿桶能源储备 换取美国放弃柴油出口禁令",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610033888443431.html",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "视频丨七国集团释放1亿桶战略石油储备 能否稳住油价？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-initxwvx3918288.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 2,
+     "vec_rank": 6
+    },
+    {
+     "n": 4,
+     "title": "七国集团将释放多达1亿桶柴油和石油",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyev4497371.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "七国集团将释放1亿桶战略石油储备",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610033888457325.html",
+     "rrf": 0.03037,
+     "bm25_rank": 3,
+     "vec_rank": 9
+    },
+    {
+     "n": 6,
+     "title": "美国要求欧洲180天释放1.2亿桶柴油储备，试图以此替代出口禁令",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvhc8045948.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "油价下挫 报道称欧盟正讨论释放更多柴油储备",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvpqz4603220.shtml",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
+     "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "七国集团同意释放紧急储备后 特朗普称美国不会禁止柴油出口",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwvkp0923128.shtml",
+     "rrf": 0.02957,
+     "bm25_rank": 13,
+     "vec_rank": 3
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   }
