@@ -1,40 +1,31 @@
 {
  "summary": {
-  "n_queries": 9,
+  "n_queries": 7,
   "top_k": 8,
-  "avg_jaccard": 0.392,
-  "avg_rank_diff": 1.1,
-  "avg_missed_by_bm25": 1.67,
-  "avg_missed_by_vector": 2.22,
-  "conclusion": "两路召回集平均重合度仅 39%；即便重合的文档，两路名次平均相差 1.1 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.67 篇最终进入 Top8 的文档；只用向量则漏掉 2.22 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.279,
+  "avg_rank_diff": 1.27,
+  "avg_missed_by_bm25": 2.29,
+  "avg_missed_by_vector": 3.0,
+  "conclusion": "两路召回集平均重合度仅 28%；即便重合的文档，两路名次平均相差 1.27 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.29 篇最终进入 Top8 的文档；只用向量则漏掉 3.0 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "10年期美债收益率自2007年以来首次涨穿5.3%，两年期美",
-   "jaccard": 0.333,
-   "rank_diff": 0.75,
-   "missed_by_bm25": 2,
+   "query": "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮",
+   "jaccard": 0.143,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 3,
    "missed_by_vector": 3,
-   "example_top1": "10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超71个基点"
+   "example_top1": "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加剧"
   },
   {
    "type": "关键词式",
-   "query": "年期 美债 收益率 以来 首次 两年",
-   "jaccard": 0.455,
-   "rank_diff": 1.6,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超71个基点"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "年期美债收益率自年以来首次涨穿，两年期美债收益率三季度涨超个",
+   "query": "美债 收益率 居高不下 借贷 成本 持续",
    "jaccard": 0.333,
-   "rank_diff": 0.75,
-   "missed_by_bm25": 2,
+   "rank_diff": 1.75,
+   "missed_by_bm25": 3,
    "missed_by_vector": 2,
-   "example_top1": "10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超71个基点"
+   "example_top1": "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加剧"
   },
   {
    "type": "原标题式",
@@ -49,7 +40,7 @@
    "type": "关键词式",
    "query": "提醒 北京 时间 公布 美国 非农",
    "jaccard": 0.333,
-   "rank_diff": 1.5,
+   "rank_diff": 0.75,
    "missed_by_bm25": 2,
    "missed_by_vector": 2,
    "example_top1": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每"
@@ -57,38 +48,29 @@
   {
    "type": "去数字泛化",
    "query": "提醒：北京时间:，将公布美国月非农就业报告（含就业人口、失业",
-   "jaccard": 0.333,
-   "rank_diff": 0.75,
+   "jaccard": 0.231,
+   "rank_diff": 1.33,
    "missed_by_bm25": 2,
-   "missed_by_vector": 2,
+   "missed_by_vector": 4,
    "example_top1": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每"
   },
   {
    "type": "原标题式",
-   "query": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年",
+   "query": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量",
    "jaccard": 0.455,
-   "rank_diff": 1.8,
+   "rank_diff": 2.2,
    "missed_by_bm25": 1,
    "missed_by_vector": 2,
-   "example_top1": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿"
+   "example_top1": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次"
   },
   {
    "type": "关键词式",
-   "query": "恒指 失守 点创 三月 最大 跌幅",
-   "jaccard": 0.455,
-   "rank_diff": 1.6,
-   "missed_by_bm25": 0,
+   "query": "国庆 假期 首日 铁路 客运量 同比",
+   "jaccard": 0.231,
+   "rank_diff": 1.67,
+   "missed_by_bm25": 3,
    "missed_by_vector": 3,
-   "example_top1": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "恒指失守点创三月来最大跌幅，恒科指下挫超创年新低，权重科网股",
-   "jaccard": 0.6,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 0,
-   "example_top1": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿"
+   "example_top1": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次"
   }
  ]
 }

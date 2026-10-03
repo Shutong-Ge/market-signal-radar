@@ -1,114 +1,114 @@
 {
  "engine": "template(降级)",
- "n_clusters": 46,
+ "n_clusters": 41,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.9,
+ "elapsed": 6.7,
  "reports": [
   {
-   "key": "2426885ca2a4b9de",
-   "label": "10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超71个基点",
+   "key": "63b3a91c1b2989a0",
+   "label": "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加剧",
    "cached": false,
    "sections": {
-    "事件概述": "「10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超71个基点」由 37 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：宏观政策。",
-    "关键信息": "10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超7；美债收益率小幅回落，2年期国债收益率下行3个基点至4.86%。；10年期美债收益率创2022年以来最大单月涨幅",
-    "市场影响": "关联板块代码：BK0481、BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加剧」由 25 篇报道聚合而成，覆盖 3 家媒体，热度 0.82（爆点），所属板块类目：宏观政策。",
+    "关键信息": "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加；全球债券抛售潮愈演愈烈，美国10年期美债收益率创2002年以来新高；开盘：三大股指齐涨 AI相关股票上涨 尽管10年期美债收益率再创新高",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超71个基点",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173195",
+     "title": "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加剧",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-03/doc-initwvkr5157670.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "美债收益率小幅回落，2年期国债收益率下行3个基点至4.86%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173354",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "10年期美债收益率创2022年以来最大单月涨幅",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvfv5095202.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
      "title": "全球债券抛售潮愈演愈烈，美国10年期美债收益率创2002年以来新高",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittekc1223395.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
+     "rrf": 0.0303,
+     "bm25_rank": 6,
+     "vec_rank": 6
+    },
+    {
+     "n": 3,
+     "title": "开盘：三大股指齐涨 AI相关股票上涨 尽管10年期美债收益率再创新高",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvfv5050910.shtml",
+     "rrf": 0.02899,
+     "bm25_rank": 8,
+     "vec_rank": 10
+    },
+    {
+     "n": 4,
+     "title": "创24年来新高！全球债市再遭抛售，美债“恶性循环”已难破局",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-10-01/doc-inittkrz5195587.shtml",
+     "rrf": 0.02896,
+     "bm25_rank": 15,
      "vec_rank": 4
     },
     {
      "n": 5,
-     "title": "10年期日本国债收益率上升3个基点至3.09%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610013888162460.html",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
+     "title": "10年期美债收益率创2022年以来最大单月涨幅",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvfv5095202.shtml",
+     "rrf": 0.02879,
+     "bm25_rank": 11,
      "vec_rank": 8
     },
     {
      "n": 6,
-     "title": "美国2年至7年期国债收益率日内均下跌至少10个基点",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610023888386435.html",
-     "rrf": 0.02927,
-     "bm25_rank": 12,
-     "vec_rank": 5
+     "title": "美英长期国债收益率飙升 通胀与财政压力加剧债市抛售",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-01/doc-inittekc5265905.shtml",
+     "rrf": 0.02853,
+     "bm25_rank": 19,
+     "vec_rank": 3
     },
     {
      "n": 7,
-     "title": "日本10年期国债收益率下跌4.5个基点",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610023888315257.html",
-     "rrf": 0.02881,
-     "bm25_rank": 7,
-     "vec_rank": 12
+     "title": "投资者静待重磅就业报告，美债收益率小幅走高",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvpqz4616065.shtml",
+     "rrf": 0.02724,
+     "bm25_rank": 30,
+     "vec_rank": 2
     },
     {
      "n": 8,
-     "title": "全球债市抛售潮又一里程碑 10年期美债收益率触及二十四年新高",
+     "title": "英国长期借贷成本触及6% 为1998年以来首次",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvhc8051351.shtml",
-     "rrf": 0.02778,
-     "bm25_rank": 13,
-     "vec_rank": 11
+     "url": "https://finance.sina.com.cn/world/2026-10-01/doc-inittkrz1099289.shtml",
+     "rrf": 0.02683,
+     "bm25_rank": 7,
+     "vec_rank": 24
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "10年期美债收益率自2007年以来首次涨穿5.3%，两年期美债收益率三季度涨超7",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 5,
-    "neither_topk": 1
+    "query": "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加",
+    "bm25_only": 2,
+    "vec_only": 4,
+    "both": 2,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "ed5d126ff8f9306f",
+   "key": "c4fb8f17ec170932",
    "label": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每",
    "cached": false,
    "sections": {
-    "事件概述": "「提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.627（爆点），所属板块类目：综合。",
-    "关键信息": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每；美国9月非农就业人口变动 2.9万人，预期 9万人，前值 16.2万人。；美国9月份非农就业人数仅增加2.9万 失业率小幅攀升",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每」由 44 篇报道聚合而成，覆盖 3 家媒体，热度 0.78（爆点），所属板块类目：国际市场。",
+    "关键信息": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每；美国9月非农就业人口变动 2.9万人，预期 9万人，前值 16.2万人。；美联储本月加不加息？美国9月非农今晚揭晓 全球市场严阵以待",
+    "市场影响": "关联板块代码：BK0481、BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
@@ -126,36 +126,36 @@
      "title": "美国9月非农就业人口变动 2.9万人，预期 9万人，前值 16.2万人。",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3173671",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
+     "rrf": 0.03105,
+     "bm25_rank": 7,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "美国9月份非农就业人数仅增加2.9万 失业率小幅攀升",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyex1228336.shtml",
-     "rrf": 0.0308,
-     "bm25_rank": 7,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
      "title": "美联储本月加不加息？美国9月非农今晚揭晓 全球市场严阵以待",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-10-02/doc-initvazm5901490.shtml",
-     "rrf": 0.03055,
+     "rrf": 0.03033,
      "bm25_rank": 4,
-     "vec_rank": 7
+     "vec_rank": 8
+    },
+    {
+     "n": 4,
+     "title": "美国9月份非农就业人数仅增加2.9万 失业率小幅攀升",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyex1228336.shtml",
+     "rrf": 0.02996,
+     "bm25_rank": 11,
+     "vec_rank": 3
     },
     {
      "n": 5,
      "title": "美国9月劳动力市场走弱，仅新增2.9万个就业岗位，失业率升至4.2%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyfc7136979.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
     },
     {
      "n": 6,
@@ -168,39 +168,133 @@
     },
     {
      "n": 7,
-     "title": "美国９月份非农就业人数增加2.9万人 失业率报4.2%",
+     "title": "美联储加息预期生变，美股期指短线拉升",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyex1227780.shtml",
-     "rrf": 0.0289,
-     "bm25_rank": 14,
-     "vec_rank": 5
+     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-10-02/doc-initvyez5540033.shtml",
+     "rrf": 0.02869,
+     "bm25_rank": 3,
+     "vec_rank": 18
     },
     {
      "n": 8,
      "title": "美国上月仅新增2.9万个就业岗位，失业率小幅升至4.2%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyfc7145617.shtml",
-     "rrf": 0.02878,
-     "bm25_rank": 9,
-     "vec_rank": 10
+     "rrf": 0.02742,
+     "bm25_rank": 15,
+     "vec_rank": 11
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每",
-    "bm25_only": 1,
+    "bm25_only": 2,
     "vec_only": 1,
-    "both": 5,
+    "both": 4,
     "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "b5b90c5b39e309b0",
+   "key": "378ca350ac84e041",
+   "label": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次",
+   "cached": false,
+   "sections": {
+    "事件概述": "「国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次」由 20 篇报道聚合而成，覆盖 3 家媒体，热度 0.738（爆点），所属板块类目：综合。",
+    "关键信息": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次；国庆假期首日 全社会跨区域人员流动量超3.3亿人次；视频丨国庆假期首日迎出行高峰 交通部门全力保障",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-initwzsm0893992.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "国庆假期首日 全社会跨区域人员流动量超3.3亿人次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-02/doc-initusmp1541659.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "视频丨国庆假期首日迎出行高峰 交通部门全力保障",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittqyc6520806.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 6,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "国庆假期第二天全社会跨区域人员流动量超3亿人次",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610033888449310.html",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "国庆假期首日中国跨区域人员流动量预计超3.3亿人次",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-01/10706825.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "交通运输部预计国庆假期全国出行客流量21.3亿人次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/estate/integration/2026-10-02/doc-inituwti4695853.shtml",
+     "rrf": 0.02924,
+     "bm25_rank": 11,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "21.3亿、268%！数说流动中国的假日新活力",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-02/doc-initusmp1527177.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "10月1日，全社会跨区域人员流动量预计超3.3亿人次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittqxx5159199.shtml",
+     "rrf": 0.02821,
+     "bm25_rank": 5,
+     "vec_rank": 18
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "b7ea79e58d97fab3",
    "label": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿里均",
    "cached": false,
    "sections": {
-    "事件概述": "「恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿里均」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.627（爆点），所属板块类目：金融市场。",
+    "事件概述": "「恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿里均」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.688（爆点），所属板块类目：金融市场。",
     "关键信息": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体；港股午评：恒指跌2.64%失守24000点 科指跌2.45% 科网股普跌 赛力斯；港股三大指数均跌超2%，恒生指数失守24000点",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -238,8 +332,8 @@
      "title": "恒指日内跌超3%，恒生科技指数跌幅扩大至3.3%，恒生生物科技指数跌4.5%。哔",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3173583",
-     "rrf": 0.03033,
-     "bm25_rank": 8,
+     "rrf": 0.03055,
+     "bm25_rank": 7,
      "vec_rank": 4
     },
     {
@@ -247,8 +341,8 @@
      "title": "港股开盘下挫，恒生科技指数跌超2%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-02/doc-inituwtp5952152.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
+     "rrf": 0.03009,
+     "bm25_rank": 5,
      "vec_rank": 8
     },
     {
@@ -256,224 +350,130 @@
      "title": "快讯：恒指低开2.09% 科指跌1.87% 科网股普跌 中资券商股活跃",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-02/doc-inituwtr7553752.shtml",
-     "rrf": 0.02967,
-     "bm25_rank": 10,
+     "rrf": 0.02988,
+     "bm25_rank": 9,
      "vec_rank": 5
     },
     {
      "n": 7,
-     "title": "耐克股价开盘下跌8.3% 创4月以来最大单日跌幅",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610023888398061.html",
-     "rrf": 0.02896,
-     "bm25_rank": 4,
-     "vec_rank": 15
-    },
-    {
-     "n": 8,
      "title": "港股国庆后首日交易遇冷 三大指数集体重挫 金融股成拖累指数核心力量",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-10-02/doc-initvtxf7219250.shtml",
-     "rrf": 0.02878,
-     "bm25_rank": 9,
-     "vec_rank": 10
+     "rrf": 0.02879,
+     "bm25_rank": 8,
+     "vec_rank": 11
+    },
+    {
+     "n": 8,
+     "title": "耐克股价开盘下跌8.3% 创4月以来最大单日跌幅",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610023888398061.html",
+     "rrf": 0.02861,
+     "bm25_rank": 4,
+     "vec_rank": 17
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体",
-    "bm25_only": 1,
+    "bm25_only": 2,
     "vec_only": 1,
     "both": 5,
-    "neither_topk": 1
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "01dba67110bb70bc",
-   "label": "10月1日铁路运输迎来高峰日，北京地区预计发送旅客98.2万人次，将创国庆新高",
+   "key": "f0dd586fafabca8d",
+   "label": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温",
    "cached": false,
    "sections": {
-    "事件概述": "「10月1日铁路运输迎来高峰日，北京地区预计发送旅客98.2万人次，将创国庆新高」由 11 篇报道聚合而成，覆盖 2 家媒体，热度 0.625（爆点），所属板块类目：交运物流。",
-    "关键信息": "10月1日铁路运输迎来高峰日，北京地区预计发送旅客98.2万人次，将创国庆新高；国庆假期首日 国铁广州局创单日旅客发送历史新高；国庆假期首日中国铁路创单日旅客发送量历史新高",
+    "事件概述": "「核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.667（高热），所属板块类目：宏观政策。",
+    "关键信息": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温；韩国9月通胀保持高位 料支持韩国央行维持紧缩倾向；韩国9月通胀回落至2.9%，央行预计10月仍接近3%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "10月1日铁路运输迎来高峰日，北京地区预计发送旅客98.2万人次，将创国庆新高",
+     "title": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittqyc6524088.shtml",
+     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-10-02/doc-initviim7408813.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "国庆假期首日 国铁广州局创单日旅客发送历史新高",
+     "title": "韩国9月通胀保持高位 料支持韩国央行维持紧缩倾向",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-01/doc-inittqxx5164570.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 2,
+     "url": "https://finance.sina.com.cn/world/2026-10-02/doc-initusmr6038674.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
      "vec_rank": 3
     },
     {
      "n": 3,
-     "title": "国庆假期首日中国铁路创单日旅客发送量历史新高",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-02/10707237.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "title": "韩国9月通胀回落至2.9%，央行预计10月仍接近3%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvtwx4536344.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 6,
      "vec_rank": 2
     },
     {
      "n": 4,
-     "title": "国庆节首日国铁沈阳局迎客流高峰",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-01/doc-inittqxz1923108.shtml",
-     "rrf": 0.03012,
-     "bm25_rank": 9,
-     "vec_rank": 4
+     "title": "周五美股盘前你需要了解的全球要闻",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3173683",
+     "rrf": 0.03105,
+     "bm25_rank": 2,
+     "vec_rank": 7
     },
     {
      "n": 5,
-     "title": "扬州铁路昨迎节前出行高峰",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-01/doc-initspnm5356851.shtml",
-     "rrf": 0.02967,
+     "title": "周四美股盘前你需要了解的全球要闻",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3173365",
+     "rrf": 0.02988,
      "bm25_rank": 5,
-     "vec_rank": 10
+     "vec_rank": 9
     },
     {
      "n": 6,
-     "title": "国庆首日广州铁路客流破纪录",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-02/doc-initusmt7674348.shtml",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "442.7万人次！长三角铁路再创国庆假期运输单日客发量历史新高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittvhc8036232.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 6,
-     "vec_rank": 11
-    },
-    {
-     "n": 8,
-     "title": "长三角铁路预计今日发送旅客440万人次，有望创历史新高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-initspnm1446620.shtml",
-     "rrf": 0.02901,
-     "bm25_rank": 11,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "10月1日铁路运输迎来高峰日，北京地区预计发送旅客98.2万人次，将创国庆新高",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "f33a07d2c1bfe905",
-   "label": "美光科技CFO：2027财年第一财季收入将达615亿美元 各季度毛利率预计逐步回升",
-   "cached": false,
-   "sections": {
-    "事件概述": "「美光科技CFO：2027财年第一财季收入将达615亿美元 各季度毛利率预计逐步回升」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.597（高热），所属板块类目：国际市场。",
-    "关键信息": "美光科技CFO：2027财年第一财季收入将达615亿美元 各季度毛利率预计逐步回；美光第四财季业绩、下季指引均超预期 盘后股价小幅震荡；美光Q4营收单季破542亿美元 预判存储2027-2028持续供给紧缺",
-    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "美光科技CFO：2027财年第一财季收入将达615亿美元 各季度毛利率预计逐步回升",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610013888192113.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "美光第四财季业绩、下季指引均超预期 盘后股价小幅震荡",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610013887990366.html",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "美光Q4营收单季破542亿美元 预判存储2027-2028持续供给紧缺",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initsawr5523815.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "美光科技分析师电话会议要点总结",
+     "title": "韩国9月CPI同比 2.9%，预期 2.9%，前值 3.1%。",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173392",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
+     "url": "https://wallstreetcn.com/livenews/3173549",
+     "rrf": 0.02947,
+     "bm25_rank": 11,
      "vec_rank": 5
     },
     {
-     "n": 5,
-     "title": "美光第四财季营收增长379%，新财季指引升至615亿美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittekc1216244.shtml",
-     "rrf": 0.03062,
-     "bm25_rank": 9,
-     "vec_rank": 2
-    },
-    {
-     "n": 6,
-     "title": "捷普预计2027财年营收增长24%，AI相关收入将增至221亿美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initteki6721771.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 5,
-     "vec_rank": 7
-    },
-    {
      "n": 7,
-     "title": "美光盘前跌0.8% Q4利润、营收大幅飙升",
+     "title": "日本东京9月份核心通胀率升至2.7%，支持加息预期",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittksc1977641.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initusmr6056754.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 10,
      "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "美股三大股指小幅高开，埃森哲大涨超20%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173372",
-     "rrf": 0.02885,
-     "bm25_rank": 6,
-     "vec_rank": 13
+     "title": "外围涨疯了：美光业绩提振市场情绪 美联储本月加息概率下调 韩国芯片出口暴增263%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittekc1202103.shtml",
+     "rrf": 0.02679,
+     "bm25_rank": 20,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "美光科技CFO：2027财年第一财季收入将达615亿美元 各季度毛利率预计逐步回",
+    "query": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温",
     "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
-    "neither_topk": 0
+    "vec_only": 2,
+    "both": 4,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }
