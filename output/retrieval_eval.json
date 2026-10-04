@@ -2,20 +2,20 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.366,
-  "avg_rank_diff": 1.11,
-  "avg_missed_by_bm25": 1.78,
-  "avg_missed_by_vector": 2.67,
-  "conclusion": "两路召回集平均重合度仅 37%；即便重合的文档，两路名次平均相差 1.11 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.78 篇最终进入 Top8 的文档；只用向量则漏掉 2.67 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.356,
+  "avg_rank_diff": 1.13,
+  "avg_missed_by_bm25": 2.11,
+  "avg_missed_by_vector": 2.33,
+  "conclusion": "两路召回集平均重合度仅 36%；即便重合的文档，两路名次平均相差 1.13 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.11 篇最终进入 Top8 的文档；只用向量则漏掉 2.33 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
    "query": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业",
-   "jaccard": 0.143,
-   "rank_diff": 0.5,
+   "jaccard": 0.231,
+   "rank_diff": 0.67,
    "missed_by_bm25": 2,
-   "missed_by_vector": 5,
+   "missed_by_vector": 4,
    "example_top1": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每"
   },
   {
@@ -32,63 +32,63 @@
    "query": "提醒：北京时间:，将公布美国月非农就业报告（含就业人口、失业",
    "jaccard": 0.231,
    "rank_diff": 1.67,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 4,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 3,
    "example_top1": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每"
   },
   {
    "type": "原标题式",
-   "query": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年",
-   "jaccard": 0.455,
-   "rank_diff": 1.6,
-   "missed_by_bm25": 1,
+   "query": "中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，",
+   "jaccard": 0.333,
+   "rank_diff": 0.25,
+   "missed_by_bm25": 2,
    "missed_by_vector": 2,
-   "example_top1": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿"
+   "example_top1": "伊朗革命卫队近日对7艘“违规”油轮采取行动"
   },
   {
    "type": "关键词式",
-   "query": "恒指 失守 点创 三月 最大 跌幅",
-   "jaccard": 0.455,
-   "rank_diff": 1.4,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 3,
-   "example_top1": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿"
+   "query": "中东 冲突 伊朗 革命 卫队 近日",
+   "jaccard": 0.333,
+   "rank_diff": 1.25,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，胡塞武装称对沙特阿美石油公司目标"
   },
   {
    "type": "去数字泛化",
-   "query": "恒指失守点创三月来最大跌幅，恒科指下挫超创年新低，权重科网股",
-   "jaccard": 0.6,
-   "rank_diff": 0.5,
+   "query": "中东冲突大消息：伊朗革命卫队近日对艘“违规”油轮采取行动，胡",
+   "jaccard": 0.231,
+   "rank_diff": 0.67,
    "missed_by_bm25": 2,
-   "missed_by_vector": 0,
-   "example_top1": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿"
+   "missed_by_vector": 4,
+   "example_top1": "伊朗革命卫队近日对7艘“违规”油轮采取行动"
   },
   {
    "type": "原标题式",
-   "query": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行",
-   "jaccard": 0.333,
-   "rank_diff": 1.75,
+   "query": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运",
+   "jaccard": 0.455,
+   "rank_diff": 2.0,
    "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温"
+   "missed_by_vector": 1,
+   "example_top1": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀"
   },
   {
    "type": "关键词式",
-   "query": "核心 通胀 粘性 未消 出口 亿美元",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
-   "example_top1": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温"
+   "query": "打响 油价 降温 亿桶 石油 储备",
+   "jaccard": 0.6,
+   "rank_diff": 0.67,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀"
   },
   {
    "type": "去数字泛化",
-   "query": "核心通胀粘性未消、出口亿美元创纪录，韩国央行月加息预期升温",
-   "jaccard": 0.6,
-   "rank_diff": 1.83,
+   "query": "G打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，",
+   "jaccard": 0.455,
+   "rank_diff": 2.2,
    "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温"
+   "missed_by_vector": 2,
+   "example_top1": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀"
   }
  ]
 }

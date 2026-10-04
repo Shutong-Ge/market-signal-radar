@@ -1,18 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 48,
+ "n_clusters": 40,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.6,
+ "elapsed": 5.9,
  "reports": [
   {
-   "key": "89ea32240b1bfe95",
+   "key": "980a4e354361c0ea",
    "label": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每",
    "cached": false,
    "sections": {
-    "事件概述": "「提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每」由 45 篇报道聚合而成，覆盖 3 家媒体，热度 0.745（爆点），所属板块类目：国际市场。",
+    "事件概述": "「提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每」由 35 篇报道聚合而成，覆盖 3 家媒体，热度 0.863（爆点），所属板块类目：国际市场。",
     "关键信息": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每；美国9月非农就业人口变动 2.9万人，预期 9万人，前值 16.2万人。；美联储本月加不加息？美国9月非农今晚揭晓 全球市场严阵以待",
     "市场影响": "关联板块代码：BK0481、BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -32,8 +32,8 @@
      "title": "美国9月非农就业人口变动 2.9万人，预期 9万人，前值 16.2万人。",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3173671",
-     "rrf": 0.03062,
-     "bm25_rank": 9,
+     "rrf": 0.03083,
+     "bm25_rank": 8,
      "vec_rank": 2
     },
     {
@@ -41,8 +41,8 @@
      "title": "美联储本月加不加息？美国9月非农今晚揭晓 全球市场严阵以待",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-10-02/doc-initvazm5901490.shtml",
-     "rrf": 0.03033,
-     "bm25_rank": 4,
+     "rrf": 0.03058,
+     "bm25_rank": 3,
      "vec_rank": 8
     },
     {
@@ -50,8 +50,8 @@
      "title": "美国9月份非农就业人数仅增加2.9万 失业率小幅攀升",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyex1228336.shtml",
-     "rrf": 0.02996,
-     "bm25_rank": 11,
+     "rrf": 0.03037,
+     "bm25_rank": 9,
      "vec_rank": 3
     },
     {
@@ -59,8 +59,8 @@
      "title": "美国9月劳动力市场走弱，仅新增2.9万个就业岗位，失业率升至4.2%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyfc7136979.shtml",
-     "rrf": 0.02963,
-     "bm25_rank": 8,
+     "rrf": 0.03008,
+     "bm25_rank": 6,
      "vec_rank": 7
     },
     {
@@ -68,328 +68,140 @@
      "title": "美国9月就业发布后比特币24小时内上涨超过2%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3932715.shtml",
-     "rrf": 0.02927,
-     "bm25_rank": 5,
+     "rrf": 0.02951,
+     "bm25_rank": 4,
      "vec_rank": 12
     },
     {
      "n": 7,
-     "title": "提醒：北京时间22:00，将公布美国9月ISM制造业指数、8月营建支出。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173382",
-     "rrf": 0.02912,
-     "bm25_rank": 2,
-     "vec_rank": 17
-    },
-    {
-     "n": 8,
      "title": "美联储加息预期生变，美股期指短线拉升",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-10-02/doc-initvyez5540033.shtml",
-     "rrf": 0.02853,
-     "bm25_rank": 3,
-     "vec_rank": 19
+     "rrf": 0.02895,
+     "bm25_rank": 2,
+     "vec_rank": 18
+    },
+    {
+     "n": 8,
+     "title": "美国上月仅新增2.9万个就业岗位，失业率小幅升至4.2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyfc7145617.shtml",
+     "rrf": 0.02742,
+     "bm25_rank": 15,
+     "vec_rank": 11
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每",
-    "bm25_only": 3,
-    "vec_only": 2,
-    "both": 3,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "9e1cb715a903dd25",
-   "label": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿里均",
-   "cached": false,
-   "sections": {
-    "事件概述": "「恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿里均」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.652（爆点），所属板块类目：金融市场。",
-    "关键信息": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体；港股午评：恒指跌2.64%失守24000点 科指跌2.45% 科网股普跌 赛力斯；港股三大指数均跌超2%，恒生指数失守24000点",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体下跌、腾讯阿里均跌2%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/gzqh/futuresyspzx/2026-10-02/doc-initvpri7308176.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "港股午评：恒指跌2.64%失守24000点 科指跌2.45% 科网股普跌 赛力斯涨超8%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-02/doc-initvazi1442830.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "港股三大指数均跌超2%，恒生指数失守24000点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-02/doc-inituwti4707373.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "恒指日内跌超3%，恒生科技指数跌幅扩大至3.3%，恒生生物科技指数跌4.5%。哔",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173583",
-     "rrf": 0.03033,
-     "bm25_rank": 8,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "快讯：恒指低开2.09% 科指跌1.87% 科网股普跌 中资券商股活跃",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-02/doc-inituwtr7553752.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 9,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "港股开盘下挫，恒生科技指数跌超2%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-02/doc-inituwtp5952152.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "港股国庆后首日交易遇冷 三大指数集体重挫 金融股成拖累指数核心力量",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-02/doc-initvtxf7219250.shtml",
-     "rrf": 0.02901,
-     "bm25_rank": 7,
-     "vec_rank": 11
-    },
-    {
-     "n": 8,
-     "title": "耐克股价开盘下跌8.3% 创4月以来最大单日跌幅",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610023888398061.html",
-     "rrf": 0.02861,
-     "bm25_rank": 4,
-     "vec_rank": 17
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "恒指失守24000点创三月来最大跌幅，恒科指下挫超2%创2年新低，权重科网股集体",
     "bm25_only": 2,
     "vec_only": 1,
-    "both": 5,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "10abaa9683664d3d",
-   "label": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温",
-   "cached": false,
-   "sections": {
-    "事件概述": "「核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.631（爆点），所属板块类目：宏观政策。",
-    "关键信息": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温；韩国9月通胀保持高位 料支持韩国央行维持紧缩倾向；韩国9月通胀回落至2.9%，央行预计10月仍接近3%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-10-02/doc-initviim7408813.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "韩国9月通胀保持高位 料支持韩国央行维持紧缩倾向",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-02/doc-initusmr6038674.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "韩国9月通胀回落至2.9%，央行预计10月仍接近3%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvtwx4536344.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "周五美股盘前你需要了解的全球要闻",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173683",
-     "rrf": 0.03105,
-     "bm25_rank": 2,
-     "vec_rank": 7
-    },
-    {
-     "n": 5,
-     "title": "周四美股盘前你需要了解的全球要闻",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173365",
-     "rrf": 0.03012,
-     "bm25_rank": 4,
-     "vec_rank": 9
-    },
-    {
-     "n": 6,
-     "title": "日本东京9月份核心通胀率升至2.7%，支持加息预期",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initusmr6056754.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 8,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "韩国9月CPI同比 2.9%，预期 2.9%，前值 3.1%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173549",
-     "rrf": 0.02967,
-     "bm25_rank": 10,
-     "vec_rank": 5
-    },
-    {
-     "n": 8,
-     "title": "加息预期骤变！美联储官员鹰派立场软化 又一大行“撕报告”",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610033888457516.html",
-     "rrf": 0.02658,
-     "bm25_rank": 11,
-     "vec_rank": 20
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 5,
+    "both": 4,
     "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "f089fb74feac3782",
-   "label": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次",
+   "key": "eb277d19f2bf9439",
+   "label": "中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，胡塞武装称对沙特阿美石油公司目标实施",
    "cached": false,
    "sections": {
-    "事件概述": "「国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次」由 16 篇报道聚合而成，覆盖 3 家媒体，热度 0.62（爆点），所属板块类目：综合。",
-    "关键信息": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次；国庆假期首日，全社会跨区域人员流动量预计超3.3亿人次；国庆假期第二天全社会跨区域人员流动量超3亿人次",
-    "市场影响": "关联板块代码：BK0422。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，胡塞武装称对沙特阿美石油公司目标实施」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.637（爆点），所属板块类目：综合。",
+    "关键信息": "中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，胡塞武装称对沙特阿美；伊朗革命卫队近日对7艘“违规”油轮采取行动；胡塞武装称对沙特阿美石油公司目标实施打击",
+    "市场影响": "关联板块代码：BK1601。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次",
+     "title": "中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，胡塞武装称对沙特阿美石油公司目标实施打击",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-initwzsm0893992.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-04/doc-initzerp4142157.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "国庆假期首日，全社会跨区域人员流动量预计超3.3亿人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittqxx5166463.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "title": "伊朗革命卫队近日对7艘“违规”油轮采取行动",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610043888516170.html",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "国庆假期第二天全社会跨区域人员流动量超3亿人次",
+     "title": "胡塞武装称对沙特阿美石油公司目标实施打击",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610033888449310.html",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
+     "url": "https://finance.eastmoney.com/a/202610043888513362.html",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
      "vec_rank": 4
     },
     {
      "n": 4,
-     "title": "国庆假期迎出行高峰 交通部门全力保障",
+     "title": "沙特阿美石油公司遭袭",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-02/doc-initusmr6045913.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
-     "vec_rank": 5
+     "url": "https://finance.sina.com.cn/wm/2026-10-04/doc-initzkxm4040338.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
+     "vec_rank": 3
     },
     {
      "n": 5,
-     "title": "交通运输部：10月2日全社会跨区域人员流动量30550.4万人次",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610033888482790.html",
-     "rrf": 0.02947,
-     "bm25_rank": 5,
-     "vec_rank": 11
+     "title": "也门胡塞武装称24小时内遭沙特空袭94次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-initwkux6964807.shtml",
+     "rrf": 0.03055,
+     "bm25_rank": 4,
+     "vec_rank": 7
     },
     {
      "n": 6,
-     "title": "21.3亿、268%！数说流动中国的假日新活力",
+     "title": "美国将向中东派遣第三航母打击群，特朗普警告或将再度打击伊朗",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-02/doc-initusmp1527177.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvpqz4606477.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
     },
     {
      "n": 7,
-     "title": "交通运输部预计国庆假期全国出行客流量21.3亿人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/estate/integration/2026-10-02/doc-inituwti4695853.shtml",
+     "title": "伊朗提与胡塞武装政治接触 中东地区国家谋求战略自主",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610033888495157.html",
      "rrf": 0.02904,
      "bm25_rank": 12,
      "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "10月1日，全社会跨区域人员流动量预计超3.3亿人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittqxx5159199.shtml",
-     "rrf": 0.02861,
-     "bm25_rank": 4,
-     "vec_rank": 17
+     "title": "也门胡塞武装称萨那遭到空袭",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3173903",
+     "rrf": 0.02844,
+     "bm25_rank": 7,
+     "vec_rank": 14
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "国庆假期首日铁路客运量同比增长近一成 全社会跨区域人员流动量超三亿人次",
-    "bm25_only": 3,
+    "query": "中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，胡塞武装称对沙特阿美",
+    "bm25_only": 1,
     "vec_only": 1,
-    "both": 4,
+    "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "9f81b52ce7d01a6b",
+   "key": "56dd4c5b3ae41f73",
    "label": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀",
    "cached": false,
    "sections": {
-    "事件概述": "「G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.614（高热），所属板块类目：大宗与能化。",
-    "关键信息": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减；G7同意联手释放1亿桶能源储备 换取美国放弃柴油出口禁令；视频丨七国集团释放1亿桶战略石油储备 能否稳住油价？",
+    "事件概述": "「G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.636（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减；视频丨七国集团释放1亿桶战略石油储备 能否稳住油价？；G7同意联手释放1亿桶能源储备 换取美国放弃柴油出口禁令",
     "市场影响": "关联板块代码：BK0464。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -405,15 +217,6 @@
     },
     {
      "n": 2,
-     "title": "G7同意联手释放1亿桶能源储备 换取美国放弃柴油出口禁令",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610033888443431.html",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
      "title": "视频丨七国集团释放1亿桶战略石油储备 能否稳住油价？",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-initxwvx3918288.shtml",
@@ -422,12 +225,21 @@
      "vec_rank": 6
     },
     {
+     "n": 3,
+     "title": "G7同意联手释放1亿桶能源储备 换取美国放弃柴油出口禁令",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610033888443431.html",
+     "rrf": 0.03128,
+     "bm25_rank": 6,
+     "vec_rank": 2
+    },
+    {
      "n": 4,
      "title": "七国集团将释放多达1亿桶柴油和石油",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyev4497371.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
+     "rrf": 0.03126,
+     "bm25_rank": 3,
      "vec_rank": 5
     },
     {
@@ -435,21 +247,12 @@
      "title": "七国集团将释放1亿桶战略石油储备",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202610033888457325.html",
-     "rrf": 0.03037,
-     "bm25_rank": 3,
-     "vec_rank": 9
-    },
-    {
-     "n": 6,
-     "title": "美国要求欧洲180天释放1.2亿桶柴油储备，试图以此替代出口禁令",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvhc8045948.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
+     "rrf": 0.03033,
+     "bm25_rank": 4,
      "vec_rank": 8
     },
     {
-     "n": 7,
+     "n": 6,
      "title": "油价下挫 报道称欧盟正讨论释放更多柴油储备",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvpqz4603220.shtml",
@@ -458,22 +261,219 @@
      "vec_rank": 7
     },
     {
-     "n": 8,
+     "n": 7,
      "title": "七国集团同意释放紧急储备后 特朗普称美国不会禁止柴油出口",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwvkp0923128.shtml",
-     "rrf": 0.02957,
-     "bm25_rank": 13,
+     "rrf": 0.02939,
+     "bm25_rank": 14,
      "vec_rank": 3
+    },
+    {
+     "n": 8,
+     "title": "伊朗战争推高柴油价格创历史新高，美国敦促欧洲“立即”释放柴油储备",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvprf5731794.shtml",
+     "rrf": 0.02878,
+     "bm25_rank": 10,
+     "vec_rank": 9
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减",
-    "bm25_only": 1,
+    "bm25_only": 0,
     "vec_only": 1,
     "both": 6,
-    "neither_topk": 0
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "babfbdaa7fe5b416",
+   "label": "国庆假期第三天，铁路公路民航水路客流持续高位运行",
+   "cached": false,
+   "sections": {
+    "事件概述": "「国庆假期第三天，铁路公路民航水路客流持续高位运行」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.506（爆点），所属板块类目：综合。",
+    "关键信息": "国庆假期第三天，铁路公路民航水路客流持续高位运行；国庆假期第三天 铁路客流保持高位运行；国庆假期第三天，长沙南站双向客流持续火热｜组图",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "国庆假期第三天，铁路公路民航水路客流持续高位运行",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3173861",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "国庆假期第三天 铁路客流保持高位运行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-04/doc-initzkxf3402211.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "国庆假期第三天，长沙南站双向客流持续火热｜组图",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-inityccz4608797.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "国庆假期第三天 全国道路交通平稳有序",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-inityccz4616263.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "长三角铁路今日预计发送旅客372万人次 增开列车105列",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-initwzsr6679585.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "国庆节加开列车！蚌埠人速看",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-03/doc-initxwwf6313378.shtml",
+     "rrf": 0.02838,
+     "bm25_rank": 9,
+     "vec_rank": 12
+    },
+    {
+     "n": 7,
+     "title": "10月3日全国多处景区发布限流公告",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-inityccz4611995.shtml",
+     "rrf": 0.02804,
+     "bm25_rank": 8,
+     "vec_rank": 15
+    },
+    {
+     "n": 8,
+     "title": "同比增长超10%！国庆假期，深圳各口岸出入境“热”力十足",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-03/doc-inityccv3832912.shtml",
+     "rrf": 0.02781,
+     "bm25_rank": 6,
+     "vec_rank": 19
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "国庆假期第三天，铁路公路民航水路客流持续高位运行",
+    "bm25_only": 2,
+    "vec_only": 0,
+    "both": 5,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "a9c01780d141ba97",
+   "label": "希捷科技美股盘前跌超7%，西部数据跌8%。有报道称东芝计划投入约600亿日元扩建",
+   "cached": false,
+   "sections": {
+    "事件概述": "「希捷科技美股盘前跌超7%，西部数据跌8%。有报道称东芝计划投入约600亿日元扩建」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.486（高热），所属板块类目：综合。",
+    "关键信息": "希捷科技美股盘前跌超7%，西部数据跌8%。有报道称东芝计划投入约600亿日元扩建；希捷科技盘前下跌7.8%；希捷跌9%、西部数据跌6%，东芝拟扩大硬盘产能消息引发关注",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "希捷科技美股盘前跌超7%，西部数据跌8%。有报道称东芝计划投入约600亿日元扩建",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3173660",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "希捷科技盘前下跌7.8%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610023888376349.html",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "希捷跌9%、西部数据跌6%，东芝拟扩大硬盘产能消息引发关注",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvtxf7243743.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "东芝宣布大举扩产HDD 西部数据、希捷股价重挫",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610033888439430.html",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "美国非农数据低于预期，美股三大指数集体上涨",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3173696",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "美股存储板块盘初普跌",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610023888398453.html",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "周五美股盘前你需要了解的全球要闻",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3173683",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "东芝拟将AI数据中心HDD产能翻倍，目标把容量份额提升至30%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initviic4662802.shtml",
+     "rrf": 0.02878,
+     "bm25_rank": 10,
+     "vec_rank": 9
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "希捷科技美股盘前跌超7%，西部数据跌8%。有报道称东芝计划投入约600亿日元扩建",
+    "bm25_only": 0,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }
