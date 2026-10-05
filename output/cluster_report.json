@@ -1,11 +1,11 @@
 {
- "n_articles": 1191,
+ "n_articles": 1165,
  "mode": "vector",
- "edges": 476,
- "n_components": 1010,
- "n_clusters": 46,
+ "edges": 366,
+ "n_components": 1013,
+ "n_clusters": 45,
  "n_noise_filtered": 0,
- "n_single_media_filtered": 48,
+ "n_single_media_filtered": 41,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,8 +13,8 @@
   "media"
  ],
  "calibration": {
-  "max_size": 19.0,
-  "max_first": 10.0,
+  "max_size": 14.0,
+  "max_first": 5.0,
   "window_days": 3,
   "n_media_total": 4
  },
@@ -23,269 +23,255 @@
   "爆点": 4,
   "高热": 9,
   "升温中": 14,
-  "一般": 19
+  "一般": 18
  },
  "top": [
   {
-   "label": "纳指科技指数涨约1%，在非农日与纳指100共创收盘历史新高，半导体指数涨2.4%",
-   "heat": 0.863,
-   "level": "爆点",
-   "n": 19,
-   "media": 3,
-   "cat": "国际市场",
-   "sectors": [
-    "BK0481",
-    "BK1161"
-   ],
-   "factors": {
-    "coverage": 1.0,
-    "burst": 1.0,
-    "duration": 0.667,
-    "media": 0.75,
-    "social": null
-   },
-   "article_ids": [
-    81660,
-    81664,
-    81669,
-    81679,
-    81680,
-    81683,
-    81685,
-    81703,
-    81705,
-    81722,
-    81730,
-    81734,
-    81735,
-    81763,
-    81766,
-    81780,
-    81790,
-    82055,
-    82478
-   ]
-  },
-  {
    "label": "中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，胡塞武装称对沙特阿美石油公司目标实施",
-   "heat": 0.735,
+   "heat": 0.772,
    "level": "爆点",
-   "n": 11,
+   "n": 14,
    "media": 3,
    "cat": "综合",
    "sectors": [
     "BK1601"
    ],
    "factors": {
-    "coverage": 0.829,
-    "burst": 0.671,
+    "coverage": 1.0,
+    "burst": 0.613,
     "duration": 0.667,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    81737,
-    81745,
-    82019,
-    82164,
-    82344,
-    82352,
-    82372,
-    82441,
-    82535,
-    82581,
-    82638
+    82853,
+    83004,
+    83188,
+    83196,
+    83216,
+    83285,
+    83382,
+    83428,
+    83636,
+    83639,
+    83714,
+    83732,
+    83745,
+    83781
    ]
   },
   {
-   "label": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀",
-   "heat": 0.627,
+   "label": "国庆假期第四天全国道路交通总体平稳，公安部交管局提示",
+   "heat": 0.689,
    "level": "爆点",
-   "n": 9,
-   "media": 3,
-   "cat": "大宗与能化",
-   "sectors": [
-    "BK0464"
-   ],
-   "factors": {
-    "coverage": 0.769,
-    "burst": 0.289,
-    "duration": 0.667,
-    "media": 0.75,
-    "social": null
-   },
-   "article_ids": [
-    81709,
-    81767,
-    81783,
-    81791,
-    81799,
-    81916,
-    81925,
-    82190,
-    82331
-   ]
-  },
-  {
-   "label": "国庆假期第三天，铁路公路民航水路客流持续高位运行",
-   "heat": 0.626,
-   "level": "爆点",
-   "n": 8,
+   "n": 11,
    "media": 2,
    "cat": "交运物流",
    "sectors": [],
    "factors": {
-    "coverage": 0.733,
-    "burst": 0.578,
+    "coverage": 0.918,
+    "burst": 0.613,
     "duration": 0.667,
     "media": 0.5,
     "social": null
    },
    "article_ids": [
-    81854,
-    82028,
-    82288,
-    82401,
-    82475,
-    82536,
-    82555,
-    82827
+    82864,
+    83130,
+    83245,
+    83321,
+    83383,
+    83402,
+    83524,
+    83676,
+    83934,
+    83952,
+    83954
+   ]
+  },
+  {
+   "label": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将",
+   "heat": 0.685,
+   "level": "爆点",
+   "n": 5,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [
+    "BK0464"
+   ],
+   "factors": {
+    "coverage": 0.662,
+    "burst": 1.0,
+    "duration": 0.333,
+    "media": 0.75,
+    "social": null
+   },
+   "article_ids": [
+    83442,
+    83446,
+    83571,
+    83574,
+    83708
    ]
   },
   {
    "label": "视频丨迪拜航空机长回忆遭袭细节：后脑勺遭重击 拼死打开驾驶舱门",
-   "heat": 0.599,
-   "level": "高热",
-   "n": 4,
+   "heat": 0.672,
+   "level": "爆点",
+   "n": 5,
    "media": 3,
    "cat": "交运物流",
    "sectors": [
     "BK0480"
    ],
    "factors": {
-    "coverage": 0.537,
-    "burst": 0.458,
+    "coverage": 0.662,
+    "burst": 0.613,
     "duration": 0.667,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    82064,
-    82074,
-    82593,
-    82624
+    82900,
+    82911,
+    83440,
+    83471,
+    83720
    ]
   },
   {
-   "label": "苹果确认iPhone 18 Pro Max存在AT&T网络故障 受影响用户需换机",
-   "heat": 0.569,
+   "label": "巴西已统计32%的选票，总统候选人博索纳罗得票率50.7%，现任总统卢拉41.1",
+   "heat": 0.641,
+   "level": "高热",
+   "n": 4,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.594,
+    "burst": 0.898,
+    "duration": 0.333,
+    "media": 0.75,
+    "social": null
+   },
+   "article_ids": [
+    83747,
+    83764,
+    83856,
+    83908
+   ]
+  },
+  {
+   "label": "日经225指数日内涨幅扩大至2%。 日本东证指数涨幅扩大至1%。",
+   "heat": 0.641,
+   "level": "高热",
+   "n": 4,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.594,
+    "burst": 0.898,
+    "duration": 0.333,
+    "media": 0.75,
+    "social": null
+   },
+   "article_ids": [
+    83863,
+    83968,
+    83977,
+    83998
+   ]
+  },
+  {
+   "label": "默茨访乌带来13.5亿欧元援助，德乌拟敲定无人机和远程武器联合生产协议",
+   "heat": 0.612,
+   "level": "高热",
+   "n": 4,
+   "media": 3,
+   "cat": "汽车出行",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.594,
+    "burst": 0.774,
+    "duration": 0.333,
+    "media": 0.75,
+    "social": null
+   },
+   "article_ids": [
+    83427,
+    83436,
+    83622,
+    83765
+   ]
+  },
+  {
+   "label": "降雨，降温！南宁等地气温将跌至20℃，假期后程广西天气如何→",
+   "heat": 0.594,
    "level": "高热",
    "n": 4,
    "media": 2,
-   "cat": "消费电子",
+   "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.537,
-    "burst": 0.578,
+    "coverage": 0.594,
+    "burst": 0.613,
     "duration": 0.667,
     "media": 0.5,
     "social": null
    },
    "article_ids": [
-    81800,
-    81831,
-    82027,
-    82553
+    83271,
+    83647,
+    83907,
+    83988
    ]
   },
   {
-   "label": "商务部新闻发言人就二十国集团贸易部长会议及相关情况答记者问",
-   "heat": 0.559,
-   "level": "高热",
-   "n": 4,
-   "media": 3,
-   "cat": "国际市场",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.537,
-    "burst": 0.289,
-    "duration": 0.667,
-    "media": 0.75,
-    "social": null
-   },
-   "article_ids": [
-    81992,
-    82564,
-    82572,
-    82608
-   ]
-  },
-  {
-   "label": "美国克利夫兰联储主席Hammack：FOMC在（10月份）货币政策会议之前还有时",
-   "heat": 0.527,
+   "label": "日本央行副行长内田真一：人工智能(AI)的采用可能对生产力和劳动力市场产生正面与",
+   "heat": 0.588,
    "level": "高热",
    "n": 3,
    "media": 3,
-   "cat": "国际市场",
-   "sectors": [],
+   "cat": "AI与大模型",
+   "sectors": [
+    "BK0800"
+   ],
    "factors": {
-    "coverage": 0.463,
-    "burst": 0.578,
+    "coverage": 0.512,
+    "burst": 0.774,
     "duration": 0.333,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    81804,
-    81805,
-    81823
+    83891,
+    83894,
+    83915
    ]
   },
   {
-   "label": "今年前三季度上海口岸出入境人员超3270万人次，入境外籍旅客同比增两成",
-   "heat": 0.518,
+   "label": "国庆假期前3天高速公路新能源汽车充电近300万次、充电量超0.71亿千瓦时",
+   "heat": 0.577,
    "level": "高热",
-   "n": 5,
+   "n": 6,
    "media": 2,
-   "cat": "综合",
+   "cat": "交运物流",
    "sectors": [],
    "factors": {
-    "coverage": 0.598,
-    "burst": 0.289,
+    "coverage": 0.719,
+    "burst": 0.387,
     "duration": 0.667,
     "media": 0.5,
     "social": null
    },
    "article_ids": [
-    81702,
-    81892,
-    82544,
-    82713,
-    82785
-   ]
-  },
-  {
-   "label": "10月3日全社会跨区域人员流动量预计30829万人次 比2025年同期增长1.2%",
-   "heat": 0.512,
-   "level": "高热",
-   "n": 4,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [
-    "BK0422"
-   ],
-   "factors": {
-    "coverage": 0.537,
-    "burst": 0.671,
-    "duration": 0.333,
-    "media": 0.5,
-    "social": null
-   },
-   "article_ids": [
-    81814,
-    81961,
-    82045,
-    82160
+    82917,
+    83412,
+    83523,
+    83695,
+    83785,
+    83944
    ]
   }
  ]

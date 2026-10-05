@@ -1,57 +1,30 @@
 {
  "summary": {
-  "n_queries": 9,
+  "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.414,
-  "avg_rank_diff": 1.49,
-  "avg_missed_by_bm25": 2.33,
-  "avg_missed_by_vector": 1.78,
-  "conclusion": "两路召回集平均重合度仅 41%；即便重合的文档，两路名次平均相差 1.49 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.33 篇最终进入 Top8 的文档；只用向量则漏掉 1.78 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.306,
+  "avg_rank_diff": 0.77,
+  "avg_missed_by_bm25": 2.88,
+  "avg_missed_by_vector": 3.0,
+  "conclusion": "两路召回集平均重合度仅 31%；即便重合的文档，两路名次平均相差 0.77 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.88 篇最终进入 Top8 的文档；只用向量则漏掉 3.0 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "纳指科技指数涨约1%，在非农日与纳指100共创收盘历史新高，",
-   "jaccard": 0.455,
-   "rank_diff": 1.2,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "纳指科技指数涨约1%，在非农日与纳指100共创收盘历史新高，半导体指数涨2.4%"
-  },
-  {
-   "type": "关键词式",
-   "query": "纳指 科技 指数 涨约 非农 纳指",
-   "jaccard": 0.455,
-   "rank_diff": 1.6,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "纳指科技指数涨约1%，在非农日与纳指100共创收盘历史新高，半导体指数涨2.4%"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "纳指科技指数涨约，在非农日与纳指共创收盘历史新高，半导体指数",
-   "jaccard": 0.6,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "纳指科技指数涨约1%，在非农日与纳指100共创收盘历史新高，半导体指数涨2.4%"
-  },
-  {
-   "type": "原标题式",
    "query": "中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，",
-   "jaccard": 0.231,
-   "rank_diff": 1.0,
+   "jaccard": 0.143,
+   "rank_diff": 0.0,
    "missed_by_bm25": 4,
-   "missed_by_vector": 2,
+   "missed_by_vector": 3,
    "example_top1": "伊朗革命卫队近日对7艘“违规”油轮采取行动"
   },
   {
    "type": "关键词式",
    "query": "中东 冲突 伊朗 革命 卫队 近日",
-   "jaccard": 0.333,
-   "rank_diff": 2.25,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 1,
+   "jaccard": 0.231,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
    "example_top1": "中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，胡塞武装称对沙特阿美石油公司目标"
   },
   {
@@ -59,36 +32,54 @@
    "query": "中东冲突大消息：伊朗革命卫队近日对艘“违规”油轮采取行动，胡",
    "jaccard": 0.143,
    "rank_diff": 1.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 3,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 5,
    "example_top1": "伊朗革命卫队近日对7艘“违规”油轮采取行动"
   },
   {
    "type": "原标题式",
-   "query": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运",
+   "query": "国庆假期第四天全国道路交通总体平稳，公安部交管局提示",
    "jaccard": 0.455,
-   "rank_diff": 2.0,
+   "rank_diff": 0.6,
    "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀"
+   "missed_by_vector": 2,
+   "example_top1": "国庆假期第四天全国道路交通总体平稳，公安部交管局提示"
   },
   {
    "type": "关键词式",
-   "query": "打响 油价 降温 亿桶 石油 储备",
-   "jaccard": 0.6,
-   "rank_diff": 0.67,
-   "missed_by_bm25": 1,
+   "query": "国庆 假期 第四天 全国 道路交通 总体",
+   "jaccard": 0.333,
+   "rank_diff": 1.5,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 3,
+   "example_top1": "国庆假期第四天全国道路交通总体平稳，公安部交管局提示"
+  },
+  {
+   "type": "原标题式",
+   "query": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配",
+   "jaccard": 0.455,
+   "rank_diff": 0.4,
+   "missed_by_bm25": 3,
    "missed_by_vector": 2,
-   "example_top1": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀"
+   "example_top1": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将"
+  },
+  {
+   "type": "关键词式",
+   "query": "声明 周日 会议 决定 维持 月份",
+   "jaccard": 0.231,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 4,
+   "example_top1": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将"
   },
   {
    "type": "去数字泛化",
-   "query": "G打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，",
+   "query": "声明显示，OPEC+在周日会议上决定维持月份的石油产量配额不",
    "jaccard": 0.455,
-   "rank_diff": 2.2,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀"
+   "rank_diff": 0.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将"
   }
  ]
 }
