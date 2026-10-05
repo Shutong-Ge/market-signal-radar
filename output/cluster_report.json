@@ -1,11 +1,11 @@
 {
- "n_articles": 1165,
+ "n_articles": 1248,
  "mode": "vector",
- "edges": 366,
- "n_components": 1013,
- "n_clusters": 45,
+ "edges": 410,
+ "n_components": 1074,
+ "n_clusters": 49,
  "n_noise_filtered": 0,
- "n_single_media_filtered": 41,
+ "n_single_media_filtered": 47,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,265 +13,274 @@
   "media"
  ],
  "calibration": {
-  "max_size": 14.0,
-  "max_first": 5.0,
-  "window_days": 3,
+  "max_size": 13.0,
+  "max_first": 9.0,
+  "window_days": 2,
   "n_media_total": 4
  },
  "elapsed": 0.1,
  "level_dist": {
   "爆点": 4,
-  "高热": 9,
-  "升温中": 14,
-  "一般": 18
+  "高热": 10,
+  "升温中": 15,
+  "一般": 20
  },
  "top": [
   {
    "label": "中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，胡塞武装称对沙特阿美石油公司目标实施",
-   "heat": 0.772,
+   "heat": 0.881,
    "level": "爆点",
-   "n": 14,
+   "n": 9,
    "media": 3,
    "cat": "综合",
    "sectors": [
     "BK1601"
    ],
    "factors": {
-    "coverage": 1.0,
-    "burst": 0.613,
-    "duration": 0.667,
+    "coverage": 0.873,
+    "burst": 0.903,
+    "duration": 1.0,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    82853,
-    83004,
-    83188,
-    83196,
-    83216,
-    83285,
-    83382,
-    83428,
-    83636,
-    83639,
-    83714,
-    83732,
-    83745,
-    83781
+    84026,
+    84034,
+    84055,
+    84128,
+    84229,
+    84276,
+    84335,
+    84631,
+    85054
    ]
   },
   {
-   "label": "国庆假期第四天全国道路交通总体平稳，公安部交管局提示",
-   "heat": 0.689,
+   "label": "10月6日至7日北京迎返程高峰 交通部门多举措保障出行",
+   "heat": 0.86,
    "level": "爆点",
-   "n": 11,
+   "n": 13,
    "media": 2,
    "cat": "交运物流",
    "sectors": [],
    "factors": {
-    "coverage": 0.918,
-    "burst": 0.613,
-    "duration": 0.667,
+    "coverage": 1.0,
+    "burst": 0.903,
+    "duration": 1.0,
     "media": 0.5,
     "social": null
    },
    "article_ids": [
-    82864,
-    83130,
-    83245,
-    83321,
-    83383,
-    83402,
-    83524,
-    83676,
-    83934,
-    83952,
-    83954
+    84086,
+    84230,
+    84249,
+    84350,
+    84369,
+    84374,
+    84454,
+    84695,
+    84785,
+    84805,
+    84831,
+    85088,
+    85233
    ]
   },
   {
    "label": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将",
-   "heat": 0.685,
+   "heat": 0.812,
    "level": "爆点",
-   "n": 5,
+   "n": 6,
    "media": 3,
    "cat": "综合",
    "sectors": [
     "BK0464"
    ],
    "factors": {
-    "coverage": 0.662,
-    "burst": 1.0,
-    "duration": 0.333,
+    "coverage": 0.737,
+    "burst": 0.778,
+    "duration": 1.0,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    83442,
-    83446,
-    83571,
-    83574,
-    83708
+    84290,
+    84294,
+    84421,
+    84424,
+    84558,
+    84926
    ]
   },
   {
-   "label": "视频丨迪拜航空机长回忆遭袭细节：后脑勺遭重击 拼死打开驾驶舱门",
-   "heat": 0.672,
+   "label": "恒指低开0.04%，报23963.41点；恒生科技指数跌0.47%。网易、美团、",
+   "heat": 0.786,
    "level": "爆点",
-   "n": 5,
+   "n": 9,
    "media": 3,
-   "cat": "交运物流",
+   "cat": "消费电子",
    "sectors": [
-    "BK0480"
+    "BK1036",
+    "BK0459"
    ],
    "factors": {
-    "coverage": 0.662,
-    "burst": 0.613,
-    "duration": 0.667,
+    "coverage": 0.873,
+    "burst": 1.0,
+    "duration": 0.5,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    82900,
-    82911,
-    83440,
-    83471,
-    83720
+    84799,
+    84800,
+    84804,
+    84828,
+    84854,
+    84859,
+    84888,
+    84899,
+    84965
    ]
   },
   {
-   "label": "巴西已统计32%的选票，总统候选人博索纳罗得票率50.7%，现任总统卢拉41.1",
-   "heat": 0.641,
+   "label": "国庆档电影票房破5亿元 年度电影全产业链产值超4700亿元",
+   "heat": 0.77,
    "level": "高热",
-   "n": 4,
+   "n": 6,
    "media": 3,
    "cat": "综合",
-   "sectors": [],
+   "sectors": [
+    "BK0486",
+    "BK0847"
+   ],
    "factors": {
-    "coverage": 0.594,
-    "burst": 0.898,
-    "duration": 0.333,
+    "coverage": 0.737,
+    "burst": 0.602,
+    "duration": 1.0,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    83747,
-    83764,
-    83856,
-    83908
+    84023,
+    84053,
+    84494,
+    85124,
+    85127,
+    85211
    ]
   },
   {
    "label": "日经225指数日内涨幅扩大至2%。 日本东证指数涨幅扩大至1%。",
-   "heat": 0.641,
+   "heat": 0.677,
    "level": "高热",
-   "n": 4,
+   "n": 5,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.594,
-    "burst": 0.898,
-    "duration": 0.333,
+    "coverage": 0.679,
+    "burst": 0.778,
+    "duration": 0.5,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    83863,
-    83968,
-    83977,
-    83998
-   ]
-  },
-  {
-   "label": "默茨访乌带来13.5亿欧元援助，德乌拟敲定无人机和远程武器联合生产协议",
-   "heat": 0.612,
-   "level": "高热",
-   "n": 4,
-   "media": 3,
-   "cat": "汽车出行",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.594,
-    "burst": 0.774,
-    "duration": 0.333,
-    "media": 0.75,
-    "social": null
-   },
-   "article_ids": [
-    83427,
-    83436,
-    83622,
-    83765
+    84714,
+    84820,
+    84829,
+    84850,
+    84866
    ]
   },
   {
    "label": "降雨，降温！南宁等地气温将跌至20℃，假期后程广西天气如何→",
-   "heat": 0.594,
+   "heat": 0.645,
    "level": "高热",
    "n": 4,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.594,
-    "burst": 0.613,
-    "duration": 0.667,
+    "coverage": 0.61,
+    "burst": 0.477,
+    "duration": 1.0,
     "media": 0.5,
     "social": null
    },
    "article_ids": [
-    83271,
-    83647,
-    83907,
-    83988
+    84113,
+    84497,
+    84758,
+    84840
+   ]
+  },
+  {
+   "label": "巴西已统计32%的选票，总统候选人博索纳罗得票率50.7%，现任总统卢拉41.1",
+   "heat": 0.638,
+   "level": "高热",
+   "n": 4,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.61,
+    "burst": 0.699,
+    "duration": 0.5,
+    "media": 0.75,
+    "social": null
+   },
+   "article_ids": [
+    84597,
+    84614,
+    84707,
+    84759
    ]
   },
   {
    "label": "日本央行副行长内田真一：人工智能(AI)的采用可能对生产力和劳动力市场产生正面与",
-   "heat": 0.588,
+   "heat": 0.638,
    "level": "高热",
-   "n": 3,
+   "n": 4,
    "media": 3,
    "cat": "AI与大模型",
    "sectors": [
     "BK0800"
    ],
    "factors": {
-    "coverage": 0.512,
-    "burst": 0.774,
-    "duration": 0.333,
+    "coverage": 0.61,
+    "burst": 0.699,
+    "duration": 0.5,
     "media": 0.75,
     "social": null
    },
    "article_ids": [
-    83891,
-    83894,
-    83915
+    84742,
+    84745,
+    84766,
+    84873
    ]
   },
   {
-   "label": "国庆假期前3天高速公路新能源汽车充电近300万次、充电量超0.71亿千瓦时",
-   "heat": 0.577,
+   "label": "也门政府宣布收复胡塞控制区，塔伊兹补给线与红海沿岸争夺升级",
+   "heat": 0.635,
    "level": "高热",
-   "n": 6,
-   "media": 2,
-   "cat": "交运物流",
+   "n": 5,
+   "media": 3,
+   "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.719,
-    "burst": 0.387,
-    "duration": 0.667,
-    "media": 0.5,
+    "coverage": 0.679,
+    "burst": 0.602,
+    "duration": 0.5,
+    "media": 0.75,
     "social": null
    },
    "article_ids": [
-    82917,
-    83412,
-    83523,
-    83695,
-    83785,
-    83944
+    84486,
+    84489,
+    84564,
+    84582,
+    84945
    ]
   }
  ]

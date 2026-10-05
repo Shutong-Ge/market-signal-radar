@@ -1,12 +1,12 @@
 {
  "summary": {
-  "n_queries": 8,
+  "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.306,
-  "avg_rank_diff": 0.77,
-  "avg_missed_by_bm25": 2.88,
-  "avg_missed_by_vector": 3.0,
-  "conclusion": "两路召回集平均重合度仅 31%；即便重合的文档，两路名次平均相差 0.77 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.88 篇最终进入 Top8 的文档；只用向量则漏掉 3.0 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.426,
+  "avg_rank_diff": 0.71,
+  "avg_missed_by_bm25": 2.44,
+  "avg_missed_by_vector": 1.78,
+  "conclusion": "两路召回集平均重合度仅 43%；即便重合的文档，两路名次平均相差 0.71 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.44 篇最终进入 Top8 的文档；只用向量则漏掉 1.78 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
@@ -22,63 +22,72 @@
    "type": "关键词式",
    "query": "中东 冲突 伊朗 革命 卫队 近日",
    "jaccard": 0.231,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
-   "example_top1": "中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，胡塞武装称对沙特阿美石油公司目标"
+   "rank_diff": 1.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 1,
+   "example_top1": "伊朗革命卫队近日对7艘“违规”油轮采取行动"
   },
   {
    "type": "去数字泛化",
    "query": "中东冲突大消息：伊朗革命卫队近日对艘“违规”油轮采取行动，胡",
    "jaccard": 0.143,
    "rank_diff": 1.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 5,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 3,
    "example_top1": "伊朗革命卫队近日对7艘“违规”油轮采取行动"
   },
   {
    "type": "原标题式",
-   "query": "国庆假期第四天全国道路交通总体平稳，公安部交管局提示",
-   "jaccard": 0.455,
-   "rank_diff": 0.6,
-   "missed_by_bm25": 2,
+   "query": "10月6日至7日北京迎返程高峰 交通部门多举措保障出行",
+   "jaccard": 0.6,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 1,
    "missed_by_vector": 2,
-   "example_top1": "国庆假期第四天全国道路交通总体平稳，公安部交管局提示"
+   "example_top1": "10月6日至7日北京迎返程高峰 交通部门多举措保障出行"
   },
   {
    "type": "关键词式",
-   "query": "国庆 假期 第四天 全国 道路交通 总体",
-   "jaccard": 0.333,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "国庆假期第四天全国道路交通总体平稳，公安部交管局提示"
+   "query": "日至 北京 返程 高峰 交通部门 举措",
+   "jaccard": 0.778,
+   "rank_diff": 1.57,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 0,
+   "example_top1": "10月6日至7日北京迎返程高峰 交通部门多举措保障出行"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "月日至日北京迎返程高峰 交通部门多举措保障出行",
+   "jaccard": 0.6,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "10月6日至7日北京迎返程高峰 交通部门多举措保障出行"
   },
   {
    "type": "原标题式",
    "query": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配",
-   "jaccard": 0.455,
-   "rank_diff": 0.4,
-   "missed_by_bm25": 3,
+   "jaccard": 0.6,
+   "rank_diff": 0.33,
+   "missed_by_bm25": 2,
    "missed_by_vector": 2,
    "example_top1": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将"
   },
   {
    "type": "关键词式",
    "query": "声明 周日 会议 决定 维持 月份",
-   "jaccard": 0.231,
-   "rank_diff": 1.33,
+   "jaccard": 0.143,
+   "rank_diff": 0.5,
    "missed_by_bm25": 3,
-   "missed_by_vector": 4,
+   "missed_by_vector": 3,
    "example_top1": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将"
   },
   {
    "type": "去数字泛化",
    "query": "声明显示，OPEC+在周日会议上决定维持月份的石油产量配额不",
-   "jaccard": 0.455,
+   "jaccard": 0.6,
    "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 2,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
    "example_top1": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将"
   }
  ]
