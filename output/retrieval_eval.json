@@ -1,94 +1,85 @@
 {
  "summary": {
-  "n_queries": 9,
+  "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.426,
-  "avg_rank_diff": 0.71,
-  "avg_missed_by_bm25": 2.44,
-  "avg_missed_by_vector": 1.78,
-  "conclusion": "两路召回集平均重合度仅 43%；即便重合的文档，两路名次平均相差 0.71 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.44 篇最终进入 Top8 的文档；只用向量则漏掉 1.78 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.445,
+  "avg_rank_diff": 1.79,
+  "avg_missed_by_bm25": 2.12,
+  "avg_missed_by_vector": 1.38,
+  "conclusion": "两路召回集平均重合度仅 44%；即便重合的文档，两路名次平均相差 1.79 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.12 篇最终进入 Top8 的文档；只用向量则漏掉 1.38 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "中东冲突大消息：伊朗革命卫队近日对7艘“违规”油轮采取行动，",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 3,
-   "example_top1": "伊朗革命卫队近日对7艘“违规”油轮采取行动"
-  },
-  {
-   "type": "关键词式",
-   "query": "中东 冲突 伊朗 革命 卫队 近日",
-   "jaccard": 0.231,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 1,
-   "example_top1": "伊朗革命卫队近日对7艘“违规”油轮采取行动"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "中东冲突大消息：伊朗革命卫队近日对艘“违规”油轮采取行动，胡",
-   "jaccard": 0.143,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 3,
-   "example_top1": "伊朗革命卫队近日对7艘“违规”油轮采取行动"
-  },
-  {
-   "type": "原标题式",
-   "query": "10月6日至7日北京迎返程高峰 交通部门多举措保障出行",
-   "jaccard": 0.6,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "10月6日至7日北京迎返程高峰 交通部门多举措保障出行"
-  },
-  {
-   "type": "关键词式",
-   "query": "日至 北京 返程 高峰 交通部门 举措",
-   "jaccard": 0.778,
-   "rank_diff": 1.57,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 0,
-   "example_top1": "10月6日至7日北京迎返程高峰 交通部门多举措保障出行"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "月日至日北京迎返程高峰 交通部门多举措保障出行",
-   "jaccard": 0.6,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "10月6日至7日北京迎返程高峰 交通部门多举措保障出行"
-  },
-  {
-   "type": "原标题式",
-   "query": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配",
-   "jaccard": 0.6,
-   "rank_diff": 0.33,
+   "query": "快讯：恒指高开1%站上24000点 科指涨1.02% 科网股",
+   "jaccard": 0.333,
+   "rank_diff": 1.5,
    "missed_by_bm25": 2,
    "missed_by_vector": 2,
-   "example_top1": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将"
+   "example_top1": "快讯：恒指高开1%站上24000点 科指涨1.02% 科网股普涨 创新药概念股高开"
   },
   {
    "type": "关键词式",
-   "query": "声明 周日 会议 决定 维持 月份",
-   "jaccard": 0.143,
-   "rank_diff": 0.5,
+   "query": "快讯 恒指 高开 站上 科指涨 科网",
+   "jaccard": 0.455,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "快讯：恒指高开1%站上24000点 科指涨1.02% 科网股普涨 创新药概念股高开"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "快讯：恒指高开站上点 科指涨 科网股普涨 创新药概念股高开",
+   "jaccard": 0.455,
+   "rank_diff": 0.8,
    "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "亚马逊云科技接入智谱GLM-5.3，港股“大模型双雄”齐涨"
+  },
+  {
+   "type": "原标题式",
+   "query": "沙特发动大规模空袭！也门政府军称从胡塞武装手中夺回红海港口城",
+   "jaccard": 0.333,
+   "rank_diff": 2.75,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "沙特发动大规模空袭！也门政府军称从胡塞武装手中夺回红海港口城市穆哈"
+  },
+  {
+   "type": "关键词式",
+   "query": "沙特 发动 大规模 空袭 也门 政府军",
+   "jaccard": 0.333,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 1,
    "missed_by_vector": 3,
-   "example_top1": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将"
+   "example_top1": "沙特发动大规模空袭！也门政府军称从胡塞武装手中夺回红海港口城市穆哈"
+  },
+  {
+   "type": "原标题式",
+   "query": "视频丨2026国庆档票房超9亿元 国产影片领跑档期",
+   "jaccard": 0.6,
+   "rank_diff": 2.33,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 0,
+   "example_top1": "视频丨2026国庆档票房超9亿元 国产影片领跑档期"
+  },
+  {
+   "type": "关键词式",
+   "query": "视频 国庆 票房 亿元 国产 影片",
+   "jaccard": 0.455,
+   "rank_diff": 1.4,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 0,
+   "example_top1": "视频丨2026国庆档票房超9亿元 国产影片领跑档期"
   },
   {
    "type": "去数字泛化",
-   "query": "声明显示，OPEC+在周日会议上决定维持月份的石油产量配额不",
+   "query": "视频丨国庆档票房超亿元 国产影片领跑档期",
    "jaccard": 0.6,
-   "rank_diff": 0.0,
+   "rank_diff": 2.5,
    "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将"
+   "missed_by_vector": 0,
+   "example_top1": "视频丨2026国庆档票房超9亿元 国产影片领跑档期"
   }
  ]
 }
