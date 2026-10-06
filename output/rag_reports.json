@@ -1,19 +1,19 @@
 {
  "engine": "template(降级)",
- "n_clusters": 50,
+ "n_clusters": 53,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.6,
+ "elapsed": 6.5,
  "reports": [
   {
-   "key": "0a0e8a044f1287e2",
+   "key": "ea0146e6ab56813e",
    "label": "快讯：恒指高开1%站上24000点 科指涨1.02% 科网股普涨 创新药概念股高开",
    "cached": false,
    "sections": {
-    "事件概述": "「快讯：恒指高开1%站上24000点 科指涨1.02% 科网股普涨 创新药概念股高开」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.854（爆点），所属板块类目：消费电子。",
-    "关键信息": "快讯：恒指高开1%站上24000点 科指涨1.02% 科网股普涨 创新药概念股高；亚马逊云科技接入智谱GLM-5.3，港股“大模型双雄”齐涨；快讯：恒指低开0.04% 科指跌0.47% 科网股普跌 创新药概念股活跃",
+    "事件概述": "「快讯：恒指高开1%站上24000点 科指涨1.02% 科网股普涨 创新药概念股高开」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.837（爆点），所属板块类目：金融市场。",
+    "关键信息": "快讯：恒指高开1%站上24000点 科指涨1.02% 科网股普涨 创新药概念股高；港股午评：恒指涨0.78% 科指涨0.87% 科网股普涨 创新药概念股强势 智谱；亚马逊云科技接入智谱GLM-5.3，港股“大模型双雄”齐涨",
     "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -23,163 +23,163 @@
      "title": "快讯：恒指高开1%站上24000点 科指涨1.02% 科网股普涨 创新药概念股高开",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-06/doc-iniufxci2072171.shtml",
-     "rrf": 0.03252,
-     "bm25_rank": 2,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "亚马逊云科技接入智谱GLM-5.3，港股“大模型双雄”齐涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-06/doc-iniufxci2082167.shtml",
-     "rrf": 0.03202,
-     "bm25_rank": 1,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "快讯：恒指低开0.04% 科指跌0.47% 科网股普跌 创新药概念股活跃",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-05/doc-iniucpwp9843345.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "港股午评：恒指跌0.08% 科指涨0.27% 科网股分化 PCB概念股强势",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-05/doc-iniucyni4514560.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "创新药概念股早盘延续涨势 康希诺生物涨逾13%歌礼制药-B涨逾9%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-06/doc-iniufxci2091446.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
-    },
-    {
-     "n": 6,
-     "title": "PCB概念股，涨超9%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-05/doc-iniucyni4538434.shtml",
-     "rrf": 0.02817,
-     "bm25_rank": 12,
-     "vec_rank": 10
-    },
-    {
-     "n": 7,
-     "title": "港股创新药概念普涨 金斯瑞生物科技涨6%再创新高 康希诺生物涨近15%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610063888729052.html",
-     "rrf": 0.02786,
-     "bm25_rank": 16,
-     "vec_rank": 8
-    },
-    {
-     "n": 8,
-     "title": "菲律宾股指高开0.8%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174021",
-     "rrf": 0.02765,
-     "bm25_rank": 6,
-     "vec_rank": 20
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "快讯：恒指高开1%站上24000点 科指涨1.02% 科网股普涨 创新药概念股高",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 4,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "81319cb61a541f6b",
-   "label": "沙特发动大规模空袭！也门政府军称从胡塞武装手中夺回红海港口城市穆哈",
-   "cached": false,
-   "sections": {
-    "事件概述": "「沙特发动大规模空袭！也门政府军称从胡塞武装手中夺回红海港口城市穆哈」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.769（爆点），所属板块类目：综合。",
-    "关键信息": "沙特发动大规模空袭！也门政府军称从胡塞武装手中夺回红海港口城市穆哈；也门政府军称收复红海港口城市穆哈；沙特支持的也门部队发动全面攻势 试图夺回胡塞武装控制区",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "沙特发动大规模空袭！也门政府军称从胡塞武装手中夺回红海港口城市穆哈",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/gjcj/2026-10-06/doc-iniuezxt2477518.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "也门政府军称收复红海港口城市穆哈",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610053888695751.html",
+     "title": "港股午评：恒指涨0.78% 科指涨0.87% 科网股普涨 创新药概念股强势 智谱涨超8%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-06/doc-iniuhcmm5786818.shtml",
      "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "沙特支持的也门部队发动全面攻势 试图夺回胡塞武装控制区",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-04/doc-iniuassz6927704.shtml",
-     "rrf": 0.03105,
-     "bm25_rank": 7,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "曼德海峡成新战场：沙特支持部队向胡塞武装发起“夺峡战”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/gjcj/2026-10-06/doc-iniufsvp3777260.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "胡塞武装称沙特24小时内发动百次空袭和导弹袭击",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610053888581518.html",
-     "rrf": 0.03058,
      "bm25_rank": 3,
-     "vec_rank": 8
-    },
-    {
-     "n": 6,
-     "title": "也门胡塞武装称发射导弹和无人机袭击沙特多个目标",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174281",
-     "rrf": 0.03016,
-     "bm25_rank": 10,
      "vec_rank": 3
     },
     {
-     "n": 7,
-     "title": "也门胡塞武装称对沙特境内多个目标实施三轮军事行动",
+     "n": 3,
+     "title": "亚马逊云科技接入智谱GLM-5.3，港股“大模型双雄”齐涨",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-06/doc-iniufnpr9217111.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-06/doc-iniufxci2082167.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 2,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "快讯：恒指低开0.04% 科指跌0.47% 科网股普跌 创新药概念股活跃",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-05/doc-iniucpwp9843345.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 5,
+     "title": "港股午评：恒指跌0.08% 科指涨0.27% 科网股分化 PCB概念股强势",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-05/doc-iniucyni4514560.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "两大板块，爆发！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-06/doc-iniuhiti5701520.shtml",
+     "rrf": 0.02867,
+     "bm25_rank": 14,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "美股开盘：纳指续创新高、标普500指数逼近前高 英伟达涨超1%续创新高",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610063888798934.html",
+     "rrf": 0.02838,
+     "bm25_rank": 9,
+     "vec_rank": 12
+    },
+    {
+     "n": 8,
+     "title": "创新药概念股早盘延续涨势 康希诺生物涨逾13%歌礼制药-B涨逾9%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-06/doc-iniufxci2091446.shtml",
+     "rrf": 0.02817,
+     "bm25_rank": 11,
+     "vec_rank": 11
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "快讯：恒指高开1%站上24000点 科指涨1.02% 科网股普涨 创新药概念股高",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 2
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "18701121c797a0d9",
+   "label": "深夜纳指、英伟达创新高，美股科技股大涨，SpaceX涨超7%，马斯克身家重回1万亿美元，国际油价",
+   "cached": false,
+   "sections": {
+    "事件概述": "「深夜纳指、英伟达创新高，美股科技股大涨，SpaceX涨超7%，马斯克身家重回1万亿美元，国际油价」由 17 篇报道聚合而成，覆盖 3 家媒体，热度 0.792（爆点），所属板块类目：国际市场。",
+    "关键信息": "深夜纳指、英伟达创新高，美股科技股大涨，SpaceX涨超7%，马斯克身家重回1万；10月6日美股成交额前20：英伟达涨超2%创历史新高 SpaceX涨超7% 马斯；SpaceX与特斯拉股价反弹 马斯克身家重返万亿美元",
+    "市场影响": "关联板块代码：BK1675。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "深夜纳指、英伟达创新高，美股科技股大涨，SpaceX涨超7%，马斯克身家重回1万亿美元，国际油价跌破90美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/t/2026-10-06/doc-iniufsvp9125532.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "10月6日美股成交额前20：英伟达涨超2%创历史新高 SpaceX涨超7% 马斯克重回万亿美元身价",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-06/doc-iniufsvp3764906.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "SpaceX与特斯拉股价反弹 马斯克身家重返万亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniufsvp3773408.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "美股开盘：纳指续创新高、标普500指数逼近前高 英伟达涨超1%续创新高",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610063888798934.html",
+     "rrf": 0.03062,
+     "bm25_rank": 2,
+     "vec_rank": 9
+    },
+    {
+     "n": 5,
+     "title": "马斯克身家一日暴涨2052亿元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/wbstock/2026-10-06/doc-iniufxcq7238936.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "纳指再创收盘新高，硬盘股反弹、PTC大涨逾33%，国际油价跌近2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-06/doc-iniufsvm2165356.shtml",
+     "rrf": 0.02971,
+     "bm25_rank": 4,
+     "vec_rank": 11
+    },
+    {
+     "n": 7,
+     "title": "纳指盘中再创历史新高 逼近27400点",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610053888688295.html",
+     "rrf": 0.02947,
+     "bm25_rank": 11,
      "vec_rank": 5
     },
     {
      "n": 8,
-     "title": "胡塞武装称沙特空袭也门萨那省",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174110",
+     "title": "美股ETF追踪 | 巴西资产集体爆发 3倍做多巴西ETN大涨37%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/gjcj/2026-10-06/doc-iniufsvr5884270.shtml",
      "rrf": 0.02944,
      "bm25_rank": 6,
      "vec_rank": 10
@@ -187,21 +187,209 @@
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "沙特发动大规模空袭！也门政府军称从胡塞武装手中夺回红海港口城市穆哈",
-    "bm25_only": 1,
+    "query": "深夜纳指、英伟达创新高，美股科技股大涨，SpaceX涨超7%，马斯克身家重回1万",
+    "bm25_only": 3,
     "vec_only": 1,
-    "both": 6,
+    "both": 4,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "3caa7b3967e158e8",
+   "key": "027f0eb76af6d165",
+   "label": "日经225指数收涨1.1% 自7月1日以来首次收于70000点上方",
+   "cached": false,
+   "sections": {
+    "事件概述": "「日经225指数收涨1.1% 自7月1日以来首次收于70000点上方」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.714（爆点），所属板块类目：综合。",
+    "关键信息": "日经225指数收涨1.1% 自7月1日以来首次收于70000点上方；日经225指数盘中重返70000点上方，日内涨超2.5%。；日经225指数突破70000点 日内涨2.5%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "日经225指数收涨1.1% 自7月1日以来首次收于70000点上方",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhitk7074792.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "日经225指数盘中重返70000点上方，日内涨超2.5%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3174022",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "日经225指数突破70000点 日内涨2.5%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610053888596051.html",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "日经225指数，再次突破7万点大关｜盘中速报",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-05/doc-iniucuem4606402.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "日经225指数期货早盘上涨1.86%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610053888584055.html",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "日经225指数开盘涨1.2%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610053888584945.html",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "日经225指数日内涨幅扩大至2%。 日本东证指数涨幅扩大至1%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3174009",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "亚太资金涌入东京市场！日经225突破70000点大关",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-05/doc-iniucuem4614334.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 10,
+     "vec_rank": 6
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "日经225指数收涨1.1% 自7月1日以来首次收于70000点上方",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 7,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "3a9747314604a836",
+   "label": "日经225指数高开0.01%。韩国首尔综指高开0.6%。",
+   "cached": false,
+   "sections": {
+    "事件概述": "「日经225指数高开0.01%。韩国首尔综指高开0.6%。」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.687（爆点），所属板块类目：综合。",
+    "关键信息": "日经225指数高开0.01%。韩国首尔综指高开0.6%。；日经225指数开盘涨1.2%；日韩股市开盘 韩国综合股价指数开盘上涨0.6%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "日经225指数高开0.01%。韩国首尔综指高开0.6%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3174295",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "日经225指数开盘涨1.2%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610053888584945.html",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "日韩股市开盘 韩国综合股价指数开盘上涨0.6%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniufsvp3783008.shtml",
+     "rrf": 0.03058,
+     "bm25_rank": 8,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "日股高开！存储巨头，快速跳水",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/2026-10-05/doc-iniucpwp4721069.shtml",
+     "rrf": 0.02983,
+     "bm25_rank": 2,
+     "vec_rank": 13
+    },
+    {
+     "n": 5,
+     "title": "日经225指数突破70000点 日内涨2.5%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610053888596051.html",
+     "rrf": 0.02951,
+     "bm25_rank": 12,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "KOSPI跌0.89%科技股领跌 韩元兑美元走强",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhpzc8877178.shtml",
+     "rrf": 0.02896,
+     "bm25_rank": 4,
+     "vec_rank": 15
+    },
+    {
+     "n": 7,
+     "title": "标普500指数高开32.01点，涨幅0.41%，报7805.96点； 道琼斯工业",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3174477",
+     "rrf": 0.02886,
+     "bm25_rank": 3,
+     "vec_rank": 17
+    },
+    {
+     "n": 8,
+     "title": "韩国综指跌幅扩大至1%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610063888737016.html",
+     "rrf": 0.02881,
+     "bm25_rank": 7,
+     "vec_rank": 12
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "日经225指数高开0.01%。韩国首尔综指高开0.6%。",
+    "bm25_only": 4,
+    "vec_only": 1,
+    "both": 3,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "6bd5067aaa604ea3",
    "label": "视频丨2026国庆档票房超9亿元 国产影片领跑档期",
    "cached": false,
    "sections": {
-    "事件概述": "「视频丨2026国庆档票房超9亿元 国产影片领跑档期」由 8 篇报道聚合而成，覆盖 4 家媒体，热度 0.749（爆点），所属板块类目：综合。",
-    "关键信息": "视频丨2026国庆档票房超9亿元 国产影片领跑档期；国庆档票房破9亿；2026国庆档总票房破9亿",
+    "事件概述": "「视频丨2026国庆档票房超9亿元 国产影片领跑档期」由 6 篇报道聚合而成，覆盖 4 家媒体，热度 0.676（爆点），所属板块类目：综合。",
+    "关键信息": "视频丨2026国庆档票房超9亿元 国产影片领跑档期；2026国庆档总票房破9亿；国庆档票房破9亿",
     "市场影响": "关联板块代码：BK0486、BK0847。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -217,262 +405,74 @@
     },
     {
      "n": 2,
-     "title": "国庆档票房破9亿",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174121",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
      "title": "2026国庆档总票房破9亿",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202610053888674823.html",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
+     "rrf": 0.03175,
+     "bm25_rank": 2,
      "vec_rank": 4
     },
     {
-     "n": 4,
-     "title": "2026国庆档总票房破7亿",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/2026-10-04/doc-iniuanmc6976498.shtml",
-     "rrf": 0.03083,
-     "bm25_rank": 2,
-     "vec_rank": 8
+     "n": 3,
+     "title": "国庆档票房破9亿",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3174121",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
     },
     {
-     "n": 5,
+     "n": 4,
      "title": "2026国庆档单日票房破2亿",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202610053888689383.html",
-     "rrf": 0.03055,
-     "bm25_rank": 4,
-     "vec_rank": 7
-    },
-    {
-     "n": 6,
-     "title": "连续4天单日破亿！2026国庆档电影票房已超7亿",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173954",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
+     "rrf": 0.03102,
+     "bm25_rank": 3,
      "vec_rank": 6
     },
     {
-     "n": 7,
-     "title": "国庆档票房破8亿！“电影+”新活力激发消费新增量",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-05/10708127.shtml",
-     "rrf": 0.02947,
-     "bm25_rank": 11,
-     "vec_rank": 5
-    },
-    {
-     "n": 8,
+     "n": 5,
      "title": "国庆档电影票房超9亿！光影文旅双向奔赴",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-06/doc-iniufxcp5801575.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 15,
+     "rrf": 0.03016,
+     "bm25_rank": 10,
      "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "国庆档票房破8亿！“电影+”新活力激发消费新增量",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-05/10708127.shtml",
+     "rrf": 0.03009,
+     "bm25_rank": 8,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "电影《生化危机：爆发夜》票房破9000万元",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610063888723511.html",
+     "rrf": 0.01538,
+     "bm25_rank": 5,
+     "vec_rank": null
+    },
+    {
+     "n": 8,
+     "title": "视频 | 国产AI软件生成的黄仁勋“世界巡演”视频爆火:马斯克也转发点评",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-06/doc-iniuhuic5616521.shtml",
+     "rrf": 0.01515,
+     "bm25_rank": 6,
+     "vec_rank": null
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "视频丨2026国庆档票房超9亿元 国产影片领跑档期",
-    "bm25_only": 0,
-    "vec_only": 2,
-    "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "1ff6b77448d7a51a",
-   "label": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将",
-   "cached": false,
-   "sections": {
-    "事件概述": "「声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.733（爆点），所属板块类目：综合。",
-    "关键信息": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将；OPEC+在10月4日的会议上决定 对11月的石油产量配额不作任何调整；OPEC+主要成员国同意11月维持产量目标不变",
-    "市场影响": "关联板块代码：BK0464。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173951",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "OPEC+在10月4日的会议上决定 对11月的石油产量配额不作任何调整",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610043888558943.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "OPEC+主要成员国同意11月维持产量目标不变",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-iniuassv3493653.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "代表称，OPEC＋原则上同意在11月维持石油产量目标不变。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173930",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "OPEC+连续第二个月暂停增产：11月配额不变，实际供应仍受中东冲突制约",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniueeuf9637224.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "欧佩克+原则上达成协议 11月石油产量目标将保持不变",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610043888541659.html",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "公布在即！美联储，加息大消息！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/2026-10-04/doc-initzvpk0416710.shtml",
-     "rrf": 0.02765,
-     "bm25_rank": 16,
-     "vec_rank": 9
-    },
-    {
-     "n": 8,
-     "title": "据日经新闻报道，沙特与阿联酋价格帮助亚洲推高石油储备。 “亚洲零排放委员会”（A",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173974",
-     "rrf": 0.02711,
-     "bm25_rank": 10,
-     "vec_rank": 18
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "声明显示，OPEC+在周日会议上决定维持11月份的石油产量配额不变；下一次会议将",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 6,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "82b269fc3de001d0",
-   "label": "国庆首日高速公路充电量创历史新高 机构称政策支持下充电桩市场份额有望进一步扩大",
-   "cached": false,
-   "sections": {
-    "事件概述": "「国庆首日高速公路充电量创历史新高 机构称政策支持下充电桩市场份额有望进一步扩大」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.692（爆点），所属板块类目：交运物流。",
-    "关键信息": "国庆首日高速公路充电量创历史新高 机构称政策支持下充电桩市场份额有望进一步扩大；芙蓉国评论 | 把“焦虑”变“从容”，答好新能源出行的国庆“大考”；高速公路充电量同比增近50%！国庆假期，两大电网迎考充电高峰",
-    "市场影响": "关联板块代码：BK1483、BK0421。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "国庆首日高速公路充电量创历史新高 机构称政策支持下充电桩市场份额有望进一步扩大",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610063888720932.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "芙蓉国评论 | 把“焦虑”变“从容”，答好新能源出行的国庆“大考”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-04/doc-iniuankx3602223.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "高速公路充电量同比增近50%！国庆假期，两大电网迎考充电高峰",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/t/2026-10-04/doc-iniuahcc5303027.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "国庆假期前3天高速公路新能源汽车充电近300万次、充电量超0.71亿千瓦时",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3173925",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "充电至80%强制离场！假期部分高速服务区出台新规，对新能源车有影响吗？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-05/doc-iniucpwp9850689.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "“八分饱”对新能源车有影响吗？假期返程充电避开这些繁忙时段",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-05/doc-iniuciqp3207862.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "山西多个高速服务区新增扩容充电设备",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-06/doc-iniufxcm9040651.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 10,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "返程重要提醒！高速拥堵！服务区充电繁忙！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-06/doc-iniufxcm9064469.shtml",
-     "rrf": 0.02881,
-     "bm25_rank": 7,
-     "vec_rank": 12
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "国庆首日高速公路充电量创历史新高 机构称政策支持下充电桩市场份额有望进一步扩大",
-    "bm25_only": 1,
+    "bm25_only": 2,
     "vec_only": 1,
-    "both": 6,
+    "both": 5,
     "neither_topk": 0
    },
    "elapsed": 0.0
