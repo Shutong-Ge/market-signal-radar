@@ -1,91 +1,91 @@
 {
  "engine": "template(降级)",
- "n_clusters": 59,
+ "n_clusters": 56,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.4,
+ "elapsed": 5.7,
  "reports": [
   {
-   "key": "dfd494e85337b4c9",
-   "label": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21",
+   "key": "807dc893348afddd",
+   "label": "交通运输部：10月7日，37个高速公路路段易发拥堵，58个服务区预计充电特别繁忙",
    "cached": false,
    "sections": {
-    "事件概述": "「交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21」由 46 篇报道聚合而成，覆盖 3 家媒体，热度 0.812（爆点），所属板块类目：综合。",
-    "关键信息": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21；国庆假期第六天全社会跨区域人员流动量将超3亿人次；国庆假期中国跨区域人员流动量料达21.44亿人次",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「交通运输部：10月7日，37个高速公路路段易发拥堵，58个服务区预计充电特别繁忙」由 16 篇报道聚合而成，覆盖 4 家媒体，热度 0.808（爆点），所属板块类目：综合。",
+    "关键信息": "交通运输部：10月7日，37个高速公路路段易发拥堵，58个服务区预计充电特别繁忙；宁夏交警发布最新提示！；视频丨今日37个高速公路路段易发拥堵 主要集中在江苏河北等地",
+    "市场影响": "关联板块代码：BK0422。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174822",
+     "title": "交通运输部：10月7日，37个高速公路路段易发拥堵，58个服务区预计充电特别繁忙",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-07/doc-iniukhkr4914347.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "国庆假期第六天全社会跨区域人员流动量将超3亿人次",
+     "title": "宁夏交警发布最新提示！",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-06/doc-iniuhuie6884060.shtml",
+     "url": "https://finance.sina.com.cn/wm/2026-10-07/doc-iniukhki8295556.shtml",
      "rrf": 0.032,
      "bm25_rank": 2,
      "vec_rank": 3
     },
     {
      "n": 3,
-     "title": "国庆假期中国跨区域人员流动量料达21.44亿人次",
+     "title": "视频丨今日37个高速公路路段易发拥堵 主要集中在江苏河北等地",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-07/doc-iniumcpz4866936.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-07/doc-iniukaat5011152.shtml",
      "rrf": 0.032,
      "bm25_rank": 3,
      "vec_rank": 2
     },
     {
      "n": 4,
-     "title": "10月5日全社会跨区域人员流动量30333.7万人次",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-06/10708460.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
+     "title": "新场景里看活力：国庆假期车流量增 日均充电特别繁忙服务区数量却降 一增一降里的新能源汽车充电新趋势",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniunezp4424711.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 4,
+     "vec_rank": 9
     },
     {
      "n": 5,
-     "title": "21.44亿的“大项目”，你参与了吗？",
+     "title": "闪充、换电助力，这个假期“续航焦虑”缓解了吗？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-08/doc-iniunmir4011331.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "国庆假期 全社会跨区域流动超21亿人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-07/doc-iniumiwc4474552.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniunmim4404382.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 8,
      "vec_rank": 6
     },
     {
-     "n": 7,
-     "title": "10月5日中国跨区域人员流动量30333.7万人次",
+     "n": 6,
+     "title": "新闻联播｜国庆假期高速公路新能源汽车日均充电量同比增长51.42%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-06/doc-iniuhuhz8836020.shtml",
-     "rrf": 0.02971,
-     "bm25_rank": 4,
+     "url": "https://finance.sina.com.cn/wm/2026-10-08/doc-iniupnvc7574104.shtml",
+     "rrf": 0.02947,
+     "bm25_rank": 5,
      "vec_rank": 11
     },
     {
+     "n": 7,
+     "title": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3174822",
+     "rrf": 0.02944,
+     "bm25_rank": 6,
+     "vec_rank": 10
+    },
+    {
      "n": 8,
-     "title": "（经济观察）流动中国释放假日经济新动能",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-07/10708824.shtml",
+     "title": "21.44亿的“大项目”，你参与了吗？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-08/doc-iniunmir4011331.shtml",
      "rrf": 0.02942,
      "bm25_rank": 9,
      "vec_rank": 7
@@ -93,7 +93,195 @@
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21",
+    "query": "交通运输部：10月7日，37个高速公路路段易发拥堵，58个服务区预计充电特别繁忙",
+    "bm25_only": 3,
+    "vec_only": 1,
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "a87adc9258bf0193",
+   "label": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息获一",
+   "cached": false,
+   "sections": {
+    "事件概述": "「10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息获一」由 38 篇报道聚合而成，覆盖 3 家媒体，热度 0.658（爆点），所属板块类目：宏观政策。",
+    "关键信息": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要；10月8日外盘头条：美联储纪要显示多数官员倾向年内再加息一次 高盛、巴克莱等美债；10月7日隔夜要闻：美股收涨 AI热潮引领涨势 油价持稳 苹果联手LG开发智能家",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息获一致支持",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniunezt4071119.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "10月8日外盘头条：美联储纪要显示多数官员倾向年内再加息一次 高盛、巴克莱等美债分歧明显",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniunezp4425016.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "10月7日隔夜要闻：美股收涨 AI热潮引领涨势 油价持稳 苹果联手LG开发智能家居",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuivur5209575.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 6,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "美联储纪要显示9月升息获一致支持 多数与会者倾向年内再加一次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumumr7850540.shtml",
+     "rrf": 0.02996,
+     "bm25_rank": 3,
+     "vec_rank": 11
+    },
+    {
+     "n": 5,
+     "title": "10月8日收盘：三大指数收跌 10年期美债收益率创20年新高 银行与科技股承压",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniumytv4173772.shtml",
+     "rrf": 0.02988,
+     "bm25_rank": 9,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "金价走低一度失守4100美元关口 10年期美债拍卖需求强劲",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-08/doc-iniunezm7679633.shtml",
+     "rrf": 0.02951,
+     "bm25_rank": 4,
+     "vec_rank": 12
+    },
+    {
+     "n": 7,
+     "title": "美联储：年内或再加息",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-08/doc-iniunmir3978458.shtml",
+     "rrf": 0.02881,
+     "bm25_rank": 12,
+     "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "欧元区股市触及四个月低点 法国财政担忧拖累银行股",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqcz4387656.shtml",
+     "rrf": 0.02863,
+     "bm25_rank": 2,
+     "vec_rank": 20
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要",
+    "bm25_only": 3,
+    "vec_only": 2,
+    "both": 3,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "02c0ee6fa7f65555",
+   "label": "江淮汽车封死跌停！百万豪车尊界V800被曝测试中刹车踏板支架断裂，江淮汽车：正在调查中",
+   "cached": false,
+   "sections": {
+    "事件概述": "「江淮汽车封死跌停！百万豪车尊界V800被曝测试中刹车踏板支架断裂，江淮汽车：正在调查中」由 11 篇报道聚合而成，覆盖 2 家媒体，热度 0.607（爆点），所属板块类目：汽车出行。",
+    "关键信息": "江淮汽车封死跌停！百万豪车尊界V800被曝测试中刹车踏板支架断裂，江淮汽车：正在；江淮汽车回应尊界V800刹车踏板支架断裂一事：目前正在调查中；江淮汽车方面人士回应尊界V800懂车帝测试：在关注中",
+    "市场影响": "关联板块代码：BK0854、BK0953、BK1211、BK000060。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "江淮汽车封死跌停！百万豪车尊界V800被曝测试中刹车踏板支架断裂，江淮汽车：正在调查中",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-10-08/doc-iniuphnx7588671.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "江淮汽车回应尊界V800刹车踏板支架断裂一事：目前正在调查中",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-08/doc-iniupaez7559762.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "江淮汽车方面人士回应尊界V800懂车帝测试：在关注中",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniunvxm7805582.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "封死跌停！江淮汽车，最新回应！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-08/doc-iniuphpf7631320.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "尊界V800被指刹车时踏板断裂，鸿蒙智行：尚未接到相关反馈，交付周期正常",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-08/doc-iniupnux4294912.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "百万豪车安全之问！尊界V800三台新车测试刹车踏板支架全部断裂， 设计缺陷？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-08/doc-iniupaez7549291.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "尊界汽车回应制动踏板支架底座断裂故障问题",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-08/doc-iniupnux4363499.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 6,
+     "vec_rank": 10
+    },
+    {
+     "n": 8,
+     "title": "如何看待三台尊界V800刹车踏板支架断裂事件？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-08/doc-iniupafi7740734.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 10,
+     "vec_rank": 7
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "江淮汽车封死跌停！百万豪车尊界V800被曝测试中刹车踏板支架断裂，江淮汽车：正在",
     "bm25_only": 1,
     "vec_only": 1,
     "both": 6,
@@ -102,199 +290,11 @@
    "elapsed": 0.0
   },
   {
-   "key": "25ec9147ad81c1e4",
-   "label": "美股存储芯片股下挫，希捷科技 西部数据大跌超5%，光通信巨头狂飙超10%，热门中概股普跌，黄金涨",
-   "cached": false,
-   "sections": {
-    "事件概述": "「美股存储芯片股下挫，希捷科技 西部数据大跌超5%，光通信巨头狂飙超10%，热门中概股普跌，黄金涨」由 57 篇报道聚合而成，覆盖 3 家媒体，热度 0.811（爆点），所属板块类目：国际市场。",
-    "关键信息": "美股存储芯片股下挫，希捷科技 西部数据大跌超5%，光通信巨头狂飙超10%，热门中；美股盘初：道指跌0.6%，费城半导体指数跌超2%，存储芯片股、光通信股、黄金股普；纳指低开0.6% 光通信、存储板块走低",
-    "市场影响": "关联板块代码：BK1675。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "美股存储芯片股下挫，希捷科技 西部数据大跌超5%，光通信巨头狂飙超10%，热门中概股普跌，黄金涨回4155美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-06/doc-iniuiewx5446904.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "美股盘初：道指跌0.6%，费城半导体指数跌超2%，存储芯片股、光通信股、黄金股普跌",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174842",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "纳指低开0.6% 光通信、存储板块走低",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888944752.html",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "美股西部数据、希捷科技早盘跳水均跌6%左右 SK海力士跌近3%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610063888802676.html",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "美股光通信股开盘普跌 Lumentum跌3.24%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888954120.html",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "港股存储芯片大跌，澜起科技跌超6%，6000亿药王创历史新高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-07/doc-iniukxfz8107311.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "10月8日美股成交额前20：美光涨超4%，闪迪涨约2%，存储芯片在前一交易日大幅下挫后回升",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniunezp4440467.shtml",
-     "rrf": 0.02857,
-     "bm25_rank": 10,
-     "vec_rank": 10
-    },
-    {
-     "n": 8,
-     "title": "10月7日隔夜要闻：美股收涨 AI热潮引领涨势 油价持稳 苹果联手LG开发智能家居",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuivur5209575.shtml",
-     "rrf": 0.02831,
-     "bm25_rank": 6,
-     "vec_rank": 16
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "美股存储芯片股下挫，希捷科技 西部数据大跌超5%，光通信巨头狂飙超10%，热门中",
-    "bm25_only": 1,
-    "vec_only": 0,
-    "both": 6,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "c910c31268fda585",
-   "label": "韩国KOSPI指数收跌1.98%，“芯片双巨头”三星电子、SK海力士承压",
-   "cached": false,
-   "sections": {
-    "事件概述": "「韩国KOSPI指数收跌1.98%，“芯片双巨头”三星电子、SK海力士承压」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.546（爆点），所属板块类目：综合。",
-    "关键信息": "韩国KOSPI指数收跌1.98%，“芯片双巨头”三星电子、SK海力士承压；韩国综指跌幅扩大至1%；韩国股市高开低走，KOSPI指数收跌0.9%终结两连涨",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "韩国KOSPI指数收跌1.98%，“芯片双巨头”三星电子、SK海力士承压",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuksyh6026438.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "韩国综指跌幅扩大至1%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610063888737016.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "韩国股市高开低走，KOSPI指数收跌0.9%终结两连涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhitk7074101.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "韩国议员办公室披露韩国投资者因杠杆ETF损失17亿美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuknsi5001233.shtml",
-     "rrf": 0.02971,
-     "bm25_rank": 4,
-     "vec_rank": 11
-    },
-    {
-     "n": 5,
-     "title": "日韩股市，双双跳水！存储巨头，业绩不及预期",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniunmim4388404.shtml",
-     "rrf": 0.02967,
-     "bm25_rank": 10,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "日韩股市低开 韩国股市开盘跌逾1%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaat5004763.shtml",
-     "rrf": 0.02826,
-     "bm25_rank": 15,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "美股西部数据、希捷科技早盘跳水均跌6%左右 SK海力士跌近3%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610063888802676.html",
-     "rrf": 0.02735,
-     "bm25_rank": 22,
-     "vec_rank": 6
-    },
-    {
-     "n": 8,
-     "title": "东山精密、源杰科技双双跌停，光芯片指数跌超4%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175112",
-     "rrf": 0.02721,
-     "bm25_rank": 13,
-     "vec_rank": 14
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "韩国KOSPI指数收跌1.98%，“芯片双巨头”三星电子、SK海力士承压",
-    "bm25_only": 1,
-    "vec_only": 3,
-    "both": 3,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "680a818d01849045",
+   "key": "e477f60bc7004386",
    "label": "截至早盘收盘，日经225指数跌0.9%，东证指数跌1.5%。",
    "cached": false,
    "sections": {
-    "事件概述": "「截至早盘收盘，日经225指数跌0.9%，东证指数跌1.5%。」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.535（爆点），所属板块类目：综合。",
+    "事件概述": "「截至早盘收盘，日经225指数跌0.9%，东证指数跌1.5%。」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.586（爆点），所属板块类目：综合。",
     "关键信息": "截至早盘收盘，日经225指数跌0.9%，东证指数跌1.5%。；日经225指数日内跌幅扩大至1%。；亚太市场 全线回调",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -323,21 +323,12 @@
      "title": "亚太市场 全线回调",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-10-07/doc-iniumcqa5836206.shtml",
-     "rrf": 0.03016,
+     "rrf": 0.02996,
      "bm25_rank": 3,
-     "vec_rank": 10
+     "vec_rank": 11
     },
     {
      "n": 4,
-     "title": "日本东证指数升破历史最高收盘水平",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888841973.html",
-     "rrf": 0.02929,
-     "bm25_rank": 2,
-     "vec_rank": 16
-    },
-    {
-     "n": 5,
      "title": "日经225指数低开0.14%。韩国首尔综指低开1.1%。",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3174679",
@@ -346,130 +337,139 @@
      "vec_rank": 12
     },
     {
+     "n": 5,
+     "title": "日本东证指数升破历史最高收盘水平",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610073888841973.html",
+     "rrf": 0.02912,
+     "bm25_rank": 2,
+     "vec_rank": 17
+    },
+    {
      "n": 6,
      "title": "日韩股市低开 韩国股市开盘跌逾1%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaat5004763.shtml",
-     "rrf": 0.02861,
-     "bm25_rank": 17,
+     "rrf": 0.02896,
+     "bm25_rank": 15,
      "vec_rank": 4
     },
     {
      "n": 7,
-     "title": "日经225指数收涨1.1% 自7月1日以来首次收于70000点上方",
+     "title": "港股收评：恒指跌1.43% 科指跌2.89% 科网股低迷 石油股集体上涨",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhitk7074792.shtml",
-     "rrf": 0.02837,
-     "bm25_rank": 10,
-     "vec_rank": 11
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-08/doc-iniupafi7716993.shtml",
+     "rrf": 0.02848,
+     "bm25_rank": 6,
+     "vec_rank": 15
     },
     {
      "n": 8,
-     "title": "美联储：年内或再加息",
+     "title": "10月8日日经指数收跌1.4% 机械股、金融股拖累大盘走低",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-08/doc-iniunmir3978458.shtml",
-     "rrf": 0.02748,
-     "bm25_rank": 9,
-     "vec_rank": 17
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunvxc7644747.shtml",
+     "rrf": 0.02758,
+     "bm25_rank": 22,
+     "vec_rank": 5
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "截至早盘收盘，日经225指数跌0.9%，东证指数跌1.5%。",
-    "bm25_only": 3,
-    "vec_only": 1,
+    "bm25_only": 4,
+    "vec_only": 2,
     "both": 2,
-    "neither_topk": 2
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "6de2b01708ffe8b4",
-   "label": "SpaceX计划通过阿波罗主导的融资筹集400亿美元 以采购英伟达芯片",
+   "key": "d84ba2864072d266",
+   "label": "商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯",
    "cached": false,
    "sections": {
-    "事件概述": "「SpaceX计划通过阿波罗主导的融资筹集400亿美元 以采购英伟达芯片」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.485（爆点），所属板块类目：半导体。",
-    "关键信息": "SpaceX计划通过阿波罗主导的融资筹集400亿美元 以采购英伟达芯片；报道：SpaceX考虑融资400亿美元，用于购买英伟达芯片；阿波罗与多家银行洽谈为SpaceX 400亿美元英伟达GPU采购融资",
-    "市场影响": "关联板块代码：BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.56（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯；开盘|国内期货主力合约涨多跌少 液化石油气（LPG）、燃料油涨超7%；国内商品期货夜盘开盘 主力合约多数下跌",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "SpaceX计划通过阿波罗主导的融资筹集400亿美元 以采购英伟达芯片",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888837982.html",
+     "title": "商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175080",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "报道：SpaceX考虑融资400亿美元，用于购买英伟达芯片",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174667",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "title": "开盘|国内期货主力合约涨多跌少 液化石油气（LPG）、燃料油涨超7%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-08/doc-iniunmii7616490.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "阿波罗与多家银行洽谈为SpaceX 400亿美元英伟达GPU采购融资",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqcv4716339.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
+     "title": "国内商品期货夜盘开盘 主力合约多数下跌",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610083889875037.html",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
      "vec_rank": 4
     },
     {
      "n": 4,
-     "title": "SpaceX拟举债400亿美元采购英伟达芯片，其股价应声下跌",
+     "title": "收评|多个能化品种涨停 燃料油涨超18%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqct7936223.shtml",
-     "rrf": 0.03078,
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-08/doc-iniupafi7691081.shtml",
+     "rrf": 0.0315,
      "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "SpaceX拟向阿波罗全球管理募资400亿美元，用于采购英伟达芯片",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumivv7988682.shtml",
-     "rrf": 0.03037,
-     "bm25_rank": 9,
      "vec_rank": 3
     },
     {
-     "n": 6,
-     "title": "报道：博通据悉计划为OpenAI定制芯片项目融资逾500亿美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniumyts5460803.shtml",
+     "n": 5,
+     "title": "纯苯期货、甲醇期货主力合约相继触及涨停。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175106",
      "rrf": 0.03031,
      "bm25_rank": 5,
      "vec_rank": 7
     },
     {
+     "n": 6,
+     "title": "上期所燃油主力合约暴涨16%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610083889244731.html",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
+     "vec_rank": 8
+    },
+    {
      "n": 7,
-     "title": "SpaceX拟融资400亿美元购买英伟达芯片，Apollo牵头融资",
+     "title": "燃料油期货大涨15%！套利窗口彻底关闭，亚洲燃油真的一船难求？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaap5099027.shtml",
-     "rrf": 0.03031,
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-08/doc-iniunrrp3894945.shtml",
+     "rrf": 0.02921,
      "bm25_rank": 7,
-     "vec_rank": 5
+     "vec_rank": 10
     },
     {
      "n": 8,
-     "title": "AI算力初创公司Lambda拟在IPO前最后一轮融资中筹集40亿美元",
+     "title": "午后，大面积涨停！最新研判",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaat5007737.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 6,
-     "vec_rank": 11
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-08/doc-iniupafi7709106.shtml",
+     "rrf": 0.02908,
+     "bm25_rank": 13,
+     "vec_rank": 5
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "SpaceX计划通过阿波罗主导的融资筹集400亿美元 以采购英伟达芯片",
+    "query": "商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯",
     "bm25_only": 1,
     "vec_only": 1,
     "both": 6,
