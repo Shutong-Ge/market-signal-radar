@@ -1,206 +1,112 @@
 {
  "engine": "template(降级)",
- "n_clusters": 60,
+ "n_clusters": 59,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.6,
+ "elapsed": 6.4,
  "reports": [
   {
-   "key": "9b09624c630a32b8",
-   "label": "交通运输部：10月7日，37个高速公路路段易发拥堵，58个服务区预计充电特别繁忙",
+   "key": "dfd494e85337b4c9",
+   "label": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21",
    "cached": false,
    "sections": {
-    "事件概述": "「交通运输部：10月7日，37个高速公路路段易发拥堵，58个服务区预计充电特别繁忙」由 75 篇报道聚合而成，覆盖 3 家媒体，热度 0.784（爆点），所属板块类目：综合。",
-    "关键信息": "返程重要提醒！高速拥堵！服务区充电繁忙！；交通运输部：10月7日，37个高速公路路段易发拥堵，58个服务区预计充电特别繁忙；10月6日，44个高速公路路段易发拥堵",
+    "事件概述": "「交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21」由 46 篇报道聚合而成，覆盖 3 家媒体，热度 0.812（爆点），所属板块类目：综合。",
+    "关键信息": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21；国庆假期第六天全社会跨区域人员流动量将超3亿人次；国庆假期中国跨区域人员流动量料达21.44亿人次",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "返程重要提醒！高速拥堵！服务区充电繁忙！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-06/doc-iniufxcm9064469.shtml",
-     "rrf": 0.03252,
+     "title": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3174822",
+     "rrf": 0.03279,
      "bm25_rank": 1,
-     "vec_rank": 2
-    },
-    {
-     "n": 2,
-     "title": "交通运输部：10月7日，37个高速公路路段易发拥堵，58个服务区预计充电特别繁忙",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-07/doc-iniukhkr4914347.shtml",
-     "rrf": 0.03252,
-     "bm25_rank": 2,
      "vec_rank": 1
     },
     {
-     "n": 3,
-     "title": "10月6日，44个高速公路路段易发拥堵",
+     "n": 2,
+     "title": "国庆假期第六天全社会跨区域人员流动量将超3亿人次",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-06/doc-iniufxci2097960.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
+     "url": "https://finance.sina.com.cn/roll/2026-10-06/doc-iniuhuie6884060.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 2,
      "vec_rank": 3
     },
     {
-     "n": 4,
-     "title": "宁夏交警发布最新提示！",
+     "n": 3,
+     "title": "国庆假期中国跨区域人员流动量料达21.44亿人次",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-07/doc-iniukhki8295556.shtml",
-     "rrf": 0.03102,
+     "url": "https://finance.sina.com.cn/roll/2026-10-07/doc-iniumcpz4866936.shtml",
+     "rrf": 0.032,
      "bm25_rank": 3,
-     "vec_rank": 6
+     "vec_rank": 2
     },
     {
-     "n": 5,
-     "title": "山西多个高速服务区新增扩容充电设备",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-06/doc-iniufxcm9040651.shtml",
+     "n": 4,
+     "title": "10月5日全社会跨区域人员流动量30333.7万人次",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-06/10708460.shtml",
      "rrf": 0.03101,
      "bm25_rank": 5,
      "vec_rank": 4
     },
     {
-     "n": 6,
-     "title": "今日全国高速公路37个路段易发拥堵，其中北京1处、天津1处、河北6处",
+     "n": 5,
+     "title": "21.44亿的“大项目”，你参与了吗？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-07/doc-iniukhkn6185559.shtml",
+     "url": "https://finance.sina.com.cn/wm/2026-10-08/doc-iniunmir4011331.shtml",
      "rrf": 0.03054,
      "bm25_rank": 6,
      "vec_rank": 5
     },
     {
-     "n": 7,
-     "title": "返程安全提示，这些高速路段易拥堵→",
+     "n": 6,
+     "title": "国庆假期 全社会跨区域流动超21亿人次",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-06/doc-iniufxcm9074670.shtml",
-     "rrf": 0.02985,
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-07/doc-iniumiwc4474552.shtml",
+     "rrf": 0.03008,
      "bm25_rank": 7,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "部分高速服务区推行充电“八分饱”，对新能源车有影响吗？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-06/doc-iniufxci2062328.shtml",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "交通运输部：10月7日，37个高速公路路段易发拥堵，58个服务区预计充电特别繁忙",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 8,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "61a03498c39e5f6a",
-   "label": "港股午评：恒指涨0.78% 科指涨0.87% 科网股普涨 创新药概念股强势 智谱涨超8%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「港股午评：恒指涨0.78% 科指涨0.87% 科网股普涨 创新药概念股强势 智谱涨超8%」由 16 篇报道聚合而成，覆盖 3 家媒体，热度 0.761（爆点），所属板块类目：金融市场。",
-    "关键信息": "港股午评：恒指涨0.78% 科指涨0.87% 科网股普涨 创新药概念股强势 智谱；港股收评：恒指涨1% 科指涨0.94% 科网股普涨 智谱涨超7%；快讯：恒指高开1%站上24000点 科指涨1.02% 科网股普涨 创新药概念股高",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "港股午评：恒指涨0.78% 科指涨0.87% 科网股普涨 创新药概念股强势 智谱涨超8%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-06/doc-iniuhcmm5786818.shtml",
-     "rrf": 0.03252,
-     "bm25_rank": 1,
-     "vec_rank": 2
-    },
-    {
-     "n": 2,
-     "title": "港股收评：恒指涨1% 科指涨0.94% 科网股普涨 智谱涨超7%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-06/doc-iniuhpzf5658031.shtml",
-     "rrf": 0.03227,
-     "bm25_rank": 3,
-     "vec_rank": 1
-    },
-    {
-     "n": 3,
-     "title": "快讯：恒指高开1%站上24000点 科指涨1.02% 科网股普涨 创新药概念股高开",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-06/doc-iniufxci2072171.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "亚马逊云科技接入智谱GLM-5.3，港股“大模型双雄”齐涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-06/doc-iniufxci2082167.shtml",
-     "rrf": 0.03105,
-     "bm25_rank": 2,
-     "vec_rank": 7
-    },
-    {
-     "n": 5,
-     "title": "快讯：恒指低开0.45% 科指跌0.33% 科网股承压 黄金股活跃",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-07/doc-iniukaap5160631.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
      "vec_rank": 6
     },
     {
-     "n": 6,
-     "title": "两大板块，爆发！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-06/doc-iniuhiti5701520.shtml",
-     "rrf": 0.02991,
-     "bm25_rank": 10,
-     "vec_rank": 4
-    },
-    {
      "n": 7,
-     "title": "港股创新药概念普涨 金斯瑞生物科技涨6%再创新高 康希诺生物涨近15%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610063888729052.html",
-     "rrf": 0.02899,
-     "bm25_rank": 8,
-     "vec_rank": 10
+     "title": "10月5日中国跨区域人员流动量30333.7万人次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-06/doc-iniuhuhz8836020.shtml",
+     "rrf": 0.02971,
+     "bm25_rank": 4,
+     "vec_rank": 11
     },
     {
      "n": 8,
-     "title": "港股大模型相关个股走强 智谱涨超5%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610063888732311.html",
-     "rrf": 0.02872,
-     "bm25_rank": 5,
-     "vec_rank": 15
+     "title": "（经济观察）流动中国释放假日经济新动能",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-07/10708824.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 9,
+     "vec_rank": 7
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "港股午评：恒指涨0.78% 科指涨0.87% 科网股普涨 创新药概念股强势 智谱",
-    "bm25_only": 2,
+    "query": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21",
+    "bm25_only": 1,
     "vec_only": 1,
-    "both": 5,
+    "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "6469a7e02ff647f9",
+   "key": "25ec9147ad81c1e4",
    "label": "美股存储芯片股下挫，希捷科技 西部数据大跌超5%，光通信巨头狂飙超10%，热门中概股普跌，黄金涨",
    "cached": false,
    "sections": {
-    "事件概述": "「美股存储芯片股下挫，希捷科技 西部数据大跌超5%，光通信巨头狂飙超10%，热门中概股普跌，黄金涨」由 36 篇报道聚合而成，覆盖 3 家媒体，热度 0.735（爆点），所属板块类目：国际市场。",
+    "事件概述": "「美股存储芯片股下挫，希捷科技 西部数据大跌超5%，光通信巨头狂飙超10%，热门中概股普跌，黄金涨」由 57 篇报道聚合而成，覆盖 3 家媒体，热度 0.811（爆点），所属板块类目：国际市场。",
     "关键信息": "美股存储芯片股下挫，希捷科技 西部数据大跌超5%，光通信巨头狂飙超10%，热门中；美股盘初：道指跌0.6%，费城半导体指数跌超2%，存储芯片股、光通信股、黄金股普；纳指低开0.6% 光通信、存储板块走低",
     "市场影响": "关联板块代码：BK1675。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -247,8 +153,8 @@
      "title": "美股光通信股开盘普跌 Lumentum跌3.24%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202610073888954120.html",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
+     "rrf": 0.03101,
+     "bm25_rank": 5,
      "vec_rank": 4
     },
     {
@@ -262,112 +168,18 @@
     },
     {
      "n": 7,
-     "title": "10月7日隔夜要闻：美股收涨 AI热潮引领涨势 油价持稳 苹果联手LG开发智能家居",
+     "title": "10月8日美股成交额前20：美光涨超4%，闪迪涨约2%，存储芯片在前一交易日大幅下挫后回升",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuivur5209575.shtml",
-     "rrf": 0.02879,
-     "bm25_rank": 8,
-     "vec_rank": 11
-    },
-    {
-     "n": 8,
-     "title": "华尔街见闻早餐 | 2026年10月7日",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174676",
-     "rrf": 0.02844,
-     "bm25_rank": 14,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "美股存储芯片股下挫，希捷科技 西部数据大跌超5%，光通信巨头狂飙超10%，热门中",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "7745e9f225ad66fb",
-   "label": "韩国KOSPI指数开盘下跌1.11%报6864.25点 日经225指数低开0.14%报70582",
-   "cached": false,
-   "sections": {
-    "事件概述": "「韩国KOSPI指数开盘下跌1.11%报6864.25点 日经225指数低开0.14%报70582」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.685（爆点），所属板块类目：综合。",
-    "关键信息": "韩国KOSPI指数开盘下跌1.11%报6864.25点 日经225指数低开0.1；日韩股市低开；日韩股市开盘 韩国综合股价指数开盘上涨0.6%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "韩国KOSPI指数开盘下跌1.11%报6864.25点 日经225指数低开0.14%报70582.11点",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888841274.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "日韩股市低开",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888842658.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "日韩股市开盘 韩国综合股价指数开盘上涨0.6%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniufsvp3783008.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "日经225指数高开0.01%。韩国首尔综指高开0.6%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174295",
-     "rrf": 0.03055,
-     "bm25_rank": 4,
-     "vec_rank": 7
-    },
-    {
-     "n": 5,
-     "title": "费城半导体指数开盘下跌2% 报12944.57点",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888945812.html",
-     "rrf": 0.02927,
-     "bm25_rank": 5,
-     "vec_rank": 12
-    },
-    {
-     "n": 6,
-     "title": "亚太市场 全线回调",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-07/doc-iniumcqa5836206.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 8,
+     "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniunezp4440467.shtml",
+     "rrf": 0.02857,
+     "bm25_rank": 10,
      "vec_rank": 10
     },
     {
-     "n": 7,
-     "title": "韩国KOSPI指数收跌1.98%，“芯片双巨头”三星电子、SK海力士承压",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuksyh6026438.shtml",
-     "rrf": 0.02861,
-     "bm25_rank": 17,
-     "vec_rank": 4
-    },
-    {
      "n": 8,
-     "title": "香港恒生指数开盘下跌0.45%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888848371.html",
+     "title": "10月7日隔夜要闻：美股收涨 AI热潮引领涨势 油价持稳 苹果联手LG开发智能家居",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuivur5209575.shtml",
      "rrf": 0.02831,
      "bm25_rank": 6,
      "vec_rank": 16
@@ -375,105 +187,293 @@
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "韩国KOSPI指数开盘下跌1.11%报6864.25点 日经225指数低开0.1",
-    "bm25_only": 3,
-    "vec_only": 1,
-    "both": 4,
-    "neither_topk": 0
+    "query": "美股存储芯片股下挫，希捷科技 西部数据大跌超5%，光通信巨头狂飙超10%，热门中",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 6,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "9d7f1396f9918083",
-   "label": "周三亚太盘初，WTI原油期货高开0.6%，投资者关注霍尔木兹海峡石油输送数据和中",
+   "key": "c910c31268fda585",
+   "label": "韩国KOSPI指数收跌1.98%，“芯片双巨头”三星电子、SK海力士承压",
    "cached": false,
    "sections": {
-    "事件概述": "「周三亚太盘初，WTI原油期货高开0.6%，投资者关注霍尔木兹海峡石油输送数据和中」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.647（爆点），所属板块类目：国际市场。",
-    "关键信息": "周三亚太盘初，WTI原油期货高开0.6%，投资者关注霍尔木兹海峡石油输送数据和中；WTI原油期货向上触及90美元/桶 日内涨0.63%；霍尔木兹海峡运输量上升之际 石油行业高管仍警告缓冲空间日益收窄",
-    "市场影响": "关联板块代码：BK1361。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「韩国KOSPI指数收跌1.98%，“芯片双巨头”三星电子、SK海力士承压」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.546（爆点），所属板块类目：综合。",
+    "关键信息": "韩国KOSPI指数收跌1.98%，“芯片双巨头”三星电子、SK海力士承压；韩国综指跌幅扩大至1%；韩国股市高开低走，KOSPI指数收跌0.9%终结两连涨",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "周三亚太盘初，WTI原油期货高开0.6%，投资者关注霍尔木兹海峡石油输送数据和中",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174658",
+     "title": "韩国KOSPI指数收跌1.98%，“芯片双巨头”三星电子、SK海力士承压",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuksyh6026438.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "WTI原油期货向上触及90美元/桶 日内涨0.63%",
+     "title": "韩国综指跌幅扩大至1%",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888840517.html",
-     "rrf": 0.0308,
+     "url": "https://finance.eastmoney.com/a/202610063888737016.html",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "韩国股市高开低走，KOSPI指数收跌0.9%终结两连涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhitk7074101.shtml",
+     "rrf": 0.03055,
      "bm25_rank": 7,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "韩国议员办公室披露韩国投资者因杠杆ETF损失17亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuknsi5001233.shtml",
+     "rrf": 0.02971,
+     "bm25_rank": 4,
+     "vec_rank": 11
+    },
+    {
+     "n": 5,
+     "title": "日韩股市，双双跳水！存储巨头，业绩不及预期",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniunmim4388404.shtml",
+     "rrf": 0.02967,
+     "bm25_rank": 10,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "日韩股市低开 韩国股市开盘跌逾1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaat5004763.shtml",
+     "rrf": 0.02826,
+     "bm25_rank": 15,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "美股西部数据、希捷科技早盘跳水均跌6%左右 SK海力士跌近3%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610063888802676.html",
+     "rrf": 0.02735,
+     "bm25_rank": 22,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "东山精密、源杰科技双双跌停，光芯片指数跌超4%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175112",
+     "rrf": 0.02721,
+     "bm25_rank": 13,
+     "vec_rank": 14
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "韩国KOSPI指数收跌1.98%，“芯片双巨头”三星电子、SK海力士承压",
+    "bm25_only": 1,
+    "vec_only": 3,
+    "both": 3,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "680a818d01849045",
+   "label": "截至早盘收盘，日经225指数跌0.9%，东证指数跌1.5%。",
+   "cached": false,
+   "sections": {
+    "事件概述": "「截至早盘收盘，日经225指数跌0.9%，东证指数跌1.5%。」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.535（爆点），所属板块类目：综合。",
+    "关键信息": "截至早盘收盘，日经225指数跌0.9%，东证指数跌1.5%。；日经225指数日内跌幅扩大至1%。；亚太市场 全线回调",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "截至早盘收盘，日经225指数跌0.9%，东证指数跌1.5%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175130",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "日经225指数日内跌幅扩大至1%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175072",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
      "vec_rank": 3
     },
     {
      "n": 3,
-     "title": "霍尔木兹海峡运输量上升之际 石油行业高管仍警告缓冲空间日益收窄",
+     "title": "亚太市场 全线回调",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuirnr8538693.shtml",
+     "url": "https://finance.sina.com.cn/roll/2026-10-07/doc-iniumcqa5836206.shtml",
+     "rrf": 0.03016,
+     "bm25_rank": 3,
+     "vec_rank": 10
+    },
+    {
+     "n": 4,
+     "title": "日本东证指数升破历史最高收盘水平",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610073888841973.html",
+     "rrf": 0.02929,
+     "bm25_rank": 2,
+     "vec_rank": 16
+    },
+    {
+     "n": 5,
+     "title": "日经225指数低开0.14%。韩国首尔综指低开1.1%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3174679",
      "rrf": 0.02927,
      "bm25_rank": 5,
      "vec_rank": 12
     },
     {
-     "n": 4,
-     "title": "油气运输量上升之际 伊朗对霍尔木兹海峡油轮的袭击愈发频繁",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-07/doc-iniuimez5327190.shtml",
-     "rrf": 0.02878,
-     "bm25_rank": 4,
-     "vec_rank": 16
-    },
-    {
-     "n": 5,
-     "title": "布伦特原油期货涨幅扩大至1% 报101.58美元/桶",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888844128.html",
-     "rrf": 0.02822,
-     "bm25_rank": 8,
-     "vec_rank": 14
-    },
-    {
      "n": 6,
-     "title": "霍尔木兹海峡石油出口出现反弹，但仍易受伊朗对油轮袭击升级的冲击",
+     "title": "日韩股市低开 韩国股市开盘跌逾1%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuiexc5422499.shtml",
-     "rrf": 0.0274,
-     "bm25_rank": 13,
-     "vec_rank": 13
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaat5004763.shtml",
+     "rrf": 0.02861,
+     "bm25_rank": 17,
+     "vec_rank": 4
     },
     {
      "n": 7,
-     "title": "刚刚，油价跳水！中东局势，突生变数！",
+     "title": "日经225指数收涨1.1% 自7月1日以来首次收于70000点上方",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-06/doc-iniuhpzm5698825.shtml",
-     "rrf": 0.02705,
-     "bm25_rank": 21,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhitk7074792.shtml",
+     "rrf": 0.02837,
+     "bm25_rank": 10,
+     "vec_rank": 11
     },
     {
      "n": 8,
-     "title": "比特币跌破8.4万美元",
+     "title": "美联储：年内或再加息",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuksym4748320.shtml",
-     "rrf": 0.02694,
-     "bm25_rank": 19,
-     "vec_rank": 10
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-08/doc-iniunmir3978458.shtml",
+     "rrf": 0.02748,
+     "bm25_rank": 9,
+     "vec_rank": 17
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "周三亚太盘初，WTI原油期货高开0.6%，投资者关注霍尔木兹海峡石油输送数据和中",
+    "query": "截至早盘收盘，日经225指数跌0.9%，东证指数跌1.5%。",
     "bm25_only": 3,
     "vec_only": 1,
     "both": 2,
     "neither_topk": 2
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "6de2b01708ffe8b4",
+   "label": "SpaceX计划通过阿波罗主导的融资筹集400亿美元 以采购英伟达芯片",
+   "cached": false,
+   "sections": {
+    "事件概述": "「SpaceX计划通过阿波罗主导的融资筹集400亿美元 以采购英伟达芯片」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.485（爆点），所属板块类目：半导体。",
+    "关键信息": "SpaceX计划通过阿波罗主导的融资筹集400亿美元 以采购英伟达芯片；报道：SpaceX考虑融资400亿美元，用于购买英伟达芯片；阿波罗与多家银行洽谈为SpaceX 400亿美元英伟达GPU采购融资",
+    "市场影响": "关联板块代码：BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "SpaceX计划通过阿波罗主导的融资筹集400亿美元 以采购英伟达芯片",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610073888837982.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "报道：SpaceX考虑融资400亿美元，用于购买英伟达芯片",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3174667",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "阿波罗与多家银行洽谈为SpaceX 400亿美元英伟达GPU采购融资",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqcv4716339.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "SpaceX拟举债400亿美元采购英伟达芯片，其股价应声下跌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqct7936223.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "SpaceX拟向阿波罗全球管理募资400亿美元，用于采购英伟达芯片",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumivv7988682.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 9,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "报道：博通据悉计划为OpenAI定制芯片项目融资逾500亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniumyts5460803.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 5,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "SpaceX拟融资400亿美元购买英伟达芯片，Apollo牵头融资",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaap5099027.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 8,
+     "title": "AI算力初创公司Lambda拟在IPO前最后一轮融资中筹集40亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaat5007737.shtml",
+     "rrf": 0.02924,
+     "bm25_rank": 6,
+     "vec_rank": 11
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "SpaceX计划通过阿波罗主导的融资筹集400亿美元 以采购英伟达芯片",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   }
