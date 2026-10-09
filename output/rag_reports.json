@@ -1,208 +1,208 @@
 {
  "engine": "template(降级)",
- "n_clusters": 58,
+ "n_clusters": 55,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.8,
+ "elapsed": 5.8,
  "reports": [
   {
-   "key": "da705823a9f7eb05",
-   "label": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21",
+   "key": "ac2ad7650e0c30bd",
+   "label": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市公司",
    "cached": false,
    "sections": {
-    "事件概述": "「交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21」由 18 篇报道聚合而成，覆盖 4 家媒体，热度 0.854（爆点），所属板块类目：综合。",
-    "关键信息": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21；交通运输部：10月6日全社会跨区域人员流动量30346.0万人次；国庆假期中国跨区域人员流动量料达21.44亿人次",
-    "市场影响": "关联板块代码：BK0422。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市公司」由 26 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：汽车出行。",
+    "关键信息": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏；江淮汽车，连续2日跌停；程智鹏：江淮汽车再跌停！蒸发110亿，\"华为期权\"神话破灭？",
+    "市场影响": "关联板块代码：BK0854、BK0953、BK1211、BK000060。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174822",
+     "title": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市公司回应",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-10-09/doc-iniurmnf2885802.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "交通运输部：10月6日全社会跨区域人员流动量30346.0万人次",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888917610.html",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "国庆假期中国跨区域人员流动量料达21.44亿人次",
+     "title": "江淮汽车，连续2日跌停",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-07/doc-iniumcpz4866936.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "21.44亿的“大项目”，你参与了吗？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-08/doc-iniunmir4011331.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "国庆假期 全社会跨区域流动超21亿人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-07/doc-iniumiwc4474552.shtml",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "（经济观察）流动中国释放假日经济新动能",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-07/10708824.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "预计国庆假期全国超21亿人次出行 流动的中国活力拉满",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/wbstock/2026-10-07/doc-iniumiwc4472534.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "今年国庆假期平稳收官，广东跨区域人员流动量约2.51亿人次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-08/doc-iniupnvc3620307.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
-     "vec_rank": 8
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21",
-    "bm25_only": 0,
-    "vec_only": 1,
-    "both": 7,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "9e335e0015330f31",
-   "label": "美股盘初：道指跌0.6%，费城半导体指数跌超2%，存储芯片股、光通信股、黄金股普跌",
-   "cached": false,
-   "sections": {
-    "事件概述": "「美股盘初：道指跌0.6%，费城半导体指数跌超2%，存储芯片股、光通信股、黄金股普跌」由 19 篇报道聚合而成，覆盖 4 家媒体，热度 0.787（爆点），所属板块类目：金融市场。",
-    "关键信息": "美股盘初：道指跌0.6%，费城半导体指数跌超2%，存储芯片股、光通信股、黄金股普；费城半导体指数开盘下跌2% 报12944.57点；美股三大指数集体低开 光通信板块领跌",
-    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "美股盘初：道指跌0.6%，费城半导体指数跌超2%，存储芯片股、光通信股、黄金股普跌",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174842",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "费城半导体指数开盘下跌2% 报12944.57点",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888945812.html",
+     "url": "https://finance.sina.com.cn/roll/2026-10-09/doc-iniuquqp7026812.shtml",
      "rrf": 0.03128,
      "bm25_rank": 6,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "美股三大指数集体低开 光通信板块领跌",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610083889897562.html",
-     "rrf": 0.03105,
-     "bm25_rank": 2,
+     "title": "程智鹏：江淮汽车再跌停！蒸发110亿，\"华为期权\"神话破灭？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/2026-10-09/doc-iniurfep7904311.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
      "vec_rank": 7
     },
     {
      "n": 4,
-     "title": "纳指低开0.6% 光通信、存储板块走低",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888944752.html",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
+     "title": "江淮汽车封死跌停！百万豪车尊界V800被曝测试中刹车踏板支架断裂，江淮汽车：正在调查中",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-10-08/doc-iniuphnx7588671.shtml",
+     "rrf": 0.02927,
+     "bm25_rank": 12,
      "vec_rank": 5
     },
     {
      "n": 5,
-     "title": "美股光通信股开盘普跌 Lumentum跌3.24%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610073888954120.html",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
+     "title": "江淮汽车股价遭遇“刹停” 尊界称将进一步优化设计",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-09/doc-iniupxkt4215375.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 15,
+     "vec_rank": 3
     },
     {
      "n": 6,
-     "title": "美股盘初，主要行业ETF多数下跌，全球航空业ETF、半导体跌近2%，区域银行业E",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3174843",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
+     "title": "尊界踏板安全引发关注 鸿蒙智行门店回应：华为将联合江淮重新测评并公开数据",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610083889841735.html",
+     "rrf": 0.02899,
+     "bm25_rank": 10,
+     "vec_rank": 8
     },
     {
      "n": 7,
-     "title": "费城半导体指数跌超2%。英特尔跌近4%，超微电脑跌超3%，希捷科技跌近3%，博通",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175677",
-     "rrf": 0.03037,
-     "bm25_rank": 3,
-     "vec_rank": 9
+     "title": "“刹车踏板断裂”冲上热搜，尊界、懂车帝回应",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-08/doc-iniuptat7511137.shtml",
+     "rrf": 0.02896,
+     "bm25_rank": 4,
+     "vec_rank": 15
     },
     {
      "n": 8,
-     "title": "创业板指、科创50指数均跌超2%，沪指跌0.81%，深成指跌1.68%，算力硬件",
+     "title": "江淮汽车盘中再次跌停，封单11万手。",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175969",
-     "rrf": 0.02858,
-     "bm25_rank": 9,
-     "vec_rank": 11
+     "url": "https://wallstreetcn.com/livenews/3175966",
+     "rrf": 0.02885,
+     "bm25_rank": 13,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "美股盘初：道指跌0.6%，费城半导体指数跌超2%，存储芯片股、光通信股、黄金股普",
+    "query": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏",
     "bm25_only": 1,
-    "vec_only": 0,
-    "both": 6,
-    "neither_topk": 1
+    "vec_only": 4,
+    "both": 3,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "41c842d34c3ffe5f",
+   "key": "f63e0379f01122dd",
+   "label": "创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌",
+   "cached": false,
+   "sections": {
+    "事件概述": "「创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌」由 15 篇报道聚合而成，覆盖 4 家媒体，热度 0.794（爆点），所属板块类目：金融市场。",
+    "关键信息": "创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌；创业板指涨超1%，此前一度跌超0.9%。；创业板指跌超3% 全市场超4500只个股下跌",
+    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175129",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "创业板指涨超1%，此前一度跌超0.9%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175103",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "创业板指跌超3% 全市场超4500只个股下跌",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610093890859828.html",
+     "rrf": 0.03102,
+     "bm25_rank": 6,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "创业板指翻绿，此前一度涨超1%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175111",
+     "rrf": 0.03062,
+     "bm25_rank": 2,
+     "vec_rank": 9
+    },
+    {
+     "n": 5,
+     "title": "创业板指跌幅收窄至2%以内，此前一度跌超3%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175989",
+     "rrf": 0.03055,
+     "bm25_rank": 4,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "创业板指、科创50指数均跌超2%，沪指跌0.81%，深成指跌1.68%，算力硬件",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175969",
+     "rrf": 0.03009,
+     "bm25_rank": 8,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "创业板指、科创50指数均跌超1%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175945",
+     "rrf": 0.02686,
+     "bm25_rank": 29,
+     "vec_rank": 4
+    },
+    {
+     "n": 8,
+     "title": "A股医药医疗股开盘领涨，海特生物、贝瑞基因、鲁抗医药、华北制药、润都股份竞价涨停",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175094",
+     "rrf": 0.02662,
+     "bm25_rank": 5,
+     "vec_rank": 29
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "30213ed83acd5b68",
    "label": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息获一",
    "cached": false,
    "sections": {
-    "事件概述": "「10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息获一」由 19 篇报道聚合而成，覆盖 3 家媒体，热度 0.783（爆点），所属板块类目：国际市场。",
+    "事件概述": "「10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息获一」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.781（爆点），所属板块类目：国际市场。",
     "关键信息": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要；10月8日外盘头条：美联储纪要显示多数官员倾向年内再加息一次 高盛、巴克莱等美债；10月9日隔夜要闻：纳指下跌 AI泡沫担忧再升温 金价反弹 油价上涨 美抵押贷款",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
@@ -229,72 +229,72 @@
      "title": "10月9日隔夜要闻：纳指下跌 AI泡沫担忧再升温 金价反弹 油价上涨 美抵押贷款利率连涨七周",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqiym7323845.shtml",
-     "rrf": 0.03016,
-     "bm25_rank": 10,
+     "rrf": 0.03058,
+     "bm25_rank": 8,
      "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "美联储纪要显示9月升息获一致支持 多数与会者倾向年内再加一次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumumr7850540.shtml",
-     "rrf": 0.02991,
-     "bm25_rank": 4,
-     "vec_rank": 10
-    },
-    {
-     "n": 5,
      "title": "10月8日收盘：三大指数收跌 10年期美债收益率创20年新高 银行与科技股承压",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniumytv4173772.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 9,
+     "rrf": 0.03031,
+     "bm25_rank": 7,
      "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "美联储纪要显示9月升息获一致支持 多数与会者倾向年内再加一次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumumr7850540.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 4,
+     "vec_rank": 9
     },
     {
      "n": 6,
      "title": "金价走低一度失守4100美元关口 10年期美债拍卖需求强劲",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-10-08/doc-iniunezm7679633.shtml",
-     "rrf": 0.02947,
+     "rrf": 0.02967,
      "bm25_rank": 5,
-     "vec_rank": 11
+     "vec_rank": 10
     },
     {
      "n": 7,
      "title": "美联储：年内或再加息",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-08/doc-iniunmir3978458.shtml",
-     "rrf": 0.02881,
-     "bm25_rank": 12,
+     "rrf": 0.02942,
+     "bm25_rank": 9,
      "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "欧元区股市触及四个月低点 法国财政担忧拖累银行股",
+     "title": "10月8日日经指数收跌1.4% 机械股、金融股拖累大盘走低",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumqcz4387656.shtml",
-     "rrf": 0.02863,
-     "bm25_rank": 2,
-     "vec_rank": 20
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunvxc7644747.shtml",
+     "rrf": 0.02904,
+     "bm25_rank": 12,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要",
-    "bm25_only": 3,
-    "vec_only": 3,
-    "both": 2,
+    "bm25_only": 2,
+    "vec_only": 2,
+    "both": 4,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "06236c564984a793",
+   "key": "d0d56084ebd1d61a",
    "label": "商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯",
    "cached": false,
    "sections": {
-    "事件概述": "「商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.744（爆点），所属板块类目：大宗与能化。",
+    "事件概述": "「商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯」由 14 篇报道聚合而成，覆盖 3 家媒体，热度 0.741（爆点），所属板块类目：大宗与能化。",
     "关键信息": "商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯；开盘|国内期货主力合约涨多跌少 液化石油气（LPG）、燃料油涨超7%；国内商品期货夜盘开盘 主力合约多数下跌",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -314,8 +314,8 @@
      "title": "开盘|国内期货主力合约涨多跌少 液化石油气（LPG）、燃料油涨超7%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-08/doc-iniunmii7616490.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
@@ -323,21 +323,12 @@
      "title": "国内商品期货夜盘开盘 主力合约多数下跌",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202610083889875037.html",
-     "rrf": 0.03151,
-     "bm25_rank": 2,
+     "rrf": 0.03126,
+     "bm25_rank": 3,
      "vec_rank": 5
     },
     {
      "n": 4,
-     "title": "收评|多个能化品种涨停 燃料油涨超18%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-08/doc-iniupafi7691081.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
      "title": "节后能化商品走强 燃油期货主力合约单日涨超18%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniupxkx7393505.shtml",
@@ -346,31 +337,40 @@
      "vec_rank": 4
     },
     {
-     "n": 6,
-     "title": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175934",
-     "rrf": 0.02944,
+     "n": 5,
+     "title": "收评|多个能化品种涨停 燃料油涨超18%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-08/doc-iniupafi7691081.shtml",
+     "rrf": 0.03102,
      "bm25_rank": 6,
-     "vec_rank": 10
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "夜盘商品期货开盘，20号胶主力合约涨超2%，橡胶涨近2%，焦煤、聚丙烯、沪锡、沪",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3176255",
+     "rrf": 0.03031,
+     "bm25_rank": 5,
+     "vec_rank": 7
     },
     {
      "n": 7,
-     "title": "纯苯期货、甲醇期货主力合约相继触及涨停。",
+     "title": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175106",
-     "rrf": 0.02942,
+     "url": "https://wallstreetcn.com/livenews/3175934",
+     "rrf": 0.02901,
      "bm25_rank": 7,
-     "vec_rank": 9
+     "vec_rank": 11
     },
     {
      "n": 8,
-     "title": "燃料油期货大涨15%！套利窗口彻底关闭，亚洲燃油真的一船难求？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-08/doc-iniunrrp3894945.shtml",
-     "rrf": 0.02801,
-     "bm25_rank": 9,
-     "vec_rank": 14
+     "title": "纯苯期货、甲醇期货主力合约相继触及涨停。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175106",
+     "rrf": 0.02899,
+     "bm25_rank": 8,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
@@ -378,101 +378,101 @@
     "query": "商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯",
     "bm25_only": 2,
     "vec_only": 0,
-    "both": 5,
-    "neither_topk": 1
+    "both": 6,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "b9a61e5da991f75b",
-   "label": "江淮汽车封死跌停！百万豪车尊界V800被曝测试中刹车踏板支架断裂，江淮汽车：正在调查中",
+   "key": "8952bdcb4879d34d",
+   "label": "10月8日韩国KOSPI指数收跌2.6% 连续第三日下跌 芯片股回调拖累大盘",
    "cached": false,
    "sections": {
-    "事件概述": "「江淮汽车封死跌停！百万豪车尊界V800被曝测试中刹车踏板支架断裂，江淮汽车：正在调查中」由 16 篇报道聚合而成，覆盖 3 家媒体，热度 0.733（爆点），所属板块类目：汽车出行。",
-    "关键信息": "江淮汽车封死跌停！百万豪车尊界V800被曝测试中刹车踏板支架断裂，江淮汽车：正在；江淮汽车回应尊界V800刹车踏板支架断裂一事：目前正在调查中；江淮汽车方面人士回应尊界V800懂车帝测试：在关注中",
-    "市场影响": "关联板块代码：BK0854、BK0953、BK1211、BK000060。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「10月8日韩国KOSPI指数收跌2.6% 连续第三日下跌 芯片股回调拖累大盘」由 10 篇报道聚合而成，覆盖 2 家媒体，热度 0.643（爆点），所属板块类目：综合。",
+    "关键信息": "10月8日韩国KOSPI指数收跌2.6% 连续第三日下跌 芯片股回调拖累大盘；日韩股市开盘 日经指数开盘下跌0.3%；10月8日日经指数收跌1.4% 机械股、金融股拖累大盘走低",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "江淮汽车封死跌停！百万豪车尊界V800被曝测试中刹车踏板支架断裂，江淮汽车：正在调查中",
+     "title": "10月8日韩国KOSPI指数收跌2.6% 连续第三日下跌 芯片股回调拖累大盘",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/s/2026-10-08/doc-iniuphnx7588671.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunvxc7649182.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "江淮汽车回应尊界V800刹车踏板支架断裂一事：目前正在调查中",
+     "title": "日韩股市开盘 日经指数开盘下跌0.3%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-08/doc-iniupaez7559762.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunezp4476592.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "江淮汽车方面人士回应尊界V800懂车帝测试：在关注中",
+     "title": "10月8日日经指数收跌1.4% 机械股、金融股拖累大盘走低",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniunvxm7805582.shtml",
-     "rrf": 0.03175,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunvxc7644747.shtml",
+     "rrf": 0.03126,
      "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "封死跌停！江淮汽车，最新回应！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-08/doc-iniuphpf7631320.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
      "vec_rank": 5
     },
     {
-     "n": 5,
-     "title": "江淮汽车股价遭遇“刹停” 尊界称将进一步优化设计",
+     "n": 4,
+     "title": "日经225指数开盘下跌0.57% 韩股今日休市",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-09/doc-iniupxkt4215375.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqqhi7244393.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
      "vec_rank": 4
     },
     {
-     "n": 6,
-     "title": "江淮汽车，连续2日跌停",
+     "n": 5,
+     "title": "日经指数下跌1% 芯片和金属类股领跌",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-09/doc-iniuquqp7026812.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 5,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqqhr3169059.shtml",
+     "rrf": 0.03016,
+     "bm25_rank": 10,
+     "vec_rank": 3
     },
     {
-     "n": 7,
-     "title": "“刹车踏板断裂”冲上热搜，尊界、懂车帝回应",
+     "n": 6,
+     "title": "尾盘异动！002490，涨停！芯片股全线下跌",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-08/doc-iniuptat7511137.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-08/doc-iniupafc4406732.shtml",
+     "rrf": 0.02862,
+     "bm25_rank": 13,
      "vec_rank": 7
     },
     {
-     "n": 8,
-     "title": "百万豪车安全之问！尊界V800三台新车测试刹车踏板支架全部断裂， 设计缺陷？",
+     "n": 7,
+     "title": "市场快评 |悲观因素已有较多定价 超跌反弹依然值得期待",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-08/doc-iniupaez7549291.shtml",
-     "rrf": 0.02944,
-     "bm25_rank": 10,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/money/fund/jjzl/2026-10-08/doc-iniuphnz4328061.shtml",
+     "rrf": 0.02831,
+     "bm25_rank": 6,
+     "vec_rank": 16
+    },
+    {
+     "n": 8,
+     "title": "韩国首尔综指下跌1%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175081",
+     "rrf": 0.02826,
+     "bm25_rank": 7,
+     "vec_rank": 15
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "江淮汽车封死跌停！百万豪车尊界V800被曝测试中刹车踏板支架断裂，江淮汽车：正在",
-    "bm25_only": 0,
-    "vec_only": 1,
-    "both": 7,
+    "query": "10月8日韩国KOSPI指数收跌2.6% 连续第三日下跌 芯片股回调拖累大盘",
+    "bm25_only": 2,
+    "vec_only": 2,
+    "both": 4,
     "neither_topk": 0
    },
    "elapsed": 0.0
