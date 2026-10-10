@@ -1,113 +1,19 @@
 {
  "engine": "template(降级)",
- "n_clusters": 64,
+ "n_clusters": 67,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.2,
+ "elapsed": 5.7,
  "reports": [
   {
-   "key": "33db2f57599206c4",
-   "label": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市公司",
-   "cached": false,
-   "sections": {
-    "事件概述": "「江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市公司」由 27 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：汽车出行。",
-    "关键信息": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏；江淮汽车，连续2日跌停；程智鹏：江淮汽车再跌停！蒸发110亿，\"华为期权\"神话破灭？",
-    "市场影响": "关联板块代码：BK0854、BK0953、BK1211、BK000060。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市公司回应",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/s/2026-10-09/doc-iniurmnf2885802.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "江淮汽车，连续2日跌停",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-09/doc-iniuquqp7026812.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "程智鹏：江淮汽车再跌停！蒸发110亿，\"华为期权\"神话破灭？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/2026-10-09/doc-iniurfep7904311.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
-    },
-    {
-     "n": 4,
-     "title": "江淮汽车封死跌停！百万豪车尊界V800被曝测试中刹车踏板支架断裂，江淮汽车：正在调查中",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/s/2026-10-08/doc-iniuphnx7588671.shtml",
-     "rrf": 0.02927,
-     "bm25_rank": 12,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "江淮汽车股价遭遇“刹停” 尊界称将进一步优化设计",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-09/doc-iniupxkt4215375.shtml",
-     "rrf": 0.02903,
-     "bm25_rank": 16,
-     "vec_rank": 3
-    },
-    {
-     "n": 6,
-     "title": "尊界踏板安全引发关注 鸿蒙智行门店回应：华为将联合江淮重新测评并公开数据",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610083889841735.html",
-     "rrf": 0.02899,
-     "bm25_rank": 10,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "江淮汽车盘中再次跌停，封单11万手。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175966",
-     "rrf": 0.02885,
-     "bm25_rank": 13,
-     "vec_rank": 6
-    },
-    {
-     "n": 8,
-     "title": "“刹车踏板断裂”冲上热搜，尊界、懂车帝回应",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-08/doc-iniuptat7511137.shtml",
-     "rrf": 0.02878,
-     "bm25_rank": 4,
-     "vec_rank": 16
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏",
-    "bm25_only": 1,
-    "vec_only": 4,
-    "both": 3,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "68788e13d768ba03",
+   "key": "6c38ed2175672269",
    "label": "商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力度",
    "cached": false,
    "sections": {
-    "事件概述": "「商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力度」由 10 篇报道聚合而成，覆盖 4 家媒体，热度 0.698（爆点），所属板块类目：消费零售。",
-    "关键信息": "商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力；商务部等7部门：推动电商平台持续优化商品展示、推荐和营销活动机制；商务部等7部门：开展“电商+产业带”培育行动 鼓励各地规划布局电商选品中心",
+    "事件概述": "「商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力度」由 10 篇报道聚合而成，覆盖 4 家媒体，热度 0.746（爆点），所属板块类目：消费零售。",
+    "关键信息": "商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力；商务部等7部门：推动电商平台持续优化商品展示、推荐和营销活动机制；七部门：推动电商领域高水平开放 深化“丝路电商”多双边合作机制",
     "市场影响": "关联板块代码：BK0665。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -132,6 +38,15 @@
     },
     {
      "n": 3,
+     "title": "七部门：推动电商领域高水平开放 深化“丝路电商”多双边合作机制",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3176496",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
      "title": "商务部等7部门：开展“电商+产业带”培育行动 鼓励各地规划布局电商选品中心",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutcvq0588568.shtml",
@@ -140,21 +55,12 @@
      "vec_rank": 5
     },
     {
-     "n": 4,
-     "title": "七部门：推动电商领域高水平开放 深化“丝路电商”多双边合作机制",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3176496",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
-     "vec_rank": 3
-    },
-    {
      "n": 5,
      "title": "商务部等7部门：引导电商平台建立首席质量官制度 完善线上服务质量评价体系",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutcvq0587810.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
+     "rrf": 0.03101,
+     "bm25_rank": 5,
      "vec_rank": 4
     },
     {
@@ -180,8 +86,8 @@
      "title": "七部门：创新发展电商消费品牌",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202610103891850194.html",
-     "rrf": 0.02899,
-     "bm25_rank": 9,
+     "rrf": 0.02878,
+     "bm25_rank": 10,
      "vec_rank": 9
     }
    ],
@@ -196,199 +102,11 @@
    "elapsed": 0.0
   },
   {
-   "key": "ab2c93367b9a1edc",
-   "label": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪",
-   "cached": false,
-   "sections": {
-    "事件概述": "「内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.695（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪；开盘|国内期货主力合约跌多涨少，沪锡跌近5%；国内商品期货夜盘开盘 主力合约多数下跌",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175934",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "开盘|国内期货主力合约跌多涨少，沪锡跌近5%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-09/doc-iniuqqhr7142837.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "国内商品期货夜盘开盘 主力合约多数下跌",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610083889875037.html",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "夜盘商品期货开盘，20号胶主力合约涨超2%，橡胶涨近2%，焦煤、聚丙烯、沪锡、沪",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3176255",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "LME锡、沪锡均跌超4%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610083889952540.html",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报120500元/吨",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175979",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
-    },
-    {
-     "n": 7,
-     "title": "收评|国内期货主力合约涨多跌少 甲醇涨超7%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/2026-10-09/doc-iniurfen1113545.shtml",
-     "rrf": 0.02904,
-     "bm25_rank": 12,
-     "vec_rank": 6
-    },
-    {
-     "n": 8,
-     "title": "上证指数开盘报3804.09点，跌0.21%。 深证成指开盘报12557.02点",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175939",
-     "rrf": 0.02762,
-     "bm25_rank": 10,
-     "vec_rank": 15
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 5,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "4d8222039533bf83",
-   "label": "理响中国·聚焦2026中国经济丨出行热、消费旺、文旅火 四组数据解读国庆假期新气象",
-   "cached": false,
-   "sections": {
-    "事件概述": "「理响中国·聚焦2026中国经济丨出行热、消费旺、文旅火 四组数据解读国庆假期新气象」由 19 篇报道聚合而成，覆盖 2 家媒体，热度 0.68（爆点），所属板块类目：综合。",
-    "关键信息": "理响中国·聚焦2026中国经济丨出行热、消费旺、文旅火 四组数据解读国庆假期新气；这组数据，读懂国庆假期消费新气象；新华社经济随笔：从国庆文旅热看中国消费活力",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "理响中国·聚焦2026中国经济丨出行热、消费旺、文旅火 四组数据解读国庆假期新气象",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurvzz6666377.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "这组数据，读懂国庆假期消费新气象",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniupnuv7539754.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "新华社经济随笔：从国庆文旅热看中国消费活力",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniusxpp2263579.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "好评中国｜AI漫评：假日消费红火升腾，“流动中国”奋楫向前",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniuquqp3111288.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "国庆长假入境游热度攀升 中国文旅消费展现新动能",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-08/10709413.shtml",
-     "rrf": 0.03012,
-     "bm25_rank": 9,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "国际锐评丨透过国庆“黄金周”，世界看到怎样的中国？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniuquqf7178615.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
-    },
-    {
-     "n": 7,
-     "title": "发票数据增长19.5%，国庆假期服务消费旺盛",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurvzz6671462.shtml",
-     "rrf": 0.02804,
-     "bm25_rank": 19,
-     "vec_rank": 5
-    },
-    {
-     "n": 8,
-     "title": "增值税发票显示：国庆假期旅游消费市场热度高涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniuptaz7466079.shtml",
-     "rrf": 0.02758,
-     "bm25_rank": 5,
-     "vec_rank": 22
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "理响中国·聚焦2026中国经济丨出行热、消费旺、文旅火 四组数据解读国庆假期新气",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "6a261e7d6020ebd6",
+   "key": "1533c7c15547a7b7",
    "label": "财经早报丨“不预设汇率目标水平”，央行权威表态来了，特朗普称11月3日前不会攻击伊朗丨2026年",
    "cached": false,
    "sections": {
-    "事件概述": "「财经早报丨“不预设汇率目标水平”，央行权威表态来了，特朗普称11月3日前不会攻击伊朗丨2026年」由 10 篇报道聚合而成，覆盖 2 家媒体，热度 0.664（爆点），所属板块类目：综合。",
+    "事件概述": "「财经早报丨“不预设汇率目标水平”，央行权威表态来了，特朗普称11月3日前不会攻击伊朗丨2026年」由 10 篇报道聚合而成，覆盖 2 家媒体，热度 0.711（爆点），所属板块类目：综合。",
     "关键信息": "财经早报丨“不预设汇率目标水平”，央行权威表态来了，特朗普称11月3日前不会攻击；美国国债上涨 此前特朗普称中期选举前不会攻击伊朗；特朗普：不会在中期选举之前攻击伊朗",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -408,8 +126,8 @@
      "title": "美国国债上涨 此前特朗普称中期选举前不会攻击伊朗",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkx7389964.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
+     "rrf": 0.03126,
+     "bm25_rank": 5,
      "vec_rank": 3
     },
     {
@@ -417,39 +135,30 @@
      "title": "特朗普：不会在中期选举之前攻击伊朗",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniupxkx7383138.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
+     "rrf": 0.03078,
+     "bm25_rank": 4,
      "vec_rank": 6
     },
     {
      "n": 4,
-     "title": "“不预设汇率目标水平”，央行权威表态来了",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniuphnz4411708.shtml",
-     "rrf": 0.03041,
-     "bm25_rank": 2,
-     "vec_rank": 10
-    },
-    {
-     "n": 5,
      "title": "10月9日外盘头条：特朗普称中期选举前不会攻击伊朗 苹果将举行智能家居新品发布会 OpenAI年化营收500亿美元",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqiym7274524.shtml",
-     "rrf": 0.03033,
-     "bm25_rank": 4,
+     "rrf": 0.03058,
+     "bm25_rank": 3,
      "vec_rank": 8
     },
     {
-     "n": 6,
+     "n": 5,
      "title": "纽约汇市：美元走势震荡 伊朗局势信号交错",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqiym7300978.shtml",
-     "rrf": 0.02991,
-     "bm25_rank": 10,
+     "rrf": 0.03012,
+     "bm25_rank": 9,
      "vec_rank": 4
     },
     {
-     "n": 7,
+     "n": 6,
      "title": "特朗普称美国不会在中期选举前袭击伊朗",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkx3430617.shtml",
@@ -458,21 +167,312 @@
      "vec_rank": 2
     },
     {
-     "n": 8,
+     "n": 7,
      "title": "美伊冲突，最新进展",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniuqiyt3261766.shtml",
-     "rrf": 0.02942,
-     "bm25_rank": 9,
+     "rrf": 0.02963,
+     "bm25_rank": 8,
      "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "特朗普称中期选举前不会袭击伊朗，油价下跌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqqhm4022900.shtml",
+     "rrf": 0.02947,
+     "bm25_rank": 11,
+     "vec_rank": 5
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "财经早报丨“不预设汇率目标水平”，央行权威表态来了，特朗普称11月3日前不会攻击",
-    "bm25_only": 1,
+    "bm25_only": 0,
     "vec_only": 3,
-    "both": 4,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "07061f5ca21a3b92",
+   "label": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市公司",
+   "cached": false,
+   "sections": {
+    "事件概述": "「江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市公司」由 17 篇报道聚合而成，覆盖 3 家媒体，热度 0.7（爆点），所属板块类目：综合。",
+    "关键信息": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏；江淮汽车，连续2日跌停；程智鹏：江淮汽车再跌停！蒸发110亿，\"华为期权\"神话破灭？",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市公司回应",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-10-09/doc-iniurmnf2885802.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "江淮汽车，连续2日跌停",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-09/doc-iniuquqp7026812.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "程智鹏：江淮汽车再跌停！蒸发110亿，\"华为期权\"神话破灭？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/2026-10-09/doc-iniurfep7904311.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "“刹车踏板断裂”冲上热搜，尊界、懂车帝回应",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-08/doc-iniuptat7511137.shtml",
+     "rrf": 0.02996,
+     "bm25_rank": 3,
+     "vec_rank": 11
+    },
+    {
+     "n": 5,
+     "title": "尊界“刹车门”后，多家车企自晒制动踏板：“最大承压可超3000N”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-10/doc-iniutkci6073059.shtml",
+     "rrf": 0.02991,
+     "bm25_rank": 4,
+     "vec_rank": 10
+    },
+    {
+     "n": 6,
+     "title": "江淮汽车盘中再次跌停，封单11万手。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175966",
+     "rrf": 0.02991,
+     "bm25_rank": 10,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "江淮汽车股价遭遇“刹停” 尊界称将进一步优化设计",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-09/doc-iniupxkt4215375.shtml",
+     "rrf": 0.02957,
+     "bm25_rank": 13,
+     "vec_rank": 3
+    },
+    {
+     "n": 8,
+     "title": "尊界V800“刹”出江淮汽车真面目：连续7个季度亏损，董事长称“尊界以质量信仰贯穿造车始终”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-09/doc-iniurmnk1138816.shtml",
+     "rrf": 0.02899,
+     "bm25_rank": 9,
+     "vec_rank": 9
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏",
+    "bm25_only": 2,
+    "vec_only": 2,
+    "both": 3,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "2f680b90237d102e",
+   "label": "中概股深夜爆发，小米涨超9%，美股光通信股走强，Lumentum涨超5%，运营商巨头暴跌",
+   "cached": false,
+   "sections": {
+    "事件概述": "「中概股深夜爆发，小米涨超9%，美股光通信股走强，Lumentum涨超5%，运营商巨头暴跌」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.647（爆点），所属板块类目：金融市场。",
+    "关键信息": "中概股深夜爆发，小米涨超9%，美股光通信股走强，Lumentum涨超5%，运营商；港股收评：恒指涨1.79% 科指涨3.06% 科网股普涨 小米涨超9% 黄金股集；利空突现！美股三大巨头，集体暴跌！马斯克，重大宣布",
+    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "中概股深夜爆发，小米涨超9%，美股光通信股走强，Lumentum涨超5%，运营商巨头暴跌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-10/doc-iniustfr2334918.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "港股收评：恒指涨1.79% 科指涨3.06% 科网股普涨 小米涨超9% 黄金股集体走强",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-09/doc-iniurmnk1034563.shtml",
+     "rrf": 0.03102,
+     "bm25_rank": 3,
+     "vec_rank": 6
+    },
+    {
+     "n": 3,
+     "title": "利空突现！美股三大巨头，集体暴跌！马斯克，重大宣布",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-09/doc-iniurwae1042851.shtml",
+     "rrf": 0.03102,
+     "bm25_rank": 6,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "恒生科技指数盘中涨超2%，小米涨超5%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175956",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "小米港股涨超8%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610093890944278.html",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "美股三大指数集体高开 光通信板块上涨",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610093891490888.html",
+     "rrf": 0.03083,
+     "bm25_rank": 2,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "恒生科技指数日内涨幅扩大至1.2%，小米涨近4%，比亚迪股份涨超3%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3175952",
+     "rrf": 0.02878,
+     "bm25_rank": 9,
+     "vec_rank": 10
+    },
+    {
+     "n": 8,
+     "title": "小米集团-W早盘涨超6% 小米澎程上市单月锁单破7万辆",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-09/doc-iniuquqi4003942.shtml",
+     "rrf": 0.02859,
+     "bm25_rank": 8,
+     "vec_rank": 12
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "中概股深夜爆发，小米涨超9%，美股光通信股走强，Lumentum涨超5%，运营商",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 6,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "1792623374c3bbd7",
+   "label": "飓风“伊萨亚斯”逼近美国海岸，墨西哥湾近63%海上原油产量暂停",
+   "cached": false,
+   "sections": {
+    "事件概述": "「飓风“伊萨亚斯”逼近美国海岸，墨西哥湾近63%海上原油产量暂停」由 8 篇报道聚合而成，覆盖 2 家媒体，热度 0.611（爆点），所属板块类目：国际市场。",
+    "关键信息": "飓风“伊萨亚斯”逼近美国海岸，墨西哥湾近63%海上原油产量暂停；飓风“伊萨亚斯”导致墨西哥湾近四分之三原油产量关停；“伊赛亚斯”升级为三级飓风，美国墨西哥湾近四分之三原油停产",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "飓风“伊萨亚斯”逼近美国海岸，墨西哥湾近63%海上原油产量暂停",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurmnm7810192.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "飓风“伊萨亚斯”导致墨西哥湾近四分之三原油产量关停",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3176438",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "“伊赛亚斯”升级为三级飓风，美国墨西哥湾近四分之三原油停产",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-10/doc-iniustfu0686868.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "飓风来袭！美墨西哥湾紧急停工 原油产量损失预计达900万桶",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniusxpp6201650.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "伊赛亚斯飓风扰乱墨西哥湾美国原油生产，对炼油厂构成威胁",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurwae1012590.shtml",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "飓风逼近美国墨西哥湾，四分之一原油停产，助油价大涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-09/doc-iniuqiyp4036591.shtml",
+     "rrf": 0.0303,
+     "bm25_rank": 6,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "受伊赛亚斯飓风影响，英国石油关停墨西哥湾两座平台的生产作业",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniusakc7736918.shtml",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
+     "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "美国墨西哥湾地区71.51%石油和58.84%天然气产量暂停",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/estate/integration/2026-10-10/doc-iniustfu0708610.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 9,
+     "vec_rank": 8
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "飓风“伊萨亚斯”逼近美国海岸，墨西哥湾近63%海上原油产量暂停",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 7,
     "neither_topk": 0
    },
    "elapsed": 0.0
