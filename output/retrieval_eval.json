@@ -2,11 +2,11 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.444,
-  "avg_rank_diff": 1.73,
-  "avg_missed_by_bm25": 1.78,
-  "avg_missed_by_vector": 2.0,
-  "conclusion": "两路召回集平均重合度仅 44%；即便重合的文档，两路名次平均相差 1.73 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.78 篇最终进入 Top8 的文档；只用向量则漏掉 2.0 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.548,
+  "avg_rank_diff": 0.95,
+  "avg_missed_by_bm25": 1.89,
+  "avg_missed_by_vector": 1.33,
+  "conclusion": "两路召回集平均重合度仅 55%；即便重合的文档，两路名次平均相差 0.95 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.89 篇最终进入 Top8 的文档；只用向量则漏掉 1.33 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
@@ -14,16 +14,16 @@
    "query": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车",
    "jaccard": 0.333,
    "rank_diff": 1.0,
-   "missed_by_bm25": 2,
+   "missed_by_bm25": 3,
    "missed_by_vector": 2,
    "example_top1": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市"
   },
   {
    "type": "关键词式",
    "query": "江淮 汽车 打开 跌停板 制动 系统",
-   "jaccard": 0.455,
-   "rank_diff": 1.4,
-   "missed_by_bm25": 1,
+   "jaccard": 0.333,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 2,
    "missed_by_vector": 2,
    "example_top1": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市"
   },
@@ -32,63 +32,63 @@
    "query": "江淮汽车打开跌停板，跌！制动系统厂家董事长称是试车员侧向发力",
    "jaccard": 0.455,
    "rank_diff": 1.8,
-   "missed_by_bm25": 2,
+   "missed_by_bm25": 3,
    "missed_by_vector": 1,
    "example_top1": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市"
   },
   {
    "type": "原标题式",
-   "query": "创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光",
-   "jaccard": 0.455,
-   "rank_diff": 1.6,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌"
+   "query": "商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商",
+   "jaccard": 0.778,
+   "rank_diff": 1.43,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力度"
   },
   {
    "type": "关键词式",
-   "query": "创业板 指跌超 此前 一度 涨超 医药",
-   "jaccard": 0.455,
-   "rank_diff": 1.4,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌"
+   "query": "商务部 部门 鼓励 金融机构 电商 平台",
+   "jaccard": 0.6,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力度"
   },
   {
    "type": "去数字泛化",
-   "query": "创业板指跌超，此前一度涨超，医药生物、半导体芯片、光模块、机",
-   "jaccard": 0.455,
-   "rank_diff": 2.6,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌"
+   "query": "商务部等部门：鼓励金融机构与电商平台规范合作 加大对优质商品",
+   "jaccard": 0.778,
+   "rank_diff": 0.57,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 0,
+   "example_top1": "商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力度"
   },
   {
    "type": "原标题式",
-   "query": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四",
-   "jaccard": 0.455,
-   "rank_diff": 2.8,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息"
+   "query": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG",
+   "jaccard": 0.6,
+   "rank_diff": 0.83,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪"
   },
   {
    "type": "关键词式",
-   "query": "隔夜 要闻 美股 收跌 美光 涨超",
-   "jaccard": 0.333,
-   "rank_diff": 1.5,
+   "query": "内盘 商品 期货 开盘 沪锡跌 碳酸锂",
+   "jaccard": 0.455,
+   "rank_diff": 0.8,
    "missed_by_bm25": 2,
    "missed_by_vector": 3,
-   "example_top1": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息"
+   "example_top1": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪"
   },
   {
    "type": "去数字泛化",
-   "query": "月日隔夜要闻：美股收跌 美光涨超 欧元区股市触及四个月低点",
+   "query": "内盘商品期货开盘，沪锡跌近，碳酸锂跌超，乙二醇（EG）、沪铅",
    "jaccard": 0.6,
-   "rank_diff": 1.5,
+   "rank_diff": 0.33,
    "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息"
+   "missed_by_vector": 1,
+   "example_top1": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪"
   }
  ]
 }

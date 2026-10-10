@@ -1,18 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 55,
+ "n_clusters": 64,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.8,
+ "elapsed": 6.2,
  "reports": [
   {
-   "key": "ac2ad7650e0c30bd",
+   "key": "33db2f57599206c4",
    "label": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市公司",
    "cached": false,
    "sections": {
-    "事件概述": "「江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市公司」由 26 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：汽车出行。",
+    "事件概述": "「江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏板，多家上市公司」由 27 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：汽车出行。",
     "关键信息": "江淮汽车打开跌停板，跌7.97%！制动系统厂家董事长称是试车员侧向发力“别”断踏；江淮汽车，连续2日跌停；程智鹏：江淮汽车再跌停！蒸发110亿，\"华为期权\"神话破灭？",
     "市场影响": "关联板块代码：BK0854、BK0953、BK1211、BK000060。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -41,8 +41,8 @@
      "title": "程智鹏：江淮汽车再跌停！蒸发110亿，\"华为期权\"神话破灭？",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/relnews/2026-10-09/doc-iniurfep7904311.shtml",
-     "rrf": 0.02963,
-     "bm25_rank": 8,
+     "rrf": 0.02985,
+     "bm25_rank": 7,
      "vec_rank": 7
     },
     {
@@ -59,8 +59,8 @@
      "title": "江淮汽车股价遭遇“刹停” 尊界称将进一步优化设计",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-09/doc-iniupxkt4215375.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 15,
+     "rrf": 0.02903,
+     "bm25_rank": 16,
      "vec_rank": 3
     },
     {
@@ -74,21 +74,21 @@
     },
     {
      "n": 7,
-     "title": "“刹车踏板断裂”冲上热搜，尊界、懂车帝回应",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-08/doc-iniuptat7511137.shtml",
-     "rrf": 0.02896,
-     "bm25_rank": 4,
-     "vec_rank": 15
-    },
-    {
-     "n": 8,
      "title": "江淮汽车盘中再次跌停，封单11万手。",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3175966",
      "rrf": 0.02885,
      "bm25_rank": 13,
      "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "“刹车踏板断裂”冲上热搜，尊界、懂车帝回应",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-08/doc-iniuptat7511137.shtml",
+     "rrf": 0.02878,
+     "bm25_rank": 4,
+     "vec_rank": 16
     }
    ],
    "degraded": 1,
@@ -102,218 +102,124 @@
    "elapsed": 0.0
   },
   {
-   "key": "f63e0379f01122dd",
-   "label": "创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌",
+   "key": "68788e13d768ba03",
+   "label": "商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力度",
    "cached": false,
    "sections": {
-    "事件概述": "「创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌」由 15 篇报道聚合而成，覆盖 4 家媒体，热度 0.794（爆点），所属板块类目：金融市场。",
-    "关键信息": "创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌；创业板指涨超1%，此前一度跌超0.9%。；创业板指跌超3% 全市场超4500只个股下跌",
-    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力度」由 10 篇报道聚合而成，覆盖 4 家媒体，热度 0.698（爆点），所属板块类目：消费零售。",
+    "关键信息": "商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力；商务部等7部门：推动电商平台持续优化商品展示、推荐和营销活动机制；商务部等7部门：开展“电商+产业带”培育行动 鼓励各地规划布局电商选品中心",
+    "市场影响": "关联板块代码：BK0665。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175129",
+     "title": "商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力度",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutcvq0594665.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "创业板指涨超1%，此前一度跌超0.9%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175103",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "title": "商务部等7部门：推动电商平台持续优化商品展示、推荐和营销活动机制",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutcvq0587043.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "创业板指跌超3% 全市场超4500只个股下跌",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610093890859828.html",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "创业板指翻绿，此前一度涨超1%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175111",
-     "rrf": 0.03062,
-     "bm25_rank": 2,
-     "vec_rank": 9
-    },
-    {
-     "n": 5,
-     "title": "创业板指跌幅收窄至2%以内，此前一度跌超3%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175989",
-     "rrf": 0.03055,
-     "bm25_rank": 4,
-     "vec_rank": 7
-    },
-    {
-     "n": 6,
-     "title": "创业板指、科创50指数均跌超2%，沪指跌0.81%，深成指跌1.68%，算力硬件",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175969",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
+     "title": "商务部等7部门：开展“电商+产业带”培育行动 鼓励各地规划布局电商选品中心",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutcvq0588568.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
      "vec_rank": 5
     },
     {
-     "n": 7,
-     "title": "创业板指、科创50指数均跌超1%。",
+     "n": 4,
+     "title": "七部门：推动电商领域高水平开放 深化“丝路电商”多双边合作机制",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175945",
-     "rrf": 0.02686,
-     "bm25_rank": 29,
+     "url": "https://wallstreetcn.com/livenews/3176496",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "商务部等7部门：引导电商平台建立首席质量官制度 完善线上服务质量评价体系",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutcvq0587810.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
      "vec_rank": 4
     },
     {
-     "n": 8,
-     "title": "A股医药医疗股开盘领涨，海特生物、贝瑞基因、鲁抗医药、华北制药、润都股份竞价涨停",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175094",
-     "rrf": 0.02662,
-     "bm25_rank": 5,
-     "vec_rank": 29
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "创业板指跌超1%，此前一度涨超1%，医药生物、半导体芯片、光模块、机器人等方向跌",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 5,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "30213ed83acd5b68",
-   "label": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息获一",
-   "cached": false,
-   "sections": {
-    "事件概述": "「10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息获一」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.781（爆点），所属板块类目：国际市场。",
-    "关键信息": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要；10月8日外盘头条：美联储纪要显示多数官员倾向年内再加息一次 高盛、巴克莱等美债；10月9日隔夜要闻：纳指下跌 AI泡沫担忧再升温 金价反弹 油价上涨 美抵押贷款",
-    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息获一致支持",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniunezt4071119.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "10月8日外盘头条：美联储纪要显示多数官员倾向年内再加息一次 高盛、巴克莱等美债分歧明显",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniunezp4425016.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "10月9日隔夜要闻：纳指下跌 AI泡沫担忧再升温 金价反弹 油价上涨 美抵押贷款利率连涨七周",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqiym7323845.shtml",
-     "rrf": 0.03058,
-     "bm25_rank": 8,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "10月8日收盘：三大指数收跌 10年期美债收益率创20年新高 银行与科技股承压",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniumytv4173772.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "美联储纪要显示9月升息获一致支持 多数与会者倾向年内再加一次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniumumr7850540.shtml",
-     "rrf": 0.03012,
-     "bm25_rank": 4,
-     "vec_rank": 9
-    },
-    {
      "n": 6,
-     "title": "金价走低一度失守4100美元关口 10年期美债拍卖需求强劲",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-08/doc-iniunezm7679633.shtml",
-     "rrf": 0.02967,
-     "bm25_rank": 5,
-     "vec_rank": 10
+     "title": "七部门：加强品质电商主体培育 协同整治无序非理性竞争",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610103891849925.html",
+     "rrf": 0.0303,
+     "bm25_rank": 6,
+     "vec_rank": 6
     },
     {
      "n": 7,
-     "title": "美联储：年内或再加息",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-08/doc-iniunmir3978458.shtml",
-     "rrf": 0.02942,
-     "bm25_rank": 9,
+     "title": "5方面15条举措 商务部等7部门部署品质电商“五优”行动",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-10/10710053.shtml",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
      "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "10月8日日经指数收跌1.4% 机械股、金融股拖累大盘走低",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunvxc7644747.shtml",
-     "rrf": 0.02904,
-     "bm25_rank": 12,
-     "vec_rank": 6
+     "title": "七部门：创新发展电商消费品牌",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610103891850194.html",
+     "rrf": 0.02899,
+     "bm25_rank": 9,
+     "vec_rank": 9
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 0
+    "query": "商务部等7部门：鼓励金融机构与电商平台规范合作 加大对优质商品和服务的金融支持力",
+    "bm25_only": 0,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "d0d56084ebd1d61a",
-   "label": "商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯",
+   "key": "ab2c93367b9a1edc",
+   "label": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪",
    "cached": false,
    "sections": {
-    "事件概述": "「商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯」由 14 篇报道聚合而成，覆盖 3 家媒体，热度 0.741（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯；开盘|国内期货主力合约涨多跌少 液化石油气（LPG）、燃料油涨超7%；国内商品期货夜盘开盘 主力合约多数下跌",
+    "事件概述": "「内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.695（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪；开盘|国内期货主力合约跌多涨少，沪锡跌近5%；国内商品期货夜盘开盘 主力合约多数下跌",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯",
+     "title": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175080",
+     "url": "https://wallstreetcn.com/livenews/3175934",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "开盘|国内期货主力合约涨多跌少 液化石油气（LPG）、燃料油涨超7%",
+     "title": "开盘|国内期货主力合约跌多涨少，沪锡跌近5%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-08/doc-iniunmii7616490.shtml",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-09/doc-iniuqqhr7142837.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
@@ -323,155 +229,249 @@
      "title": "国内商品期货夜盘开盘 主力合约多数下跌",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202610083889875037.html",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "夜盘商品期货开盘，20号胶主力合约涨超2%，橡胶涨近2%，焦煤、聚丙烯、沪锡、沪",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3176255",
      "rrf": 0.03126,
      "bm25_rank": 3,
      "vec_rank": 5
     },
     {
-     "n": 4,
-     "title": "节后能化商品走强 燃油期货主力合约单日涨超18%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniupxkx7393505.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
+     "n": 5,
+     "title": "LME锡、沪锡均跌超4%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610083889952540.html",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
      "vec_rank": 4
     },
     {
-     "n": 5,
-     "title": "收评|多个能化品种涨停 燃料油涨超18%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-08/doc-iniupafi7691081.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
-     "vec_rank": 3
-    },
-    {
      "n": 6,
-     "title": "夜盘商品期货开盘，20号胶主力合约涨超2%，橡胶涨近2%，焦煤、聚丙烯、沪锡、沪",
+     "title": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报120500元/吨",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3176255",
-     "rrf": 0.03031,
-     "bm25_rank": 5,
-     "vec_rank": 7
+     "url": "https://wallstreetcn.com/livenews/3175979",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
     },
     {
      "n": 7,
-     "title": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175934",
-     "rrf": 0.02901,
-     "bm25_rank": 7,
-     "vec_rank": 11
+     "title": "收评|国内期货主力合约涨多跌少 甲醇涨超7%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/2026-10-09/doc-iniurfen1113545.shtml",
+     "rrf": 0.02904,
+     "bm25_rank": 12,
+     "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "纯苯期货、甲醇期货主力合约相继触及涨停。",
+     "title": "上证指数开盘报3804.09点，跌0.21%。 深证成指开盘报12557.02点",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175106",
-     "rrf": 0.02899,
-     "bm25_rank": 8,
-     "vec_rank": 10
+     "url": "https://wallstreetcn.com/livenews/3175939",
+     "rrf": 0.02762,
+     "bm25_rank": 10,
+     "vec_rank": 15
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "商品期货开盘，液化气、燃料油主力合约涨超7%，LU燃油涨超4%，甲醇涨超3%。钯",
-    "bm25_only": 2,
-    "vec_only": 0,
-    "both": 6,
-    "neither_topk": 0
+    "query": "内盘商品期货开盘，沪锡跌近5%，碳酸锂跌超3%，乙二醇（EG）、沪铅跌超2%，沪",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "8952bdcb4879d34d",
-   "label": "10月8日韩国KOSPI指数收跌2.6% 连续第三日下跌 芯片股回调拖累大盘",
+   "key": "4d8222039533bf83",
+   "label": "理响中国·聚焦2026中国经济丨出行热、消费旺、文旅火 四组数据解读国庆假期新气象",
    "cached": false,
    "sections": {
-    "事件概述": "「10月8日韩国KOSPI指数收跌2.6% 连续第三日下跌 芯片股回调拖累大盘」由 10 篇报道聚合而成，覆盖 2 家媒体，热度 0.643（爆点），所属板块类目：综合。",
-    "关键信息": "10月8日韩国KOSPI指数收跌2.6% 连续第三日下跌 芯片股回调拖累大盘；日韩股市开盘 日经指数开盘下跌0.3%；10月8日日经指数收跌1.4% 机械股、金融股拖累大盘走低",
+    "事件概述": "「理响中国·聚焦2026中国经济丨出行热、消费旺、文旅火 四组数据解读国庆假期新气象」由 19 篇报道聚合而成，覆盖 2 家媒体，热度 0.68（爆点），所属板块类目：综合。",
+    "关键信息": "理响中国·聚焦2026中国经济丨出行热、消费旺、文旅火 四组数据解读国庆假期新气；这组数据，读懂国庆假期消费新气象；新华社经济随笔：从国庆文旅热看中国消费活力",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "10月8日韩国KOSPI指数收跌2.6% 连续第三日下跌 芯片股回调拖累大盘",
+     "title": "理响中国·聚焦2026中国经济丨出行热、消费旺、文旅火 四组数据解读国庆假期新气象",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunvxc7649182.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurvzz6666377.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "日韩股市开盘 日经指数开盘下跌0.3%",
+     "title": "这组数据，读懂国庆假期消费新气象",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunezp4476592.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniupnuv7539754.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "10月8日日经指数收跌1.4% 机械股、金融股拖累大盘走低",
+     "title": "新华社经济随笔：从国庆文旅热看中国消费活力",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunvxc7644747.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "日经225指数开盘下跌0.57% 韩股今日休市",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqqhi7244393.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "日经指数下跌1% 芯片和金属类股领跌",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqqhr3169059.shtml",
-     "rrf": 0.03016,
-     "bm25_rank": 10,
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniusxpp2263579.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
      "vec_rank": 3
     },
     {
-     "n": 6,
-     "title": "尾盘异动！002490，涨停！芯片股全线下跌",
+     "n": 4,
+     "title": "好评中国｜AI漫评：假日消费红火升腾，“流动中国”奋楫向前",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-08/doc-iniupafc4406732.shtml",
-     "rrf": 0.02862,
-     "bm25_rank": 13,
-     "vec_rank": 7
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniuquqp3111288.shtml",
+     "rrf": 0.0303,
+     "bm25_rank": 6,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "国庆长假入境游热度攀升 中国文旅消费展现新动能",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-08/10709413.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 9,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "国际锐评丨透过国庆“黄金周”，世界看到怎样的中国？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniuquqf7178615.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
     },
     {
      "n": 7,
-     "title": "市场快评 |悲观因素已有较多定价 超跌反弹依然值得期待",
+     "title": "发票数据增长19.5%，国庆假期服务消费旺盛",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/fund/jjzl/2026-10-08/doc-iniuphnz4328061.shtml",
-     "rrf": 0.02831,
-     "bm25_rank": 6,
-     "vec_rank": 16
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurvzz6671462.shtml",
+     "rrf": 0.02804,
+     "bm25_rank": 19,
+     "vec_rank": 5
     },
     {
      "n": 8,
-     "title": "韩国首尔综指下跌1%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3175081",
-     "rrf": 0.02826,
-     "bm25_rank": 7,
-     "vec_rank": 15
+     "title": "增值税发票显示：国庆假期旅游消费市场热度高涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniuptaz7466079.shtml",
+     "rrf": 0.02758,
+     "bm25_rank": 5,
+     "vec_rank": 22
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "10月8日韩国KOSPI指数收跌2.6% 连续第三日下跌 芯片股回调拖累大盘",
+    "query": "理响中国·聚焦2026中国经济丨出行热、消费旺、文旅火 四组数据解读国庆假期新气",
     "bm25_only": 2,
     "vec_only": 2,
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "6a261e7d6020ebd6",
+   "label": "财经早报丨“不预设汇率目标水平”，央行权威表态来了，特朗普称11月3日前不会攻击伊朗丨2026年",
+   "cached": false,
+   "sections": {
+    "事件概述": "「财经早报丨“不预设汇率目标水平”，央行权威表态来了，特朗普称11月3日前不会攻击伊朗丨2026年」由 10 篇报道聚合而成，覆盖 2 家媒体，热度 0.664（爆点），所属板块类目：综合。",
+    "关键信息": "财经早报丨“不预设汇率目标水平”，央行权威表态来了，特朗普称11月3日前不会攻击；美国国债上涨 此前特朗普称中期选举前不会攻击伊朗；特朗普：不会在中期选举之前攻击伊朗",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "财经早报丨“不预设汇率目标水平”，央行权威表态来了，特朗普称11月3日前不会攻击伊朗丨2026年10月9日",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/y/2026-10-09/doc-iniuqqhr3152680.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "美国国债上涨 此前特朗普称中期选举前不会攻击伊朗",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkx7389964.shtml",
+     "rrf": 0.03102,
+     "bm25_rank": 6,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "特朗普：不会在中期选举之前攻击伊朗",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniupxkx7383138.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 4,
+     "title": "“不预设汇率目标水平”，央行权威表态来了",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniuphnz4411708.shtml",
+     "rrf": 0.03041,
+     "bm25_rank": 2,
+     "vec_rank": 10
+    },
+    {
+     "n": 5,
+     "title": "10月9日外盘头条：特朗普称中期选举前不会攻击伊朗 苹果将举行智能家居新品发布会 OpenAI年化营收500亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqiym7274524.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 4,
+     "vec_rank": 8
+    },
+    {
+     "n": 6,
+     "title": "纽约汇市：美元走势震荡 伊朗局势信号交错",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqiym7300978.shtml",
+     "rrf": 0.02991,
+     "bm25_rank": 10,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "特朗普称美国不会在中期选举前袭击伊朗",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkx3430617.shtml",
+     "rrf": 0.02983,
+     "bm25_rank": 13,
+     "vec_rank": 2
+    },
+    {
+     "n": 8,
+     "title": "美伊冲突，最新进展",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniuqiyt3261766.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 9,
+     "vec_rank": 7
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "财经早报丨“不预设汇率目标水平”，央行权威表态来了，特朗普称11月3日前不会攻击",
+    "bm25_only": 1,
+    "vec_only": 3,
     "both": 4,
     "neither_topk": 0
    },
