@@ -1,67 +1,76 @@
 {
  "summary": {
-  "n_queries": 6,
+  "n_queries": 7,
   "top_k": 8,
-  "avg_jaccard": 0.594,
-  "avg_rank_diff": 1.77,
-  "avg_missed_by_bm25": 1.0,
-  "avg_missed_by_vector": 1.17,
-  "conclusion": "两路召回集平均重合度仅 59%；即便重合的文档，两路名次平均相差 1.77 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.0 篇最终进入 Top8 的文档；只用向量则漏掉 1.17 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.55,
+  "avg_rank_diff": 1.68,
+  "avg_missed_by_bm25": 0.86,
+  "avg_missed_by_vector": 1.71,
+  "conclusion": "两路召回集平均重合度仅 55%；即便重合的文档，两路名次平均相差 1.68 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 0.86 篇最终进入 Top8 的文档；只用向量则漏掉 1.71 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "视频|特朗普：乌克兰该换新总统了！美国六次要求泽连斯基停止袭",
-   "jaccard": 0.6,
-   "rank_diff": 2.67,
+   "query": "外媒：特朗普称胡塞武装袭击利雅得机场“不可接受”，将与沙特王",
+   "jaccard": 0.455,
+   "rank_diff": 1.6,
    "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "外媒：特朗普称胡塞武装袭击利雅得机场“不可接受”，将与沙特王储“对话”"
+  },
+  {
+   "type": "关键词式",
+   "query": "外媒 特朗普 胡塞 武装 袭击 利雅得",
+   "jaccard": 0.778,
+   "rank_diff": 2.14,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 1,
+   "example_top1": "外媒：特朗普称胡塞武装袭击利雅得机场“不可接受”，将与沙特王储“对话”"
+  },
+  {
+   "type": "原标题式",
+   "query": "视频|特朗普：乌克兰该换新总统了！美国六次要求泽连斯基停止袭",
+   "jaccard": 0.455,
+   "rank_diff": 2.4,
+   "missed_by_bm25": 2,
    "missed_by_vector": 1,
    "example_top1": "视频|特朗普：乌克兰该换新总统了！美国六次要求泽连斯基停止袭击俄罗斯炼油厂 均被泽连斯基无视"
   },
   {
    "type": "关键词式",
    "query": "视频 特朗普 乌克兰 该换 总统 美国",
-   "jaccard": 0.455,
-   "rank_diff": 2.4,
-   "missed_by_bm25": 1,
+   "jaccard": 0.333,
+   "rank_diff": 2.75,
+   "missed_by_bm25": 2,
    "missed_by_vector": 2,
-   "example_top1": "美乌关系急剧恶化，欧洲盟友感到震惊，特朗普“换乌克兰总统”言论引发风波"
+   "example_top1": "视频|特朗普：乌克兰该换新总统了！美国六次要求泽连斯基停止袭击俄罗斯炼油厂 均被泽连斯基无视"
   },
   {
    "type": "原标题式",
-   "query": "四部门：汽车生产企业不得作虚假、夸大或引人误解的宣传 不得诱",
+   "query": "商品期货开盘，20号胶主力合约涨超4%，橡胶、焦煤涨超3%，",
    "jaccard": 0.455,
-   "rank_diff": 1.8,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "四部门：汽车生产企业不得作虚假、夸大或引人误解的宣传 不得诱导驾驶人忽视安全驾驶责任"
-  },
-  {
-   "type": "关键词式",
-   "query": "部门 汽车 生产 企业 不得 虚假",
-   "jaccard": 0.6,
-   "rank_diff": 0.67,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 0,
-   "example_top1": "四部门：汽车生产企业不得作虚假、夸大或引人误解的宣传 不得诱导驾驶人忽视安全驾驶责任"
-  },
-  {
-   "type": "原标题式",
-   "query": "外媒：特朗普称胡塞武装袭击利雅得机场“不可接受”，将与沙特王",
-   "jaccard": 0.455,
-   "rank_diff": 1.6,
-   "missed_by_bm25": 0,
+   "rank_diff": 0.4,
+   "missed_by_bm25": 1,
    "missed_by_vector": 3,
-   "example_top1": "外媒：特朗普称胡塞武装袭击利雅得机场“不可接受”，将与沙特王储“对话”"
+   "example_top1": "商品期货开盘，20号胶主力合约涨超4%，橡胶、焦煤涨超3%，甲醇、焦炭涨近3%。"
   },
   {
    "type": "关键词式",
-   "query": "外媒 特朗普 胡塞 武装 袭击 利雅得",
-   "jaccard": 1.0,
-   "rank_diff": 1.5,
+   "query": "商品 期货 开盘 号胶 主力 合约",
+   "jaccard": 0.6,
+   "rank_diff": 1.17,
    "missed_by_bm25": 0,
-   "missed_by_vector": 0,
-   "example_top1": "外媒：特朗普称胡塞武装袭击利雅得机场“不可接受”，将与沙特王储“对话”"
+   "missed_by_vector": 2,
+   "example_top1": "商品期货开盘，20号胶主力合约涨超4%，橡胶、焦煤涨超3%，甲醇、焦炭涨近3%。"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "商品期货开盘，号胶主力合约涨超，橡胶、焦煤涨超，甲醇、焦炭涨",
+   "jaccard": 0.778,
+   "rank_diff": 1.29,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 1,
+   "example_top1": "商品期货开盘，20号胶主力合约涨超4%，橡胶、焦煤涨超3%，甲醇、焦炭涨近3%。"
   }
  ]
 }
