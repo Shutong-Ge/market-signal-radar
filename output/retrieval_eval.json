@@ -2,72 +2,45 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.315,
-  "avg_rank_diff": 1.14,
+  "avg_jaccard": 0.399,
+  "avg_rank_diff": 1.36,
   "avg_missed_by_bm25": 2.22,
-  "avg_missed_by_vector": 2.78,
-  "conclusion": "两路召回集平均重合度仅 32%；即便重合的文档，两路名次平均相差 1.14 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.22 篇最终进入 Top8 的文档；只用向量则漏掉 2.78 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_missed_by_vector": 1.78,
+  "conclusion": "两路召回集平均重合度仅 40%；即便重合的文档，两路名次平均相差 1.36 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.22 篇最终进入 Top8 的文档；只用向量则漏掉 1.78 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "国家统计局：9月扣除食品和能源价格的核心CPI同比上涨1.0",
-   "jaccard": 0.455,
-   "rank_diff": 1.4,
-   "missed_by_bm25": 2,
+   "query": "美国股市：标普500指数录得7月以来最差表现 CPI超预期重",
+   "jaccard": 0.231,
+   "rank_diff": 1.67,
+   "missed_by_bm25": 3,
    "missed_by_vector": 3,
-   "example_top1": "国家统计局：9月扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。"
+   "example_top1": "美国股市：标普500指数录得7月以来最差表现 CPI超预期重燃加息忧虑"
   },
   {
    "type": "关键词式",
-   "query": "国家统计局 扣除 食品 能源价格 核心 同比",
-   "jaccard": 0.333,
-   "rank_diff": 1.25,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 2,
-   "example_top1": "国家统计局：9月扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "国家统计局：月扣除食品和能源价格的核心CPI同比上涨，涨幅与",
-   "jaccard": 0.6,
-   "rank_diff": 2.17,
+   "query": "美国股市 标普 指数 录得 以来 最差",
+   "jaccard": 0.455,
+   "rank_diff": 0.4,
    "missed_by_bm25": 2,
    "missed_by_vector": 1,
-   "example_top1": "国家统计局：9月扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。"
-  },
-  {
-   "type": "原标题式",
-   "query": "四大证券报头版头条内容精华摘要_2026年10月15日_财经",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 4,
-   "example_top1": "四大证券报头版头条内容精华摘要_2026年10月16日_财经新闻"
-  },
-  {
-   "type": "关键词式",
-   "query": "四大 证券报 头版头条 内容 精华 摘要",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 4,
-   "example_top1": "四大证券报头版头条内容精华摘要_2026年10月16日_财经新闻"
+   "example_top1": "美国股市：标普500指数录得7月以来最差表现 CPI超预期重燃加息忧虑"
   },
   {
    "type": "去数字泛化",
-   "query": "四大证券报头版头条内容精华摘要_年月日_财经新闻",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 4,
-   "example_top1": "四大证券报头版头条内容精华摘要_2026年10月16日_财经新闻"
+   "query": "美国股市：标普指数录得月以来最差表现 CPI超预期重燃加息忧",
+   "jaccard": 0.231,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 2,
+   "example_top1": "美国股市：标普500指数录得7月以来最差表现 CPI超预期重燃加息忧虑"
   },
   {
    "type": "原标题式",
    "query": "港股午评：恒指跌1.47%失守24000点 科指跌2.94%",
    "jaccard": 0.231,
-   "rank_diff": 1.0,
+   "rank_diff": 0.33,
    "missed_by_bm25": 2,
    "missed_by_vector": 3,
    "example_top1": "港股午评：恒指跌1.47%失守24000点 科指跌2.94% 科网股普跌 存储概念股大跌 联"
@@ -76,19 +49,46 @@
    "type": "关键词式",
    "query": "港股 午评 恒指 失守 科指 科网",
    "jaccard": 0.455,
-   "rank_diff": 2.2,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
+   "rank_diff": 1.8,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
    "example_top1": "港股午评：恒指跌1.47%失守24000点 科指跌2.94% 科网股普跌 存储概念股大跌 联"
   },
   {
    "type": "去数字泛化",
    "query": "港股午评：恒指跌失守点 科指跌 科网股普跌 存储概念股大跌",
    "jaccard": 0.333,
-   "rank_diff": 2.25,
+   "rank_diff": 1.25,
    "missed_by_bm25": 2,
-   "missed_by_vector": 2,
+   "missed_by_vector": 3,
    "example_top1": "港股午评：恒指跌1.47%失守24000点 科指跌2.94% 科网股普跌 存储概念股大跌 联"
+  },
+  {
+   "type": "原标题式",
+   "query": "韩国首尔综指下跌6%。 日本东证指数下跌2%。 日本10年期",
+   "jaccard": 0.6,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "韩国首尔综指下跌6%。 日本东证指数下跌2%。 日本10年期国债收益率下行5个基"
+  },
+  {
+   "type": "关键词式",
+   "query": "韩国 首尔 综指 下跌 日本 东证",
+   "jaccard": 0.6,
+   "rank_diff": 2.5,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "韩国首尔综指下跌6%。 日本东证指数下跌2%。 日本10年期国债收益率下行5个基"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "韩国首尔综指下跌。 日本东证指数下跌。 日本年期国债收益率下",
+   "jaccard": 0.455,
+   "rank_diff": 1.6,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "韩国首尔综指下跌6%。 日本东证指数下跌2%。 日本10年期国债收益率下行5个基"
   }
  ]
 }
