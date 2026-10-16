@@ -1,114 +1,302 @@
 {
  "engine": "template(降级)",
- "n_clusters": 74,
+ "n_clusters": 72,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 7.2,
+ "elapsed": 6.2,
  "reports": [
   {
-   "key": "8e4b0d0dc0885ad5",
-   "label": "中国9月CPI同比0.9%，同比涨幅为三个月高点，前值为0.8%。 中国9月PP",
+   "key": "4951a9995a60e1db",
+   "label": "国家统计局：9月扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。",
    "cached": false,
    "sections": {
-    "事件概述": "「中国9月CPI同比0.9%，同比涨幅为三个月高点，前值为0.8%。 中国9月PP」由 32 篇报道聚合而成，覆盖 4 家媒体，热度 0.875（爆点），所属板块类目：宏观政策。",
-    "关键信息": "中国9月CPI同比0.9%，同比涨幅为三个月高点，前值为0.8%。 中国9月PP；中国9月CPI中的食品价格同比下降1.7%，非食品价格同比上涨1.5%。；美国9月核心PPI同比 5%，预期 4.4%，前值 4.6%。",
-    "市场影响": "关联板块代码：BK0478、BK0464、BK0800、BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「国家统计局：9月扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。」由 31 篇报道聚合而成，覆盖 4 家媒体，热度 0.875（爆点），所属板块类目：宏观政策。",
+    "关键信息": "国家统计局：9月扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。；国家统计局：2026年9月份CPI、PPI同比涨幅均扩大；国家统计局：9月汽油价格同比上涨16.6%，涨幅比上月扩大7.3个百分点，影响C",
+    "市场影响": "关联板块代码：BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "中国9月CPI同比0.9%，同比涨幅为三个月高点，前值为0.8%。 中国9月PP",
+     "title": "国家统计局：9月扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3178290",
+     "url": "https://wallstreetcn.com/livenews/3178298",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "中国9月CPI中的食品价格同比下降1.7%，非食品价格同比上涨1.5%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3178294",
-     "rrf": 0.03151,
-     "bm25_rank": 2,
-     "vec_rank": 5
-    },
-    {
-     "n": 3,
-     "title": "美国9月核心PPI同比 5%，预期 4.4%，前值 4.6%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3179495",
-     "rrf": 0.03016,
-     "bm25_rank": 3,
-     "vec_rank": 10
-    },
-    {
-     "n": 4,
-     "title": "美国9月PPI同比增长6.3% 远超市场预期",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610153897120688.html",
-     "rrf": 0.02963,
-     "bm25_rank": 8,
-     "vec_rank": 7
-    },
-    {
-     "n": 5,
      "title": "国家统计局：2026年9月份CPI、PPI同比涨幅均扩大",
      "media": "中新网",
      "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714169.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 11,
-     "vec_rank": 6
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "国家统计局：9月汽油价格同比上涨16.6%，涨幅比上月扩大7.3个百分点，影响C",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3178301",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "分析｜9月CPI同比涨幅温和回升至0.9%，CPI与PPI同比剪刀差有所扩大",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-inivezmn1220632.shtml",
+     "rrf": 0.03105,
+     "bm25_rank": 7,
+     "vec_rank": 2
+    },
+    {
+     "n": 5,
+     "title": "美国消费者价格创五个月最大涨幅 中期选举前通胀压力升温",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-inivffsz7630701.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 4,
+     "vec_rank": 9
     },
     {
      "n": 6,
-     "title": "国家统计局：9月扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3178298",
+     "title": "21评论丨加大逆周期调节力度，推动物价合理回升",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivkncx8187301.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 6,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "9月份物价数据解读：物价数据仍有韧性，PPI环比和同比涨幅均扩大",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivkncx8215632.shtml",
      "rrf": 0.02838,
      "bm25_rank": 9,
      "vec_rank": 12
     },
     {
-     "n": 7,
-     "title": "中信建投期货：10月15日黑色系早报",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-15/doc-inivhiew1356235.shtml",
-     "rrf": 0.02781,
-     "bm25_rank": 6,
-     "vec_rank": 19
-    },
-    {
      "n": 8,
-     "title": "利空突袭，全线跳水！美联储，加息大消息！",
+     "title": "美国9月批发物价同比大涨6.3%，创2022年以来最大涨幅",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-15/doc-inivhaww4487412.shtml",
-     "rrf": 0.0278,
-     "bm25_rank": 10,
-     "vec_rank": 14
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-iniviqyh1550234.shtml",
+     "rrf": 0.02837,
+     "bm25_rank": 11,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "中国9月CPI同比0.9%，同比涨幅为三个月高点，前值为0.8%。 中国9月PP",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 3,
+    "query": "国家统计局：9月扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 5,
     "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "3849844a9864b976",
+   "key": "7466c6abf0f58a2d",
+   "label": "四大证券报头版头条内容精华摘要_2026年10月15日_财经新闻",
+   "cached": false,
+   "sections": {
+    "事件概述": "「四大证券报头版头条内容精华摘要_2026年10月15日_财经新闻」由 16 篇报道聚合而成，覆盖 4 家媒体，热度 0.738（爆点），所属板块类目：宏观政策。",
+    "关键信息": "四大证券报头版头条内容精华摘要_2026年10月16日_财经新闻；四大证券报头版头条内容精华摘要_2026年10月15日_财经新闻；操盘必读：影响股市利好或利空消息_2026年10月16日_财经新闻",
+    "市场影响": "关联板块代码：BK0484、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "四大证券报头版头条内容精华摘要_2026年10月16日_财经新闻",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/y/2026-10-16/doc-inivkncx8197645.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "四大证券报头版头条内容精华摘要_2026年10月15日_财经新闻",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/y/2026-10-15/doc-inivhaww4459901.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "操盘必读：影响股市利好或利空消息_2026年10月16日_财经新闻",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/cpbd/2026-10-16/doc-inivkncr7794975.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "操盘必读：影响股市利好或利空消息_2026年10月15日_财经新闻",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/cpbd/2026-10-15/doc-inivhawr7460549.shtml",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
+     "vec_rank": 8
+    },
+    {
+     "n": 5,
+     "title": "A股三大行业，集中“报喜”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-15/doc-iniviqyh1455649.shtml",
+     "rrf": 0.02804,
+     "bm25_rank": 5,
+     "vec_rank": 19
+    },
+    {
+     "n": 6,
+     "title": "2026年10月14日《大兴新闻》",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-14/doc-inivezmn1282899.shtml",
+     "rrf": 0.02581,
+     "bm25_rank": 18,
+     "vec_rank": 17
+    },
+    {
+     "n": 7,
+     "title": "光库科技：珠海光库科技股份有限公司发行股份、可转换公司债券及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（摘要",
+     "media": "巨潮资讯",
+     "url": "http://static.cninfo.com.cn/finalpage/2026-10-15/1225606444.PDF",
+     "rrf": 0.01587,
+     "bm25_rank": 3,
+     "vec_rank": null
+    },
+    {
+     "n": 8,
+     "title": "国海证券：国海证券股份有限公司2025年面向专业投资者公开发行公司债券（第三期）2026年本息兑付及摘牌公告",
+     "media": "巨潮资讯",
+     "url": "http://static.cninfo.com.cn/finalpage/2026-10-14/1225605040.PDF",
+     "rrf": 0.01587,
+     "bm25_rank": null,
+     "vec_rank": 3
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "四大证券报头版头条内容精华摘要_2026年10月15日_财经新闻",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 4,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "6c94d7e85bb3a4c0",
+   "label": "港股午评：恒指跌1.47%失守24000点 科指跌2.94% 科网股普跌 存储概念股大跌 联想跌",
+   "cached": false,
+   "sections": {
+    "事件概述": "「港股午评：恒指跌1.47%失守24000点 科指跌2.94% 科网股普跌 存储概念股大跌 联想跌」由 16 篇报道聚合而成，覆盖 3 家媒体，热度 0.656（爆点），所属板块类目：金融市场。",
+    "关键信息": "港股午评：恒指跌1.47%失守24000点 科指跌2.94% 科网股普跌 存储概；快讯：恒指低开0.8% 恒科指跌2.21% 科网股普跌 存储概念股低开 联想跌超；港股午评：恒指涨0.16% 科指涨1.61% 科网股普涨 油气股活跃 小米涨超5",
+    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "港股午评：恒指跌1.47%失守24000点 科指跌2.94% 科网股普跌 存储概念股大跌 联想跌超13%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-15/doc-inivhpnm7404520.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "快讯：恒指低开0.8% 恒科指跌2.21% 科网股普跌 存储概念股低开 联想跌超7%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-15/doc-inivhieu4473337.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "港股午评：恒指涨0.16% 科指涨1.61% 科网股普涨 油气股活跃 小米涨超5%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-14/doc-iniveefr8592488.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "恒指低开0.80%，报24119.14点；恒生科技指数跌2.21%。天数智芯跌超",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179000",
+     "rrf": 0.03058,
+     "bm25_rank": 8,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "快讯：恒指高开1.08% 恒科指涨1.59% 科网股普涨 存储概念股回暖",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivkncr7849090.shtml",
+     "rrf": 0.02991,
+     "bm25_rank": 4,
+     "vec_rank": 10
+    },
+    {
+     "n": 6,
+     "title": "港股触底反弹，恒生科技指数翻红",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-14/doc-inivcxxr7893015.shtml",
+     "rrf": 0.02885,
+     "bm25_rank": 6,
+     "vec_rank": 13
+    },
+    {
+     "n": 7,
+     "title": "港股开盘：恒生指数跌0.8% 恒生科技指数跌2.21%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610153896310683.html",
+     "rrf": 0.02753,
+     "bm25_rank": 24,
+     "vec_rank": 4
+    },
+    {
+     "n": 8,
+     "title": "港股高开高走 恒生科技指数涨幅扩大逾2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-16/doc-inivkncw1546600.shtml",
+     "rrf": 0.02729,
+     "bm25_rank": 5,
+     "vec_rank": 24
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "港股午评：恒指跌1.47%失守24000点 科指跌2.94% 科网股普跌 存储概",
+    "bm25_only": 3,
+    "vec_only": 1,
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "a4cd60aa03ce8eb7",
    "label": "A股收评：沪指跌1.59%险守3700点，创业板指跌2.92%，全市场超5100只个股走低，工商",
    "cached": false,
    "sections": {
-    "事件概述": "「A股收评：沪指跌1.59%险守3700点，创业板指跌2.92%，全市场超5100只个股走低，工商」由 29 篇报道聚合而成，覆盖 3 家媒体，热度 0.732（爆点），所属板块类目：金融市场。",
+    "事件概述": "「A股收评：沪指跌1.59%险守3700点，创业板指跌2.92%，全市场超5100只个股走低，工商」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.627（爆点），所属板块类目：金融市场。",
     "关键信息": "A股收评：沪指跌1.59%险守3700点，创业板指跌2.92%，全市场超5100；创业板指跌超1%，沪指跌0.35%，深成指跌0.7%，风电设备、贵金属、军工、农；A股，再遇“冰点”！大资金连续3波抄底，这只宽基ETF放量超20倍",
-    "市场影响": "关联板块代码：BK1036、BK0459、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
@@ -141,338 +329,150 @@
     },
     {
      "n": 4,
-     "title": "积极因素持续积累 A股市场有望迎来修复窗口",
+     "title": "A股缩量调整中分化加剧 红利与AI影视逆势活跃",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-inivctrr7233983.shtml",
-     "rrf": 0.03055,
+     "url": "https://finance.sina.com.cn/roll/2026-10-15/doc-inivfmyz8321034.shtml",
+     "rrf": 0.03078,
      "bm25_rank": 4,
-     "vec_rank": 7
+     "vec_rank": 6
     },
     {
      "n": 5,
      "title": "三大指数集体翻红，创业板指此前一度跌超1%，PCB、油气、游戏、煤炭等方向涨幅居",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3178314",
-     "rrf": 0.02988,
-     "bm25_rank": 9,
+     "rrf": 0.03031,
+     "bm25_rank": 7,
      "vec_rank": 5
     },
     {
      "n": 6,
-     "title": "A股缩量调整中分化加剧 红利与AI影视逆势活跃",
+     "title": "今天，A股冲上热搜第一",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-15/doc-inivfmyz8321034.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-14/doc-iniveqvq4550877.shtml",
+     "rrf": 0.03009,
+     "bm25_rank": 5,
      "vec_rank": 8
     },
     {
      "n": 7,
-     "title": "多空博弈沪指收复3800点",
+     "title": "煤炭板块，逆市大涨！600408，涨停！",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-14/doc-inivchzv7212251.shtml",
-     "rrf": 0.02927,
-     "bm25_rank": 5,
-     "vec_rank": 12
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-14/doc-inivevcn4438113.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 6,
+     "vec_rank": 10
     },
     {
      "n": 8,
-     "title": "快讯：恒指低开0.26% 恒科指跌0.02% 科网股低迷 黄金股走弱",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-14/doc-inivcxxp7271760.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 11,
-     "vec_rank": 6
+     "title": "创业板指近35%回撤背后：拥挤交易退潮 ETF却揽金676亿",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610143895627168.html",
+     "rrf": 0.02899,
+     "bm25_rank": 9,
+     "vec_rank": 9
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "A股收评：沪指跌1.59%险守3700点，创业板指跌2.92%，全市场超5100",
     "bm25_only": 1,
-    "vec_only": 2,
-    "both": 5,
-    "neither_topk": 0
+    "vec_only": 0,
+    "both": 6,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "cc9f05342554a38c",
-   "label": "四大证券报头版头条内容精华摘要_2026年10月15日_财经新闻",
+   "key": "a64550995cc03fd6",
+   "label": "韩国首尔综指下跌6%。 日本东证指数下跌2%。 日本10年期国债收益率下行5个基",
    "cached": false,
    "sections": {
-    "事件概述": "「四大证券报头版头条内容精华摘要_2026年10月15日_财经新闻」由 15 篇报道聚合而成，覆盖 4 家媒体，热度 0.715（爆点），所属板块类目：宏观政策。",
-    "关键信息": "四大证券报头版头条内容精华摘要_2026年10月15日_财经新闻；四大证券报头版头条内容精华摘要_2026年10月14日_财经新闻；操盘必读：影响股市利好或利空消息_2026年10月15日_财经新闻",
-    "市场影响": "关联板块代码：BK0484、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "四大证券报头版头条内容精华摘要_2026年10月15日_财经新闻",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/y/2026-10-15/doc-inivhaww4459901.shtml",
-     "rrf": 0.03252,
-     "bm25_rank": 1,
-     "vec_rank": 2
-    },
-    {
-     "n": 2,
-     "title": "四大证券报头版头条内容精华摘要_2026年10月14日_财经新闻",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/y/2026-10-14/doc-inivcxxn0387175.shtml",
-     "rrf": 0.03252,
-     "bm25_rank": 2,
-     "vec_rank": 1
-    },
-    {
-     "n": 3,
-     "title": "操盘必读：影响股市利好或利空消息_2026年10月15日_财经新闻",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/cpbd/2026-10-15/doc-inivhawr7460549.shtml",
-     "rrf": 0.02944,
-     "bm25_rank": 10,
-     "vec_rank": 6
-    },
-    {
-     "n": 4,
-     "title": "操盘必读：影响股市利好或利空消息_2026年10月14日_财经新闻",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/cpbd/2026-10-14/doc-inivcxxt8533823.shtml",
-     "rrf": 0.02692,
-     "bm25_rank": 6,
-     "vec_rank": 25
-    },
-    {
-     "n": 5,
-     "title": "2026年10月14日《大兴新闻》",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-14/doc-inivezmn1282899.shtml",
-     "rrf": 0.02633,
-     "bm25_rank": 18,
-     "vec_rank": 14
-    },
-    {
-     "n": 6,
-     "title": "《丹东新闻》（2026年10月13日）",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-13/doc-inivawmy0561398.shtml",
-     "rrf": 0.02367,
-     "bm25_rank": 25,
-     "vec_rank": 24
-    },
-    {
-     "n": 7,
-     "title": "日联科技：日联科技集团股份有限公司发行股份、可转换公司债券及支付现金购买资产并募集配套资金报告书（申报稿）摘要（修订稿）",
-     "media": "巨潮资讯",
-     "url": "http://static.cninfo.com.cn/finalpage/2026-10-14/1225603982.PDF",
-     "rrf": 0.01587,
-     "bm25_rank": 3,
-     "vec_rank": null
-    },
-    {
-     "n": 8,
-     "title": "国海证券：国海证券股份有限公司2025年面向专业投资者公开发行公司债券（第三期）2026年本息兑付及摘牌公告",
-     "media": "巨潮资讯",
-     "url": "http://static.cninfo.com.cn/finalpage/2026-10-14/1225605040.PDF",
-     "rrf": 0.01587,
-     "bm25_rank": null,
-     "vec_rank": 3
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "四大证券报头版头条内容精华摘要_2026年10月15日_财经新闻",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 2,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "0d3518fa360052f1",
-   "label": "美国银行最新发布的《全球基金经理调查》显示，美国10年期国债收益率需升至近6%，",
-   "cached": false,
-   "sections": {
-    "事件概述": "「美国银行最新发布的《全球基金经理调查》显示，美国10年期国债收益率需升至近6%，」由 15 篇报道聚合而成，覆盖 3 家媒体，热度 0.654（爆点），所属板块类目：宏观政策。",
-    "关键信息": "美国银行最新发布的《全球基金经理调查》显示，美国10年期国债收益率需升至近6%，；美银调查：10年期美债收益率升至5.9%，基金经理才会弃股投债；美国10年期国债收益率当日上升10个基点至5.31%。",
+    "事件概述": "「韩国首尔综指下跌6%。 日本东证指数下跌2%。 日本10年期国债收益率下行5个基」由 14 篇报道聚合而成，覆盖 3 家媒体，热度 0.621（爆点），所属板块类目：宏观政策。",
+    "关键信息": "韩国首尔综指下跌6%。 日本东证指数下跌2%。 日本10年期国债收益率下行5个基；日本10年期国债收益率下跌5个基点至2.945%；日本30年期国债收益率跌破4%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "美国银行最新发布的《全球基金经理调查》显示，美国10年期国债收益率需升至近6%，",
+     "title": "韩国首尔综指下跌6%。 日本东证指数下跌2%。 日本10年期国债收益率下行5个基",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3178264",
+     "url": "https://wallstreetcn.com/livenews/3178971",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "美银调查：10年期美债收益率升至5.9%，基金经理才会弃股投债",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-inivchzu0457649.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "美国10年期国债收益率当日上升10个基点至5.31%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3178726",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
      "title": "日本10年期国债收益率下跌5个基点至2.945%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhawt8213019.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 5,
-     "vec_rank": 8
-    },
-    {
-     "n": 5,
-     "title": "美国国债全线上涨 10年期收益率下跌3个基点至5.15%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhawy1294755.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "美国国债收益率小幅回落，投资者静待关键通胀报告",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-inivevcf7726020.shtml",
-     "rrf": 0.02879,
-     "bm25_rank": 8,
-     "vec_rank": 11
-    },
-    {
-     "n": 7,
-     "title": "避险需求推动美国5年期国债收益率下跌10个基点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhpns4577385.shtml",
-     "rrf": 0.02848,
-     "bm25_rank": 6,
-     "vec_rank": 15
-    },
-    {
-     "n": 8,
-     "title": "富达预计10年期美债收益率有上探6%的可能",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-inivevcq1307079.shtml",
-     "rrf": 0.02837,
-     "bm25_rank": 17,
-     "vec_rank": 5
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "美国银行最新发布的《全球基金经理调查》显示，美国10年期国债收益率需升至近6%，",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 5,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "6b4f32d1991ce897",
-   "label": "夜盘期货开盘，20号胶、橡胶跌近2%，液化石油气、纯碱、甲醇、聚丙烯、燃料油跌超",
-   "cached": false,
-   "sections": {
-    "事件概述": "「夜盘期货开盘，20号胶、橡胶跌近2%，液化石油气、纯碱、甲醇、聚丙烯、燃料油跌超」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.557（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "夜盘期货开盘，20号胶、橡胶跌近2%，液化石油气、纯碱、甲醇、聚丙烯、燃料油跌超；国内商品期货夜盘开盘 主力合约跌多涨少；商品期货开盘，沪银主力合约跌超5%，焦煤跌近5%，原油跌超4%，20号胶、沪锡、",
-    "市场影响": "关联板块代码：BK1361。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "夜盘期货开盘，20号胶、橡胶跌近2%，液化石油气、纯碱、甲醇、聚丙烯、燃料油跌超",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3178008",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "国内商品期货夜盘开盘 主力合约跌多涨少",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610133894356420.html",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "商品期货开盘，沪银主力合约跌超5%，焦煤跌近5%，原油跌超4%，20号胶、沪锡、",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3178987",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "开盘|国内期货主力合约涨跌不一 沪锡跌超3%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-14/doc-inivcxxr7854637.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "商品期货开盘，燃料油主力合约涨超3%，纯苯涨3%，乙二醇涨近2%。沪锡跌超3%，",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3178273",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "国内期货主力合约多数下跌 碳酸锂失守10万大关",
+     "title": "日本30年期国债收益率跌破4%",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610153896197353.html",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "国债期货开盘，30年期主力合约跌0.05%，10年期主力合约跌0.00%，5年期",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3178285",
-     "rrf": 0.02826,
-     "bm25_rank": 15,
+     "url": "https://finance.eastmoney.com/a/202610153896201777.html",
+     "rrf": 0.0308,
+     "bm25_rank": 3,
      "vec_rank": 7
     },
     {
+     "n": 4,
+     "title": "韩国首尔综指涨幅扩大至3.4%，日经225指数涨近2%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179778",
+     "rrf": 0.03058,
+     "bm25_rank": 8,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "日经225指数高开0.8%，韩国首尔综指高开1.8%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179755",
+     "rrf": 0.0303,
+     "bm25_rank": 6,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "日经225指数低开1.3%，韩国首尔综指低开5.6%。 SK海力士跌7%，三星电",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3178961",
+     "rrf": 0.03012,
+     "bm25_rank": 9,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "韩国首尔综指涨超2%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179768",
+     "rrf": 0.02967,
+     "bm25_rank": 10,
+     "vec_rank": 5
+    },
+    {
      "n": 8,
-     "title": "【沥燃日报】成本端回落高硫逆袭走强，BU-FU价差缩至历史低位",
+     "title": "美国国债全线上涨 10年期收益率下跌3个基点至5.15%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-15/doc-inivhawr7435117.shtml",
-     "rrf": 0.02736,
-     "bm25_rank": 19,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhawy1294755.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 7,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "夜盘期货开盘，20号胶、橡胶跌近2%，液化石油气、纯碱、甲醇、聚丙烯、燃料油跌超",
-    "bm25_only": 0,
+    "query": "韩国首尔综指下跌6%。 日本东证指数下跌2%。 日本10年期国债收益率下行5个基",
+    "bm25_only": 1,
     "vec_only": 2,
-    "both": 6,
+    "both": 5,
     "neither_topk": 0
    },
    "elapsed": 0.0
