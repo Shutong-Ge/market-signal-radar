@@ -1,93 +1,84 @@
 {
  "summary": {
-  "n_queries": 9,
+  "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.245,
-  "avg_rank_diff": 0.67,
-  "avg_missed_by_bm25": 2.89,
-  "avg_missed_by_vector": 3.0,
-  "conclusion": "两路召回集平均重合度仅 24%；即便重合的文档，两路名次平均相差 0.67 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.89 篇最终进入 Top8 的文档；只用向量则漏掉 3.0 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.449,
+  "avg_rank_diff": 0.79,
+  "avg_missed_by_bm25": 2.62,
+  "avg_missed_by_vector": 1.62,
+  "conclusion": "两路召回集平均重合度仅 45%；即便重合的文档，两路名次平均相差 0.79 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.62 篇最终进入 Top8 的文档；只用向量则漏掉 1.62 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "港股午评：恒指跌1.47%失守24000点 科指跌2.94%",
-   "jaccard": 0.231,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 4,
-   "example_top1": "港股午评：恒指跌1.47%失守24000点 科指跌2.94% 科网股普跌 存储概念股大跌 联"
-  },
-  {
-   "type": "关键词式",
-   "query": "港股 午评 恒指 失守 科指 科网",
-   "jaccard": 0.333,
-   "rank_diff": 0.75,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "港股午评：恒指跌1.47%失守24000点 科指跌2.94% 科网股普跌 存储概念股大跌 联"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "港股午评：恒指跌失守点 科指跌 科网股普跌 存储概念股大跌",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 5,
-   "example_top1": "港股午评：恒指跌1.47%失守24000点 科指跌2.94% 科网股普跌 存储概念股大跌 联"
-  },
-  {
-   "type": "原标题式",
    "query": "9月份物价数据解读：物价数据仍有韧性，PPI环比和同比涨幅均",
    "jaccard": 0.231,
-   "rank_diff": 0.33,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 4,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
    "example_top1": "9月份物价数据解读：物价数据仍有韧性，PPI环比和同比涨幅均扩大"
   },
   {
    "type": "关键词式",
    "query": "月份 物价 数据 解读 物价 数据",
-   "jaccard": 0.143,
+   "jaccard": 0.231,
    "rank_diff": 0.0,
-   "missed_by_bm25": 4,
+   "missed_by_bm25": 5,
    "missed_by_vector": 3,
    "example_top1": "9月份物价数据解读：物价数据仍有韧性，PPI环比和同比涨幅均扩大"
   },
   {
    "type": "去数字泛化",
    "query": "月份物价数据解读：物价数据仍有韧性，PPI环比和同比涨幅均扩",
-   "jaccard": 0.231,
-   "rank_diff": 0.33,
+   "jaccard": 0.333,
+   "rank_diff": 1.5,
    "missed_by_bm25": 3,
-   "missed_by_vector": 3,
+   "missed_by_vector": 2,
    "example_top1": "9月份物价数据解读：物价数据仍有韧性，PPI环比和同比涨幅均扩大"
   },
   {
    "type": "原标题式",
+   "query": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫",
+   "jaccard": 1.0,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 0,
+   "example_top1": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行行长拉加德、"
+  },
+  {
+   "type": "关键词式",
+   "query": "中国人民银行 行长 潘功胜 会见 欧盟委员会 经济",
+   "jaccard": 1.0,
+   "rank_diff": 0.25,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 0,
+   "example_top1": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行行长拉加德、"
+  },
+  {
+   "type": "原标题式",
    "query": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.",
-   "jaccard": 0.333,
-   "rank_diff": 1.5,
+   "jaccard": 0.231,
+   "rank_diff": 1.0,
    "missed_by_bm25": 2,
-   "missed_by_vector": 2,
+   "missed_by_vector": 3,
    "example_top1": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%"
   },
   {
    "type": "关键词式",
    "query": "中概 指数 收跌 跌超 世纪互联 万国",
-   "jaccard": 0.333,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 3,
+   "jaccard": 0.231,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 4,
    "missed_by_vector": 1,
    "example_top1": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%"
   },
   {
    "type": "去数字泛化",
    "query": "中概指数收跌，CQQQ跌超，世纪互联跌，万国数据跌超",
-   "jaccard": 0.231,
-   "rank_diff": 0.33,
+   "jaccard": 0.333,
+   "rank_diff": 0.75,
    "missed_by_bm25": 4,
-   "missed_by_vector": 2,
+   "missed_by_vector": 1,
    "example_top1": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%"
   }
  ]
