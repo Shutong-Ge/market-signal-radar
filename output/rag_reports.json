@@ -1,394 +1,206 @@
 {
  "engine": "template(降级)",
- "n_clusters": 49,
+ "n_clusters": 41,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 7.1,
+ "elapsed": 6.5,
  "reports": [
   {
-   "key": "6933954ff41315fb",
-   "label": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%",
+   "key": "e06258869b7ee6f9",
+   "label": "利好！A股科技巨头，密集出手回购！603019，最高5亿元",
    "cached": false,
    "sections": {
-    "事件概述": "「科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.715（爆点），所属板块类目：综合。",
-    "关键信息": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%；“牛散”大调仓，章建平退出、方文艳现身；卫星化学：前三季度归母净利润90.59亿元，同比增长141.24%",
+    "事件概述": "「利好！A股科技巨头，密集出手回购！603019，最高5亿元」由 5 篇报道聚合而成，覆盖 2 家媒体，热度 0.648（爆点），所属板块类目：金融市场。",
+    "关键信息": "利好！A股科技巨头，密集出手回购！603019，最高5亿元；超1300亿元净利+最高20亿元回购！长鑫科技，密集利好；1324亿，A股回购逼近去年全年！新易盛、天孚通信等密集出手",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180215",
+     "title": "利好！A股科技巨头，密集出手回购！603019，最高5亿元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/china/2026-10-18/doc-inivrvpk1035800.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "“牛散”大调仓，章建平退出、方文艳现身",
+     "title": "超1300亿元净利+最高20亿元回购！长鑫科技，密集利好",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmtwx6817916.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "卫星化学：前三季度归母净利润90.59亿元，同比增长141.24%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180245",
-     "rrf": 0.03055,
-     "bm25_rank": 4,
-     "vec_rank": 7
-    },
-    {
-     "n": 4,
-     "title": "永太科技前三季度归母净利润同比增1221.81% 锂电类销售放量拉动业绩",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-16/doc-inivmtxh1632521.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 9,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "腾景科技：预计第三季度归母净利润4400万元至4800万元，同比增长61.68%至76.38%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180139",
-     "rrf": 0.02986,
-     "bm25_rank": 8,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "四会富仕：第三季度归母净利润同比增长217.22%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610163898529151.html",
-     "rrf": 0.02908,
-     "bm25_rank": 5,
-     "vec_rank": 13
-    },
-    {
-     "n": 7,
-     "title": "近4倍PCB“大牛股”科翔股份，第三季度净赚3亿元，章建平退出十大股东名单",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivmprm8464876.shtml",
-     "rrf": 0.02853,
-     "bm25_rank": 19,
-     "vec_rank": 3
-    },
-    {
-     "n": 8,
-     "title": "圣农发展：第三季度归母净利润同比增长22.79%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610163898515695.html",
-     "rrf": 0.02808,
-     "bm25_rank": 7,
-     "vec_rank": 16
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "e4234038dc7bfe27",
-   "label": "禁止出口限制出口技术目录拟修订 增列人工智能、生物医药、光伏三个领域40项技术",
-   "cached": false,
-   "sections": {
-    "事件概述": "「禁止出口限制出口技术目录拟修订 增列人工智能、生物医药、光伏三个领域40项技术」由 8 篇报道聚合而成，覆盖 2 家媒体，热度 0.702（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "禁止出口限制出口技术目录拟修订 增列人工智能、生物医药、光伏三个领域40项技术；统筹安全与发展：《中国禁止出口限制出口技术目录》修订的核心变化与企业合规；三大领域40项技术，拟纳入出口管理！权威解读来了",
-    "市场影响": "关联板块代码：BK0465、BK1044。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "禁止出口限制出口技术目录拟修订 增列人工智能、生物医药、光伏三个领域40项技术",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610173898786070.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "统筹安全与发展：《中国禁止出口限制出口技术目录》修订的核心变化与企业合规",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivmprk1610880.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "三大领域40项技术，拟纳入出口管理！权威解读来了",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-16/doc-inivmiip8451859.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "新华财经早报：10月17日",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/bond/2026-10-17/doc-inivnvkm6546261.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "商务部详解修订《中国禁止出口限制出口技术目录》",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivmyex7497394.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "解读丨商务部、科技部拟新增五项生物医药技术出口管制：防范“拔根式”转让",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/med/2026-10-17/doc-inivnvkv8177825.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "商务部：有关措施正式实施后 绝大部分人工智能技术仍可以自由出口",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmazi7775095.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "商务部新闻发言人就修订《中国禁止出口限制出口技术目录》答记者问",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmprk1622305.shtml",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "禁止出口限制出口技术目录拟修订 增列人工智能、生物医药、光伏三个领域40项技术",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 8,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "aa292fcfe7d57995",
-   "label": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平",
-   "cached": false,
-   "sections": {
-    "事件概述": "「恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.646（爆点），所属板块类目：金融市场。",
-    "关键信息": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平；港股高开高走 恒生科技指数涨幅扩大逾2%；港股午评：恒指涨1.21% 科指涨2.09% 科网股普涨 生物技术板块大涨",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3179791",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "港股高开高走 恒生科技指数涨幅扩大逾2%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-16/doc-inivkncw1546600.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "港股午评：恒指涨1.21% 科指涨2.09% 科网股普涨 生物技术板块大涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivkwtm7719021.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "快手-W盘中涨超6% 版本迭代有望进一步巩固可灵商业化势能",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivksmu1493820.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "港股恒生科技指数涨幅达2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610163897822340.html",
-     "rrf": 0.03058,
-     "bm25_rank": 8,
-     "vec_rank": 3
-    },
-    {
-     "n": 6,
-     "title": "特斯拉美股盘前涨超5%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180131",
-     "rrf": 0.02804,
-     "bm25_rank": 5,
-     "vec_rank": 19
-    },
-    {
-     "n": 7,
-     "title": "机器人概念股早盘走势强劲 均胜电子涨超9%来福谐波涨超8%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivksmv8343581.shtml",
-     "rrf": 0.0274,
-     "bm25_rank": 14,
-     "vec_rank": 12
-    },
-    {
-     "n": 8,
-     "title": "海致科技集团盘中涨超9% 公司与九州通订立战略合作框架协议",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivkwtt8263213.shtml",
-     "rrf": 0.02665,
-     "bm25_rank": 6,
-     "vec_rank": 27
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平",
-    "bm25_only": 2,
-    "vec_only": 0,
-    "both": 5,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "cdc6a6cbdaba50ce",
-   "label": "视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案",
-   "cached": false,
-   "sections": {
-    "事件概述": "「视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.629（爆点），所属板块类目：综合。",
-    "关键信息": "视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案；美军过去7天协助超过1亿桶原油运出霍尔木兹海峡；伊朗海军称“违规”穿越海峡而受损的油轮增多",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnraw1400868.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "美军过去7天协助超过1亿桶原油运出霍尔木兹海峡",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivnepc8314040.shtml",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-16/doc-inivmtwz7584246.shtml",
      "rrf": 0.03175,
      "bm25_rank": 2,
      "vec_rank": 4
     },
     {
      "n": 3,
-     "title": "伊朗海军称“违规”穿越海峡而受损的油轮增多",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180604",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
-     "vec_rank": 2
+     "title": "1324亿，A股回购逼近去年全年！新易盛、天孚通信等密集出手",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-17/doc-inivpfyq1368725.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "霍尔木兹海峡安全形势恶化 一天内曾有6艘船遇袭",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610173899048784.html",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
+     "title": "回购刷屏！刚刚，科技龙头密集公告",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-18/doc-inivrvpr7250894.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 6,
+     "vec_rank": 2
     },
     {
      "n": 5,
-     "title": "伊朗武装部队开火拦截霍尔木兹海峡“违规”通行船只",
+     "title": "利好爆发！今夜，A股密集公告！长鑫科技：回购+9个月暴赚超1300亿",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivqinc8078853.shtml",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-16/doc-inivmtwz7587514.shtml",
      "rrf": 0.0308,
      "bm25_rank": 3,
      "vec_rank": 7
     },
     {
      "n": 6,
-     "title": "伊朗革命卫队：一艘油轮在霍尔木兹海峡触雷爆炸",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180528",
-     "rrf": 0.0308,
-     "bm25_rank": 7,
-     "vec_rank": 3
+     "title": "最高3亿元！A股覆铜板龙头生益科技董事长喊话回购，股价较年内高点跌了40%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-18/doc-inivrvpr7294972.shtml",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
+     "vec_rank": 5
     },
     {
      "n": 7,
-     "title": "伊朗海军：一艘违规油轮在霍尔木兹海峡东部起火",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610163898530457.html",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
+     "title": "A股再迎回购潮：产业资本逆势入场，科技龙头领衔",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-17/doc-inivnrar7345015.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
      "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "伊朗开火！阿富汗、巴基斯坦交火！乌克兰能源系统遭大规模袭击！原油暗盘直线拉升",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610183899096048.html",
-     "rrf": 0.02878,
-     "bm25_rank": 10,
-     "vec_rank": 9
+     "title": "半月拟回购超千亿！A股回购潮呈现三个新变化",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivmtxi8377976.shtml",
+     "rrf": 0.02879,
+     "bm25_rank": 11,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案",
+    "query": "利好！A股科技巨头，密集出手回购！603019，最高5亿元",
     "bm25_only": 0,
-    "vec_only": 0,
+    "vec_only": 1,
     "both": 7,
-    "neither_topk": 1
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "5f83844745d70856",
+   "key": "29f994849fd67683",
+   "label": "霍尔木兹海峡航运再受威胁：伊朗称两艘超级油轮触雷起火，沙特与胡塞武装冲突升级",
+   "cached": false,
+   "sections": {
+    "事件概述": "「霍尔木兹海峡航运再受威胁：伊朗称两艘超级油轮触雷起火，沙特与胡塞武装冲突升级」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.611（爆点），所属板块类目：综合。",
+    "关键信息": "霍尔木兹海峡航运再受威胁：伊朗称两艘超级油轮触雷起火，沙特与胡塞武装冲突升级；伊朗革命卫队：一艘油轮在霍尔木兹海峡触雷爆炸；视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "霍尔木兹海峡航运再受威胁：伊朗称两艘超级油轮触雷起火，沙特与胡塞武装冲突升级",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfr6569845.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "伊朗革命卫队：一艘油轮在霍尔木兹海峡触雷爆炸",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180528",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnraw1400868.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "伊朗海军称“违规”穿越海峡而受损的油轮增多",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180604",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "两艘油轮在沙特附近海域遭袭",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610173899057359.html",
+     "rrf": 0.03016,
+     "bm25_rank": 3,
+     "vec_rank": 10
+    },
+    {
+     "n": 6,
+     "title": "伊开火拦截霍尔木兹海峡“违规”船只 乌称最快下周与美举行会谈",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivqtzw1187478.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 6,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "伊朗武装部队开火拦截霍尔木兹海峡“违规”通行船只",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivqinc8078853.shtml",
+     "rrf": 0.02908,
+     "bm25_rank": 13,
+     "vec_rank": 5
+    },
+    {
+     "n": 8,
+     "title": "伊朗有意在沙特与胡塞武装之间斡旋",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180563",
+     "rrf": 0.02822,
+     "bm25_rank": 8,
+     "vec_rank": 14
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "霍尔木兹海峡航运再受威胁：伊朗称两艘超级油轮触雷起火，沙特与胡塞武装冲突升级",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "67544a1b0a86a4a1",
    "label": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%",
    "cached": false,
    "sections": {
-    "事件概述": "「中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.605（高热），所属板块类目：国际市场。",
+    "事件概述": "「中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.605（爆点），所属板块类目：国际市场。",
     "关键信息": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8；10月17日热门中概股多数下跌，台积电跌超2%；周五（10月16日），美股行业ETF多数收跌，网络股指数ETF跌3.43%，半导",
     "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -408,8 +220,8 @@
      "title": "10月17日热门中概股多数下跌，台积电跌超2%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivnkur6670943.shtml",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
+     "rrf": 0.03175,
+     "bm25_rank": 4,
      "vec_rank": 2
     },
     {
@@ -423,24 +235,33 @@
     },
     {
      "n": 4,
-     "title": "美股大类资产类ETF多数收跌，纳指ETF跌2.5%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180470",
-     "rrf": 0.02947,
-     "bm25_rank": 11,
-     "vec_rank": 5
+     "title": "利空突袭！清晨，科技股大跳水！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-17/doc-inivnraw1460044.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 6,
+     "vec_rank": 10
     },
     {
      "n": 5,
-     "title": "标普500指数的11个板块涨跌各异，信息技术/科技板块收跌2.52%——本周累跌",
+     "title": "美股大类资产类ETF多数收跌，纳指ETF跌2.5%",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180464",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
+     "url": "https://wallstreetcn.com/livenews/3180470",
+     "rrf": 0.02944,
+     "bm25_rank": 10,
+     "vec_rank": 6
     },
     {
      "n": 6,
+     "title": "标普500指数的11个板块涨跌各异，信息技术/科技板块收跌2.52%——本周累跌",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180464",
+     "rrf": 0.02942,
+     "bm25_rank": 7,
+     "vec_rank": 9
+    },
+    {
+     "n": 7,
      "title": "开盘：三大股指涨跌不一 市场维持10月不加息预期",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmtwx6823088.shtml",
@@ -449,31 +270,210 @@
      "vec_rank": 4
     },
     {
-     "n": 7,
-     "title": "利空突袭！清晨，科技股大跳水！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-17/doc-inivnraw1460044.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 7,
-     "vec_rank": 10
-    },
-    {
      "n": 8,
      "title": "利空突袭！美股科技股大跳水！",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202610173898828091.html",
-     "rrf": 0.02848,
-     "bm25_rank": 15,
-     "vec_rank": 6
+     "rrf": 0.02844,
+     "bm25_rank": 14,
+     "vec_rank": 7
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8",
-    "bm25_only": 1,
+    "bm25_only": 2,
     "vec_only": 4,
-    "both": 3,
+    "both": 2,
     "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "3dbb860fb7d7d0e0",
+   "label": "博盈特焊：拟购买苏州罗克莱海洋装备股份有限公司55%股权 19日起停牌",
+   "cached": false,
+   "sections": {
+    "事件概述": "「博盈特焊：拟购买苏州罗克莱海洋装备股份有限公司55%股权 19日起停牌」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.599（爆点），所属板块类目：综合。",
+    "关键信息": "博盈特焊：拟购买苏州罗克莱海洋装备股份有限公司55%股权 19日起停牌；博盈特焊：筹划重大资产重组事项 19日起停牌；301468，筹划收购海洋装备资产！明起停牌",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "博盈特焊：拟购买苏州罗克莱海洋装备股份有限公司55%股权 19日起停牌",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610183899133776.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "博盈特焊：筹划重大资产重组事项 19日起停牌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivrvpk1004702.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "301468，筹划收购海洋装备资产！明起停牌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivrvpp6587942.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "3只A股，明日停牌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-18/doc-inivrzvp7205827.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "锴威特：苏州锴威特半导体股份有限公司关于延期回复《关于苏州锴威特半导体股份有限公司发行股份及支付现金购买资产并募集配套资",
+     "media": "巨潮资讯",
+     "url": "http://static.cninfo.com.cn/finalpage/2026-10-17/1225607941.PDF",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "东微半导：苏州东微半导体股份有限公司关于通过公开摘牌方式受让控股子公司部分剩余股权暨购买资产的进展公告",
+     "media": "巨潮资讯",
+     "url": "http://static.cninfo.com.cn/finalpage/2026-10-17/1225608636.PDF",
+     "rrf": 0.02988,
+     "bm25_rank": 5,
+     "vec_rank": 9
+    },
+    {
+     "n": 7,
+     "title": "*ST四通，翻倍牛股“摘星摘帽”，明天停牌！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-18/doc-inivqyim6107251.shtml",
+     "rrf": 0.02879,
+     "bm25_rank": 8,
+     "vec_rank": 11
+    },
+    {
+     "n": 8,
+     "title": "航天彩虹：拟预挂牌转让全资子公司杭州南洋100%股权",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivrvpk0983303.shtml",
+     "rrf": 0.02753,
+     "bm25_rank": 18,
+     "vec_rank": 8
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "博盈特焊：拟购买苏州罗克莱海洋装备股份有限公司55%股权 19日起停牌",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "cf57002b4e2758c4",
+   "label": "黄仁勋称AI市场震荡将会过去，密集欧洲行持续释放信心",
+   "cached": false,
+   "sections": {
+    "事件概述": "「黄仁勋称AI市场震荡将会过去，密集欧洲行持续释放信心」由 3 篇报道聚合而成，覆盖 3 家媒体，热度 0.587（高热），所属板块类目：综合。",
+    "关键信息": "黄仁勋称AI市场震荡将会过去，密集欧洲行持续释放信心；黄仁勋谈AI大跌：“这一切都会过去”；黄仁勋看淡AI板块大跌：这一切都会过去",
+    "市场影响": "关联板块代码：BK0464、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "黄仁勋称AI市场震荡将会过去，密集欧洲行持续释放信心",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-17/doc-inivnzsm7281862.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "黄仁勋谈AI大跌：“这一切都会过去”",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610173898998097.html",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "黄仁勋看淡AI板块大跌：这一切都会过去",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180473",
+     "rrf": 0.03128,
+     "bm25_rank": 6,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "10月17日隔夜要闻：纳指跌超2% 布伦特原油触及110美元 铜价反弹 黄仁勋谈AI市场震荡“这一切都会过去”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivnrap6607460.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "全球AI交易生变：“棉花糖”融化，还是夏日雷雨？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-18/doc-inivrrfp7851370.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 9,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "“AI缺钱”风暴席卷市场！Meta财报打头阵 产业巨额投资迎“信心大考”",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610173899042855.html",
+     "rrf": 0.02921,
+     "bm25_rank": 10,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "SpaceX的欧洲对手大涨19%：乌克兰“星盾”使用受限引发市场担忧",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmtwx6833237.shtml",
+     "rrf": 0.02418,
+     "bm25_rank": 18,
+     "vec_rank": 28
+    },
+    {
+     "n": 8,
+     "title": "A股龙头企业密集发布回购计划提振市场信心",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnenv7433137.shtml",
+     "rrf": 0.01562,
+     "bm25_rank": 4,
+     "vec_rank": null
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "黄仁勋称AI市场震荡将会过去，密集欧洲行持续释放信心",
+    "bm25_only": 1,
+    "vec_only": 2,
+    "both": 4,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }

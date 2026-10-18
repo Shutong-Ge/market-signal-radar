@@ -2,84 +2,84 @@
  "summary": {
   "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.545,
-  "avg_rank_diff": 1.32,
+  "avg_jaccard": 0.532,
+  "avg_rank_diff": 1.65,
   "avg_missed_by_bm25": 1.5,
-  "avg_missed_by_vector": 1.75,
-  "conclusion": "两路召回集平均重合度仅 55%；即便重合的文档，两路名次平均相差 1.32 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.5 篇最终进入 Top8 的文档；只用向量则漏掉 1.75 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_missed_by_vector": 1.12,
+  "conclusion": "两路召回集平均重合度仅 53%；即便重合的文档，两路名次平均相差 1.65 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.5 篇最终进入 Top8 的文档；只用向量则漏掉 1.12 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长",
-   "jaccard": 0.333,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%"
+   "query": "利好！A股科技巨头，密集出手回购！603019，最高5亿元",
+   "jaccard": 0.778,
+   "rank_diff": 1.71,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 0,
+   "example_top1": "利好！A股科技巨头，密集出手回购！603019，最高5亿元"
   },
   {
    "type": "关键词式",
-   "query": "科翔 第三季度 归母 净利润 亿元 同比",
-   "jaccard": 0.333,
-   "rank_diff": 1.25,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 2,
-   "example_top1": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%"
+   "query": "利好 科技 巨头 密集 出手 回购",
+   "jaccard": 0.6,
+   "rank_diff": 2.33,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "利好！A股科技巨头，密集出手回购！603019，最高5亿元"
   },
   {
    "type": "去数字泛化",
-   "query": "科翔股份：年第三季度归母净利润亿元，同比增长",
+   "query": "利好！A股科技巨头，密集出手回购！，最高亿元",
+   "jaccard": 0.6,
+   "rank_diff": 2.67,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "利好！A股科技巨头，密集出手回购！603019，最高5亿元"
+  },
+  {
+   "type": "原标题式",
+   "query": "霍尔木兹海峡航运再受威胁：伊朗称两艘超级油轮触雷起火，沙特与",
+   "jaccard": 0.6,
+   "rank_diff": 1.5,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "霍尔木兹海峡航运再受威胁：伊朗称两艘超级油轮触雷起火，沙特与胡塞武装冲突升级"
+  },
+  {
+   "type": "关键词式",
+   "query": "霍尔木兹海峡 航运 再受 威胁 伊朗 两艘",
+   "jaccard": 0.778,
+   "rank_diff": 2.29,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 1,
+   "example_top1": "霍尔木兹海峡航运再受威胁：伊朗称两艘超级油轮触雷起火，沙特与胡塞武装冲突升级"
+  },
+  {
+   "type": "原标题式",
+   "query": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.",
    "jaccard": 0.333,
    "rank_diff": 1.25,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%"
+  },
+  {
+   "type": "关键词式",
+   "query": "中概 指数 收跌 跌超 世纪互联 万国",
+   "jaccard": 0.333,
+   "rank_diff": 0.75,
    "missed_by_bm25": 3,
-   "missed_by_vector": 2,
-   "example_top1": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%"
-  },
-  {
-   "type": "原标题式",
-   "query": "禁止出口限制出口技术目录拟修订 增列人工智能、生物医药、光伏",
-   "jaccard": 1.0,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 0,
-   "example_top1": "统筹安全与发展：《中国禁止出口限制出口技术目录》修订的核心变化与企业合规"
-  },
-  {
-   "type": "关键词式",
-   "query": "禁止 出口 限制 出口 技术 目录",
-   "jaccard": 1.0,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 0,
-   "example_top1": "商务部详解修订《中国禁止出口限制出口技术目录》"
-  },
-  {
-   "type": "原标题式",
-   "query": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，",
-   "jaccard": 0.455,
-   "rank_diff": 1.4,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 3,
-   "example_top1": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平"
-  },
-  {
-   "type": "关键词式",
-   "query": "恒生 科技 指数 涨超 涨超 快手",
-   "jaccard": 0.455,
-   "rank_diff": 1.2,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平"
+   "missed_by_vector": 1,
+   "example_top1": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%"
   },
   {
    "type": "去数字泛化",
-   "query": "恒生科技指数涨超，MINIMAX涨超，快手涨超，腾讯、哔哩哔",
-   "jaccard": 0.455,
-   "rank_diff": 2.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平"
+   "query": "中概指数收跌，CQQQ跌超，世纪互联跌，万国数据跌超",
+   "jaccard": 0.231,
+   "rank_diff": 0.67,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%"
   }
  ]
 }
