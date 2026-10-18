@@ -1,207 +1,395 @@
 {
  "engine": "template(降级)",
- "n_clusters": 55,
+ "n_clusters": 49,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.8,
+ "elapsed": 7.1,
  "reports": [
   {
-   "key": "85f075a352213b7a",
-   "label": "9月份物价数据解读：物价数据仍有韧性，PPI环比和同比涨幅均扩大",
+   "key": "6933954ff41315fb",
+   "label": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%",
    "cached": false,
    "sections": {
-    "事件概述": "「9月份物价数据解读：物价数据仍有韧性，PPI环比和同比涨幅均扩大」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.75（爆点），所属板块类目：宏观政策。",
-    "关键信息": "9月份物价数据解读：物价数据仍有韧性，PPI环比和同比涨幅均扩大；21评论丨加大逆周期调节力度，推动物价合理回升；美国9月批发物价同比大涨6.3%，创2022年以来最大涨幅",
+    "事件概述": "「科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.715（爆点），所属板块类目：综合。",
+    "关键信息": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%；“牛散”大调仓，章建平退出、方文艳现身；卫星化学：前三季度归母净利润90.59亿元，同比增长141.24%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "9月份物价数据解读：物价数据仍有韧性，PPI环比和同比涨幅均扩大",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivkncx8215632.shtml",
+     "title": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180215",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "21评论丨加大逆周期调节力度，推动物价合理回升",
+     "title": "“牛散”大调仓，章建平退出、方文艳现身",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivkncx8187301.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmtwx6817916.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "美国9月批发物价同比大涨6.3%，创2022年以来最大涨幅",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-iniviqyh1550234.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 3,
-     "vec_rank": 6
+     "title": "卫星化学：前三季度归母净利润90.59亿元，同比增长141.24%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180245",
+     "rrf": 0.03055,
+     "bm25_rank": 4,
+     "vec_rank": 7
     },
     {
      "n": 4,
-     "title": "能源通胀开始“传染” 全球风险偏好骤降",
+     "title": "永太科技前三季度归母净利润同比增1221.81% 锂电类销售放量拉动业绩",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-iniviqxx7271964.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-16/doc-inivmtxh1632521.shtml",
+     "rrf": 0.02988,
+     "bm25_rank": 9,
+     "vec_rank": 5
     },
     {
      "n": 5,
-     "title": "美国9月PPI环比上升1.3% 预期上升0.6%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivikrz7260085.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 15,
-     "vec_rank": 3
+     "title": "腾景科技：预计第三季度归母净利润4400万元至4800万元，同比增长61.68%至76.38%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180139",
+     "rrf": 0.02986,
+     "bm25_rank": 8,
+     "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "华泰期货：美国PPI数据大超预期 美伊局势出现升温信号",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/nmetal/gjshz/2026-10-16/doc-inivksmv8200162.shtml",
-     "rrf": 0.02844,
-     "bm25_rank": 7,
-     "vec_rank": 14
+     "title": "四会富仕：第三季度归母净利润同比增长217.22%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610163898529151.html",
+     "rrf": 0.02908,
+     "bm25_rank": 5,
+     "vec_rank": 13
     },
     {
      "n": 7,
-     "title": "美国9月进口价格环比上涨1.1% 预期上涨1.0%",
+     "title": "近4倍PCB“大牛股”科翔股份，第三季度净赚3亿元，章建平退出十大股东名单",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmtxi8370902.shtml",
-     "rrf": 0.02817,
-     "bm25_rank": 12,
-     "vec_rank": 10
+     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivmprm8464876.shtml",
+     "rrf": 0.02853,
+     "bm25_rank": 19,
+     "vec_rank": 3
     },
     {
      "n": 8,
-     "title": "新加坡9月非石油国内出口同比增长68.4%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkncw1527047.shtml",
-     "rrf": 0.02753,
-     "bm25_rank": 4,
-     "vec_rank": 24
+     "title": "圣农发展：第三季度归母净利润同比增长22.79%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610163898515695.html",
+     "rrf": 0.02808,
+     "bm25_rank": 7,
+     "vec_rank": 16
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "9月份物价数据解读：物价数据仍有韧性，PPI环比和同比涨幅均扩大",
+    "query": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%",
     "bm25_only": 2,
-    "vec_only": 1,
+    "vec_only": 2,
     "both": 4,
-    "neither_topk": 1
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "bb77a8c01c4cafd8",
-   "label": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行行长拉加德、欧元",
+   "key": "e4234038dc7bfe27",
+   "label": "禁止出口限制出口技术目录拟修订 增列人工智能、生物医药、光伏三个领域40项技术",
    "cached": false,
    "sections": {
-    "事件概述": "「中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行行长拉加德、欧元」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.716（爆点），所属板块类目：宏观政策。",
-    "关键信息": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行；潘功胜：中国愿与欧方加强协调与合作，推动中欧金融合作不断迈上新台阶；中国人民银行行长潘功胜会见相关国家央行行长",
-    "市场影响": "关联板块代码：BK000199。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「禁止出口限制出口技术目录拟修订 增列人工智能、生物医药、光伏三个领域40项技术」由 8 篇报道聚合而成，覆盖 2 家媒体，热度 0.702（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "禁止出口限制出口技术目录拟修订 增列人工智能、生物医药、光伏三个领域40项技术；统筹安全与发展：《中国禁止出口限制出口技术目录》修订的核心变化与企业合规；三大领域40项技术，拟纳入出口管理！权威解读来了",
+    "市场影响": "关联板块代码：BK0465、BK1044。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行行长拉加德、欧元集团主席皮埃拉卡基斯及欧",
+     "title": "禁止出口限制出口技术目录拟修订 增列人工智能、生物医药、光伏三个领域40项技术",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610163898514369.html",
+     "url": "https://finance.eastmoney.com/a/202610173898786070.html",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "潘功胜：中国愿与欧方加强协调与合作，推动中欧金融合作不断迈上新台阶",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180217",
-     "rrf": 0.03226,
+     "title": "统筹安全与发展：《中国禁止出口限制出口技术目录》修订的核心变化与企业合规",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivmprk1610880.shtml",
+     "rrf": 0.032,
      "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "中国人民银行行长潘功胜会见相关国家央行行长",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180544",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
      "vec_rank": 3
     },
     {
-     "n": 4,
-     "title": "中国人民银行行长潘功胜出席第54届国际货币与金融委员会会议",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610173899053836.html",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
+     "n": 3,
+     "title": "三大领域40项技术，拟纳入出口管理！权威解读来了",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-16/doc-inivmiip8451859.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
     },
     {
-     "n": 5,
-     "title": "潘功胜，最新发声",
+     "n": 4,
+     "title": "新华财经早报：10月17日",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-15/doc-iniviekf8084345.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
+     "url": "https://finance.sina.com.cn/money/bond/2026-10-17/doc-inivnvkm6546261.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
      "vec_rank": 4
     },
     {
-     "n": 6,
-     "title": "潘功胜最新发声：全球失衡不能依靠汇率调节",
+     "n": 5,
+     "title": "商务部详解修订《中国禁止出口限制出口技术目录》",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-15/doc-iniviksk1423407.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
+     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivmyex7497394.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
      "vec_rank": 6
     },
     {
-     "n": 7,
-     "title": "央行：继续实施好适度宽松货币政策",
+     "n": 6,
+     "title": "解读丨商务部、科技部拟新增五项生物医药技术出口管制：防范“拔根式”转让",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivkfvr7148220.shtml",
+     "url": "https://finance.sina.com.cn/stock/med/2026-10-17/doc-inivnvkv8177825.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "商务部：有关措施正式实施后 绝大部分人工智能技术仍可以自由出口",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmazi7775095.shtml",
      "rrf": 0.02985,
      "bm25_rank": 7,
      "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "今年第三次G20财长和央行行长会议举行 财政部和中国人民银行主要负责人出席并发言",
+     "title": "商务部新闻发言人就修订《中国禁止出口限制出口技术目录》答记者问",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivivfx7912354.shtml",
-     "rrf": 0.02879,
-     "bm25_rank": 11,
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmprk1622305.shtml",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
      "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行",
+    "query": "禁止出口限制出口技术目录拟修订 增列人工智能、生物医药、光伏三个领域40项技术",
     "bm25_only": 0,
-    "vec_only": 1,
-    "both": 7,
+    "vec_only": 0,
+    "both": 8,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "b4aea27b247cfc54",
+   "key": "aa292fcfe7d57995",
+   "label": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平",
+   "cached": false,
+   "sections": {
+    "事件概述": "「恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.646（爆点），所属板块类目：金融市场。",
+    "关键信息": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平；港股高开高走 恒生科技指数涨幅扩大逾2%；港股午评：恒指涨1.21% 科指涨2.09% 科网股普涨 生物技术板块大涨",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179791",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "港股高开高走 恒生科技指数涨幅扩大逾2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-16/doc-inivkncw1546600.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "港股午评：恒指涨1.21% 科指涨2.09% 科网股普涨 生物技术板块大涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivkwtm7719021.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "快手-W盘中涨超6% 版本迭代有望进一步巩固可灵商业化势能",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivksmu1493820.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "港股恒生科技指数涨幅达2%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610163897822340.html",
+     "rrf": 0.03058,
+     "bm25_rank": 8,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "特斯拉美股盘前涨超5%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180131",
+     "rrf": 0.02804,
+     "bm25_rank": 5,
+     "vec_rank": 19
+    },
+    {
+     "n": 7,
+     "title": "机器人概念股早盘走势强劲 均胜电子涨超9%来福谐波涨超8%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivksmv8343581.shtml",
+     "rrf": 0.0274,
+     "bm25_rank": 14,
+     "vec_rank": 12
+    },
+    {
+     "n": 8,
+     "title": "海致科技集团盘中涨超9% 公司与九州通订立战略合作框架协议",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivkwtt8263213.shtml",
+     "rrf": 0.02665,
+     "bm25_rank": 6,
+     "vec_rank": 27
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平",
+    "bm25_only": 2,
+    "vec_only": 0,
+    "both": 5,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "cdc6a6cbdaba50ce",
+   "label": "视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案",
+   "cached": false,
+   "sections": {
+    "事件概述": "「视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.629（爆点），所属板块类目：综合。",
+    "关键信息": "视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案；美军过去7天协助超过1亿桶原油运出霍尔木兹海峡；伊朗海军称“违规”穿越海峡而受损的油轮增多",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnraw1400868.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "美军过去7天协助超过1亿桶原油运出霍尔木兹海峡",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivnepc8314040.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "伊朗海军称“违规”穿越海峡而受损的油轮增多",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180604",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "霍尔木兹海峡安全形势恶化 一天内曾有6艘船遇袭",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610173899048784.html",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "伊朗武装部队开火拦截霍尔木兹海峡“违规”通行船只",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivqinc8078853.shtml",
+     "rrf": 0.0308,
+     "bm25_rank": 3,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "伊朗革命卫队：一艘油轮在霍尔木兹海峡触雷爆炸",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180528",
+     "rrf": 0.0308,
+     "bm25_rank": 7,
+     "vec_rank": 3
+    },
+    {
+     "n": 7,
+     "title": "伊朗海军：一艘违规油轮在霍尔木兹海峡东部起火",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610163898530457.html",
+     "rrf": 0.0303,
+     "bm25_rank": 6,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "伊朗开火！阿富汗、巴基斯坦交火！乌克兰能源系统遭大规模袭击！原油暗盘直线拉升",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610183899096048.html",
+     "rrf": 0.02878,
+     "bm25_rank": 10,
+     "vec_rank": 9
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案",
+    "bm25_only": 0,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "5f83844745d70856",
    "label": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%",
    "cached": false,
    "sections": {
-    "事件概述": "「中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%」由 14 篇报道聚合而成，覆盖 3 家媒体，热度 0.71（爆点），所属板块类目：国际市场。",
-    "关键信息": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8；道指涨超500点，中概股多数上涨，新东方涨超5%，存储股跌幅收窄；周五（10月16日），美股行业ETF多数收跌，网络股指数ETF跌3.43%，半导",
+    "事件概述": "「中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.605（高热），所属板块类目：国际市场。",
+    "关键信息": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8；10月17日热门中概股多数下跌，台积电跌超2%；周五（10月16日），美股行业ETF多数收跌，网络股指数ETF跌3.43%，半导",
     "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -217,11 +405,11 @@
     },
     {
      "n": 2,
-     "title": "道指涨超500点，中概股多数上涨，新东方涨超5%，存储股跌幅收窄",
+     "title": "10月17日热门中概股多数下跌，台积电跌超2%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-15/doc-iniviqxz7979851.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivnkur6670943.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
      "vec_rank": 2
     },
     {
@@ -235,6 +423,15 @@
     },
     {
      "n": 4,
+     "title": "美股大类资产类ETF多数收跌，纳指ETF跌2.5%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180470",
+     "rrf": 0.02947,
+     "bm25_rank": 11,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
      "title": "标普500指数的11个板块涨跌各异，信息技术/科技板块收跌2.52%——本周累跌",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3180464",
@@ -243,237 +440,40 @@
      "vec_rank": 8
     },
     {
-     "n": 5,
-     "title": "利空突袭！清晨，科技股大跳水！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-17/doc-inivnraw1460044.shtml",
-     "rrf": 0.02901,
-     "bm25_rank": 7,
-     "vec_rank": 11
-    },
-    {
      "n": 6,
-     "title": "美股大类资产类ETF多数收跌，纳指ETF跌2.5%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180470",
-     "rrf": 0.0289,
-     "bm25_rank": 14,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "10月16日热门中概股多数上涨 台积电跌1.80%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkfvz8261617.shtml",
-     "rrf": 0.02858,
-     "bm25_rank": 11,
-     "vec_rank": 9
-    },
-    {
-     "n": 8,
      "title": "开盘：三大股指涨跌不一 市场维持10月不加息预期",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmtwx6823088.shtml",
-     "rrf": 0.02845,
-     "bm25_rank": 18,
+     "rrf": 0.02932,
+     "bm25_rank": 13,
      "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "利空突袭！清晨，科技股大跳水！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-17/doc-inivnraw1460044.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 7,
+     "vec_rank": 10
+    },
+    {
+     "n": 8,
+     "title": "利空突袭！美股科技股大跳水！",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610173898828091.html",
+     "rrf": 0.02848,
+     "bm25_rank": 15,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8",
     "bm25_only": 1,
-    "vec_only": 3,
+    "vec_only": 4,
     "both": 3,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "74690a59c97a15c4",
-   "label": "恒指高开1.08%，报24321.45点；恒生科技指数涨1.59%。MINIMA",
-   "cached": false,
-   "sections": {
-    "事件概述": "「恒指高开1.08%，报24321.45点；恒生科技指数涨1.59%。MINIMA」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.694（爆点），所属板块类目：金融市场。",
-    "关键信息": "恒指高开1.08%，报24321.45点；恒生科技指数涨1.59%。MINIMA；港股开盘：恒生指数高开1.08% 恒生科技指数高开1.59%；港股恒生科技指数涨幅达2%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "恒指高开1.08%，报24321.45点；恒生科技指数涨1.59%。MINIMA",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3179779",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "港股开盘：恒生指数高开1.08% 恒生科技指数高开1.59%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610163897800266.html",
-     "rrf": 0.03151,
-     "bm25_rank": 2,
-     "vec_rank": 5
-    },
-    {
-     "n": 3,
-     "title": "港股恒生科技指数涨幅达2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610163897822340.html",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "港股午评：恒指涨1.21% 科指涨2.09% 科网股普涨 生物技术板块大涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivkwtm7719021.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 3,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "港股高开高走 恒生科技指数涨幅扩大逾2%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-16/doc-inivkncw1546600.shtml",
-     "rrf": 0.0308,
-     "bm25_rank": 7,
-     "vec_rank": 3
-    },
-    {
-     "n": 6,
-     "title": "快讯：恒指高开1.08% 恒科指涨1.59% 科网股普涨 存储概念股回暖",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivkncr7849090.shtml",
-     "rrf": 0.03062,
-     "bm25_rank": 9,
-     "vec_rank": 2
-    },
-    {
-     "n": 7,
-     "title": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3179791",
-     "rrf": 0.03031,
-     "bm25_rank": 5,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "日经225指数高开0.8%，韩国首尔综指高开1.8%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3179755",
-     "rrf": 0.02964,
-     "bm25_rank": 6,
-     "vec_rank": 9
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "恒指高开1.08%，报24321.45点；恒生科技指数涨1.59%。MINIMA",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
     "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "d3767465f45c0741",
-   "label": "韩国首尔综指涨幅扩大至3.4%，日经225指数涨近2%。",
-   "cached": false,
-   "sections": {
-    "事件概述": "「韩国首尔综指涨幅扩大至3.4%，日经225指数涨近2%。」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.639（爆点），所属板块类目：综合。",
-    "关键信息": "韩国首尔综指涨幅扩大至3.4%，日经225指数涨近2%。；日经225指数高开0.8%，韩国首尔综指高开1.8%。；韩国首尔综指涨超2%。",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "韩国首尔综指涨幅扩大至3.4%，日经225指数涨近2%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3179778",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "日经225指数高开0.8%，韩国首尔综指高开1.8%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3179755",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "韩国首尔综指涨超2%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3179768",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "韩国综指涨幅扩大至2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610163897602983.html",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "韩国KOSPI指数涨幅扩大至3% SK海力士涨逾3%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610163897752386.html",
-     "rrf": 0.03102,
-     "bm25_rank": 3,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "日韩股市开盘 韩国股市开盘上涨1.8%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkncr7788440.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "亚太股市集体调整 沪指盘中考验3700点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivivfv7181033.shtml",
-     "rrf": 0.02858,
-     "bm25_rank": 9,
-     "vec_rank": 11
-    },
-    {
-     "n": 8,
-     "title": "港股恒生科技指数涨幅达2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610163897822340.html",
-     "rrf": 0.0284,
-     "bm25_rank": 8,
-     "vec_rank": 13
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "韩国首尔综指涨幅扩大至3.4%，日经225指数涨近2%。",
-    "bm25_only": 1,
-    "vec_only": 0,
-    "both": 6,
-    "neither_topk": 1
    },
    "elapsed": 0.0
   }

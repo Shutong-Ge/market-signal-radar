@@ -1,11 +1,11 @@
 {
- "n_articles": 2046,
+ "n_articles": 1677,
  "mode": "vector",
- "edges": 642,
- "n_components": 1792,
- "n_clusters": 55,
- "n_noise_filtered": 3,
- "n_single_media_filtered": 83,
+ "edges": 454,
+ "n_components": 1494,
+ "n_clusters": 49,
+ "n_noise_filtered": 0,
+ "n_single_media_filtered": 61,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,190 +13,47 @@
   "media"
  ],
  "calibration": {
-  "max_size": 14.0,
-  "max_first": 8.0,
+  "max_size": 8.0,
+  "max_first": 5.0,
   "window_days": 3,
   "n_media_total": 5
  },
  "elapsed": 0.1,
  "level_dist": {
-  "爆点": 5,
-  "高热": 11,
-  "升温中": 17,
-  "一般": 22
+  "爆点": 4,
+  "高热": 10,
+  "升温中": 15,
+  "一般": 20
  },
  "top": [
   {
-   "label": "9月份物价数据解读：物价数据仍有韧性，PPI环比和同比涨幅均扩大",
-   "heat": 0.75,
+   "label": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%",
+   "heat": 0.715,
    "level": "爆点",
-   "n": 10,
+   "n": 6,
    "media": 3,
-   "cat": "宏观政策",
+   "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.885,
-    "burst": 0.815,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    130557,
-    130564,
-    130571,
-    130576,
-    130614,
-    130676,
-    130683,
-    130836,
-    130921,
-    131683
-   ]
-  },
-  {
-   "label": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行行长拉加德、欧元",
-   "heat": 0.716,
-   "level": "爆点",
-   "n": 11,
-   "media": 3,
-   "cat": "宏观政策",
-   "sectors": [
-    "BK000199"
-   ],
-   "factors": {
-    "coverage": 0.918,
-    "burst": 0.631,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    130442,
-    130453,
-    130492,
-    130654,
-    130655,
-    130703,
-    130897,
-    131429,
-    131430,
-    132205,
-    132362
-   ]
-  },
-  {
-   "label": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%",
-   "heat": 0.71,
-   "level": "爆点",
-   "n": 14,
-   "media": 3,
-   "cat": "国际市场",
-   "sectors": [
-    "BK0800"
-   ],
-   "factors": {
-    "coverage": 1.0,
-    "burst": 0.5,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    130586,
-    130631,
-    130783,
-    131670,
-    131878,
-    131880,
-    131882,
-    131890,
-    131895,
-    131905,
-    131919,
-    131970,
-    131977,
-    132128
-   ]
-  },
-  {
-   "label": "恒指高开1.08%，报24321.45点；恒生科技指数涨1.59%。MINIMA",
-   "heat": 0.694,
-   "level": "爆点",
-   "n": 8,
-   "media": 3,
-   "cat": "金融市场",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.811,
+    "coverage": 0.886,
     "burst": 1.0,
     "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    131059,
-    131061,
-    131066,
-    131067,
-    131076,
-    131077,
-    131081,
-    131120
-   ]
-  },
-  {
-   "label": "韩国首尔综指涨幅扩大至3.4%，日经225指数涨近2%。",
-   "heat": 0.639,
-   "level": "爆点",
-   "n": 6,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.719,
-    "burst": 0.886,
-    "duration": 0.333,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    130926,
-    130928,
-    130983,
-    130989,
-    131047,
-    131056
-   ]
-  },
-  {
-   "label": "科翔股份：2026年第三季度归母净利润3.11亿元，同比增长638.54%",
-   "heat": 0.623,
-   "level": "高热",
-   "n": 6,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.719,
-    "burst": 0.815,
-    "duration": 0.333,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    131423,
-    131427,
-    131609,
-    131641,
-    131643,
-    132097
+    132804,
+    132808,
+    132993,
+    133025,
+    133027,
+    133486
    ]
   },
   {
    "label": "禁止出口限制出口技术目录拟修订 增列人工智能、生物医药、光伏三个领域40项技术",
-   "heat": 0.603,
-   "level": "高热",
+   "heat": 0.702,
+   "level": "爆点",
    "n": 8,
    "media": 2,
    "cat": "AI与大模型",
@@ -205,90 +62,205 @@
     "BK1044"
    ],
    "factors": {
-    "coverage": 0.811,
-    "burst": 0.815,
+    "coverage": 1.0,
+    "burst": 1.0,
     "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    131220,
-    131326,
-    131475,
-    131489,
-    131760,
-    131968,
-    132049,
-    132105
+    132598,
+    132706,
+    132856,
+    132870,
+    133145,
+    133355,
+    133437,
+    133494
    ]
   },
   {
-   "label": "据报道，白宫下令限制乌克兰使用SpaceX军用卫星服务，乌军无人机行动受到影响",
-   "heat": 0.594,
-   "level": "高热",
-   "n": 5,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.662,
-    "burst": 0.631,
-    "duration": 0.667,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    130828,
-    130895,
-    131184,
-    132169,
-    132215
-   ]
-  },
-  {
-   "label": "江波龙发盈喜 预期前三季度归母净利润为140亿至149亿元同比增长1864.55%至1990.8",
-   "heat": 0.574,
-   "level": "高热",
-   "n": 4,
-   "media": 2,
-   "cat": "半导体",
-   "sectors": [
-    "BK0800"
-   ],
-   "factors": {
-    "coverage": 0.594,
-    "burst": 0.631,
-    "duration": 0.667,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    130932,
-    130967,
-    131091,
-    132078
-   ]
-  },
-  {
-   "label": "商品期货开盘，BR橡胶主力合约涨超2%，沪银、沪锡、20号胶涨超1%。棕榈油、纯",
-   "heat": 0.567,
-   "level": "高热",
+   "label": "恒生科技指数涨超2%，MINIMAX涨超6%，快手涨超5%，腾讯、哔哩哔哩、地平",
+   "heat": 0.646,
+   "level": "爆点",
    "n": 4,
    "media": 3,
-   "cat": "大宗与能化",
+   "cat": "金融市场",
    "sectors": [],
    "factors": {
-    "coverage": 0.594,
-    "burst": 0.732,
+    "coverage": 0.732,
+    "burst": 0.898,
     "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    131026,
-    131027,
-    131031,
-    131183
+    132453,
+    132454,
+    132458,
+    132497
+   ]
+  },
+  {
+   "label": "视频丨霍尔木兹海峡商船遇袭推高油价 美以密商打击伊朗预案",
+   "heat": 0.629,
+   "level": "爆点",
+   "n": 5,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.815,
+    "burst": 0.387,
+    "duration": 0.667,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    132882,
+    133318,
+    133529,
+    133930,
+    134090
+   ]
+  },
+  {
+   "label": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%",
+   "heat": 0.605,
+   "level": "高热",
+   "n": 8,
+   "media": 3,
+   "cat": "国际市场",
+   "sectors": [
+    "BK0800"
+   ],
+   "factors": {
+    "coverage": 1.0,
+    "burst": 0.387,
+    "duration": 0.333,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    133054,
+    133266,
+    133268,
+    133276,
+    133281,
+    133291,
+    133357,
+    133364
+   ]
+  },
+  {
+   "label": "养老服务价格新规来了，分级分类差异定价",
+   "heat": 0.599,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.732,
+    "burst": 0.898,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    132725,
+    132936,
+    132944,
+    133092
+   ]
+  },
+  {
+   "label": "*ST岭南：收到终止上市事先告知书",
+   "heat": 0.599,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "金融市场",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.732,
+    "burst": 0.898,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    132960,
+    133047,
+    133065,
+    133089
+   ]
+  },
+  {
+   "label": "黄仁勋称AI市场震荡将会过去，密集欧洲行持续释放信心",
+   "heat": 0.587,
+   "level": "高热",
+   "n": 3,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [
+    "BK0464",
+    "BK0800"
+   ],
+   "factors": {
+    "coverage": 0.631,
+    "burst": 0.774,
+    "duration": 0.333,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    133284,
+    133389,
+    133561
+   ]
+  },
+  {
+   "label": "伊朗外长：伊朗支持通过政治进程解决也门冲突",
+   "heat": 0.581,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.631,
+    "burst": 0.613,
+    "duration": 0.667,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    133256,
+    133843,
+    134086
+   ]
+  },
+  {
+   "label": "国常会：不断深化拓展“人工智能+”行动 让人工智能技术更好转化为现实生产力",
+   "heat": 0.57,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "AI与大模型",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.732,
+    "burst": 0.774,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    132854,
+    132874,
+    132934,
+    133168
    ]
   }
  ]
