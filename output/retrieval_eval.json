@@ -2,84 +2,84 @@
  "summary": {
   "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.532,
-  "avg_rank_diff": 1.65,
-  "avg_missed_by_bm25": 1.5,
-  "avg_missed_by_vector": 1.12,
-  "conclusion": "两路召回集平均重合度仅 53%；即便重合的文档，两路名次平均相差 1.65 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.5 篇最终进入 Top8 的文档；只用向量则漏掉 1.12 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.602,
+  "avg_rank_diff": 1.37,
+  "avg_missed_by_bm25": 1.0,
+  "avg_missed_by_vector": 1.38,
+  "conclusion": "两路召回集平均重合度仅 60%；即便重合的文档，两路名次平均相差 1.37 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.0 篇最终进入 Top8 的文档；只用向量则漏掉 1.38 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
    "query": "利好！A股科技巨头，密集出手回购！603019，最高5亿元",
-   "jaccard": 0.778,
-   "rank_diff": 1.71,
+   "jaccard": 0.6,
+   "rank_diff": 1.17,
    "missed_by_bm25": 1,
-   "missed_by_vector": 0,
+   "missed_by_vector": 1,
    "example_top1": "利好！A股科技巨头，密集出手回购！603019，最高5亿元"
   },
   {
    "type": "关键词式",
    "query": "利好 科技 巨头 密集 出手 回购",
-   "jaccard": 0.6,
-   "rank_diff": 2.33,
-   "missed_by_bm25": 1,
+   "jaccard": 0.778,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 0,
    "missed_by_vector": 1,
    "example_top1": "利好！A股科技巨头，密集出手回购！603019，最高5亿元"
   },
   {
    "type": "去数字泛化",
    "query": "利好！A股科技巨头，密集出手回购！，最高亿元",
-   "jaccard": 0.6,
-   "rank_diff": 2.67,
+   "jaccard": 0.455,
+   "rank_diff": 1.2,
    "missed_by_bm25": 1,
-   "missed_by_vector": 1,
+   "missed_by_vector": 2,
    "example_top1": "利好！A股科技巨头，密集出手回购！603019，最高5亿元"
   },
   {
    "type": "原标题式",
-   "query": "霍尔木兹海峡航运再受威胁：伊朗称两艘超级油轮触雷起火，沙特与",
+   "query": "沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头",
    "jaccard": 0.6,
-   "rank_diff": 1.5,
+   "rank_diff": 1.83,
    "missed_by_bm25": 1,
    "missed_by_vector": 1,
-   "example_top1": "霍尔木兹海峡航运再受威胁：伊朗称两艘超级油轮触雷起火，沙特与胡塞武装冲突升级"
+   "example_top1": "沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜"
   },
   {
    "type": "关键词式",
-   "query": "霍尔木兹海峡 航运 再受 威胁 伊朗 两艘",
-   "jaccard": 0.778,
-   "rank_diff": 2.29,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 1,
-   "example_top1": "霍尔木兹海峡航运再受威胁：伊朗称两艘超级油轮触雷起火，沙特与胡塞武装冲突升级"
+   "query": "沪市 周末 多维度 释放 积极 信号",
+   "jaccard": 0.231,
+   "rank_diff": 2.33,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 3,
+   "example_top1": "沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜"
   },
   {
    "type": "原标题式",
-   "query": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.",
-   "jaccard": 0.333,
-   "rank_diff": 1.25,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%"
+   "query": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK",
+   "jaccard": 0.778,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 1,
+   "example_top1": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、"
   },
   {
    "type": "关键词式",
-   "query": "中概 指数 收跌 跌超 世纪互联 万国",
-   "jaccard": 0.333,
-   "rank_diff": 0.75,
-   "missed_by_bm25": 3,
+   "query": "日经 指数 低开 韩国 首尔 综指",
+   "jaccard": 0.778,
+   "rank_diff": 0.57,
+   "missed_by_bm25": 0,
    "missed_by_vector": 1,
-   "example_top1": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%"
+   "example_top1": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、"
   },
   {
    "type": "去数字泛化",
-   "query": "中概指数收跌，CQQQ跌超，世纪互联跌，万国数据跌超",
-   "jaccard": 0.231,
-   "rank_diff": 0.67,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 2,
-   "example_top1": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%"
+   "query": "日经指数低开，韩国首尔综指低开。 SK海力士股价下跌、",
+   "jaccard": 0.6,
+   "rank_diff": 0.83,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、"
   }
  ]
 }

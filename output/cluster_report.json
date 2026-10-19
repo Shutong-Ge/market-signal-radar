@@ -1,11 +1,11 @@
 {
- "n_articles": 1566,
+ "n_articles": 1442,
  "mode": "vector",
- "edges": 468,
- "n_components": 1389,
- "n_clusters": 41,
+ "edges": 464,
+ "n_components": 1269,
+ "n_clusters": 46,
  "n_noise_filtered": 0,
- "n_single_media_filtered": 55,
+ "n_single_media_filtered": 49,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,242 +13,248 @@
   "media"
  ],
  "calibration": {
-  "max_size": 8.0,
-  "max_first": 5.0,
+  "max_size": 10.0,
+  "max_first": 9.0,
   "window_days": 3,
   "n_media_total": 5
  },
  "elapsed": 0.1,
  "level_dist": {
   "爆点": 4,
-  "高热": 8,
-  "升温中": 12,
-  "一般": 17
+  "高热": 9,
+  "升温中": 14,
+  "一般": 19
  },
  "top": [
   {
    "label": "利好！A股科技巨头，密集出手回购！603019，最高5亿元",
-   "heat": 0.648,
+   "heat": 0.69,
    "level": "爆点",
-   "n": 5,
+   "n": 9,
    "media": 2,
    "cat": "金融市场",
    "sectors": [],
    "factors": {
-    "coverage": 0.815,
+    "coverage": 0.96,
     "burst": 1.0,
     "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    135365,
-    135367,
-    135401,
-    135502,
-    135603
+    136395,
+    136397,
+    136431,
+    136534,
+    136635,
+    136746,
+    136748,
+    136788,
+    136801
    ]
   },
   {
-   "label": "霍尔木兹海峡航运再受威胁：伊朗称两艘超级油轮触雷起火，沙特与胡塞武装冲突升级",
-   "heat": 0.611,
+   "label": "沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜",
+   "heat": 0.657,
    "level": "爆点",
-   "n": 4,
+   "n": 10,
    "media": 2,
-   "cat": "综合",
+   "cat": "金融市场",
    "sectors": [],
    "factors": {
-    "coverage": 0.732,
-    "burst": 0.613,
+    "coverage": 1.0,
+    "burst": 0.477,
     "duration": 0.667,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    134477,
-    134690,
-    135256,
-    135325
+    135763,
+    135774,
+    136546,
+    136599,
+    136646,
+    136727,
+    136760,
+    136800,
+    136968,
+    137060
    ]
   },
   {
-   "label": "中概指数收跌1.3%，CQQQ跌超2.1%，世纪互联跌10.9%，万国数据跌超8.8%",
-   "heat": 0.605,
+   "label": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、",
+   "heat": 0.657,
    "level": "爆点",
-   "n": 8,
+   "n": 6,
    "media": 3,
-   "cat": "国际市场",
-   "sectors": [
-    "BK0800"
-   ],
+   "cat": "综合",
+   "sectors": [],
    "factors": {
-    "coverage": 1.0,
-    "burst": 0.387,
+    "coverage": 0.812,
+    "burst": 0.845,
     "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    134206,
-    134424,
-    134426,
-    134434,
-    134439,
-    134449,
-    134516,
-    134523
+    136987,
+    137004,
+    137015,
+    137061,
+    137113,
+    137115
+   ]
+  },
+  {
+   "label": "东兴证券：2026年第三季度营业收入为979165745.37元",
+   "heat": 0.581,
+   "level": "爆点",
+   "n": 4,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.671,
+    "burst": 0.699,
+    "duration": 0.333,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    136398,
+    136411,
+    136755,
+    136756
+   ]
+  },
+  {
+   "label": "长江流域维持阴雨模式 新一股较强冷空气携大风降温来袭",
+   "heat": 0.561,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.671,
+    "burst": 0.477,
+    "duration": 0.667,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    136304,
+    136311,
+    137052,
+    137100
    ]
   },
   {
    "label": "博盈特焊：拟购买苏州罗克莱海洋装备股份有限公司55%股权 19日起停牌",
-   "heat": 0.599,
-   "level": "爆点",
-   "n": 4,
+   "heat": 0.557,
+   "level": "高热",
+   "n": 5,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.732,
-    "burst": 0.898,
+    "coverage": 0.747,
+    "burst": 0.699,
     "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    135378,
-    135409,
-    135503,
-    135579
-   ]
-  },
-  {
-   "label": "黄仁勋称AI市场震荡将会过去，密集欧洲行持续释放信心",
-   "heat": 0.587,
-   "level": "高热",
-   "n": 3,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [
-    "BK0464",
-    "BK0800"
-   ],
-   "factors": {
-    "coverage": 0.631,
-    "burst": 0.774,
-    "duration": 0.333,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    134442,
-    134549,
-    134722
-   ]
-  },
-  {
-   "label": "伊朗外长：伊朗支持通过政治进程解决也门冲突",
-   "heat": 0.581,
-   "level": "高热",
-   "n": 3,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.631,
-    "burst": 0.613,
-    "duration": 0.667,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    134414,
-    135007,
-    135252
-   ]
-  },
-  {
-   "label": "美国股市：标普500指数创6月以来最差单周表现 AI担忧重创芯片股",
-   "heat": 0.54,
-   "level": "高热",
-   "n": 3,
-   "media": 2,
-   "cat": "AI与大模型",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.631,
-    "burst": 0.774,
-    "duration": 0.333,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    134422,
-    134464,
-    134678
-   ]
-  },
-  {
-   "label": "广西壮族自治区党委常委会召开会议 通报国家监委对黄日波进行监察调查的决定 陈刚主持会议",
-   "heat": 0.54,
-   "level": "高热",
-   "n": 3,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.631,
-    "burst": 0.774,
-    "duration": 0.333,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    135305,
-    135309,
-    135485
+    136408,
+    136439,
+    136535,
+    136611,
+    136813
    ]
   },
   {
    "label": "恒力石化：预计前三季度净利润为102.56亿元左右，同比增加104.20%左右",
-   "heat": 0.54,
-   "level": "高热",
-   "n": 3,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.631,
-    "burst": 0.774,
-    "duration": 0.333,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    135469,
-    135475,
-    135588
-   ]
-  },
-  {
-   "label": "大范围雨雪今起进入最强时段 多地气温将创下半年新低",
-   "heat": 0.532,
+   "heat": 0.534,
    "level": "高热",
    "n": 4,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.732,
-    "burst": 0.613,
+    "coverage": 0.671,
+    "burst": 0.699,
     "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    134654,
-    134712,
-    135276,
-    135283
+    136501,
+    136507,
+    136620,
+    136762
+   ]
+  },
+  {
+   "label": "603517、603838，将“摘帽”！明日停牌",
+   "heat": 0.484,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.578,
+    "burst": 0.602,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    136281,
+    136404,
+    136781
+   ]
+  },
+  {
+   "label": "广西壮族自治区党委常委会召开会议 通报国家监委对黄日波进行监察调查的决定 陈刚主持会议",
+   "heat": 0.484,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.578,
+    "burst": 0.602,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    136334,
+    136338,
+    136517
+   ]
+  },
+  {
+   "label": "信达证券：2026年第三季度归属于上市公司股东的净利润为191031128.54元",
+   "heat": 0.484,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.578,
+    "burst": 0.602,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    136399,
+    136753,
+    136758
    ]
   }
  ]
