@@ -1,18 +1,394 @@
 {
  "engine": "template(降级)",
- "n_clusters": 46,
+ "n_clusters": 51,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.0,
+ "elapsed": 6.9,
  "reports": [
   {
-   "key": "908a4c1f23682c98",
+   "key": "46659a39b2360904",
+   "label": "沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜",
+   "cached": false,
+   "sections": {
+    "事件概述": "「沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.803（爆点），所属板块类目：金融市场。",
+    "关键信息": "沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜；近30家沪市主板公司释放积极信号；科创板多赛道龙头业绩、研发、回购“密集报喜”",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivrvpr7310208.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "近30家沪市主板公司释放积极信号",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivumai6107199.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "科创板多赛道龙头业绩、研发、回购“密集报喜”",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-18/10716875.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "科创板迈入业绩兑现期 多赛道龙头业绩、研发密集报喜",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivrzvi7734131.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "回购+业绩预增潮持续 哪些公司拔得头筹？（附名单）",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivtchx6302933.shtml",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "深市回购增持热度持续升温 在途回购超200单",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610193900214385.html",
+     "rrf": 0.02924,
+     "bm25_rank": 6,
+     "vec_rank": 11
+    },
+    {
+     "n": 7,
+     "title": "周末，大利好！A股科技龙头，集体出手！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivshcm7228238.shtml",
+     "rrf": 0.02859,
+     "bm25_rank": 12,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "利好！2700亿巨头净利预增超160%！多家A股龙头公司业绩预告报喜",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivrerm6752666.shtml",
+     "rrf": 0.02819,
+     "bm25_rank": 13,
+     "vec_rank": 9
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "21a2d1a1c6c2f924",
+   "label": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%",
+   "cached": false,
+   "sections": {
+    "事件概述": "「美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.788（爆点），所属板块类目：国际市场。",
+    "关键信息": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌2；盘前：纳斯达克100指数期货上涨1.3% 市场看好本周Meta、特斯拉财报稳住大；AI股抛售潮过后 美股有望反弹",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtynk0811298.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "盘前：纳斯达克100指数期货上涨1.3% 市场看好本周Meta、特斯拉财报稳住大盘",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivumaf7742643.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "AI股抛售潮过后 美股有望反弹",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtynm7658726.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "美股期货亚市盘初走高，标普500指数期货上涨0.3%，纳斯达克100指数期货上涨",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180708",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "开盘：纳斯达克指数上涨 投资者逢低买入AI板块",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivumai6156387.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 9,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "华尔街见闻早餐 | 2026年10月19日",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180712",
+     "rrf": 0.02927,
+     "bm25_rank": 12,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "纳斯达克100指数期货涨幅扩大至1%，标普500指数期货涨0.5%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610193899282712.html",
+     "rrf": 0.02859,
+     "bm25_rank": 8,
+     "vec_rank": 12
+    },
+    {
+     "n": 8,
+     "title": "清晨科技股暗盘直线拉升！美国、俄罗斯传出大消息！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivtchx6282472.shtml",
+     "rrf": 0.02828,
+     "bm25_rank": 4,
+     "vec_rank": 19
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌2",
+    "bm25_only": 2,
+    "vec_only": 2,
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "92c26c51f77512db",
+   "label": "东兴证券：2026年第三季度营业收入为979165745.37元",
+   "cached": false,
+   "sections": {
+    "事件概述": "「东兴证券：2026年第三季度营业收入为979165745.37元」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.773（爆点），所属板块类目：综合。",
+    "关键信息": "东兴证券：2026年第三季度营业收入为979165745.37元；东兴、信达“最后成绩单”交卷：营收、净利双双下滑，自营收入环比大降；东兴证券：前三季度归母净利润16.11亿元，同比增长0.75%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "东兴证券：2026年第三季度营业收入为979165745.37元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivshci6459530.shtml",
+     "rrf": 0.03252,
+     "bm25_rank": 2,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "东兴、信达“最后成绩单”交卷：营收、净利双双下滑，自营收入环比大降",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivurkf6058533.shtml",
+     "rrf": 0.03227,
+     "bm25_rank": 1,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "东兴证券：前三季度归母净利润16.11亿元，同比增长0.75%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180624",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "科大讯飞：2026年第三季度营业收入同比增长7.99%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-19/doc-inivumaf7687226.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "璞泰来：2026年第三季度营业收入同比增长53.48%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-19/doc-inivumai6097175.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 4,
+     "vec_rank": 8
+    },
+    {
+     "n": 6,
+     "title": "星网锐捷：2026年第三季度营业收入同比增长27.96%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-19/doc-inivumai6084820.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 6,
+     "vec_rank": 9
+    },
+    {
+     "n": 7,
+     "title": "龙图光罩：2026年第三季度营业收入同比增长9.82%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-19/doc-inivumam6832097.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 7,
+     "vec_rank": 10
+    },
+    {
+     "n": 8,
+     "title": "纽威数控：2026年第三季度营业收入同比增长30.35%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-19/doc-inivumaf7689724.shtml",
+     "rrf": 0.02822,
+     "bm25_rank": 8,
+     "vec_rank": 14
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "东兴证券：2026年第三季度营业收入为979165745.37元",
+    "bm25_only": 3,
+    "vec_only": 0,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "2a1a35e584054a14",
+   "label": "胡塞武装称击落一架沙特“卡里亚尔”武装侦察无人机",
+   "cached": false,
+   "sections": {
+    "事件概述": "「胡塞武装称击落一架沙特“卡里亚尔”武装侦察无人机」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.754（爆点），所属板块类目：综合。",
+    "关键信息": "胡塞武装称击落一架沙特“卡里亚尔”武装侦察无人机；也门胡塞武装称击落沙特方面一架“阿帕奇”直升机；沙特联军称在东部省拦截并摧毁一架无人机",
+    "市场影响": "关联板块代码：BK0704。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "胡塞武装称击落一架沙特“卡里亚尔”武装侦察无人机",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610183899096644.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "也门胡塞武装称击落沙特方面一架“阿帕奇”直升机",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610183899089898.html",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "沙特联军称在东部省拦截并摧毁一架无人机",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610183899101461.html",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "胡塞武装公布击落沙特AH-6i型直升机画面",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610183899150827.html",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "沙特直升机在也门附近坠毁 与胡塞武装的冲突短期内无望结束",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtchu0812757.shtml",
+     "rrf": 0.03055,
+     "bm25_rank": 4,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "胡塞武装称袭击也门东部沙特联军和也门政府军目标",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3181265",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "也门胡塞武装：沙特空袭塔伊兹省造成至少9人死亡",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivqtzp6138395.shtml",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "伊开火拦截霍尔木兹海峡“违规”船只 乌称最快下周与美举行会谈",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivqtzw1187478.shtml",
+     "rrf": 0.02899,
+     "bm25_rank": 9,
+     "vec_rank": 9
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "胡塞武装称击落一架沙特“卡里亚尔”武装侦察无人机",
+    "bm25_only": 0,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "4b665eb5a0203f6e",
    "label": "利好！A股科技巨头，密集出手回购！603019，最高5亿元",
    "cached": false,
    "sections": {
-    "事件概述": "「利好！A股科技巨头，密集出手回购！603019，最高5亿元」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.69（爆点），所属板块类目：金融市场。",
+    "事件概述": "「利好！A股科技巨头，密集出手回购！603019，最高5亿元」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.72（爆点），所属板块类目：金融市场。",
     "关键信息": "利好！A股科技巨头，密集出手回购！603019，最高5亿元；周末，大利好！A股科技龙头，集体出手！；周末利好！多家A股科技龙头宣布：回购股份",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -41,8 +417,8 @@
      "title": "周末利好！多家A股科技龙头宣布：回购股份",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivrzvp7278281.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
+     "rrf": 0.03078,
+     "bm25_rank": 6,
      "vec_rank": 4
     },
     {
@@ -50,430 +426,54 @@
      "title": "周末利好！多家A股公司出手",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/china/2026-10-18/doc-inivshci6465601.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 4,
-     "vec_rank": 7
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
     },
     {
      "n": 5,
-     "title": "1324亿，A股回购逼近去年全年！新易盛、天孚通信等密集出手",
+     "title": "最高3亿元！A股覆铜板龙头生益科技董事长喊话回购，股价较年内高点跌了40%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-17/doc-inivpfyq1368725.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/roll/2026-10-18/doc-inivrvpr7294972.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
     },
     {
      "n": 6,
      "title": "回购刷屏！刚刚，科技龙头密集公告",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-10-18/doc-inivrvpr7250894.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 9,
+     "rrf": 0.02947,
+     "bm25_rank": 11,
      "vec_rank": 5
     },
     {
      "n": 7,
-     "title": "最高3亿元！A股覆铜板龙头生益科技董事长喊话回购，股价较年内高点跌了40%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-18/doc-inivrvpr7294972.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
+     "title": "十余家A股上市公司盘后披露回购或增持计划公告 鹏鼎控股拟最高5亿元回购股份",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610193900217151.html",
+     "rrf": 0.02942,
+     "bm25_rank": 7,
+     "vec_rank": 9
     },
     {
      "n": 8,
      "title": "回购+业绩预增潮持续 哪些公司拔得头筹？（附名单）",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivtchx6302933.shtml",
-     "rrf": 0.02872,
-     "bm25_rank": 5,
-     "vec_rank": 15
+     "rrf": 0.02878,
+     "bm25_rank": 4,
+     "vec_rank": 16
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "利好！A股科技巨头，密集出手回购！603019，最高5亿元",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "e099487f330936db",
-   "label": "沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜",
-   "cached": false,
-   "sections": {
-    "事件概述": "「沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜」由 10 篇报道聚合而成，覆盖 2 家媒体，热度 0.657（爆点），所属板块类目：金融市场。",
-    "关键信息": "沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜；科创板多赛道龙头业绩、研发、回购“密集报喜”；科创板迈入业绩兑现期 多赛道龙头业绩、研发密集报喜",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivrvpr7310208.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "科创板多赛道龙头业绩、研发、回购“密集报喜”",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-18/10716875.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "科创板迈入业绩兑现期 多赛道龙头业绩、研发密集报喜",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivrzvi7734131.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "回购+业绩预增潮持续 哪些公司拔得头筹？（附名单）",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivtchx6302933.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "周末，大利好！A股科技龙头，集体出手！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivshcm7228238.shtml",
-     "rrf": 0.02963,
-     "bm25_rank": 8,
-     "vec_rank": 7
-    },
-    {
-     "n": 6,
-     "title": "利好！2700亿巨头净利预增超160%！多家A股龙头公司业绩预告报喜",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivrerm6752666.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 10,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "生益科技，预计净利翻倍！A股龙头公司，业绩利好",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivrers1097581.shtml",
-     "rrf": 0.02872,
-     "bm25_rank": 5,
-     "vec_rank": 15
-    },
-    {
-     "n": 8,
-     "title": "利好！A股科技巨头，密集出手回购！603019，最高5亿元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/china/2026-10-18/doc-inivrvpk1035800.shtml",
-     "rrf": 0.02819,
-     "bm25_rank": 13,
-     "vec_rank": 9
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "沪市公司周末多维度释放积极信号：回购增持持续升温 科创板龙头业绩密集预喜",
-    "bm25_only": 1,
+    "bm25_only": 2,
     "vec_only": 1,
     "both": 5,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "3c364740ccb4d638",
-   "label": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、",
-   "cached": false,
-   "sections": {
-    "事件概述": "「日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.657（爆点），所属板块类目：综合。",
-    "关键信息": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、；日韩股市，开盘下跌；存储双雄，开盘大跌",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180737",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "日韩股市，开盘下跌",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-19/doc-inivtiqx6919325.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "存储双雄，开盘大跌",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-19/doc-inivtiqs0752336.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "韩国首尔综指转涨，受三星上涨和本地基金买入提振，此前一度跌超3%。 日经225指",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180756",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "日韩股市跌幅收窄 韩国KOSPI指数转涨",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610193899286279.html",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "韩国首尔综指日内跌幅收窄至不到1%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180741",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "三星电子、SK海力士韩国Nextrade盘前交易中跌超5%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180713",
-     "rrf": 0.02963,
-     "bm25_rank": 8,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "A股开盘：三大指数集体低开",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610193899288535.html",
-     "rrf": 0.02944,
-     "bm25_rank": 6,
-     "vec_rank": 10
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、",
-    "bm25_only": 1,
-    "vec_only": 0,
-    "both": 7,
     "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "c8206948fe661069",
-   "label": "东兴证券：2026年第三季度营业收入为979165745.37元",
-   "cached": false,
-   "sections": {
-    "事件概述": "「东兴证券：2026年第三季度营业收入为979165745.37元」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.581（爆点），所属板块类目：综合。",
-    "关键信息": "东兴证券：2026年第三季度营业收入为979165745.37元；东兴证券：前三季度归母净利润16.11亿元，同比增长0.75%；民生健康：2026年第三季度营业收入同比增长30.04%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "东兴证券：2026年第三季度营业收入为979165745.37元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivshci6459530.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "东兴证券：前三季度归母净利润16.11亿元，同比增长0.75%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180624",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "民生健康：2026年第三季度营业收入同比增长30.04%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivshci6457225.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "远东宏信第三季度营业收入及普通股股东应占溢利同比小幅提升",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-19/doc-inivtchz7033619.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "信达证券：前三季度归母净利润12.88亿元，同比下降4.83%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180625",
-     "rrf": 0.03037,
-     "bm25_rank": 3,
-     "vec_rank": 9
-    },
-    {
-     "n": 6,
-     "title": "两家券商，明日终止上市",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivshci6462750.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 11,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "民生健康：前三季度净利润同比下降26.36%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610183899133870.html",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
-     "vec_rank": 8
-    },
-    {
-     "n": 8,
-     "title": "信达证券：2026年第三季度归属于上市公司股东的净利润为191031128.54元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-18/doc-inivshcf7733382.shtml",
-     "rrf": 0.02878,
-     "bm25_rank": 16,
-     "vec_rank": 4
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "东兴证券：2026年第三季度营业收入为979165745.37元",
-    "bm25_only": 1,
-    "vec_only": 3,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "a9b1932df24204e7",
-   "label": "长江流域维持阴雨模式 新一股较强冷空气携大风降温来袭",
-   "cached": false,
-   "sections": {
-    "事件概述": "「长江流域维持阴雨模式 新一股较强冷空气携大风降温来袭」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.561（高热），所属板块类目：综合。",
-    "关键信息": "长江流域维持阴雨模式 新一股较强冷空气携大风降温来袭；南方多地暴雨持续 中东部将有大风降温；呼和浩特将迎大风降温、雨夹雪天气",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "长江流域维持阴雨模式 新一股较强冷空气携大风降温来袭",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivtiqt7562948.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "南方多地暴雨持续 中东部将有大风降温",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivtiqt7527294.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "呼和浩特将迎大风降温、雨夹雪天气",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-18/doc-inivrzvh0967891.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 5,
-     "vec_rank": 9
-    },
-    {
-     "n": 4,
-     "title": "新一股冷空气“发货”，广西局地降温8℃以上",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-17/doc-inivpnhc6484842.shtml",
-     "rrf": 0.02957,
-     "bm25_rank": 3,
-     "vec_rank": 13
-    },
-    {
-     "n": 5,
-     "title": "大风来袭！辽宁营口海域实施全域海上交通管制",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-17/doc-inivpnhn1448112.shtml",
-     "rrf": 0.0272,
-     "bm25_rank": 6,
-     "vec_rank": 23
-    },
-    {
-     "n": 6,
-     "title": "冷空气来袭，出门多穿点！最低气温降降降！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-19/doc-inivtiqv6230229.shtml",
-     "rrf": 0.02674,
-     "bm25_rank": 19,
-     "vec_rank": 11
-    },
-    {
-     "n": 7,
-     "title": "青海大部持续雨雪降温，门源出现最大积雪深度达7厘米",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivqccv6313233.shtml",
-     "rrf": 0.02647,
-     "bm25_rank": 8,
-     "vec_rank": 25
-    },
-    {
-     "n": 8,
-     "title": "【快看】抢出一个“窗口”~“东方明珠8”轮顺利进港",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-19/doc-inivtiqs0769235.shtml",
-     "rrf": 0.02502,
-     "bm25_rank": 22,
-     "vec_rank": 18
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "长江流域维持阴雨模式 新一股较强冷空气携大风降温来袭",
-    "bm25_only": 4,
-    "vec_only": 0,
-    "both": 2,
-    "neither_topk": 2
    },
    "elapsed": 0.0
   }
