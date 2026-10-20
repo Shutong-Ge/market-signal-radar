@@ -2,11 +2,11 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.436,
-  "avg_rank_diff": 0.76,
-  "avg_missed_by_bm25": 2.44,
-  "avg_missed_by_vector": 1.67,
-  "conclusion": "两路召回集平均重合度仅 44%；即便重合的文档，两路名次平均相差 0.76 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.44 篇最终进入 Top8 的文档；只用向量则漏掉 1.67 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.54,
+  "avg_rank_diff": 1.01,
+  "avg_missed_by_bm25": 1.22,
+  "avg_missed_by_vector": 1.56,
+  "conclusion": "两路召回集平均重合度仅 54%；即便重合的文档，两路名次平均相差 1.01 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.22 篇最终进入 Top8 的文档；只用向量则漏掉 1.56 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
@@ -15,7 +15,7 @@
    "jaccard": 0.778,
    "rank_diff": 1.43,
    "missed_by_bm25": 1,
-   "missed_by_vector": 0,
+   "missed_by_vector": 1,
    "example_top1": "日经225指数低开0.2%，韩国首尔综指低开0.6%。"
   },
   {
@@ -30,65 +30,65 @@
   {
    "type": "去数字泛化",
    "query": "日经指数低开，韩国首尔综指低开。 SK海力士股价下跌、",
-   "jaccard": 0.778,
-   "rank_diff": 0.57,
-   "missed_by_bm25": 0,
+   "jaccard": 0.6,
+   "rank_diff": 0.67,
+   "missed_by_bm25": 1,
    "missed_by_vector": 1,
    "example_top1": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、"
   },
   {
    "type": "原标题式",
-   "query": "国家统计局：第三季度金融业GDP同比增长4.1%，房地产业G",
-   "jaccard": 0.067,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 6,
-   "missed_by_vector": 2,
-   "example_top1": "国家统计局：第三季度金融业GDP同比增长4.1%，房地产业GDP同比下降0.4%"
-  },
-  {
-   "type": "关键词式",
-   "query": "国家统计局 第三季度 金融业 同比 增长 房地产业",
-   "jaccard": 0.067,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 6,
-   "missed_by_vector": 2,
-   "example_top1": "国家统计局：第三季度金融业GDP同比增长4.1%，房地产业GDP同比下降0.4%"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "国家统计局：第三季度金融业GDP同比增长，房地产业GDP同比",
-   "jaccard": 0.067,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 6,
-   "missed_by_vector": 3,
-   "example_top1": "国家统计局：第三季度金融业GDP同比增长4.1%，房地产业GDP同比下降0.4%"
-  },
-  {
-   "type": "原标题式",
    "query": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，Core",
    "jaccard": 0.455,
-   "rank_diff": 0.8,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
+   "rank_diff": 1.6,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
    "example_top1": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%"
   },
   {
    "type": "关键词式",
    "query": "美股 期货 反弹 纳指 期货 资金",
-   "jaccard": 0.6,
-   "rank_diff": 1.83,
+   "jaccard": 0.778,
+   "rank_diff": 2.0,
    "missed_by_bm25": 1,
-   "missed_by_vector": 1,
+   "missed_by_vector": 0,
    "example_top1": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%"
   },
   {
    "type": "去数字泛化",
    "query": "美股期货反弹，纳指期货涨，资金重返AI交易，CoreWeav",
+   "jaccard": 0.455,
+   "rank_diff": 1.2,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%"
+  },
+  {
+   "type": "原标题式",
+   "query": "快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存",
+   "jaccard": 0.231,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 3,
+   "example_top1": "快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌超6%"
+  },
+  {
+   "type": "关键词式",
+   "query": "快讯 恒指 低开 恒科 指跌 科网",
    "jaccard": 0.333,
-   "rank_diff": 1.25,
+   "rank_diff": 0.0,
    "missed_by_bm25": 1,
    "missed_by_vector": 3,
-   "example_top1": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%"
+   "example_top1": "快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌超6%"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "快讯：恒指低开 恒科指跌 科网股普跌 存储概念股低开 联想跌",
+   "jaccard": 0.455,
+   "rank_diff": 1.2,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌超6%"
   }
  ]
 }
