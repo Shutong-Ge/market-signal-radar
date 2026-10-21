@@ -1,112 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 57,
+ "n_clusters": 68,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.2,
+ "elapsed": 5.0,
  "reports": [
   {
-   "key": "319805f2f15b40ec",
-   "label": "财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新持仓曝光丨2026年10月21日",
-   "cached": false,
-   "sections": {
-    "事件概述": "「财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新持仓曝光丨2026年10月21日」由 28 篇报道聚合而成，覆盖 3 家媒体，热度 0.819（爆点），所属板块类目：金融市场。",
-    "关键信息": "财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新持仓曝光丨2026年；财经早报丨A股将迎至少360亿活水 长线资金最新持仓曝光(名单)丨2026年10；掘金细分龙头 长线资金最新持仓曝光",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新持仓曝光丨2026年10月21日",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/y/2026-10-21/doc-inivxvut5474687.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "财经早报丨A股将迎至少360亿活水 长线资金最新持仓曝光(名单)丨2026年10月20日",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/y/2026-10-20/doc-inivvnpv5886100.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "掘金细分龙头 长线资金最新持仓曝光",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-20/doc-inivuvry0959186.shtml",
-     "rrf": 0.02996,
-     "bm25_rank": 3,
-     "vec_rank": 11
-    },
-    {
-     "n": 4,
-     "title": "通信行业资金流入榜：亨通光电等7股净流入资金超亿元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-19/doc-inivueup6920915.shtml",
-     "rrf": 0.02932,
-     "bm25_rank": 4,
-     "vec_rank": 13
-    },
-    {
-     "n": 5,
-     "title": "中原证券邓淑斌：主动ETF标志长钱入市升级 与回购增持形成双向支撑",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3181268",
-     "rrf": 0.02838,
-     "bm25_rank": 12,
-     "vec_rank": 9
-    },
-    {
-     "n": 6,
-     "title": "002415，冯柳减仓，裘国根加仓",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/s/2026-10-19/doc-inivurka0901771.shtml",
-     "rrf": 0.02781,
-     "bm25_rank": 6,
-     "vec_rank": 19
-    },
-    {
-     "n": 7,
-     "title": "高盛策略师：股票市场谨慎情绪升温",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-19/doc-inivtynr6960652.shtml",
-     "rrf": 0.02727,
-     "bm25_rank": 7,
-     "vec_rank": 21
-    },
-    {
-     "n": 8,
-     "title": "A股近一个月融资净流出超千亿 杠杆资金“后撤待命” 两融余额不断刷新年内新低",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-21/doc-inivxrny7930209.shtml",
-     "rrf": 0.02685,
-     "bm25_rank": 15,
-     "vec_rank": 14
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新持仓曝光丨2026年",
-    "bm25_only": 4,
-    "vec_only": 0,
-    "both": 2,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "f1405af5e668ea2f",
+   "key": "6b9d82bf766ffa14",
    "label": "解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是完整配套和仍在扩张的出口，明年三个指",
    "cached": false,
    "sections": {
-    "事件概述": "「解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是完整配套和仍在扩张的出口，明年三个指」由 31 篇报道聚合而成，覆盖 3 家媒体，热度 0.794（爆点），所属板块类目：宏观政策。",
+    "事件概述": "「解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是完整配套和仍在扩张的出口，明年三个指」由 29 篇报道聚合而成，覆盖 2 家媒体，热度 0.768（爆点），所属板块类目：宏观政策。",
     "关键信息": "解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是完整配套和仍在扩张的；权威数读｜前三季度规上工业增加值同比增长5.3%；前三季度规模以上工业增加值同比增长5.3%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -144,251 +50,251 @@
      "title": "解读中国经济“三季报” | 三组数据看经济发展韧性",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivurki6848624.shtml",
-     "rrf": 0.03016,
-     "bm25_rank": 10,
+     "rrf": 0.02996,
+     "bm25_rank": 11,
      "vec_rank": 3
     },
     {
      "n": 5,
-     "title": "今年三季度全国共1.92亿人次出入境",
+     "title": "宁德时代三季度利润增速放缓 储能业务或撑起新增长极",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-21/doc-inivxrnx6316984.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivxeww0914224.shtml",
+     "rrf": 0.02983,
+     "bm25_rank": 2,
+     "vec_rank": 13
     },
     {
      "n": 6,
      "title": "多项指标创新高！前三季度我国装备工业、中小企业表现亮眼",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-20/doc-inivwiti7757738.shtml",
-     "rrf": 0.02983,
-     "bm25_rank": 13,
+     "rrf": 0.02964,
+     "bm25_rank": 14,
      "vec_rank": 2
     },
     {
      "n": 7,
-     "title": "今年前三季度中国工业对经济增长贡献率保持在35%左右",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-20/10717923.shtml",
+     "title": "今年三季度全国共1.92亿人次出入境",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-21/doc-inivxrnx6316984.shtml",
      "rrf": 0.02963,
-     "bm25_rank": 8,
-     "vec_rank": 7
+     "bm25_rank": 7,
+     "vec_rank": 8
     },
     {
      "n": 8,
-     "title": "宁德时代三季度利润增速放缓 储能业务或撑起新增长极",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivxeww0914224.shtml",
-     "rrf": 0.02946,
-     "bm25_rank": 2,
-     "vec_rank": 15
+     "title": "今年前三季度中国工业对经济增长贡献率保持在35%左右",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-20/10717923.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 9,
+     "vec_rank": 7
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是完整配套和仍在扩张的",
     "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "6124025ee17c07e5",
-   "label": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.709（爆点），所属板块类目：国际市场。",
-    "关键信息": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌2；盘前：美股存储股下挫 CoreWeave跌逾4%上周暴跌超25%；凌晨利好突袭！刚刚集体暴拉！两份超预期财报点燃AI交易热情",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtynk0811298.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "盘前：美股存储股下挫 CoreWeave跌逾4%上周暴跌超25%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivwuia0896675.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "凌晨利好突袭！刚刚集体暴拉！两份超预期财报点燃AI交易热情",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivxrnx6325001.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "盘前：纳斯达克100指数期货上涨1.3% 市场看好本周Meta、特斯拉财报稳住大盘",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivumaf7742643.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "AI股抛售潮过后 美股有望反弹",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtynm7658726.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "美国股指期货走低 AI相关忧虑重返市场",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivwuia0917871.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 5,
-     "vec_rank": 9
-    },
-    {
-     "n": 7,
-     "title": "开盘：纳斯达克指数上涨 投资者逢低买入AI板块",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivumai6156387.shtml",
-     "rrf": 0.02944,
-     "bm25_rank": 10,
-     "vec_rank": 6
-    },
-    {
-     "n": 8,
-     "title": "利好来了！刚刚，全线拉升！俄乌谈判，突传重磅！英国宣布：出兵协助沙特！油价“深V”反弹",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-21/doc-inivxvuy4699061.shtml",
-     "rrf": 0.0284,
-     "bm25_rank": 13,
-     "vec_rank": 8
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌2",
-    "bm25_only": 1,
-    "vec_only": 2,
-    "both": 5,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "9d99ed33144a8c36",
-   "label": "中原证券邓淑斌：主动ETF标志长钱入市升级 与回购增持形成双向支撑",
-   "cached": false,
-   "sections": {
-    "事件概述": "「中原证券邓淑斌：主动ETF标志长钱入市升级 与回购增持形成双向支撑」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.652（爆点），所属板块类目：金融市场。",
-    "关键信息": "中原证券邓淑斌：主动ETF标志长钱入市升级 与回购增持形成双向支撑；上交所首批主动ETF获批 助力中长期资金入市；增量资金，要来了",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "中原证券邓淑斌：主动ETF标志长钱入市升级 与回购增持形成双向支撑",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3181268",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "上交所首批主动ETF获批 助力中长期资金入市",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717417.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "增量资金，要来了",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-19/doc-inivumai6151715.shtml",
-     "rrf": 0.03037,
-     "bm25_rank": 3,
-     "vec_rank": 9
-    },
-    {
-     "n": 4,
-     "title": "增量资金来了！首批18只，正式获批",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-19/doc-inivumai6091595.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 5,
-     "vec_rank": 7
-    },
-    {
-     "n": 5,
-     "title": "首批18只主动ETF获批 持续推进“长钱长投”增强市场稳定性",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-20/doc-inivuvsf6819201.shtml",
-     "rrf": 0.02929,
-     "bm25_rank": 16,
-     "vec_rank": 2
-    },
-    {
-     "n": 6,
-     "title": "吴清：同意首批18只主动ETF注册 为市场引入更多增量资金",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/china/2026-10-19/doc-inivtynm7761624.shtml",
-     "rrf": 0.02908,
-     "bm25_rank": 13,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "深市回购增持持续活跃 真金白银彰显信心与价值",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-19/doc-inivumam6829827.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 10,
-     "vec_rank": 8
-    },
-    {
-     "n": 8,
-     "title": "政策端释放积极信号 引导公募逆周期布局锚定长期价值",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-20/doc-inivuvsc6087853.shtml",
-     "rrf": 0.02869,
-     "bm25_rank": 18,
-     "vec_rank": 3
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "中原证券邓淑斌：主动ETF标志长钱入市升级 与回购增持形成双向支撑",
-    "bm25_only": 1,
-    "vec_only": 4,
+    "vec_only": 3,
     "both": 3,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "0de09c8d8d89f95a",
+   "key": "e44ee0c64c6e1cda",
+   "label": "10月20日美股成交额前20：存储板块反弹领涨 闪迪涨超5% 美光将举办技术网络研讨会",
+   "cached": false,
+   "sections": {
+    "事件概述": "「10月20日美股成交额前20：存储板块反弹领涨 闪迪涨超5% 美光将举办技术网络研讨会」由 14 篇报道聚合而成，覆盖 3 家媒体，热度 0.768（爆点），所属板块类目：国际市场。",
+    "关键信息": "10月20日美股成交额前20：存储板块反弹领涨 闪迪涨超5% 美光将举办技术网络；10月20日隔夜要闻：纳指涨超1% 布伦特高位震荡 金价走低 纽约证交所延长部分；利好来了！这一板块迎批量涨停",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "10月20日美股成交额前20：存储板块反弹领涨 闪迪涨超5% 美光将举办技术网络研讨会",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-20/doc-inivvhfv7615352.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "10月20日隔夜要闻：纳指涨超1% 布伦特高位震荡 金价走低 纽约证交所延长部分期权交易时段",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-20/doc-inivvhfz6694173.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "利好来了！这一板块迎批量涨停",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-21/doc-inivynsm5465826.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 6,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "10月20日收盘：美股涨跌互现 科技股领涨 市场聚焦特斯拉与Meta财报",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-20/doc-inivuzxw0887698.shtml",
+     "rrf": 0.02996,
+     "bm25_rank": 3,
+     "vec_rank": 11
+    },
+    {
+     "n": 5,
+     "title": "10月21日美股成交额前20：苹果跌1% 宣布扩大新产品零部件在美国的生产",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivxmex5591378.shtml",
+     "rrf": 0.02988,
+     "bm25_rank": 5,
+     "vec_rank": 9
+    },
+    {
+     "n": 6,
+     "title": "10月21日隔夜要闻：油价金价震荡走低 SpaceX盈利超预期 特朗普斡旋俄乌谈判",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivxrny7944372.shtml",
+     "rrf": 0.02867,
+     "bm25_rank": 14,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "国产存储板块结构分化 资金转向业绩验证",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-20/doc-inivuvrz7734248.shtml",
+     "rrf": 0.0284,
+     "bm25_rank": 8,
+     "vec_rank": 13
+    },
+    {
+     "n": 8,
+     "title": "AI企业财报提振科技股，比特币徘徊在8.3万美元附近",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivyhkr6241832.shtml",
+     "rrf": 0.0265,
+     "bm25_rank": 17,
+     "vec_rank": 14
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "10月20日美股成交额前20：存储板块反弹领涨 闪迪涨超5% 美光将举办技术网络",
+    "bm25_only": 3,
+    "vec_only": 1,
+    "both": 3,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "1d71df544d84bb87",
+   "label": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲观",
+   "cached": false,
+   "sections": {
+    "事件概述": "「宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲观」由 16 篇报道聚合而成，覆盖 3 家媒体，热度 0.715（爆点），所属板块类目：综合。",
+    "关键信息": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场；宁德时代H股跌超6%；小摩：宁德时代降至“中性”评级 整车厂盈利能力已承压",
+    "市场影响": "关联板块代码：BK0499、BK1033、BK1303。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲观",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-10-21/doc-inivynsp6214546.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "宁德时代H股跌超6%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610203900838068.html",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "小摩：宁德时代降至“中性”评级 整车厂盈利能力已承压",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-21/doc-inivynsp6123987.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 2,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "宁德时代A股跌超12%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-10-21/doc-inivynss4905548.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "宁德时代AH股大跌9% 三季度毛利率创2022年四季度以来新低",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-21/doc-inivxvuy4808550.shtml",
+     "rrf": 0.03016,
+     "bm25_rank": 10,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "宁德时代，单日市值蒸发超1400亿元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-10-21/doc-inivyxhi6118961.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 9,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "小摩：下调宁德时代、中创新航及先导智能评级与目标价 忧行业盈利能力恶化",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-21/doc-inivyaaw4864946.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 3,
+     "vec_rank": 15
+    },
+    {
+     "n": 8,
+     "title": "宁德时代遭遇“业绩与预期”双杀：三季报利润增速放缓叠加车企“解绑”潮，盘中跌超10%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/aigcy/2026-10-21/doc-inivynsp6211150.shtml",
+     "rrf": 0.02848,
+     "bm25_rank": 15,
+     "vec_rank": 6
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场",
+    "bm25_only": 1,
+    "vec_only": 3,
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "2d31174cfe75ea37",
    "label": "快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌超6%",
    "cached": false,
    "sections": {
-    "事件概述": "「快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌超6%」由 17 篇报道聚合而成，覆盖 4 家媒体，热度 0.647（爆点），所属板块类目：金融市场。",
+    "事件概述": "「快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌超6%」由 21 篇报道聚合而成，覆盖 4 家媒体，热度 0.687（爆点），所属板块类目：金融市场。",
     "关键信息": "快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌；港股午评：恒指跌0.95% 科指跌1.21% 科网股普跌 黄金股下挫 联想跌超7；恒指低开0.81%，报23990.05点；恒生科技指数跌1.28%。联想集团跌超",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -444,18 +350,18 @@
      "title": "港股开盘下挫，恒生指数跌幅扩大逾1%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-20/doc-inivvsvt5816004.shtml",
-     "rrf": 0.02963,
+     "rrf": 0.02942,
      "bm25_rank": 7,
-     "vec_rank": 8
+     "vec_rank": 9
     },
     {
      "n": 7,
      "title": "A股开盘：三大指数集体低开",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202610203900806754.html",
-     "rrf": 0.02944,
+     "rrf": 0.02924,
      "bm25_rank": 6,
-     "vec_rank": 10
+     "vec_rank": 11
     },
     {
      "n": 8,
@@ -470,10 +376,104 @@
    "degraded": 1,
    "retrieval": {
     "query": "快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌",
-    "bm25_only": 1,
+    "bm25_only": 2,
     "vec_only": 1,
-    "both": 6,
+    "both": 5,
     "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "5b12cf4366450e91",
+   "label": "A股机器人概念股继续活跃，京城股份3连板，福莱新材2连板，宁波东力、科森科技、浙",
+   "cached": false,
+   "sections": {
+    "事件概述": "「A股机器人概念股继续活跃，京城股份3连板，福莱新材2连板，宁波东力、科森科技、浙」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.67（爆点），所属板块类目：汽车出行。",
+    "关键信息": "A股机器人概念股继续活跃，京城股份3连板，福莱新材2连板，宁波东力、科森科技、浙；人形机器人概念表现活跃 福莱新材2连板；2连板泰尔股份：上半年工业机器人相关业务对整体经营业绩影响较小",
+    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "A股机器人概念股继续活跃，京城股份3连板，福莱新材2连板，宁波东力、科森科技、浙",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3181507",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "人形机器人概念表现活跃 福莱新材2连板",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610203900842644.html",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "2连板泰尔股份：上半年工业机器人相关业务对整体经营业绩影响较小",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-21/doc-inivyxhf5395604.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "2连板宁波东力：控股股东已累计增持1.73%股份",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610203901468360.html",
+     "rrf": 0.03037,
+     "bm25_rank": 3,
+     "vec_rank": 9
+    },
+    {
+     "n": 5,
+     "title": "机器人概念股多数走强 五一视界涨超23%兆威机电涨超14%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-20/doc-inivvsvr7618576.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 14,
+     "vec_rank": 2
+    },
+    {
+     "n": 6,
+     "title": "港股物理AI概念股走强 越疆涨近4%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610213902223351.html",
+     "rrf": 0.02848,
+     "bm25_rank": 15,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "军工板块震荡走高 海洋王4连板",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610213902324496.html",
+     "rrf": 0.02819,
+     "bm25_rank": 9,
+     "vec_rank": 13
+    },
+    {
+     "n": 8,
+     "title": "机器人板块大涨4%！三重趋势共振，人形机器人赛道从预期走向业绩兑现",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-20/doc-inivwpzi5701756.shtml",
+     "rrf": 0.02753,
+     "bm25_rank": 24,
+     "vec_rank": 4
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "A股机器人概念股继续活跃，京城股份3连板，福莱新材2连板，宁波东力、科森科技、浙",
+    "bm25_only": 1,
+    "vec_only": 3,
+    "both": 3,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }

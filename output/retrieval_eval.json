@@ -1,38 +1,20 @@
 {
  "summary": {
-  "n_queries": 8,
+  "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.386,
-  "avg_rank_diff": 1.7,
-  "avg_missed_by_bm25": 2.0,
-  "avg_missed_by_vector": 1.88,
-  "conclusion": "两路召回集平均重合度仅 39%；即便重合的文档，两路名次平均相差 1.7 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.0 篇最终进入 Top8 的文档；只用向量则漏掉 1.88 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.385,
+  "avg_rank_diff": 1.33,
+  "avg_missed_by_bm25": 2.22,
+  "avg_missed_by_vector": 2.11,
+  "conclusion": "两路召回集平均重合度仅 38%；即便重合的文档，两路名次平均相差 1.33 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.22 篇最终进入 Top8 的文档；只用向量则漏掉 2.11 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新",
-   "jaccard": 0.231,
-   "rank_diff": 1.67,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
-   "example_top1": "财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新持仓曝光丨2026年10月21日"
-  },
-  {
-   "type": "关键词式",
-   "query": "财经 早报 资金 持续 逆势 流入",
-   "jaccard": 0.455,
-   "rank_diff": 1.8,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新持仓曝光丨2026年10月21日"
-  },
-  {
-   "type": "原标题式",
    "query": "解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是",
    "jaccard": 0.333,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 2,
+   "rank_diff": 0.75,
+   "missed_by_bm25": 3,
    "missed_by_vector": 2,
    "example_top1": "解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是完整配套和仍在扩张的出口，明年三"
   },
@@ -40,8 +22,8 @@
    "type": "关键词式",
    "query": "解读 季报 专访 刘志彪 三季度 工业",
    "jaccard": 0.6,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 1,
+   "rank_diff": 1.5,
+   "missed_by_bm25": 2,
    "missed_by_vector": 1,
    "example_top1": "解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是完整配套和仍在扩张的出口，明年三"
   },
@@ -56,30 +38,57 @@
   },
   {
    "type": "原标题式",
-   "query": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，Core",
-   "jaccard": 0.455,
-   "rank_diff": 2.4,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%"
+   "query": "10月20日美股成交额前20：存储板块反弹领涨 闪迪涨超5%",
+   "jaccard": 0.333,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 3,
+   "example_top1": "10月20日美股成交额前20：存储板块反弹领涨 闪迪涨超5% 美光将举办技术网络研讨会"
   },
   {
    "type": "关键词式",
-   "query": "美股 期货 反弹 纳指 期货 资金",
-   "jaccard": 0.455,
-   "rank_diff": 1.8,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%"
+   "query": "日美股 成交额 存储 板块 反弹 领涨",
+   "jaccard": 0.231,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 5,
+   "example_top1": "10月20日美股成交额前20：存储板块反弹领涨 闪迪涨超5% 美光将举办技术网络研讨会"
   },
   {
    "type": "去数字泛化",
-   "query": "美股期货反弹，纳指期货涨，资金重返AI交易，CoreWeav",
-   "jaccard": 0.333,
-   "rank_diff": 1.75,
+   "query": "月日美股成交额前：存储板块反弹领涨 闪迪涨超 美光将举办技术",
+   "jaccard": 0.231,
+   "rank_diff": 0.33,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "10月20日美股成交额前20：存储板块反弹领涨 闪迪涨超5% 美光将举办技术网络研讨会"
+  },
+  {
+   "type": "原标题式",
+   "query": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级",
+   "jaccard": 0.455,
+   "rank_diff": 1.8,
    "missed_by_bm25": 2,
    "missed_by_vector": 2,
-   "example_top1": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%"
+   "example_top1": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲"
+  },
+  {
+   "type": "关键词式",
+   "query": "宁德 时代 大跌 股跌超 摩根 大通",
+   "jaccard": 0.6,
+   "rank_diff": 1.83,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "宁德时代A股大跌，H股跌超！摩根大通下调H股评级，公司回应：",
+   "jaccard": 0.455,
+   "rank_diff": 1.4,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲"
   }
  ]
 }
