@@ -1,6 +1,6 @@
 {
  "engine": "template(降级)",
- "n_clusters": 52,
+ "n_clusters": 57,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
@@ -8,106 +8,200 @@
  "elapsed": 6.2,
  "reports": [
   {
-   "key": "19bf3e58bc00fcb5",
-   "label": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、",
+   "key": "319805f2f15b40ec",
+   "label": "财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新持仓曝光丨2026年10月21日",
    "cached": false,
    "sections": {
-    "事件概述": "「日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、」由 16 篇报道聚合而成，覆盖 3 家媒体，热度 0.895（爆点），所属板块类目：综合。",
-    "关键信息": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、；日经225指数低开0.2%，韩国首尔综指低开0.6%。；韩国首尔综指跌幅扩大至2%，SK海力士跌近4%，三星电子跌近2%。",
+    "事件概述": "「财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新持仓曝光丨2026年10月21日」由 28 篇报道聚合而成，覆盖 3 家媒体，热度 0.819（爆点），所属板块类目：金融市场。",
+    "关键信息": "财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新持仓曝光丨2026年；财经早报丨A股将迎至少360亿活水 长线资金最新持仓曝光(名单)丨2026年10；掘金细分龙头 长线资金最新持仓曝光",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180737",
+     "title": "财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新持仓曝光丨2026年10月21日",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/y/2026-10-21/doc-inivxvut5474687.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "日经225指数低开0.2%，韩国首尔综指低开0.6%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3181479",
+     "title": "财经早报丨A股将迎至少360亿活水 长线资金最新持仓曝光(名单)丨2026年10月20日",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/y/2026-10-20/doc-inivvnpv5886100.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "韩国首尔综指跌幅扩大至2%，SK海力士跌近4%，三星电子跌近2%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3181481",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
-     "vec_rank": 3
+     "title": "掘金细分龙头 长线资金最新持仓曝光",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-20/doc-inivuvry0959186.shtml",
+     "rrf": 0.02996,
+     "bm25_rank": 3,
+     "vec_rank": 11
     },
     {
      "n": 4,
-     "title": "日韩股市，开盘下跌",
+     "title": "通信行业资金流入榜：亨通光电等7股净流入资金超亿元",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-19/doc-inivtiqx6919325.shtml",
-     "rrf": 0.03125,
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-19/doc-inivueup6920915.shtml",
+     "rrf": 0.02932,
      "bm25_rank": 4,
-     "vec_rank": 4
+     "vec_rank": 13
     },
     {
      "n": 5,
-     "title": "存储双雄，开盘大跌",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-19/doc-inivtiqs0752336.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
+     "title": "中原证券邓淑斌：主动ETF标志长钱入市升级 与回购增持形成双向支撑",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3181268",
+     "rrf": 0.02838,
+     "bm25_rank": 12,
+     "vec_rank": 9
     },
     {
      "n": 6,
-     "title": "韩国首尔综指跌幅扩大至4%。 MSCI亚太指数下跌1%至261.32点。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3181495",
+     "title": "002415，冯柳减仓，裘国根加仓",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-10-19/doc-inivurka0901771.shtml",
+     "rrf": 0.02781,
+     "bm25_rank": 6,
+     "vec_rank": 19
+    },
+    {
+     "n": 7,
+     "title": "高盛策略师：股票市场谨慎情绪升温",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-19/doc-inivtynr6960652.shtml",
+     "rrf": 0.02727,
+     "bm25_rank": 7,
+     "vec_rank": 21
+    },
+    {
+     "n": 8,
+     "title": "A股近一个月融资净流出超千亿 杠杆资金“后撤待命” 两融余额不断刷新年内新低",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-21/doc-inivxrny7930209.shtml",
+     "rrf": 0.02685,
+     "bm25_rank": 15,
+     "vec_rank": 14
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "财经早报丨资金持续逆势流入宽基ETF 张坤、董承非、冯柳最新持仓曝光丨2026年",
+    "bm25_only": 4,
+    "vec_only": 0,
+    "both": 2,
+    "neither_topk": 2
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "f1405af5e668ea2f",
+   "label": "解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是完整配套和仍在扩张的出口，明年三个指",
+   "cached": false,
+   "sections": {
+    "事件概述": "「解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是完整配套和仍在扩张的出口，明年三个指」由 31 篇报道聚合而成，覆盖 3 家媒体，热度 0.794（爆点），所属板块类目：宏观政策。",
+    "关键信息": "解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是完整配套和仍在扩张的；权威数读｜前三季度规上工业增加值同比增长5.3%；前三季度规模以上工业增加值同比增长5.3%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是完整配套和仍在扩张的出口，明年三个指标比增速更重要",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivurka0929279.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "权威数读｜前三季度规上工业增加值同比增长5.3%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-20/doc-inivwpzm6501211.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 3,
+     "title": "前三季度规模以上工业增加值同比增长5.3%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-21/doc-inivxrnx6325712.shtml",
      "rrf": 0.03037,
      "bm25_rank": 3,
      "vec_rank": 9
     },
     {
+     "n": 4,
+     "title": "解读中国经济“三季报” | 三组数据看经济发展韧性",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivurki6848624.shtml",
+     "rrf": 0.03016,
+     "bm25_rank": 10,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "今年三季度全国共1.92亿人次出入境",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-21/doc-inivxrnx6316984.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
+     "vec_rank": 8
+    },
+    {
+     "n": 6,
+     "title": "多项指标创新高！前三季度我国装备工业、中小企业表现亮眼",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-20/doc-inivwiti7757738.shtml",
+     "rrf": 0.02983,
+     "bm25_rank": 13,
+     "vec_rank": 2
+    },
+    {
      "n": 7,
-     "title": "韩国首尔综指转涨，受三星上涨和本地基金买入提振，此前一度跌超3%。 日经225指",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180756",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
+     "title": "今年前三季度中国工业对经济增长贡献率保持在35%左右",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-20/10717923.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
      "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "韩国首尔综指日内跌幅收窄至不到1%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180741",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
+     "title": "宁德时代三季度利润增速放缓 储能业务或撑起新增长极",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivxeww0914224.shtml",
+     "rrf": 0.02946,
+     "bm25_rank": 2,
+     "vec_rank": 15
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "日经225指数低开0.9%，韩国首尔综指低开3.2%。 SK海力士股价下跌4%、",
-    "bm25_only": 1,
-    "vec_only": 0,
-    "both": 7,
+    "query": "解读三季报｜专访刘志彪：前三季度工业增速能守住5%以上靠的是完整配套和仍在扩张的",
+    "bm25_only": 2,
+    "vec_only": 2,
+    "both": 4,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "34b35309a834b4d2",
+   "key": "6124025ee17c07e5",
    "label": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%",
    "cached": false,
    "sections": {
-    "事件概述": "「美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.875（爆点），所属板块类目：国际市场。",
-    "关键信息": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌2；盘前：美股存储股下挫 CoreWeave跌逾4%上周暴跌超25%；盘前：纳斯达克100指数期货上涨1.3% 市场看好本周Meta、特斯拉财报稳住大",
+    "事件概述": "「美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.709（爆点），所属板块类目：国际市场。",
+    "关键信息": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌2；盘前：美股存储股下挫 CoreWeave跌逾4%上周暴跌超25%；凌晨利好突袭！刚刚集体暴拉！两份超预期财报点燃AI交易热情",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -132,75 +226,169 @@
     },
     {
      "n": 3,
-     "title": "盘前：纳斯达克100指数期货上涨1.3% 市场看好本周Meta、特斯拉财报稳住大盘",
+     "title": "凌晨利好突袭！刚刚集体暴拉！两份超预期财报点燃AI交易热情",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivumaf7742643.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "AI股抛售潮过后 美股有望反弹",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtynm7658726.shtml",
+     "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivxrnx6325001.shtml",
      "rrf": 0.0315,
      "bm25_rank": 4,
      "vec_rank": 3
     },
     {
-     "n": 5,
-     "title": "开盘：纳斯达克指数上涨 投资者逢低买入AI板块",
+     "n": 4,
+     "title": "盘前：纳斯达克100指数期货上涨1.3% 市场看好本周Meta、特斯拉财报稳住大盘",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivumai6156387.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivumaf7742643.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
      "vec_rank": 5
     },
     {
-     "n": 6,
-     "title": "美股期货亚市盘初走高，标普500指数期货上涨0.3%，纳斯达克100指数期货上涨",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180708",
-     "rrf": 0.03008,
+     "n": 5,
+     "title": "AI股抛售潮过后 美股有望反弹",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtynm7658726.shtml",
+     "rrf": 0.03078,
      "bm25_rank": 6,
-     "vec_rank": 7
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "美国股指期货走低 AI相关忧虑重返市场",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivwuia0917871.shtml",
+     "rrf": 0.02988,
+     "bm25_rank": 5,
+     "vec_rank": 9
     },
     {
      "n": 7,
-     "title": "华尔街见闻早餐 | 2026年10月19日",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3180712",
-     "rrf": 0.02831,
-     "bm25_rank": 16,
+     "title": "开盘：纳斯达克指数上涨 投资者逢低买入AI板块",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivumai6156387.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 10,
      "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "清晨科技股暗盘直线拉升！美国、俄罗斯传出大消息！",
+     "title": "利好来了！刚刚，全线拉升！俄乌谈判，突传重磅！英国宣布：出兵协助沙特！油价“深V”反弹",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivtchx6282472.shtml",
-     "rrf": 0.02773,
-     "bm25_rank": 5,
-     "vec_rank": 21
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-21/doc-inivxvuy4699061.shtml",
+     "rrf": 0.0284,
+     "bm25_rank": 13,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌2",
     "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
+    "vec_only": 2,
+    "both": 5,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "93e8b41383eb6d0b",
+   "key": "9d99ed33144a8c36",
+   "label": "中原证券邓淑斌：主动ETF标志长钱入市升级 与回购增持形成双向支撑",
+   "cached": false,
+   "sections": {
+    "事件概述": "「中原证券邓淑斌：主动ETF标志长钱入市升级 与回购增持形成双向支撑」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.652（爆点），所属板块类目：金融市场。",
+    "关键信息": "中原证券邓淑斌：主动ETF标志长钱入市升级 与回购增持形成双向支撑；上交所首批主动ETF获批 助力中长期资金入市；增量资金，要来了",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "中原证券邓淑斌：主动ETF标志长钱入市升级 与回购增持形成双向支撑",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3181268",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "上交所首批主动ETF获批 助力中长期资金入市",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717417.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "增量资金，要来了",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-19/doc-inivumai6151715.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 3,
+     "vec_rank": 9
+    },
+    {
+     "n": 4,
+     "title": "增量资金来了！首批18只，正式获批",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-19/doc-inivumai6091595.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 5,
+     "vec_rank": 7
+    },
+    {
+     "n": 5,
+     "title": "首批18只主动ETF获批 持续推进“长钱长投”增强市场稳定性",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-20/doc-inivuvsf6819201.shtml",
+     "rrf": 0.02929,
+     "bm25_rank": 16,
+     "vec_rank": 2
+    },
+    {
+     "n": 6,
+     "title": "吴清：同意首批18只主动ETF注册 为市场引入更多增量资金",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/china/2026-10-19/doc-inivtynm7761624.shtml",
+     "rrf": 0.02908,
+     "bm25_rank": 13,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "深市回购增持持续活跃 真金白银彰显信心与价值",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-19/doc-inivumam6829827.shtml",
+     "rrf": 0.02899,
+     "bm25_rank": 10,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "政策端释放积极信号 引导公募逆周期布局锚定长期价值",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-20/doc-inivuvsc6087853.shtml",
+     "rrf": 0.02869,
+     "bm25_rank": 18,
+     "vec_rank": 3
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "中原证券邓淑斌：主动ETF标志长钱入市升级 与回购增持形成双向支撑",
+    "bm25_only": 1,
+    "vec_only": 4,
+    "both": 3,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "0de09c8d8d89f95a",
    "label": "快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌超6%",
    "cached": false,
    "sections": {
-    "事件概述": "「快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌超6%」由 15 篇报道聚合而成，覆盖 4 家媒体，热度 0.832（爆点），所属板块类目：金融市场。",
+    "事件概述": "「快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌超6%」由 17 篇报道聚合而成，覆盖 4 家媒体，热度 0.647（爆点），所属板块类目：金融市场。",
     "关键信息": "快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌；港股午评：恒指跌0.95% 科指跌1.21% 科网股普跌 黄金股下挫 联想跌超7；恒指低开0.81%，报23990.05点；恒生科技指数跌1.28%。联想集团跌超",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -235,245 +423,57 @@
     },
     {
      "n": 4,
-     "title": "港股开盘下挫，恒生指数跌幅扩大逾1%",
+     "title": "快讯：恒指高开1.14%重回24000点 恒科指涨1.6% 科网股普涨 存储概念股高开",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-20/doc-inivvsvt5816004.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-21/doc-inivxvut5535592.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
     },
     {
      "n": 5,
      "title": "港股开盘：恒生指数低开0.81%，恒生科技指数低开1.28%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202610203900801362.html",
-     "rrf": 0.03012,
-     "bm25_rank": 9,
-     "vec_rank": 4
+     "rrf": 0.02986,
+     "bm25_rank": 8,
+     "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "A股开盘：三大指数集体低开",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610193899288535.html",
+     "title": "港股开盘下挫，恒生指数跌幅扩大逾1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-20/doc-inivvsvt5816004.shtml",
      "rrf": 0.02963,
-     "bm25_rank": 8,
-     "vec_rank": 7
+     "bm25_rank": 7,
+     "vec_rank": 8
     },
     {
      "n": 7,
-     "title": "A股开盘：超3300只个股飘绿，三大指数集体低开",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-20/10717605.shtml",
-     "rrf": 0.02837,
-     "bm25_rank": 11,
+     "title": "A股开盘：三大指数集体低开",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610203900806754.html",
+     "rrf": 0.02944,
+     "bm25_rank": 6,
      "vec_rank": 10
     },
     {
      "n": 8,
-     "title": "创业板指、科创50指数均跌超1%，沪指跌0.32%，创业板指跌0.66%，贵金属",
+     "title": "恒指高开1.14%，报24139.11点；恒生科技指数涨1.60%。联想集团涨6",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3181510",
-     "rrf": 0.02783,
-     "bm25_rank": 15,
-     "vec_rank": 9
+     "url": "https://wallstreetcn.com/livenews/3182235",
+     "rrf": 0.02821,
+     "bm25_rank": 18,
+     "vec_rank": 5
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "快讯：恒指低开0.81% 恒科指跌1.28% 科网股普跌 存储概念股低开 联想跌",
-    "bm25_only": 0,
+    "bm25_only": 1,
     "vec_only": 1,
-    "both": 5,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "a8bb13a06b4a82d4",
-   "label": "政策利率官宣“换锚”隔夜回购利率 潘功胜明确货币政策框架转型方向",
-   "cached": false,
-   "sections": {
-    "事件概述": "「政策利率官宣“换锚”隔夜回购利率 潘功胜明确货币政策框架转型方向」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.794（爆点），所属板块类目：综合。",
-    "关键信息": "政策利率官宣“换锚”隔夜回购利率 潘功胜明确货币政策框架转型方向；政策利率“换锚”隔夜影响几何？一文读懂货币政策框架新变化；潘功胜：公开市场隔夜回购利率将成主要政策利率",
-    "市场影响": "关联板块代码：BK000199。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "政策利率官宣“换锚”隔夜回购利率 潘功胜明确货币政策框架转型方向",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-20/doc-inivvnpt7519994.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "政策利率“换锚”隔夜影响几何？一文读懂货币政策框架新变化",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-20/doc-inivwitp6539432.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "潘功胜：公开市场隔夜回购利率将成主要政策利率",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717423.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "从7天到隔夜！政策利率“换锚”，原因几何？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-20/doc-inivwiti7640231.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "（经济观察）中国政策利率或将“换锚” 利率调控机制不断完善",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-20/10717967.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "中国人民银行行长潘功胜宣布将出台多个政策举措：设立应对非银机构大额赎回的流动性支持工具",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-20/doc-inivuvry0959181.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 6,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "金融街论坛六大信号：政策利率“换锚”在即，流动性工具落地",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/stockptd/2026-10-20/doc-inivvnps0867008.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 9,
-     "vec_rank": 5
-    },
-    {
-     "n": 8,
-     "title": "中国人民银行：将在10月21日至11月2日开展隔夜逆回购操作，采用固定利率、数量",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3181527",
-     "rrf": 0.02963,
-     "bm25_rank": 7,
-     "vec_rank": 8
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "政策利率官宣“换锚”隔夜回购利率 潘功胜明确货币政策框架转型方向",
-    "bm25_only": 0,
-    "vec_only": 1,
-    "both": 7,
+    "both": 6,
     "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "69f6ff4a45525eb9",
-   "label": "国家统计局：第三季度金融业GDP同比增长4.1%，房地产业GDP同比下降0.4%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「国家统计局：第三季度金融业GDP同比增长4.1%，房地产业GDP同比下降0.4%」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.78（爆点），所属板块类目：宏观政策。",
-    "关键信息": "国家统计局：第三季度金融业GDP同比增长4.1%，房地产业GDP同比下降0.4%；第三季度GDP增速止跌回升，9月数据边际改善明显；9月份云南CPI环比下降0.1% PPI同比涨幅扩大",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "国家统计局：第三季度金融业GDP同比增长4.1%，房地产业GDP同比下降0.4%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3181525",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "第三季度GDP增速止跌回升，9月数据边际改善明显",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/wbstock/2026-10-19/doc-inivumai6121789.shtml",
-     "rrf": 0.02749,
-     "bm25_rank": 28,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "9月份云南CPI环比下降0.1% PPI同比涨幅扩大",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivtchz7004784.shtml",
-     "rrf": 0.02558,
-     "bm25_rank": 11,
-     "vec_rank": 27
-    },
-    {
-     "n": 4,
-     "title": "北化股份：第三季度归母净利润8231.34万元 同比增长0.81%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610203901485263.html",
-     "rrf": 0.01613,
-     "bm25_rank": 2,
-     "vec_rank": null
-    },
-    {
-     "n": 5,
-     "title": "首都在线：第三季度归母净利润4098.12万元 同比增长244.03%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610203901468781.html",
-     "rrf": 0.01587,
-     "bm25_rank": 3,
-     "vec_rank": null
-    },
-    {
-     "n": 6,
-     "title": "“数”说前三季度中国经济总体平稳 呈现向上、向新、向优态势",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivumai6166534.shtml",
-     "rrf": 0.01587,
-     "bm25_rank": null,
-     "vec_rank": 3
-    },
-    {
-     "n": 7,
-     "title": "康华生物：第三季度归母净利润8611.74万元 同比增长15.45%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610203901465786.html",
-     "rrf": 0.01562,
-     "bm25_rank": 4,
-     "vec_rank": null
-    },
-    {
-     "n": 8,
-     "title": "前三季度GDP同比增长4.6% 电子、机器人等新动能行业表现亮眼",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivumaf7750207.shtml",
-     "rrf": 0.01562,
-     "bm25_rank": null,
-     "vec_rank": 4
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "国家统计局：第三季度金融业GDP同比增长4.1%，房地产业GDP同比下降0.4%",
-    "bm25_only": 3,
-    "vec_only": 3,
-    "both": 1,
-    "neither_topk": 1
    },
    "elapsed": 0.0
   }
