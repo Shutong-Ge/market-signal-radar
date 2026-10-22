@@ -1,206 +1,112 @@
 {
  "engine": "template(降级)",
- "n_clusters": 60,
+ "n_clusters": 59,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.1,
+ "elapsed": 3.8,
  "reports": [
   {
-   "key": "fdfd92dffdaab42a",
-   "label": "快讯：恒指高开1.14%重回24000点 恒科指涨1.6% 科网股普涨 存储概念股高开",
+   "key": "5dfae5f06f54b63f",
+   "label": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%",
    "cached": false,
    "sections": {
-    "事件概述": "「快讯：恒指高开1.14%重回24000点 恒科指涨1.6% 科网股普涨 存储概念股高开」由 21 篇报道聚合而成，覆盖 3 家媒体，热度 0.795（爆点），所属板块类目：金融市场。",
-    "关键信息": "快讯：恒指高开1.14%重回24000点 恒科指涨1.6% 科网股普涨 存储概念；快讯：恒指低开0.58% 恒科指跌1.15% 科网股普跌 黄金股低开；恒指高开1.14%，报24139.11点；恒生科技指数涨1.60%。联想集团涨6",
+    "事件概述": "「港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.814（爆点），所属板块类目：金融市场。",
+    "关键信息": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时；恒指低开0.58%，报23513.79点；恒生科技指数跌1.15%。联想集团跌超；港股锂电池股走弱 宁德时代跌超8%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "快讯：恒指高开1.14%重回24000点 恒科指涨1.6% 科网股普涨 存储概念股高开",
+     "title": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-21/doc-inivxvut5535592.shtml",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-21/doc-inivyaat6254523.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "快讯：恒指低开0.58% 恒科指跌1.15% 科网股普跌 黄金股低开",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-22/doc-iniwaezt5900190.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "恒指高开1.14%，报24139.11点；恒生科技指数涨1.60%。联想集团涨6",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3182235",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "港股开盘：恒生指数高开1.14% 恒生科技指数高开1.6%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610213902213473.html",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "港股存储概念集体高开，南方最多两倍做多海力士涨超14%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-21/doc-inivxvut5541033.shtml",
-     "rrf": 0.03033,
-     "bm25_rank": 4,
-     "vec_rank": 8
-    },
-    {
-     "n": 6,
-     "title": "A股开盘：三大指数集体高开",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610213902222841.html",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "港股午评：恒指跌0.95% 科指跌1.21% 科网股普跌 黄金股下挫 联想跌超7%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-20/doc-inivvxcr5802503.shtml",
-     "rrf": 0.02878,
-     "bm25_rank": 10,
-     "vec_rank": 9
-    },
-    {
-     "n": 8,
      "title": "恒指低开0.58%，报23513.79点；恒生科技指数跌1.15%。联想集团跌超",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3183059",
-     "rrf": 0.02775,
-     "bm25_rank": 18,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "快讯：恒指高开1.14%重回24000点 恒科指涨1.6% 科网股普涨 存储概念",
-    "bm25_only": 0,
-    "vec_only": 1,
-    "both": 6,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "4977cd6c4cf1e1d9",
-   "label": "专访教育部长江学者特聘教授刘志彪：前三季度工业守住5%以上增速是靠完整配套和出口扩张",
-   "cached": false,
-   "sections": {
-    "事件概述": "「专访教育部长江学者特聘教授刘志彪：前三季度工业守住5%以上增速是靠完整配套和出口扩张」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.784（爆点），所属板块类目：宏观政策。",
-    "关键信息": "专访教育部长江学者特聘教授刘志彪：前三季度工业守住5%以上增速是靠完整配套和出口；前三季度规模以上工业增加值同比增长5.3%；今年三季度全国共1.92亿人次出入境",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "专访教育部长江学者特聘教授刘志彪：前三季度工业守住5%以上增速是靠完整配套和出口扩张",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-20/doc-inivwpzi5768839.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "前三季度规模以上工业增加值同比增长5.3%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-21/doc-inivxrnx6325712.shtml",
      "rrf": 0.03175,
      "bm25_rank": 3,
      "vec_rank": 3
     },
     {
      "n": 3,
-     "title": "今年三季度全国共1.92亿人次出入境",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-21/doc-inivxrnx6316984.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
+     "title": "港股锂电池股走弱 宁德时代跌超8%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610213902278982.html",
+     "rrf": 0.03083,
+     "bm25_rank": 2,
+     "vec_rank": 8
     },
     {
      "n": 4,
-     "title": "权威数读｜前三季度规上工业增加值同比增长5.3%",
+     "title": "港股全日震荡走软 恒指收跌0.90% 宁德时代（03750）挫逾11%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-20/doc-inivwpzm6501211.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "多项指标创新高！前三季度我国装备工业、中小企业表现亮眼",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-20/doc-inivwiti7757738.shtml",
+     "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-10-21/doc-inivynsm5490868.shtml",
      "rrf": 0.03062,
      "bm25_rank": 9,
      "vec_rank": 2
     },
     {
-     "n": 6,
-     "title": "如何进一步稳定工业经济增长？工信部答21：着力做好四方面工作",
+     "n": 5,
+     "title": "港股开盘下挫：恒生科技指数跌幅扩大逾2%，恒生指数跌超1%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-20/doc-inivwpze0961519.shtml",
-     "rrf": 0.03054,
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-22/doc-iniwaezu8010642.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "宁德时代港股低开3.29%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610223903534310.html",
+     "rrf": 0.0303,
      "bm25_rank": 6,
-     "vec_rank": 5
+     "vec_rank": 6
     },
     {
      "n": 7,
-     "title": "今年前三季度中国工业对经济增长贡献率保持在35%左右",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-20/10717923.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
+     "title": "快讯：恒指高开1.14%重回24000点 恒科指涨1.6% 科网股普涨 存储概念股高开",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-21/doc-inivxvut5535592.shtml",
+     "rrf": 0.02988,
+     "bm25_rank": 5,
+     "vec_rank": 9
     },
     {
      "n": 8,
-     "title": "宁德时代三季度利润增速放缓 储能业务或撑起新增长极",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivxeww0914224.shtml",
-     "rrf": 0.02879,
-     "bm25_rank": 2,
-     "vec_rank": 19
+     "title": "宁德时代A股港股盘中均跌超8%，此前财报显示公司第三季度净利润同比增长14.54",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3182250",
+     "rrf": 0.02817,
+     "bm25_rank": 10,
+     "vec_rank": 12
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "专访教育部长江学者特聘教授刘志彪：前三季度工业守住5%以上增速是靠完整配套和出口",
+    "query": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时",
     "bm25_only": 1,
     "vec_only": 1,
-    "both": 6,
-    "neither_topk": 0
+    "both": 5,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "a3baecd53de8e0da",
+   "key": "2179d32392d4125b",
    "label": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲观",
    "cached": false,
    "sections": {
-    "事件概述": "「宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲观」由 20 篇报道聚合而成，覆盖 3 家媒体，热度 0.745（爆点），所属板块类目：综合。",
+    "事件概述": "「宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲观」由 21 篇报道聚合而成，覆盖 3 家媒体，热度 0.704（爆点），所属板块类目：综合。",
     "关键信息": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场；小摩：宁德时代降至“中性”评级 整车厂盈利能力已承压；宁德时代A股跌超12%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -238,8 +144,8 @@
      "title": "股价跌超10% 宁德时代盘中回购约8亿元股份",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-22/doc-inivziwc6084142.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
+     "rrf": 0.03031,
+     "bm25_rank": 7,
      "vec_rank": 5
     },
     {
@@ -256,8 +162,8 @@
      "title": "宁德时代AH股大跌9% 三季度毛利率创2022年四季度以来新低",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-21/doc-inivxvuy4808550.shtml",
-     "rrf": 0.03002,
-     "bm25_rank": 12,
+     "rrf": 0.02964,
+     "bm25_rank": 14,
      "vec_rank": 2
     },
     {
@@ -274,9 +180,9 @@
      "title": "小摩：下调宁德时代、中创新航及先导智能评级与目标价 忧行业盈利能力恶化",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-21/doc-inivyaaw4864946.shtml",
-     "rrf": 0.02886,
+     "rrf": 0.02853,
      "bm25_rank": 3,
-     "vec_rank": 17
+     "vec_rank": 19
     }
    ],
    "degraded": 1,
@@ -290,11 +196,105 @@
    "elapsed": 0.0
   },
   {
-   "key": "b21a144bd022643b",
+   "key": "ba566131b99ab7ff",
+   "label": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于",
+   "cached": false,
+   "sections": {
+    "事件概述": "「韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.638（爆点），所属板块类目：半导体。",
+    "关键信息": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于；韩国央行预计今年和明年的经济增长率将显著高于8月份所预测的3.3%和2.9%；韩国央行预计今明两年经济增长将显著高于8月时的预期",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3183075",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "韩国央行预计今年和明年的经济增长率将显著高于8月份所预测的3.3%和2.9%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610223903575532.html",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "韩国央行预计今明两年经济增长将显著高于8月时的预期",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwaezt5927841.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "韩国央行：预计明年起芯片出口强劲势头将传导至私人消费领域",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwarrq8100321.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "韩国央行行长：核心通胀2028年有望接近2%目标",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwavxi5131089.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 5,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "韩国出口保持强劲增势 央行利率决议前夕凸显经济韧性",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivxvuv6235410.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "韩国央行将基准利率维持在3.00%不变 符合预期",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-inivzyty4865041.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 6,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "韩国10月出口保持强劲增长势头",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610213902117880.html",
+     "rrf": 0.02885,
+     "bm25_rank": 13,
+     "vec_rank": 6
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "048f37c3985f8037",
    "label": "马斯克：SpaceX和特斯拉旗下的Terafab计划于2028年实现芯片量产",
    "cached": false,
    "sections": {
-    "事件概述": "「马斯克：SpaceX和特斯拉旗下的Terafab计划于2028年实现芯片量产」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.639（爆点），所属板块类目：汽车出行。",
+    "事件概述": "「马斯克：SpaceX和特斯拉旗下的Terafab计划于2028年实现芯片量产」由 7 篇报道聚合而成，覆盖 2 家媒体，热度 0.632（爆点），所属板块类目：汽车出行。",
     "关键信息": "马斯克：SpaceX和特斯拉旗下的Terafab计划于2028年实现芯片量产；韩媒：马斯克的Terafab正在与约10家韩国芯片供应商洽谈合作；SpaceX与特斯拉董事会探讨合并可能性",
     "市场影响": "关联板块代码：BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -329,21 +329,21 @@
     },
     {
      "n": 4,
+     "title": "马斯克称AI可能构成生存威胁，但无力阻止其发展",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivxvuv6231629.shtml",
+     "rrf": 0.03062,
+     "bm25_rank": 2,
+     "vec_rank": 9
+    },
+    {
+     "n": 5,
      "title": "马斯克：SpaceX与特斯拉已各自成立特别委员会，商讨合并事宜",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivxrny7902002.shtml",
      "rrf": 0.03058,
      "bm25_rank": 8,
      "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "马斯克称AI可能构成生存威胁，但无力阻止其发展",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivxvuv6231629.shtml",
-     "rrf": 0.03041,
-     "bm25_rank": 2,
-     "vec_rank": 10
     },
     {
      "n": 6,
@@ -356,124 +356,124 @@
     },
     {
      "n": 7,
-     "title": "马斯克捐超百亿！还有谁在给特朗普账户“打钱”？",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610203901463980.html",
-     "rrf": 0.02964,
-     "bm25_rank": 6,
-     "vec_rank": 9
-    },
-    {
-     "n": 8,
      "title": "马斯克：SpaceX与特斯拉已成立特别委员会研究潜在合并",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivxrnx6248492.shtml",
      "rrf": 0.02901,
      "bm25_rank": 11,
      "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "SpaceX财报超预期、马斯克暗示或与特斯拉合并，盘前大涨9%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivynsq8105648.shtml",
+     "rrf": 0.02899,
+     "bm25_rank": 10,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "马斯克：SpaceX和特斯拉旗下的Terafab计划于2028年实现芯片量产",
-    "bm25_only": 2,
-    "vec_only": 2,
+    "bm25_only": 1,
+    "vec_only": 3,
     "both": 4,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "6d91024f92d431e4",
-   "label": "A股机器人概念股反复活跃，大业股份5连板，兆威机电直线涨停，利亚德涨超10%，横",
+   "key": "ce78579cf15fb54e",
+   "label": "商品期货开盘，原油、燃料油、对二甲苯主力合约跌超3%，甲醇、PTA、聚丙烯、液化",
    "cached": false,
    "sections": {
-    "事件概述": "「A股机器人概念股反复活跃，大业股份5连板，兆威机电直线涨停，利亚德涨超10%，横」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.62（爆点），所属板块类目：汽车出行。",
-    "关键信息": "A股机器人概念股反复活跃，大业股份5连板，兆威机电直线涨停，利亚德涨超10%，横；人形机器人概念表现活跃 兆威机电4天2板；机器人概念股多数走强 五一视界涨超23%兆威机电涨超14%",
-    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「商品期货开盘，原油、燃料油、对二甲苯主力合约跌超3%，甲醇、PTA、聚丙烯、液化」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.625（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "商品期货开盘，原油、燃料油、对二甲苯主力合约跌超3%，甲醇、PTA、聚丙烯、液化；国内商品期货早盘开盘 主力合约涨跌不一；开盘|国内期货主力合约跌多涨少，集运欧线跌超5%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "A股机器人概念股反复活跃，大业股份5连板，兆威机电直线涨停，利亚德涨超10%，横",
+     "title": "商品期货开盘，原油、燃料油、对二甲苯主力合约跌超3%，甲醇、PTA、聚丙烯、液化",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3183071",
+     "url": "https://wallstreetcn.com/livenews/3182231",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "人形机器人概念表现活跃 兆威机电4天2板",
+     "title": "国内商品期货早盘开盘 主力合约涨跌不一",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610223903553665.html",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "机器人概念股多数走强 五一视界涨超23%兆威机电涨超14%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-20/doc-inivvsvr7618576.shtml",
+     "url": "https://finance.eastmoney.com/a/202610213902076792.html",
      "rrf": 0.032,
      "bm25_rank": 3,
      "vec_rank": 2
     },
     {
-     "n": 4,
-     "title": "物理AI概念批量涨停，英伟达、特斯拉、AMD都在押注",
+     "n": 3,
+     "title": "开盘|国内期货主力合约跌多涨少，集运欧线跌超5%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hyyj/2026-10-21/doc-inivysyq4875306.shtml",
-     "rrf": 0.02951,
-     "bm25_rank": 4,
-     "vec_rank": 12
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-21/doc-inivxvuw7972002.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "商品期货开盘，沪镍、苯乙烯主力合约涨超2%，不锈钢、沪铝、铝合金、乙二醇涨超1%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3183054",
+     "rrf": 0.03102,
+     "bm25_rank": 6,
+     "vec_rank": 3
     },
     {
      "n": 5,
-     "title": "特斯拉引爆！A股人形机器人，批量涨停",
+     "title": "开盘|国内期货主力合约涨跌不一，多晶硅跌超3%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-20/doc-inivwitp6450814.shtml",
-     "rrf": 0.02947,
-     "bm25_rank": 11,
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-22/doc-iniwaezr5149551.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
      "vec_rank": 5
     },
     {
      "n": 6,
-     "title": "多只热门股发布公告，机器人、算力等热点概念对业绩影响小",
+     "title": "收评|国内期货主力合约涨跌不一，烧碱跌超5%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-21/doc-inivzcqk4932268.shtml",
-     "rrf": 0.02822,
-     "bm25_rank": 8,
-     "vec_rank": 14
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-22/doc-iniwarrq8133881.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
     },
     {
      "n": 7,
-     "title": "港股物理AI概念股走强 越疆涨近4%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610213902223351.html",
-     "rrf": 0.02822,
-     "bm25_rank": 14,
-     "vec_rank": 8
+     "title": "华泰期货：燃料油维持强Back结构，关注市场边际变化",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-22/doc-iniwaezw4891163.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "港股物理AI概念股延续涨势 五一视界涨超4%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610223903539551.html",
-     "rrf": 0.02819,
-     "bm25_rank": 9,
-     "vec_rank": 13
+     "title": "国债期货开盘，30年期主力合约跌0.22%，10年期主力合约跌0.05%，5年期",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3182243",
+     "rrf": 0.02921,
+     "bm25_rank": 7,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "A股机器人概念股反复活跃，大业股份5连板，兆威机电直线涨停，利亚德涨超10%，横",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 3,
-    "neither_topk": 1
+    "query": "商品期货开盘，原油、燃料油、对二甲苯主力合约跌超3%，甲醇、PTA、聚丙烯、液化",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   }

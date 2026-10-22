@@ -1,73 +1,46 @@
 {
  "summary": {
-  "n_queries": 9,
+  "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.488,
-  "avg_rank_diff": 1.38,
-  "avg_missed_by_bm25": 1.78,
-  "avg_missed_by_vector": 1.56,
-  "conclusion": "两路召回集平均重合度仅 49%；即便重合的文档，两路名次平均相差 1.38 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.78 篇最终进入 Top8 的文档；只用向量则漏掉 1.56 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.554,
+  "avg_rank_diff": 1.48,
+  "avg_missed_by_bm25": 1.38,
+  "avg_missed_by_vector": 1.25,
+  "conclusion": "两路召回集平均重合度仅 55%；即便重合的文档，两路名次平均相差 1.48 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.38 篇最终进入 Top8 的文档；只用向量则漏掉 1.25 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "快讯：恒指高开1.14%重回24000点 恒科指涨1.6% ",
-   "jaccard": 0.6,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "快讯：恒指高开1.14%重回24000点 恒科指涨1.6% 科网股普涨 存储概念股高开"
-  },
-  {
-   "type": "关键词式",
-   "query": "快讯 恒指 高开 重回 恒科 指涨",
-   "jaccard": 0.455,
-   "rank_diff": 1.4,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 3,
-   "example_top1": "快讯：恒指高开1.14%重回24000点 恒科指涨1.6% 科网股普涨 存储概念股高开"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "快讯：恒指高开重回点 恒科指涨 科网股普涨 存储概念股高开",
-   "jaccard": 0.6,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "快讯：恒指高开1.14%重回24000点 恒科指涨1.6% 科网股普涨 存储概念股高开"
-  },
-  {
-   "type": "原标题式",
-   "query": "专访教育部长江学者特聘教授刘志彪：前三季度工业守住5%以上增",
+   "query": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存",
    "jaccard": 0.778,
-   "rank_diff": 2.14,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 0,
-   "example_top1": "专访教育部长江学者特聘教授刘志彪：前三季度工业守住5%以上增速是靠完整配套和出口扩张"
+   "rank_diff": 1.14,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 1,
+   "example_top1": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%"
   },
   {
    "type": "关键词式",
-   "query": "专访 教育部 长江 学者 特聘 教授",
-   "jaccard": 0.0,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
-   "example_top1": "专访教育部长江学者特聘教授刘志彪：前三季度工业守住5%以上增速是靠完整配套和出口扩张"
+   "query": "港股 午评 恒指 科指 科网 低迷",
+   "jaccard": 0.778,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 1,
+   "example_top1": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%"
   },
   {
    "type": "去数字泛化",
-   "query": "专访教育部长江学者特聘教授刘志彪：前三季度工业守住以上增速是",
-   "jaccard": 0.6,
-   "rank_diff": 1.17,
-   "missed_by_bm25": 1,
+   "query": "港股午评：恒指跌 科指跌 科网股低迷 存储概念股走强 宁德时",
+   "jaccard": 0.455,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 3,
    "missed_by_vector": 1,
-   "example_top1": "专访教育部长江学者特聘教授刘志彪：前三季度工业守住5%以上增速是靠完整配套和出口扩张"
+   "example_top1": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%"
   },
   {
    "type": "原标题式",
    "query": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级",
    "jaccard": 0.455,
-   "rank_diff": 2.0,
+   "rank_diff": 1.8,
    "missed_by_bm25": 2,
    "missed_by_vector": 1,
    "example_top1": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲"
@@ -76,19 +49,37 @@
    "type": "关键词式",
    "query": "宁德 时代 大跌 股跌超 摩根 大通",
    "jaccard": 0.455,
-   "rank_diff": 2.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
+   "rank_diff": 1.8,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
    "example_top1": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲"
   },
   {
    "type": "去数字泛化",
    "query": "宁德时代A股大跌，H股跌超！摩根大通下调H股评级，公司回应：",
    "jaccard": 0.455,
-   "rank_diff": 1.4,
+   "rank_diff": 1.2,
    "missed_by_bm25": 2,
    "missed_by_vector": 1,
    "example_top1": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲"
+  },
+  {
+   "type": "原标题式",
+   "query": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的",
+   "jaccard": 0.455,
+   "rank_diff": 1.6,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于"
+  },
+  {
+   "type": "关键词式",
+   "query": "韩国 央行 预计 出口 投资 维持",
+   "jaccard": 0.6,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于"
   }
  ]
 }
