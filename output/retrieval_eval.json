@@ -1,85 +1,94 @@
 {
  "summary": {
-  "n_queries": 8,
+  "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.554,
-  "avg_rank_diff": 1.48,
-  "avg_missed_by_bm25": 1.38,
-  "avg_missed_by_vector": 1.25,
-  "conclusion": "两路召回集平均重合度仅 55%；即便重合的文档，两路名次平均相差 1.48 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.38 篇最终进入 Top8 的文档；只用向量则漏掉 1.25 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.418,
+  "avg_rank_diff": 1.61,
+  "avg_missed_by_bm25": 1.78,
+  "avg_missed_by_vector": 2.0,
+  "conclusion": "两路召回集平均重合度仅 42%；即便重合的文档，两路名次平均相差 1.61 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.78 篇最终进入 Top8 的文档；只用向量则漏掉 2.0 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存",
-   "jaccard": 0.778,
-   "rank_diff": 1.14,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 1,
-   "example_top1": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%"
-  },
-  {
-   "type": "关键词式",
-   "query": "港股 午评 恒指 科指 科网 低迷",
-   "jaccard": 0.778,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 1,
-   "example_top1": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "港股午评：恒指跌 科指跌 科网股低迷 存储概念股走强 宁德时",
-   "jaccard": 0.455,
-   "rank_diff": 2.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 1,
-   "example_top1": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%"
-  },
-  {
-   "type": "原标题式",
    "query": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级",
-   "jaccard": 0.455,
-   "rank_diff": 1.8,
+   "jaccard": 0.333,
+   "rank_diff": 2.75,
    "missed_by_bm25": 2,
-   "missed_by_vector": 1,
+   "missed_by_vector": 2,
    "example_top1": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲"
   },
   {
    "type": "关键词式",
    "query": "宁德 时代 大跌 股跌超 摩根 大通",
-   "jaccard": 0.455,
-   "rank_diff": 1.8,
+   "jaccard": 0.6,
+   "rank_diff": 2.67,
    "missed_by_bm25": 1,
-   "missed_by_vector": 2,
+   "missed_by_vector": 1,
    "example_top1": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲"
   },
   {
    "type": "去数字泛化",
    "query": "宁德时代A股大跌，H股跌超！摩根大通下调H股评级，公司回应：",
-   "jaccard": 0.455,
-   "rank_diff": 1.2,
+   "jaccard": 0.333,
+   "rank_diff": 1.75,
    "missed_by_bm25": 2,
-   "missed_by_vector": 1,
+   "missed_by_vector": 2,
    "example_top1": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲"
   },
   {
    "type": "原标题式",
-   "query": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的",
-   "jaccard": 0.455,
-   "rank_diff": 1.6,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于"
+   "query": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传",
+   "jaccard": 0.143,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
+   "example_top1": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨2026年10月2"
   },
   {
    "type": "关键词式",
-   "query": "韩国 央行 预计 出口 投资 维持",
+   "query": "财经 早报 亿元 增量 资金 涌入",
+   "jaccard": 0.231,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 4,
+   "example_top1": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨2026年10月2"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "财经早报丨亿元增量资金将涌入A股 AI龙头股未出现网传连锁强",
+   "jaccard": 0.143,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 4,
+   "example_top1": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨2026年10月2"
+  },
+  {
+   "type": "原标题式",
+   "query": "法国10年期国债收益率13年来首超美债 会否酿成新一轮欧债危",
    "jaccard": 0.6,
-   "rank_diff": 1.33,
+   "rank_diff": 2.5,
    "missed_by_bm25": 1,
    "missed_by_vector": 1,
-   "example_top1": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于"
+   "example_top1": "法国10年期国债收益率13年来首超美债 会否酿成新一轮欧债危机"
+  },
+  {
+   "type": "关键词式",
+   "query": "法国 年期 国债 收益率 年来 首超",
+   "jaccard": 0.778,
+   "rank_diff": 2.29,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 0,
+   "example_top1": "法国10年期国债收益率自2002年以来首次升至5%"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "法国年期国债收益率年来首超美债 会否酿成新一轮欧债危机",
+   "jaccard": 0.6,
+   "rank_diff": 1.5,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "法国10年期国债收益率13年来首超美债 会否酿成新一轮欧债危机"
   }
  ]
 }

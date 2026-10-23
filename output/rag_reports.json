@@ -1,112 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 59,
+ "n_clusters": 58,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 3.8,
+ "elapsed": 5.7,
  "reports": [
   {
-   "key": "5dfae5f06f54b63f",
-   "label": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.814（爆点），所属板块类目：金融市场。",
-    "关键信息": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时；恒指低开0.58%，报23513.79点；恒生科技指数跌1.15%。联想集团跌超；港股锂电池股走弱 宁德时代跌超8%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-21/doc-inivyaat6254523.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "恒指低开0.58%，报23513.79点；恒生科技指数跌1.15%。联想集团跌超",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3183059",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "港股锂电池股走弱 宁德时代跌超8%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610213902278982.html",
-     "rrf": 0.03083,
-     "bm25_rank": 2,
-     "vec_rank": 8
-    },
-    {
-     "n": 4,
-     "title": "港股全日震荡走软 恒指收跌0.90% 宁德时代（03750）挫逾11%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-10-21/doc-inivynsm5490868.shtml",
-     "rrf": 0.03062,
-     "bm25_rank": 9,
-     "vec_rank": 2
-    },
-    {
-     "n": 5,
-     "title": "港股开盘下挫：恒生科技指数跌幅扩大逾2%，恒生指数跌超1%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-22/doc-iniwaezu8010642.shtml",
-     "rrf": 0.03033,
-     "bm25_rank": 8,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "宁德时代港股低开3.29%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610223903534310.html",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "快讯：恒指高开1.14%重回24000点 恒科指涨1.6% 科网股普涨 存储概念股高开",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-21/doc-inivxvut5535592.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 5,
-     "vec_rank": 9
-    },
-    {
-     "n": 8,
-     "title": "宁德时代A股港股盘中均跌超8%，此前财报显示公司第三季度净利润同比增长14.54",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3182250",
-     "rrf": 0.02817,
-     "bm25_rank": 10,
-     "vec_rank": 12
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 5,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "2179d32392d4125b",
+   "key": "88ac122dbb7f08a7",
    "label": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲观",
    "cached": false,
    "sections": {
-    "事件概述": "「宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲观」由 21 篇报道聚合而成，覆盖 3 家媒体，热度 0.704（爆点），所属板块类目：综合。",
+    "事件概述": "「宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场预期的那么悲观」由 13 篇报道聚合而成，覆盖 2 家媒体，热度 0.78（爆点），所属板块类目：综合。",
     "关键信息": "宁德时代A股大跌12%，H股跌超11%！摩根大通下调H股评级，公司回应：没有市场；小摩：宁德时代降至“中性”评级 整车厂盈利能力已承压；宁德时代A股跌超12%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -126,63 +32,63 @@
      "title": "小摩：宁德时代降至“中性”评级 整车厂盈利能力已承压",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-21/doc-inivynsp6123987.shtml",
-     "rrf": 0.03128,
+     "rrf": 0.03151,
      "bm25_rank": 2,
-     "vec_rank": 6
+     "vec_rank": 5
     },
     {
      "n": 3,
      "title": "宁德时代A股跌超12%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/s/2026-10-21/doc-inivynss4905548.shtml",
-     "rrf": 0.03058,
+     "rrf": 0.03083,
      "bm25_rank": 8,
-     "vec_rank": 3
+     "vec_rank": 2
     },
     {
      "n": 4,
      "title": "股价跌超10% 宁德时代盘中回购约8亿元股份",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-22/doc-inivziwc6084142.shtml",
-     "rrf": 0.03031,
+     "rrf": 0.03055,
      "bm25_rank": 7,
-     "vec_rank": 5
+     "vec_rank": 4
     },
     {
      "n": 5,
      "title": "暴跌12%！躺赢时代结束，“宁王”遭遇最分裂评级",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/stockzmt/2026-10-21/doc-inivzcqc5413203.shtml",
-     "rrf": 0.03012,
+     "rrf": 0.03037,
      "bm25_rank": 9,
-     "vec_rank": 4
+     "vec_rank": 3
     },
     {
      "n": 6,
-     "title": "宁德时代AH股大跌9% 三季度毛利率创2022年四季度以来新低",
+     "title": "小摩：下调宁德时代、中创新航及先导智能评级与目标价 忧行业盈利能力恶化",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-21/doc-inivxvuy4808550.shtml",
-     "rrf": 0.02964,
-     "bm25_rank": 14,
-     "vec_rank": 2
+     "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-21/doc-inivyaaw4864946.shtml",
+     "rrf": 0.02939,
+     "bm25_rank": 3,
+     "vec_rank": 14
     },
     {
      "n": 7,
      "title": "宁德时代，单日市值蒸发超1400亿元",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/s/2026-10-21/doc-inivyxhi6118961.shtml",
-     "rrf": 0.02899,
+     "rrf": 0.02921,
      "bm25_rank": 10,
-     "vec_rank": 8
+     "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "小摩：下调宁德时代、中创新航及先导智能评级与目标价 忧行业盈利能力恶化",
+     "title": "宁德时代遭遇“业绩与预期”双杀：三季报利润增速放缓叠加车企“解绑”潮，盘中跌超10%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-21/doc-inivyaaw4864946.shtml",
-     "rrf": 0.02853,
-     "bm25_rank": 3,
-     "vec_rank": 19
+     "url": "https://finance.sina.com.cn/stock/aigcy/2026-10-21/doc-inivynsp6211150.shtml",
+     "rrf": 0.02765,
+     "bm25_rank": 20,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
@@ -196,92 +102,186 @@
    "elapsed": 0.0
   },
   {
-   "key": "ba566131b99ab7ff",
-   "label": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于",
+   "key": "349f850684bc230e",
+   "label": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨2026年10月23日",
    "cached": false,
    "sections": {
-    "事件概述": "「韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.638（爆点），所属板块类目：半导体。",
-    "关键信息": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于；韩国央行预计今年和明年的经济增长率将显著高于8月份所预测的3.3%和2.9%；韩国央行预计今明两年经济增长将显著高于8月时的预期",
+    "事件概述": "「财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨2026年10月23日」由 12 篇报道聚合而成，覆盖 4 家媒体，热度 0.779（爆点），所属板块类目：综合。",
+    "关键信息": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨202；不实！AI龙头股未出现网传连锁强平现象；股票ETF昨日净流入465亿元 年内单日第五高",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3183075",
+     "title": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨2026年10月23日",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/y/2026-10-23/doc-iniweiyt5620440.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "韩国央行预计今年和明年的经济增长率将显著高于8月份所预测的3.3%和2.9%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610223903575532.html",
+     "title": "不实！AI龙头股未出现网传连锁强平现象",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-22/doc-iniwcaff5198545.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "韩国央行预计今明两年经济增长将显著高于8月时的预期",
+     "title": "股票ETF昨日净流入465亿元 年内单日第五高",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610233905006928.html",
+     "rrf": 0.02586,
+     "bm25_rank": 9,
+     "vec_rank": 28
+    },
+    {
+     "n": 4,
+     "title": "18只主动ETF开售在即 有望为A股带来360亿元增量资金",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwaezt5927841.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-22/doc-inivzivz5352715.shtml",
+     "rrf": 0.01587,
+     "bm25_rank": 3,
+     "vec_rank": null
+    },
+    {
+     "n": 5,
+     "title": "利好！300209，营收大增超5556%！多家A股公司，业绩翻倍",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-23/doc-iniweiyw4780260.shtml",
+     "rrf": 0.01587,
+     "bm25_rank": null,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "从高毛利到订单兑现 展芯股份的增长支点",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/tob/2026-10-22/doc-iniwcafi5850534.shtml",
+     "rrf": 0.01562,
+     "bm25_rank": 4,
+     "vec_rank": null
+    },
+    {
+     "n": 7,
+     "title": "物理AI概念批量涨停，英伟达、特斯拉、AMD都在押注",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hyyj/2026-10-21/doc-inivysyq4875306.shtml",
+     "rrf": 0.01562,
+     "bm25_rank": null,
+     "vec_rank": 4
+    },
+    {
+     "n": 8,
+     "title": "快讯：恒指低开0.58% 恒科指跌1.15% 科网股普跌 黄金股低开",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-22/doc-iniwaezt5900190.shtml",
+     "rrf": 0.01538,
+     "bm25_rank": 5,
+     "vec_rank": null
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨202",
+    "bm25_only": 3,
+    "vec_only": 2,
+    "both": 2,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "e86237914a5e21c3",
+   "label": "法国10年期国债收益率13年来首超美债 会否酿成新一轮欧债危机",
+   "cached": false,
+   "sections": {
+    "事件概述": "「法国10年期国债收益率13年来首超美债 会否酿成新一轮欧债危机」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.703（爆点），所属板块类目：宏观政策。",
+    "关键信息": "法国10年期国债收益率13年来首超美债 会否酿成新一轮欧债危机；法国债市再遭冲击 与德债收益率差比肩欧债危机时期；法国10年期国债收益率自2002年以来首次升至5%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "法国10年期国债收益率13年来首超美债 会否酿成新一轮欧债危机",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-23/doc-iniwcxky8142724.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "法国债市再遭冲击 与德债收益率差比肩欧债危机时期",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwcxma4848182.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "法国10年期国债收益率自2002年以来首次升至5%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-21/doc-inivysyi5400178.shtml",
      "rrf": 0.03175,
      "bm25_rank": 3,
      "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "韩国央行：预计明年起芯片出口强劲势头将传导至私人消费领域",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwarrq8100321.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "韩国央行行长：核心通胀2028年有望接近2%目标",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwavxi5131089.shtml",
-     "rrf": 0.03031,
+     "title": "2002年以来首次！法国10年期国债收益率升破5%大关",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610223903360351.html",
+     "rrf": 0.03077,
      "bm25_rank": 5,
-     "vec_rank": 7
-    },
-    {
-     "n": 6,
-     "title": "韩国出口保持强劲增势 央行利率决议前夕凸显经济韧性",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivxvuv6235410.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
      "vec_rank": 5
     },
     {
-     "n": 7,
-     "title": "韩国央行将基准利率维持在3.00%不变 符合预期",
+     "n": 5,
+     "title": "法国债市压力加剧 法德10年期国债利差升至174个基点",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-inivzyty4865041.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwavxq5007658.shtml",
+     "rrf": 0.03055,
+     "bm25_rank": 7,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "欧洲债市：法国国债相对于德债的收益率溢价达到175个基点",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-23/doc-iniwctaz5804614.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 4,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "美国10年期国债收益率跌破5% 避险需求推动债市走高",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-23/doc-iniwctce4926838.shtml",
      "rrf": 0.02964,
      "bm25_rank": 6,
      "vec_rank": 9
     },
     {
      "n": 8,
-     "title": "韩国10月出口保持强劲增长势头",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610213902117880.html",
-     "rrf": 0.02885,
-     "bm25_rank": 13,
-     "vec_rank": 6
+     "title": "法国国债风险指标逼近160个基点 创15年新高",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-21/doc-inivysyq4832102.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 9,
+     "vec_rank": 7
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "韩国央行：预计出口和投资将维持高增长态势。 预计今年和明年的经济增长率将显著高于",
+    "query": "法国10年期国债收益率13年来首超美债 会否酿成新一轮欧债危机",
     "bm25_only": 1,
     "vec_only": 1,
     "both": 6,
@@ -290,190 +290,190 @@
    "elapsed": 0.0
   },
   {
-   "key": "048f37c3985f8037",
-   "label": "马斯克：SpaceX和特斯拉旗下的Terafab计划于2028年实现芯片量产",
+   "key": "2d45fafc40da0d5d",
+   "label": "上证指数开盘报3714.48点，涨0.04%。 深证成指开盘报11690.34点",
    "cached": false,
    "sections": {
-    "事件概述": "「马斯克：SpaceX和特斯拉旗下的Terafab计划于2028年实现芯片量产」由 7 篇报道聚合而成，覆盖 2 家媒体，热度 0.632（爆点），所属板块类目：汽车出行。",
-    "关键信息": "马斯克：SpaceX和特斯拉旗下的Terafab计划于2028年实现芯片量产；韩媒：马斯克的Terafab正在与约10家韩国芯片供应商洽谈合作；SpaceX与特斯拉董事会探讨合并可能性",
-    "市场影响": "关联板块代码：BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "马斯克：SpaceX和特斯拉旗下的Terafab计划于2028年实现芯片量产",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivxrnv5577391.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "韩媒：马斯克的Terafab正在与约10家韩国芯片供应商洽谈合作",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610213902194273.html",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "SpaceX与特斯拉董事会探讨合并可能性",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivyhkp5496049.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "马斯克称AI可能构成生存威胁，但无力阻止其发展",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivxvuv6231629.shtml",
-     "rrf": 0.03062,
-     "bm25_rank": 2,
-     "vec_rank": 9
-    },
-    {
-     "n": 5,
-     "title": "马斯克：SpaceX与特斯拉已各自成立特别委员会，商讨合并事宜",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivxrny7902002.shtml",
-     "rrf": 0.03058,
-     "bm25_rank": 8,
-     "vec_rank": 3
-    },
-    {
-     "n": 6,
-     "title": "马斯克试图在特朗普离任前锁定特斯拉与SpaceX的合并",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-inivzytt5248252.shtml",
-     "rrf": 0.03012,
-     "bm25_rank": 9,
-     "vec_rank": 4
-    },
-    {
-     "n": 7,
-     "title": "马斯克：SpaceX与特斯拉已成立特别委员会研究潜在合并",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivxrnx6248492.shtml",
-     "rrf": 0.02901,
-     "bm25_rank": 11,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "SpaceX财报超预期、马斯克暗示或与特斯拉合并，盘前大涨9%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivynsq8105648.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 10,
-     "vec_rank": 8
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "马斯克：SpaceX和特斯拉旗下的Terafab计划于2028年实现芯片量产",
-    "bm25_only": 1,
-    "vec_only": 3,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "ce78579cf15fb54e",
-   "label": "商品期货开盘，原油、燃料油、对二甲苯主力合约跌超3%，甲醇、PTA、聚丙烯、液化",
-   "cached": false,
-   "sections": {
-    "事件概述": "「商品期货开盘，原油、燃料油、对二甲苯主力合约跌超3%，甲醇、PTA、聚丙烯、液化」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.625（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "商品期货开盘，原油、燃料油、对二甲苯主力合约跌超3%，甲醇、PTA、聚丙烯、液化；国内商品期货早盘开盘 主力合约涨跌不一；开盘|国内期货主力合约跌多涨少，集运欧线跌超5%",
+    "事件概述": "「上证指数开盘报3714.48点，涨0.04%。 深证成指开盘报11690.34点」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.693（爆点），所属板块类目：金融市场。",
+    "关键信息": "上证指数开盘报3714.48点，涨0.04%。 深证成指开盘报11690.34点；A股开盘：三大指数涨跌不一；A股开盘：三大指数集体低开",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "商品期货开盘，原油、燃料油、对二甲苯主力合约跌超3%，甲醇、PTA、聚丙烯、液化",
+     "title": "上证指数开盘报3714.48点，涨0.04%。 深证成指开盘报11690.34点",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3182231",
+     "url": "https://wallstreetcn.com/livenews/3183062",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "国内商品期货早盘开盘 主力合约涨跌不一",
+     "title": "A股开盘：三大指数涨跌不一",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610213902076792.html",
-     "rrf": 0.032,
+     "url": "https://finance.eastmoney.com/a/202610223903540888.html",
+     "rrf": 0.0315,
      "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "开盘|国内期货主力合约跌多涨少，集运欧线跌超5%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-21/doc-inivxvuw7972002.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
      "vec_rank": 4
     },
     {
-     "n": 4,
-     "title": "商品期货开盘，沪镍、苯乙烯主力合约涨超2%，不锈钢、沪铝、铝合金、乙二醇涨超1%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3183054",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "开盘|国内期货主力合约涨跌不一，多晶硅跌超3%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-22/doc-iniwaezr5149551.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "收评|国内期货主力合约涨跌不一，烧碱跌超5%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-22/doc-iniwarrq8133881.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "华泰期货：燃料油维持强Back结构，关注市场边际变化",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-22/doc-iniwaezw4891163.shtml",
-     "rrf": 0.02963,
-     "bm25_rank": 8,
+     "n": 3,
+     "title": "A股开盘：三大指数集体低开",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610233905138134.html",
+     "rrf": 0.03105,
+     "bm25_rank": 2,
      "vec_rank": 7
     },
     {
+     "n": 4,
+     "title": "创业板指回到“10·8” 成分股表现分化",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610223904307564.html",
+     "rrf": 0.02924,
+     "bm25_rank": 6,
+     "vec_rank": 11
+    },
+    {
+     "n": 5,
+     "title": "5连板牛股紧急澄清：尚未量产",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-10-22/doc-iniwcafk8260997.shtml",
+     "rrf": 0.02822,
+     "bm25_rank": 8,
+     "vec_rank": 14
+    },
+    {
+     "n": 6,
+     "title": "牛市早报｜产业基础能力提升“十五五”规划发布",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniweiyr4875391.shtml",
+     "rrf": 0.02776,
+     "bm25_rank": 26,
+     "vec_rank": 2
+    },
+    {
+     "n": 7,
+     "title": "今天A股，怎么了？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-22/doc-iniwavxm5893728.shtml",
+     "rrf": 0.02743,
+     "bm25_rank": 5,
+     "vec_rank": 23
+    },
+    {
      "n": 8,
-     "title": "国债期货开盘，30年期主力合约跌0.22%，10年期主力合约跌0.05%，5年期",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3182243",
-     "rrf": 0.02921,
-     "bm25_rank": 7,
-     "vec_rank": 10
+     "title": "收评：创业板指跌4.37% 存储芯片板块午后异动拉升",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-22/doc-iniwarrm5212262.shtml",
+     "rrf": 0.02705,
+     "bm25_rank": 12,
+     "vec_rank": 16
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "商品期货开盘，原油、燃料油、对二甲苯主力合约跌超3%，甲醇、PTA、聚丙烯、液化",
-    "bm25_only": 1,
-    "vec_only": 0,
-    "both": 7,
-    "neither_topk": 0
+    "query": "上证指数开盘报3714.48点，涨0.04%。 深证成指开盘报11690.34点",
+    "bm25_only": 3,
+    "vec_only": 1,
+    "both": 3,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "da39c696e69cc1e8",
+   "label": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%",
+   "cached": false,
+   "sections": {
+    "事件概述": "「港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.672（爆点），所属板块类目：金融市场。",
+    "关键信息": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时；恒指低开0.58%，报23513.79点；恒生科技指数跌1.15%。联想集团跌超；港股全日震荡走软 恒指收跌0.90% 宁德时代（03750）挫逾11%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时代跌超10%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-21/doc-inivyaat6254523.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "恒指低开0.58%，报23513.79点；恒生科技指数跌1.15%。联想集团跌超",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3183059",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "港股全日震荡走软 恒指收跌0.90% 宁德时代（03750）挫逾11%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-10-21/doc-inivynsm5490868.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "宁德时代港股低开3.29%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610223903534310.html",
+     "rrf": 0.03102,
+     "bm25_rank": 3,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "港股开盘下挫：恒生科技指数跌幅扩大逾2%，恒生指数跌超1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-22/doc-iniwaezu8010642.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "快讯：恒指低开0.58% 恒科指跌1.15% 科网股普跌 黄金股低开",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-22/doc-iniwaezt5900190.shtml",
+     "rrf": 0.02743,
+     "bm25_rank": 23,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "港股体育用品股走弱 安踏体育跌超4%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610223903581094.html",
+     "rrf": 0.02727,
+     "bm25_rank": 10,
+     "vec_rank": 17
+    },
+    {
+     "n": 8,
+     "title": "港股开盘：恒生指数低开0.58% 恒生科技指数低开1.15%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610223903533766.html",
+     "rrf": 0.02712,
+     "bm25_rank": 22,
+     "vec_rank": 7
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "港股午评：恒指跌0.35% 科指跌0.75% 科网股低迷 存储概念股走强 宁德时",
+    "bm25_only": 0,
+    "vec_only": 2,
+    "both": 5,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }
