@@ -5,10 +5,10 @@
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.0,
+ "elapsed": 5.5,
  "reports": [
   {
-   "key": "4fc0e4f7cec282ce",
+   "key": "81e861ced62c4a5f",
    "label": "维峰电子：2026年第三季度归属于上市公司股东的净利润同比增长68.55%",
    "cached": false,
    "sections": {
@@ -59,8 +59,8 @@
      "title": "九联科技：2026年第三季度归属于上市公司股东的净利润同比增长179.08%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-23/doc-iniwfmnq2604486.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 6,
+     "rrf": 0.02901,
+     "bm25_rank": 7,
      "vec_rank": 11
     },
     {
@@ -68,8 +68,8 @@
      "title": "鱼跃医疗：2026年第三季度归属于上市公司股东的净利润同比增长9.55%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-23/doc-iniwfmnn1857354.shtml",
-     "rrf": 0.02862,
-     "bm25_rank": 7,
+     "rrf": 0.0284,
+     "bm25_rank": 8,
      "vec_rank": 13
     },
     {
@@ -77,8 +77,8 @@
      "title": "天士力：2026年第三季度归属于上市公司股东的净利润同比增长0.10%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-23/doc-iniwfmnk5020935.shtml",
-     "rrf": 0.02817,
-     "bm25_rank": 10,
+     "rrf": 0.02838,
+     "bm25_rank": 9,
      "vec_rank": 12
     },
     {
@@ -86,8 +86,8 @@
      "title": "沪宁股份：2026年第三季度归属于上市公司股东的净利润为4389524.31元",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-23/doc-iniwfmnh8243253.shtml",
-     "rrf": 0.02786,
-     "bm25_rank": 16,
+     "rrf": 0.02822,
+     "bm25_rank": 14,
      "vec_rank": 8
     }
    ],
@@ -102,280 +102,186 @@
    "elapsed": 0.0
   },
   {
-   "key": "7e213f18e03f64c0",
-   "label": "港股午评：恒指跌2.87%失守23000点 科指跌4.64% 科网股低迷 光通信板块下挫 联想跌",
+   "key": "7d7b1b972e1b7bd1",
+   "label": "“房子震得嘎嘎叫” ，西藏巴青发生7.0级地震，亲历者：睡梦中惊醒，跑出来不敢回家",
    "cached": false,
    "sections": {
-    "事件概述": "「港股午评：恒指跌2.87%失守23000点 科指跌4.64% 科网股低迷 光通信板块下挫 联想跌」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.712（爆点），所属板块类目：金融市场。",
-    "关键信息": "港股午评：恒指跌2.87%失守23000点 科指跌4.64% 科网股低迷 光通信；港股收评：恒指跌3.03% 科指大跌5.03% 科网股普跌 锂电池股下挫 宁德时；港股午评：恒指涨0.58% 科指涨0.86% 汽车股走强 锂电池股回暖",
+    "事件概述": "「“房子震得嘎嘎叫” ，西藏巴青发生7.0级地震，亲历者：睡梦中惊醒，跑出来不敢回家」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.623（爆点），所属板块类目：综合。",
+    "关键信息": "“房子震得嘎嘎叫” ，西藏巴青发生7.0级地震，亲历者：睡梦中惊醒，跑出来不敢回；西藏巴青7.0级地震已造成16人遇难、76人受伤；西藏那曲市巴青县发生7.0级地震，震源深度10千米",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "港股午评：恒指跌2.87%失守23000点 科指跌4.64% 科网股低迷 光通信板块下挫 联想跌超8%",
+     "title": "“房子震得嘎嘎叫” ，西藏巴青发生7.0级地震，亲历者：睡梦中惊醒，跑出来不敢回家",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-22/doc-iniwamip5185638.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniwctce4913950.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "港股收评：恒指跌3.03% 科指大跌5.03% 科网股普跌 锂电池股下挫 宁德时代跌超7%",
+     "title": "西藏巴青7.0级地震已造成16人遇难、76人受伤",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-22/doc-iniwavxm5873588.shtml",
-     "rrf": 0.03226,
+     "url": "https://finance.sina.com.cn/china/2026-10-23/doc-iniwfruk1837954.shtml",
+     "rrf": 0.032,
      "bm25_rank": 2,
-     "vec_rank": 2
+     "vec_rank": 3
     },
     {
      "n": 3,
-     "title": "港股午评：恒指涨0.58% 科指涨0.86% 汽车股走强 锂电池股回暖",
+     "title": "西藏那曲市巴青县发生7.0级地震，震源深度10千米",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-23/doc-iniweqhw2046043.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-22/doc-iniwcnuz5115117.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "过去24小时 西藏巴青地震余震增加391次 最大震级4.5级",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185104",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "震后24小时500万现金直抵巴青震区",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwiqmh7926041.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 4,
+     "vec_rank": 9
+    },
+    {
+     "n": 6,
+     "title": "自然资源部对西藏启动地质灾害防御三级响应",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniweiyr4913290.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 9,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "西藏那曲发生7.0级地震 如何防范余震？避险科普要点速看",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniwecsw8087528.shtml",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "西藏巴青县7.0级地震目前未发现失联人员",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniwfmnh8246816.shtml",
+     "rrf": 0.02914,
+     "bm25_rank": 14,
+     "vec_rank": 4
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "“房子震得嘎嘎叫” ，西藏巴青发生7.0级地震，亲历者：睡梦中惊醒，跑出来不敢回",
+    "bm25_only": 1,
+    "vec_only": 2,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "88b5ccd3d01836e4",
+   "label": "【胡塞武装称袭击沙特国防部】据CCTV国际时讯，也门胡塞武装发言人叶海亚·萨雷亚",
+   "cached": false,
+   "sections": {
+    "事件概述": "「【胡塞武装称袭击沙特国防部】据CCTV国际时讯，也门胡塞武装发言人叶海亚·萨雷亚」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.57（爆点），所属板块类目：综合。",
+    "关键信息": "胡塞武装称袭击沙特国防部；【胡塞武装称袭击沙特国防部】据CCTV国际时讯，也门胡塞武装发言人叶海亚·萨雷亚；胡塞武装称过去24小时沙特袭击也门124次",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "胡塞武装称袭击沙特国防部",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610223904349361.html",
+     "rrf": 0.03252,
+     "bm25_rank": 1,
+     "vec_rank": 2
+    },
+    {
+     "n": 2,
+     "title": "【胡塞武装称袭击沙特国防部】据CCTV国际时讯，也门胡塞武装发言人叶海亚·萨雷亚",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3183736",
+     "rrf": 0.03252,
+     "bm25_rank": 2,
+     "vec_rank": 1
+    },
+    {
+     "n": 3,
+     "title": "胡塞武装称过去24小时沙特袭击也门124次",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185092",
      "rrf": 0.03175,
      "bm25_rank": 3,
      "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "港股收评：恒指涨0.69% 科指涨2.05% 科网股普涨 应用软件板块大涨 MINIMAX涨超16%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-23/doc-iniweywq4999654.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 4,
-     "vec_rank": 7
-    },
-    {
-     "n": 5,
-     "title": "快讯：恒指高开0.41% 恒科指涨0.51% 科网股、石油股活跃",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-23/doc-iniweiyt5674564.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 6,
-     "vec_rank": 11
-    },
-    {
-     "n": 6,
-     "title": "港股调整背后：机构操作分化 静待“黄金坑”",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610233904685762.html",
-     "rrf": 0.02878,
-     "bm25_rank": 16,
-     "vec_rank": 4
-    },
-    {
-     "n": 7,
-     "title": "源杰科技回应股价跌近10%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/s/2026-10-22/doc-iniwavxm5975452.shtml",
-     "rrf": 0.0269,
-     "bm25_rank": 8,
-     "vec_rank": 22
-    },
-    {
-     "n": 8,
-     "title": "港股人工智能股延续弱势 五一视界跌近4%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610233905139547.html",
-     "rrf": 0.02619,
-     "bm25_rank": 24,
-     "vec_rank": 10
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "港股午评：恒指跌2.87%失守23000点 科指跌4.64% 科网股低迷 光通信",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 4,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "eb8a6d39a67ff9ef",
-   "label": "近5万亿ETF市场迎来“主动时刻”！10月23日（周五），千亿ETF大厂全新力作火热开售",
-   "cached": false,
-   "sections": {
-    "事件概述": "「近5万亿ETF市场迎来“主动时刻”！10月23日（周五），千亿ETF大厂全新力作火热开售」由 8 篇报道聚合而成，覆盖 4 家媒体，热度 0.7（爆点），所属板块类目：综合。",
-    "关键信息": "近5万亿ETF市场迎来“主动时刻”！10月23日（周五），千亿ETF大厂全新力作；首批主动ETF明日开售！易方达华夏富国汇添富等5家公司宣布自购13亿；财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨202",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "近5万亿ETF市场迎来“主动时刻”！10月23日（周五），千亿ETF大厂全新力作火热开售",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-23/doc-iniweiyw4840503.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "首批主动ETF明日开售！易方达华夏富国汇添富等5家公司宣布自购13亿",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/observe/2026-10-22/doc-iniwcafk8247767.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨2026年10月23日",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/y/2026-10-23/doc-iniweiyt5620440.shtml",
-     "rrf": 0.03151,
-     "bm25_rank": 2,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "首批主动ETF今日开卖 一波自购先行 和投资者“站在同条船上”",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610233905137038.html",
+     "title": "胡塞武装声称袭击沙特阿美位于延布的设施。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3183732",
      "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "多家中国基金公司宣布将自购旗下主动ETF",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719343.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
-    },
-    {
-     "n": 6,
-     "title": "首批18只主动ETF今日发行 双基金经理共管成主流",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-23/doc-iniwctaz5839494.shtml",
-     "rrf": 0.02862,
-     "bm25_rank": 13,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "首批主动ETF热卖，多只已启动比例配售",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3184773",
-     "rrf": 0.02853,
-     "bm25_rank": 19,
-     "vec_rank": 3
-    },
-    {
-     "n": 8,
-     "title": "总额151亿元！A股密集回购 长鑫科技、新易盛在列",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-23/doc-iniwfmnq2588652.shtml",
-     "rrf": 0.02654,
-     "bm25_rank": 23,
-     "vec_rank": 9
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "近5万亿ETF市场迎来“主动时刻”！10月23日（周五），千亿ETF大厂全新力作",
-    "bm25_only": 0,
-    "vec_only": 2,
-    "both": 5,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "dcc13e435d07d264",
-   "label": "现货黄金日内跌幅达2.0%，报4058.05美元/盎司。 现货白银跌近4%，报5",
-   "cached": false,
-   "sections": {
-    "事件概述": "「现货黄金日内跌幅达2.0%，报4058.05美元/盎司。 现货白银跌近4%，报5」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.663（爆点），所属板块类目：国际市场。",
-    "关键信息": "现货黄金日内跌幅达2.0%，报4058.05美元/盎司。 现货白银跌近4%，报5；现货黄金短线走低 日内跌1.95%；快讯：现货黄金跌破4000美元/盎司关口，为7月以来首次",
-    "市场影响": "关联板块代码：BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "现货黄金日内跌幅达2.0%，报4058.05美元/盎司。 现货白银跌近4%，报5",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3183731",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "现货黄金短线走低 日内跌1.95%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610223904305967.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "快讯：现货黄金跌破4000美元/盎司关口，为7月以来首次",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-23/doc-iniweiyt5703399.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "国际金价周五跌0.7%失守4000美元关口，纽约白银期货本周跌超6%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185050",
-     "rrf": 0.0315,
      "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "机构：杠杆资金平仓令黄金避险失效，长期战略价值仍在",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-10-23/doc-iniwecsy4899875.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 5,
-     "vec_rank": 7
-    },
-    {
-     "n": 6,
-     "title": "现货黄金跌破4100美元 黄金类理财赛道大幅降温",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-22/doc-iniwchpf5937103.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "现货黄金一度跌破4,000美元 股市跌势加剧引发市场动荡",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniweqhw1986203.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
      "vec_rank": 5
     },
     {
-     "n": 8,
-     "title": "沪金年内跌近13% 何时止跌？",
+     "n": 5,
+     "title": "突然！多国联军，发动空袭！",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hyyj/2026-10-23/doc-iniwffen5092253.shtml",
-     "rrf": 0.02963,
-     "bm25_rank": 7,
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-24/doc-iniwicvq4800191.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "也门政府军称过去24小时打击胡塞武装780次",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniwctax5071145.shtml",
+     "rrf": 0.03009,
+     "bm25_rank": 5,
      "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "胡塞武装声称将达曼机场及延布沙特阿美设施列为打击目标",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610223904339641.html",
+     "rrf": 0.03008,
+     "bm25_rank": 6,
+     "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "沙特称拦截胡塞射向利雅得导弹",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610233905149977.html",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "现货黄金日内跌幅达2.0%，报4058.05美元/盎司。 现货白银跌近4%，报5",
+    "query": "【胡塞武装称袭击沙特国防部】据CCTV国际时讯，也门胡塞武装发言人叶海亚·萨雷亚",
     "bm25_only": 0,
     "vec_only": 0,
     "both": 8,
@@ -384,95 +290,189 @@
    "elapsed": 0.0
   },
   {
-   "key": "f2df8488b14440c0",
-   "label": "突发！沙特国防部和原油设施遇袭！刚刚，黄金、白银、纳指暴跌，油价大涨！恐慌情绪蔓延！普京重磅发声",
+   "key": "559957c3ddce9677",
+   "label": "布伦特原油突破115美元/桶，日内涨1.6％；WTI原油日内涨幅达2.0%，报1",
    "cached": false,
    "sections": {
-    "事件概述": "「突发！沙特国防部和原油设施遇袭！刚刚，黄金、白银、纳指暴跌，油价大涨！恐慌情绪蔓延！普京重磅发声」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.622（爆点），所属板块类目：国际市场。",
-    "关键信息": "突发！沙特国防部和原油设施遇袭！刚刚，黄金、白银、纳指暴跌，油价大涨！恐慌情绪蔓；一觉醒来，道指、黄金大跌，原油又“爆了”！；周四美股盘前你需要了解的全球要闻",
+    "事件概述": "「布伦特原油突破115美元/桶，日内涨1.6％；WTI原油日内涨幅达2.0%，报1」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.552（爆点），所属板块类目：国际市场。",
+    "关键信息": "布伦特原油突破115美元/桶，日内涨1.6％；WTI原油日内涨幅达2.0%，报1；快讯：WTI原油突破100美元/桶；布伦特原油期价创5个月来新高",
     "市场影响": "关联板块代码：BK1361、BK0464。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "突发！沙特国防部和原油设施遇袭！刚刚，黄金、白银、纳指暴跌，油价大涨！恐慌情绪蔓延！普京重磅发声",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-23/doc-iniwecst4991282.shtml",
+     "title": "布伦特原油突破115美元/桶，日内涨1.6％；WTI原油日内涨幅达2.0%，报1",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3184813",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "一觉醒来，道指、黄金大跌，原油又“爆了”！",
+     "title": "快讯：WTI原油突破100美元/桶",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-24/doc-iniwhnxu8217852.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-23/doc-iniweiyr4974574.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 2,
+     "vec_rank": 5
     },
     {
      "n": 3,
-     "title": "周四美股盘前你需要了解的全球要闻",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3183761",
-     "rrf": 0.02976,
-     "bm25_rank": 12,
-     "vec_rank": 3
+     "title": "布伦特原油期价创5个月来新高",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610233906513373.html",
+     "rrf": 0.03102,
+     "bm25_rank": 3,
+     "vec_rank": 6
     },
     {
      "n": 4,
-     "title": "原油：油价上涨 沙特遭袭加剧中东供应担忧",
+     "title": "原油：中东供应风险推动布伦特原油逼近117美元 创6个月高点",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwcxkv5021673.shtml",
-     "rrf": 0.02971,
-     "bm25_rank": 11,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "清晨，集体跳水！霍尔木兹海峡，突发大消息",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-24/doc-iniwhnxw4975380.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 10,
+     "url": "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhse2398290.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 4,
      "vec_rank": 8
     },
     {
-     "n": 6,
-     "title": "市场一夜不平静：金价跌破4000美元，油价大涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-24/doc-iniwhnxy1633004.shtml",
-     "rrf": 0.02822,
-     "bm25_rank": 8,
-     "vec_rank": 14
-    },
-    {
-     "n": 7,
-     "title": "10月23日隔夜要闻：美股三大指数涨跌不一 中概股普跌 油价上涨 铜价金价走低 西部数据财报大超预期",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwecsv5686158.shtml",
-     "rrf": 0.02821,
-     "bm25_rank": 5,
-     "vec_rank": 18
-    },
-    {
-     "n": 8,
+     "n": 5,
      "title": "战争风险被记入油价，布伦特原油大幅冲高刷新下半年高点",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-23/doc-iniwecsw8106611.shtml",
-     "rrf": 0.02748,
-     "bm25_rank": 17,
-     "vec_rank": 9
+     "rrf": 0.03008,
+     "bm25_rank": 6,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "光大期货：能源化工类日报10.23",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-23/doc-iniweqhs8165447.shtml",
+     "rrf": 0.02967,
+     "bm25_rank": 5,
+     "vec_rank": 10
+    },
+    {
+     "n": 7,
+     "title": "WTI原油期货向上触及100美元/桶",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610233905068954.html",
+     "rrf": 0.02951,
+     "bm25_rank": 12,
+     "vec_rank": 4
+    },
+    {
+     "n": 8,
+     "title": "一觉醒来，道指、黄金大跌，原油又“爆了”！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-24/doc-iniwhnxu8217852.shtml",
+     "rrf": 0.02901,
+     "bm25_rank": 7,
+     "vec_rank": 11
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "突发！沙特国防部和原油设施遇袭！刚刚，黄金、白银、纳指暴跌，油价大涨！恐慌情绪蔓",
+    "query": "布伦特原油突破115美元/桶，日内涨1.6％；WTI原油日内涨幅达2.0%，报1",
     "bm25_only": 2,
-    "vec_only": 3,
-    "both": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "bbf01cf90713abd8",
+   "label": "10月24日隔夜要闻：美股三大指数收跌 油价大涨 金价下跌 特朗普称可能对伊发动一次小规模“史诗",
+   "cached": false,
+   "sections": {
+    "事件概述": "「10月24日隔夜要闻：美股三大指数收跌 油价大涨 金价下跌 特朗普称可能对伊发动一次小规模“史诗」由 10 篇报道聚合而成，覆盖 2 家媒体，热度 0.551（爆点），所属板块类目：国际市场。",
+    "关键信息": "10月24日隔夜要闻：美股三大指数收跌 油价大涨 金价下跌 特朗普称可能对伊发动；10月23日隔夜要闻：美股三大指数涨跌不一 中概股普跌 油价上涨 铜价金价走低 ；10月23日收盘：美股三大指数涨跌不一 纳指创6月以来最大跌幅 国际油价大涨",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "10月24日隔夜要闻：美股三大指数收跌 油价大涨 金价下跌 特朗普称可能对伊发动一次小规模“史诗怒火”行动",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhnya2334385.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "10月23日隔夜要闻：美股三大指数涨跌不一 中概股普跌 油价上涨 铜价金价走低 西部数据财报大超预期",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwecsv5686158.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "10月23日收盘：美股三大指数涨跌不一 纳指创6月以来最大跌幅 国际油价大涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwcxkx5746324.shtml",
+     "rrf": 0.03102,
+     "bm25_rank": 6,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "市场一夜不平静：金价跌破4000美元，油价大涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-24/doc-iniwhnxy1633004.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "10月24日收盘：美股三大指数收跌 道指跌超600点 布油创4月以来新高 市场抛售范围扩大",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhry4970299.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "10月23日美股盘中：三大指数集体下跌，AI融资担忧持续发酵，布伦特原油升破115美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfrue8370502.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 7,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "特朗普称可能对伊发动一次小规模“史诗怒火”行动",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwhhry4964009.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 3,
+     "vec_rank": 15
+    },
+    {
+     "n": 8,
+     "title": "清晨，集体跳水！霍尔木兹海峡，突发大消息",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-24/doc-iniwhnxw4975380.shtml",
+     "rrf": 0.02837,
+     "bm25_rank": 10,
+     "vec_rank": 11
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "10月24日隔夜要闻：美股三大指数收跌 油价大涨 金价下跌 特朗普称可能对伊发动",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 6,
     "neither_topk": 1
    },
    "elapsed": 0.0
