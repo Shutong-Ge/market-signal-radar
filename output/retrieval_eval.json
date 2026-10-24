@@ -2,46 +2,19 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.294,
-  "avg_rank_diff": 0.82,
-  "avg_missed_by_bm25": 2.11,
-  "avg_missed_by_vector": 3.22,
-  "conclusion": "两路召回集平均重合度仅 29%；即便重合的文档，两路名次平均相差 0.82 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.11 篇最终进入 Top8 的文档；只用向量则漏掉 3.22 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.259,
+  "avg_rank_diff": 1.2,
+  "avg_missed_by_bm25": 2.67,
+  "avg_missed_by_vector": 3.0,
+  "conclusion": "两路召回集平均重合度仅 26%；即便重合的文档，两路名次平均相差 1.2 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.67 篇最终进入 Top8 的文档；只用向量则漏掉 3.0 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "港股午评：恒指跌2.87%失守23000点 科指跌4.64%",
-   "jaccard": 0.455,
-   "rank_diff": 0.8,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "港股午评：恒指跌2.87%失守23000点 科指跌4.64% 科网股低迷 光通信板块下挫 联"
-  },
-  {
-   "type": "关键词式",
-   "query": "港股 午评 恒指 失守 科指 科网",
-   "jaccard": 0.6,
-   "rank_diff": 1.67,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "港股午评：恒指跌2.87%失守23000点 科指跌4.64% 科网股低迷 光通信板块下挫 联"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "港股午评：恒指跌失守点 科指跌 科网股低迷 光通信板块下挫",
-   "jaccard": 0.455,
-   "rank_diff": 1.2,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 3,
-   "example_top1": "港股午评：恒指跌2.87%失守23000点 科指跌4.64% 科网股低迷 光通信板块下挫 联"
-  },
-  {
-   "type": "原标题式",
    "query": "维峰电子：2026年第三季度归属于上市公司股东的净利润同比增",
-   "jaccard": 0.333,
+   "jaccard": 0.231,
    "rank_diff": 1.0,
-   "missed_by_bm25": 2,
+   "missed_by_bm25": 4,
    "missed_by_vector": 4,
    "example_top1": "中威电子：第三季度归属于上市公司股东的净利润同比增长189.12%"
   },
@@ -50,8 +23,8 @@
    "query": "维峰 电子 第三季度 归属于 上市公司 股东",
    "jaccard": 0.143,
    "rank_diff": 1.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 5,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
    "example_top1": "中威电子：第三季度归属于上市公司股东的净利润同比增长189.12%"
   },
   {
@@ -65,30 +38,57 @@
   },
   {
    "type": "原标题式",
-   "query": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
+   "query": "港股午评：恒指跌2.87%失守23000点 科指跌4.64%",
+   "jaccard": 0.231,
+   "rank_diff": 1.33,
    "missed_by_bm25": 3,
    "missed_by_vector": 3,
-   "example_top1": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨2026年10月2"
+   "example_top1": "港股午评：恒指跌2.87%失守23000点 科指跌4.64% 科网股低迷 光通信板块下挫 联"
   },
   {
    "type": "关键词式",
-   "query": "财经 早报 亿元 增量 资金 涌入",
-   "jaccard": 0.231,
-   "rank_diff": 0.67,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 3,
-   "example_top1": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨2026年10月2"
+   "query": "港股 午评 恒指 失守 科指 科网",
+   "jaccard": 0.455,
+   "rank_diff": 0.8,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "港股午评：恒指跌2.87%失守23000点 科指跌4.64% 科网股低迷 光通信板块下挫 联"
   },
   {
    "type": "去数字泛化",
-   "query": "财经早报丨亿元增量资金将涌入A股 AI龙头股未出现网传连锁强",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
+   "query": "港股午评：恒指跌失守点 科指跌 科网股低迷 光通信板块下挫",
+   "jaccard": 0.333,
+   "rank_diff": 1.5,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 3,
+   "example_top1": "港股午评：恒指跌2.87%失守23000点 科指跌4.64% 科网股低迷 光通信板块下挫 联"
+  },
+  {
+   "type": "原标题式",
+   "query": "近5万亿ETF市场迎来“主动时刻”！10月23日（周五），千",
+   "jaccard": 0.333,
+   "rank_diff": 1.5,
    "missed_by_bm25": 3,
-   "missed_by_vector": 4,
-   "example_top1": "财经早报丨360亿元增量资金将涌入A股 AI龙头股未出现网传连锁强平现象丨2026年10月2"
+   "missed_by_vector": 2,
+   "example_top1": "近5万亿ETF市场迎来“主动时刻”！10月23日（周五），千亿ETF大厂全新力作火热开售"
+  },
+  {
+   "type": "关键词式",
+   "query": "万亿 市场 迎来 主动 时刻 周五",
+   "jaccard": 0.231,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 3,
+   "example_top1": "近5万亿ETF市场迎来“主动时刻”！10月23日（周五），千亿ETF大厂全新力作火热开售"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "近万亿ETF市场迎来“主动时刻”！月日（周五），千亿ETF大",
+   "jaccard": 0.231,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 2,
+   "example_top1": "近5万亿ETF市场迎来“主动时刻”！10月23日（周五），千亿ETF大厂全新力作火热开售"
   }
  ]
 }
