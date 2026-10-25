@@ -2,67 +2,13 @@
  "summary": {
   "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.428,
-  "avg_rank_diff": 1.07,
-  "avg_missed_by_bm25": 1.62,
-  "avg_missed_by_vector": 2.62,
-  "conclusion": "两路召回集平均重合度仅 43%；即便重合的文档，两路名次平均相差 1.07 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.62 篇最终进入 Top8 的文档；只用向量则漏掉 2.62 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.622,
+  "avg_rank_diff": 1.04,
+  "avg_missed_by_bm25": 0.88,
+  "avg_missed_by_vector": 1.12,
+  "conclusion": "两路召回集平均重合度仅 62%；即便重合的文档，两路名次平均相差 1.04 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 0.88 篇最终进入 Top8 的文档；只用向量则漏掉 1.12 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
-  {
-   "type": "原标题式",
-   "query": "维峰电子：2026年第三季度归属于上市公司股东的净利润同比增",
-   "jaccard": 0.231,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
-   "example_top1": "中威电子：第三季度归属于上市公司股东的净利润同比增长189.12%"
-  },
-  {
-   "type": "关键词式",
-   "query": "维峰 电子 第三季度 归属于 上市公司 股东",
-   "jaccard": 0.143,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 6,
-   "example_top1": "中威电子：第三季度归属于上市公司股东的净利润同比增长189.12%"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "维峰电子：年第三季度归属于上市公司股东的净利润同比增长",
-   "jaccard": 0.143,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 4,
-   "example_top1": "中威电子：第三季度归属于上市公司股东的净利润同比增长189.12%"
-  },
-  {
-   "type": "原标题式",
-   "query": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救",
-   "jaccard": 0.6,
-   "rank_diff": 1.83,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展"
-  },
-  {
-   "type": "关键词式",
-   "query": "西藏 新闻联播 那曲 巴青县 地震 抗震救灾",
-   "jaccard": 0.6,
-   "rank_diff": 1.67,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "月日《西藏新闻联播》：那曲市巴青县级地震抗震救灾工作有序开展",
-   "jaccard": 0.333,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 3,
-   "example_top1": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展"
-  },
   {
    "type": "原标题式",
    "query": "白宫称美国第一夫人促成俄乌在奥列什基局部停火 将便利平民疏散",
@@ -80,6 +26,60 @@
    "missed_by_bm25": 1,
    "missed_by_vector": 1,
    "example_top1": "白宫称美国第一夫人促成俄乌在奥列什基市局部停火"
+  },
+  {
+   "type": "原标题式",
+   "query": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救",
+   "jaccard": 0.6,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展"
+  },
+  {
+   "type": "关键词式",
+   "query": "西藏 新闻联播 那曲 巴青县 地震 抗震救灾",
+   "jaccard": 0.333,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "月日《西藏新闻联播》：那曲市巴青县级地震抗震救灾工作有序开展",
+   "jaccard": 0.333,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展"
+  },
+  {
+   "type": "原标题式",
+   "query": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一",
+   "jaccard": 0.778,
+   "rank_diff": 0.43,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 1,
+   "example_top1": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一"
+  },
+  {
+   "type": "关键词式",
+   "query": "去年 全国 结婚登记 广东 结婚登记 人数",
+   "jaccard": 0.778,
+   "rank_diff": 1.86,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 0,
+   "example_top1": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "去年全国结婚登记万对，广东结婚登记人数连续四年第一",
+   "jaccard": 0.778,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 1,
+   "example_top1": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一"
   }
  ]
 }

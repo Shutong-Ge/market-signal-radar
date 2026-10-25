@@ -1,11 +1,11 @@
 {
- "n_articles": 1658,
+ "n_articles": 1276,
  "mode": "vector",
- "edges": 604,
- "n_components": 1446,
- "n_clusters": 45,
- "n_noise_filtered": 5,
- "n_single_media_filtered": 59,
+ "edges": 284,
+ "n_components": 1152,
+ "n_clusters": 34,
+ "n_noise_filtered": 4,
+ "n_single_media_filtered": 46,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,59 +13,49 @@
   "media"
  ],
  "calibration": {
-  "max_size": 17.0,
-  "max_first": 17.0,
+  "max_size": 10.0,
+  "max_first": 4.0,
   "window_days": 3,
   "n_media_total": 5
  },
  "elapsed": 0.1,
  "level_dist": {
-  "爆点": 4,
-  "高热": 9,
-  "升温中": 14,
-  "一般": 18
+  "爆点": 3,
+  "高热": 7,
+  "升温中": 10,
+  "一般": 14
  },
  "top": [
   {
-   "label": "维峰电子：2026年第三季度归属于上市公司股东的净利润同比增长68.55%",
-   "heat": 0.749,
+   "label": "白宫称美国第一夫人促成俄乌在奥列什基局部停火 将便利平民疏散",
+   "heat": 0.756,
    "level": "爆点",
-   "n": 17,
+   "n": 7,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 1.0,
-    "burst": 1.0,
-    "duration": 0.333,
+    "coverage": 0.867,
+    "burst": 0.861,
+    "duration": 0.667,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    160722,
-    160726,
-    160727,
-    160730,
-    160731,
-    160732,
-    160738,
-    160743,
-    160753,
-    160762,
-    160765,
-    160766,
-    160771,
-    160865,
-    160957,
-    160962,
-    161042
+    162168,
+    162201,
+    162229,
+    162412,
+    162647,
+    162947,
+    163001
    ]
   },
   {
    "label": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展",
-   "heat": 0.687,
+   "heat": 0.741,
    "level": "爆点",
-   "n": 11,
+   "n": 10,
    "media": 4,
    "cat": "综合",
    "sectors": [
@@ -73,124 +63,74 @@
     "BK0174"
    ],
    "factors": {
-    "coverage": 0.86,
-    "burst": 0.38,
+    "coverage": 1.0,
+    "burst": 0.431,
     "duration": 0.667,
     "media": 0.8,
     "social": null
    },
    "article_ids": [
-    160998,
-    161244,
-    161392,
-    161396,
-    161463,
-    161638,
-    161845,
-    161951,
-    161952,
-    162029,
-    162103
+    162208,
+    162360,
+    162364,
+    162431,
+    162613,
+    162820,
+    162926,
+    162927,
+    163005,
+    163081
    ]
   },
   {
-   "label": "白宫称美国第一夫人促成俄乌在奥列什基局部停火 将便利平民疏散",
-   "heat": 0.622,
+   "label": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一",
+   "heat": 0.725,
    "level": "爆点",
-   "n": 7,
-   "media": 3,
-   "cat": "综合",
+   "n": 6,
+   "media": 2,
+   "cat": "宏观政策",
    "sectors": [],
    "factors": {
-    "coverage": 0.719,
-    "burst": 0.48,
+    "coverage": 0.812,
+    "burst": 1.0,
     "duration": 0.667,
-    "media": 0.6,
+    "media": 0.4,
     "social": null
    },
    "article_ids": [
-    161204,
-    161237,
-    161264,
-    161444,
-    161672,
-    161971,
-    162025
+    162635,
+    162708,
+    162848,
+    162900,
+    162928,
+    163385
    ]
   },
   {
-   "label": "乌克兰表示，针对星链（Starlink）的所有限制均已解除。",
-   "heat": 0.57,
-   "level": "爆点",
-   "n": 5,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.62,
-    "burst": 0.38,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    161045,
-    161096,
-    161394,
-    161665,
-    161919
-   ]
-  },
-  {
-   "label": "布伦特原油突破115美元/桶，日内涨1.6％；WTI原油日内涨幅达2.0%，报1",
-   "heat": 0.514,
-   "level": "高热",
-   "n": 4,
-   "media": 3,
-   "cat": "国际市场",
-   "sectors": [
-    "BK1361",
-    "BK0464"
-   ],
-   "factors": {
-    "coverage": 0.557,
-    "burst": 0.557,
-    "duration": 0.333,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    160515,
-    161108,
-    161143,
-    161156
-   ]
-  },
-  {
-   "label": "外汇局征求意见：拟提升直接投资便利化水平 扩大跨境融资高水平开放",
-   "heat": 0.514,
+   "label": "南方区域电力市场转入正式运行暨高质量发展推进会在广州召开",
+   "heat": 0.62,
    "level": "高热",
    "n": 4,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.557,
-    "burst": 0.557,
+    "coverage": 0.671,
+    "burst": 0.861,
     "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    161078,
-    161086,
-    161174,
-    161176
+    162565,
+    162766,
+    162851,
+    163015
    ]
   },
   {
    "label": "冲突升级！胡塞武装对沙特发起多次袭击 目标直指能源设施和机场",
-   "heat": 0.507,
+   "heat": 0.619,
    "level": "高热",
    "n": 6,
    "media": 3,
@@ -199,86 +139,132 @@
     "BK1480"
    ],
    "factors": {
-    "coverage": 0.673,
-    "burst": 0.38,
+    "coverage": 0.812,
+    "burst": 0.683,
     "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    161617,
-    161911,
-    161955,
-    161957,
-    161990,
-    162121
+    162590,
+    162886,
+    162931,
+    162933,
+    162966,
+    163099
    ]
   },
   {
-   "label": "中国商务部：消费“主引擎”作用持续巩固，超大规模市场优势日益凸显",
-   "heat": 0.496,
-   "level": "高热",
-   "n": 3,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [
-    "BK0481",
-    "BK000390"
-   ],
-   "factors": {
-    "coverage": 0.48,
-    "burst": 0.24,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    160493,
-    161492,
-    161710
-   ]
-  },
-  {
-   "label": "台风“蔷琵”靠近，上海多区将于今日18时前完成避险人员撤离安置！避险指南请收好",
-   "heat": 0.496,
-   "level": "高热",
-   "n": 3,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.48,
-    "burst": 0.24,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    160664,
-    161618,
-    162014
-   ]
-  },
-  {
-   "label": "南方区域电力市场转入正式运行暨高质量发展推进会在广州召开",
-   "heat": 0.496,
+   "label": "青海前三季度居民人均可支配收入2.36万元 四项收入全面增长",
+   "heat": 0.609,
    "level": "高热",
    "n": 4,
-   "media": 3,
-   "cat": "综合",
+   "media": 2,
+   "cat": "宏观政策",
    "sectors": [],
    "factors": {
-    "coverage": 0.557,
-    "burst": 0.48,
-    "duration": 0.333,
-    "media": 0.6,
+    "coverage": 0.671,
+    "burst": 0.683,
+    "duration": 0.667,
+    "media": 0.4,
     "social": null
    },
    "article_ids": [
-    161594,
-    161791,
-    161876,
-    162039
+    162156,
+    162226,
+    163255,
+    163278
+   ]
+  },
+  {
+   "label": "德明利第三季营收116亿：净利27亿 市值797亿 魏宏章减持 或套现4亿",
+   "heat": 0.605,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "半导体",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.671,
+    "burst": 1.0,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    163164,
+    163242,
+    163298,
+    163354
+   ]
+  },
+  {
+   "label": "攸关半导体生产！美国能源部将氦气认定为关键材料",
+   "heat": 0.545,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "半导体",
+   "sectors": [
+    "BK1036",
+    "BK0459"
+   ],
+   "factors": {
+    "coverage": 0.578,
+    "burst": 0.861,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    162346,
+    162357,
+    162691
+   ]
+  },
+  {
+   "label": "道指跌超650点！美股主要股指全线收跌，芯片股反弹，油价大涨，现货黄金失守4000美元关口",
+   "heat": 0.545,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "国际市场",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.578,
+    "burst": 0.861,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    162384,
+    162444,
+    162506
+   ]
+  },
+  {
+   "label": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%",
+   "heat": 0.545,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "大宗与能化",
+   "sectors": [
+    "BK0433",
+    "BK0882"
+   ],
+   "factors": {
+    "coverage": 0.578,
+    "burst": 0.861,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    162569,
+    162574,
+    162651
    ]
   }
  ]
