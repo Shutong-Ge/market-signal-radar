@@ -1,85 +1,94 @@
 {
  "summary": {
-  "n_queries": 8,
+  "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.657,
-  "avg_rank_diff": 0.78,
-  "avg_missed_by_bm25": 1.25,
-  "avg_missed_by_vector": 1.12,
-  "conclusion": "两路召回集平均重合度仅 66%；即便重合的文档，两路名次平均相差 0.78 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.25 篇最终进入 Top8 的文档；只用向量则漏掉 1.12 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.311,
+  "avg_rank_diff": 1.3,
+  "avg_missed_by_bm25": 3.67,
+  "avg_missed_by_vector": 3.11,
+  "conclusion": "两路召回集平均重合度仅 31%；即便重合的文档，两路名次平均相差 1.3 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.67 篇最终进入 Top8 的文档；只用向量则漏掉 3.11 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一",
-   "jaccard": 0.778,
-   "rank_diff": 0.43,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 1,
-   "example_top1": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一"
-  },
-  {
-   "type": "关键词式",
-   "query": "去年 全国 结婚登记 广东 结婚登记 人数",
-   "jaccard": 0.778,
-   "rank_diff": 1.86,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 0,
-   "example_top1": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "去年全国结婚登记万对，广东结婚登记人数连续四年第一",
+   "query": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10",
    "jaccard": 0.778,
    "rank_diff": 1.0,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 1,
-   "example_top1": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一"
-  },
-  {
-   "type": "原标题式",
-   "query": "南方区域电力市场转入正式运行暨高质量发展推进会在广州召开",
-   "jaccard": 0.778,
-   "rank_diff": 1.29,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "南方区域电力市场转入正式运行暨高质量发展推进会在广州召开"
-  },
-  {
-   "type": "关键词式",
-   "query": "南方 区域 电力 市场 转入 正式",
-   "jaccard": 0.778,
-   "rank_diff": 0.86,
    "missed_by_bm25": 1,
    "missed_by_vector": 0,
-   "example_top1": "南方区域电力市场转入正式运行"
-  },
-  {
-   "type": "原标题式",
-   "query": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4",
-   "jaccard": 0.455,
-   "rank_diff": 0.4,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%"
+   "example_top1": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹"
   },
   {
    "type": "关键词式",
-   "query": "国家统计局 中旬 产品 价格上涨 生猪 价格",
-   "jaccard": 0.455,
-   "rank_diff": 0.2,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 2,
-   "example_top1": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%"
+   "query": "沙特 领导 联军 沙特 拦截 也门",
+   "jaccard": 0.6,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹"
   },
   {
    "type": "去数字泛化",
-   "query": "国家统计局：月中旬种产品价格上涨，生猪价格环比下降",
-   "jaccard": 0.455,
-   "rank_diff": 0.2,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%"
+   "query": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的枚弹",
+   "jaccard": 0.778,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 0,
+   "example_top1": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹"
+  },
+  {
+   "type": "原标题式",
+   "query": "Anthropic据悉今晚公布S-1招股书，最快11月19日",
+   "jaccard": 0.143,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
+   "example_top1": "Anthropic据悉今晚公布S-1招股书，最快11月19日或20日登陆美股"
+  },
+  {
+   "type": "关键词式",
+   "query": "据悉 今晚 公布 招股书 最快 登陆",
+   "jaccard": 0.067,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 5,
+   "example_top1": "Anthropic据悉今晚公布S-1招股书，最快11月19日或20日登陆美股"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "Anthropic据悉今晚公布S-招股书，最快月日或日登陆美",
+   "jaccard": 0.231,
+   "rank_diff": 2.33,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 3,
+   "example_top1": "Anthropic据悉今晚公布S-1招股书，最快11月19日或20日登陆美股"
+  },
+  {
+   "type": "原标题式",
+   "query": "前三季度江苏GDP为108631.3亿元，同比增长5.2%",
+   "jaccard": 0.067,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 6,
+   "missed_by_vector": 5,
+   "example_top1": "前三季度江苏GDP为108631.3亿元，同比增长5.2%"
+  },
+  {
+   "type": "关键词式",
+   "query": "三季度 江苏 亿元 同比 增长",
+   "jaccard": 0.067,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 5,
+   "example_top1": "前三季度江苏GDP为108631.3亿元，同比增长5.2%"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "前三季度江苏GDP为亿元，同比增长",
+   "jaccard": 0.067,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 7,
+   "missed_by_vector": 5,
+   "example_top1": "前三季度江苏GDP为108631.3亿元，同比增长5.2%"
   }
  ]
 }

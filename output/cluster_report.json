@@ -1,11 +1,11 @@
 {
- "n_articles": 1319,
+ "n_articles": 1605,
  "mode": "vector",
- "edges": 318,
- "n_components": 1182,
- "n_clusters": 42,
+ "edges": 452,
+ "n_components": 1410,
+ "n_clusters": 52,
  "n_noise_filtered": 3,
- "n_single_media_filtered": 50,
+ "n_single_media_filtered": 63,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,247 +13,250 @@
   "media"
  ],
  "calibration": {
-  "max_size": 6.0,
-  "max_first": 4.0,
-  "window_days": 3,
+  "max_size": 9.0,
+  "max_first": 9.0,
+  "window_days": 2,
   "n_media_total": 5
  },
  "elapsed": 0.1,
  "level_dist": {
-  "爆点": 4,
-  "高热": 8,
-  "升温中": 13,
-  "一般": 17
+  "爆点": 5,
+  "高热": 10,
+  "升温中": 16,
+  "一般": 21
  },
  "top": [
   {
-   "label": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一",
-   "heat": 0.78,
+   "label": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹",
+   "heat": 0.87,
    "level": "爆点",
-   "n": 6,
+   "n": 8,
+   "media": 3,
+   "cat": "交运物流",
+   "sectors": [
+    "BK0704",
+    "BK1480"
+   ],
+   "factors": {
+    "coverage": 0.954,
+    "burst": 0.903,
+    "duration": 1.0,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    164771,
+    164775,
+    164809,
+    164925,
+    164947,
+    164986,
+    165051,
+    165785
+   ]
+  },
+  {
+   "label": "Anthropic据悉今晚公布S-1招股书，最快11月19日或20日登陆美股",
+   "heat": 0.788,
+   "level": "爆点",
+   "n": 9,
+   "media": 3,
+   "cat": "AI与大模型",
+   "sectors": [
+    "BK0697"
+   ],
+   "factors": {
+    "coverage": 1.0,
+    "burst": 1.0,
+    "duration": 0.5,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    165842,
+    165969,
+    166064,
+    166189,
+    166192,
+    166222,
+    166232,
+    166237,
+    166247
+   ]
+  },
+  {
+   "label": "前三季度江苏GDP为108631.3亿元，同比增长5.2%",
+   "heat": 0.647,
+   "level": "爆点",
+   "n": 4,
    "media": 2,
    "cat": "宏观政策",
    "sectors": [],
    "factors": {
-    "coverage": 1.0,
-    "burst": 1.0,
-    "duration": 0.667,
+    "coverage": 0.699,
+    "burst": 0.477,
+    "duration": 1.0,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    163481,
-    163555,
-    163695,
-    163748,
-    163777,
-    164236
+    165106,
+    165130,
+    165968,
+    166200
    ]
   },
   {
-   "label": "南方区域电力市场转入正式运行暨高质量发展推进会在广州召开",
-   "heat": 0.772,
+   "label": "百利天恒双抗ADC披露EGFR突变肺癌一、二线数据：一线ORR达100%，二线PFS达11.1个",
+   "heat": 0.619,
    "level": "爆点",
-   "n": 5,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.921,
-    "burst": 0.861,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    163410,
-    163613,
-    163698,
-    163865,
-    164461
-   ]
-  },
-  {
-   "label": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%",
-   "heat": 0.724,
-   "level": "爆点",
-   "n": 5,
+   "n": 3,
    "media": 2,
-   "cat": "大宗与能化",
+   "cat": "综合",
    "sectors": [
-    "BK0433",
-    "BK0882"
+    "BK0870"
    ],
    "factors": {
-    "coverage": 0.921,
-    "burst": 0.861,
-    "duration": 0.667,
+    "coverage": 0.602,
+    "burst": 0.477,
+    "duration": 1.0,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    163414,
-    163419,
-    163497,
-    164325,
-    164707
-   ]
-  },
-  {
-   "label": "中国地震台网正式测定：10月24日12时39分在新疆克孜勒苏州乌恰县（北纬39.",
-   "heat": 0.698,
-   "level": "爆点",
-   "n": 4,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.827,
-    "burst": 1.0,
-    "duration": 0.333,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    163457,
-    163502,
-    163505,
-    163708
-   ]
-  },
-  {
-   "label": "冲突升级！胡塞武装对沙特发起多次袭击 目标直指能源设施和机场",
-   "heat": 0.674,
-   "level": "高热",
-   "n": 6,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [
-    "BK1480"
-   ],
-   "factors": {
-    "coverage": 1.0,
-    "burst": 0.683,
-    "duration": 0.333,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    163435,
-    163734,
-    163780,
-    163783,
-    163816,
-    163949
+    164772,
+    165034,
+    166243
    ]
   },
   {
    "label": "德明利第三季营收116亿：净利27亿 市值797亿 魏宏章减持 或套现4亿",
-   "heat": 0.651,
-   "level": "高热",
+   "heat": 0.582,
+   "level": "爆点",
    "n": 4,
    "media": 2,
    "cat": "半导体",
    "sectors": [],
    "factors": {
-    "coverage": 0.827,
-    "burst": 1.0,
-    "duration": 0.333,
+    "coverage": 0.699,
+    "burst": 0.699,
+    "duration": 0.5,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    164014,
-    164093,
-    164149,
-    164205
+    165014,
+    165093,
+    165150,
+    165207
    ]
   },
   {
-   "label": "多位网友称iPhone Duo刚到手屏幕就裂开，开售两天有渠道已“破发”！门店外仍排长队，黄牛：",
-   "heat": 0.643,
+   "label": "巴西大选第二轮投票已统计25.19%的选票，博索纳罗以50.51%的得票率领先，",
+   "heat": 0.582,
    "level": "高热",
    "n": 4,
-   "media": 3,
-   "cat": "消费电子",
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.699,
+    "burst": 0.699,
+    "duration": 0.5,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    165464,
+    165533,
+    165930,
+    166288
+   ]
+  },
+  {
+   "label": "Anthropic：随着算力基础设施的持续扩张，资本支出预计将大幅增加。 预计相",
+   "heat": 0.582,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "AI与大模型",
    "sectors": [
-    "BK0666"
+    "BK1134"
    ],
    "factors": {
-    "coverage": 0.827,
-    "burst": 0.431,
-    "duration": 0.667,
+    "coverage": 0.699,
+    "burst": 0.699,
+    "duration": 0.5,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    166236,
+    166238,
+    166245,
+    166272
+   ]
+  },
+  {
+   "label": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
+   "heat": 0.578,
+   "level": "高热",
+   "n": 3,
+   "media": 3,
+   "cat": "大宗与能化",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.602,
+    "burst": 0.602,
+    "duration": 0.5,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    163741,
-    164331,
-    164592,
-    164692
+    165664,
+    165666,
+    165812
    ]
   },
   {
-   "label": "刘奇凡任云南省委副书记、省政府党组书记",
-   "heat": 0.585,
+   "label": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%",
+   "heat": 0.578,
    "level": "高热",
    "n": 3,
+   "media": 3,
+   "cat": "金融市场",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.602,
+    "burst": 0.602,
+    "duration": 0.5,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    165713,
+    165714,
+    165749
+   ]
+  },
+  {
+   "label": "中国神华早盘涨逾3% 前三季度归母净利润473.17亿元同比增长2.1%",
+   "heat": 0.541,
+   "level": "高热",
+   "n": 2,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.712,
-    "burst": 0.861,
-    "duration": 0.333,
+    "coverage": 0.477,
+    "burst": 0.301,
+    "duration": 1.0,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    163511,
-    163663,
-    163705
-   ]
-  },
-  {
-   "label": "马斯克官宣：SpaceX举债400亿美元采购GPU 警告新云厂商危机将至",
-   "heat": 0.585,
-   "level": "高热",
-   "n": 3,
-   "media": 2,
-   "cat": "半导体",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.712,
-    "burst": 0.861,
-    "duration": 0.333,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    164543,
-    164626,
-    164683
-   ]
-  },
-  {
-   "label": "日本市场上一只巴西股票ETF重挫13% 卢拉在巴西总统大选中胜选",
-   "heat": 0.585,
-   "level": "高热",
-   "n": 3,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.712,
-    "burst": 0.861,
-    "duration": 0.333,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    164568,
-    164578,
-    164590
+    164791,
+    165743
    ]
   }
  ]
