@@ -2,58 +2,13 @@
  "summary": {
   "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.622,
-  "avg_rank_diff": 1.04,
-  "avg_missed_by_bm25": 0.88,
+  "avg_jaccard": 0.657,
+  "avg_rank_diff": 0.78,
+  "avg_missed_by_bm25": 1.25,
   "avg_missed_by_vector": 1.12,
-  "conclusion": "两路召回集平均重合度仅 62%；即便重合的文档，两路名次平均相差 1.04 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 0.88 篇最终进入 Top8 的文档；只用向量则漏掉 1.12 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "conclusion": "两路召回集平均重合度仅 66%；即便重合的文档，两路名次平均相差 0.78 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.25 篇最终进入 Top8 的文档；只用向量则漏掉 1.12 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
-  {
-   "type": "原标题式",
-   "query": "白宫称美国第一夫人促成俄乌在奥列什基局部停火 将便利平民疏散",
-   "jaccard": 0.778,
-   "rank_diff": 0.71,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 1,
-   "example_top1": "白宫称美国第一夫人促成俄乌在奥列什基局部停火 将便利平民疏散"
-  },
-  {
-   "type": "关键词式",
-   "query": "白宫 美国 第一夫人 促成 俄乌 奥列",
-   "jaccard": 0.6,
-   "rank_diff": 0.83,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "白宫称美国第一夫人促成俄乌在奥列什基市局部停火"
-  },
-  {
-   "type": "原标题式",
-   "query": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救",
-   "jaccard": 0.6,
-   "rank_diff": 2.0,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展"
-  },
-  {
-   "type": "关键词式",
-   "query": "西藏 新闻联播 那曲 巴青县 地震 抗震救灾",
-   "jaccard": 0.333,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "月日《西藏新闻联播》：那曲市巴青县级地震抗震救灾工作有序开展",
-   "jaccard": 0.333,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展"
-  },
   {
    "type": "原标题式",
    "query": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一",
@@ -80,6 +35,51 @@
    "missed_by_bm25": 0,
    "missed_by_vector": 1,
    "example_top1": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一"
+  },
+  {
+   "type": "原标题式",
+   "query": "南方区域电力市场转入正式运行暨高质量发展推进会在广州召开",
+   "jaccard": 0.778,
+   "rank_diff": 1.29,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "南方区域电力市场转入正式运行暨高质量发展推进会在广州召开"
+  },
+  {
+   "type": "关键词式",
+   "query": "南方 区域 电力 市场 转入 正式",
+   "jaccard": 0.778,
+   "rank_diff": 0.86,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 0,
+   "example_top1": "南方区域电力市场转入正式运行"
+  },
+  {
+   "type": "原标题式",
+   "query": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4",
+   "jaccard": 0.455,
+   "rank_diff": 0.4,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%"
+  },
+  {
+   "type": "关键词式",
+   "query": "国家统计局 中旬 产品 价格上涨 生猪 价格",
+   "jaccard": 0.455,
+   "rank_diff": 0.2,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "国家统计局：月中旬种产品价格上涨，生猪价格环比下降",
+   "jaccard": 0.455,
+   "rank_diff": 0.2,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%"
   }
  ]
 }

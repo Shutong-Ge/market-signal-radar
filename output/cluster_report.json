@@ -1,11 +1,11 @@
 {
- "n_articles": 1276,
+ "n_articles": 1319,
  "mode": "vector",
- "edges": 284,
- "n_components": 1152,
- "n_clusters": 34,
- "n_noise_filtered": 4,
- "n_single_media_filtered": 46,
+ "edges": 318,
+ "n_components": 1182,
+ "n_clusters": 42,
+ "n_noise_filtered": 3,
+ "n_single_media_filtered": 50,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,124 +13,117 @@
   "media"
  ],
  "calibration": {
-  "max_size": 10.0,
+  "max_size": 6.0,
   "max_first": 4.0,
   "window_days": 3,
   "n_media_total": 5
  },
  "elapsed": 0.1,
  "level_dist": {
-  "爆点": 3,
-  "高热": 7,
-  "升温中": 10,
-  "一般": 14
+  "爆点": 4,
+  "高热": 8,
+  "升温中": 13,
+  "一般": 17
  },
  "top": [
   {
-   "label": "白宫称美国第一夫人促成俄乌在奥列什基局部停火 将便利平民疏散",
-   "heat": 0.756,
-   "level": "爆点",
-   "n": 7,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.867,
-    "burst": 0.861,
-    "duration": 0.667,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    162168,
-    162201,
-    162229,
-    162412,
-    162647,
-    162947,
-    163001
-   ]
-  },
-  {
-   "label": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展",
-   "heat": 0.741,
-   "level": "爆点",
-   "n": 10,
-   "media": 4,
-   "cat": "综合",
-   "sectors": [
-    "BK0428",
-    "BK0174"
-   ],
-   "factors": {
-    "coverage": 1.0,
-    "burst": 0.431,
-    "duration": 0.667,
-    "media": 0.8,
-    "social": null
-   },
-   "article_ids": [
-    162208,
-    162360,
-    162364,
-    162431,
-    162613,
-    162820,
-    162926,
-    162927,
-    163005,
-    163081
-   ]
-  },
-  {
    "label": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一",
-   "heat": 0.725,
+   "heat": 0.78,
    "level": "爆点",
    "n": 6,
    "media": 2,
    "cat": "宏观政策",
    "sectors": [],
    "factors": {
-    "coverage": 0.812,
+    "coverage": 1.0,
     "burst": 1.0,
     "duration": 0.667,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    162635,
-    162708,
-    162848,
-    162900,
-    162928,
-    163385
+    163481,
+    163555,
+    163695,
+    163748,
+    163777,
+    164236
    ]
   },
   {
    "label": "南方区域电力市场转入正式运行暨高质量发展推进会在广州召开",
-   "heat": 0.62,
-   "level": "高热",
+   "heat": 0.772,
+   "level": "爆点",
+   "n": 5,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.921,
+    "burst": 0.861,
+    "duration": 0.667,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    163410,
+    163613,
+    163698,
+    163865,
+    164461
+   ]
+  },
+  {
+   "label": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%",
+   "heat": 0.724,
+   "level": "爆点",
+   "n": 5,
+   "media": 2,
+   "cat": "大宗与能化",
+   "sectors": [
+    "BK0433",
+    "BK0882"
+   ],
+   "factors": {
+    "coverage": 0.921,
+    "burst": 0.861,
+    "duration": 0.667,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    163414,
+    163419,
+    163497,
+    164325,
+    164707
+   ]
+  },
+  {
+   "label": "中国地震台网正式测定：10月24日12时39分在新疆克孜勒苏州乌恰县（北纬39.",
+   "heat": 0.698,
+   "level": "爆点",
    "n": 4,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.671,
-    "burst": 0.861,
+    "coverage": 0.827,
+    "burst": 1.0,
     "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    162565,
-    162766,
-    162851,
-    163015
+    163457,
+    163502,
+    163505,
+    163708
    ]
   },
   {
    "label": "冲突升级！胡塞武装对沙特发起多次袭击 目标直指能源设施和机场",
-   "heat": 0.619,
+   "heat": 0.674,
    "level": "高热",
    "n": 6,
    "media": 3,
@@ -139,132 +132,128 @@
     "BK1480"
    ],
    "factors": {
-    "coverage": 0.812,
+    "coverage": 1.0,
     "burst": 0.683,
     "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    162590,
-    162886,
-    162931,
-    162933,
-    162966,
-    163099
-   ]
-  },
-  {
-   "label": "青海前三季度居民人均可支配收入2.36万元 四项收入全面增长",
-   "heat": 0.609,
-   "level": "高热",
-   "n": 4,
-   "media": 2,
-   "cat": "宏观政策",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.671,
-    "burst": 0.683,
-    "duration": 0.667,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    162156,
-    162226,
-    163255,
-    163278
+    163435,
+    163734,
+    163780,
+    163783,
+    163816,
+    163949
    ]
   },
   {
    "label": "德明利第三季营收116亿：净利27亿 市值797亿 魏宏章减持 或套现4亿",
-   "heat": 0.605,
+   "heat": 0.651,
    "level": "高热",
    "n": 4,
    "media": 2,
    "cat": "半导体",
    "sectors": [],
    "factors": {
-    "coverage": 0.671,
+    "coverage": 0.827,
     "burst": 1.0,
     "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    163164,
-    163242,
-    163298,
-    163354
+    164014,
+    164093,
+    164149,
+    164205
    ]
   },
   {
-   "label": "攸关半导体生产！美国能源部将氦气认定为关键材料",
-   "heat": 0.545,
+   "label": "多位网友称iPhone Duo刚到手屏幕就裂开，开售两天有渠道已“破发”！门店外仍排长队，黄牛：",
+   "heat": 0.643,
+   "level": "高热",
+   "n": 4,
+   "media": 3,
+   "cat": "消费电子",
+   "sectors": [
+    "BK0666"
+   ],
+   "factors": {
+    "coverage": 0.827,
+    "burst": 0.431,
+    "duration": 0.667,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    163741,
+    164331,
+    164592,
+    164692
+   ]
+  },
+  {
+   "label": "刘奇凡任云南省委副书记、省政府党组书记",
+   "heat": 0.585,
+   "level": "高热",
+   "n": 3,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.712,
+    "burst": 0.861,
+    "duration": 0.333,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    163511,
+    163663,
+    163705
+   ]
+  },
+  {
+   "label": "马斯克官宣：SpaceX举债400亿美元采购GPU 警告新云厂商危机将至",
+   "heat": 0.585,
    "level": "高热",
    "n": 3,
    "media": 2,
    "cat": "半导体",
-   "sectors": [
-    "BK1036",
-    "BK0459"
-   ],
-   "factors": {
-    "coverage": 0.578,
-    "burst": 0.861,
-    "duration": 0.333,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    162346,
-    162357,
-    162691
-   ]
-  },
-  {
-   "label": "道指跌超650点！美股主要股指全线收跌，芯片股反弹，油价大涨，现货黄金失守4000美元关口",
-   "heat": 0.545,
-   "level": "高热",
-   "n": 3,
-   "media": 2,
-   "cat": "国际市场",
    "sectors": [],
    "factors": {
-    "coverage": 0.578,
+    "coverage": 0.712,
     "burst": 0.861,
     "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    162384,
-    162444,
-    162506
+    164543,
+    164626,
+    164683
    ]
   },
   {
-   "label": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%",
-   "heat": 0.545,
+   "label": "日本市场上一只巴西股票ETF重挫13% 卢拉在巴西总统大选中胜选",
+   "heat": 0.585,
    "level": "高热",
    "n": 3,
    "media": 2,
-   "cat": "大宗与能化",
-   "sectors": [
-    "BK0433",
-    "BK0882"
-   ],
+   "cat": "综合",
+   "sectors": [],
    "factors": {
-    "coverage": 0.578,
+    "coverage": 0.712,
     "burst": 0.861,
     "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    162569,
-    162574,
-    162651
+    164568,
+    164578,
+    164590
    ]
   }
  ]

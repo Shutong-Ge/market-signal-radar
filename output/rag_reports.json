@@ -1,206 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 34,
+ "n_clusters": 42,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 3.5,
+ "elapsed": 5.8,
  "reports": [
   {
-   "key": "05bd2437005dde4c",
-   "label": "白宫称美国第一夫人促成俄乌在奥列什基局部停火 将便利平民疏散",
-   "cached": false,
-   "sections": {
-    "事件概述": "「白宫称美国第一夫人促成俄乌在奥列什基局部停火 将便利平民疏散」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.756（爆点），所属板块类目：综合。",
-    "关键信息": "白宫称美国第一夫人促成俄乌在奥列什基局部停火 将便利平民疏散；白宫称美国第一夫人促成俄乌在奥列什基市局部停火；俄乌同意奥列什基停火，泽连斯基称11月举行新一轮和平会谈",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "白宫称美国第一夫人促成俄乌在奥列什基局部停火 将便利平民疏散",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfruk1855384.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "白宫称美国第一夫人促成俄乌在奥列什基市局部停火",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfruk1825992.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "俄乌同意奥列什基停火，泽连斯基称11月举行新一轮和平会谈",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhse2440163.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "牛弹琴：难得的一个好消息",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-24/doc-iniwhnxw4986789.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "白宫称俄乌同意在奥列什基暂时停火",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniwfruh5012462.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "俄乌将为奥列什基人道主义行动同步停火",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907134491.html",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "俄乌同意局部停火 三方会谈或于下月举行",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185115",
-     "rrf": 0.02963,
-     "bm25_rank": 8,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "10月24日外盘头条：俄乌同意奥列什基停火 特朗普拟豁免更多加拿大产品关税 美国将氦列入关键材料清单",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhry5046368.shtml",
-     "rrf": 0.02862,
-     "bm25_rank": 7,
-     "vec_rank": 13
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "白宫称美国第一夫人促成俄乌在奥列什基局部停火 将便利平民疏散",
-    "bm25_only": 1,
-    "vec_only": 0,
-    "both": 7,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "1258df8a0b068a7e",
-   "label": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展",
-   "cached": false,
-   "sections": {
-    "事件概述": "「10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展」由 10 篇报道聚合而成，覆盖 4 家媒体，热度 0.741（爆点），所属板块类目：综合。",
-    "关键信息": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展；西藏那曲市巴青县发生3.2级地震；西藏巴青7.0级地震已造成16人遇难、76人受伤",
-    "市场影响": "关联板块代码：BK0428、BK0174。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-24/doc-iniwhakh2452539.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "西藏那曲市巴青县发生3.2级地震",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185166",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "西藏巴青7.0级地震已造成16人遇难、76人受伤",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/china/2026-10-23/doc-iniwfruk1837954.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "自然资源部为西藏那曲地震救援提供卫星遥感图像",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwhnxu8230515.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "拼多多紧急捐赠1000万元 驰援西藏那曲抗震救灾",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-24/10720441.shtml",
-     "rrf": 0.03021,
-     "bm25_rank": 2,
-     "vec_rank": 11
-    },
-    {
-     "n": 6,
-     "title": "视频丨昼夜奋战！西藏巴青首批60套救灾安置板房搭建完毕",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-25/doc-iniwmxsp9748573.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 5,
-     "vec_rank": 9
-    },
-    {
-     "n": 7,
-     "title": "20类物资陆续运抵、电力全面恢复 西藏巴青地震救援最新进展",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907140419.html",
-     "rrf": 0.02971,
-     "bm25_rank": 11,
-     "vec_rank": 4
-    },
-    {
-     "n": 8,
-     "title": "青藏集团公司全力开展 地震应急处置保障工作",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwfwah1834870.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 10,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "10月23日《西藏新闻联播》：那曲市巴青县7.0级地震抗震救灾工作有序开展",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "66c5aa18a5d1bdf0",
+   "key": "d55fc0b60323159a",
    "label": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一",
    "cached": false,
    "sections": {
-    "事件概述": "「去年全国结婚登记676万对，广东结婚登记人数连续四年第一」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.725（爆点），所属板块类目：宏观政策。",
+    "事件概述": "「去年全国结婚登记676万对，广东结婚登记人数连续四年第一」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.78（爆点），所属板块类目：宏观政策。",
     "关键信息": "去年全国结婚登记676万对，广东结婚登记人数连续四年第一；去年河北结婚登记人数32.43万对；2025年全国结婚登记676.51万对，增长10.8％",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -290,11 +102,11 @@
    "elapsed": 0.0
   },
   {
-   "key": "dcbba6298322787c",
+   "key": "9b80bb640c145365",
    "label": "南方区域电力市场转入正式运行暨高质量发展推进会在广州召开",
    "cached": false,
    "sections": {
-    "事件概述": "「南方区域电力市场转入正式运行暨高质量发展推进会在广州召开」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.62（高热），所属板块类目：综合。",
+    "事件概述": "「南方区域电力市场转入正式运行暨高质量发展推进会在广州召开」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.772（爆点），所属板块类目：综合。",
     "关键信息": "南方区域电力市场转入正式运行暨高质量发展推进会在广州召开；中国首个区域电力市场正式运行；南方区域电力市场转入正式运行",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -332,21 +144,30 @@
      "title": "南方区域电力市场今起正式运行",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-10-24/doc-iniwhtfw1516654.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
+     "rrf": 0.03101,
+     "bm25_rank": 5,
      "vec_rank": 4
     },
     {
      "n": 5,
-     "title": "全球最大“电力超市”正式开业了",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185118",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
+     "title": "我国首个区域电力市场正式运行 多元主体将深度参与电力市场",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-26/doc-iniwnzef2526995.shtml",
+     "rrf": 0.03055,
+     "bm25_rank": 4,
+     "vec_rank": 7
     },
     {
      "n": 6,
+     "title": "全球最大“电力超市”正式开业了",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185118",
+     "rrf": 0.0303,
+     "bm25_rank": 6,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
      "title": "国家能源局主要负责同志赴广东调研新型电网建设等工作",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3185170",
@@ -355,40 +176,219 @@
      "vec_rank": 5
     },
     {
-     "n": 7,
-     "title": "长三角电力市场建设推进会召开",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwfwah1789212.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 6,
-     "vec_rank": 7
-    },
-    {
      "n": 8,
-     "title": "全县三季度经济运行分析暨高质量发展推进会召开",
+     "title": "从地面制造到天空引领，跨界创新在广东何以成为可能？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-24/doc-iniwiyzn0390880.shtml",
-     "rrf": 0.02775,
-     "bm25_rank": 7,
-     "vec_rank": 18
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-26/doc-iniwnzcz9294950.shtml",
+     "rrf": 0.02819,
+     "bm25_rank": 13,
+     "vec_rank": 9
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "南方区域电力市场转入正式运行暨高质量发展推进会在广州召开",
-    "bm25_only": 1,
+    "bm25_only": 0,
     "vec_only": 0,
     "both": 7,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "10e0d6ddbd53cadf",
+   "label": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%",
+   "cached": false,
+   "sections": {
+    "事件概述": "「国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%」由 5 篇报道聚合而成，覆盖 2 家媒体，热度 0.724（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%；国家统计局：10月中旬生猪（外三元）价格环比下降4.9%；终端需求支撑力度有限 本周国内生猪价格震荡下滑",
+    "市场影响": "关联板块代码：BK0433、BK0882。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610243907058257.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "国家统计局：10月中旬生猪（外三元）价格环比下降4.9%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-24/doc-iniwhtfs8154742.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "终端需求支撑力度有限 本周国内生猪价格震荡下滑",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610243907095519.html",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "华泰期货：供应压力难解，生猪价格延续弱势",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-26/doc-iniwpfnc2441014.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "山东市场最新消息：鸡蛋价格跌破“9元”，猪肉降至“20元”以内",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-26/doc-iniwpfmz5667436.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "10月供应压力仍存，11月猪价受限",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/wemedia/2026-10-26/doc-iniwnkhm6075284.shtml",
+     "rrf": 0.02991,
+     "bm25_rank": 10,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "钢材：需求回暖持续存疑，钢材市场情绪承压2026.10.26",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/wemedia/2026-10-26/doc-iniwnzcz9346568.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 6,
+     "vec_rank": 10
+    },
+    {
+     "n": 8,
+     "title": "华泰期货：关注南美天气变化，豆粕价格维持震荡",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-26/doc-iniwpfmw2491739.shtml",
+     "rrf": 0.02838,
+     "bm25_rank": 9,
+     "vec_rank": 12
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "国家统计局：10月中旬22种产品价格上涨，生猪价格环比下降4.9%",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "eba47012b14d7ca7",
+   "label": "中国地震台网正式测定：10月24日12时39分在新疆克孜勒苏州乌恰县（北纬39.",
+   "cached": false,
+   "sections": {
+    "事件概述": "「中国地震台网正式测定：10月24日12时39分在新疆克孜勒苏州乌恰县（北纬39.」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.698（爆点），所属板块类目：综合。",
+    "关键信息": "中国地震台网正式测定：10月24日12时39分在新疆克孜勒苏州乌恰县（北纬39.；中国地震台网正式测定：10月24日16时39分在青海玉树州杂多县（北纬32.54；新疆伊犁州巩留县发生4.3级地震 震源深度21千米",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "中国地震台网正式测定：10月24日12时39分在新疆克孜勒苏州乌恰县（北纬39.",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185103",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "中国地震台网正式测定：10月24日16时39分在青海玉树州杂多县（北纬32.54",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185116",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "新疆伊犁州巩留县发生4.3级地震 震源深度21千米",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610243907096894.html",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "西藏那曲市巴青县发生3.2级地震",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185166",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "过去24小时 西藏巴青地震余震增加391次 最大震级4.5级",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185104",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "瓦努阿图发生7.2级地震",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185090",
+     "rrf": 0.02947,
+     "bm25_rank": 11,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "青藏铁路受地震影响区段列车恢复正常运行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-25/doc-iniwiyzn0431972.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 10,
+     "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "青海省玉树州杂多县发生5.3级地震 水利部迅即启动水利抗震救灾调度指挥机制",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-24/doc-iniwiqmn1173414.shtml",
+     "rrf": 0.02848,
+     "bm25_rank": 6,
+     "vec_rank": 15
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "中国地震台网正式测定：10月24日12时39分在新疆克孜勒苏州乌恰县（北纬39.",
+    "bm25_only": 1,
+    "vec_only": 2,
+    "both": 5,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "da588c7f5c719dca",
+   "key": "6da594dc953dc0ee",
    "label": "冲突升级！胡塞武装对沙特发起多次袭击 目标直指能源设施和机场",
    "cached": false,
    "sections": {
-    "事件概述": "「冲突升级！胡塞武装对沙特发起多次袭击 目标直指能源设施和机场」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.619（高热），所属板块类目：综合。",
+    "事件概述": "「冲突升级！胡塞武装对沙特发起多次袭击 目标直指能源设施和机场」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.674（高热），所属板块类目：综合。",
     "关键信息": "冲突升级！胡塞武装对沙特发起多次袭击 目标直指能源设施和机场；胡塞武装：袭击了沙特能源设施和利雅得机场；也门胡塞武装称对沙特机场和石油设施等目标发动袭击",
     "市场影响": "关联板块代码：BK1480。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -423,55 +423,55 @@
     },
     {
      "n": 4,
-     "title": "也门胡塞武装称沙特一天内发动百次空袭",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907134930.html",
-     "rrf": 0.03078,
+     "title": "沙特股市因胡塞武装持续袭击而重挫",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwncym9643652.shtml",
+     "rrf": 0.03055,
      "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "胡塞武装称过去24小时沙特袭击也门124次",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185092",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "利雅得机场拟重开，胡塞武装发警告",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185178",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
      "vec_rank": 7
     },
     {
-     "n": 7,
-     "title": "突然！多国联军，发动空袭！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-24/doc-iniwicvq4800191.shtml",
-     "rrf": 0.02951,
-     "bm25_rank": 12,
-     "vec_rank": 4
+     "n": 5,
+     "title": "也门胡塞武装称沙特一天内发动百次空袭",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610253907134930.html",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
     },
     {
-     "n": 8,
-     "title": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907225858.html",
+     "n": 6,
+     "title": "胡塞武装称过去24小时沙特袭击也门124次",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185092",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "沙特利雅得机场重新开放 胡塞武装袭击仍在持续",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwncyp6182831.shtml",
      "rrf": 0.02924,
      "bm25_rank": 6,
      "vec_rank": 11
+    },
+    {
+     "n": 8,
+     "title": "利雅得机场重开数小时再遭袭击",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185268",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "冲突升级！胡塞武装对沙特发起多次袭击 目标直指能源设施和机场",
-    "bm25_only": 1,
-    "vec_only": 1,
+    "bm25_only": 2,
+    "vec_only": 0,
     "both": 6,
     "neither_topk": 0
    },
