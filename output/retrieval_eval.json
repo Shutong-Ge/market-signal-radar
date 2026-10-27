@@ -1,31 +1,40 @@
 {
  "summary": {
-  "n_queries": 8,
+  "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.423,
-  "avg_rank_diff": 1.29,
-  "avg_missed_by_bm25": 1.88,
-  "avg_missed_by_vector": 2.38,
-  "conclusion": "两路召回集平均重合度仅 42%；即便重合的文档，两路名次平均相差 1.29 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.88 篇最终进入 Top8 的文档；只用向量则漏掉 2.38 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.357,
+  "avg_rank_diff": 0.8,
+  "avg_missed_by_bm25": 2.56,
+  "avg_missed_by_vector": 2.67,
+  "conclusion": "两路召回集平均重合度仅 36%；即便重合的文档，两路名次平均相差 0.8 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.56 篇最终进入 Top8 的文档；只用向量则漏掉 2.67 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "Anthropic向美国SEC提交上市文件后，预测市场交易者",
-   "jaccard": 0.455,
-   "rank_diff": 1.6,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎已成定局"
+   "query": "10月27日隔夜要闻：Anthropic递表 美股收高 油价",
+   "jaccard": 0.143,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
+   "example_top1": "10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔断 微软向6"
   },
   {
    "type": "关键词式",
-   "query": "美国 提交 上市 文件 预测 市场",
-   "jaccard": 0.333,
-   "rank_diff": 2.0,
+   "query": "隔夜 要闻 递表 美股 收高 油价",
+   "jaccard": 0.231,
+   "rank_diff": 1.33,
    "missed_by_bm25": 2,
+   "missed_by_vector": 3,
+   "example_top1": "10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔断 微软向6"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "月日隔夜要闻：Anthropic递表 美股收高 油价回落 巴",
+   "jaccard": 0.333,
+   "rank_diff": 0.75,
+   "missed_by_bm25": 3,
    "missed_by_vector": 2,
-   "example_top1": "Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎已成定局"
+   "example_top1": "10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔断 微软向6"
   },
   {
    "type": "原标题式",
@@ -33,7 +42,7 @@
    "jaccard": 0.143,
    "rank_diff": 0.5,
    "missed_by_bm25": 3,
-   "missed_by_vector": 3,
+   "missed_by_vector": 4,
    "example_top1": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1"
   },
   {
@@ -41,45 +50,45 @@
    "query": "国家统计局 月算力 数据中心 建设 带动 光纤",
    "jaccard": 0.067,
    "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 5,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
    "example_top1": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1"
   },
   {
    "type": "去数字泛化",
    "query": "国家统计局：—月算力与数据中心建设带动光纤制造、光缆制造行业",
-   "jaccard": 0.231,
-   "rank_diff": 0.33,
-   "missed_by_bm25": 3,
+   "jaccard": 0.143,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 4,
    "missed_by_vector": 4,
    "example_top1": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1"
   },
   {
    "type": "原标题式",
-   "query": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.",
+   "query": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、",
    "jaccard": 0.778,
-   "rank_diff": 1.71,
+   "rank_diff": 1.29,
    "missed_by_bm25": 1,
    "missed_by_vector": 1,
-   "example_top1": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%"
+   "example_top1": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5"
   },
   {
    "type": "关键词式",
-   "query": "恒指 高开 恒生 科技 指数 网易",
-   "jaccard": 0.778,
-   "rank_diff": 2.0,
-   "missed_by_bm25": 0,
+   "query": "商品 期货 开盘 甲醇 主力 合约",
+   "jaccard": 0.6,
+   "rank_diff": 1.83,
+   "missed_by_bm25": 1,
    "missed_by_vector": 1,
-   "example_top1": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%"
+   "example_top1": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5"
   },
   {
    "type": "去数字泛化",
-   "query": "恒指高开，报点；恒生科技指数涨。网易涨近",
-   "jaccard": 0.6,
-   "rank_diff": 2.17,
+   "query": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近，对二甲苯、聚丙",
+   "jaccard": 0.778,
+   "rank_diff": 1.0,
    "missed_by_bm25": 1,
    "missed_by_vector": 1,
-   "example_top1": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%"
+   "example_top1": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5"
   }
  ]
 }

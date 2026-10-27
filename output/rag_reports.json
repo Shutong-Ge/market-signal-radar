@@ -1,112 +1,112 @@
 {
  "engine": "template(降级)",
- "n_clusters": 66,
+ "n_clusters": 63,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.2,
+ "elapsed": 5.5,
  "reports": [
   {
-   "key": "c2afe0d43558cec2",
-   "label": "Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎已成定局",
+   "key": "95ecd5743b9b667d",
+   "label": "10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔断 微软向6万名",
    "cached": false,
    "sections": {
-    "事件概述": "「Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎已成定局」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎；Anthropic正式提交纳斯达克IPO申请；Anthropic公开提交IPO文件 有望成为首家上市的前沿AI实验室",
+    "事件概述": "「10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔断 微软向6万名」由 29 篇报道聚合而成，覆盖 3 家媒体，热度 0.882（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔；10月27日外盘头条：巴西股市暴跌 特朗普质疑卢拉胜选 苹果承认少量iPhone；美股三大指数集体高开 巴西在美股上市的公司暴跌",
     "市场影响": "关联板块代码：BK0697。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎已成定局",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186516",
+     "title": "10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔断 微软向6万名员工推出自愿离职买断",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwreay2153787.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "Anthropic正式提交纳斯达克IPO申请",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186294",
+     "title": "10月27日外盘头条：巴西股市暴跌 特朗普质疑卢拉胜选 苹果承认少量iPhoneDuo内屏裂纹 Anthropic递表",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwreay2126719.shtml",
      "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "Anthropic公开提交IPO文件 有望成为首家上市的前沿AI实验室",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxk2488163.shtml",
-     "rrf": 0.03126,
      "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "Anthropic向美国SEC提交招股说明书",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxk2446065.shtml",
-     "rrf": 0.03105,
-     "bm25_rank": 7,
      "vec_rank": 2
     },
     {
-     "n": 5,
-     "title": "Anthropic上市 押上的几乎是整个AI市场",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqarp9277937.shtml",
-     "rrf": 0.03078,
+     "n": 3,
+     "title": "美股三大指数集体高开 巴西在美股上市的公司暴跌",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610263908528667.html",
+     "rrf": 0.03012,
      "bm25_rank": 4,
-     "vec_rank": 6
+     "vec_rank": 9
     },
     {
-     "n": 6,
-     "title": "Anthropic据悉今晚公布S-1招股书，最快11月19日或20日登陆美股",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxp5276457.shtml",
-     "rrf": 0.02947,
-     "bm25_rank": 5,
-     "vec_rank": 11
+     "n": 4,
+     "title": "巴西股市暴跌 因触发熔断机制暂停交易",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610263908476175.html",
+     "rrf": 0.02983,
+     "bm25_rank": 2,
+     "vec_rank": 13
     },
     {
-     "n": 7,
-     "title": "Anthropic计划于11月进行IPO",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxp5308852.shtml",
-     "rrf": 0.02859,
-     "bm25_rank": 12,
+     "n": 5,
+     "title": "巴西股票ETF盘初暴跌26%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610263908533390.html",
+     "rrf": 0.0292,
+     "bm25_rank": 9,
      "vec_rank": 8
     },
     {
-     "n": 8,
+     "n": 6,
      "title": "10月27日收盘：美股三大股指收高 Anthropic提交IPO文件重燃AI交易热情",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwqxva2227240.shtml",
-     "rrf": 0.02814,
-     "bm25_rank": 6,
-     "vec_rank": 17
+     "rrf": 0.02878,
+     "bm25_rank": 16,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "周一美股盘前你需要了解的全球要闻",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186293",
+     "rrf": 0.02872,
+     "bm25_rank": 15,
+     "vec_rank": 5
+    },
+    {
+     "n": 8,
+     "title": "卢拉意外胜选后巴西雷亚尔期货重挫",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxm9187832.shtml",
+     "rrf": 0.0276,
+     "bm25_rank": 11,
+     "vec_rank": 14
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎",
+    "query": "10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔",
     "bm25_only": 2,
-    "vec_only": 1,
-    "both": 5,
-    "neither_topk": 0
+    "vec_only": 3,
+    "both": 2,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "d12d8d78725e233a",
+   "key": "a18096ffc91dac19",
    "label": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1倍",
    "cached": false,
    "sections": {
-    "事件概述": "「国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1倍」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.68（爆点），所属板块类目：宏观政策。",
+    "事件概述": "「国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1倍」由 11 篇报道聚合而成，覆盖 4 家媒体，热度 0.705（爆点），所属板块类目：宏观政策。",
     "关键信息": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.；国家统计局：1—9月份，电子行业利润同比增长1.0倍；国家统计局：1—9月份规模以上原材料制造业利润同比增长44.9%",
     "市场影响": "关联板块代码：BK1134、BK0922。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -150,57 +150,245 @@
     },
     {
      "n": 5,
-     "title": "AI硬件股早盘集体回暖 建滔积层板涨近5%长飞光纤光缆涨超3%",
+     "title": "15.5%！前9月规上工业企业利润较快增长",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-27/doc-iniwrqsu2076412.shtml",
-     "rrf": 0.02908,
-     "bm25_rank": 5,
-     "vec_rank": 13
-    },
-    {
-     "n": 6,
-     "title": "今日看点｜中国1—9月规模以上工业企业利润将公布",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-27/doc-iniwrkkx8903512.shtml",
-     "rrf": 0.02904,
-     "bm25_rank": 12,
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwsmwu3808349.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 8,
      "vec_rank": 6
     },
     {
+     "n": 6,
+     "title": "从利润增长15.5%透视工业生产稳中有进 产业结构向新、向优、向好升级",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-27/10721729.shtml",
+     "rrf": 0.02857,
+     "bm25_rank": 10,
+     "vec_rank": 10
+    },
+    {
      "n": 7,
-     "title": "前三季度新动能行业发展加快",
+     "title": "AI硬件股早盘集体回暖 建滔积层板涨近5%长飞光纤光缆涨超3%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-26/doc-iniwnuwa2630118.shtml",
-     "rrf": 0.02819,
-     "bm25_rank": 13,
-     "vec_rank": 9
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-27/doc-iniwrqsu2076412.shtml",
+     "rrf": 0.02854,
+     "bm25_rank": 5,
+     "vec_rank": 16
     },
     {
      "n": 8,
-     "title": "“赢”在内蒙古 | 前三季度内蒙古工业增长里的“新”含量",
+     "title": "今日看点｜中国1—9月规模以上工业企业利润将公布",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-25/doc-iniwmxst3041498.shtml",
-     "rrf": 0.0272,
-     "bm25_rank": 6,
-     "vec_rank": 23
+     "url": "https://finance.sina.com.cn/roll/2026-10-27/doc-iniwrkkx8903512.shtml",
+     "rrf": 0.02791,
+     "bm25_rank": 17,
+     "vec_rank": 7
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.",
-    "bm25_only": 2,
+    "bm25_only": 1,
     "vec_only": 1,
-    "both": 4,
+    "both": 5,
     "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "a1d71797ea7b3fd8",
+   "key": "cd90a006b54a4f1a",
+   "label": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
+   "cached": false,
+   "sections": {
+    "事件概述": "「商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.663（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5；国内商品期货早盘开盘 主力合约多数上涨；收评|国内期货主力合约涨跌不一，沥青涨近7%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185304",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "国内商品期货早盘开盘 主力合约多数上涨",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610263907443533.html",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "收评|国内期货主力合约涨跌不一，沥青涨近7%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-26/doc-iniwprzt9282325.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 2,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙烯、沪锌涨超1%。烧",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186542",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "开盘：主力合约跌多涨少 烧碱跌超4%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-27/doc-iniwrkkz4826769.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 6,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "国内商品期货夜盘开盘 主力合约多数上涨",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610273910399495.html",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "夜盘期货开盘，焦煤涨近3%，纯碱涨近2%，玻璃、合成橡胶、乙二醇（EG）、聚丙烯",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3187730",
+     "rrf": 0.02942,
+     "bm25_rank": 7,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "光大期货1026热点追踪：中东局势依然紧张，甲醇涨停",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-26/doc-iniwprzt9279030.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 10,
+     "vec_rank": 7
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "76bc98cecc22b269",
+   "label": "首批主动ETF发行“加速跑”：18只中7只提前结募，南方、华夏、华泰柏瑞、平安今日触顶配售",
+   "cached": false,
+   "sections": {
+    "事件概述": "「首批主动ETF发行“加速跑”：18只中7只提前结募，南方、华夏、华泰柏瑞、平安今日触顶配售」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.653（爆点），所属板块类目：综合。",
+    "关键信息": "首批主动ETF发行“加速跑”：18只中7只提前结募，南方、华夏、华泰柏瑞、平安今；开售仅两日 沪市9只主动ETF中已有5只募满20亿元；三日售罄！首批主动ETF结募阵营扩至11只 汇添富、大成、招商、天弘“撞线”",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "首批主动ETF发行“加速跑”：18只中7只提前结募，南方、华夏、华泰柏瑞、平安今日触顶配售",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/observe/2026-10-26/doc-iniwpwiv2241374.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "开售仅两日 沪市9只主动ETF中已有5只募满20亿元",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610263908476826.html",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "三日售罄！首批主动ETF结募阵营扩至11只 汇添富、大成、招商、天弘“撞线”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/observe/2026-10-27/doc-iniwsfqu7045316.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "提前结募！招商价值智选主动管理ETF提前结束募集",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/fund/jjdt/2026-10-27/doc-iniwsfqu7032925.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "提前结募！均衡量化主动ETF天弘（158908）募集超20亿元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/fund/jjdt/2026-10-27/doc-iniwsfqu7030432.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 3,
+     "vec_rank": 9
+    },
+    {
+     "n": 6,
+     "title": "从“谁先发”到“谁能跑” 18只主动ETF同台竞技",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-26/doc-iniwnqqf9484422.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "“一日售罄”盛况重现 首批主动ETF首秀满堂彩",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-26/doc-iniwnuwc9398200.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "华夏质量甄选主动股票ETF提前结束募集",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186300",
+     "rrf": 0.02991,
+     "bm25_rank": 4,
+     "vec_rank": 10
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "首批主动ETF发行“加速跑”：18只中7只提前结募，南方、华夏、华泰柏瑞、平安今",
+    "bm25_only": 2,
+    "vec_only": 0,
+    "both": 6,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "69aaee57e3350c60",
    "label": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%",
    "cached": false,
    "sections": {
-    "事件概述": "「恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.651（爆点），所属板块类目：金融市场。",
+    "事件概述": "「恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.642（爆点），所属板块类目：金融市场。",
     "关键信息": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%；港股开盘：恒生指数涨0.28% 恒生科技指数涨0.43%；港股高开高走，恒生科技指数涨幅扩大逾1%",
     "市场影响": "关联板块代码：BK1652。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -271,209 +459,21 @@
     },
     {
      "n": 8,
-     "title": "日经225指数高开0.5%，韩国首尔综指高开3.5%。 SK海力士涨逾6%，三星",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186532",
-     "rrf": 0.02822,
-     "bm25_rank": 8,
-     "vec_rank": 14
+     "title": "开盘：三大股指齐涨，科技股走强、油价下跌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxr2088232.shtml",
+     "rrf": 0.02837,
+     "bm25_rank": 10,
+     "vec_rank": 11
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%",
-    "bm25_only": 1,
+    "bm25_only": 0,
     "vec_only": 0,
     "both": 7,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "dca7e4d6be4458e4",
-   "label": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
-   "cached": false,
-   "sections": {
-    "事件概述": "「商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.634（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5；国内商品期货早盘开盘 主力合约多数上涨；收评|国内期货主力合约涨跌不一，沥青涨近7%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185304",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "国内商品期货早盘开盘 主力合约多数上涨",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610263907443533.html",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "收评|国内期货主力合约涨跌不一，沥青涨近7%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-26/doc-iniwprzt9282325.shtml",
-     "rrf": 0.03151,
-     "bm25_rank": 2,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙烯、沪锌涨超1%。烧",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186542",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "开盘：主力合约跌多涨少 烧碱跌超4%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-27/doc-iniwrkkz4826769.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "光大期货1026热点追踪：中东局势依然紧张，甲醇涨停",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-26/doc-iniwprzt9279030.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "国债期货开盘，30年期主力合约与昨日持平，10年期主力合约涨0.02%，5年期主",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185315",
-     "rrf": 0.02964,
-     "bm25_rank": 6,
-     "vec_rank": 9
-    },
-    {
-     "n": 8,
-     "title": "【现货异动】丙烯单日飙涨4.00%突破1.1万元！供应偏紧叠加成本支撑，月涨16.48%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-26/doc-iniwpwir9297830.shtml",
-     "rrf": 0.02844,
-     "bm25_rank": 14,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "113fa6152c990e28",
-   "label": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹",
-   "cached": false,
-   "sections": {
-    "事件概述": "「沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.613（爆点），所属板块类目：综合。",
-    "关键信息": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹；沙特主导联军称拦截胡塞弹道导弹；胡塞武装宣称袭击沙特油气与机场设施，沙特称拦截导弹",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907225858.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "沙特主导联军称拦截胡塞弹道导弹",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185176",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "胡塞武装宣称袭击沙特油气与机场设施，沙特称拦截导弹",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwprzt9248634.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "也门胡塞武装：7袭沙特境内目标，回应沙特空袭",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185201",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "利雅得机场拟重开，胡塞武装发警告",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185178",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "沙特股市因胡塞武装持续袭击而重挫",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwncym9643652.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 5,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "利雅得机场重开数小时再遭袭击",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185268",
-     "rrf": 0.02963,
-     "bm25_rank": 8,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "沙特利雅得机场重新开放 胡塞武装袭击仍在持续",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwncyp6182831.shtml",
-     "rrf": 0.02944,
-     "bm25_rank": 6,
-     "vec_rank": 10
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹",
-    "bm25_only": 1,
-    "vec_only": 0,
-    "both": 7,
-    "neither_topk": 0
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }
