@@ -1,20 +1,396 @@
 {
  "engine": "template(降级)",
- "n_clusters": 52,
+ "n_clusters": 66,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.7,
+ "elapsed": 4.2,
  "reports": [
   {
-   "key": "e357903857ed2096",
+   "key": "c2afe0d43558cec2",
+   "label": "Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎已成定局",
+   "cached": false,
+   "sections": {
+    "事件概述": "「Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎已成定局」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎；Anthropic正式提交纳斯达克IPO申请；Anthropic公开提交IPO文件 有望成为首家上市的前沿AI实验室",
+    "市场影响": "关联板块代码：BK0697。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎已成定局",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186516",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "Anthropic正式提交纳斯达克IPO申请",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186294",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "Anthropic公开提交IPO文件 有望成为首家上市的前沿AI实验室",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxk2488163.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "Anthropic向美国SEC提交招股说明书",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxk2446065.shtml",
+     "rrf": 0.03105,
+     "bm25_rank": 7,
+     "vec_rank": 2
+    },
+    {
+     "n": 5,
+     "title": "Anthropic上市 押上的几乎是整个AI市场",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqarp9277937.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "Anthropic据悉今晚公布S-1招股书，最快11月19日或20日登陆美股",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxp5276457.shtml",
+     "rrf": 0.02947,
+     "bm25_rank": 5,
+     "vec_rank": 11
+    },
+    {
+     "n": 7,
+     "title": "Anthropic计划于11月进行IPO",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxp5308852.shtml",
+     "rrf": 0.02859,
+     "bm25_rank": 12,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "10月27日收盘：美股三大股指收高 Anthropic提交IPO文件重燃AI交易热情",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwqxva2227240.shtml",
+     "rrf": 0.02814,
+     "bm25_rank": 6,
+     "vec_rank": 17
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "d12d8d78725e233a",
+   "label": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1倍",
+   "cached": false,
+   "sections": {
+    "事件概述": "「国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1倍」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.68（爆点），所属板块类目：宏观政策。",
+    "关键信息": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.；国家统计局：1—9月份，电子行业利润同比增长1.0倍；国家统计局：1—9月份规模以上原材料制造业利润同比增长44.9%",
+    "市场影响": "关联板块代码：BK1134、BK0922。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1倍",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610273909226978.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "国家统计局：1—9月份，电子行业利润同比增长1.0倍",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186565",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "国家统计局：1—9月份规模以上原材料制造业利润同比增长44.9%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610273909245755.html",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "国家统计局：1-9月不同规模、多种类型企业利润增长较快",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186568",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "AI硬件股早盘集体回暖 建滔积层板涨近5%长飞光纤光缆涨超3%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-27/doc-iniwrqsu2076412.shtml",
+     "rrf": 0.02908,
+     "bm25_rank": 5,
+     "vec_rank": 13
+    },
+    {
+     "n": 6,
+     "title": "今日看点｜中国1—9月规模以上工业企业利润将公布",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-27/doc-iniwrkkx8903512.shtml",
+     "rrf": 0.02904,
+     "bm25_rank": 12,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "前三季度新动能行业发展加快",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-26/doc-iniwnuwa2630118.shtml",
+     "rrf": 0.02819,
+     "bm25_rank": 13,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "“赢”在内蒙古 | 前三季度内蒙古工业增长里的“新”含量",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-25/doc-iniwmxst3041498.shtml",
+     "rrf": 0.0272,
+     "bm25_rank": 6,
+     "vec_rank": 23
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 4,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "a1d71797ea7b3fd8",
+   "label": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%",
+   "cached": false,
+   "sections": {
+    "事件概述": "「恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.651（爆点），所属板块类目：金融市场。",
+    "关键信息": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%；港股开盘：恒生指数涨0.28% 恒生科技指数涨0.43%；港股高开高走，恒生科技指数涨幅扩大逾1%",
+    "市场影响": "关联板块代码：BK1652。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185309",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "港股开盘：恒生指数涨0.28% 恒生科技指数涨0.43%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610263907457281.html",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "港股高开高走，恒生科技指数涨幅扩大逾1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-27/doc-iniwrkmc1618672.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "港股午评：恒指涨0.44% 科指跌0.37% 科网股低迷 石油股活跃",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-26/doc-iniwpmtx5602606.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "港股三大指数集体转跌，恒生科技指数此前涨超1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-27/doc-iniwrqsx4719479.shtml",
+     "rrf": 0.03058,
+     "bm25_rank": 3,
+     "vec_rank": 8
+    },
+    {
+     "n": 6,
+     "title": "快讯：恒指高开0.28% 恒科指涨0.43% 创新药概念股高开",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-26/doc-iniwpfmz5663468.shtml",
+     "rrf": 0.03055,
+     "bm25_rank": 7,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "标普500指数高开16.02点，涨幅0.21%，报7639.70点； 道琼斯工业",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186310",
+     "rrf": 0.0303,
+     "bm25_rank": 6,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "日经225指数高开0.5%，韩国首尔综指高开3.5%。 SK海力士涨逾6%，三星",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186532",
+     "rrf": 0.02822,
+     "bm25_rank": 8,
+     "vec_rank": 14
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "dca7e4d6be4458e4",
+   "label": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
+   "cached": false,
+   "sections": {
+    "事件概述": "「商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.634（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5；国内商品期货早盘开盘 主力合约多数上涨；收评|国内期货主力合约涨跌不一，沥青涨近7%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185304",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "国内商品期货早盘开盘 主力合约多数上涨",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610263907443533.html",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "收评|国内期货主力合约涨跌不一，沥青涨近7%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-26/doc-iniwprzt9282325.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 2,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙烯、沪锌涨超1%。烧",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186542",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "开盘：主力合约跌多涨少 烧碱跌超4%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-27/doc-iniwrkkz4826769.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "光大期货1026热点追踪：中东局势依然紧张，甲醇涨停",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-26/doc-iniwprzt9279030.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "国债期货开盘，30年期主力合约与昨日持平，10年期主力合约涨0.02%，5年期主",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185315",
+     "rrf": 0.02964,
+     "bm25_rank": 6,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "【现货异动】丙烯单日飙涨4.00%突破1.1万元！供应偏紧叠加成本支撑，月涨16.48%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-26/doc-iniwpwir9297830.shtml",
+     "rrf": 0.02844,
+     "bm25_rank": 14,
+     "vec_rank": 7
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "113fa6152c990e28",
    "label": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹",
    "cached": false,
    "sections": {
-    "事件概述": "「沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.87（爆点），所属板块类目：交运物流。",
+    "事件概述": "「沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.613（爆点），所属板块类目：综合。",
     "关键信息": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹；沙特主导联军称拦截胡塞弹道导弹；胡塞武装宣称袭击沙特油气与机场设施，沙特称拦截导弹",
-    "市场影响": "关联板块代码：BK0704、BK1480。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
@@ -47,433 +423,57 @@
     },
     {
      "n": 4,
-     "title": "也门胡塞武装称沙特一天内发动百次空袭",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907134930.html",
-     "rrf": 0.03101,
+     "title": "也门胡塞武装：7袭沙特境内目标，回应沙特空袭",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185201",
+     "rrf": 0.03125,
      "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "也门胡塞武装称对沙特机场和石油设施等目标发动袭击",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-25/doc-iniwkfik0307871.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
      "vec_rank": 4
     },
     {
-     "n": 6,
-     "title": "沙特主导联军称在利雅得拦截一架无人机",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907145872.html",
+     "n": 5,
+     "title": "利雅得机场拟重开，胡塞武装发警告",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185178",
      "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "沙特股市因胡塞武装持续袭击而重挫",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwncym9643652.shtml",
+     "rrf": 0.03009,
      "bm25_rank": 5,
-     "vec_rank": 7
+     "vec_rank": 8
     },
     {
      "n": 7,
-     "title": "冲突升级！胡塞武装对沙特发起多次袭击 目标直指能源设施和机场",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907147487.html",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
+     "title": "利雅得机场重开数小时再遭袭击",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185268",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "胡塞武装：袭击了沙特能源设施和利雅得机场",
+     "title": "沙特利雅得机场重新开放 胡塞武装袭击仍在持续",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwkfih3534319.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwncyp6182831.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 6,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹",
-    "bm25_only": 0,
-    "vec_only": 1,
+    "bm25_only": 1,
+    "vec_only": 0,
     "both": 7,
     "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "b54ed65b8bd36791",
-   "label": "Anthropic据悉今晚公布S-1招股书，最快11月19日或20日登陆美股",
-   "cached": false,
-   "sections": {
-    "事件概述": "「Anthropic据悉今晚公布S-1招股书，最快11月19日或20日登陆美股」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.788（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "Anthropic据悉今晚公布S-1招股书，最快11月19日或20日登陆美股；Anthropic计划于11月进行IPO；Anthropic上市 押上的几乎是整个AI市场",
-    "市场影响": "关联板块代码：BK0697。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "Anthropic据悉今晚公布S-1招股书，最快11月19日或20日登陆美股",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxp5276457.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "Anthropic计划于11月进行IPO",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxp5308852.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "Anthropic上市 押上的几乎是整个AI市场",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqarp9277937.shtml",
-     "rrf": 0.03062,
-     "bm25_rank": 2,
-     "vec_rank": 9
-    },
-    {
-     "n": 4,
-     "title": "美股财报季高潮来了！AI交易能否顶住美联储压力|美股点金",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-25/doc-iniwkwff3527168.shtml",
-     "rrf": 0.02629,
-     "bm25_rank": 7,
-     "vec_rank": 28
-    },
-    {
-     "n": 5,
-     "title": "ATFX 本周前瞻:超级央行周 美联储欧央行日央行决议",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/forexroll/videoroll/2026-10-26/doc-iniwqhxp5271706.shtml",
-     "rrf": 0.02395,
-     "bm25_rank": 23,
-     "vec_rank": 24
-    },
-    {
-     "n": 6,
-     "title": "环球下周看点：AI巨头财报密集揭晓 美联储议息或为利率定调",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907135366.html",
-     "rrf": 0.02235,
-     "bm25_rank": 29,
-     "vec_rank": 30
-    },
-    {
-     "n": 7,
-     "title": "美股AI算力租赁商盘初下挫 Nebius下跌5%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610263908543265.html",
-     "rrf": 0.01587,
-     "bm25_rank": 3,
-     "vec_rank": null
-    },
-    {
-     "n": 8,
-     "title": "据华尔街日报，Anthropic计划在11月16日当周进行IPO。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186306",
-     "rrf": 0.01587,
-     "bm25_rank": null,
-     "vec_rank": 3
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "Anthropic据悉今晚公布S-1招股书，最快11月19日或20日登陆美股",
-    "bm25_only": 3,
-    "vec_only": 1,
-    "both": 2,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "8496a2960327e5b6",
-   "label": "前三季度江苏GDP为108631.3亿元，同比增长5.2%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「前三季度江苏GDP为108631.3亿元，同比增长5.2%」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.647（爆点），所属板块类目：宏观政策。",
-    "关键信息": "前三季度江苏GDP为108631.3亿元，同比增长5.2%；四个维度读懂江苏“三季报”含金量；浙江前三季度GDP达73224亿元 同比增长5.6%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "前三季度江苏GDP为108631.3亿元，同比增长5.2%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-25/doc-iniwmxsn2945311.shtml",
-     "rrf": 0.03227,
-     "bm25_rank": 3,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "四个维度读懂江苏“三季报”含金量",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-26/doc-iniwqhxk2439836.shtml",
-     "rrf": 0.02929,
-     "bm25_rank": 16,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "浙江前三季度GDP达73224亿元 同比增长5.6%",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-26/10721274.shtml",
-     "rrf": 0.02797,
-     "bm25_rank": 21,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "新宙邦：2026年第三季度净利润5.59亿元，同比增长111.41%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186277",
-     "rrf": 0.02652,
-     "bm25_rank": 6,
-     "vec_rank": 28
-    },
-    {
-     "n": 5,
-     "title": "锂电材料产品量价齐升导致销售额增加，天华新能：第三季度营收同比增长67.53%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-26/doc-iniwqart2178186.shtml",
-     "rrf": 0.02591,
-     "bm25_rank": 10,
-     "vec_rank": 26
-    },
-    {
-     "n": 6,
-     "title": "广东前三季度高技术产品较快增长 工业机器人产量增长34.2%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-26/doc-iniwqhxp5291266.shtml",
-     "rrf": 0.02532,
-     "bm25_rank": 29,
-     "vec_rank": 11
-    },
-    {
-     "n": 7,
-     "title": "前三季度黑龙江省货物贸易进出口总值2574.2亿元 同比增长9.9%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-26/doc-iniwpfnc2434889.shtml",
-     "rrf": 0.02496,
-     "bm25_rank": 26,
-     "vec_rank": 15
-    },
-    {
-     "n": 8,
-     "title": "营业收入增加，全志科技：前三季度净利润同比增长136.76%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-26/doc-iniwqarr5401962.shtml",
-     "rrf": 0.0247,
-     "bm25_rank": 20,
-     "vec_rank": 22
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "前三季度江苏GDP为108631.3亿元，同比增长5.2%",
-    "bm25_only": 1,
-    "vec_only": 2,
-    "both": 1,
-    "neither_topk": 4
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "8d0e92e6deb0dd64",
-   "label": "百利天恒双抗ADC披露EGFR突变肺癌一、二线数据：一线ORR达100%，二线PFS达11.1个",
-   "cached": false,
-   "sections": {
-    "事件概述": "「百利天恒双抗ADC披露EGFR突变肺癌一、二线数据：一线ORR达100%，二线PFS达11.1个」由 3 篇报道聚合而成，覆盖 2 家媒体，热度 0.619（爆点），所属板块类目：综合。",
-    "关键信息": "百利天恒双抗ADC披露EGFR突变肺癌一、二线数据：一线ORR达100%，二线P；百利天恒：双抗ADC新药上市申请获受理；百利天恒：T-Bren III期临床试验达主要终点",
-    "市场影响": "关联板块代码：BK0870。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "百利天恒双抗ADC披露EGFR突变肺癌一、二线数据：一线ORR达100%，二线PFS达11.1个月",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186308",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "百利天恒：双抗ADC新药上市申请获受理",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907217377.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "百利天恒：T-Bren III期临床试验达主要终点",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907217216.html",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "伦康依隆妥单抗III期研究登上《柳叶刀》 HR+/HER2-乳腺癌实现无进展生存期翻倍",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610243907132846.html",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "超千家上市公司披露三季报 176家净利润翻倍",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-26/doc-iniwnuwa2617718.shtml",
-     "rrf": 0.01538,
-     "bm25_rank": 5,
-     "vec_rank": null
-    },
-    {
-     "n": 6,
-     "title": "前三季度“保险版ABS”登记规模超1300亿元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-26/doc-iniwnzcz9288339.shtml",
-     "rrf": 0.01538,
-     "bm25_rank": null,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "股息率最高超13%！新一波“红包雨”来了",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-10-26/doc-iniwnzec5744216.shtml",
-     "rrf": 0.01515,
-     "bm25_rank": 6,
-     "vec_rank": null
-    },
-    {
-     "n": 8,
-     "title": "周一美股盘前你需要了解的全球要闻",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186293",
-     "rrf": 0.01515,
-     "bm25_rank": null,
-     "vec_rank": 6
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "百利天恒双抗ADC披露EGFR突变肺癌一、二线数据：一线ORR达100%，二线P",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "4de0e5a8510f047d",
-   "label": "德明利第三季营收116亿：净利27亿 市值797亿 魏宏章减持 或套现4亿",
-   "cached": false,
-   "sections": {
-    "事件概述": "「德明利第三季营收116亿：净利27亿 市值797亿 魏宏章减持 或套现4亿」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.582（爆点），所属板块类目：半导体。",
-    "关键信息": "德明利第三季营收116亿：净利27亿 市值797亿 魏宏章减持 或套现4亿；存储龙头，三季度净利猛增超2900%！；德明利：第三季度净利润同比增长2903% 环比增长2%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "德明利第三季营收116亿：净利27亿 市值797亿 魏宏章减持 或套现4亿",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-25/doc-iniwmxsr6266846.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "存储龙头，三季度净利猛增超2900%！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-25/doc-iniwmxsr6269374.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "德明利：第三季度净利润同比增长2903% 环比增长2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907210652.html",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "上调全年收入指引！药明康德前三季度净利同比增六成，Q3增137%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-26/doc-iniwqhxp5303171.shtml",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "“炸裂”！800亿存储芯片龙头 第三季度净利润增长超2900%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-25/doc-iniwmtkt6372967.shtml",
-     "rrf": 0.02991,
-     "bm25_rank": 10,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "营收利润双双翻倍！寒武纪第三季度遭北向资金减持",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-25/doc-iniwmxsn2934246.shtml",
-     "rrf": 0.02963,
-     "bm25_rank": 7,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "中文在线第三季营收2.5亿：同比降44% 亏8906万 刚放弃28亿定增计划",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-25/doc-iniwmxsp9743198.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 3,
-     "vec_rank": 15
-    },
-    {
-     "n": 8,
-     "title": "漫步者：前三季度净利润同比增长13.37%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610253907214277.html",
-     "rrf": 0.02549,
-     "bm25_rank": 20,
-     "vec_rank": 17
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "德明利第三季营收116亿：净利27亿 市值797亿 魏宏章减持 或套现4亿",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 5,
-    "neither_topk": 1
    },
    "elapsed": 0.0
   }

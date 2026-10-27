@@ -1,11 +1,11 @@
 {
- "n_articles": 1605,
+ "n_articles": 1867,
  "mode": "vector",
- "edges": 452,
- "n_components": 1410,
- "n_clusters": 52,
- "n_noise_filtered": 3,
- "n_single_media_filtered": 63,
+ "edges": 680,
+ "n_components": 1604,
+ "n_clusters": 66,
+ "n_noise_filtered": 8,
+ "n_single_media_filtered": 71,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,53 +13,24 @@
   "media"
  ],
  "calibration": {
-  "max_size": 9.0,
-  "max_first": 9.0,
-  "window_days": 2,
+  "max_size": 13.0,
+  "max_first": 10.0,
+  "window_days": 3,
   "n_media_total": 5
  },
  "elapsed": 0.1,
  "level_dist": {
-  "爆点": 5,
-  "高热": 10,
-  "升温中": 16,
-  "一般": 21
+  "爆点": 6,
+  "高热": 13,
+  "升温中": 20,
+  "一般": 27
  },
  "top": [
   {
-   "label": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹",
-   "heat": 0.87,
+   "label": "Anthropic向美国SEC提交上市文件后，预测市场交易者认为其今年IPO几乎已成定局",
+   "heat": 0.749,
    "level": "爆点",
-   "n": 8,
-   "media": 3,
-   "cat": "交运物流",
-   "sectors": [
-    "BK0704",
-    "BK1480"
-   ],
-   "factors": {
-    "coverage": 0.954,
-    "burst": 0.903,
-    "duration": 1.0,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    164771,
-    164775,
-    164809,
-    164925,
-    164947,
-    164986,
-    165051,
-    165785
-   ]
-  },
-  {
-   "label": "Anthropic据悉今晚公布S-1招股书，最快11月19日或20日登陆美股",
-   "heat": 0.788,
-   "level": "爆点",
-   "n": 9,
+   "n": 13,
    "media": 3,
    "cat": "AI与大模型",
    "sectors": [
@@ -68,195 +39,246 @@
    "factors": {
     "coverage": 1.0,
     "burst": 1.0,
-    "duration": 0.5,
+    "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    165842,
-    165969,
-    166064,
-    166189,
-    166192,
-    166222,
-    166232,
-    166237,
-    166247
+    167219,
+    167347,
+    167442,
+    167568,
+    167571,
+    167601,
+    167611,
+    167616,
+    167626,
+    167716,
+    167750,
+    167878,
+    168118
    ]
   },
   {
-   "label": "前三季度江苏GDP为108631.3亿元，同比增长5.2%",
-   "heat": 0.647,
+   "label": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1倍",
+   "heat": 0.68,
    "level": "爆点",
-   "n": 4,
-   "media": 2,
-   "cat": "宏观政策",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.699,
-    "burst": 0.477,
-    "duration": 1.0,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    165106,
-    165130,
-    165968,
-    166200
-   ]
-  },
-  {
-   "label": "百利天恒双抗ADC披露EGFR突变肺癌一、二线数据：一线ORR达100%，二线PFS达11.1个",
-   "heat": 0.619,
-   "level": "爆点",
-   "n": 3,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [
-    "BK0870"
-   ],
-   "factors": {
-    "coverage": 0.602,
-    "burst": 0.477,
-    "duration": 1.0,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    164772,
-    165034,
-    166243
-   ]
-  },
-  {
-   "label": "德明利第三季营收116亿：净利27亿 市值797亿 魏宏章减持 或套现4亿",
-   "heat": 0.582,
-   "level": "爆点",
-   "n": 4,
-   "media": 2,
-   "cat": "半导体",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.699,
-    "burst": 0.699,
-    "duration": 0.5,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    165014,
-    165093,
-    165150,
-    165207
-   ]
-  },
-  {
-   "label": "巴西大选第二轮投票已统计25.19%的选票，博索纳罗以50.51%的得票率领先，",
-   "heat": 0.582,
-   "level": "高热",
-   "n": 4,
-   "media": 2,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.699,
-    "burst": 0.699,
-    "duration": 0.5,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    165464,
-    165533,
-    165930,
-    166288
-   ]
-  },
-  {
-   "label": "Anthropic：随着算力基础设施的持续扩张，资本支出预计将大幅增加。 预计相",
-   "heat": 0.582,
-   "level": "高热",
-   "n": 4,
-   "media": 2,
-   "cat": "AI与大模型",
-   "sectors": [
-    "BK1134"
-   ],
-   "factors": {
-    "coverage": 0.699,
-    "burst": 0.699,
-    "duration": 0.5,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    166236,
-    166238,
-    166245,
-    166272
-   ]
-  },
-  {
-   "label": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
-   "heat": 0.578,
-   "level": "高热",
-   "n": 3,
+   "n": 8,
    "media": 3,
-   "cat": "大宗与能化",
-   "sectors": [],
+   "cat": "宏观政策",
+   "sectors": [
+    "BK1134",
+    "BK0922"
+   ],
    "factors": {
-    "coverage": 0.602,
-    "burst": 0.602,
-    "duration": 0.5,
+    "coverage": 0.833,
+    "burst": 0.916,
+    "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    165664,
-    165666,
-    165812
+    167990,
+    168054,
+    168061,
+    168063,
+    168072,
+    168077,
+    168080,
+    168085
    ]
   },
   {
    "label": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%",
-   "heat": 0.578,
-   "level": "高热",
-   "n": 3,
+   "heat": 0.651,
+   "level": "爆点",
+   "n": 6,
    "media": 3,
    "cat": "金融市场",
-   "sectors": [],
+   "sectors": [
+    "BK1652"
+   ],
    "factors": {
-    "coverage": 0.602,
-    "burst": 0.602,
-    "duration": 0.5,
+    "coverage": 0.737,
+    "burst": 0.578,
+    "duration": 0.667,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    165713,
-    165714,
-    165749
+    167091,
+    167092,
+    167127,
+    168067,
+    168121,
+    168129
    ]
   },
   {
-   "label": "中国神华早盘涨逾3% 前三季度归母净利润473.17亿元同比增长2.1%",
-   "heat": 0.541,
-   "level": "高热",
-   "n": 2,
+   "label": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
+   "heat": 0.634,
+   "level": "爆点",
+   "n": 5,
+   "media": 3,
+   "cat": "大宗与能化",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.679,
+    "burst": 0.578,
+    "duration": 0.667,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    167039,
+    167041,
+    167189,
+    168037,
+    168044
+   ]
+  },
+  {
+   "label": "沙特领导的联军称 沙特拦截了也门胡塞武装向南部地区发射的10枚弹道导弹",
+   "heat": 0.613,
+   "level": "爆点",
+   "n": 4,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.61,
+    "burst": 0.578,
+    "duration": 0.667,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    166351,
+    166418,
+    166537,
+    167163
+   ]
+  },
+  {
+   "label": "日经225指数高开0.5%，韩国首尔综指高开3.5%。 SK海力士涨逾6%，三星",
+   "heat": 0.587,
+   "level": "爆点",
+   "n": 5,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.477,
-    "burst": 0.301,
-    "duration": 1.0,
+    "coverage": 0.679,
+    "burst": 0.578,
+    "duration": 0.667,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    164791,
-    165743
+    166937,
+    166938,
+    167182,
+    167941,
+    167942
+   ]
+  },
+  {
+   "label": "国际金价跌至三个月低位，失守4000美元后企稳，市场预计美联储12月加息概率达78%",
+   "heat": 0.576,
+   "level": "高热",
+   "n": 9,
+   "media": 2,
+   "cat": "国际市场",
+   "sectors": [
+    "BK0732",
+    "BK0547"
+   ],
+   "factors": {
+    "coverage": 0.873,
+    "burst": 0.289,
+    "duration": 0.667,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    166399,
+    166813,
+    166909,
+    167129,
+    167153,
+    167186,
+    167533,
+    167544,
+    167767
+   ]
+  },
+  {
+   "label": "前三季度江苏GDP为108631.3亿元，同比增长5.2%",
+   "heat": 0.576,
+   "level": "高热",
+   "n": 6,
+   "media": 2,
+   "cat": "宏观政策",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.737,
+    "burst": 0.458,
+    "duration": 0.667,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    166474,
+    166498,
+    167346,
+    167579,
+    167793,
+    168053
+   ]
+  },
+  {
+   "label": "多位网友称iPhone Duo刚到手屏幕就裂开，开售两天有渠道已“破发”！门店外仍排长队，黄牛：",
+   "heat": 0.566,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "消费电子",
+   "sectors": [
+    "BK0666"
+   ],
+   "factors": {
+    "coverage": 0.61,
+    "burst": 0.578,
+    "duration": 0.667,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    166710,
+    166973,
+    167077,
+    167797
+   ]
+  },
+  {
+   "label": "人民币兑美元中间价报6.7162，上调18点；上一交易日中间价6.7180，上一",
+   "heat": 0.56,
+   "level": "高热",
+   "n": 3,
+   "media": 3,
+   "cat": "国际市场",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.525,
+    "burst": 0.458,
+    "duration": 0.667,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    167074,
+    167078,
+    168130
    ]
   }
  ]
