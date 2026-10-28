@@ -1,19 +1,19 @@
 {
  "engine": "template(降级)",
- "n_clusters": 63,
+ "n_clusters": 58,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.5,
+ "elapsed": 5.4,
  "reports": [
   {
-   "key": "95ecd5743b9b667d",
+   "key": "cab9c6d38b827c44",
    "label": "10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔断 微软向6万名",
    "cached": false,
    "sections": {
-    "事件概述": "「10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔断 微软向6万名」由 29 篇报道聚合而成，覆盖 3 家媒体，热度 0.882（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔；10月27日外盘头条：巴西股市暴跌 特朗普质疑卢拉胜选 苹果承认少量iPhone；美股三大指数集体高开 巴西在美股上市的公司暴跌",
+    "事件概述": "「10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔断 微软向6万名」由 31 篇报道聚合而成，覆盖 3 家媒体，热度 0.804（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔；10月27日外盘头条：巴西股市暴跌 特朗普质疑卢拉胜选 苹果承认少量iPhone；10月28日隔夜要闻：美股三大指数收涨 油价回落 金价反弹 出口民调显示内塔尼亚",
     "市场影响": "关联板块代码：BK0697。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -38,190 +38,378 @@
     },
     {
      "n": 3,
-     "title": "美股三大指数集体高开 巴西在美股上市的公司暴跌",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610263908528667.html",
-     "rrf": 0.03012,
-     "bm25_rank": 4,
-     "vec_rank": 9
+     "title": "10月28日隔夜要闻：美股三大指数收涨 油价回落 金价反弹 出口民调显示内塔尼亚胡阵营未获议会多数席位",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwtpiz3949364.shtml",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
+     "vec_rank": 5
     },
     {
      "n": 4,
-     "title": "巴西股市暴跌 因触发熔断机制暂停交易",
+     "title": "美股三大指数集体高开 巴西在美股上市的公司暴跌",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610263908476175.html",
-     "rrf": 0.02983,
-     "bm25_rank": 2,
+     "url": "https://finance.eastmoney.com/a/202610263908528667.html",
+     "rrf": 0.02932,
+     "bm25_rank": 4,
      "vec_rank": 13
     },
     {
      "n": 5,
-     "title": "巴西股票ETF盘初暴跌26%",
+     "title": "巴西股市暴跌 因触发熔断机制暂停交易",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610263908533390.html",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
-     "vec_rank": 8
+     "url": "https://finance.eastmoney.com/a/202610263908476175.html",
+     "rrf": 0.02929,
+     "bm25_rank": 2,
+     "vec_rank": 16
     },
     {
      "n": 6,
      "title": "10月27日收盘：美股三大股指收高 Anthropic提交IPO文件重燃AI交易热情",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwqxva2227240.shtml",
-     "rrf": 0.02878,
-     "bm25_rank": 16,
+     "rrf": 0.02861,
+     "bm25_rank": 17,
      "vec_rank": 4
     },
     {
      "n": 7,
-     "title": "周一美股盘前你需要了解的全球要闻",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186293",
-     "rrf": 0.02872,
-     "bm25_rank": 15,
-     "vec_rank": 5
+     "title": "巴西股票ETF盘初暴跌26%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610263908533390.html",
+     "rrf": 0.02858,
+     "bm25_rank": 9,
+     "vec_rank": 11
     },
     {
      "n": 8,
-     "title": "卢拉意外胜选后巴西雷亚尔期货重挫",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxm9187832.shtml",
-     "rrf": 0.0276,
-     "bm25_rank": 11,
-     "vec_rank": 14
+     "title": "周一美股盘前你需要了解的全球要闻",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186293",
+     "rrf": 0.02848,
+     "bm25_rank": 15,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "10月27日隔夜要闻：Anthropic递表 美股收高 油价回落 巴西股市暴跌熔",
     "bm25_only": 2,
-    "vec_only": 3,
-    "both": 2,
+    "vec_only": 2,
+    "both": 3,
     "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "a18096ffc91dac19",
-   "label": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1倍",
+   "key": "85b4c83498b08fca",
+   "label": "【中国银河宏观】利润回弹并非反转：内需边际改善，趋势待验证 ——2026年1-9月工业企业利润分",
    "cached": false,
    "sections": {
-    "事件概述": "「国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1倍」由 11 篇报道聚合而成，覆盖 4 家媒体，热度 0.705（爆点），所属板块类目：宏观政策。",
-    "关键信息": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.；国家统计局：1—9月份，电子行业利润同比增长1.0倍；国家统计局：1—9月份规模以上原材料制造业利润同比增长44.9%",
+    "事件概述": "「【中国银河宏观】利润回弹并非反转：内需边际改善，趋势待验证 ——2026年1-9月工业企业利润分」由 18 篇报道聚合而成，覆盖 4 家媒体，热度 0.792（爆点），所属板块类目：宏观政策。",
+    "关键信息": "【中国银河宏观】利润回弹并非反转：内需边际改善，趋势待验证 ——2026年1-9；中国9月规模以上工业企业利润同比 14.4%，前值 4.2%。；21社论丨加力扩大内需，推动工业利润均衡修复",
     "市场影响": "关联板块代码：BK1134、BK0922。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.7倍和1.1倍",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610273909226978.html",
+     "title": "【中国银河宏观】利润回弹并非反转：内需边际改善，趋势待验证 ——2026年1-9月工业企业利润分析",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/stockzmt/2026-10-28/doc-iniwttsf9719518.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "国家统计局：1—9月份，电子行业利润同比增长1.0倍",
+     "title": "中国9月规模以上工业企业利润同比 14.4%，前值 4.2%。",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186565",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "国家统计局：1—9月份规模以上原材料制造业利润同比增长44.9%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610273909245755.html",
+     "url": "https://wallstreetcn.com/livenews/3186560",
      "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "国家统计局：1-9月不同规模、多种类型企业利润增长较快",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186568",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
+     "bm25_rank": 2,
      "vec_rank": 4
     },
     {
+     "n": 3,
+     "title": "21社论丨加力扩大内需，推动工业利润均衡修复",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-10-28/doc-iniwtpkh3445035.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 6,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "今日看点｜中国1—9月规模以上工业企业利润将公布",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-27/doc-iniwrkkx8903512.shtml",
+     "rrf": 0.02996,
+     "bm25_rank": 3,
+     "vec_rank": 11
+    },
+    {
      "n": 5,
+     "title": "从利润增长15.5%透视工业生产稳中有进 产业结构向新、向优、向好升级",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-27/10721729.shtml",
+     "rrf": 0.02996,
+     "bm25_rank": 11,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
      "title": "15.5%！前9月规上工业企业利润较快增长",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwsmwu3808349.shtml",
+     "rrf": 0.02988,
+     "bm25_rank": 5,
+     "vec_rank": 9
+    },
+    {
+     "n": 7,
+     "title": "国家统计局：1-9月不同规模、多种类型企业利润增长较快",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186568",
      "rrf": 0.02986,
      "bm25_rank": 8,
      "vec_rank": 6
     },
     {
-     "n": 6,
-     "title": "从利润增长15.5%透视工业生产稳中有进 产业结构向新、向优、向好升级",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-27/10721729.shtml",
-     "rrf": 0.02857,
-     "bm25_rank": 10,
-     "vec_rank": 10
-    },
-    {
-     "n": 7,
-     "title": "AI硬件股早盘集体回暖 建滔积层板涨近5%长飞光纤光缆涨超3%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-27/doc-iniwrqsu2076412.shtml",
-     "rrf": 0.02854,
-     "bm25_rank": 5,
-     "vec_rank": 16
-    },
-    {
      "n": 8,
-     "title": "今日看点｜中国1—9月规模以上工业企业利润将公布",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-27/doc-iniwrkkx8903512.shtml",
-     "rrf": 0.02791,
-     "bm25_rank": 17,
-     "vec_rank": 7
+     "title": "提醒：北京时间09:30将公布中国1至9月规模以上工业企业利润。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186548",
+     "rrf": 0.02951,
+     "bm25_rank": 4,
+     "vec_rank": 12
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "国家统计局：1—9月算力与数据中心建设带动光纤制造、光缆制造行业利润分别增长5.",
-    "bm25_only": 1,
+    "query": "【中国银河宏观】利润回弹并非反转：内需边际改善，趋势待验证 ——2026年1-9",
+    "bm25_only": 3,
     "vec_only": 1,
-    "both": 5,
-    "neither_topk": 1
+    "both": 4,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "cd90a006b54a4f1a",
-   "label": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
+   "key": "f92906fda94eac17",
+   "label": "台积电先进封装酝酿提价，涨幅最高达20%，科创芯片设计ETF国联安(588780)跟踪指数高开涨",
    "cached": false,
    "sections": {
-    "事件概述": "「商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.663（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5；国内商品期货早盘开盘 主力合约多数上涨；收评|国内期货主力合约涨跌不一，沥青涨近7%",
+    "事件概述": "「台积电先进封装酝酿提价，涨幅最高达20%，科创芯片设计ETF国联安(588780)跟踪指数高开涨」由 16 篇报道聚合而成，覆盖 2 家媒体，热度 0.635（爆点），所属板块类目：半导体。",
+    "关键信息": "台积电先进封装酝酿提价，涨幅最高达20%，科创芯片设计ETF国联安(588780；半导体芯片板块集体走强 科创芯片设计ETF易方达涨2.60%；国产AI芯片份额攀升，存储预计再涨价！科创芯片设计ETF永赢盘中涨超3.5%",
+    "市场影响": "关联板块代码：BK0459、BK0800、BK1137、BK1127、BK1036。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "台积电先进封装酝酿提价，涨幅最高达20%，科创芯片设计ETF国联安(588780)跟踪指数高开涨超3%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610283911464927.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "半导体芯片板块集体走强 科创芯片设计ETF易方达涨2.60%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610283911463854.html",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "国产AI芯片份额攀升，存储预计再涨价！科创芯片设计ETF永赢盘中涨超3.5%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610283911306254.html",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "芯片股传来密集利好，科创芯片ETF鹏华涨超2%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610283911310066.html",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "存储芯片板块活跃，芯片ETF东财涨超2.6%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610283911360169.html",
+     "rrf": 0.02957,
+     "bm25_rank": 3,
+     "vec_rank": 13
+    },
+    {
+     "n": 6,
+     "title": "费城半导体指数涨1%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610263908534355.html",
+     "rrf": 0.02885,
+     "bm25_rank": 13,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "超硬材料行业“十五五”规划论证会即将举办，科创新材料ETF博时(588010)跟踪指数高开涨超2%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610273909385670.html",
+     "rrf": 0.02669,
+     "bm25_rank": 9,
+     "vec_rank": 22
+    },
+    {
+     "n": 8,
+     "title": "港股高开高走，恒生科技指数涨幅扩大逾1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-27/doc-iniwrkmc1618672.shtml",
+     "rrf": 0.02632,
+     "bm25_rank": 17,
+     "vec_rank": 15
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "台积电先进封装酝酿提价，涨幅最高达20%，科创芯片设计ETF国联安(588780",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 4,
+    "neither_topk": 2
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "3f866df577b7763e",
+   "label": "日经225指数高开0.5%，韩国首尔综指高开3.5%。 SK海力士涨逾6%，三星",
+   "cached": false,
+   "sections": {
+    "事件概述": "「日经225指数高开0.5%，韩国首尔综指高开3.5%。 SK海力士涨逾6%，三星」由 20 篇报道聚合而成，覆盖 2 家媒体，热度 0.592（爆点），所属板块类目：半导体。",
+    "关键信息": "日经225指数高开0.5%，韩国首尔综指高开3.5%。 SK海力士涨逾6%，三星；日韩股市高开 韩国首尔综指开盘上涨3.5%；韩国首尔综指涨幅扩大至4%。SK海力士涨4%，三星电子涨6%。",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
+     "title": "日经225指数高开0.5%，韩国首尔综指高开3.5%。 SK海力士涨逾6%，三星",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185304",
+     "url": "https://wallstreetcn.com/livenews/3186532",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "国内商品期货早盘开盘 主力合约多数上涨",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610263907443533.html",
+     "title": "日韩股市高开 韩国首尔综指开盘上涨3.5%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwrkkw2083463.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "韩国首尔综指涨幅扩大至4%。SK海力士涨4%，三星电子涨6%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188007",
      "rrf": 0.032,
      "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "韩国首尔综指涨超4%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186533",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "日韩股市大涨，存储双雄拉升！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-28/doc-iniwttse3394548.shtml",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "韩股大幅高开，SK海力士强劲财报提振市场情绪",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwtpiz3966924.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 9,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "“供不应求预计将持续至2030年”，存储巨头SK海力士发声，股价大幅拉升",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-28/doc-iniwttsa6651520.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 6,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "一则消息！存储双雄，开盘大涨",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-28/doc-iniwttsf9715136.shtml",
+     "rrf": 0.02879,
+     "bm25_rank": 8,
+     "vec_rank": 11
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "日经225指数高开0.5%，韩国首尔综指高开3.5%。 SK海力士涨逾6%，三星",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "9cadd8bc811ff8b6",
+   "label": "商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙烯、沪锌涨超1%。烧",
+   "cached": false,
+   "sections": {
+    "事件概述": "「商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙烯、沪锌涨超1%。烧」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.532（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙烯、沪锌涨超1%。烧；开盘：主力合约跌多涨少 烧碱跌超4%；收评|国内期货主力合约涨跌不一，沥青涨近7%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙烯、沪锌涨超1%。烧",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186542",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "开盘：主力合约跌多涨少 烧碱跌超4%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-27/doc-iniwrkkz4826769.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
@@ -229,247 +417,59 @@
      "title": "收评|国内期货主力合约涨跌不一，沥青涨近7%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-26/doc-iniwprzt9282325.shtml",
-     "rrf": 0.03151,
-     "bm25_rank": 2,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙烯、沪锌涨超1%。烧",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186542",
      "rrf": 0.0315,
      "bm25_rank": 4,
      "vec_rank": 3
     },
     {
+     "n": 4,
+     "title": "商品期货开盘，焦煤主力合约涨超3%，焦炭、纯碱、碳酸锂涨超2%。集运欧线跌超3%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188020",
+     "rrf": 0.03102,
+     "bm25_rank": 3,
+     "vec_rank": 6
+    },
+    {
      "n": 5,
-     "title": "开盘：主力合约跌多涨少 烧碱跌超4%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-27/doc-iniwrkkz4826769.shtml",
+     "title": "国内商品期货夜盘开盘 主力合约多数上涨",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610273910399495.html",
      "rrf": 0.03078,
      "bm25_rank": 6,
      "vec_rank": 4
     },
     {
      "n": 6,
-     "title": "国内商品期货夜盘开盘 主力合约多数上涨",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610273910399495.html",
-     "rrf": 0.03054,
+     "title": "开盘|国内期货主力合约涨多跌少，焦煤涨超3%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-28/doc-iniwttse3384692.shtml",
+     "rrf": 0.03077,
      "bm25_rank": 5,
-     "vec_rank": 6
+     "vec_rank": 5
     },
     {
      "n": 7,
      "title": "夜盘期货开盘，焦煤涨近3%，纯碱涨近2%，玻璃、合成橡胶、乙二醇（EG）、聚丙烯",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3187730",
-     "rrf": 0.02942,
-     "bm25_rank": 7,
-     "vec_rank": 9
-    },
-    {
-     "n": 8,
-     "title": "光大期货1026热点追踪：中东局势依然紧张，甲醇涨停",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-26/doc-iniwprzt9279030.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 10,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "商品期货开盘，甲醇主力合约触及涨停，丙烯涨近6%，对二甲苯、聚丙烯、苯乙烯涨超5",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "76bc98cecc22b269",
-   "label": "首批主动ETF发行“加速跑”：18只中7只提前结募，南方、华夏、华泰柏瑞、平安今日触顶配售",
-   "cached": false,
-   "sections": {
-    "事件概述": "「首批主动ETF发行“加速跑”：18只中7只提前结募，南方、华夏、华泰柏瑞、平安今日触顶配售」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.653（爆点），所属板块类目：综合。",
-    "关键信息": "首批主动ETF发行“加速跑”：18只中7只提前结募，南方、华夏、华泰柏瑞、平安今；开售仅两日 沪市9只主动ETF中已有5只募满20亿元；三日售罄！首批主动ETF结募阵营扩至11只 汇添富、大成、招商、天弘“撞线”",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "首批主动ETF发行“加速跑”：18只中7只提前结募，南方、华夏、华泰柏瑞、平安今日触顶配售",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/observe/2026-10-26/doc-iniwpwiv2241374.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "开售仅两日 沪市9只主动ETF中已有5只募满20亿元",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610263908476826.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "三日售罄！首批主动ETF结募阵营扩至11只 汇添富、大成、招商、天弘“撞线”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/observe/2026-10-27/doc-iniwsfqu7045316.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "提前结募！招商价值智选主动管理ETF提前结束募集",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/fund/jjdt/2026-10-27/doc-iniwsfqu7032925.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "提前结募！均衡量化主动ETF天弘（158908）募集超20亿元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/fund/jjdt/2026-10-27/doc-iniwsfqu7030432.shtml",
-     "rrf": 0.03037,
-     "bm25_rank": 3,
-     "vec_rank": 9
-    },
-    {
-     "n": 6,
-     "title": "从“谁先发”到“谁能跑” 18只主动ETF同台竞技",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-26/doc-iniwnqqf9484422.shtml",
-     "rrf": 0.03033,
+     "rrf": 0.02963,
      "bm25_rank": 8,
-     "vec_rank": 4
-    },
-    {
-     "n": 7,
-     "title": "“一日售罄”盛况重现 首批主动ETF首秀满堂彩",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-26/doc-iniwnuwc9398200.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
+     "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "华夏质量甄选主动股票ETF提前结束募集",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186300",
-     "rrf": 0.02991,
-     "bm25_rank": 4,
-     "vec_rank": 10
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "首批主动ETF发行“加速跑”：18只中7只提前结募，南方、华夏、华泰柏瑞、平安今",
-    "bm25_only": 2,
-    "vec_only": 0,
-    "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "69aaee57e3350c60",
-   "label": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.642（爆点），所属板块类目：金融市场。",
-    "关键信息": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%；港股开盘：恒生指数涨0.28% 恒生科技指数涨0.43%；港股高开高走，恒生科技指数涨幅扩大逾1%",
-    "市场影响": "关联板块代码：BK1652。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3185309",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "港股开盘：恒生指数涨0.28% 恒生科技指数涨0.43%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610263907457281.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "港股高开高走，恒生科技指数涨幅扩大逾1%",
+     "title": "收评：主力合约涨跌不一 欧线跌近7%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-27/doc-iniwrkmc1618672.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "港股午评：恒指涨0.44% 科指跌0.37% 科网股低迷 石油股活跃",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-26/doc-iniwpmtx5602606.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "港股三大指数集体转跌，恒生科技指数此前涨超1%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-27/doc-iniwrqsx4719479.shtml",
-     "rrf": 0.03058,
-     "bm25_rank": 3,
-     "vec_rank": 8
-    },
-    {
-     "n": 6,
-     "title": "快讯：恒指高开0.28% 恒科指涨0.43% 创新药概念股高开",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-26/doc-iniwpfmz5663468.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
-    },
-    {
-     "n": 7,
-     "title": "标普500指数高开16.02点，涨幅0.21%，报7639.70点； 道琼斯工业",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3186310",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
-    },
-    {
-     "n": 8,
-     "title": "开盘：三大股指齐涨，科技股走强、油价下跌",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwqhxr2088232.shtml",
-     "rrf": 0.02837,
+     "url": "https://finance.sina.com.cn/money/future/2026-10-27/doc-iniwrzhr8843886.shtml",
+     "rrf": 0.02878,
      "bm25_rank": 10,
-     "vec_rank": 11
+     "vec_rank": 9
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "恒指高开0.28%，报23156.96点；恒生科技指数涨0.43%。网易涨近5%",
+    "query": "商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙烯、沪锌涨超1%。烧",
     "bm25_only": 0,
     "vec_only": 0,
     "both": 7,
