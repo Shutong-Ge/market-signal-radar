@@ -2,46 +2,19 @@
  "summary": {
   "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.341,
-  "avg_rank_diff": 0.86,
-  "avg_missed_by_bm25": 2.62,
-  "avg_missed_by_vector": 2.88,
-  "conclusion": "两路召回集平均重合度仅 34%；即便重合的文档，两路名次平均相差 0.86 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.62 篇最终进入 Top8 的文档；只用向量则漏掉 2.88 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.431,
+  "avg_rank_diff": 1.43,
+  "avg_missed_by_bm25": 2.12,
+  "avg_missed_by_vector": 2.0,
+  "conclusion": "两路召回集平均重合度仅 43%；即便重合的文档，两路名次平均相差 1.43 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.12 篇最终进入 Top8 的文档；只用向量则漏掉 2.0 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
-  {
-   "type": "原标题式",
-   "query": "【中国银河宏观】利润回弹并非反转：内需边际改善，趋势待验证 ",
-   "jaccard": 0.067,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
-   "example_top1": "【中国银河宏观】利润回弹并非反转：内需边际改善，趋势待验证 ——2026年1-9月工业企业利"
-  },
-  {
-   "type": "关键词式",
-   "query": "中国 银河 宏观 利润 回弹 并非",
-   "jaccard": 0.067,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
-   "example_top1": "【中国银河宏观】利润回弹并非反转：内需边际改善，趋势待验证 ——2026年1-9月工业企业利"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "【中国银河宏观】利润回弹并非反转：内需边际改善，趋势待验证",
-   "jaccard": 0.067,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
-   "example_top1": "【中国银河宏观】利润回弹并非反转：内需边际改善，趋势待验证 ——2026年1-9月工业企业利"
-  },
   {
    "type": "原标题式",
    "query": "科技股大幅反弹！AI硬件显著回暖，创业板人工智能ETF华宝（",
    "jaccard": 0.143,
    "rank_diff": 1.0,
-   "missed_by_bm25": 2,
+   "missed_by_bm25": 3,
    "missed_by_vector": 4,
    "example_top1": "科技股大幅反弹！AI硬件显著回暖，创业板人工智能ETF华宝（159363）标的指数收涨4.8"
   },
@@ -49,37 +22,64 @@
    "type": "关键词式",
    "query": "科技股 大幅 反弹 硬件 显著 回暖",
    "jaccard": 0.231,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 5,
+   "missed_by_vector": 3,
    "example_top1": "科技股大幅反弹！AI硬件显著回暖，创业板人工智能ETF华宝（159363）标的指数收涨4.8"
   },
   {
    "type": "原标题式",
-   "query": "商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙",
-   "jaccard": 0.778,
-   "rank_diff": 2.14,
+   "query": "日经225指数收盘上涨1.73% Anthropic提交美国",
+   "jaccard": 0.455,
+   "rank_diff": 1.4,
    "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙烯、沪锌涨超1%。烧"
+   "missed_by_vector": 3,
+   "example_top1": "日经225指数收盘上涨1.73% Anthropic提交美国IPO申请提振AI个股"
   },
   {
    "type": "关键词式",
-   "query": "商品 期货 开盘 沥青 主力 合约",
-   "jaccard": 0.6,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙烯、沪锌涨超1%。烧"
+   "query": "日经 指数 收盘 上涨 提交 美国",
+   "jaccard": 0.455,
+   "rank_diff": 1.8,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "日经225指数收盘上涨1.73% Anthropic提交美国IPO申请提振AI个股"
   },
   {
    "type": "去数字泛化",
-   "query": "商品期货开盘，沥青主力合约涨超，液化气、甲醇、碳酸锂、丙烯、",
-   "jaccard": 0.778,
-   "rank_diff": 1.71,
+   "query": "日经指数收盘上涨 Anthropic提交美国IPO申请提振A",
+   "jaccard": 0.333,
+   "rank_diff": 1.5,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 1,
+   "example_top1": "日经225指数收盘上涨1.73% Anthropic提交美国IPO申请提振AI个股"
+  },
+  {
+   "type": "原标题式",
+   "query": "夜盘期货开盘，焦煤涨近3%，纯碱涨近2%，玻璃、合成橡胶、乙",
+   "jaccard": 0.6,
+   "rank_diff": 1.67,
    "missed_by_bm25": 1,
    "missed_by_vector": 1,
-   "example_top1": "商品期货开盘，沥青主力合约涨超3%，液化气、甲醇、碳酸锂、丙烯、沪锌涨超1%。烧"
+   "example_top1": "夜盘期货开盘，焦煤涨近3%，纯碱涨近2%，玻璃、合成橡胶、乙二醇（EG）、聚丙烯"
+  },
+  {
+   "type": "关键词式",
+   "query": "夜盘 期货 开盘 焦煤 涨近 纯碱",
+   "jaccard": 0.455,
+   "rank_diff": 0.8,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "夜盘期货开盘，焦煤涨近3%，纯碱涨近2%，玻璃、合成橡胶、乙二醇（EG）、聚丙烯"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "夜盘期货开盘，焦煤涨近，纯碱涨近，玻璃、合成橡胶、乙二醇（E",
+   "jaccard": 0.778,
+   "rank_diff": 1.29,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 0,
+   "example_top1": "夜盘期货开盘，焦煤涨近3%，纯碱涨近2%，玻璃、合成橡胶、乙二醇（EG）、聚丙烯"
   }
  ]
 }
