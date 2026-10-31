@@ -2,11 +2,11 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.297,
-  "avg_rank_diff": 0.81,
-  "avg_missed_by_bm25": 2.56,
-  "avg_missed_by_vector": 2.33,
-  "conclusion": "两路召回集平均重合度仅 30%；即便重合的文档，两路名次平均相差 0.81 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.56 篇最终进入 Top8 的文档；只用向量则漏掉 2.33 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.413,
+  "avg_rank_diff": 1.22,
+  "avg_missed_by_bm25": 2.11,
+  "avg_missed_by_vector": 2.0,
+  "conclusion": "两路召回集平均重合度仅 41%；即便重合的文档，两路名次平均相差 1.22 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.11 篇最终进入 Top8 的文档；只用向量则漏掉 2.0 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
@@ -21,55 +21,55 @@
   {
    "type": "关键词式",
    "query": "收盘 纳指 跌超 财报 不及 预期",
-   "jaccard": 0.333,
-   "rank_diff": 2.25,
+   "jaccard": 0.143,
+   "rank_diff": 2.5,
    "missed_by_bm25": 3,
-   "missed_by_vector": 2,
+   "missed_by_vector": 4,
    "example_top1": "10月30日收盘：纳指跌超1% Alphabet财报不及预期跌超12% AI担忧重燃引发科技"
   },
   {
    "type": "去数字泛化",
    "query": "月日收盘：纳指跌超 Alphabet财报不及预期跌超 AI担",
    "jaccard": 0.143,
-   "rank_diff": 0.0,
+   "rank_diff": 0.5,
    "missed_by_bm25": 4,
-   "missed_by_vector": 3,
+   "missed_by_vector": 4,
    "example_top1": "10月30日收盘：纳指跌超1% Alphabet财报不及预期跌超12% AI担忧重燃引发科技"
   },
   {
    "type": "原标题式",
-   "query": "财经早报丨美联储10月如期按兵不动，将减少议息次数，西班牙列",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
-   "example_top1": "财经早报丨美联储10月如期按兵不动，将减少议息次数，西班牙列车相撞死亡人数升至68人丨202"
+   "query": "美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12",
+   "jaccard": 0.778,
+   "rank_diff": 1.71,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 0,
+   "example_top1": "美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12月加息悬念再起｜大宗风云"
   },
   {
    "type": "关键词式",
-   "query": "财经 早报 美联储 如期 按兵不动 减少",
-   "jaccard": 0.455,
-   "rank_diff": 1.4,
+   "query": "美联储 按兵不动 国际 金价 大跌 美元",
+   "jaccard": 0.6,
+   "rank_diff": 1.33,
    "missed_by_bm25": 2,
    "missed_by_vector": 1,
-   "example_top1": "财经早报丨美联储10月如期按兵不动，将减少议息次数，西班牙列车相撞死亡人数升至68人丨202"
+   "example_top1": "美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12月加息悬念再起｜大宗风云"
   },
   {
    "type": "去数字泛化",
-   "query": "财经早报丨美联储月如期按兵不动，将减少议息次数，西班牙列车相",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
-   "example_top1": "财经早报丨美联储10月如期按兵不动，将减少议息次数，西班牙列车相撞死亡人数升至68人丨202"
+   "query": "美联储按兵不动！国际金价大跌美元，沃什不设前瞻指引，月加息悬",
+   "jaccard": 0.6,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12月加息悬念再起｜大宗风云"
   },
   {
    "type": "原标题式",
    "query": "提醒：北京时间21:15，欧洲央行发布政策利率（主要再融资利",
    "jaccard": 0.333,
    "rank_diff": 0.75,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 1,
    "example_top1": "提醒：北京时间21:15，欧洲央行发布政策利率（主要再融资利率，存款便利利率，边"
   },
   {
@@ -77,8 +77,8 @@
    "query": "提醒 北京 时间 欧洲央行 政策 利率",
    "jaccard": 0.333,
    "rank_diff": 0.75,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 3,
    "example_top1": "提醒：北京时间21:15，欧洲央行发布政策利率（主要再融资利率，存款便利利率，边"
   },
   {
