@@ -1,301 +1,19 @@
 {
  "engine": "template(降级)",
- "n_clusters": 57,
+ "n_clusters": 54,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.6,
+ "elapsed": 4.2,
  "reports": [
   {
-   "key": "1aba7ad327789291",
-   "label": "10月30日收盘：纳指跌超1% Alphabet财报不及预期跌超12% AI担忧重燃引发科技股抛",
-   "cached": false,
-   "sections": {
-    "事件概述": "「10月30日收盘：纳指跌超1% Alphabet财报不及预期跌超12% AI担忧重燃引发科技股抛」由 50 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：国际市场。",
-    "关键信息": "10月30日收盘：纳指跌超1% Alphabet财报不及预期跌超12% AI担忧；10月30日隔夜要闻：美股收跌 油价震荡 金价下跌 美军中央司令部司令向特朗普汇；科技巨头财报加剧AI投资回报担忧，纳指期货大跌2.5%，英特尔盘前暴跌超25%",
-    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "10月30日收盘：纳指跌超1% Alphabet财报不及预期跌超12% AI担忧重燃引发科技股抛售",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwxvhh2494860.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "10月30日隔夜要闻：美股收跌 油价震荡 金价下跌 美军中央司令部司令向特朗普汇报对伊朗军事选项",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwxzqe2417885.shtml",
-     "rrf": 0.03105,
-     "bm25_rank": 2,
-     "vec_rank": 7
-    },
-    {
-     "n": 3,
-     "title": "科技巨头财报加剧AI投资回报担忧，纳指期货大跌2.5%，英特尔盘前暴跌超25%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwziin5419446.shtml",
-     "rrf": 0.0308,
-     "bm25_rank": 7,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "美股三大股指集体低开，道指跌0.45%，标普500指数跌0.5%，纳指跌1.35",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3190561",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "盘前：纳指期货跌0.92% 谷歌母公司大跌11%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwxekn5919407.shtml",
-     "rrf": 0.02929,
-     "bm25_rank": 16,
-     "vec_rank": 2
-    },
-    {
-     "n": 6,
-     "title": "美股三大指数集体低开 谷歌跌逾11%、市值蒸发超4000亿美元",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610293914853635.html",
-     "rrf": 0.02838,
-     "bm25_rank": 9,
-     "vec_rank": 12
-    },
-    {
-     "n": 7,
-     "title": "Alphabet财报不及预期盘后大跌近10%，美股期指下跌",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwpnw2803569.shtml",
-     "rrf": 0.02837,
-     "bm25_rank": 17,
-     "vec_rank": 5
-    },
-    {
-     "n": 8,
-     "title": "分析师：投资者担忧AI资本开支峰值已至",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwtux5252813.shtml",
-     "rrf": 0.02688,
-     "bm25_rank": 12,
-     "vec_rank": 17
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "10月30日收盘：纳指跌超1% Alphabet财报不及预期跌超12% AI担忧",
-    "bm25_only": 0,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "58b1a99529a7e7d2",
-   "label": "美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12月加息悬念再起｜大宗风云",
-   "cached": false,
-   "sections": {
-    "事件概述": "「美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12月加息悬念再起｜大宗风云」由 13 篇报道聚合而成，覆盖 4 家媒体，热度 0.698（爆点），所属板块类目：国际市场。",
-    "关键信息": "美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12月加息悬念再起｜大宗；美联储没加息，金价不涨反跌，“4000美元是重要支撑位，一旦跌破或继续下探”；“暂停键”下暗流涌动：沃什含糊其辞 美联储年底加息未成定局",
-    "市场影响": "关联板块代码：BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12月加息悬念再起｜大宗风云",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-29/doc-iniwwtuv8826250.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "美联储没加息，金价不涨反跌，“4000美元是重要支撑位，一旦跌破或继续下探”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-30/doc-iniwywtx4629283.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "“暂停键”下暗流涌动：沃什含糊其辞 美联储年底加息未成定局",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-30/doc-iniwxzqa5645681.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "金价、银价，大跌",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-31/doc-inixaepa5129092.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 2,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "今日黄金：跌至4030美元附近，市场等待美国通胀数据",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwpnx8837309.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "大宗商品综述：油价震荡 铜价走低 金价下跌",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwxzqi4842109.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "国际金价跌至一年来新低",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-31/doc-inixakuy5053012.shtml",
-     "rrf": 0.02908,
-     "bm25_rank": 5,
-     "vec_rank": 13
-    },
-    {
-     "n": 8,
-     "title": "黄力晨:美联储12月加息预期 限制黄金反弹高度",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/nmetal/hjfx/2026-10-29/doc-iniwwtuv8823024.shtml",
-     "rrf": 0.02908,
-     "bm25_rank": 13,
-     "vec_rank": 5
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12月加息悬念再起｜大宗",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "d232ef59ccdfddd8",
-   "label": "提醒：北京时间21:15，欧洲央行发布政策利率（主要再融资利率，存款便利利率，边",
-   "cached": false,
-   "sections": {
-    "事件概述": "「提醒：北京时间21:15，欧洲央行发布政策利率（主要再融资利率，存款便利利率，边」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.633（爆点），所属板块类目：宏观政策。",
-    "关键信息": "提醒：北京时间21:15，欧洲央行发布政策利率（主要再融资利率，存款便利利率，边；欧洲央行按兵不动，12月或加息25基点；欧元区欧洲央行主要再融资利率 2.65%，预期 2.65%，前值 2.65%。",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "提醒：北京时间21:15，欧洲央行发布政策利率（主要再融资利率，存款便利利率，边",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3190540",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "欧洲央行按兵不动，12月或加息25基点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwxzqi4857356.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "欧元区欧洲央行主要再融资利率 2.65%，预期 2.65%，前值 2.65%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3190547",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "欧元区欧洲央行存款便利利率 2.5%，预期 2.5%，前值 2.5%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3190546",
-     "rrf": 0.03102,
-     "bm25_rank": 3,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "欧洲央行维持三大关键利率不变 符合市场预期",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610293914836746.html",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "欧元区欧洲央行边际贷款利率 2.9%，预期 2.9%，前值 2.9%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3190545",
-     "rrf": 0.03008,
-     "bm25_rank": 6,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "欧洲央行：货币政策将继续依赖数据 不预先承诺利率路径",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610293914843339.html",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
-    },
-    {
-     "n": 8,
-     "title": "欧洲债市：欧洲央行维持利率不变 短期债券上涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwxqyk2588733.shtml",
-     "rrf": 0.02838,
-     "bm25_rank": 12,
-     "vec_rank": 9
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "提醒：北京时间21:15，欧洲央行发布政策利率（主要再融资利率，存款便利利率，边",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 7,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "f5e5145089851918",
+   "key": "eeb83897f393f8f8",
    "label": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！",
    "cached": false,
    "sections": {
-    "事件概述": "「币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！」由 11 篇报道聚合而成，覆盖 2 家媒体，热度 0.628（爆点），所属板块类目：国际市场。",
-    "关键信息": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！；币安暂停交易，调查疑似史上最大加密货币盗窃案；突发：币安遭黑客攻击，数十亿美元资产流出，或成历史金额最大被盗事件",
+    "事件概述": "「币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！」由 14 篇报道聚合而成，覆盖 2 家媒体，热度 0.701（爆点），所属板块类目：国际市场。",
+    "关键信息": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！；币安63亿美元被盗细节披露：黑客绕过审批控制，边转移资产边销毁痕迹；币安暂停交易，调查疑似史上最大加密货币盗窃案",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -311,169 +29,451 @@
     },
     {
      "n": 2,
-     "title": "币安暂停交易，调查疑似史上最大加密货币盗窃案",
+     "title": "币安63亿美元被盗细节披露：黑客绕过审批控制，边转移资产边销毁痕迹",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwyfvy5636664.shtml",
-     "rrf": 0.03175,
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-31/doc-inixavku4914033.shtml",
+     "rrf": 0.03226,
      "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "突发：币安遭黑客攻击，数十亿美元资产流出，或成历史金额最大被盗事件",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/blockchain/roll/2026-10-30/doc-iniwyfwf4743815.shtml",
-     "rrf": 0.03105,
-     "bm25_rank": 7,
      "vec_rank": 2
     },
     {
-     "n": 4,
-     "title": "币安遭黑客攻击影响约63亿美元 加密货币价格下跌",
+     "n": 3,
+     "title": "币安暂停交易，调查疑似史上最大加密货币盗窃案",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwysmx8228069.shtml",
-     "rrf": 0.03102,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwyfvy5636664.shtml",
+     "rrf": 0.03126,
      "bm25_rank": 3,
-     "vec_rank": 6
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "突发：币安遭黑客攻击，数十亿美元资产流出，或成历史金额最大被盗事件",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/blockchain/roll/2026-10-30/doc-iniwyfwf4743815.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 9,
+     "vec_rank": 3
     },
     {
      "n": 5,
      "title": "疑似遭黑客攻击后，币安冻结25亿美元资产，比特币价格下挫",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwyfwc8292338.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
-     "vec_rank": 3
+     "rrf": 0.03033,
+     "bm25_rank": 8,
+     "vec_rank": 4
     },
     {
      "n": 6,
-     "title": "币安正调查可能为史上最大规模的加密货币黑客攻击事件",
+     "title": "币安遭黑客攻击影响约63亿美元 加密货币价格下跌",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwxzqf8416676.shtml",
-     "rrf": 0.03077,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwysmx8228069.shtml",
+     "rrf": 0.03031,
      "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "全球最大加密货币交易所币安暂停提现 此前疑遭黑客攻击",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwyfwf4766606.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 4,
      "vec_rank": 7
     },
     {
-     "n": 8,
-     "title": "比特币价格一个月来首次跌破77,000美元 币安事件令币圈雪上加霜",
+     "n": 7,
+     "title": "币安赵长鹏回应马斯克：现在不是开玩笑的时候",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixaepe1877660.shtml",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixcfys1616275.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 4,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "币安正调查可能为史上最大规模的加密货币黑客攻击事件",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwxzqf8416676.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 8,
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "0813de1094d5a83e",
-   "label": "夜盘期货开盘，沪银跌近3%，纯苯、苯乙烯、低硫燃油、对二甲苯、焦炭、沪锡、豆二、",
+   "key": "56c17db14d83c0b1",
+   "label": "恒指高开0.23%，报23011.29点；恒生科技指数跌0.63%。美的集团涨近",
    "cached": false,
    "sections": {
-    "事件概述": "「夜盘期货开盘，沪银跌近3%，纯苯、苯乙烯、低硫燃油、对二甲苯、焦炭、沪锡、豆二、」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.593（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "夜盘期货开盘，沪银跌近3%，纯苯、苯乙烯、低硫燃油、对二甲苯、焦炭、沪锡、豆二、；国内商品期货夜盘开盘 主力合约多数下跌；夜盘期货开盘，原油涨超3%，纯苯、对二甲苯、苯乙烯、沥青、合成橡胶涨超2%，瓶片",
+    "事件概述": "「恒指高开0.23%，报23011.29点；恒生科技指数跌0.63%。美的集团涨近」由 8 篇报道聚合而成，覆盖 4 家媒体，热度 0.676（爆点），所属板块类目：综合。",
+    "关键信息": "恒指高开0.23%，报23011.29点；恒生科技指数跌0.63%。美的集团涨近；恒生科技指数涨逾1%，此前跌超1%；恒生科技指数下跌1%。",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "夜盘期货开盘，沪银跌近3%，纯苯、苯乙烯、低硫燃油、对二甲苯、焦炭、沪锡、豆二、",
+     "title": "恒指高开0.23%，报23011.29点；恒生科技指数跌0.63%。美的集团涨近",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3190537",
+     "url": "https://wallstreetcn.com/livenews/3190895",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "国内商品期货夜盘开盘 主力合约多数下跌",
+     "title": "恒生科技指数涨逾1%，此前跌超1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-30/doc-iniwyfwf4807206.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "恒生科技指数下跌1%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190905",
+     "rrf": 0.03102,
+     "bm25_rank": 3,
+     "vec_rank": 6
+    },
+    {
+     "n": 4,
+     "title": "快讯：恒指高开0.23% 恒科指跌0.63% 科网股分化 存储概念股低开",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-30/doc-iniwyfwa2366467.shtml",
+     "rrf": 0.03083,
+     "bm25_rank": 8,
+     "vec_rank": 2
+    },
+    {
+     "n": 5,
+     "title": "恒生指数涨超1%",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610293914784283.html",
+     "url": "https://finance.eastmoney.com/a/202610303915830166.html",
+     "rrf": 0.0308,
+     "bm25_rank": 7,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "港股午评：恒指涨1.64% 科指涨1.43% 科网股普涨 航运板块走强",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-30/doc-iniwyncy2373799.shtml",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "港股主要指数拉升 三大指数均涨超1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-10-30/doc-iniwyfwc8375985.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 4,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "恒生科技指数涨超1%，小米涨超5%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190915",
+     "rrf": 0.03008,
+     "bm25_rank": 6,
+     "vec_rank": 7
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "恒指高开0.23%，报23011.29点；恒生科技指数跌0.63%。美的集团涨近",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "d232344cf6b83f5f",
+   "label": "10月31日隔夜要闻：纳指创下6月以来最差单日表现 金价下跌 油价上涨 俄美乌三方会谈拟于11月",
+   "cached": false,
+   "sections": {
+    "事件概述": "「10月31日隔夜要闻：纳指创下6月以来最差单日表现 金价下跌 油价上涨 俄美乌三方会谈拟于11月」由 40 篇报道聚合而成，覆盖 3 家媒体，热度 0.666（爆点），所属板块类目：国际市场。",
+    "关键信息": "10月31日隔夜要闻：纳指创下6月以来最差单日表现 金价下跌 油价上涨 俄美乌三；10月30日隔夜要闻：美股收跌 油价震荡 金价下跌 美军中央司令部司令向特朗普汇；纳指跌超700点，英伟达市值一夜蒸发1.4万亿元，苹果市值重回全球第一，英特尔暴",
+    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "10月31日隔夜要闻：纳指创下6月以来最差单日表现 金价下跌 油价上涨 俄美乌三方会谈拟于11月举行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixaepi4234983.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "10月30日隔夜要闻：美股收跌 油价震荡 金价下跌 美军中央司令部司令向特朗普汇报对伊朗军事选项",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwxzqe2417885.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "纳指跌超700点，英伟达市值一夜蒸发1.4万亿元，苹果市值重回全球第一，英特尔暴跌超28%，美股存储芯片重挫",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/gjcj/2026-10-31/doc-inixakvf4120683.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 2,
+     "vec_rank": 6
+    },
+    {
+     "n": 4,
+     "title": "美股，风向大变！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-31/doc-inixazsx3967897.shtml",
+     "rrf": 0.02896,
+     "bm25_rank": 15,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "快讯：恒指高开0.23% 恒科指跌0.63% 科网股分化 存储概念股低开",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-30/doc-iniwyfwa2366467.shtml",
+     "rrf": 0.02688,
+     "bm25_rank": 12,
+     "vec_rank": 17
+    },
+    {
+     "n": 6,
+     "title": "美股集体低开，纳指跌超2%，英特尔大跌超26%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191712",
+     "rrf": 0.02658,
+     "bm25_rank": 11,
+     "vec_rank": 20
+    },
+    {
+     "n": 7,
+     "title": "大宗商品综述：油价上涨 铜价下跌 金价下挫",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixaepa5137279.shtml",
+     "rrf": 0.02647,
+     "bm25_rank": 8,
+     "vec_rank": 25
+    },
+    {
+     "n": 8,
+     "title": "大宗商品综述：油价震荡 铜价走低 金价下跌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-30/doc-iniwxzqi4842109.shtml",
+     "rrf": 0.02633,
+     "bm25_rank": 18,
+     "vec_rank": 14
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "10月31日隔夜要闻：纳指创下6月以来最差单日表现 金价下跌 油价上涨 俄美乌三",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 3,
+    "neither_topk": 3
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "a9565dc44de84f4b",
+   "label": "周五（10月30日）纽约尾盘，现货黄金跌3.65%，报3874.76美元/盎司，",
+   "cached": false,
+   "sections": {
+    "事件概述": "「周五（10月30日）纽约尾盘，现货黄金跌3.65%，报3874.76美元/盎司，」由 8 篇报道聚合而成，覆盖 4 家媒体，热度 0.633（爆点），所属板块类目：国际市场。",
+    "关键信息": "周五（10月30日）纽约尾盘，现货黄金跌3.65%，报3874.76美元/盎司，；现货黄金日内跌幅达2.0%，报3940.38美元/盎司。；纽约银日内跌幅达3%，报52.05美元/盎司。",
+    "市场影响": "关联板块代码：BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "周五（10月30日）纽约尾盘，现货黄金跌3.65%，报3874.76美元/盎司，",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191862",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "现货黄金日内跌幅达2.0%，报3940.38美元/盎司。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191705",
      "rrf": 0.032,
      "bm25_rank": 2,
      "vec_rank": 3
     },
     {
      "n": 3,
-     "title": "夜盘期货开盘，原油涨超3%，纯苯、对二甲苯、苯乙烯、沥青、合成橡胶涨超2%，瓶片",
+     "title": "纽约银日内跌幅达3%，报52.05美元/盎司。",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3191699",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "商品期货开盘，沪银主力合约跌超4%，沪锡跌近4%，碳酸锂跌3%，对二甲苯、铂、P",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3190881",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
+     "url": "https://wallstreetcn.com/livenews/3190577",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
      "vec_rank": 4
     },
     {
-     "n": 5,
-     "title": "收评|国内期货主力合约跌多涨少，碳酸锂跌超8%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-29/doc-iniwwpnx8849912.shtml",
-     "rrf": 0.02986,
+     "n": 4,
+     "title": "现货黄金跌破3950美元",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610303916993612.html",
+     "rrf": 0.03009,
      "bm25_rank": 8,
-     "vec_rank": 6
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "现货金银持续扩大跌幅",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610303917129946.html",
+     "rrf": 0.02957,
+     "bm25_rank": 3,
+     "vec_rank": 13
     },
     {
      "n": 6,
-     "title": "富时A50期指连续夜盘收涨0.04%，报12814点。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3191866",
-     "rrf": 0.02858,
-     "bm25_rank": 9,
+     "title": "现货白银失守52美元/盎司",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610293914902711.html",
+     "rrf": 0.02924,
+     "bm25_rank": 6,
      "vec_rank": 11
     },
     {
      "n": 7,
-     "title": "A股开盘：超4900只个股飘绿，三大指数集体低开",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-30/10723142.shtml",
-     "rrf": 0.02786,
-     "bm25_rank": 16,
-     "vec_rank": 8
+     "title": "光大期货1030黄金点评：宏观经济数据超预期，加息预期压制黄金走势",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-10-30/doc-iniwynec4729274.shtml",
+     "rrf": 0.02924,
+     "bm25_rank": 11,
+     "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "期钢飘红！盘面回暖+供给利好！钢价继续涨！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/wemedia/2026-10-30/doc-iniwxzqi4846031.shtml",
-     "rrf": 0.02613,
-     "bm25_rank": 11,
-     "vec_rank": 23
+     "title": "周五（10月30日）纽约尾盘，标普500股指期货最终跌1.8%，道指期货跌1.0",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191852",
+     "rrf": 0.02921,
+     "bm25_rank": 7,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "夜盘期货开盘，沪银跌近3%，纯苯、苯乙烯、低硫燃油、对二甲苯、焦炭、沪锡、豆二、",
-    "bm25_only": 0,
+    "query": "周五（10月30日）纽约尾盘，现货黄金跌3.65%，报3874.76美元/盎司，",
+    "bm25_only": 3,
     "vec_only": 1,
-    "both": 5,
-    "neither_topk": 2
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "bfdef04dc7d528ac",
+   "label": "欧洲央行行长拉加德：数据表明（欧元区）经济在三季度继续扩张。 增长面临下行风险。",
+   "cached": false,
+   "sections": {
+    "事件概述": "「欧洲央行行长拉加德：数据表明（欧元区）经济在三季度继续扩张。 增长面临下行风险。」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.602（爆点），所属板块类目：宏观政策。",
+    "关键信息": "欧洲央行行长拉加德：数据表明（欧元区）经济在三季度继续扩张。 增长面临下行风险。；欧洲央行行长拉加德：数据显示第三季度经济继续扩张；拉加德：增长面临下行风险",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "欧洲央行行长拉加德：数据表明（欧元区）经济在三季度继续扩张。 增长面临下行风险。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190573",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "欧洲央行行长拉加德：数据显示第三季度经济继续扩张",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610293914901434.html",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "拉加德：增长面临下行风险",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202610293914904685.html",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "全文|欧洲央行行长拉加德货币政策新闻发布会：目标是推动通胀中期稳定在2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-10-29/doc-iniwxekt5180143.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "欧洲央行行长拉加德：自9月份以来，长期融资的成本已经上涨。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190583",
+     "rrf": 0.02988,
+     "bm25_rank": 9,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "欧洲央行行长拉加德：自从上次会议以来，金融条件可能已经收紧。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190579",
+     "rrf": 0.02924,
+     "bm25_rank": 11,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "欧洲央行维持利率不变 拉加德淡化通胀扩散风险",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwxksr5090916.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "拉加德：欧洲央行还没有看到实质性的第二轮效应",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190582",
+     "rrf": 0.02901,
+     "bm25_rank": 7,
+     "vec_rank": 11
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "欧洲央行行长拉加德：数据表明（欧元区）经济在三季度继续扩张。 增长面临下行风险。",
+    "bm25_only": 2,
+    "vec_only": 2,
+    "both": 4,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   }

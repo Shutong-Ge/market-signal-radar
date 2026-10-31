@@ -2,93 +2,93 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.413,
-  "avg_rank_diff": 1.22,
-  "avg_missed_by_bm25": 2.11,
-  "avg_missed_by_vector": 2.0,
-  "conclusion": "两路召回集平均重合度仅 41%；即便重合的文档，两路名次平均相差 1.22 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.11 篇最终进入 Top8 的文档；只用向量则漏掉 2.0 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.617,
+  "avg_rank_diff": 1.67,
+  "avg_missed_by_bm25": 1.67,
+  "avg_missed_by_vector": 1.67,
+  "conclusion": "两路召回集平均重合度仅 62%；即便重合的文档，两路名次平均相差 1.67 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.67 篇最终进入 Top8 的文档；只用向量则漏掉 1.67 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "10月30日收盘：纳指跌超1% Alphabet财报不及预期",
+   "query": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货",
+   "jaccard": 0.778,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！"
+  },
+  {
+   "type": "关键词式",
+   "query": "币安疑 遭史 最大 黑客 盗窃案 亿美元",
+   "jaccard": 0.6,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "币安疑遭史上最大黑客盗窃案：超亿美元资产“被冻”，加密货币齐",
+   "jaccard": 0.778,
+   "rank_diff": 1.43,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！"
+  },
+  {
+   "type": "原标题式",
+   "query": "恒指高开0.23%，报23011.29点；恒生科技指数跌0.",
+   "jaccard": 0.6,
+   "rank_diff": 2.83,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "恒指高开0.23%，报23011.29点；恒生科技指数跌0.63%。美的集团涨近"
+  },
+  {
+   "type": "关键词式",
+   "query": "恒指 高开 恒生 科技 指数 美的",
+   "jaccard": 1.0,
+   "rank_diff": 3.0,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 0,
+   "example_top1": "恒指高开0.23%，报23011.29点；恒生科技指数跌0.63%。美的集团涨近"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "恒指高开，报点；恒生科技指数跌。美的集团涨近",
+   "jaccard": 1.0,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 0,
+   "example_top1": "恒指高开0.23%，报23011.29点；恒生科技指数跌0.63%。美的集团涨近"
+  },
+  {
+   "type": "原标题式",
+   "query": "10月31日隔夜要闻：纳指创下6月以来最差单日表现 金价下跌",
+   "jaccard": 0.231,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 4,
+   "example_top1": "10月31日隔夜要闻：纳指创下6月以来最差单日表现 金价下跌 油价上涨 俄美乌三方会谈拟于1"
+  },
+  {
+   "type": "关键词式",
+   "query": "隔夜 要闻 纳指 创下 以来 最差",
    "jaccard": 0.333,
    "rank_diff": 1.75,
    "missed_by_bm25": 3,
    "missed_by_vector": 2,
-   "example_top1": "10月30日收盘：纳指跌超1% Alphabet财报不及预期跌超12% AI担忧重燃引发科技"
-  },
-  {
-   "type": "关键词式",
-   "query": "收盘 纳指 跌超 财报 不及 预期",
-   "jaccard": 0.143,
-   "rank_diff": 2.5,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 4,
-   "example_top1": "10月30日收盘：纳指跌超1% Alphabet财报不及预期跌超12% AI担忧重燃引发科技"
+   "example_top1": "10月31日隔夜要闻：纳指创下6月以来最差单日表现 金价下跌 油价上涨 俄美乌三方会谈拟于1"
   },
   {
    "type": "去数字泛化",
-   "query": "月日收盘：纳指跌超 Alphabet财报不及预期跌超 AI担",
-   "jaccard": 0.143,
-   "rank_diff": 0.5,
+   "query": "月日隔夜要闻：纳指创下月以来最差单日表现 金价下跌 油价上涨",
+   "jaccard": 0.231,
+   "rank_diff": 2.0,
    "missed_by_bm25": 4,
    "missed_by_vector": 4,
-   "example_top1": "10月30日收盘：纳指跌超1% Alphabet财报不及预期跌超12% AI担忧重燃引发科技"
-  },
-  {
-   "type": "原标题式",
-   "query": "美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12",
-   "jaccard": 0.778,
-   "rank_diff": 1.71,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 0,
-   "example_top1": "美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12月加息悬念再起｜大宗风云"
-  },
-  {
-   "type": "关键词式",
-   "query": "美联储 按兵不动 国际 金价 大跌 美元",
-   "jaccard": 0.6,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12月加息悬念再起｜大宗风云"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "美联储按兵不动！国际金价大跌美元，沃什不设前瞻指引，月加息悬",
-   "jaccard": 0.6,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "美联储按兵不动！国际金价大跌41美元，沃什不设前瞻指引，12月加息悬念再起｜大宗风云"
-  },
-  {
-   "type": "原标题式",
-   "query": "提醒：北京时间21:15，欧洲央行发布政策利率（主要再融资利",
-   "jaccard": 0.333,
-   "rank_diff": 0.75,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 1,
-   "example_top1": "提醒：北京时间21:15，欧洲央行发布政策利率（主要再融资利率，存款便利利率，边"
-  },
-  {
-   "type": "关键词式",
-   "query": "提醒 北京 时间 欧洲央行 政策 利率",
-   "jaccard": 0.333,
-   "rank_diff": 0.75,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 3,
-   "example_top1": "提醒：北京时间21:15，欧洲央行发布政策利率（主要再融资利率，存款便利利率，边"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "提醒：北京时间:，欧洲央行发布政策利率（主要再融资利率，存款",
-   "jaccard": 0.455,
-   "rank_diff": 0.4,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "提醒：北京时间21:15，欧洲央行发布政策利率（主要再融资利率，存款便利利率，边"
+   "example_top1": "10月31日隔夜要闻：纳指创下6月以来最差单日表现 金价下跌 油价上涨 俄美乌三方会谈拟于1"
   }
  ]
 }
