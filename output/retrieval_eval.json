@@ -2,74 +2,20 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.617,
-  "avg_rank_diff": 1.67,
-  "avg_missed_by_bm25": 1.67,
-  "avg_missed_by_vector": 1.67,
-  "conclusion": "两路召回集平均重合度仅 62%；即便重合的文档，两路名次平均相差 1.67 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.67 篇最终进入 Top8 的文档；只用向量则漏掉 1.67 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.438,
+  "avg_rank_diff": 1.13,
+  "avg_missed_by_bm25": 1.78,
+  "avg_missed_by_vector": 2.0,
+  "conclusion": "两路召回集平均重合度仅 44%；即便重合的文档，两路名次平均相差 1.13 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.78 篇最终进入 Top8 的文档；只用向量则漏掉 2.0 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货",
-   "jaccard": 0.778,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！"
-  },
-  {
-   "type": "关键词式",
-   "query": "币安疑 遭史 最大 黑客 盗窃案 亿美元",
-   "jaccard": 0.6,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "币安疑遭史上最大黑客盗窃案：超亿美元资产“被冻”，加密货币齐",
-   "jaccard": 0.778,
-   "rank_diff": 1.43,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！"
-  },
-  {
-   "type": "原标题式",
-   "query": "恒指高开0.23%，报23011.29点；恒生科技指数跌0.",
-   "jaccard": 0.6,
-   "rank_diff": 2.83,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "恒指高开0.23%，报23011.29点；恒生科技指数跌0.63%。美的集团涨近"
-  },
-  {
-   "type": "关键词式",
-   "query": "恒指 高开 恒生 科技 指数 美的",
-   "jaccard": 1.0,
-   "rank_diff": 3.0,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 0,
-   "example_top1": "恒指高开0.23%，报23011.29点；恒生科技指数跌0.63%。美的集团涨近"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "恒指高开，报点；恒生科技指数跌。美的集团涨近",
-   "jaccard": 1.0,
-   "rank_diff": 2.0,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 0,
-   "example_top1": "恒指高开0.23%，报23011.29点；恒生科技指数跌0.63%。美的集团涨近"
-  },
-  {
-   "type": "原标题式",
    "query": "10月31日隔夜要闻：纳指创下6月以来最差单日表现 金价下跌",
-   "jaccard": 0.231,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 4,
+   "jaccard": 0.333,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 3,
    "example_top1": "10月31日隔夜要闻：纳指创下6月以来最差单日表现 金价下跌 油价上涨 俄美乌三方会谈拟于1"
   },
   {
@@ -85,10 +31,64 @@
    "type": "去数字泛化",
    "query": "月日隔夜要闻：纳指创下月以来最差单日表现 金价下跌 油价上涨",
    "jaccard": 0.231,
-   "rank_diff": 2.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
+   "rank_diff": 2.67,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
    "example_top1": "10月31日隔夜要闻：纳指创下6月以来最差单日表现 金价下跌 油价上涨 俄美乌三方会谈拟于1"
+  },
+  {
+   "type": "原标题式",
+   "query": "周五（10月30日）纽约尾盘，现货黄金跌3.65%，报387",
+   "jaccard": 0.6,
+   "rank_diff": 1.17,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 2,
+   "example_top1": "周五（10月30日）纽约尾盘，现货黄金跌3.65%，报3874.76美元/盎司，"
+  },
+  {
+   "type": "关键词式",
+   "query": "周五 纽约 尾盘 现货 黄金 美元",
+   "jaccard": 0.455,
+   "rank_diff": 0.6,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 1,
+   "example_top1": "周五（10月30日）纽约尾盘，现货黄金跌3.65%，报3874.76美元/盎司，"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "周五（月日）纽约尾盘，现货黄金跌，报美元/盎司，",
+   "jaccard": 0.6,
+   "rank_diff": 1.83,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "周五（10月30日）纽约尾盘，现货黄金跌3.65%，报3874.76美元/盎司，"
+  },
+  {
+   "type": "原标题式",
+   "query": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货",
+   "jaccard": 0.6,
+   "rank_diff": 0.67,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！"
+  },
+  {
+   "type": "关键词式",
+   "query": "币安疑 遭史 最大 黑客 盗窃案 亿美元",
+   "jaccard": 0.455,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
+   "example_top1": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "币安疑遭史上最大黑客盗窃案：超亿美元资产“被冻”，加密货币齐",
+   "jaccard": 0.333,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "币安疑遭史上最大黑客盗窃案：超30亿美元资产“被冻”，加密货币齐跌！"
   }
  ]
 }
