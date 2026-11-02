@@ -1,112 +1,300 @@
 {
  "engine": "template(降级)",
- "n_clusters": 50,
+ "n_clusters": 46,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.3,
+ "elapsed": 6.9,
  "reports": [
   {
-   "key": "f9e7eaec78c69823",
-   "label": "国家统计局：10月中国采购经理指数(PMI)为49.3% 比上月下降0.8个百分点",
+   "key": "913ff41034e4892d",
+   "label": "伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前没有与美国官员会面的",
    "cached": false,
    "sections": {
-    "事件概述": "「国家统计局：10月中国采购经理指数(PMI)为49.3% 比上月下降0.8个百分点」由 14 篇报道聚合而成，覆盖 4 家媒体，热度 0.796（爆点），所属板块类目：宏观政策。",
-    "关键信息": "国家统计局：10月中国采购经理指数(PMI)为49.3% 比上月下降0.8个百分；国家统计局解读：10月份采购经理指数有所回落 新动能保持较快增长；国家统计局：10月官方制造业PMI为49.3%",
-    "市场影响": "关联板块代码：BK000390、BK000101。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前没有与美国官员会面的」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.765（爆点），所属板块类目：综合。",
+    "关键信息": "伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前没有与美国官员会面的；伊朗外长阿拉格齐：美国的信函是“积极一步”；伊朗外长：目前没有与美国官员会面的计划",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "国家统计局：10月中国采购经理指数(PMI)为49.3% 比上月下降0.8个百分点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/roll/2026-10-31/doc-inixaray1747098.shtml",
+     "title": "伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前没有与美国官员会面的",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191978",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "国家统计局解读：10月份采购经理指数有所回落 新动能保持较快增长",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/roll/2026-10-31/doc-inixaraz7614336.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
+     "title": "伊朗外长阿拉格齐：美国的信函是“积极一步”",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191978",
+     "rrf": 0.032,
+     "bm25_rank": 3,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "国家统计局：10月官方制造业PMI为49.3%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610313917521468.html",
+     "title": "伊朗外长：目前没有与美国官员会面的计划",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191982",
      "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "国家统计局，最新发布！10月PMI回落，解读来了",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-10-31/doc-inixcfyt7442878.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
+     "bm25_rank": 2,
      "vec_rank": 4
     },
     {
-     "n": 5,
-     "title": "国家统计局：10月份制造业采购经理指数为49.3%",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-31/10723794.shtml",
-     "rrf": 0.03054,
+     "n": 4,
+     "title": "伊朗外长披露“两天计划”，美方履约方能重启伊美谈判",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhwzc2379200.shtml",
+     "rrf": 0.03126,
      "bm25_rank": 5,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "伊朗外长阿拉格齐：与调解方的磋商正在进行中。 能否取得成果取决于美国的答复。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192079",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
      "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "国家统计局：10月建筑业商务活动指数为48.0%，比上月下降2.3个百分点；服务",
+     "title": "伊朗外长：磋商是否能取得成果取决于美国的答复",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3191911",
-     "rrf": 0.02951,
-     "bm25_rank": 4,
-     "vec_rank": 12
+     "url": "https://wallstreetcn.com/livenews/3192082",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
+     "vec_rank": 8
     },
     {
      "n": 7,
-     "title": "国家统计局：10月份非制造业商务活动指数为49.7%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610313917521958.html",
-     "rrf": 0.02944,
-     "bm25_rank": 6,
-     "vec_rank": 10
+     "title": "伊朗外长：伊方暂无与美方会谈的计划",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191984",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
+     "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "国家统计局：10月份采购经理指数有所回落",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/10-31/10723787.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
+     "title": "伊朗外交部长阿拉格奇：谈判正在进行并取得进展 但尚未得出最终结论",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611013917769959.html",
+     "rrf": 0.02947,
+     "bm25_rank": 11,
+     "vec_rank": 5
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "国家统计局：10月中国采购经理指数(PMI)为49.3% 比上月下降0.8个百分",
-    "bm25_only": 3,
-    "vec_only": 0,
+    "query": "伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前没有与美国官员会面的",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 7,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "ebff950bdc9e5f63",
+   "label": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%",
+   "cached": false,
+   "sections": {
+    "事件概述": "「奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.765（爆点），所属板块类目：汽车出行。",
+    "关键信息": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%；吉利汽车10月销量同比增长1%；奇瑞集团：10月销售汽车29.59万辆 同比增长5.3%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-02/doc-inixhwzf0508197.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "吉利汽车10月销量同比增长1%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192050",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "奇瑞集团：10月销售汽车29.59万辆 同比增长5.3%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192072",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "比亚迪10月新能源汽车销量49.02万辆 同比增长11%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192054",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "深蓝汽车：2026年10月全球销量32602辆，环比增长8.01%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192005",
+     "rrf": 0.03031,
+     "bm25_rank": 5,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "北汽蓝谷：子公司10月销量32502辆 同比增6.42%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192036",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "上汽集团：10月整车销量43万辆 同比下降5.28%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192059",
+     "rrf": 0.02878,
+     "bm25_rank": 16,
+     "vec_rank": 4
+    },
+    {
+     "n": 8,
+     "title": "赛力斯：10月汽车销量2.70万辆 同比下降50.29%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192039",
+     "rrf": 0.02798,
+     "bm25_rank": 13,
+     "vec_rank": 10
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "aa8e82262c3673c1",
+   "label": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元",
+   "cached": false,
+   "sections": {
+    "事件概述": "「规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元」由 20 篇报道聚合而成，覆盖 4 家媒体，热度 0.764（爆点），所属板块类目：金融市场。",
+    "关键信息": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元；沪深上市公司前三季度净利润超5万亿元 创四年新高；沪深两市公司三季报折射经济向新而行",
+    "市场影响": "关联板块代码：BK0800、BK1366、BK0473。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-02/doc-inixhhcs3348671.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "沪深上市公司前三季度净利润超5万亿元 创四年新高",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611013917710731.html",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "沪深两市公司三季报折射经济向新而行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhstn3154242.shtml",
+     "rrf": 0.03102,
+     "bm25_rank": 6,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "前三季度沪市上市公司营收净利双增长 六成公司净利润实现增长",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192063",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "新华财经早报：11月2日",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhwzh7301942.shtml",
+     "rrf": 0.03041,
+     "bm25_rank": 2,
+     "vec_rank": 10
+    },
+    {
+     "n": 6,
+     "title": "深市公司前三季度净利增近两成 “AI链”秀实力",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhhcq7595270.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "A股公司前三季净利增7.8% 新质生产力引领作用凸显",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhhcm2686262.shtml",
+     "rrf": 0.0284,
+     "bm25_rank": 13,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "上市公司三季报业绩量增质优、结构向好",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhwzf0507138.shtml",
+     "rrf": 0.02813,
+     "bm25_rank": 20,
+     "vec_rank": 4
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元",
+    "bm25_only": 1,
+    "vec_only": 2,
     "both": 5,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "4ae5ec201cccd80f",
+   "key": "a3e31b754bf5c33f",
    "label": "币安63亿美元被盗细节披露：黑客绕过审批控制，边转移资产边销毁痕迹",
    "cached": false,
    "sections": {
-    "事件概述": "「币安63亿美元被盗细节披露：黑客绕过审批控制，边转移资产边销毁痕迹」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.583（爆点），所属板块类目：国际市场。",
+    "事件概述": "「币安63亿美元被盗细节披露：黑客绕过审批控制，边转移资产边销毁痕迹」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.656（爆点），所属板块类目：综合。",
     "关键信息": "币安63亿美元被盗细节披露：黑客绕过审批控制，边转移资产边销毁痕迹；视频|币安63.6亿美元被盗后，发生了什么？；币安称已补回近期安全事件中90%的被盗资产 将于周日开放提现",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -126,8 +314,8 @@
      "title": "视频|币安63.6亿美元被盗后，发生了什么？",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/2026-11-01/doc-inixeyiw0940462.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
@@ -135,30 +323,21 @@
      "title": "币安称已补回近期安全事件中90%的被盗资产 将于周日开放提现",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/7x24/2026-10-31/doc-inixcwwm7180757.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
+     "rrf": 0.03175,
+     "bm25_rank": 3,
      "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "币安称热钱包遭攻击损失约63亿美元，已冻结约30亿美元被盗资产",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610313917522460.html",
-     "rrf": 0.03128,
-     "bm25_rank": 2,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
      "title": "币安63亿美元被盗幕后：一场创纪录的网络劫掠",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixazsv7481074.shtml",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
+     "rrf": 0.03101,
+     "bm25_rank": 4,
      "vec_rank": 5
     },
     {
-     "n": 6,
+     "n": 5,
      "title": "币安遭遇创纪录黑客攻击后 分阶段恢复客户提款",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-01/doc-inixfrfw7813019.shtml",
@@ -167,313 +346,134 @@
      "vec_rank": 4
     },
     {
-     "n": 7,
+     "n": 6,
      "title": "币安称已补回90%被盗资产",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611013917672542.html",
-     "rrf": 0.02986,
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "9.5小时提取46.5亿美元！币安恢复提现后迎来客户撤离潮",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611023918254262.html",
+     "rrf": 0.02964,
      "bm25_rank": 6,
-     "vec_rank": 8
+     "vec_rank": 9
     },
     {
      "n": 8,
-     "title": "币安何一发声：超30亿美元资金受影响 占用户资产及储备2%",
+     "title": "币安赵长鹏回应马斯克：现在不是开玩笑的时候",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-iniwztxm7986082.shtml",
-     "rrf": 0.02963,
-     "bm25_rank": 8,
-     "vec_rank": 7
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixcfys1616275.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 9,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "币安63亿美元被盗细节披露：黑客绕过审批控制，边转移资产边销毁痕迹",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 8,
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "7fb994cb7bc736b9",
-   "label": "长城汽车：10月汽车销量12.04万台 同比下降15.87%",
+   "key": "4fddb1dc4efa1a00",
+   "label": "A股白酒股延续涨势，皇台酒业2连板，水井坊涨超8%，舍得酒业、古井贡酒、迎驾贡酒",
    "cached": false,
    "sections": {
-    "事件概述": "「长城汽车：10月汽车销量12.04万台 同比下降15.87%」由 7 篇报道聚合而成，覆盖 2 家媒体，热度 0.579（爆点），所属板块类目：汽车出行。",
-    "关键信息": "长城汽车：10月汽车销量12.04万台 同比下降15.87%；赛力斯：10月汽车销量2.70万辆 同比下降50.29%；上汽集团：10月整车销量43万辆 同比下降5.28%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「A股白酒股延续涨势，皇台酒业2连板，水井坊涨超8%，舍得酒业、古井贡酒、迎驾贡酒」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.628（高热），所属板块类目：综合。",
+    "关键信息": "A股白酒股延续涨势，皇台酒业2连板，水井坊涨超8%，舍得酒业、古井贡酒、迎驾贡酒；“南茅台北皇台”！000995领衔涨停两连板！；时隔6个多月，“股王”股价重回1400元",
+    "市场影响": "关联板块代码：BK0816。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "长城汽车：10月汽车销量12.04万台 同比下降15.87%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611013917705187.html",
+     "title": "A股白酒股延续涨势，皇台酒业2连板，水井坊涨超8%，舍得酒业、古井贡酒、迎驾贡酒",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192165",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "赛力斯：10月汽车销量2.70万辆 同比下降50.29%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192039",
-     "rrf": 0.032,
+     "title": "“南茅台北皇台”！000995领衔涨停两连板！",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611023918209070.html",
+     "rrf": 0.03226,
      "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "上汽集团：10月整车销量43万辆 同比下降5.28%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192059",
-     "rrf": 0.032,
-     "bm25_rank": 3,
      "vec_rank": 2
     },
     {
-     "n": 4,
-     "title": "比亚迪10月新能源汽车销量49.02万辆 同比增长11%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192054",
-     "rrf": 0.03101,
+     "n": 3,
+     "title": "时隔6个多月，“股王”股价重回1400元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixicie7293510.shtml",
+     "rrf": 0.03125,
      "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "吉利汽车10月销量同比增长1%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192050",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
      "vec_rank": 4
     },
     {
-     "n": 6,
-     "title": "上汽MG：10月全球新能源销量超8.5万台",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192009",
-     "rrf": 0.02848,
-     "bm25_rank": 6,
-     "vec_rank": 15
-    },
-    {
-     "n": 7,
-     "title": "小米汽车10月交付量超5万台",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611013917671769.html",
-     "rrf": 0.02775,
-     "bm25_rank": 7,
-     "vec_rank": 18
-    },
-    {
-     "n": 8,
-     "title": "汽车早报｜多家车企发布三季度财报 特斯拉推出全新“5年0息”分期购车金融方案",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-31/doc-inixakva1834869.shtml",
-     "rrf": 0.02765,
-     "bm25_rank": 16,
-     "vec_rank": 9
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "长城汽车：10月汽车销量12.04万台 同比下降15.87%",
-    "bm25_only": 2,
-    "vec_only": 0,
-    "both": 5,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "cf72a8c290cb2e13",
-   "label": "前三季度沪市上市公司营收净利双增长 六成公司净利润实现增长",
-   "cached": false,
-   "sections": {
-    "事件概述": "「前三季度沪市上市公司营收净利双增长 六成公司净利润实现增长」由 3 篇报道聚合而成，覆盖 3 家媒体，热度 0.509（爆点），所属板块类目：金融市场。",
-    "关键信息": "前三季度沪市上市公司营收净利双增长 六成公司净利润实现增长；沪深上市公司前三季度净利润超5万亿元 创四年新高；A股休闲食品企业前三季度净利润合计43.90亿元",
-    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "前三季度沪市上市公司营收净利双增长 六成公司净利润实现增长",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192063",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "沪深上市公司前三季度净利润超5万亿元 创四年新高",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611013917710731.html",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "A股休闲食品企业前三季度净利润合计43.90亿元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-31/doc-iniwzyfh1975520.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 2,
-     "vec_rank": 6
-    },
-    {
      "n": 4,
-     "title": "营收利润双增长！42家A股上市银行三季报悉数“交卷”",
+     "title": "白酒爆发！水井坊等4股涨停，茅台Q3净利环比大增15%，机构：底部出清已现",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-31/doc-inixcfyv3849742.shtml",
-     "rrf": 0.0308,
-     "bm25_rank": 7,
+     "url": "https://finance.sina.com.cn/stock/bxjj/2026-11-02/doc-inixichz2366439.shtml",
+     "rrf": 0.03102,
+     "bm25_rank": 6,
      "vec_rank": 3
     },
     {
      "n": 5,
-     "title": "科创板公司第三季度营收环比增长6.27%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192041",
-     "rrf": 0.03016,
-     "bm25_rank": 3,
-     "vec_rank": 10
+     "title": "重回1400！王者归来",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-11-02/doc-inixicic0505790.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "科创板公司前三季度扣非净利同比增6.74倍",
+     "title": "A股零售、食品等消费股继续活跃，青岛食品6连板，合百集团、百大集团、国芳集团涨停",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192042",
-     "rrf": 0.02859,
-     "bm25_rank": 12,
-     "vec_rank": 8
+     "url": "https://wallstreetcn.com/livenews/3192186",
+     "rrf": 0.02988,
+     "bm25_rank": 9,
+     "vec_rank": 5
     },
     {
      "n": 7,
-     "title": "资产规模增长 风控管理加强 金融服务提质 前三季度国有六大行均实现营收净利同比双增",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-31/doc-iniwzyfm4322980.shtml",
-     "rrf": 0.02817,
-     "bm25_rank": 11,
+     "title": "大金融板块涨势扩大 银之杰等多股涨停",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611023918128896.html",
+     "rrf": 0.02879,
+     "bm25_rank": 8,
      "vec_rank": 11
     },
     {
      "n": 8,
-     "title": "002602，前三季度营收超330亿元！多家游戏公司业绩大幅增长",
+     "title": "这家酒企单季净利扭亏！600779，交出“企稳”答卷",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-10-31/doc-inixcfyv3902384.shtml",
-     "rrf": 0.02729,
-     "bm25_rank": 24,
-     "vec_rank": 5
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "前三季度沪市上市公司营收净利双增长 六成公司净利润实现增长",
-    "bm25_only": 1,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "cee30e97a1f583ed",
-   "label": "三季度券商新晋逾80家公司前十大流通股股东 后市配置看好资源品及高股息龙头",
-   "cached": false,
-   "sections": {
-    "事件概述": "「三季度券商新晋逾80家公司前十大流通股股东 后市配置看好资源品及高股息龙头」由 3 篇报道聚合而成，覆盖 2 家媒体，热度 0.497（爆点），所属板块类目：金融市场。",
-    "关键信息": "三季度券商新晋逾80家公司前十大流通股股东 后市配置看好资源品及高股息龙头；券商重仓股揭晓，现身239只个股前十大流通股东名单；券商三季度重仓股曝光 三大行业获券商持股市值超20亿元",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "三季度券商新晋逾80家公司前十大流通股股东 后市配置看好资源品及高股息龙头",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-31/doc-inixakva1786154.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "券商重仓股揭晓，现身239只个股前十大流通股东名单",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3191987",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "券商三季度重仓股曝光 三大行业获券商持股市值超20亿元",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192049",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "十大机构看后市：A股处于两个大波段上涨之间的震荡休整期，仍可期待年末上涨行情",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-01/doc-inixfkxy7922790.shtml",
-     "rrf": 0.03062,
-     "bm25_rank": 2,
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-31/doc-inixavkx7585557.shtml",
+     "rrf": 0.02669,
+     "bm25_rank": 22,
      "vec_rank": 9
-    },
-    {
-     "n": 5,
-     "title": "603008，A股公司大举增持，进入前十大股东！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-01/doc-inixetzy0993637.shtml",
-     "rrf": 0.02837,
-     "bm25_rank": 5,
-     "vec_rank": 17
-    },
-    {
-     "n": 6,
-     "title": "近77亿元，中国人寿新进宁德时代 险资最新建仓股揭秘",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/2026-11-01/doc-inixferx3069099.shtml",
-     "rrf": 0.0275,
-     "bm25_rank": 21,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "半导体设备企业三季报：部分龙头三季度增速放缓",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202610313917523467.html",
-     "rrf": 0.02743,
-     "bm25_rank": 7,
-     "vec_rank": 20
-    },
-    {
-     "n": 8,
-     "title": "两大国有资本运营平台布局A股核心资产 新进超20家公司三季度末前十大流通股东名单",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-31/doc-iniwzyfi7872611.shtml",
-     "rrf": 0.02686,
-     "bm25_rank": 29,
-     "vec_rank": 4
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "三季度券商新晋逾80家公司前十大流通股股东 后市配置看好资源品及高股息龙头",
-    "bm25_only": 3,
-    "vec_only": 2,
-    "both": 3,
-    "neither_topk": 0
+    "query": "A股白酒股延续涨势，皇台酒业2连板，水井坊涨超8%，舍得酒业、古井贡酒、迎驾贡酒",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }
