@@ -5,87 +5,181 @@
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 6.9,
+ "elapsed": 5.4,
  "reports": [
   {
-   "key": "913ff41034e4892d",
-   "label": "伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前没有与美国官员会面的",
+   "key": "a709671f0d3248af",
+   "label": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元",
    "cached": false,
    "sections": {
-    "事件概述": "「伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前没有与美国官员会面的」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.765（爆点），所属板块类目：综合。",
-    "关键信息": "伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前没有与美国官员会面的；伊朗外长阿拉格齐：美国的信函是“积极一步”；伊朗外长：目前没有与美国官员会面的计划",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元」由 17 篇报道聚合而成，覆盖 4 家媒体，热度 0.842（爆点），所属板块类目：金融市场。",
+    "关键信息": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元；沪深三季报收官：净利润5.1万亿创新高，超七成企业盈利；沪深上市公司前三季度净利润超5万亿元 创四年新高",
+    "市场影响": "关联板块代码：BK0800、BK1366、BK0473。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前没有与美国官员会面的",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3191978",
+     "title": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-02/doc-inixhhcs3348671.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "伊朗外长阿拉格齐：美国的信函是“积极一步”",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3191978",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "title": "沪深三季报收官：净利润5.1万亿创新高，超七成企业盈利",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-02/doc-inixkeur0383091.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "伊朗外长：目前没有与美国官员会面的计划",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3191982",
+     "title": "沪深上市公司前三季度净利润超5万亿元 创四年新高",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611013917710731.html",
      "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "伊朗外长披露“两天计划”，美方履约方能重启伊美谈判",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhwzc2379200.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
+     "bm25_rank": 3,
      "vec_rank": 3
     },
     {
+     "n": 4,
+     "title": "沪深两市公司三季报折射经济向新而行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhstn3154242.shtml",
+     "rrf": 0.03055,
+     "bm25_rank": 7,
+     "vec_rank": 4
+    },
+    {
      "n": 5,
-     "title": "伊朗外长阿拉格齐：与调解方的磋商正在进行中。 能否取得成果取决于美国的答复。",
+     "title": "前三季度沪市上市公司营收净利双增长 六成公司净利润实现增长",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192079",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
+     "url": "https://wallstreetcn.com/livenews/3192063",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
      "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "伊朗外长：磋商是否能取得成果取决于美国的答复",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192082",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
+     "title": "新华财经早报：11月2日",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhwzh7301942.shtml",
+     "rrf": 0.03002,
+     "bm25_rank": 2,
+     "vec_rank": 12
     },
     {
      "n": 7,
-     "title": "伊朗外长：伊方暂无与美方会谈的计划",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3191984",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
+     "title": "深市公司前三季度净利增近两成 “AI链”秀实力",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhhcq7595270.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 9,
      "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "伊朗外交部长阿拉格奇：谈判正在进行并取得进展 但尚未得出最终结论",
+     "title": "A股公司前三季净利增7.8% 新质生产力引领作用凸显",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhhcm2686262.shtml",
+     "rrf": 0.02819,
+     "bm25_rank": 13,
+     "vec_rank": 9
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "47e4ee0b97fdb5eb",
+   "label": "稳市场！央行出手：互换便利明日招标，股票回购增持再贷款利率降至1%",
+   "cached": false,
+   "sections": {
+    "事件概述": "「稳市场！央行出手：互换便利明日招标，股票回购增持再贷款利率降至1%」由 15 篇报道聚合而成，覆盖 3 家媒体，热度 0.8（爆点），所属板块类目：金融市场。",
+    "关键信息": "稳市场！央行出手：互换便利明日招标，股票回购增持再贷款利率降至1%；央行出手稳市场，明日操作！；央行优化股票回购增持再贷款利率从1.25%降至1%",
+    "市场影响": "关联板块代码：BK0475、BK1283。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "稳市场！央行出手：互换便利明日招标，股票回购增持再贷款利率降至1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-02/doc-inixkeur0342696.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "央行出手稳市场，明日操作！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-11-02/doc-inixiuew7150102.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "央行优化股票回购增持再贷款利率从1.25%降至1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/wbstock/2026-11-02/doc-inixkeur0390330.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "央行将召开股票回购增持再贷款座谈会",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611013917769959.html",
+     "url": "https://finance.eastmoney.com/a/202611013917704746.html",
+     "rrf": 0.03055,
+     "bm25_rank": 4,
+     "vec_rank": 7
+    },
+    {
+     "n": 5,
+     "title": "稳市，两项工具优化！金融管理部门最新部署，解读来了",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-02/doc-inixkeuu2788322.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "金融监管部门将召开座谈会，A股将迎哪些利好？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-11-01/doc-inixfzvr0893751.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 6,
+     "vec_rank": 9
+    },
+    {
+     "n": 7,
+     "title": "三部门联手稳市场！又一项股市利好政策落地",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixkeur0388360.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 9,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "盘后利好！18家上市公司宣布增持、回购",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-02/doc-inixiynt0418286.shtml",
      "rrf": 0.02947,
      "bm25_rank": 11,
      "vec_rank": 5
@@ -93,20 +187,20 @@
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前没有与美国官员会面的",
-    "bm25_only": 0,
-    "vec_only": 1,
-    "both": 7,
+    "query": "稳市场！央行出手：互换便利明日招标，股票回购增持再贷款利率降至1%",
+    "bm25_only": 1,
+    "vec_only": 2,
+    "both": 5,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "ebff950bdc9e5f63",
+   "key": "fbdb71302b9a8d91",
    "label": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%",
    "cached": false,
    "sections": {
-    "事件概述": "「奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.765（爆点），所属板块类目：汽车出行。",
+    "事件概述": "「奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.777（爆点），所属板块类目：汽车出行。",
     "关键信息": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%；吉利汽车10月销量同比增长1%；奇瑞集团：10月销售汽车29.59万辆 同比增长5.3%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -144,8 +238,8 @@
      "title": "比亚迪10月新能源汽车销量49.02万辆 同比增长11%",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3192054",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
+     "rrf": 0.03077,
+     "bm25_rank": 5,
      "vec_rank": 5
     },
     {
@@ -153,8 +247,8 @@
      "title": "深蓝汽车：2026年10月全球销量32602辆，环比增长8.01%。",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3192005",
-     "rrf": 0.03031,
-     "bm25_rank": 5,
+     "rrf": 0.03055,
+     "bm25_rank": 4,
      "vec_rank": 7
     },
     {
@@ -171,8 +265,8 @@
      "title": "上汽集团：10月整车销量43万辆 同比下降5.28%",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3192059",
-     "rrf": 0.02878,
-     "bm25_rank": 16,
+     "rrf": 0.02971,
+     "bm25_rank": 11,
      "vec_rank": 4
     },
     {
@@ -180,8 +274,8 @@
      "title": "赛力斯：10月汽车销量2.70万辆 同比下降50.29%",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3192039",
-     "rrf": 0.02798,
-     "bm25_rank": 13,
+     "rrf": 0.02878,
+     "bm25_rank": 9,
      "vec_rank": 10
     }
    ],
@@ -196,92 +290,92 @@
    "elapsed": 0.0
   },
   {
-   "key": "aa8e82262c3673c1",
-   "label": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元",
+   "key": "573c9ce139758eed",
+   "label": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶",
    "cached": false,
    "sections": {
-    "事件概述": "「规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元」由 20 篇报道聚合而成，覆盖 4 家媒体，热度 0.764（爆点），所属板块类目：金融市场。",
-    "关键信息": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元；沪深上市公司前三季度净利润超5万亿元 创四年新高；沪深两市公司三季报折射经济向新而行",
-    "市场影响": "关联板块代码：BK0800、BK1366、BK0473。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.689（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶；布伦特原油跌6%，现报104.99美元/桶。；布油期货跌幅扩大至7%",
+    "市场影响": "关联板块代码：BK1361。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-02/doc-inixhhcs3348671.shtml",
+     "title": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192747",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "沪深上市公司前三季度净利润超5万亿元 创四年新高",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611013917710731.html",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "title": "布伦特原油跌6%，现报104.99美元/桶。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192736",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "沪深两市公司三季报折射经济向新而行",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhstn3154242.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
+     "title": "布油期货跌幅扩大至7%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611033919167641.html",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
      "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "前三季度沪市上市公司营收净利双增长 六成公司净利润实现增长",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192063",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
+     "title": "国际油价跳水，金银、美股期货直线拉升",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixkeur0391125.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
      "vec_rank": 5
     },
     {
      "n": 5,
-     "title": "新华财经早报：11月2日",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhwzh7301942.shtml",
-     "rrf": 0.03041,
-     "bm25_rank": 2,
-     "vec_rank": 10
+     "title": "上海原油连续主力合约日内跌幅扩大至8%，现报685.40元。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192759",
+     "rrf": 0.03037,
+     "bm25_rank": 3,
+     "vec_rank": 9
     },
     {
      "n": 6,
-     "title": "深市公司前三季度净利增近两成 “AI链”秀实力",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhhcq7595270.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "A股公司前三季净利增7.8% 新质生产力引领作用凸显",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhhcm2686262.shtml",
-     "rrf": 0.0284,
-     "bm25_rank": 13,
+     "title": "英国国债价格涨幅扩大，10年期英债收益率跌10个基点，刷新日低至5.18%，布伦",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192749",
+     "rrf": 0.03033,
+     "bm25_rank": 4,
      "vec_rank": 8
     },
     {
-     "n": 8,
-     "title": "上市公司三季报业绩量增质优、结构向好",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhwzf0507138.shtml",
-     "rrf": 0.02813,
-     "bm25_rank": 20,
+     "n": 7,
+     "title": "受伊朗和平谈判拖累原油价格走低，美国能源股下跌",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192739",
+     "rrf": 0.03012,
+     "bm25_rank": 9,
      "vec_rank": 4
+    },
+    {
+     "n": 8,
+     "title": "WTI原油期货跌幅扩大至3%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611023918241578.html",
+     "rrf": 0.02944,
+     "bm25_rank": 10,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元",
+    "query": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶",
     "bm25_only": 1,
     "vec_only": 2,
     "both": 5,
@@ -290,105 +384,11 @@
    "elapsed": 0.0
   },
   {
-   "key": "a3e31b754bf5c33f",
-   "label": "币安63亿美元被盗细节披露：黑客绕过审批控制，边转移资产边销毁痕迹",
-   "cached": false,
-   "sections": {
-    "事件概述": "「币安63亿美元被盗细节披露：黑客绕过审批控制，边转移资产边销毁痕迹」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.656（爆点），所属板块类目：综合。",
-    "关键信息": "币安63亿美元被盗细节披露：黑客绕过审批控制，边转移资产边销毁痕迹；视频|币安63.6亿美元被盗后，发生了什么？；币安称已补回近期安全事件中90%的被盗资产 将于周日开放提现",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "币安63亿美元被盗细节披露：黑客绕过审批控制，边转移资产边销毁痕迹",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-10-31/doc-inixavku4914033.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "视频|币安63.6亿美元被盗后，发生了什么？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/2026-11-01/doc-inixeyiw0940462.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "币安称已补回近期安全事件中90%的被盗资产 将于周日开放提现",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/7x24/2026-10-31/doc-inixcwwm7180757.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "币安63亿美元被盗幕后：一场创纪录的网络劫掠",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixazsv7481074.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "币安遭遇创纪录黑客攻击后 分阶段恢复客户提款",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-01/doc-inixfrfw7813019.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "币安称已补回90%被盗资产",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611013917672542.html",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "9.5小时提取46.5亿美元！币安恢复提现后迎来客户撤离潮",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611023918254262.html",
-     "rrf": 0.02964,
-     "bm25_rank": 6,
-     "vec_rank": 9
-    },
-    {
-     "n": 8,
-     "title": "币安赵长鹏回应马斯克：现在不是开玩笑的时候",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixcfys1616275.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
-     "vec_rank": 8
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "币安63亿美元被盗细节披露：黑客绕过审批控制，边转移资产边销毁痕迹",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "4fddb1dc4efa1a00",
+   "key": "2981a185e7ce6bef",
    "label": "A股白酒股延续涨势，皇台酒业2连板，水井坊涨超8%，舍得酒业、古井贡酒、迎驾贡酒",
    "cached": false,
    "sections": {
-    "事件概述": "「A股白酒股延续涨势，皇台酒业2连板，水井坊涨超8%，舍得酒业、古井贡酒、迎驾贡酒」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.628（高热），所属板块类目：综合。",
+    "事件概述": "「A股白酒股延续涨势，皇台酒业2连板，水井坊涨超8%，舍得酒业、古井贡酒、迎驾贡酒」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.667（高热），所属板块类目：综合。",
     "关键信息": "A股白酒股延续涨势，皇台酒业2连板，水井坊涨超8%，舍得酒业、古井贡酒、迎驾贡酒；“南茅台北皇台”！000995领衔涨停两连板！；时隔6个多月，“股王”股价重回1400元",
     "市场影响": "关联板块代码：BK0816。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -417,8 +417,8 @@
      "title": "时隔6个多月，“股王”股价重回1400元",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixicie7293510.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
+     "rrf": 0.0315,
+     "bm25_rank": 3,
      "vec_rank": 4
     },
     {
@@ -426,8 +426,8 @@
      "title": "白酒爆发！水井坊等4股涨停，茅台Q3净利环比大增15%，机构：底部出清已现",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/bxjj/2026-11-02/doc-inixichz2366439.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
+     "rrf": 0.03126,
+     "bm25_rank": 5,
      "vec_rank": 3
     },
     {
@@ -435,8 +435,8 @@
      "title": "重回1400！王者归来",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/wm/2026-11-02/doc-inixicic0505790.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
+     "rrf": 0.0303,
+     "bm25_rank": 6,
      "vec_rank": 6
     },
     {
@@ -453,17 +453,17 @@
      "title": "大金融板块涨势扩大 银之杰等多股涨停",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611023918128896.html",
-     "rrf": 0.02879,
-     "bm25_rank": 8,
+     "rrf": 0.02901,
+     "bm25_rank": 7,
      "vec_rank": 11
     },
     {
      "n": 8,
-     "title": "这家酒企单季净利扭亏！600779，交出“企稳”答卷",
+     "title": "茅台重回1400，白酒的底已现？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-31/doc-inixavkx7585557.shtml",
-     "rrf": 0.02669,
-     "bm25_rank": 22,
+     "url": "https://finance.sina.com.cn/wm/2026-11-02/doc-inixkeuv9230972.shtml",
+     "rrf": 0.02838,
+     "bm25_rank": 12,
      "vec_rank": 9
     }
    ],

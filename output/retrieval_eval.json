@@ -2,75 +2,75 @@
  "summary": {
   "n_queries": 7,
   "top_k": 8,
-  "avg_jaccard": 0.501,
-  "avg_rank_diff": 1.69,
-  "avg_missed_by_bm25": 1.57,
-  "avg_missed_by_vector": 2.14,
-  "conclusion": "两路召回集平均重合度仅 50%；即便重合的文档，两路名次平均相差 1.69 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.57 篇最终进入 Top8 的文档；只用向量则漏掉 2.14 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.426,
+  "avg_rank_diff": 1.51,
+  "avg_missed_by_bm25": 1.71,
+  "avg_missed_by_vector": 2.43,
+  "conclusion": "两路召回集平均重合度仅 43%；即便重合的文档，两路名次平均相差 1.51 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.71 篇最终进入 Top8 的文档；只用向量则漏掉 2.43 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前",
-   "jaccard": 0.6,
-   "rank_diff": 1.17,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前没有与美国官员会面的"
-  },
-  {
-   "type": "关键词式",
-   "query": "伊朗 外长 阿拉 格齐 美国 重启",
-   "jaccard": 1.0,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 0,
-   "example_top1": "伊朗外长阿拉格齐：美国重启谈判的举措是“积极的一步”。 目前没有与美国官员会面的"
-  },
-  {
-   "type": "原标题式",
-   "query": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比",
-   "jaccard": 0.333,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%"
-  },
-  {
-   "type": "关键词式",
-   "query": "奇瑞 汽车 五大 品牌 销量 汽车",
-   "jaccard": 0.455,
-   "rank_diff": 1.6,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "奇瑞汽车：月的五大品牌总销量为,辆汽车 同比增长约",
-   "jaccard": 0.455,
-   "rank_diff": 0.8,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%"
-  },
-  {
-   "type": "原标题式",
    "query": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季",
    "jaccard": 0.333,
-   "rank_diff": 2.5,
-   "missed_by_bm25": 4,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
    "missed_by_vector": 4,
    "example_top1": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元"
   },
   {
    "type": "关键词式",
    "query": "规模 放量 结构 优化 盈利 韧性",
-   "jaccard": 0.333,
-   "rank_diff": 3.75,
+   "jaccard": 0.455,
+   "rank_diff": 3.6,
    "missed_by_bm25": 1,
    "missed_by_vector": 3,
    "example_top1": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元"
+  },
+  {
+   "type": "原标题式",
+   "query": "稳市场！央行出手：互换便利明日招标，股票回购增持再贷款利率降",
+   "jaccard": 0.6,
+   "rank_diff": 1.5,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 0,
+   "example_top1": "稳市场！央行出手：互换便利明日招标，股票回购增持再贷款利率降至1%"
+  },
+  {
+   "type": "关键词式",
+   "query": "市场 央行 出手 互换 便利 明日",
+   "jaccard": 0.455,
+   "rank_diff": 1.2,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "央行出手稳市场，明日操作！"
+  },
+  {
+   "type": "原标题式",
+   "query": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比",
+   "jaccard": 0.455,
+   "rank_diff": 0.6,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%"
+  },
+  {
+   "type": "关键词式",
+   "query": "奇瑞 汽车 五大 品牌 销量 汽车",
+   "jaccard": 0.231,
+   "rank_diff": 1.67,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 4,
+   "example_top1": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "奇瑞汽车：月的五大品牌总销量为,辆汽车 同比增长约",
+   "jaccard": 0.455,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "奇瑞汽车：10月的五大品牌总销量为282,458辆汽车 同比增长约7.2%"
   }
  ]
 }
