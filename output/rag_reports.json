@@ -5,204 +5,16 @@
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.1,
+ "elapsed": 5.4,
  "reports": [
   {
-   "key": "9d56f31052618eca",
-   "label": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶",
-   "cached": false,
-   "sections": {
-    "事件概述": "「布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶」由 20 篇报道聚合而成，覆盖 3 家媒体，热度 0.789（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶；布伦特原油失守101美元/桶 日内跌3.67%；布伦特原油跌6%，现报104.99美元/桶。",
-    "市场影响": "关联板块代码：BK1361、BK0464。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192747",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "布伦特原油失守101美元/桶 日内跌3.67%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611033920544954.html",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "布伦特原油跌6%，现报104.99美元/桶。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192736",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "油价跌幅收窄，布伦特原油期货交投于103.50美元/桶附近。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3193414",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "高盛：地缘扰动下，2027年布伦特原油均价或冲高至130美元/桶",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixkmap0313450.shtml",
-     "rrf": 0.02991,
-     "bm25_rank": 4,
-     "vec_rank": 10
-    },
-    {
-     "n": 6,
-     "title": "布油期货跌幅扩大至7%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611033919167641.html",
-     "rrf": 0.02951,
-     "bm25_rank": 12,
-     "vec_rank": 4
-    },
-    {
-     "n": 7,
-     "title": "国际油价跳水 布伦特原油期货跌幅扩大至3%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611033920524617.html",
-     "rrf": 0.02924,
-     "bm25_rank": 11,
-     "vec_rank": 6
-    },
-    {
-     "n": 8,
-     "title": "美军打击伊朗格什姆岛，国际油价应声走高",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixmxcz8762314.shtml",
-     "rrf": 0.02885,
-     "bm25_rank": 6,
-     "vec_rank": 13
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "c4d5e0b79e67f961",
-   "label": "金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降至1%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降至1%」由 24 篇报道聚合而成，覆盖 2 家媒体，热度 0.78（爆点），所属板块类目：金融市场。",
-    "关键信息": "金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降；稳市，两项工具优化！金融管理部门最新部署，解读来了；央行出手稳市场，明日操作！",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降至1%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-11-03/doc-inixkrkn6981318.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "稳市，两项工具优化！金融管理部门最新部署，解读来了",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-02/doc-inixkeuu2788322.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "央行出手稳市场，明日操作！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-02/doc-inixiuew7150102.shtml",
-     "rrf": 0.03151,
-     "bm25_rank": 2,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "央行优化股票回购增持再贷款利率从1.25%降至1%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/wbstock/2026-11-02/doc-inixkeur0390330.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "三部门协同发力 优化支持资本市场两项工具",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-03/doc-inixkzyk2434640.shtml",
-     "rrf": 0.03033,
-     "bm25_rank": 8,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "稳市场！央行出手：互换便利明日招标，股票回购增持再贷款利率降至1%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-02/doc-inixkeur0342696.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 5,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "三部门联手稳市场！又一项股市利好政策落地",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixkeur0388360.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 11,
-     "vec_rank": 6
-    },
-    {
-     "n": 8,
-     "title": "超30家A股公司，进场！股票回购增持贷款再加速",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-03/doc-inixnpzt8564430.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 7,
-     "vec_rank": 10
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "1c154eb043f1e79a",
+   "key": "1a8b571514255f4a",
    "label": "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就业数据",
    "cached": false,
    "sections": {
-    "事件概述": "「11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就业数据」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.722（爆点），所属板块类目：半导体。",
-    "关键信息": "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就；11月3日隔夜要闻：美股涨跌不一 中概股多数上涨 油价重挫 铜价和金价反弹 特朗；开盘：三大股指齐涨，油价大跌、科技股反弹",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就业数据」由 28 篇报道聚合而成，覆盖 3 家媒体，热度 0.76（爆点），所属板块类目：国际市场。",
+    "关键信息": "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就；11月3日隔夜要闻：美股涨跌不一 中概股多数上涨 油价重挫 铜价和金价反弹 特朗；11月4日美股收盘：选举日道指跌200点 标普纳指结束三日连跌 芯片股反弹",
+    "市场影响": "关联板块代码：BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
@@ -226,75 +38,75 @@
     },
     {
      "n": 3,
-     "title": "开盘：三大股指齐涨，油价大跌、科技股反弹",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-02/doc-inixkeur0392046.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
      "title": "11月4日美股收盘：选举日道指跌200点 标普纳指结束三日连跌 芯片股反弹",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixpexm8289280.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
+     "rrf": 0.03077,
+     "bm25_rank": 5,
      "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "开盘：中期选举日三大股指涨跌不一，芯片股反弹、油价回落",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixnpzq6587231.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 9,
+     "vec_rank": 3
     },
     {
      "n": 5,
      "title": "清晨！全球“股王”，重大突发！",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-03/doc-inixkzyf0044777.shtml",
-     "rrf": 0.03037,
+     "rrf": 0.03016,
      "bm25_rank": 3,
-     "vec_rank": 9
+     "vec_rank": 10
     },
     {
      "n": 6,
-     "title": "快讯：恒指低开0.32% 恒科指跌0.5% 科网股低迷 汽车股走弱",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-04/doc-inixprny9422406.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
      "title": "美股三大指数开盘涨跌不一 科技股多数反弹",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611033920588318.html",
-     "rrf": 0.0289,
-     "bm25_rank": 5,
-     "vec_rank": 14
+     "rrf": 0.02878,
+     "bm25_rank": 4,
+     "vec_rank": 16
+    },
+    {
+     "n": 7,
+     "title": "快讯：恒指低开0.32% 恒科指跌0.5% 科网股低迷 汽车股走弱",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-04/doc-inixprny9422406.shtml",
+     "rrf": 0.02878,
+     "bm25_rank": 10,
+     "vec_rank": 9
     },
     {
      "n": 8,
-     "title": "快讯：恒指高开0.33% 恒科指涨0.36% 科网股活跃 黄金股回暖",
+     "title": "摩根大通：中期选举过后，科技股有望反弹",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-03/doc-inixmhhe6782654.shtml",
-     "rrf": 0.02837,
-     "bm25_rank": 11,
-     "vec_rank": 10
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqxhu6597054.shtml",
+     "rrf": 0.02826,
+     "bm25_rank": 7,
+     "vec_rank": 15
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就",
-    "bm25_only": 2,
+    "bm25_only": 3,
     "vec_only": 1,
-    "both": 4,
+    "both": 3,
     "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "5ac98572c1b7f2e3",
+   "key": "fd404cf8aedb428b",
    "label": "国债期货早盘收盘，30年期主力合约涨0.46%，10年期主力合约涨0.12%，5",
    "cached": false,
    "sections": {
-    "事件概述": "「国债期货早盘收盘，30年期主力合约涨0.46%，10年期主力合约涨0.12%，5」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.64（爆点），所属板块类目：大宗与能化。",
+    "事件概述": "「国债期货早盘收盘，30年期主力合约涨0.46%，10年期主力合约涨0.12%，5」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.663（爆点），所属板块类目：大宗与能化。",
     "关键信息": "国债期货早盘收盘，30年期主力合约涨0.46%，10年期主力合约涨0.12%，5；收评：国内期货主力合约跌多涨少 SC原油跌超6%；开盘|国内期货主力合约跌多涨少 烧碱涨近3%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -323,26 +135,26 @@
      "title": "开盘|国内期货主力合约跌多涨少 烧碱涨近3%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-04/doc-inixprpe1678706.shtml",
-     "rrf": 0.03126,
+     "rrf": 0.0315,
      "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "收评：国内期货主力合约涨跌互现 集运欧线跌超4%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-02/doc-inixipwy7240658.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
      "vec_rank": 4
     },
     {
-     "n": 5,
+     "n": 4,
      "title": "开盘：国内期货主力合约涨跌互现 上海原油大跌8%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixmhhi8842193.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "英国国债延续跌势 10年期国债收益率跌幅达10个基点至5.18% 触及当日低点",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611033919169859.html",
+     "rrf": 0.02924,
+     "bm25_rank": 11,
      "vec_rank": 6
     },
     {
@@ -350,130 +162,318 @@
      "title": "原油：美伊谈判出现进展，油价高位大幅回落",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/future/2026-11-03/doc-inixncmw2197685.shtml",
-     "rrf": 0.02837,
-     "bm25_rank": 11,
-     "vec_rank": 10
+     "rrf": 0.02899,
+     "bm25_rank": 9,
+     "vec_rank": 9
     },
     {
      "n": 7,
-     "title": "英国国债延续跌势 10年期国债收益率跌幅达10个基点至5.18% 触及当日低点",
+     "title": "国内部分商品期货夜盘收盘 主力合约多数下跌",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611033919169859.html",
-     "rrf": 0.02826,
-     "bm25_rank": 15,
-     "vec_rank": 7
+     "url": "https://finance.eastmoney.com/a/202611043922317432.html",
+     "rrf": 0.02872,
+     "bm25_rank": 5,
+     "vec_rank": 15
     },
     {
      "n": 8,
-     "title": "国内部分商品期货夜盘收盘 主力合约多数下跌",
+     "title": "银行间主要利率债收益率午间纷纷下行",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611023919124493.html",
-     "rrf": 0.02814,
-     "bm25_rank": 6,
-     "vec_rank": 17
+     "url": "https://finance.eastmoney.com/a/202611033919981289.html",
+     "rrf": 0.0284,
+     "bm25_rank": 13,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "国债期货早盘收盘，30年期主力合约涨0.46%，10年期主力合约涨0.12%，5",
     "bm25_only": 1,
-    "vec_only": 1,
-    "both": 5,
+    "vec_only": 2,
+    "both": 4,
     "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "1a5d7654df676363",
-   "label": "多只宽基ETF早盘成交放量，上证50ETF华夏（510050）目前成交超70亿，",
+   "key": "8e7d633319a3f091",
+   "label": "中国黄金协会：2026年前三季度我国黄金产量220.935吨，同比下降18.71%",
    "cached": false,
    "sections": {
-    "事件概述": "「多只宽基ETF早盘成交放量，上证50ETF华夏（510050）目前成交超70亿，」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.566（高热），所属板块类目：综合。",
-    "关键信息": "多只宽基ETF早盘成交放量，上证50ETF华夏（510050）目前成交超70亿，；罕见天量，资金进场；创业板ETF易方达半日成交额达100亿元",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「中国黄金协会：2026年前三季度我国黄金产量220.935吨，同比下降18.71%」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.658（爆点），所属板块类目：国际市场。",
+    "关键信息": "中国黄金协会：2026年前三季度我国黄金产量220.935吨，同比下降18.71；中国黄金协会：2026年前三季度我国黄金消费量同比增长0.28%；金价波动之下，饰品金消费再降三成、投资热情回落",
+    "市场影响": "关联板块代码：BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "多只宽基ETF早盘成交放量，上证50ETF华夏（510050）目前成交超70亿，",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192985",
+     "title": "中国黄金协会：2026年前三季度我国黄金产量220.935吨，同比下降18.71%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-04/doc-inixprpa6237947.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "罕见天量，资金进场",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixmxcu9949947.shtml",
+     "title": "中国黄金协会：2026年前三季度我国黄金消费量同比增长0.28%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611043921441735.html",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "创业板ETF易方达半日成交额达100亿元",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611033919967936.html",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "易方达、华泰柏瑞等多只沪深300ETF显著放量",
+     "title": "金价波动之下，饰品金消费再降三成、投资热情回落",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-03/doc-inixmnqa6728992.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-04/doc-inixqsyv0021332.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
      "vec_rank": 4
     },
     {
-     "n": 5,
-     "title": "多只宽基ETF尾盘大幅放量！市场出现新信号",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixmxcy2282765.shtml",
-     "rrf": 0.03077,
+     "n": 4,
+     "title": "世界黄金协会：2026年初至今全球央行累计购金同比增6%",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-03/10725541.shtml",
+     "rrf": 0.03126,
      "bm25_rank": 5,
-     "vec_rank": 5
+     "vec_rank": 3
     },
     {
-     "n": 6,
-     "title": "开盘半小时两市缩量超500亿 预计全天成交超1.4万亿",
+     "n": 5,
+     "title": "世界黄金协会：央行购金与黄金ETF流入 支撑三季度全球黄金需求",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-04/doc-inixprpe1730408.shtml",
-     "rrf": 0.02878,
-     "bm25_rank": 10,
-     "vec_rank": 9
-    },
-    {
-     "n": 7,
-     "title": "稳市举措落地，上证指数险守3600点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-03/doc-inixnits6625279.shtml",
-     "rrf": 0.02626,
-     "bm25_rank": 30,
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-03/doc-inixmswc8782087.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
      "vec_rank": 6
     },
     {
+     "n": 6,
+     "title": "中国黄金储备居全球第五",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611043921451393.html",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "世界黄金协会：印度三季度非法黄金进口创2023年以来新高",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixnpzs2125965.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 7,
+     "vec_rank": 10
+    },
+    {
      "n": 8,
-     "title": "上证指数早盘收报3612.09点，跌0.71%。 深证成指早盘收报10993.0",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3193040",
-     "rrf": 0.02582,
-     "bm25_rank": 19,
-     "vec_rank": 16
+     "title": "世界黄金协会：印度今年黄金需求料降至六年最低",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixmswc8788466.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 10,
+     "vec_rank": 7
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "多只宽基ETF早盘成交放量，上证50ETF华夏（510050）目前成交超70亿，",
-    "bm25_only": 0,
+    "query": "中国黄金协会：2026年前三季度我国黄金产量220.935吨，同比下降18.71",
+    "bm25_only": 1,
     "vec_only": 1,
-    "both": 5,
-    "neither_topk": 2
+    "both": 6,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "c16f5af8d19943d0",
+   "label": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶",
+   "cached": false,
+   "sections": {
+    "事件概述": "「布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.655（爆点），所属板块类目：国际市场。",
+    "关键信息": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶；布伦特原油失守101美元/桶 日内跌3.67%；布伦特原油跌6%，现报104.99美元/桶。",
+    "市场影响": "关联板块代码：BK1361、BK0464。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192747",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "布伦特原油失守101美元/桶 日内跌3.67%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611033920544954.html",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "布伦特原油跌6%，现报104.99美元/桶。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192736",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "WTI原油日内跌幅达3%，报93.21美元/桶。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3194305",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "高盛：地缘扰动下，2027年布伦特原油均价或冲高至130美元/桶",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixkmap0313450.shtml",
+     "rrf": 0.02967,
+     "bm25_rank": 5,
+     "vec_rank": 10
+    },
+    {
+     "n": 6,
+     "title": "油价跌幅收窄，布伦特原油期货交投于103.50美元/桶附近。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193414",
+     "rrf": 0.02964,
+     "bm25_rank": 9,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "布油期货跌幅扩大至7%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611033919167641.html",
+     "rrf": 0.02932,
+     "bm25_rank": 13,
+     "vec_rank": 4
+    },
+    {
+     "n": 8,
+     "title": "美军打击伊朗格什姆岛，国际油价应声走高",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixmxcz8762314.shtml",
+     "rrf": 0.02881,
+     "bm25_rank": 7,
+     "vec_rank": 12
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶",
+    "bm25_only": 2,
+    "vec_only": 2,
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "98511d633448403b",
+   "label": "Meta寻求通过最新一轮债券发行筹集至少200亿美元。（华尔街日报）",
+   "cached": false,
+   "sections": {
+    "事件概述": "「Meta寻求通过最新一轮债券发行筹集至少200亿美元。（华尔街日报）」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.628（高热），所属板块类目：国际市场。",
+    "关键信息": "Meta寻求通过最新一轮债券发行筹集至少200亿美元。（华尔街日报）；Meta拟发行约150亿美元债券 最高认购倍数接近4倍；Meta寻求通过发行美元债募集150亿美元。（彭博）",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "Meta寻求通过最新一轮债券发行筹集至少200亿美元。（华尔街日报）",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193410",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "Meta拟发行约150亿美元债券 最高认购倍数接近4倍",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixpexk1826760.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "Meta寻求通过发行美元债募集150亿美元。（彭博）",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193406",
+     "rrf": 0.03105,
+     "bm25_rank": 7,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "Meta启动欧元债券首次发行交易 此前发行美元债筹集150亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqhks9393709.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "Meta拟发行150亿美元美元债",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611033920567031.html",
+     "rrf": 0.03008,
+     "bm25_rank": 6,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "甲骨文拟通过发售债券和股票筹资200亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkzym8907974.shtml",
+     "rrf": 0.02996,
+     "bm25_rank": 3,
+     "vec_rank": 11
+    },
+    {
+     "n": 7,
+     "title": "知情人士：Meta拟发债募资至少200亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixnpzs2117534.shtml",
+     "rrf": 0.02996,
+     "bm25_rank": 11,
+     "vec_rank": 3
+    },
+    {
+     "n": 8,
+     "title": "Meta拟发债150亿美元，为AI投资筹集资金",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixpmfi8213964.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 8,
+     "vec_rank": 6
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "Meta寻求通过最新一轮债券发行筹集至少200亿美元。（华尔街日报）",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   }
