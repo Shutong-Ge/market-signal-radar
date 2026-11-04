@@ -1,19 +1,19 @@
 {
  "summary": {
-  "n_queries": 7,
+  "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.309,
-  "avg_rank_diff": 0.79,
-  "avg_missed_by_bm25": 2.43,
-  "avg_missed_by_vector": 3.29,
-  "conclusion": "两路召回集平均重合度仅 31%；即便重合的文档，两路名次平均相差 0.79 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.43 篇最终进入 Top8 的文档；只用向量则漏掉 3.29 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.384,
+  "avg_rank_diff": 1.21,
+  "avg_missed_by_bm25": 1.5,
+  "avg_missed_by_vector": 2.5,
+  "conclusion": "两路召回集平均重合度仅 38%；即便重合的文档，两路名次平均相差 1.21 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.5 篇最终进入 Top8 的文档；只用向量则漏掉 2.5 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
    "query": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI",
    "jaccard": 0.455,
-   "rank_diff": 0.8,
+   "rank_diff": 1.0,
    "missed_by_bm25": 1,
    "missed_by_vector": 2,
    "example_top1": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶"
@@ -21,10 +21,10 @@
   {
    "type": "关键词式",
    "query": "布伦特 原油 日内 跌幅 美元 原油",
-   "jaccard": 0.333,
-   "rank_diff": 1.0,
+   "jaccard": 0.231,
+   "rank_diff": 0.0,
    "missed_by_bm25": 2,
-   "missed_by_vector": 2,
+   "missed_by_vector": 3,
    "example_top1": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶"
   },
   {
@@ -40,7 +40,7 @@
    "type": "原标题式",
    "query": "金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票",
    "jaccard": 0.455,
-   "rank_diff": 1.6,
+   "rank_diff": 1.4,
    "missed_by_bm25": 1,
    "missed_by_vector": 3,
    "example_top1": "金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降至1%"
@@ -48,29 +48,38 @@
   {
    "type": "关键词式",
    "query": "金融管理 部门 升级 两大 稳市 工具",
-   "jaccard": 0.455,
-   "rank_diff": 1.4,
+   "jaccard": 0.6,
+   "rank_diff": 2.0,
    "missed_by_bm25": 1,
    "missed_by_vector": 2,
    "example_top1": "金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降至1%"
   },
   {
    "type": "原标题式",
-   "query": "市场筑底阶段，半导体芯片等科技资产或率先反弹，科创芯片设计E",
-   "jaccard": 0.067,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 5,
-   "missed_by_vector": 6,
-   "example_top1": "市场筑底阶段，半导体芯片等科技资产或率先反弹，科创芯片设计ETF国联安(588780)跟踪指"
+   "query": "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 ",
+   "jaccard": 0.333,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就业数据"
   },
   {
    "type": "关键词式",
-   "query": "市场 筑底 阶段 半导体芯片 科技 资产",
-   "jaccard": 0.067,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 5,
-   "missed_by_vector": 6,
-   "example_top1": "市场筑底阶段，半导体芯片等科技资产或率先反弹，科创芯片设计ETF国联安(588780)跟踪指"
+   "query": "收盘 美股 三大 指数 冲高 回落",
+   "jaccard": 0.333,
+   "rank_diff": 1.75,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 4,
+   "example_top1": "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就业数据"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "月日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚",
+   "jaccard": 0.333,
+   "rank_diff": 1.75,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就业数据"
   }
  ]
 }

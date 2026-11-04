@@ -5,14 +5,14 @@
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.5,
+ "elapsed": 4.1,
  "reports": [
   {
-   "key": "cad25948d3e51555",
+   "key": "9d56f31052618eca",
    "label": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶",
    "cached": false,
    "sections": {
-    "事件概述": "「布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶」由 19 篇报道聚合而成，覆盖 3 家媒体，热度 0.859（爆点），所属板块类目：大宗与能化。",
+    "事件概述": "「布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶」由 20 篇报道聚合而成，覆盖 3 家媒体，热度 0.789（爆点），所属板块类目：大宗与能化。",
     "关键信息": "布伦特原油日内跌幅达7.0%，报105.32美元/桶；WTI原油跌破97美元/桶；布伦特原油失守101美元/桶 日内跌3.67%；布伦特原油跌6%，现报104.99美元/桶。",
     "市场影响": "关联板块代码：BK1361、BK0464。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -59,17 +59,17 @@
      "title": "高盛：地缘扰动下，2027年布伦特原油均价或冲高至130美元/桶",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixkmap0313450.shtml",
-     "rrf": 0.02971,
+     "rrf": 0.02991,
      "bm25_rank": 4,
-     "vec_rank": 11
+     "vec_rank": 10
     },
     {
      "n": 6,
      "title": "布油期货跌幅扩大至7%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611033919167641.html",
-     "rrf": 0.02971,
-     "bm25_rank": 11,
+     "rrf": 0.02951,
+     "bm25_rank": 12,
      "vec_rank": 4
     },
     {
@@ -77,8 +77,8 @@
      "title": "国际油价跳水 布伦特原油期货跌幅扩大至3%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611033920524617.html",
-     "rrf": 0.02944,
-     "bm25_rank": 10,
+     "rrf": 0.02924,
+     "bm25_rank": 11,
      "vec_rank": 6
     },
     {
@@ -86,9 +86,9 @@
      "title": "美军打击伊朗格什姆岛，国际油价应声走高",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixmxcz8762314.shtml",
-     "rrf": 0.02867,
+     "rrf": 0.02885,
      "bm25_rank": 6,
-     "vec_rank": 14
+     "vec_rank": 13
     }
    ],
    "degraded": 1,
@@ -102,12 +102,12 @@
    "elapsed": 0.0
   },
   {
-   "key": "f667bb8c5d1d55f0",
+   "key": "c4d5e0b79e67f961",
    "label": "金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降至1%",
    "cached": false,
    "sections": {
-    "事件概述": "「金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降至1%」由 22 篇报道聚合而成，覆盖 2 家媒体，热度 0.835（爆点），所属板块类目：金融市场。",
-    "关键信息": "金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降；稳市，两项工具优化！金融管理部门最新部署，解读来了；央行优化股票回购增持再贷款利率从1.25%降至1%",
+    "事件概述": "「金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降至1%」由 24 篇报道聚合而成，覆盖 2 家媒体，热度 0.78（爆点），所属板块类目：金融市场。",
+    "关键信息": "金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降；稳市，两项工具优化！金融管理部门最新部署，解读来了；央行出手稳市场，明日操作！",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -126,12 +126,21 @@
      "title": "稳市，两项工具优化！金融管理部门最新部署，解读来了",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-02/doc-inixkeuu2788322.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
+     "rrf": 0.032,
+     "bm25_rank": 3,
      "vec_rank": 2
     },
     {
      "n": 3,
+     "title": "央行出手稳市场，明日操作！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-11-02/doc-inixiuew7150102.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 2,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
      "title": "央行优化股票回购增持再贷款利率从1.25%降至1%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/wbstock/2026-11-02/doc-inixkeur0390330.shtml",
@@ -140,242 +149,139 @@
      "vec_rank": 3
     },
     {
-     "n": 4,
-     "title": "央行出手稳市场，明日操作！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-02/doc-inixiuew7150102.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
      "n": 5,
      "title": "三部门协同发力 优化支持资本市场两项工具",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-11-03/doc-inixkzyk2434640.shtml",
-     "rrf": 0.03012,
-     "bm25_rank": 9,
+     "rrf": 0.03033,
+     "bm25_rank": 8,
      "vec_rank": 4
     },
     {
      "n": 6,
-     "title": "新华财经早报：11月2日",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhwzh7301942.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 5,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
      "title": "稳市场！央行出手：互换便利明日招标，股票回购增持再贷款利率降至1%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-11-02/doc-inixkeur0342696.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
+     "rrf": 0.03031,
+     "bm25_rank": 5,
      "vec_rank": 7
     },
     {
-     "n": 8,
+     "n": 7,
      "title": "三部门联手稳市场！又一项股市利好政策落地",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixkeur0388360.shtml",
-     "rrf": 0.02904,
-     "bm25_rank": 12,
+     "rrf": 0.02924,
+     "bm25_rank": 11,
      "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "超30家A股公司，进场！股票回购增持贷款再加速",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-11-03/doc-inixnpzt8564430.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 7,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "金融管理部门升级两大稳市工具：启动第三轮SFISF操作 股票回购增持再贷款利率降",
-    "bm25_only": 0,
-    "vec_only": 2,
+    "bm25_only": 1,
+    "vec_only": 1,
     "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "e97ed73af3b6f6bb",
-   "label": "市场筑底阶段，半导体芯片等科技资产或率先反弹，科创芯片设计ETF国联安(588780)跟踪指数涨",
+   "key": "1c154eb043f1e79a",
+   "label": "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就业数据",
    "cached": false,
    "sections": {
-    "事件概述": "「市场筑底阶段，半导体芯片等科技资产或率先反弹，科创芯片设计ETF国联安(588780)跟踪指数涨」由 14 篇报道聚合而成，覆盖 3 家媒体，热度 0.832（爆点），所属板块类目：半导体。",
-    "关键信息": "市场筑底阶段，半导体芯片等科技资产或率先反弹，科创芯片设计ETF国联安(5887；15家机构联合发起智能体金融安全应用倡议，金融科技ETF博时(516860)跟踪；资本市场支持工具加码，银之杰拉升超12%，金融科技ETF华宝（159851）标的",
-    "市场影响": "关联板块代码：BK0800、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就业数据」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.722（爆点），所属板块类目：半导体。",
+    "关键信息": "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就；11月3日隔夜要闻：美股涨跌不一 中概股多数上涨 油价重挫 铜价和金价反弹 特朗；开盘：三大股指齐涨，油价大跌、科技股反弹",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "市场筑底阶段，半导体芯片等科技资产或率先反弹，科创芯片设计ETF国联安(588780)跟踪指数涨超2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611023918053225.html",
+     "title": "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就业数据",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkzyk2410790.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "15家机构联合发起智能体金融安全应用倡议，金融科技ETF博时(516860)跟踪指数强势涨超4%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611023918075624.html",
-     "rrf": 0.03175,
+     "title": "11月3日隔夜要闻：美股涨跌不一 中概股多数上涨 油价重挫 铜价和金价反弹 特朗普称中期选举后不会打击伊朗",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkzym8895854.shtml",
+     "rrf": 0.03226,
      "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "资本市场支持工具加码，银之杰拉升超12%，金融科技ETF华宝（159851）标的指数反弹逾4%领跑市场",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-02/doc-inixicie7277996.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 4,
-     "title": "金融科技 ETF 产品持续扩容 板块配置价值持续凸显 金融科技ETF国联安（158051）涨超2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611023918122028.html",
-     "rrf": 0.03058,
-     "bm25_rank": 8,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "开盘：三大股指齐涨，油价大跌、科技股反弹",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-02/doc-inixkeur0392046.shtml",
-     "rrf": 0.02927,
-     "bm25_rank": 12,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "两大板块，批量涨停！301052，“20cm”封板",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/s/2026-11-02/doc-inixiuey2877478.shtml",
-     "rrf": 0.02858,
-     "bm25_rank": 11,
-     "vec_rank": 9
-    },
-    {
-     "n": 7,
-     "title": "多部门出台消费基础设施建设新政，消费ETF博时(159672)跟踪指数早盘一度涨超3%，机构：消费板块左侧配置价值显现",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611023918175959.html",
-     "rrf": 0.02798,
-     "bm25_rank": 10,
-     "vec_rank": 13
-    },
-    {
-     "n": 8,
-     "title": "中信证券：11月仍应以进攻思路寻找结构性机会",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192136",
-     "rrf": 0.0265,
-     "bm25_rank": 17,
-     "vec_rank": 14
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "市场筑底阶段，半导体芯片等科技资产或率先反弹，科创芯片设计ETF国联安(5887",
-    "bm25_only": 0,
-    "vec_only": 1,
-    "both": 4,
-    "neither_topk": 3
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "2a47daf3d6982e0f",
-   "label": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元",
-   "cached": false,
-   "sections": {
-    "事件概述": "「规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元」由 13 篇报道聚合而成，覆盖 2 家媒体，热度 0.812（爆点），所属板块类目：金融市场。",
-    "关键信息": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元；沪深三季报收官：净利润5.1万亿创新高，超七成企业盈利；沪深两市公司三季报折射经济向新而行",
-    "市场影响": "关联板块代码：BK1366、BK0473。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-02/doc-inixhhcs3348671.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "沪深三季报收官：净利润5.1万亿创新高，超七成企业盈利",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-02/doc-inixkeur0383091.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "沪深两市公司三季报折射经济向新而行",
+     "title": "开盘：三大股指齐涨，油价大跌、科技股反弹",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhstn3154242.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-02/doc-inixkeur0392046.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
      "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "新华财经早报：11月2日",
+     "title": "11月4日美股收盘：选举日道指跌200点 标普纳指结束三日连跌 芯片股反弹",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhwzh7301942.shtml",
-     "rrf": 0.03041,
-     "bm25_rank": 2,
-     "vec_rank": 10
-    },
-    {
-     "n": 5,
-     "title": "深市公司前三季度净利增近两成 “AI链”秀实力",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhhcq7595270.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixpexm8289280.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
      "vec_rank": 5
     },
     {
-     "n": 6,
-     "title": "上市公司三季报业绩量增质优、结构向好",
+     "n": 5,
+     "title": "清晨！全球“股王”，重大突发！",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhwzf0507138.shtml",
-     "rrf": 0.02932,
-     "bm25_rank": 13,
-     "vec_rank": 4
-    },
-    {
-     "n": 7,
-     "title": "前三季度5578家上市公司合计实现营收56.8万亿元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-03/doc-inixkzym8880260.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 9,
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-03/doc-inixkzyf0044777.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 3,
      "vec_rank": 9
     },
     {
-     "n": 8,
-     "title": "降本增效助力 近七成创业板公司前三季盈利",
+     "n": 6,
+     "title": "快讯：恒指低开0.32% 恒科指跌0.5% 科网股低迷 汽车股走弱",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-03/doc-inixkvsn2529059.shtml",
-     "rrf": 0.02896,
-     "bm25_rank": 4,
-     "vec_rank": 15
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-04/doc-inixprny9422406.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 9,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "美股三大指数开盘涨跌不一 科技股多数反弹",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611033920588318.html",
+     "rrf": 0.0289,
+     "bm25_rank": 5,
+     "vec_rank": 14
+    },
+    {
+     "n": 8,
+     "title": "快讯：恒指高开0.33% 恒科指涨0.36% 科网股活跃 黄金股回暖",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-03/doc-inixmhhe6782654.shtml",
+     "rrf": 0.02837,
+     "bm25_rank": 11,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "规模放量、结构优化、盈利韧性“三力共振” 沪深上市公司前三季度净利润超5万亿元",
+    "query": "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就",
     "bm25_only": 2,
     "vec_only": 1,
     "both": 4,
@@ -384,96 +290,190 @@
    "elapsed": 0.0
   },
   {
-   "key": "8c47baa088de796e",
-   "label": "商品期货开盘，沪银主力合约跌超5%，沪金跌近3%，燃料油、碳酸锂、烧碱跌超2%。",
+   "key": "5ac98572c1b7f2e3",
+   "label": "国债期货早盘收盘，30年期主力合约涨0.46%，10年期主力合约涨0.12%，5",
    "cached": false,
    "sections": {
-    "事件概述": "「商品期货开盘，沪银主力合约跌超5%，沪金跌近3%，燃料油、碳酸锂、烧碱跌超2%。」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.771（高热），所属板块类目：大宗与能化。",
-    "关键信息": "商品期货开盘，沪银主力合约跌超5%，沪金跌近3%，燃料油、碳酸锂、烧碱跌超2%。；开盘：国内期货主力合约涨跌互现 上海原油大跌8%；收评：国内期货主力合约涨跌互现 集运欧线跌超4%",
+    "事件概述": "「国债期货早盘收盘，30年期主力合约涨0.46%，10年期主力合约涨0.12%，5」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.64（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "国债期货早盘收盘，30年期主力合约涨0.46%，10年期主力合约涨0.12%，5；收评：国内期货主力合约跌多涨少 SC原油跌超6%；开盘|国内期货主力合约跌多涨少 烧碱涨近3%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "商品期货开盘，沪银主力合约跌超5%，沪金跌近3%，燃料油、碳酸锂、烧碱跌超2%。",
+     "title": "国债期货早盘收盘，30年期主力合约涨0.46%，10年期主力合约涨0.12%，5",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192144",
+     "url": "https://wallstreetcn.com/livenews/3193032",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "开盘：国内期货主力合约涨跌互现 上海原油大跌8%",
+     "title": "收评：国内期货主力合约跌多涨少 SC原油跌超6%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixmhhi8842193.shtml",
-     "rrf": 0.032,
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixmxcy2237090.shtml",
+     "rrf": 0.03226,
      "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "收评：国内期货主力合约涨跌互现 集运欧线跌超4%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-02/doc-inixipwy7240658.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
      "vec_rank": 2
     },
     {
+     "n": 3,
+     "title": "开盘|国内期货主力合约跌多涨少 烧碱涨近3%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-04/doc-inixprpe1678706.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
      "n": 4,
-     "title": "国内部分商品期货夜盘收盘 主力合约多数下跌",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611023919124493.html",
+     "title": "收评：国内期货主力合约涨跌互现 集运欧线跌超4%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-02/doc-inixipwy7240658.shtml",
      "rrf": 0.03125,
      "bm25_rank": 4,
      "vec_rank": 4
     },
     {
      "n": 5,
-     "title": "收评：国内期货主力合约跌多涨少 SC原油跌超6%",
+     "title": "开盘：国内期货主力合约涨跌互现 上海原油大跌8%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixmxcy2237090.shtml",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixmhhi8842193.shtml",
      "rrf": 0.03054,
      "bm25_rank": 5,
      "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "国债期货开盘，30年期主力合约跌0.15%，10年期主力合约跌0.02%，5年期",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3192162",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "上期能源所低硫燃料油期货夜盘跌超7%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611033920551630.html",
-     "rrf": 0.02944,
-     "bm25_rank": 6,
+     "title": "原油：美伊谈判出现进展，油价高位大幅回落",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/2026-11-03/doc-inixncmw2197685.shtml",
+     "rrf": 0.02837,
+     "bm25_rank": 11,
      "vec_rank": 10
     },
     {
+     "n": 7,
+     "title": "英国国债延续跌势 10年期国债收益率跌幅达10个基点至5.18% 触及当日低点",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611033919169859.html",
+     "rrf": 0.02826,
+     "bm25_rank": 15,
+     "vec_rank": 7
+    },
+    {
      "n": 8,
-     "title": "碳酸锂：下游排产转弱，弱预期下的谨慎抄底",
+     "title": "国内部分商品期货夜盘收盘 主力合约多数下跌",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611023919124493.html",
+     "rrf": 0.02814,
+     "bm25_rank": 6,
+     "vec_rank": 17
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "国债期货早盘收盘，30年期主力合约涨0.46%，10年期主力合约涨0.12%，5",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "1a5d7654df676363",
+   "label": "多只宽基ETF早盘成交放量，上证50ETF华夏（510050）目前成交超70亿，",
+   "cached": false,
+   "sections": {
+    "事件概述": "「多只宽基ETF早盘成交放量，上证50ETF华夏（510050）目前成交超70亿，」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.566（高热），所属板块类目：综合。",
+    "关键信息": "多只宽基ETF早盘成交放量，上证50ETF华夏（510050）目前成交超70亿，；罕见天量，资金进场；创业板ETF易方达半日成交额达100亿元",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "多只宽基ETF早盘成交放量，上证50ETF华夏（510050）目前成交超70亿，",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3192985",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "罕见天量，资金进场",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/2026-11-02/doc-inixiuev0427776.shtml",
-     "rrf": 0.02765,
-     "bm25_rank": 9,
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixmxcu9949947.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "创业板ETF易方达半日成交额达100亿元",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611033919967936.html",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "易方达、华泰柏瑞等多只沪深300ETF显著放量",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-03/doc-inixmnqa6728992.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "多只宽基ETF尾盘大幅放量！市场出现新信号",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixmxcy2282765.shtml",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "开盘半小时两市缩量超500亿 预计全天成交超1.4万亿",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-04/doc-inixprpe1730408.shtml",
+     "rrf": 0.02878,
+     "bm25_rank": 10,
+     "vec_rank": 9
+    },
+    {
+     "n": 7,
+     "title": "稳市举措落地，上证指数险守3600点",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-03/doc-inixnits6625279.shtml",
+     "rrf": 0.02626,
+     "bm25_rank": 30,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "上证指数早盘收报3612.09点，跌0.71%。 深证成指早盘收报10993.0",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193040",
+     "rrf": 0.02582,
+     "bm25_rank": 19,
      "vec_rank": 16
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "商品期货开盘，沪银主力合约跌超5%，沪金跌近3%，燃料油、碳酸锂、烧碱跌超2%。",
-    "bm25_only": 1,
-    "vec_only": 0,
-    "both": 6,
-    "neither_topk": 1
+    "query": "多只宽基ETF早盘成交放量，上证50ETF华夏（510050）目前成交超70亿，",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 2
    },
    "elapsed": 0.0
   }
