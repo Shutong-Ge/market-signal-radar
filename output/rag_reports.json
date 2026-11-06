@@ -1,206 +1,112 @@
 {
  "engine": "template(降级)",
- "n_clusters": 49,
+ "n_clusters": 53,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.7,
+ "elapsed": 5.8,
  "reports": [
   {
-   "key": "1aca14f6edf2c244",
-   "label": "11月5日隔夜要闻：美股收高 道指涨逾1500点 油价重挫 金价大涨 美国中期选举结果提振市场情",
+   "key": "426d918a7da0946a",
+   "label": "全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单创新高！半导体设备ETF广发（560",
    "cached": false,
    "sections": {
-    "事件概述": "「11月5日隔夜要闻：美股收高 道指涨逾1500点 油价重挫 金价大涨 美国中期选举结果提振市场情」由 33 篇报道聚合而成，覆盖 4 家媒体，热度 0.843（爆点），所属板块类目：国际市场。",
-    "关键信息": "11月5日隔夜要闻：美股收高 道指涨逾1500点 油价重挫 金价大涨 美国中期选；11月5日收盘：美股收高 道指涨1500点 AI概念股逆势下挫 油价跌逾8%；11月6日隔夜要闻：美股大跌 人工智能科技股遭遇重挫 中期选举后民主党高层呼吁限",
+    "事件概述": "「全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单创新高！半导体设备ETF广发（560」由 38 篇报道聚合而成，覆盖 4 家媒体，热度 0.843（爆点），所属板块类目：国际市场。",
+    "关键信息": "全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单创新高！半导体设备E；龙头回购叠加产业景气向上催化板块行情，半导体ETF鹏华涨超4%；部分公司又有新增订单 国产半导体设备产业景气持续",
     "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "11月5日隔夜要闻：美股收高 道指涨逾1500点 油价重挫 金价大涨 美国中期选举结果提振市场情绪",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrqea8979975.shtml",
+     "title": "全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单创新高！半导体设备ETF广发（560780）再度涨停",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611053923320130.html",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "11月5日收盘：美股收高 道指涨1500点 AI概念股逆势下挫 油价跌逾8%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrqee5718455.shtml",
+     "title": "龙头回购叠加产业景气向上催化板块行情，半导体ETF鹏华涨超4%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611053923294579.html",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "11月6日隔夜要闻：美股大跌 人工智能科技股遭遇重挫 中期选举后民主党高层呼吁限制人工智能产业扩张",
+     "title": "部分公司又有新增订单 国产半导体设备产业景气持续",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixtxmk5578458.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
+     "url": "https://finance.sina.com.cn/roll/2026-11-05/doc-inixrcqq9868288.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 6,
      "vec_rank": 4
     },
     {
      "n": 4,
-     "title": "美中期选举选情致金价大涨、油价重挫",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/bond/2026-11-05/doc-inixrytw8892022.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
+     "title": "美股AI硬件产业链遭遇集体抛售，芯片、存储、半导体设备及光通信板块普遍大幅下跌。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3195199",
+     "rrf": 0.02996,
+     "bm25_rank": 3,
+     "vec_rank": 11
     },
     {
      "n": 5,
-     "title": "11月5日财经早餐：美中期选举民主党大胜打压美元，金价飙升超3%，油价重挫超9%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-05/doc-inixrunh9572425.shtml",
-     "rrf": 0.03037,
-     "bm25_rank": 9,
-     "vec_rank": 3
-    },
-    {
-     "n": 6,
-     "title": "杨德龙：美国中期选举尘埃落定 全球股市迎来大涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-06/doc-inixtxmk5604053.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "欧洲股市上涨 美国中期选举结果提振市场情绪",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrcqq9880092.shtml",
-     "rrf": 0.02862,
-     "bm25_rank": 7,
-     "vec_rank": 13
-    },
-    {
-     "n": 8,
-     "title": "大宗商品综述：油价重挫 铜价微跌 金价大涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrqee5752067.shtml",
-     "rrf": 0.02715,
-     "bm25_rank": 5,
-     "vec_rank": 25
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "11月5日隔夜要闻：美股收高 道指涨逾1500点 油价重挫 金价大涨 美国中期选",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 5,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "15ae48c429392ed8",
-   "label": "（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全球双循环",
-   "cached": false,
-   "sections": {
-    "事件概述": "「（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全球双循环」由 15 篇报道聚合而成，覆盖 3 家媒体，热度 0.658（爆点），所属板块类目：综合。",
-    "关键信息": "（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全；（第九届进博会）第九届进博会医疗创新孵化专区启幕 约30项医疗创新成果亮相；（第九届进博会）外企高层：进博会让全球创新成果与中国需求更快相遇",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全球双循环",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726967.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "（第九届进博会）第九届进博会医疗创新孵化专区启幕 约30项医疗创新成果亮相",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726872.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "（第九届进博会）外企高层：进博会让全球创新成果与中国需求更快相遇",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726916.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "多项指标创新高 进博会硕果可期",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726417.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
+     "title": "美股AI硬件股集体反弹 费城半导体指数涨6.50%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611063925183764.html",
+     "rrf": 0.02854,
+     "bm25_rank": 16,
      "vec_rank": 5
     },
     {
-     "n": 5,
-     "title": "九赴进博，共启新程——雀巢以160周年焕新之姿亮相第九届进博会",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726836.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
-    },
-    {
      "n": 6,
-     "title": "（第九届进博会）跨国企业进博会上展示“本土化”成果",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726915.shtml",
-     "rrf": 0.02967,
-     "bm25_rank": 5,
-     "vec_rank": 10
+     "title": "中国生物制药×BI 70亿美元大单落地！港股创新药ETF广发（513120）、恒生生物科技ETF广发（159169）标的",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611053923320832.html",
+     "rrf": 0.02783,
+     "bm25_rank": 15,
+     "vec_rank": 9
     },
     {
      "n": 7,
-     "title": "（第九届进博会）跨国企业高管看进博：共享中国高水平对外开放舞台",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-04/10726223.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
-     "vec_rank": 8
+     "title": "费城半导体指数盘初涨4.8% 现报9441点",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611063925164429.html",
+     "rrf": 0.02736,
+     "bm25_rank": 8,
+     "vec_rank": 19
     },
     {
      "n": 8,
-     "title": "拜耳影像诊断连续第九年赴约进博会，以全球创新与本土制造服务中国临床需求",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726466.shtml",
-     "rrf": 0.02822,
-     "bm25_rank": 8,
-     "vec_rank": 14
+     "title": "英伟达等美国芯片股抛售加剧 人工智能交易担忧笼罩市场",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixthpq9232827.shtml",
+     "rrf": 0.02727,
+     "bm25_rank": 10,
+     "vec_rank": 17
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全",
+    "query": "全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单创新高！半导体设备E",
     "bm25_only": 2,
     "vec_only": 1,
-    "both": 5,
-    "neither_topk": 0
+    "both": 3,
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "34a9640a1a4ae604",
+   "key": "95b6fa485724f65b",
    "label": "上证指数开盘报3646.57点，跌1.07%。 深证成指开盘报11216.81点",
    "cached": false,
    "sections": {
-    "事件概述": "「上证指数开盘报3646.57点，跌1.07%。 深证成指开盘报11216.81点」由 25 篇报道聚合而成，覆盖 4 家媒体，热度 0.651（爆点），所属板块类目：金融市场。",
+    "事件概述": "「上证指数开盘报3646.57点，跌1.07%。 深证成指开盘报11216.81点」由 24 篇报道聚合而成，覆盖 3 家媒体，热度 0.757（爆点），所属板块类目：金融市场。",
     "关键信息": "上证指数开盘报3646.57点，跌1.07%。 深证成指开盘报11216.81点；上证指数早盘收报3689.79点，涨0.10%。 深证成指早盘收报11498.7；光伏产业链掀涨停潮",
     "市场影响": "关联板块代码：BK1015、BK1031、BK0800、BK0588、BK1261。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -229,26 +135,26 @@
      "title": "光伏产业链掀涨停潮",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-05/doc-inixsrry6106339.shtml",
-     "rrf": 0.03037,
+     "rrf": 0.02996,
      "bm25_rank": 3,
-     "vec_rank": 9
+     "vec_rank": 11
     },
     {
      "n": 4,
      "title": "日韩股市开盘 韩国KOSPI指数开盘下跌1.8%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixruna5665657.shtml",
-     "rrf": 0.02951,
+     "rrf": 0.02914,
      "bm25_rank": 4,
-     "vec_rank": 12
+     "vec_rank": 14
     },
     {
      "n": 5,
      "title": "A股成交额重回2万亿元 科创50指数昨日涨近10%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/gzqh/futuresyspzx/2026-11-05/doc-inixrcqq9864750.shtml",
-     "rrf": 0.02914,
-     "bm25_rank": 14,
+     "rrf": 0.02861,
+     "bm25_rank": 17,
      "vec_rank": 4
     },
     {
@@ -262,12 +168,12 @@
     },
     {
      "n": 7,
-     "title": "中天期货:橡胶深度回 碳酸锂承压下行",
+     "title": "中天期货:沪锌大幅下破 乙二醇短线修复",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-04/doc-inixqnsx0080198.shtml",
-     "rrf": 0.02765,
-     "bm25_rank": 20,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-06/doc-inixuyxa5683853.shtml",
+     "rrf": 0.02736,
+     "bm25_rank": 19,
+     "vec_rank": 8
     },
     {
      "n": 8,
@@ -275,8 +181,8 @@
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3194656",
      "rrf": 0.02703,
-     "bm25_rank": 15,
-     "vec_rank": 13
+     "bm25_rank": 13,
+     "vec_rank": 15
     }
    ],
    "degraded": 1,
@@ -290,92 +196,92 @@
    "elapsed": 0.0
   },
   {
-   "key": "870daf114a52036c",
-   "label": "光大期货1104热点追踪：地缘缓和叠加中期选举避险，燃料油大幅回调",
+   "key": "c3b5b25a82b8d242",
+   "label": "港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽车股走高 阿里巴巴涨超7%",
    "cached": false,
    "sections": {
-    "事件概述": "「光大期货1104热点追踪：地缘缓和叠加中期选举避险，燃料油大幅回调」由 8 篇报道聚合而成，覆盖 2 家媒体，热度 0.55（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "光大期货1104热点追踪：地缘缓和叠加中期选举避险，燃料油大幅回调；光大期货1104热点追踪：中期选举落地后：大宗商品的传导地图；光大期货1105热点追踪：甲醇暴跌能否持续？",
+    "事件概述": "「港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽车股走高 阿里巴巴涨超7%」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.625（爆点），所属板块类目：金融市场。",
+    "关键信息": "港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽车股走高 阿里巴巴涨；港股高开高走，恒生科技指数涨逾3%，恒生指数涨幅扩大逾2%；港股午评：恒指跌1.06% 科指跌1.75% 科网股普跌 存储概念股下挫",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "光大期货1104热点追踪：地缘缓和叠加中期选举避险，燃料油大幅回调",
+     "title": "港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽车股走高 阿里巴巴涨超7%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-04/doc-inixqaaw6223426.shtml",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-05/doc-inixsfaa9495501.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "光大期货1104热点追踪：中期选举落地后：大宗商品的传导地图",
+     "title": "港股高开高走，恒生科技指数涨逾3%，恒生指数涨幅扩大逾2%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/2026-11-04/doc-inixqhkz0172180.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-05/doc-inixrunk6294400.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 3,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "光大期货1105热点追踪：甲醇暴跌能否持续？",
+     "title": "港股午评：恒指跌1.06% 科指跌1.75% 科网股普跌 存储概念股下挫",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-05/doc-inixsrrq8774131.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "光大期货1105热点追踪：股指期货连续两日反弹，好日子来了吗？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-05/doc-inixsmiy9494489.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "华泰期货：地缘溢价大幅回撤，燃料油大跌后怎么走？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-06/doc-inixuize5495588.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 4,
-     "vec_rank": 7
-    },
-    {
-     "n": 6,
-     "title": "光大期货1105黄金点评：中期选举落地，黄金暴涨逾3%站稳4000点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-05/doc-inixrumy8953739.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-06/doc-inixuiza8886661.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 2,
      "vec_rank": 5
     },
     {
-     "n": 7,
-     "title": "地缘冲突预期缓和 国际油价剧烈回调",
+     "n": 4,
+     "title": "快讯：恒指高开1.66%重返24000点 恒科指涨1.43% 科网股普涨 黄金股延续涨势",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-06/doc-inixtnvn9139951.shtml",
-     "rrf": 0.02927,
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-05/doc-inixruna5724901.shtml",
+     "rrf": 0.03101,
      "bm25_rank": 5,
-     "vec_rank": 12
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "恒指高开1.7%，恒生科技指数涨1.4%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3194600",
+     "rrf": 0.0308,
+     "bm25_rank": 7,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "关键变量出现，新能源预期改善！港股通汽车ETF华宝（520780）标的指数涨超5%，理想、小米集体上攻",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/fund/etf/2026-11-05/doc-inixrytw8905998.shtml",
+     "rrf": 0.02971,
+     "bm25_rank": 4,
+     "vec_rank": 11
+    },
+    {
+     "n": 7,
+     "title": "汽车股午前全线走高 理想汽车-W涨逾8%小米集团-W涨逾7%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-05/doc-inixryue9624109.shtml",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
+     "vec_rank": 8
     },
     {
      "n": 8,
-     "title": "光大期货能源化工类日报20261105",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-05/doc-inixsmiu5653813.shtml",
-     "rrf": 0.02797,
-     "bm25_rank": 18,
+     "title": "港股科技指数盘中一度涨近6% 美团飙升9%领跑权重股",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611053923329658.html",
+     "rrf": 0.02848,
+     "bm25_rank": 15,
      "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "光大期货1104热点追踪：地缘缓和叠加中期选举避险，燃料油大幅回调",
+    "query": "港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽车股走高 阿里巴巴涨",
     "bm25_only": 1,
     "vec_only": 1,
     "both": 6,
@@ -384,96 +290,190 @@
    "elapsed": 0.0
   },
   {
-   "key": "50df577167a0040f",
-   "label": "快讯：恒指高开1.66%重返24000点 恒科指涨1.43% 科网股普涨 黄金股延续涨势",
+   "key": "9d686ff28db2181b",
+   "label": "11月5日财经早餐：美中期选举民主党大胜打压美元，金价飙升超3%，油价重挫超9%",
    "cached": false,
    "sections": {
-    "事件概述": "「快讯：恒指高开1.66%重返24000点 恒科指涨1.43% 科网股普涨 黄金股延续涨势」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.532（高热），所属板块类目：金融市场。",
-    "关键信息": "快讯：恒指高开1.66%重返24000点 恒科指涨1.43% 科网股普涨 黄金股；港股收评：恒指涨1.67% 科指涨1.77% 科网股普涨 黄金股爆发；快讯：恒指低开1.58% 恒科指跌3.11% 科网股低迷 存储概念股低开 联想跌",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「11月5日财经早餐：美中期选举民主党大胜打压美元，金价飙升超3%，油价重挫超9%」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.622（爆点），所属板块类目：国际市场。",
+    "关键信息": "11月5日财经早餐：美中期选举民主党大胜打压美元，金价飙升超3%，油价重挫超9%；美中期选举选情致金价大涨、油价重挫；美媒预测民主党中期选举大胜 金价4日大涨",
+    "市场影响": "关联板块代码：BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "快讯：恒指高开1.66%重返24000点 恒科指涨1.43% 科网股普涨 黄金股延续涨势",
+     "title": "11月5日财经早餐：美中期选举民主党大胜打压美元，金价飙升超3%，油价重挫超9%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-05/doc-inixruna5724901.shtml",
+     "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-05/doc-inixrunh9572425.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "港股收评：恒指涨1.67% 科指涨1.77% 科网股普涨 黄金股爆发",
+     "title": "美中期选举选情致金价大涨、油价重挫",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-04/doc-inixqhkx8035194.shtml",
+     "url": "https://finance.sina.com.cn/money/bond/2026-11-05/doc-inixrytw8892022.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "快讯：恒指低开1.58% 恒科指跌3.11% 科网股低迷 存储概念股低开 联想跌超9%",
+     "title": "美媒预测民主党中期选举大胜 金价4日大涨",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-06/doc-inixucsw8276269.shtml",
-     "rrf": 0.03126,
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-05/doc-inixriwn9768160.shtml",
+     "rrf": 0.03175,
      "bm25_rank": 3,
-     "vec_rank": 5
+     "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "恒指高开1.7%，恒生科技指数涨1.4%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3194600",
-     "rrf": 0.02991,
-     "bm25_rank": 10,
-     "vec_rank": 4
+     "title": "11月5日隔夜要闻：美股收高 道指涨逾1500点 油价重挫 金价大涨 美国中期选举结果提振市场情绪",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrqea8979975.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
     },
     {
      "n": 5,
-     "title": "开盘：三大股指涨跌不一 资金连续第2日从科技股流出",
+     "title": "美国债市：美债收益率随油价下跌 民主党大胜料推动伊朗战争更早结束",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixtafn5469785.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrqee5720680.shtml",
      "rrf": 0.02964,
-     "bm25_rank": 6,
-     "vec_rank": 9
+     "bm25_rank": 9,
+     "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "黄金股早盘延续涨势 招金矿业涨超6%赤峰黄金涨超5%",
+     "title": "大宗商品综述：油价重挫 铜价微跌 金价大涨",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-05/doc-inixrytw8931090.shtml",
-     "rrf": 0.02951,
-     "bm25_rank": 4,
-     "vec_rank": 12
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrqee5752067.shtml",
+     "rrf": 0.02872,
+     "bm25_rank": 5,
+     "vec_rank": 15
     },
     {
      "n": 7,
-     "title": "11月5日午间收评：科创50冲高回落涨超2%，光伏板块集体爆发",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3194710",
+     "title": "华泰期货：民主党横扫中期选举，油价大幅回落",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-05/doc-inixryty5646312.shtml",
+     "rrf": 0.02822,
+     "bm25_rank": 14,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "现货货黄金上涨2%，美国中期选举结果推动美元和美债收益率走低",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixryty5738995.shtml",
+     "rrf": 0.02775,
+     "bm25_rank": 18,
+     "vec_rank": 7
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "11月5日财经早餐：美中期选举民主党大胜打压美元，金价飙升超3%，油价重挫超9%",
+    "bm25_only": 1,
+    "vec_only": 3,
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "f13d8d4910b26645",
+   "label": "（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全球双循环",
+   "cached": false,
+   "sections": {
+    "事件概述": "「（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全球双循环」由 8 篇报道聚合而成，覆盖 2 家媒体，热度 0.56（爆点），所属板块类目：综合。",
+    "关键信息": "（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全；（第九届进博会）第九届进博会医疗创新孵化专区启幕 约30项医疗创新成果亮相；（第九届进博会）外企高层：进博会让全球创新成果与中国需求更快相遇",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全球双循环",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726967.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "（第九届进博会）第九届进博会医疗创新孵化专区启幕 约30项医疗创新成果亮相",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726872.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "（第九届进博会）外企高层：进博会让全球创新成果与中国需求更快相遇",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726916.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "多项指标创新高 进博会硕果可期",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726417.shtml",
+     "rrf": 0.03009,
+     "bm25_rank": 8,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "（第九届进博会）跨国企业进博会上展示“本土化”成果",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726915.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 7,
+     "vec_rank": 8
+    },
+    {
+     "n": 6,
+     "title": "九赴进博，共启新程——雀巢以160周年焕新之姿亮相第九届进博会",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726836.shtml",
+     "rrf": 0.02914,
+     "bm25_rank": 14,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "拜耳影像诊断连续第九年赴约进博会，以全球创新与本土制造服务中国临床需求",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726466.shtml",
      "rrf": 0.02837,
      "bm25_rank": 11,
      "vec_rank": 10
     },
     {
      "n": 8,
-     "title": "连续两日站稳2万亿元成交额 光伏与AI应用双主线领涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-06/doc-inixtnve8500631.shtml",
-     "rrf": 0.02721,
-     "bm25_rank": 14,
-     "vec_rank": 13
+     "title": "（第九届进博会）第九届进博会创新设计论坛在沪举办",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-06/10727548.shtml",
+     "rrf": 0.02807,
+     "bm25_rank": 3,
+     "vec_rank": 22
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "快讯：恒指高开1.66%重返24000点 恒科指涨1.43% 科网股普涨 黄金股",
-    "bm25_only": 2,
+    "query": "（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全",
+    "bm25_only": 1,
     "vec_only": 1,
-    "both": 3,
-    "neither_topk": 2
+    "both": 5,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }

@@ -1,58 +1,40 @@
 {
  "summary": {
-  "n_queries": 8,
+  "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.309,
-  "avg_rank_diff": 0.84,
-  "avg_missed_by_bm25": 3.0,
-  "avg_missed_by_vector": 2.38,
-  "conclusion": "两路召回集平均重合度仅 31%；即便重合的文档，两路名次平均相差 0.84 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.0 篇最终进入 Top8 的文档；只用向量则漏掉 2.38 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.246,
+  "avg_rank_diff": 0.82,
+  "avg_missed_by_bm25": 3.22,
+  "avg_missed_by_vector": 3.33,
+  "conclusion": "两路召回集平均重合度仅 25%；即便重合的文档，两路名次平均相差 0.82 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.22 篇最终进入 Top8 的文档；只用向量则漏掉 3.33 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "11月5日隔夜要闻：美股收高 道指涨逾1500点 油价重挫 ",
-   "jaccard": 0.333,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 2,
-   "example_top1": "11月5日隔夜要闻：美股收高 道指涨逾1500点 油价重挫 金价大涨 美国中期选举结果提振市"
+   "query": "全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单",
+   "jaccard": 0.143,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 5,
+   "missed_by_vector": 5,
+   "example_top1": "全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单创新高！半导体设备ETF广发（5"
   },
   {
    "type": "关键词式",
-   "query": "隔夜 要闻 美股 收高 指涨 油价",
-   "jaccard": 0.231,
-   "rank_diff": 0.67,
-   "missed_by_bm25": 5,
-   "missed_by_vector": 1,
-   "example_top1": "11月5日隔夜要闻：美股收高 道指涨逾1500点 油价重挫 金价大涨 美国中期选举结果提振市"
+   "query": "全球 芯片 销售额 连续 三个 季度",
+   "jaccard": 0.143,
+   "rank_diff": 3.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 5,
+   "example_top1": "全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单创新高！半导体设备ETF广发（5"
   },
   {
    "type": "去数字泛化",
-   "query": "月日隔夜要闻：美股收高 道指涨逾点 油价重挫 金价大涨 美国",
-   "jaccard": 0.455,
-   "rank_diff": 2.2,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 2,
-   "example_top1": "11月5日隔夜要闻：美股收高 道指涨逾1500点 油价重挫 金价大涨 美国中期选举结果提振市"
-  },
-  {
-   "type": "原标题式",
-   "query": "（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创",
-   "jaccard": 0.6,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全球双循环"
-  },
-  {
-   "type": "关键词式",
-   "query": "第九届 博会 展示 窗口 创新 加速器",
-   "jaccard": 0.333,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全球双循环"
+   "query": "全球芯片销售额连续三个季度环比增超，半导体龙头新签订单创新高",
+   "jaccard": 0.143,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 6,
+   "missed_by_vector": 5,
+   "example_top1": "全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单创新高！半导体设备ETF广发（5"
   },
   {
    "type": "原标题式",
@@ -67,7 +49,7 @@
    "type": "关键词式",
    "query": "上证指数 开盘 深证 成指 开盘",
    "jaccard": 0.231,
-   "rank_diff": 0.0,
+   "rank_diff": 0.33,
    "missed_by_bm25": 3,
    "missed_by_vector": 2,
    "example_top1": "上证指数开盘报3646.57点，跌1.07%。 深证成指开盘报11216.81点"
@@ -78,8 +60,35 @@
    "jaccard": 0.143,
    "rank_diff": 0.0,
    "missed_by_bm25": 4,
-   "missed_by_vector": 4,
+   "missed_by_vector": 3,
    "example_top1": "上证指数开盘报3646.57点，跌1.07%。 深证成指开盘报11216.81点"
+  },
+  {
+   "type": "原标题式",
+   "query": "港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽",
+   "jaccard": 0.6,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽车股走高 阿里巴巴涨超7%"
+  },
+  {
+   "type": "关键词式",
+   "query": "港股 午评 恒指 科指涨 科网 股普涨",
+   "jaccard": 0.333,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 3,
+   "example_top1": "港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽车股走高 阿里巴巴涨超7%"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "港股午评：恒指涨 科指涨 科网股普涨 汽车股走高 阿里巴巴涨",
+   "jaccard": 0.333,
+   "rank_diff": 2.25,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽车股走高 阿里巴巴涨超7%"
   }
  ]
 }
