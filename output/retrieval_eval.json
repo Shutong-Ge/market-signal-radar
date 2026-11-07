@@ -2,93 +2,93 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.246,
-  "avg_rank_diff": 0.82,
-  "avg_missed_by_bm25": 3.22,
-  "avg_missed_by_vector": 3.33,
-  "conclusion": "两路召回集平均重合度仅 25%；即便重合的文档，两路名次平均相差 0.82 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.22 篇最终进入 Top8 的文档；只用向量则漏掉 3.33 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.445,
+  "avg_rank_diff": 1.11,
+  "avg_missed_by_bm25": 1.33,
+  "avg_missed_by_vector": 2.44,
+  "conclusion": "两路召回集平均重合度仅 44%；即便重合的文档，两路名次平均相差 1.11 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.33 篇最终进入 Top8 的文档；只用向量则漏掉 2.44 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单",
+   "query": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价",
    "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 5,
-   "missed_by_vector": 5,
-   "example_top1": "全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单创新高！半导体设备ETF广发（5"
-  },
-  {
-   "type": "关键词式",
-   "query": "全球 芯片 销售额 连续 三个 季度",
-   "jaccard": 0.143,
-   "rank_diff": 3.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 5,
-   "example_top1": "全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单创新高！半导体设备ETF广发（5"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "全球芯片销售额连续三个季度环比增超，半导体龙头新签订单创新高",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 6,
-   "missed_by_vector": 5,
-   "example_top1": "全球芯片销售额连续三个季度环比增超20%，半导体龙头新签订单创新高！半导体设备ETF广发（5"
-  },
-  {
-   "type": "原标题式",
-   "query": "上证指数开盘报3646.57点，跌1.07%。 深证成指开盘",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 4,
-   "example_top1": "上证指数开盘报3646.57点，跌1.07%。 深证成指开盘报11216.81点"
-  },
-  {
-   "type": "关键词式",
-   "query": "上证指数 开盘 深证 成指 开盘",
-   "jaccard": 0.231,
-   "rank_diff": 0.33,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 2,
-   "example_top1": "上证指数开盘报3646.57点，跌1.07%。 深证成指开盘报11216.81点"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "上证指数开盘报点，跌。 深证成指开盘报点",
-   "jaccard": 0.143,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 3,
-   "example_top1": "上证指数开盘报3646.57点，跌1.07%。 深证成指开盘报11216.81点"
-  },
-  {
-   "type": "原标题式",
-   "query": "港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽",
-   "jaccard": 0.6,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽车股走高 阿里巴巴涨超7%"
-  },
-  {
-   "type": "关键词式",
-   "query": "港股 午评 恒指 科指涨 科网 股普涨",
-   "jaccard": 0.333,
    "rank_diff": 0.5,
-   "missed_by_bm25": 1,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 4,
+   "example_top1": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月1"
+  },
+  {
+   "type": "关键词式",
+   "query": "隔夜 要闻 美股 涨跌 纳指 涨超",
+   "jaccard": 0.333,
+   "rank_diff": 1.25,
+   "missed_by_bm25": 2,
    "missed_by_vector": 3,
-   "example_top1": "港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽车股走高 阿里巴巴涨超7%"
+   "example_top1": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月1"
   },
   {
    "type": "去数字泛化",
-   "query": "港股午评：恒指涨 科指涨 科网股普涨 汽车股走高 阿里巴巴涨",
+   "query": "月日隔夜要闻：美股涨跌不一纳指涨超 油价震荡 金价走低 俄美",
+   "jaccard": 0.455,
+   "rank_diff": 1.8,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 3,
+   "example_top1": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月1"
+  },
+  {
+   "type": "原标题式",
+   "query": "上证指数早盘收报3689.79点，涨0.10%。 深证成指早",
+   "jaccard": 0.455,
+   "rank_diff": 0.8,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "上证指数早盘收报3689.79点，涨0.10%。 深证成指早盘收报11498.7"
+  },
+  {
+   "type": "关键词式",
+   "query": "上证指数 早盘 收报 深证 成指 早盘",
    "jaccard": 0.333,
-   "rank_diff": 2.25,
+   "rank_diff": 0.75,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 3,
+   "example_top1": "上证指数早盘收报3689.79点，涨0.10%。 深证成指早盘收报11498.7"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "上证指数早盘收报点，涨。 深证成指早盘收报",
+   "jaccard": 0.455,
+   "rank_diff": 0.8,
    "missed_by_bm25": 2,
    "missed_by_vector": 2,
-   "example_top1": "港股午评：恒指涨3.09% 科指涨4.79% 科网股普涨 汽车股走高 阿里巴巴涨超7%"
+   "example_top1": "上证指数早盘收报3689.79点，涨0.10%。 深证成指早盘收报11498.7"
+  },
+  {
+   "type": "原标题式",
+   "query": "美国10月非农新增16.5万人远超预期 失业率降至4.1% ",
+   "jaccard": 0.455,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "美国10月非农新增16.5万人远超预期 失业率降至4.1% 劳动力市场强劲"
+  },
+  {
+   "type": "关键词式",
+   "query": "美国 非农 新增 万人 远超 预期",
+   "jaccard": 0.6,
+   "rank_diff": 1.5,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 2,
+   "example_top1": "美国10月非农就业人数远超市场预期 交易员加大对美联储12月加息押注"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "美国月非农新增万人远超预期 失业率降至 劳动力市场强劲",
+   "jaccard": 0.778,
+   "rank_diff": 1.57,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 1,
+   "example_top1": "美国10月非农新增16.5万人远超预期 失业率降至4.1% 劳动力市场强劲"
   }
  ]
 }
