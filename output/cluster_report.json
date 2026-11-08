@@ -1,11 +1,11 @@
 {
- "n_articles": 1683,
+ "n_articles": 1442,
  "mode": "vector",
- "edges": 578,
- "n_components": 1478,
- "n_clusters": 53,
- "n_noise_filtered": 4,
- "n_single_media_filtered": 55,
+ "edges": 492,
+ "n_components": 1268,
+ "n_clusters": 54,
+ "n_noise_filtered": 1,
+ "n_single_media_filtered": 51,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,258 +13,247 @@
   "media"
  ],
  "calibration": {
-  "max_size": 13.0,
-  "max_first": 11.0,
+  "max_size": 9.0,
+  "max_first": 8.0,
   "window_days": 2,
   "n_media_total": 5
  },
  "elapsed": 0.1,
  "level_dist": {
   "爆点": 5,
-  "高热": 10,
+  "高热": 11,
   "升温中": 16,
   "一般": 22
  },
  "top": [
   {
-   "label": "美国10月非农新增16.5万人远超预期 失业率降至4.1% 劳动力市场强劲",
-   "heat": 0.788,
+   "label": "【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄",
+   "heat": 0.906,
    "level": "爆点",
-   "n": 13,
+   "n": 9,
    "media": 3,
    "cat": "国际市场",
-   "sectors": [
-    "BK000199"
-   ],
+   "sectors": [],
    "factors": {
     "coverage": 1.0,
     "burst": 1.0,
-    "duration": 0.5,
+    "duration": 1.0,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    216226,
-    216271,
-    216284,
-    216285,
-    216347,
-    216385,
-    216393,
-    216431,
-    216446,
-    216450,
-    216452,
-    216540,
-    216848
+    217797,
+    217800,
+    217801,
+    217820,
+    217882,
+    217889,
+    217909,
+    217938,
+    218468
    ]
   },
   {
-   "label": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日",
-   "heat": 0.723,
-   "level": "爆点",
-   "n": 10,
-   "media": 3,
-   "cat": "国际市场",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.909,
-    "burst": 0.837,
-    "duration": 0.5,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    215945,
-    216203,
-    216348,
-    216403,
-    216406,
-    216407,
-    216459,
-    216554,
-    216555,
-    216572
-   ]
-  },
-  {
-   "label": "【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄",
-   "heat": 0.712,
-   "level": "爆点",
-   "n": 8,
-   "media": 3,
-   "cat": "国际市场",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.833,
-    "burst": 0.884,
-    "duration": 0.5,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    216748,
-    216751,
-    216752,
-    216770,
-    216831,
-    216838,
-    216858,
-    216887
-   ]
-  },
-  {
-   "label": "特朗普邀请终极格斗冠军赛负责人Dana White担任新闻秘书",
-   "heat": 0.591,
+   "label": "伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）",
+   "heat": 0.731,
    "level": "爆点",
    "n": 4,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.61,
-    "burst": 0.648,
+    "coverage": 0.699,
+    "burst": 0.631,
+    "duration": 1.0,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    217914,
+    217949,
+    217993,
+    218726
+   ]
+  },
+  {
+   "label": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日",
+   "heat": 0.697,
+   "level": "爆点",
+   "n": 7,
+   "media": 3,
+   "cat": "半导体",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.903,
+    "burst": 0.732,
     "duration": 0.5,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    217165,
-    217176,
-    217193,
-    217342
+    217441,
+    217444,
+    217445,
+    217499,
+    217597,
+    217598,
+    217615
+   ]
+  },
+  {
+   "label": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手",
+   "heat": 0.68,
+   "level": "爆点",
+   "n": 5,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.778,
+    "burst": 0.815,
+    "duration": 0.5,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    218220,
+    218231,
+    218248,
+    218397,
+    218482
+   ]
+  },
+  {
+   "label": "喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！",
+   "heat": 0.669,
+   "level": "爆点",
+   "n": 6,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.845,
+    "burst": 0.886,
+    "duration": 0.5,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    218320,
+    218382,
+    218406,
+    218407,
+    218634,
+    218798
    ]
   },
   {
    "label": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元股票",
-   "heat": 0.59,
-   "level": "爆点",
+   "heat": 0.636,
+   "level": "高热",
    "n": 5,
    "media": 3,
    "cat": "金融市场",
    "sectors": [],
    "factors": {
-    "coverage": 0.679,
-    "burst": 0.558,
+    "coverage": 0.778,
+    "burst": 0.631,
     "duration": 0.5,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    217100,
-    217114,
-    217120,
-    217152,
-    217226
-   ]
-  },
-  {
-   "label": "投资者据称讨论Anthropic上市估值下调至1.2万亿-1.3万亿美元",
-   "heat": 0.588,
-   "level": "高热",
-   "n": 3,
-   "media": 2,
-   "cat": "AI与大模型",
-   "sectors": [
-    "BK0800"
-   ],
-   "factors": {
-    "coverage": 0.525,
-    "burst": 0.442,
-    "duration": 1.0,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    215884,
-    216178,
-    216948
-   ]
-  },
-  {
-   "label": "美股存储芯片指数涨超8%，成分股拉姆研究涨10%，闪迪涨7.8%，应用材料、泰瑞",
-   "heat": 0.545,
-   "level": "高热",
-   "n": 3,
-   "media": 3,
-   "cat": "半导体",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.525,
-    "burst": 0.558,
-    "duration": 0.5,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    216169,
-    216453,
-    216455
-   ]
-  },
-  {
-   "label": "商务部回应“美首次以涉古巴为由制裁中企”：敦促美方尽快纠正错误做法",
-   "heat": 0.545,
-   "level": "高热",
-   "n": 3,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.525,
-    "burst": 0.558,
-    "duration": 0.5,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    216688,
-    216690,
-    216736
+    218153,
+    218168,
+    218174,
+    218207,
+    218281
    ]
   },
   {
    "label": "特朗普称中期选举后会进行人事调整 但信任防长赫格塞思",
-   "heat": 0.544,
+   "heat": 0.59,
    "level": "高热",
    "n": 4,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.61,
-    "burst": 0.648,
+    "coverage": 0.699,
+    "burst": 0.732,
     "duration": 0.5,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    216543,
-    216601,
-    216604,
-    216763
+    217585,
+    217646,
+    217649,
+    217813
    ]
   },
   {
-   "label": "喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！",
-   "heat": 0.544,
+   "label": "以色列总统授权埃森科特组阁 令内塔尼亚胡执政地位迎重大考验",
+   "heat": 0.59,
    "level": "高热",
    "n": 4,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.61,
-    "burst": 0.648,
+    "coverage": 0.699,
+    "burst": 0.732,
     "duration": 0.5,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    217265,
-    217327,
-    217350,
-    217351
+    218268,
+    218480,
+    218582,
+    218625
+   ]
+  },
+  {
+   "label": "商务部回应“美首次以涉古巴为由制裁中企”：敦促美方尽快纠正错误做法",
+   "heat": 0.584,
+   "level": "高热",
+   "n": 3,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.602,
+    "burst": 0.631,
+    "duration": 0.5,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    217734,
+    217736,
+    217785
+   ]
+  },
+  {
+   "label": "白宫副幕僚长沃尔特斯即将离职。（Axios）",
+   "heat": 0.584,
+   "level": "高热",
+   "n": 3,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.602,
+    "burst": 0.631,
+    "duration": 0.5,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    218459,
+    218500,
+    218632
    ]
   }
  ]
