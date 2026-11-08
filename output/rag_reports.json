@@ -1,112 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 60,
+ "n_clusters": 53,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.0,
+ "elapsed": 4.9,
  "reports": [
   {
-   "key": "41d284941b77262c",
-   "label": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日",
-   "cached": false,
-   "sections": {
-    "事件概述": "「11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日」由 38 篇报道聚合而成，覆盖 4 家媒体，热度 0.875（爆点），所属板块类目：国际市场。",
-    "关键信息": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈；11月6日隔夜要闻：美股大跌 人工智能科技股遭遇重挫 中期选举后民主党高层呼吁限；中国资产，反攻！小鹏、百度、B站、网易领涨…",
-    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日在阿布扎比举行",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakh8379297.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "11月6日隔夜要闻：美股大跌 人工智能科技股遭遇重挫 中期选举后民主党高层呼吁限制人工智能产业扩张",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixtxmk5578458.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "中国资产，反攻！小鹏、百度、B站、网易领涨…",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-07/doc-inixwhsn5172007.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 5,
-     "vec_rank": 9
-    },
-    {
-     "n": 4,
-     "title": "11月7日收盘：三大指数涨跌不一 芯片股反弹 AI监管担忧仍存",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakk5001971.shtml",
-     "rrf": 0.02946,
-     "bm25_rank": 15,
-     "vec_rank": 2
-    },
-    {
-     "n": 5,
-     "title": "大宗商品综述：油价走势震荡 铜价下跌 金价走低",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakn8486854.shtml",
-     "rrf": 0.02869,
-     "bm25_rank": 3,
-     "vec_rank": 18
-    },
-    {
-     "n": 6,
-     "title": "杨德龙：美国中期选举尘埃落定 全球股市迎来大涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-06/doc-inixtxmk5604053.shtml",
-     "rrf": 0.02858,
-     "bm25_rank": 9,
-     "vec_rank": 11
-    },
-    {
-     "n": 7,
-     "title": "开盘：三大股指涨跌不一 资金连续第2日从科技股流出",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixtafn5469785.shtml",
-     "rrf": 0.02769,
-     "bm25_rank": 8,
-     "vec_rank": 17
-    },
-    {
-     "n": 8,
-     "title": "纳指经历昨日暴跌后高开1.3% 芯片、光通信板块反弹明显",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611063925164120.html",
-     "rrf": 0.02721,
-     "bm25_rank": 14,
-     "vec_rank": 13
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈",
-    "bm25_only": 3,
-    "vec_only": 1,
-    "both": 2,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "4163ebe6dfc7da8f",
+   "key": "50dd495997146a9d",
    "label": "美国10月非农新增16.5万人远超预期 失业率降至4.1% 劳动力市场强劲",
    "cached": false,
    "sections": {
-    "事件概述": "「美国10月非农新增16.5万人远超预期 失业率降至4.1% 劳动力市场强劲」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.642（爆点），所属板块类目：国际市场。",
+    "事件概述": "「美国10月非农新增16.5万人远超预期 失业率降至4.1% 劳动力市场强劲」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.788（爆点），所属板块类目：国际市场。",
     "关键信息": "美国10月非农新增16.5万人远超预期 失业率降至4.1% 劳动力市场强劲；美国10月非农就业人数远超市场预期 交易员加大对美联储12月加息押注；美国10月非农大超预期 加息预期升温",
     "市场影响": "关联板块代码：BK000199。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -196,11 +102,105 @@
    "elapsed": 0.0
   },
   {
-   "key": "d26b2405dd241abe",
+   "key": "f329c2ed20dec5ec",
+   "label": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日",
+   "cached": false,
+   "sections": {
+    "事件概述": "「11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.723（爆点），所属板块类目：国际市场。",
+    "关键信息": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈；中国资产，反攻！小鹏、百度、B站、网易领涨…；11月7日收盘：三大指数涨跌不一 芯片股反弹 AI监管担忧仍存",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日在阿布扎比举行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakh8379297.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "中国资产，反攻！小鹏、百度、B站、网易领涨…",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-07/doc-inixwhsn5172007.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 3,
+     "title": "11月7日收盘：三大指数涨跌不一 芯片股反弹 AI监管担忧仍存",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakk5001971.shtml",
+     "rrf": 0.03021,
+     "bm25_rank": 11,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "大宗商品综述：油价走势震荡 铜价下跌 金价走低",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakn8486854.shtml",
+     "rrf": 0.02976,
+     "bm25_rank": 3,
+     "vec_rank": 12
+    },
+    {
+     "n": 5,
+     "title": "纳指经历昨日暴跌后高开1.3% 芯片、光通信板块反弹明显",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611063925164120.html",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
+     "vec_rank": 8
+    },
+    {
+     "n": 6,
+     "title": "油价调整最新消息",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-11-08/doc-inixyrxk4304473.shtml",
+     "rrf": 0.02822,
+     "bm25_rank": 21,
+     "vec_rank": 3
+    },
+    {
+     "n": 7,
+     "title": "美股暴跌无法拉金价下水 地缘长线托底反弹",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-06/doc-inixuuqw8813431.shtml",
+     "rrf": 0.02727,
+     "bm25_rank": 10,
+     "vec_rank": 17
+    },
+    {
+     "n": 8,
+     "title": "科技股，盘前爆发！美联储，加息大消息",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-11-06/doc-inixvfeu5375614.shtml",
+     "rrf": 0.02703,
+     "bm25_rank": 13,
+     "vec_rank": 15
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈",
+    "bm25_only": 1,
+    "vec_only": 2,
+    "both": 3,
+    "neither_topk": 2
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "46f095b1b3affdfd",
    "label": "【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄",
    "cached": false,
    "sections": {
-    "事件概述": "「【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.582（爆点），所属板块类目：国际市场。",
+    "事件概述": "「【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.712（爆点），所属板块类目：国际市场。",
     "关键信息": "【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄；中国10月末外汇储备报34051.78亿美元；央行重磅！继续狂买黄金",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -256,224 +256,224 @@
      "title": "外储连续七个月站稳3.4万亿关口",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-11-07/doc-inixwxqe5013577.shtml",
-     "rrf": 0.02964,
+     "rrf": 0.02986,
      "bm25_rank": 6,
-     "vec_rank": 9
+     "vec_rank": 8
     },
     {
      "n": 7,
+     "title": "世界黄金协会：全球黄金ETF连续第四个月净流入 总持仓创新高 仅北美净流出",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixuure5600931.shtml",
+     "rrf": 0.02901,
+     "bm25_rank": 7,
+     "vec_rank": 11
+    },
+    {
+     "n": 8,
      "title": "国家外汇管理局：截至10月末，我国外汇储备规模为34052亿美元",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3196329",
      "rrf": 0.02899,
-     "bm25_rank": 8,
-     "vec_rank": 10
-    },
-    {
-     "n": 8,
-     "title": "世界黄金协会：10月全球黄金ETF净流入27亿美元",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611053923819353.html",
-     "rrf": 0.02867,
-     "bm25_rank": 14,
-     "vec_rank": 6
+     "bm25_rank": 9,
+     "vec_rank": 9
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 5,
-    "neither_topk": 0
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 6,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "1a32abad41a81b44",
-   "label": "报道：部分投资者对Anthropic能否按计划于下周开展路演、赶在11月上市一事表示怀疑",
+   "key": "c97d1c4bb3e474c2",
+   "label": "特朗普邀请终极格斗冠军赛负责人Dana White担任新闻秘书",
    "cached": false,
    "sections": {
-    "事件概述": "「报道：部分投资者对Anthropic能否按计划于下周开展路演、赶在11月上市一事表示怀疑」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.545（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "报道：部分投资者对Anthropic能否按计划于下周开展路演、赶在11月上市一事；投资者据称讨论Anthropic上市估值下调至1.2万亿-1.3万亿美元；主要投资者如今正质疑Anthropic的1.5万亿美元估值",
-    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "报道：部分投资者对Anthropic能否按计划于下周开展路演、赶在11月上市一事表示怀疑",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3195512",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "投资者据称讨论Anthropic上市估值下调至1.2万亿-1.3万亿美元",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611063925086538.html",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "主要投资者如今正质疑Anthropic的1.5万亿美元估值",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixuqhu5021887.shtml",
-     "rrf": 0.03016,
-     "bm25_rank": 10,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "Anthropic上市将是更大风险事件 美股暴跌前提出警告的策略师如是判断",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixvmns5302230.shtml",
-     "rrf": 0.02776,
-     "bm25_rank": 26,
-     "vec_rank": 2
-    },
-    {
-     "n": 5,
-     "title": "美股科技股抛售潮下 AI头部企业估值承压",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611073925526675.html",
-     "rrf": 0.02589,
-     "bm25_rank": 22,
-     "vec_rank": 13
-    },
-    {
-     "n": 6,
-     "title": "超聚变创业板IPO 11月12日上会",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3195164",
-     "rrf": 0.02426,
-     "bm25_rank": 20,
-     "vec_rank": 25
-    },
-    {
-     "n": 7,
-     "title": "廉价AI能否化解数据中心建设遇阻的困局？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixuuqy5441559.shtml",
-     "rrf": 0.01613,
-     "bm25_rank": 2,
-     "vec_rank": null
-    },
-    {
-     "n": 8,
-     "title": "美国国防部长海格塞斯可能下周面临弹劾表决",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixtxmk5617124.shtml",
-     "rrf": 0.01562,
-     "bm25_rank": 4,
-     "vec_rank": null
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "报道：部分投资者对Anthropic能否按计划于下周开展路演、赶在11月上市一事",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 2,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "fbecb4854bdc1dac",
-   "label": "看进度、看服务、看政策 秋粮收购有序推进让农户“好收成”落袋为安",
-   "cached": false,
-   "sections": {
-    "事件概述": "「看进度、看服务、看政策 秋粮收购有序推进让农户“好收成”落袋为安」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.516（爆点），所属板块类目：综合。",
-    "关键信息": "看进度、看服务、看政策 秋粮收购有序推进让农户“好收成”落袋为安；内蒙古全力保障粮食丰收 秋粮收获近九成；全国已累计收购秋粮1亿吨",
+    "事件概述": "「特朗普邀请终极格斗冠军赛负责人Dana White担任新闻秘书」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.591（爆点），所属板块类目：综合。",
+    "关键信息": "特朗普邀请终极格斗冠军赛负责人Dana White担任新闻秘书；特朗普宣布邀请达纳·怀特担任白宫新闻秘书；特朗普邀UFC总裁任新闻秘书遭拒",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "看进度、看服务、看政策 秋粮收购有序推进让农户“好收成”落袋为安",
+     "title": "特朗普邀请终极格斗冠军赛负责人Dana White担任新闻秘书",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-06/doc-inixvfey5635504.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixxyzk7652911.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "内蒙古全力保障粮食丰收 秋粮收获近九成",
+     "title": "特朗普宣布邀请达纳·怀特担任白宫新闻秘书",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-06/doc-inixucte8887604.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixyfiq4467251.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "全国已累计收购秋粮1亿吨",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-06/10727112.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 2,
-     "vec_rank": 6
-    },
-    {
-     "n": 4,
-     "title": "我国秋粮丰收成定局",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3195499",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
+     "title": "特朗普邀UFC总裁任新闻秘书遭拒",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611083925568710.html",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
      "vec_rank": 3
     },
     {
-     "n": 5,
-     "title": "秋粮收储有新招 今年秋粮收购已超1亿吨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-06/doc-inixucte8866534.shtml",
+     "n": 4,
+     "title": "UFC总裁将与特朗普面谈",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3196440",
      "rrf": 0.03125,
      "bm25_rank": 4,
      "vec_rank": 4
     },
     {
-     "n": 6,
-     "title": "【扎实推进乡村全面振兴】河曲：千亩玉米喜获丰收 机械化采收确保颗粒归仓",
+     "n": 5,
+     "title": "UFC总裁出任白宫新闻秘书？白大拿拒绝了特朗普邀请",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-06/doc-inixvmns5292013.shtml",
-     "rrf": 0.02947,
-     "bm25_rank": 11,
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixyrxk4284668.shtml",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
      "vec_rank": 5
     },
     {
+     "n": 6,
+     "title": "特朗普称中期选举后会进行人事调整 但信任防长赫格塞思",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwhsn5194025.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 6,
+     "vec_rank": 7
+    },
+    {
      "n": 7,
-     "title": "各地推动公积金政策精准落地见效 “沉睡”钱包变安居红利",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-06/10727034.shtml",
-     "rrf": 0.02643,
-     "bm25_rank": 21,
-     "vec_rank": 11
+     "title": "特朗普任命长期助手米勒担任白宫幕僚长",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvwan5111660.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "从山露到小龙虾，遂昌这里的稻田种出“双份收入”！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-07/doc-inixxkcs7944918.shtml",
-     "rrf": 0.02314,
-     "bm25_rank": 29,
-     "vec_rank": 24
+     "title": "特朗普任命新白宫幕僚长 怀尔斯将调至政治运营团队",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3196325",
+     "rrf": 0.0292,
+     "bm25_rank": 9,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "看进度、看服务、看政策 秋粮收购有序推进让农户“好收成”落袋为安",
+    "query": "特朗普邀请终极格斗冠军赛负责人Dana White担任新闻秘书",
     "bm25_only": 0,
     "vec_only": 1,
-    "both": 5,
-    "neither_topk": 2
+    "both": 7,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "a271b307d867c1b4",
+   "label": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元股票",
+   "cached": false,
+   "sections": {
+    "事件概述": "「伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元股票」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.59（爆点），所属板块类目：金融市场。",
+    "关键信息": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元；伯克希尔哈撒韦第三季度加快股票回购，营业利润下滑；伯克希尔三季度投资收益下滑近46% 现金持仓创历史新高",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元股票",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611073925540523.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "伯克希尔哈撒韦第三季度加快股票回购，营业利润下滑",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixxqmu7983187.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "伯克希尔三季度投资收益下滑近46% 现金持仓创历史新高",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611083925575146.html",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "伯克希尔第三季度回购96亿美元股票 保险业务拖累利润 现金储备攀升",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixxutq4395105.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "伯克希尔哈撒韦：截至9月30日，股权投资公允价值总额的65%集中于Alphabe",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3196427",
+     "rrf": 0.03078,
+     "bm25_rank": 6,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "伯克希尔哈撒韦：截至9月底，现金储备较上一季度有所增加，达到3774亿美元。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3196426",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "Humana上调业绩预期，季度营收大幅攀升",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixvfew8847070.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 7,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "香港交易所第三季度利润意外下滑",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixuiyu8321980.shtml",
+     "rrf": 0.02838,
+     "bm25_rank": 9,
+     "vec_rank": 12
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 6,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }
