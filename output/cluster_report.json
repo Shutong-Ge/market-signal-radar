@@ -1,11 +1,11 @@
 {
- "n_articles": 1422,
+ "n_articles": 1700,
  "mode": "vector",
- "edges": 530,
- "n_components": 1244,
- "n_clusters": 43,
- "n_noise_filtered": 1,
- "n_single_media_filtered": 57,
+ "edges": 738,
+ "n_components": 1455,
+ "n_clusters": 50,
+ "n_noise_filtered": 6,
+ "n_single_media_filtered": 68,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,24 +13,24 @@
   "media"
  ],
  "calibration": {
-  "max_size": 13.0,
-  "max_first": 13.0,
+  "max_size": 15.0,
+  "max_first": 15.0,
   "window_days": 3,
   "n_media_total": 5
  },
  "elapsed": 0.1,
  "level_dist": {
-  "爆点": 4,
-  "高热": 8,
-  "升温中": 13,
-  "一般": 18
+  "爆点": 5,
+  "高热": 10,
+  "升温中": 15,
+  "一般": 20
  },
  "top": [
   {
    "label": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行",
    "heat": 0.749,
    "level": "爆点",
-   "n": 13,
+   "n": 15,
    "media": 3,
    "cat": "宏观政策",
    "sectors": [],
@@ -42,229 +42,237 @@
     "social": null
    },
    "article_ids": [
-    220026,
-    220050,
-    220052,
-    220058,
-    220059,
-    220060,
-    220065,
-    220072,
-    220076,
-    220077,
-    220087,
-    220180,
-    220195
+    221113,
+    221137,
+    221139,
+    221145,
+    221146,
+    221147,
+    221152,
+    221159,
+    221163,
+    221164,
+    221174,
+    221267,
+    221282,
+    221363,
+    221751
    ]
   },
   {
    "label": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手",
-   "heat": 0.675,
+   "heat": 0.657,
    "level": "爆点",
    "n": 6,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.737,
-    "burst": 0.679,
+    "coverage": 0.702,
+    "burst": 0.646,
     "duration": 0.667,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    219189,
-    219200,
-    219219,
-    219369,
-    219455,
-    219911
+    220266,
+    220277,
+    220298,
+    220450,
+    220536,
+    220998
    ]
   },
   {
-   "label": "伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）",
-   "heat": 0.621,
+   "label": "美股费城半导体指数涨超5%，英伟达跌3.89%，博通涨7.69%，美光涨5.37",
+   "heat": 0.648,
    "level": "爆点",
-   "n": 5,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
+   "n": 12,
+   "media": 2,
+   "cat": "国际市场",
+   "sectors": [
+    "BK1036",
+    "BK0459"
+   ],
    "factors": {
-    "coverage": 0.679,
-    "burst": 0.525,
-    "duration": 0.667,
-    "media": 0.6,
+    "coverage": 0.925,
+    "burst": 0.865,
+    "duration": 0.333,
+    "media": 0.4,
     "social": null
    },
    "article_ids": [
-    218878,
-    218914,
-    218958,
-    219707,
-    219832
+    221804,
+    221812,
+    221820,
+    221822,
+    221836,
+    221855,
+    221885,
+    221887,
+    221888,
+    221893,
+    221916,
+    221956
    ]
   },
   {
    "label": "喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！",
-   "heat": 0.563,
+   "heat": 0.544,
    "level": "爆点",
    "n": 6,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.737,
-    "burst": 0.737,
+    "coverage": 0.702,
+    "burst": 0.702,
     "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    219291,
-    219354,
-    219379,
-    219380,
-    219615,
-    219783
+    220371,
+    220434,
+    220460,
+    220461,
+    220700,
+    220869
    ]
   },
   {
-   "label": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元股票",
-   "heat": 0.543,
-   "level": "高热",
-   "n": 5,
+   "label": "抵制AI数据中心的浪潮席卷欧洲，多地爆发抗议示威活动",
+   "heat": 0.538,
+   "level": "爆点",
+   "n": 3,
    "media": 3,
-   "cat": "金融市场",
+   "cat": "AI与大模型",
+   "sectors": [
+    "BK0922"
+   ],
+   "factors": {
+    "coverage": 0.5,
+    "burst": 0.396,
+    "duration": 0.667,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    220350,
+    220476,
+    221874
+   ]
+  },
+  {
+   "label": "商品期货开盘，玻璃主力合约涨超2%，纯碱、甲醇、燃料油、LU燃油、烧碱、沪锡、B",
+   "heat": 0.527,
+   "level": "高热",
+   "n": 4,
+   "media": 3,
+   "cat": "大宗与能化",
    "sectors": [],
    "factors": {
-    "coverage": 0.679,
-    "burst": 0.525,
+    "coverage": 0.58,
+    "burst": 0.58,
     "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    219121,
-    219136,
-    219142,
-    219176,
-    219252
+    221067,
+    221069,
+    221396,
+    221829
+   ]
+  },
+  {
+   "label": "法国外交部长巴罗：欧洲方面将参与在阿布扎比举行的乌克兰问题会谈",
+   "heat": 0.515,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.58,
+    "burst": 0.396,
+    "duration": 0.667,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    220818,
+    220897,
+    221843,
+    221912
    ]
   },
   {
    "label": "特朗普回应“黄仁勋出轨”：我没听说他做错了什么，谁还没和别人交往过呢？",
-   "heat": 0.532,
+   "heat": 0.515,
    "level": "高热",
    "n": 5,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.679,
-    "burst": 0.679,
+    "coverage": 0.646,
+    "burst": 0.646,
     "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    219896,
-    219905,
-    220104,
-    220114,
-    220183
+    220983,
+    220992,
+    221191,
+    221201,
+    221270
    ]
   },
   {
    "label": "华新建材：拟约16.42亿美元收购巴西CSN CIMENTOS 99.99%股权",
-   "heat": 0.513,
+   "heat": 0.497,
    "level": "高热",
    "n": 6,
    "media": 2,
    "cat": "国际市场",
    "sectors": [],
    "factors": {
-    "coverage": 0.737,
-    "burst": 0.525,
+    "coverage": 0.702,
+    "burst": 0.5,
     "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    219603,
-    219737,
-    219820,
-    219908,
-    219930,
-    219931
-   ]
-  },
-  {
-   "label": "平均成功率91%！苹果研究团队披露机器人“大脑”进展：调用千问模型在宇树G1上验证",
-   "heat": 0.503,
-   "level": "高热",
-   "n": 3,
-   "media": 2,
-   "cat": "汽车出行",
-   "sectors": [
-    "BK1408",
-    "BK0800"
-   ],
-   "factors": {
-    "coverage": 0.525,
-    "burst": 0.416,
-    "duration": 0.667,
-    "media": 0.4,
-    "social": null
-   },
-   "article_ids": [
-    218895,
-    218897,
-    220194
+    220688,
+    220823,
+    220906,
+    220995,
+    221017,
+    221018
    ]
   },
   {
    "label": "白宫副幕僚长沃尔特斯即将离职。（Axios）",
-   "heat": 0.498,
+   "heat": 0.484,
    "level": "高热",
    "n": 3,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.525,
-    "burst": 0.525,
+    "coverage": 0.5,
+    "burst": 0.5,
     "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    219432,
-    219473,
-    219613
-   ]
-  },
-  {
-   "label": "ANTHROPIC公司以34亿美元的价格购入天然气发电设施用于数据中心",
-   "heat": 0.498,
-   "level": "高热",
-   "n": 3,
-   "media": 3,
-   "cat": "AI与大模型",
-   "sectors": [
-    "BK1028",
-    "BK0427"
-   ],
-   "factors": {
-    "coverage": 0.525,
-    "burst": 0.525,
-    "duration": 0.333,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    219705,
-    219724,
-    219739
+    220513,
+    220554,
+    220698
    ]
   }
  ]

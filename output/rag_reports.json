@@ -1,18 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 43,
+ "n_clusters": 50,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.9,
+ "elapsed": 4.8,
  "reports": [
   {
-   "key": "7bbbbd181b4ad6dc",
+   "key": "0849d08ba011062f",
    "label": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行",
    "cached": false,
    "sections": {
-    "事件概述": "「国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：宏观政策。",
+    "事件概述": "「国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行」由 15 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：宏观政策。",
     "关键信息": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业；国家统计局：10月份，全国居民消费价格环比持平。 10月份，全国工业生产者出厂价；国家统计局：本月PPI环比运行的主要特点有三点",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -32,8 +32,8 @@
      "title": "国家统计局：10月份，全国居民消费价格环比持平。 10月份，全国工业生产者出厂价",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3196577",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
+     "rrf": 0.0308,
+     "bm25_rank": 7,
      "vec_rank": 3
     },
     {
@@ -50,8 +50,8 @@
      "title": "国家统计局：10月份居民消费价格同比上涨0.7%",
      "media": "中新网",
      "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728619.shtml",
-     "rrf": 0.02901,
-     "bm25_rank": 7,
+     "rrf": 0.02858,
+     "bm25_rank": 9,
      "vec_rank": 11
     },
     {
@@ -59,55 +59,55 @@
      "title": "AI应用端的定价逻辑本周出现全球同步的转向 科创创业人工智能ETF国联安（158040）涨超3%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611093926033359.html",
-     "rrf": 0.0276,
-     "bm25_rank": 11,
+     "rrf": 0.02703,
+     "bm25_rank": 14,
      "vec_rank": 14
     },
     {
      "n": 6,
-     "title": "国家统计局：2026年10月份CPI同比继续上涨 PPI环比涨幅回落",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/china/gncj/2026-11-09/doc-iniyazea3009029.shtml",
-     "rrf": 0.02736,
-     "bm25_rank": 19,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
      "title": "中国磷复肥工业协会倡议：维护行业平稳有序发展",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3196445",
-     "rrf": 0.02699,
-     "bm25_rank": 4,
-     "vec_rank": 28
+     "rrf": 0.02698,
+     "bm25_rank": 3,
+     "vec_rank": 30
+    },
+    {
+     "n": 7,
+     "title": "国家统计局：2026年10月份CPI同比继续上涨 PPI环比涨幅回落",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/china/gncj/2026-11-09/doc-iniyazea3009029.shtml",
+     "rrf": 0.02633,
+     "bm25_rank": 26,
+     "vec_rank": 8
     },
     {
      "n": 8,
      "title": "300489被“踏破门槛”！一周近200家机构调研",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-08/doc-inixymrn4387922.shtml",
-     "rrf": 0.02633,
-     "bm25_rank": 8,
-     "vec_rank": 26
+     "rrf": 0.02558,
+     "bm25_rank": 11,
+     "vec_rank": 27
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业",
-    "bm25_only": 4,
+    "bm25_only": 2,
     "vec_only": 1,
     "both": 2,
-    "neither_topk": 1
+    "neither_topk": 3
    },
    "elapsed": 0.0
   },
   {
-   "key": "73b2883d52c8ede4",
+   "key": "1006e07bf09fa44b",
    "label": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手",
    "cached": false,
    "sections": {
-    "事件概述": "「特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.675（爆点），所属板块类目：综合。",
-    "关键信息": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手；特朗普邀UFC总裁任新闻秘书遭拒；特朗普宣布邀请达纳·怀特担任白宫新闻秘书",
+    "事件概述": "「特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.657（爆点），所属板块类目：综合。",
+    "关键信息": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手；特朗普宣布邀请达纳·怀特担任白宫新闻秘书；特朗普邀UFC总裁任新闻秘书遭拒",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -123,21 +123,21 @@
     },
     {
      "n": 2,
+     "title": "特朗普宣布邀请达纳·怀特担任白宫新闻秘书",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixyfiq4467251.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
      "title": "特朗普邀UFC总裁任新闻秘书遭拒",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611083925568710.html",
      "rrf": 0.03151,
      "bm25_rank": 5,
      "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "特朗普宣布邀请达纳·怀特担任白宫新闻秘书",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixyfiq4467251.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
     },
     {
      "n": 4,
@@ -153,8 +153,8 @@
      "title": "特朗普称邀请UFC总裁怀特出任白宫新闻秘书只是“开个玩笑”",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyauwk3418607.shtml",
-     "rrf": 0.0308,
-     "bm25_rank": 3,
+     "rrf": 0.03055,
+     "bm25_rank": 4,
      "vec_rank": 7
     },
     {
@@ -180,8 +180,8 @@
      "title": "特朗普前幕僚网上激烈互撕、互发法律威胁，中期选举失利后矛盾爆发",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyauwh6672250.shtml",
-     "rrf": 0.02804,
-     "bm25_rank": 15,
+     "rrf": 0.02822,
+     "bm25_rank": 14,
      "vec_rank": 8
     }
    ],
@@ -196,105 +196,105 @@
    "elapsed": 0.0
   },
   {
-   "key": "72418f95e3db0f43",
-   "label": "伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）",
+   "key": "dc5e43dd71e0312b",
+   "label": "美股费城半导体指数涨超5%，英伟达跌3.89%，博通涨7.69%，美光涨5.37",
    "cached": false,
    "sections": {
-    "事件概述": "「伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.621（爆点），所属板块类目：综合。",
-    "关键信息": "伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）；伊朗称一艘油轮在霍尔木兹海峡东部海域起火；伊朗称当天三艘油轮在霍尔木兹海峡爆炸起火",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「美股费城半导体指数涨超5%，英伟达跌3.89%，博通涨7.69%，美光涨5.37」由 12 篇报道聚合而成，覆盖 2 家媒体，热度 0.648（爆点），所属板块类目：国际市场。",
+    "关键信息": "美股费城半导体指数涨超5%，英伟达跌3.89%，博通涨7.69%，美光涨5.37；美股半导体板块多数上涨 博通、AMD、应用材料涨超6%；英伟达跌幅重新超过5%。 费城半导体指数目前涨6.3%。",
+    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）",
+     "title": "美股费城半导体指数涨超5%，英伟达跌3.89%，博通涨7.69%，美光涨5.37",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196405",
+     "url": "https://wallstreetcn.com/livenews/3197026",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "伊朗称一艘油轮在霍尔木兹海峡东部海域起火",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-07/doc-inixxkcu4555338.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "伊朗称当天三艘油轮在霍尔木兹海峡爆炸起火",
+     "title": "美股半导体板块多数上涨 博通、AMD、应用材料涨超6%",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611083925642850.html",
+     "url": "https://finance.eastmoney.com/a/202611093926576423.html",
      "rrf": 0.03175,
      "bm25_rank": 3,
      "vec_rank": 3
     },
     {
+     "n": 3,
+     "title": "英伟达跌幅重新超过5%。 费城半导体指数目前涨6.3%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3197051",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
      "n": 4,
-     "title": "伊斯兰革命卫队称周日霍尔木兹海峡有3艘油轮起火",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzxsn6825965.shtml",
+     "title": "美股半导体板块强势反弹 费城半导体指数较11月5日收复约10%失地",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611093926605793.html",
+     "rrf": 0.03128,
+     "bm25_rank": 2,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "费城半导体指数涨超3%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611093926581995.html",
      "rrf": 0.03125,
      "bm25_rank": 4,
      "vec_rank": 4
     },
     {
-     "n": 5,
-     "title": "伊朗伊斯兰革命卫队称昨晚在霍尔木兹海峡向美军开火",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196381",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
      "n": 6,
-     "title": "一油轮在霍尔木兹海峡遭不明发射物击中",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196481",
+     "title": "美股高开高走 纳斯达克综合指数涨2%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611093926580226.html",
      "rrf": 0.03054,
      "bm25_rank": 6,
      "vec_rank": 5
     },
     {
      "n": 7,
-     "title": "伊朗伊斯兰革命卫队称提升导弹射程的工作仍在继续",
+     "title": "纳斯达克100指数涨幅扩大至3%，成分股Astera Labs涨13%，Lume",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196383",
-     "rrf": 0.02859,
-     "bm25_rank": 8,
-     "vec_rank": 12
+     "url": "https://wallstreetcn.com/livenews/3197040",
+     "rrf": 0.02942,
+     "bm25_rank": 7,
+     "vec_rank": 9
     },
     {
      "n": 8,
-     "title": "美军在阿曼湾击瘫一艘试图突破对伊朗海上封锁的货船",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzape4142828.shtml",
-     "rrf": 0.02857,
-     "bm25_rank": 10,
-     "vec_rank": 10
+     "title": "美股高开高走 三大股指均涨超1%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611093926574894.html",
+     "rrf": 0.0292,
+     "bm25_rank": 9,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）",
+    "query": "美股费城半导体指数涨超5%，英伟达跌3.89%，博通涨7.69%，美光涨5.37",
     "bm25_only": 1,
-    "vec_only": 0,
+    "vec_only": 1,
     "both": 6,
-    "neither_topk": 1
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "a1bde9d22a86f9c4",
+   "key": "325880939fb1ba5c",
    "label": "喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！",
    "cached": false,
    "sections": {
-    "事件概述": "「喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.563（爆点），所属板块类目：综合。",
+    "事件概述": "「喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.544（爆点），所属板块类目：综合。",
     "关键信息": "喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！；第36届中国新闻奖、第19届长江韬奋奖评选结果揭晓；湖北14件作品获中国新闻奖！",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -384,96 +384,96 @@
    "elapsed": 0.0
   },
   {
-   "key": "74985404746555f6",
-   "label": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元股票",
+   "key": "c8ed766628d9fd26",
+   "label": "抵制AI数据中心的浪潮席卷欧洲，多地爆发抗议示威活动",
    "cached": false,
    "sections": {
-    "事件概述": "「伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元股票」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.543（高热），所属板块类目：金融市场。",
-    "关键信息": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元；伯克希尔哈撒韦第三季度加快股票回购，营业利润下滑；伯克希尔三季度投资收益下滑近46% 现金持仓创历史新高",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「抵制AI数据中心的浪潮席卷欧洲，多地爆发抗议示威活动」由 3 篇报道聚合而成，覆盖 3 家媒体，热度 0.538（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "抵制AI数据中心的浪潮席卷欧洲，多地爆发抗议示威活动；“反对数据中心”浪潮不止在美国，欧洲多国爆发抗议；欧洲多国爆发抗议 要求暂停数据中心建设",
+    "市场影响": "关联板块代码：BK0922。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元股票",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611073925540523.html",
+     "title": "抵制AI数据中心的浪潮席卷欧洲，多地爆发抗议示威活动",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3197032",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "伯克希尔哈撒韦第三季度加快股票回购，营业利润下滑",
+     "title": "“反对数据中心”浪潮不止在美国，欧洲多国爆发抗议",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixxqmu7983187.shtml",
+     "url": "https://finance.sina.com.cn/world/2026-11-08/doc-inixyrxa7371882.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "伯克希尔三季度投资收益下滑近46% 现金持仓创历史新高",
+     "title": "欧洲多国爆发抗议 要求暂停数据中心建设",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611083925575146.html",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
+     "url": "https://finance.eastmoney.com/a/202611083925576616.html",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
      "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "伯克希尔第三季度回购96亿美元股票 保险业务拖累利润 现金储备攀升",
+     "title": "蓝色浪潮席卷欧美，野村高呼中国AI受益！超跌反弹能多久，A股如何布局",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixxutq4395105.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
+     "url": "https://finance.sina.com.cn/stock/bxjj/2026-11-09/doc-iniyauwh6638595.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 4,
+     "vec_rank": 8
     },
     {
      "n": 5,
-     "title": "伯克希尔哈撒韦：截至9月30日，股权投资公允价值总额的65%集中于Alphabe",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196427",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "伯克希尔哈撒韦：截至9月底，现金储备较上一季度有所增加，达到3774亿美元。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196426",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "伯克希尔·哈撒韦公司准备发行日元债券",
+     "title": "“蓝色浪潮”重创科技信仰，AI交易何时企稳？未来如何演变？华尔街密集研判",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyauwa6458495.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
+     "url": "https://finance.sina.com.cn/roll/2026-11-08/doc-inixzape4141129.shtml",
+     "rrf": 0.03031,
+     "bm25_rank": 5,
      "vec_rank": 7
     },
     {
-     "n": 8,
-     "title": "再鼎医药早盘涨逾12% 第三季度产品收入1.076亿美元环比增长2%",
+     "n": 6,
+     "title": "Anthropic 为 AI 数据中心购入电力，达成 34 亿美元交易",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-09/doc-iniyazcy6374236.shtml",
-     "rrf": 0.0262,
-     "bm25_rank": 8,
-     "vec_rank": 27
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixztkq6914414.shtml",
+     "rrf": 0.02667,
+     "bm25_rank": 16,
+     "vec_rank": 14
+    },
+    {
+     "n": 7,
+     "title": "软银为美国AI数据中心市场可能降温作准备",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniycrzy3301384.shtml",
+     "rrf": 0.02302,
+     "bm25_rank": 30,
+     "vec_rank": 24
+    },
+    {
+     "n": 8,
+     "title": "两大不利因素正在搅动 AI 板块近期剧烈波动",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyehxq6360443.shtml",
+     "rrf": 0.01562,
+     "bm25_rank": null,
+     "vec_rank": 4
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元",
-    "bm25_only": 1,
-    "vec_only": 0,
-    "both": 7,
-    "neither_topk": 0
+    "query": "抵制AI数据中心的浪潮席卷欧洲，多地爆发抗议示威活动",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 2
    },
    "elapsed": 0.0
   }
