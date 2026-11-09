@@ -1,11 +1,11 @@
 {
- "n_articles": 1442,
+ "n_articles": 1422,
  "mode": "vector",
- "edges": 492,
- "n_components": 1268,
- "n_clusters": 54,
+ "edges": 530,
+ "n_components": 1244,
+ "n_clusters": 43,
  "n_noise_filtered": 1,
- "n_single_media_filtered": 51,
+ "n_single_media_filtered": 57,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,247 +13,258 @@
   "media"
  ],
  "calibration": {
-  "max_size": 9.0,
-  "max_first": 8.0,
-  "window_days": 2,
+  "max_size": 13.0,
+  "max_first": 13.0,
+  "window_days": 3,
   "n_media_total": 5
  },
  "elapsed": 0.1,
  "level_dist": {
-  "爆点": 5,
-  "高热": 11,
-  "升温中": 16,
-  "一般": 22
+  "爆点": 4,
+  "高热": 8,
+  "升温中": 13,
+  "一般": 18
  },
  "top": [
   {
-   "label": "【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄",
-   "heat": 0.906,
+   "label": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行",
+   "heat": 0.749,
    "level": "爆点",
-   "n": 9,
+   "n": 13,
    "media": 3,
-   "cat": "国际市场",
+   "cat": "宏观政策",
    "sectors": [],
    "factors": {
     "coverage": 1.0,
     "burst": 1.0,
-    "duration": 1.0,
+    "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    217797,
-    217800,
-    217801,
-    217820,
-    217882,
-    217889,
-    217909,
-    217938,
-    218468
-   ]
-  },
-  {
-   "label": "伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）",
-   "heat": 0.731,
-   "level": "爆点",
-   "n": 4,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.699,
-    "burst": 0.631,
-    "duration": 1.0,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    217914,
-    217949,
-    217993,
-    218726
-   ]
-  },
-  {
-   "label": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日",
-   "heat": 0.697,
-   "level": "爆点",
-   "n": 7,
-   "media": 3,
-   "cat": "半导体",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.903,
-    "burst": 0.732,
-    "duration": 0.5,
-    "media": 0.6,
-    "social": null
-   },
-   "article_ids": [
-    217441,
-    217444,
-    217445,
-    217499,
-    217597,
-    217598,
-    217615
+    220026,
+    220050,
+    220052,
+    220058,
+    220059,
+    220060,
+    220065,
+    220072,
+    220076,
+    220077,
+    220087,
+    220180,
+    220195
    ]
   },
   {
    "label": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手",
-   "heat": 0.68,
+   "heat": 0.675,
+   "level": "爆点",
+   "n": 6,
+   "media": 3,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.737,
+    "burst": 0.679,
+    "duration": 0.667,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    219189,
+    219200,
+    219219,
+    219369,
+    219455,
+    219911
+   ]
+  },
+  {
+   "label": "伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）",
+   "heat": 0.621,
    "level": "爆点",
    "n": 5,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.778,
-    "burst": 0.815,
-    "duration": 0.5,
+    "coverage": 0.679,
+    "burst": 0.525,
+    "duration": 0.667,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    218220,
-    218231,
-    218248,
-    218397,
-    218482
+    218878,
+    218914,
+    218958,
+    219707,
+    219832
    ]
   },
   {
    "label": "喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！",
-   "heat": 0.669,
+   "heat": 0.563,
    "level": "爆点",
    "n": 6,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.845,
-    "burst": 0.886,
-    "duration": 0.5,
+    "coverage": 0.737,
+    "burst": 0.737,
+    "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    218320,
-    218382,
-    218406,
-    218407,
-    218634,
-    218798
+    219291,
+    219354,
+    219379,
+    219380,
+    219615,
+    219783
    ]
   },
   {
    "label": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元股票",
-   "heat": 0.636,
+   "heat": 0.543,
    "level": "高热",
    "n": 5,
    "media": 3,
    "cat": "金融市场",
    "sectors": [],
    "factors": {
-    "coverage": 0.778,
-    "burst": 0.631,
-    "duration": 0.5,
+    "coverage": 0.679,
+    "burst": 0.525,
+    "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    218153,
-    218168,
-    218174,
-    218207,
-    218281
+    219121,
+    219136,
+    219142,
+    219176,
+    219252
    ]
   },
   {
-   "label": "特朗普称中期选举后会进行人事调整 但信任防长赫格塞思",
-   "heat": 0.59,
+   "label": "特朗普回应“黄仁勋出轨”：我没听说他做错了什么，谁还没和别人交往过呢？",
+   "heat": 0.532,
    "level": "高热",
-   "n": 4,
+   "n": 5,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.699,
-    "burst": 0.732,
-    "duration": 0.5,
+    "coverage": 0.679,
+    "burst": 0.679,
+    "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    217585,
-    217646,
-    217649,
-    217813
+    219896,
+    219905,
+    220104,
+    220114,
+    220183
    ]
   },
   {
-   "label": "以色列总统授权埃森科特组阁 令内塔尼亚胡执政地位迎重大考验",
-   "heat": 0.59,
+   "label": "华新建材：拟约16.42亿美元收购巴西CSN CIMENTOS 99.99%股权",
+   "heat": 0.513,
    "level": "高热",
-   "n": 4,
+   "n": 6,
    "media": 2,
-   "cat": "综合",
+   "cat": "国际市场",
    "sectors": [],
    "factors": {
-    "coverage": 0.699,
-    "burst": 0.732,
-    "duration": 0.5,
+    "coverage": 0.737,
+    "burst": 0.525,
+    "duration": 0.333,
     "media": 0.4,
     "social": null
    },
    "article_ids": [
-    218268,
-    218480,
-    218582,
-    218625
+    219603,
+    219737,
+    219820,
+    219908,
+    219930,
+    219931
    ]
   },
   {
-   "label": "商务部回应“美首次以涉古巴为由制裁中企”：敦促美方尽快纠正错误做法",
-   "heat": 0.584,
+   "label": "平均成功率91%！苹果研究团队披露机器人“大脑”进展：调用千问模型在宇树G1上验证",
+   "heat": 0.503,
    "level": "高热",
    "n": 3,
-   "media": 3,
-   "cat": "综合",
-   "sectors": [],
+   "media": 2,
+   "cat": "汽车出行",
+   "sectors": [
+    "BK1408",
+    "BK0800"
+   ],
    "factors": {
-    "coverage": 0.602,
-    "burst": 0.631,
-    "duration": 0.5,
-    "media": 0.6,
+    "coverage": 0.525,
+    "burst": 0.416,
+    "duration": 0.667,
+    "media": 0.4,
     "social": null
    },
    "article_ids": [
-    217734,
-    217736,
-    217785
+    218895,
+    218897,
+    220194
    ]
   },
   {
    "label": "白宫副幕僚长沃尔特斯即将离职。（Axios）",
-   "heat": 0.584,
+   "heat": 0.498,
    "level": "高热",
    "n": 3,
    "media": 3,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.602,
-    "burst": 0.631,
-    "duration": 0.5,
+    "coverage": 0.525,
+    "burst": 0.525,
+    "duration": 0.333,
     "media": 0.6,
     "social": null
    },
    "article_ids": [
-    218459,
-    218500,
-    218632
+    219432,
+    219473,
+    219613
+   ]
+  },
+  {
+   "label": "ANTHROPIC公司以34亿美元的价格购入天然气发电设施用于数据中心",
+   "heat": 0.498,
+   "level": "高热",
+   "n": 3,
+   "media": 3,
+   "cat": "AI与大模型",
+   "sectors": [
+    "BK1028",
+    "BK0427"
+   ],
+   "factors": {
+    "coverage": 0.525,
+    "burst": 0.525,
+    "duration": 0.333,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    219705,
+    219724,
+    219739
    ]
   }
  ]

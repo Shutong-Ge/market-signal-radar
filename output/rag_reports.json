@@ -1,112 +1,206 @@
 {
  "engine": "template(降级)",
- "n_clusters": 54,
+ "n_clusters": 43,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.6,
+ "elapsed": 4.9,
  "reports": [
   {
-   "key": "109176fe232e6889",
-   "label": "【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄",
+   "key": "7bbbbd181b4ad6dc",
+   "label": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行",
    "cached": false,
    "sections": {
-    "事件概述": "「【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.906（爆点），所属板块类目：国际市场。",
-    "关键信息": "【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄；中国10月末外汇储备报34051.78亿美元；央行连续24个月增持黄金，创近两年最大加仓手笔",
+    "事件概述": "「国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：宏观政策。",
+    "关键信息": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业；国家统计局：10月份，全国居民消费价格环比持平。 10月份，全国工业生产者出厂价；国家统计局：本月PPI环比运行的主要特点有三点",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196319",
+     "title": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyazea3020098.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "中国10月末外汇储备报34051.78亿美元",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611073925461551.html",
-     "rrf": 0.032,
-     "bm25_rank": 2,
+     "title": "国家统计局：10月份，全国居民消费价格环比持平。 10月份，全国工业生产者出厂价",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3196577",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
      "vec_rank": 3
     },
     {
      "n": 3,
-     "title": "央行连续24个月增持黄金，创近两年最大加仓手笔",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-08/doc-inixzape4138728.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
+     "title": "国家统计局：本月PPI环比运行的主要特点有三点",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3196583",
+     "rrf": 0.02983,
+     "bm25_rank": 2,
+     "vec_rank": 13
     },
     {
      "n": 4,
-     "title": "央行重磅！继续狂买黄金",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-07/doc-inixwnya8229384.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
+     "title": "国家统计局：10月份居民消费价格同比上涨0.7%",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728619.shtml",
+     "rrf": 0.02901,
+     "bm25_rank": 7,
+     "vec_rank": 11
     },
     {
      "n": 5,
-     "title": "金价鏖战4000美元，中国央行连续24个月增持黄金",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/nmetal/gjshz/2026-11-07/doc-inixxcvy8162228.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
+     "title": "AI应用端的定价逻辑本周出现全球同步的转向 科创创业人工智能ETF国联安（158040）涨超3%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611093926033359.html",
+     "rrf": 0.0276,
+     "bm25_rank": 11,
+     "vec_rank": 14
     },
     {
      "n": 6,
-     "title": "央行连续24个月增持黄金，最新解读→",
+     "title": "国家统计局：2026年10月份CPI同比继续上涨 PPI环比涨幅回落",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-07/doc-inixwnya8244534.shtml",
+     "url": "https://finance.sina.com.cn/china/gncj/2026-11-09/doc-iniyazea3009029.shtml",
+     "rrf": 0.02736,
+     "bm25_rank": 19,
+     "vec_rank": 8
+    },
+    {
+     "n": 7,
+     "title": "中国磷复肥工业协会倡议：维护行业平稳有序发展",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3196445",
+     "rrf": 0.02699,
+     "bm25_rank": 4,
+     "vec_rank": 28
+    },
+    {
+     "n": 8,
+     "title": "300489被“踏破门槛”！一周近200家机构调研",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-08/doc-inixymrn4387922.shtml",
+     "rrf": 0.02633,
+     "bm25_rank": 8,
+     "vec_rank": 26
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业",
+    "bm25_only": 4,
+    "vec_only": 1,
+    "both": 2,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "73b2883d52c8ede4",
+   "label": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手",
+   "cached": false,
+   "sections": {
+    "事件概述": "「特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.675（爆点），所属板块类目：综合。",
+    "关键信息": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手；特朗普邀UFC总裁任新闻秘书遭拒；特朗普宣布邀请达纳·怀特担任白宫新闻秘书",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzanw7192728.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "特朗普邀UFC总裁任新闻秘书遭拒",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611083925568710.html",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "特朗普宣布邀请达纳·怀特担任白宫新闻秘书",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixyfiq4467251.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "特朗普邀请终极格斗冠军赛负责人Dana White担任新闻秘书",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixxyzk7652911.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 2,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "特朗普称邀请UFC总裁怀特出任白宫新闻秘书只是“开个玩笑”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyauwk3418607.shtml",
+     "rrf": 0.0308,
+     "bm25_rank": 3,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "UFC总裁出任白宫新闻秘书？白大拿拒绝了特朗普邀请",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixyrxk4284668.shtml",
+     "rrf": 0.03055,
+     "bm25_rank": 7,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "UFC总裁将与特朗普面谈",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3196440",
      "rrf": 0.03054,
      "bm25_rank": 6,
      "vec_rank": 5
     },
     {
-     "n": 7,
-     "title": "外储连续七个月站稳3.4万亿关口",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-07/doc-inixwxqe5013577.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
-    },
-    {
      "n": 8,
-     "title": "周末影响市场重要资讯回顾：国常会要求完善资本市场稳市机制，增强股市内在稳定性，央行黄金储备“24连增”",
+     "title": "特朗普前幕僚网上激烈互撕、互发法律威胁，中期选举失利后矛盾爆发",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/roll/2026-11-08/doc-inixzhuy7266929.shtml",
-     "rrf": 0.02881,
-     "bm25_rank": 7,
-     "vec_rank": 12
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyauwh6672250.shtml",
+     "rrf": 0.02804,
+     "bm25_rank": 15,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "【中国央行连续24个月扩大黄金储备】中国10月末黄金储备7830万盎司，9月末黄",
-    "bm25_only": 2,
-    "vec_only": 0,
-    "both": 6,
+    "query": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 7,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "d0610fd6b2b4e212",
+   "key": "72418f95e3db0f43",
    "label": "伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）",
    "cached": false,
    "sections": {
-    "事件概述": "「伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.731（爆点），所属板块类目：综合。",
+    "事件概述": "「伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.621（爆点），所属板块类目：综合。",
     "关键信息": "伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）；伊朗称一艘油轮在霍尔木兹海峡东部海域起火；伊朗称当天三艘油轮在霍尔木兹海峡爆炸起火",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -141,38 +235,38 @@
     },
     {
      "n": 4,
-     "title": "伊朗伊斯兰革命卫队称昨晚在霍尔木兹海峡向美军开火",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196381",
-     "rrf": 0.03101,
+     "title": "伊斯兰革命卫队称周日霍尔木兹海峡有3艘油轮起火",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzxsn6825965.shtml",
+     "rrf": 0.03125,
      "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "一油轮在霍尔木兹海峡遭不明发射物击中",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196481",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
      "vec_rank": 4
     },
     {
-     "n": 6,
-     "title": "特朗普称美国是霍尔木兹海峡占领者",
+     "n": 5,
+     "title": "伊朗伊斯兰革命卫队称昨晚在霍尔木兹海峡向美军开火",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196323",
-     "rrf": 0.02921,
-     "bm25_rank": 10,
-     "vec_rank": 7
+     "url": "https://wallstreetcn.com/livenews/3196381",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "一油轮在霍尔木兹海峡遭不明发射物击中",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3196481",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
     },
     {
      "n": 7,
      "title": "伊朗伊斯兰革命卫队称提升导弹射程的工作仍在继续",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3196383",
-     "rrf": 0.02904,
-     "bm25_rank": 6,
+     "rrf": 0.02859,
+     "bm25_rank": 8,
      "vec_rank": 12
     },
     {
@@ -180,215 +274,27 @@
      "title": "美军在阿曼湾击瘫一艘试图突破对伊朗海上封锁的货船",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzape4142828.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 8,
+     "rrf": 0.02857,
+     "bm25_rank": 10,
      "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "伊朗海军声称，一艘油轮周六在霍尔木兹海峡触雷。（法尔斯通讯社）",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 5,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "999432b4deb31b4d",
-   "label": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日",
-   "cached": false,
-   "sections": {
-    "事件概述": "「11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.697（爆点），所属板块类目：半导体。",
-    "关键信息": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈；中国资产，反攻！小鹏、百度、B站、网易领涨…；大宗商品综述：油价走势震荡 铜价下跌 金价走低",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈将于11月10日在阿布扎比举行",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakh8379297.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "中国资产，反攻！小鹏、百度、B站、网易领涨…",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-07/doc-inixwhsn5172007.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 3,
-     "title": "大宗商品综述：油价走势震荡 铜价下跌 金价走低",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakn8486854.shtml",
-     "rrf": 0.03016,
-     "bm25_rank": 3,
-     "vec_rank": 10
-    },
-    {
-     "n": 4,
-     "title": "11月7日收盘：三大指数涨跌不一 芯片股反弹 AI监管担忧仍存",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakk5001971.shtml",
-     "rrf": 0.03002,
-     "bm25_rank": 12,
-     "vec_rank": 2
-    },
-    {
-     "n": 5,
-     "title": "纳指经历昨日暴跌后高开1.3% 芯片、光通信板块反弹明显",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611063925164120.html",
-     "rrf": 0.02921,
-     "bm25_rank": 10,
-     "vec_rank": 7
-    },
-    {
-     "n": 6,
-     "title": "油价调整最新消息",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-08/doc-inixyrxk4304473.shtml",
-     "rrf": 0.02837,
-     "bm25_rank": 20,
-     "vec_rank": 3
-    },
-    {
-     "n": 7,
-     "title": "油价震荡 下游化工行业直面考验",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611083925654921.html",
-     "rrf": 0.0276,
-     "bm25_rank": 11,
-     "vec_rank": 14
-    },
-    {
-     "n": 8,
-     "title": "油价调整通知",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-07/doc-inixxkcy4867877.shtml",
-     "rrf": 0.02628,
-     "bm25_rank": 22,
-     "vec_rank": 11
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "11月7日隔夜要闻：美股涨跌不一纳指涨超1% 油价震荡 金价走低 俄美乌三方会谈",
-    "bm25_only": 1,
-    "vec_only": 3,
-    "both": 2,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "71532d00fd9439b4",
-   "label": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手",
-   "cached": false,
-   "sections": {
-    "事件概述": "「特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.68（爆点），所属板块类目：综合。",
-    "关键信息": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手；特朗普邀UFC总裁任新闻秘书遭拒；特朗普宣布邀请达纳·怀特担任白宫新闻秘书",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzanw7192728.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "特朗普邀UFC总裁任新闻秘书遭拒",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611083925568710.html",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "特朗普宣布邀请达纳·怀特担任白宫新闻秘书",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixyfiq4467251.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "特朗普邀请终极格斗冠军赛负责人Dana White担任新闻秘书",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixxyzk7652911.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 2,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "UFC总裁出任白宫新闻秘书？白大拿拒绝了特朗普邀请",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixyrxk4284668.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "UFC总裁将与特朗普面谈",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196440",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "特朗普任命长期助手米勒担任白宫幕僚长",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvwan5111660.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "特朗普任命新白宫幕僚长 怀尔斯将调至政治运营团队",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196325",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手",
     "bm25_only": 1,
     "vec_only": 0,
-    "both": 7,
-    "neither_topk": 0
+    "both": 6,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "ae58959aaf78a920",
+   "key": "a1bde9d22a86f9c4",
    "label": "喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！",
    "cached": false,
    "sections": {
-    "事件概述": "「喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.669（爆点），所属板块类目：综合。",
+    "事件概述": "「喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.563（爆点），所属板块类目：综合。",
     "关键信息": "喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！；第36届中国新闻奖、第19届长江韬奋奖评选结果揭晓；湖北14件作品获中国新闻奖！",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -453,23 +359,117 @@
      "title": "累计22件！长沙晚报，中国新闻奖又+1！",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixzhuy7284135.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
+     "rrf": 0.02986,
+     "bm25_rank": 8,
      "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "再创新高！第一财经一举斩获三项中国新闻奖",
+     "title": "扬州市新闻传媒中心两作品一人获江苏新闻奖",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-08/doc-inixyrxe4011280.shtml",
-     "rrf": 0.0284,
-     "bm25_rank": 8,
-     "vec_rank": 13
+     "url": "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyazcy6369517.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 7,
+     "vec_rank": 9
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "喜报！工人日报社4件作品获中国新闻奖！高级记者郭强获长江韬奋奖！",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "74985404746555f6",
+   "label": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元股票",
+   "cached": false,
+   "sections": {
+    "事件概述": "「伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元股票」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.543（高热），所属板块类目：金融市场。",
+    "关键信息": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元；伯克希尔哈撒韦第三季度加快股票回购，营业利润下滑；伯克希尔三季度投资收益下滑近46% 现金持仓创历史新高",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元股票",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611073925540523.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "伯克希尔哈撒韦第三季度加快股票回购，营业利润下滑",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixxqmu7983187.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "伯克希尔三季度投资收益下滑近46% 现金持仓创历史新高",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611083925575146.html",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "伯克希尔第三季度回购96亿美元股票 保险业务拖累利润 现金储备攀升",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixxutq4395105.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "伯克希尔哈撒韦：截至9月30日，股权投资公允价值总额的65%集中于Alphabe",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3196427",
+     "rrf": 0.03078,
+     "bm25_rank": 6,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "伯克希尔哈撒韦：截至9月底，现金储备较上一季度有所增加，达到3774亿美元。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3196426",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "伯克希尔·哈撒韦公司准备发行日元债券",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyauwa6458495.shtml",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
+     "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "再鼎医药早盘涨逾12% 第三季度产品收入1.076亿美元环比增长2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-09/doc-iniyazcy6374236.shtml",
+     "rrf": 0.0262,
+     "bm25_rank": 8,
+     "vec_rank": 27
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "伯克希尔哈撒韦公司：第三季度营业利润为127.1亿美元 第三季度回购了96亿美元",
     "bm25_only": 1,
     "vec_only": 0,
     "both": 7,
