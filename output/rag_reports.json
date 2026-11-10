@@ -1,20 +1,20 @@
 {
  "engine": "template(降级)",
- "n_clusters": 56,
+ "n_clusters": 61,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.3,
+ "elapsed": 5.4,
  "reports": [
   {
-   "key": "828c57c8e369fbce",
+   "key": "fd37b40363226c40",
    "label": "道指涨超1100点，芯片股光通信大反攻，AMD涨超13%，英伟达创7个月新低，黄金收复4100美",
    "cached": false,
    "sections": {
-    "事件概述": "「道指涨超1100点，芯片股光通信大反攻，AMD涨超13%，英伟达创7个月新低，黄金收复4100美」由 20 篇报道聚合而成，覆盖 4 家媒体，热度 0.838（爆点），所属板块类目：半导体。",
+    "事件概述": "「道指涨超1100点，芯片股光通信大反攻，AMD涨超13%，英伟达创7个月新低，黄金收复4100美」由 27 篇报道聚合而成，覆盖 4 家媒体，热度 0.835（爆点），所属板块类目：半导体。",
     "关键信息": "道指涨超1100点，芯片股光通信大反攻，AMD涨超13%，英伟达创7个月新低，黄；英伟达收跌4.27%创7个月新低，市值一日蒸发超1900亿美元；美股费城半导体指数涨超5%，英伟达跌3.89%，博通涨7.69%，美光涨5.37",
-    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "市场影响": "关联板块代码：BK1036、BK0459、BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
@@ -41,45 +41,45 @@
      "title": "美股费城半导体指数涨超5%，英伟达跌3.89%，博通涨7.69%，美光涨5.37",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3197026",
-     "rrf": 0.03021,
-     "bm25_rank": 11,
+     "rrf": 0.03041,
+     "bm25_rank": 10,
      "vec_rank": 2
     },
     {
      "n": 4,
-     "title": "美股半导体板块强势反弹 费城半导体指数较11月5日收复约10%失地",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611093926605793.html",
-     "rrf": 0.02921,
-     "bm25_rank": 10,
-     "vec_rank": 7
-    },
-    {
-     "n": 5,
      "title": "11月10日美股收盘：三大股指均涨超2% 道指涨1100点 科技股反弹",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyetpp2931788.shtml",
-     "rrf": 0.02886,
-     "bm25_rank": 17,
+     "rrf": 0.02903,
+     "bm25_rank": 16,
      "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "美股半导体板块强势反弹 费城半导体指数较11月5日收复约10%失地",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611093926605793.html",
+     "rrf": 0.02881,
+     "bm25_rank": 12,
+     "vec_rank": 7
     },
     {
      "n": 6,
      "title": "纳斯达克100指数涨幅扩大至3%，成分股Astera Labs涨13%，Lume",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3197040",
-     "rrf": 0.02853,
-     "bm25_rank": 3,
-     "vec_rank": 19
+     "rrf": 0.02782,
+     "bm25_rank": 4,
+     "vec_rank": 22
     },
     {
      "n": 7,
      "title": "国产算力出海迎来重要催化！科创芯片设计ETF永赢盘中涨超3%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611093926014156.html",
-     "rrf": 0.02758,
-     "bm25_rank": 5,
-     "vec_rank": 22
+     "rrf": 0.02692,
+     "bm25_rank": 6,
+     "vec_rank": 25
     },
     {
      "n": 8,
@@ -102,11 +102,11 @@
    "elapsed": 0.0
   },
   {
-   "key": "30f712972c0a294a",
+   "key": "9fbe1965cdc0e365",
    "label": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行",
    "cached": false,
    "sections": {
-    "事件概述": "「国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行」由 19 篇报道聚合而成，覆盖 3 家媒体，热度 0.799（爆点），所属板块类目：宏观政策。",
+    "事件概述": "「国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行」由 28 篇报道聚合而成，覆盖 3 家媒体，热度 0.804（爆点），所属板块类目：宏观政策。",
     "关键信息": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业；物价总水平保持平稳运行；国家统计局：10月份，全国居民消费价格环比持平。 10月份，全国工业生产者出厂价",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -126,9 +126,9 @@
      "title": "物价总水平保持平稳运行",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfkmh9427730.shtml",
-     "rrf": 0.03126,
+     "rrf": 0.03102,
      "bm25_rank": 3,
-     "vec_rank": 5
+     "vec_rank": 6
     },
     {
      "n": 3,
@@ -144,63 +144,63 @@
      "title": "国家统计局：本月PPI环比运行的主要特点有三点",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3196583",
-     "rrf": 0.02929,
+     "rrf": 0.02863,
      "bm25_rank": 2,
-     "vec_rank": 16
+     "vec_rank": 20
     },
     {
      "n": 5,
-     "title": "国家统计局：10月份居民消费价格同比上涨0.7%",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728619.shtml",
-     "rrf": 0.0276,
-     "bm25_rank": 11,
-     "vec_rank": 14
+     "title": "存储涨价传导至终端 A股模组厂利润与现金流分化",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/aigcy/2026-11-10/doc-iniyfzhu5901951.shtml",
+     "rrf": 0.02822,
+     "bm25_rank": 14,
+     "vec_rank": 8
     },
     {
      "n": 6,
-     "title": "AI应用端的定价逻辑本周出现全球同步的转向 科创创业人工智能ETF国联安（158040）涨超3%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611093926033359.html",
-     "rrf": 0.0265,
-     "bm25_rank": 14,
-     "vec_rank": 17
+     "title": "电子布价格站上十年高位，行业掀起新一轮产能“军备竞赛”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hyyj/2026-11-10/doc-iniyhfqw9197155.shtml",
+     "rrf": 0.02712,
+     "bm25_rank": 7,
+     "vec_rank": 22
     },
     {
      "n": 7,
-     "title": "国家统计局：2026年10月份CPI同比继续上涨 PPI环比涨幅回落",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/china/gncj/2026-11-09/doc-iniyazea3009029.shtml",
-     "rrf": 0.02591,
-     "bm25_rank": 26,
-     "vec_rank": 10
+     "title": "国家统计局：10月份居民消费价格同比上涨0.7%",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728619.shtml",
+     "rrf": 0.02707,
+     "bm25_rank": 11,
+     "vec_rank": 17
     },
     {
      "n": 8,
-     "title": "国家统计局：10月份，扣除食品和能源价格的核心CPI同比上涨0.8%，涨幅比上月",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3196587",
-     "rrf": 0.01613,
-     "bm25_rank": null,
-     "vec_rank": 2
+     "title": "23部门联合发文！浙江加快“人工智能+消费”发展",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyhmwu9100921.shtml",
+     "rrf": 0.02632,
+     "bm25_rank": 17,
+     "vec_rank": 15
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业",
-    "bm25_only": 1,
+    "bm25_only": 2,
     "vec_only": 1,
     "both": 3,
-    "neither_topk": 3
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "47619a3946dd2a3c",
+   "key": "379c2c201b7c43b5",
    "label": "快讯：恒指高开0.59% 恒科指涨1.02% 科网股普涨 远信储能首日高开逾114%",
    "cached": false,
    "sections": {
-    "事件概述": "「快讯：恒指高开0.59% 恒科指涨1.02% 科网股普涨 远信储能首日高开逾114%」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.699（爆点），所属板块类目：金融市场。",
+    "事件概述": "「快讯：恒指高开0.59% 恒科指涨1.02% 科网股普涨 远信储能首日高开逾114%」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.675（爆点），所属板块类目：金融市场。",
     "关键信息": "快讯：恒指高开0.59% 恒科指涨1.02% 科网股普涨 远信储能首日高开逾11；港股午评：恒指涨0.2% 科指涨0.07% 煤炭股走强 远信储能上市首日涨超12；恒指高开0.59%，报24625.71点；恒生科技指数涨1.02%。蔚来涨5.6",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -247,8 +247,8 @@
      "title": "千倍认购暗盘翻倍 远信储能今登港股暴涨121%开盘 CDH Global为其唯一基石投资者",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-11-09/doc-iniyazeh3370569.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
+     "rrf": 0.03008,
+     "bm25_rank": 7,
      "vec_rank": 6
     },
     {
@@ -256,8 +256,8 @@
      "title": "A股周一开盘：超4800只个股飘红，三大指数集体高开",
      "media": "中新网",
      "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728621.shtml",
-     "rrf": 0.02901,
-     "bm25_rank": 7,
+     "rrf": 0.02924,
+     "bm25_rank": 6,
      "vec_rank": 11
     },
     {
@@ -274,8 +274,8 @@
      "title": "大爆发！建行、农行、交行集体创新高",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyearv3231644.shtml",
-     "rrf": 0.02743,
-     "bm25_rank": 20,
+     "rrf": 0.02712,
+     "bm25_rank": 22,
      "vec_rank": 7
     }
    ],
@@ -290,11 +290,105 @@
    "elapsed": 0.0
   },
   {
-   "key": "d42360f81807c007",
+   "key": "a04336376addce3e",
+   "label": "美国两年期国债收益率涨15个基点，至4.71%。 英国国债价格跌幅扩大，两年期英",
+   "cached": false,
+   "sections": {
+    "事件概述": "「美国两年期国债收益率涨15个基点，至4.71%。 英国国债价格跌幅扩大，两年期英」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.592（爆点），所属板块类目：宏观政策。",
+    "关键信息": "美国两年期国债收益率涨15个基点，至4.71%。 英国国债价格跌幅扩大，两年期英；英国两年期国债收益率升至4.855% 创一周新高；美国10年期国债收益率涨幅扩大至10个基点，报4.99%。",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "美国两年期国债收益率涨15个基点，至4.71%。 英国国债价格跌幅扩大，两年期英",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3197756",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "英国两年期国债收益率升至4.855% 创一周新高",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611103927681779.html",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "美国10年期国债收益率涨幅扩大至10个基点，报4.99%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3197772",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "美国两年期国债收益率有望创2025年4月份以来最大单日涨幅。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3197777",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "英国10年期国债收益率下跌7个基点至5.08% 为8月28日以来最低水平",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611093926571643.html",
+     "rrf": 0.03078,
+     "bm25_rank": 6,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "长端英债收益率跌约3个基点",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3197069",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "德国两年期国债收益率涨2个基点，投资者权衡股市上涨与油价下跌",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3197078",
+     "rrf": 0.03009,
+     "bm25_rank": 5,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "美国CPI超预期引发美债抛售，2年期国债收益率大涨近15个基点",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyhmwt2440108.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 9,
+     "vec_rank": 7
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "美国两年期国债收益率涨15个基点，至4.71%。 英国国债价格跌幅扩大，两年期英",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 7,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "6ea62792987665b0",
    "label": "商品期货开盘，玻璃主力合约涨超2%，纯碱、甲醇、燃料油、LU燃油、烧碱、沪锡、B",
    "cached": false,
    "sections": {
-    "事件概述": "「商品期货开盘，玻璃主力合约涨超2%，纯碱、甲醇、燃料油、LU燃油、烧碱、沪锡、B」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.584（爆点），所属板块类目：大宗与能化。",
+    "事件概述": "「商品期货开盘，玻璃主力合约涨超2%，纯碱、甲醇、燃料油、LU燃油、烧碱、沪锡、B」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.581（爆点），所属板块类目：大宗与能化。",
     "关键信息": "商品期货开盘，玻璃主力合约涨超2%，纯碱、甲醇、燃料油、LU燃油、烧碱、沪锡、B；开盘|国内期货主力合约涨跌互现 铂、玻璃涨超2%；开盘|国内期货主力合约跌多涨少 燃料油、低硫燃料油（LU）跌超5%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -356,21 +450,21 @@
     },
     {
      "n": 7,
-     "title": "华泰期货：现货偏紧现实不改 铜价维持震荡格局",
+     "title": "光大期货1110热点追踪：地缘局势降温，高硫燃料油跌破关键位置了吗？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-10/doc-iniyfkmh9357970.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 8,
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-10/doc-iniyfuyz2611707.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 7,
      "vec_rank": 10
     },
     {
      "n": 8,
-     "title": "1109热点追踪：能化品强弱分化，甲醇凭什么涨幅靠前？",
+     "title": "华泰期货：现货偏紧现实不改 铜价维持震荡格局",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-09/doc-iniycrzy3280011.shtml",
-     "rrf": 0.02817,
-     "bm25_rank": 10,
-     "vec_rank": 12
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-10/doc-iniyfkmh9357970.shtml",
+     "rrf": 0.02858,
+     "bm25_rank": 9,
+     "vec_rank": 11
     }
    ],
    "degraded": 1,
@@ -380,100 +474,6 @@
     "vec_only": 0,
     "both": 5,
     "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "7a2c951806540608",
-   "label": "以人民币计，中国10月出口同比28.7%、进口同比34.7%，均连续6个月保持两位数增长",
-   "cached": false,
-   "sections": {
-    "事件概述": "「以人民币计，中国10月出口同比28.7%、进口同比34.7%，均连续6个月保持两位数增长」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.573（爆点），所属板块类目：宏观政策。",
-    "关键信息": "以人民币计，中国10月出口同比28.7%、进口同比34.7%，均连续6个月保持两；增长20%，前10个月我国外贸保持强劲增长态势；中国10月出口同比(按美元计) 35.2%，前值 36.3%。",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "以人民币计，中国10月出口同比28.7%、进口同比34.7%，均连续6个月保持两位数增长",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/bxjj/2026-11-10/doc-iniyfkmh9365743.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "增长20%，前10个月我国外贸保持强劲增长态势",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3197335",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "中国10月出口同比(按美元计) 35.2%，前值 36.3%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3197326",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "10月中国出口同比增长35.2%！集成电路、自动数据处理设备翻倍，成品油大涨8成",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfkmh9422417.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "海关总署：前10个月我国出口机电产品16.81万亿元，同比增长25.2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611103927177163.html",
-     "rrf": 0.03058,
-     "bm25_rank": 3,
-     "vec_rank": 8
-    },
-    {
-     "n": 6,
-     "title": "中国10月集成电路出口395.94亿美元 同比增长137.1%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfkmh9380252.shtml",
-     "rrf": 0.03012,
-     "bm25_rank": 4,
-     "vec_rank": 9
-    },
-    {
-     "n": 7,
-     "title": "前10月我国与东盟贸易总值为7.68万亿元，同比增24.2%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfqsy5916076.shtml",
-     "rrf": 0.02947,
-     "bm25_rank": 11,
-     "vec_rank": 5
-    },
-    {
-     "n": 8,
-     "title": "中国10月原油进口4,193.8万吨，同比下降13.3%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3197346",
-     "rrf": 0.02901,
-     "bm25_rank": 7,
-     "vec_rank": 11
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "以人民币计，中国10月出口同比28.7%、进口同比34.7%，均连续6个月保持两",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 5,
-    "neither_topk": 0
    },
    "elapsed": 0.0
   }
