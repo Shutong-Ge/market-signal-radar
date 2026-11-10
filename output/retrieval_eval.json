@@ -1,21 +1,48 @@
 {
  "summary": {
-  "n_queries": 8,
+  "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.454,
-  "avg_rank_diff": 1.37,
-  "avg_missed_by_bm25": 2.25,
-  "avg_missed_by_vector": 2.38,
-  "conclusion": "两路召回集平均重合度仅 45%；即便重合的文档，两路名次平均相差 1.37 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.25 篇最终进入 Top8 的文档；只用向量则漏掉 2.38 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.211,
+  "avg_rank_diff": 0.74,
+  "avg_missed_by_bm25": 3.56,
+  "avg_missed_by_vector": 3.33,
+  "conclusion": "两路召回集平均重合度仅 21%；即便重合的文档，两路名次平均相差 0.74 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.56 篇最终进入 Top8 的文档；只用向量则漏掉 3.33 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
+  {
+   "type": "原标题式",
+   "query": "道指涨超1100点，芯片股光通信大反攻，AMD涨超13%，英",
+   "jaccard": 0.143,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 4,
+   "example_top1": "道指涨超1100点，芯片股光通信大反攻，AMD涨超13%，英伟达创7个月新低，黄金收复410"
+  },
+  {
+   "type": "关键词式",
+   "query": "指涨 芯片 光通信 反攻 涨超 伟达",
+   "jaccard": 0.143,
+   "rank_diff": 3.0,
+   "missed_by_bm25": 5,
+   "missed_by_vector": 3,
+   "example_top1": "道指涨超1100点，芯片股光通信大反攻，AMD涨超13%，英伟达创7个月新低，黄金收复410"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "道指涨超点，芯片股光通信大反攻，AMD涨超，英伟达创个月新低",
+   "jaccard": 0.067,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
+   "example_top1": "道指涨超1100点，芯片股光通信大反攻，AMD涨超13%，英伟达创7个月新低，黄金收复410"
+  },
   {
    "type": "原标题式",
    "query": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分",
    "jaccard": 0.067,
    "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 5,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
    "example_top1": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行"
   },
   {
@@ -23,7 +50,7 @@
    "query": "国家统计局 产能 治理 有序 推进 人工智能",
    "jaccard": 0.067,
    "rank_diff": 0.0,
-   "missed_by_bm25": 6,
+   "missed_by_bm25": 5,
    "missed_by_vector": 4,
    "example_top1": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行"
   },
@@ -33,53 +60,35 @@
    "jaccard": 0.143,
    "rank_diff": 1.5,
    "missed_by_bm25": 5,
-   "missed_by_vector": 5,
+   "missed_by_vector": 4,
    "example_top1": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行"
   },
   {
    "type": "原标题式",
-   "query": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任",
-   "jaccard": 0.778,
-   "rank_diff": 2.29,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 0,
-   "example_top1": "特朗普邀请UFC总裁出任白宫新闻秘书，还想让六名格斗选手担任助手"
+   "query": "快讯：恒指高开0.59% 恒科指涨1.02% 科网股普涨 远",
+   "jaccard": 0.333,
+   "rank_diff": 0.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 3,
+   "example_top1": "快讯：恒指高开0.59% 恒科指涨1.02% 科网股普涨 远信储能首日高开逾114%"
   },
   {
    "type": "关键词式",
-   "query": "特朗普 邀请 总裁 出任 白宫 新闻",
-   "jaccard": 0.778,
-   "rank_diff": 2.14,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 1,
-   "example_top1": "特朗普称邀请UFC总裁怀特出任白宫新闻秘书只是“开个玩笑”"
-  },
-  {
-   "type": "原标题式",
-   "query": "美股费城半导体指数涨超5%，英伟达跌3.89%，博通涨7.6",
-   "jaccard": 0.6,
-   "rank_diff": 1.67,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "美股费城半导体指数涨超5%，英伟达跌3.89%，博通涨7.69%，美光涨5.37"
-  },
-  {
-   "type": "关键词式",
-   "query": "美股 费城 半导体 指数 涨超 伟达",
-   "jaccard": 0.6,
-   "rank_diff": 2.0,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 1,
-   "example_top1": "美股费城半导体指数涨超5%，英伟达跌3.89%，博通涨7.69%，美光涨5.37"
+   "query": "快讯 恒指 高开 恒科 指涨 科网",
+   "jaccard": 0.333,
+   "rank_diff": 0.5,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 3,
+   "example_top1": "快讯：恒指高开0.59% 恒科指涨1.02% 科网股普涨 远信储能首日高开逾114%"
   },
   {
    "type": "去数字泛化",
-   "query": "美股费城半导体指数涨超，英伟达跌，博通涨，美光涨",
+   "query": "快讯：恒指高开 恒科指涨 科网股普涨 远信储能首日高开逾",
    "jaccard": 0.6,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 1,
+   "rank_diff": 0.67,
+   "missed_by_bm25": 2,
    "missed_by_vector": 1,
-   "example_top1": "美股费城半导体指数涨超5%，英伟达跌3.89%，博通涨7.69%，美光涨5.37"
+   "example_top1": "快讯：恒指高开0.59% 恒科指涨1.02% 科网股普涨 远信储能首日高开逾114%"
   }
  ]
 }
