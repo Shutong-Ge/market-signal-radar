@@ -2,93 +2,93 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.237,
-  "avg_rank_diff": 0.91,
-  "avg_missed_by_bm25": 3.56,
-  "avg_missed_by_vector": 3.44,
-  "conclusion": "两路召回集平均重合度仅 24%；即便重合的文档，两路名次平均相差 0.91 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.56 篇最终进入 Top8 的文档；只用向量则漏掉 3.44 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.305,
+  "avg_rank_diff": 1.49,
+  "avg_missed_by_bm25": 2.56,
+  "avg_missed_by_vector": 2.67,
+  "conclusion": "两路召回集平均重合度仅 30%；即便重合的文档，两路名次平均相差 1.49 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.56 篇最终进入 Top8 的文档；只用向量则漏掉 2.67 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "道指涨超1100点，芯片股光通信大反攻，AMD涨超13%，英",
-   "jaccard": 0.143,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 4,
-   "example_top1": "道指涨超1100点，芯片股光通信大反攻，AMD涨超13%，英伟达创7个月新低，黄金收复410"
-  },
-  {
-   "type": "关键词式",
-   "query": "指涨 芯片 光通信 反攻 涨超 伟达",
-   "jaccard": 0.143,
-   "rank_diff": 3.0,
-   "missed_by_bm25": 5,
-   "missed_by_vector": 4,
-   "example_top1": "道指涨超1100点，芯片股光通信大反攻，AMD涨超13%，英伟达创7个月新低，黄金收复410"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "道指涨超点，芯片股光通信大反攻，AMD涨超，英伟达创个月新低",
-   "jaccard": 0.067,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
-   "example_top1": "道指涨超1100点，芯片股光通信大反攻，AMD涨超13%，英伟达创7个月新低，黄金收复410"
-  },
-  {
-   "type": "原标题式",
-   "query": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分",
-   "jaccard": 0.143,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 5,
-   "example_top1": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行"
-  },
-  {
-   "type": "关键词式",
-   "query": "国家统计局 产能 治理 有序 推进 人工智能",
-   "jaccard": 0.143,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 5,
-   "missed_by_vector": 4,
-   "example_top1": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "国家统计局：月产能治理有序推进、人工智能快速发展带动部分原材",
+   "query": "11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜",
    "jaccard": 0.231,
    "rank_diff": 1.67,
-   "missed_by_bm25": 5,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 4,
+   "example_top1": "11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜均跌 美联储加息押注升温 欧洲市"
+  },
+  {
+   "type": "关键词式",
+   "query": "隔夜 要闻 美股 收跌 布伦特 一度",
+   "jaccard": 0.333,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 3,
    "missed_by_vector": 3,
-   "example_top1": "国家统计局：10月产能治理有序推进、人工智能快速发展带动部分原材料及装备制造行业价格上行"
+   "example_top1": "11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜均跌 美联储加息押注升温 欧洲市"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "月日隔夜要闻：美股收跌 布伦特一度跌破美元 金铜均跌 美联储",
+   "jaccard": 0.333,
+   "rank_diff": 0.25,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
+   "example_top1": "11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜均跌 美联储加息押注升温 欧洲市"
   },
   {
    "type": "原标题式",
-   "query": "快讯：恒指高开0.59% 恒科指涨1.02% 科网股普涨 远",
+   "query": "以人民币计，中国10月出口同比28.7%、进口同比34.7%",
    "jaccard": 0.333,
-   "rank_diff": 0.0,
+   "rank_diff": 1.75,
    "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "快讯：恒指高开0.59% 恒科指涨1.02% 科网股普涨 远信储能首日高开逾114%"
+   "missed_by_vector": 2,
+   "example_top1": "以人民币计，中国10月出口同比28.7%、进口同比34.7%，均连续6个月保持两位数增长"
+  },
+  {
+   "type": "关键词式",
+   "query": "人民币 中国 出口 同比 进口 同比",
+   "jaccard": 0.231,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "以人民币计，中国10月出口同比28.7%、进口同比34.7%，均连续6个月保持两位数增长"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "以人民币计，中国月出口同比、进口同比，均连续个月保持两位数增",
+   "jaccard": 0.231,
+   "rank_diff": 1.33,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 2,
+   "example_top1": "以人民币计，中国10月出口同比28.7%、进口同比34.7%，均连续6个月保持两位数增长"
+  },
+  {
+   "type": "原标题式",
+   "query": "快讯：恒指高开0.7% 恒科指涨0.78% 科网股活跃 存储",
+   "jaccard": 0.455,
+   "rank_diff": 1.4,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "快讯：恒指高开0.7% 恒科指涨0.78% 科网股活跃 存储概念股高开 芯德半导体首日涨逾2"
   },
   {
    "type": "关键词式",
    "query": "快讯 恒指 高开 恒科 指涨 科网",
-   "jaccard": 0.333,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 2,
+   "jaccard": 0.455,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 1,
    "missed_by_vector": 3,
-   "example_top1": "快讯：恒指高开0.59% 恒科指涨1.02% 科网股普涨 远信储能首日高开逾114%"
+   "example_top1": "快讯：恒指高开0.7% 恒科指涨0.78% 科网股活跃 存储概念股高开 芯德半导体首日涨逾2"
   },
   {
    "type": "去数字泛化",
-   "query": "快讯：恒指高开 恒科指涨 科网股普涨 远信储能首日高开逾",
-   "jaccard": 0.6,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "快讯：恒指高开0.59% 恒科指涨1.02% 科网股普涨 远信储能首日高开逾114%"
+   "query": "快讯：恒指高开 恒科指涨 科网股活跃 存储概念股高开 芯德半",
+   "jaccard": 0.143,
+   "rank_diff": 3.0,
+   "missed_by_bm25": 5,
+   "missed_by_vector": 3,
+   "example_top1": "快讯：恒指高开0.7% 恒科指涨0.78% 科网股活跃 存储概念股高开 芯德半导体首日涨逾2"
   }
  ]
 }
