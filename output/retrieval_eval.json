@@ -1,28 +1,28 @@
 {
  "summary": {
-  "n_queries": 9,
+  "n_queries": 8,
   "top_k": 8,
-  "avg_jaccard": 0.242,
-  "avg_rank_diff": 0.99,
-  "avg_missed_by_bm25": 2.56,
-  "avg_missed_by_vector": 3.11,
-  "conclusion": "两路召回集平均重合度仅 24%；即便重合的文档，两路名次平均相差 0.99 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.56 篇最终进入 Top8 的文档；只用向量则漏掉 3.11 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.391,
+  "avg_rank_diff": 1.31,
+  "avg_missed_by_bm25": 1.88,
+  "avg_missed_by_vector": 2.25,
+  "conclusion": "两路召回集平均重合度仅 39%；即便重合的文档，两路名次平均相差 1.31 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.88 篇最终进入 Top8 的文档；只用向量则漏掉 2.25 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
    "query": "11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜",
-   "jaccard": 0.333,
-   "rank_diff": 1.25,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 4,
+   "jaccard": 0.231,
+   "rank_diff": 0.33,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 3,
    "example_top1": "11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜均跌 美联储加息押注升温 欧洲市"
   },
   {
    "type": "关键词式",
    "query": "隔夜 要闻 美股 收跌 布伦特 一度",
-   "jaccard": 0.333,
-   "rank_diff": 0.25,
+   "jaccard": 0.455,
+   "rank_diff": 1.0,
    "missed_by_bm25": 1,
    "missed_by_vector": 3,
    "example_top1": "11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜均跌 美联储加息押注升温 欧洲市"
@@ -31,44 +31,17 @@
    "type": "去数字泛化",
    "query": "月日隔夜要闻：美股收跌 布伦特一度跌破美元 金铜均跌 美联储",
    "jaccard": 0.455,
-   "rank_diff": 0.6,
+   "rank_diff": 0.8,
    "missed_by_bm25": 3,
-   "missed_by_vector": 1,
+   "missed_by_vector": 0,
    "example_top1": "11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜均跌 美联储加息押注升温 欧洲市"
   },
   {
    "type": "原标题式",
-   "query": "Anthropic公布IPO发行方案：拟发行8.25亿股，最",
-   "jaccard": 0.143,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 4,
-   "example_top1": "Anthropic公布IPO发行方案：拟发行8.25亿股，最高募资规模达643.5亿美元"
-  },
-  {
-   "type": "关键词式",
-   "query": "公布 发行 方案 发行 亿股 最高",
-   "jaccard": 0.143,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
-   "example_top1": "Anthropic公布IPO发行方案：拟发行8.25亿股，最高募资规模达643.5亿美元"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "Anthropic公布IPO发行方案：拟发行亿股，最高募资规",
-   "jaccard": 0.067,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
-   "example_top1": "Anthropic公布IPO发行方案：拟发行8.25亿股，最高募资规模达643.5亿美元"
-  },
-  {
-   "type": "原标题式",
    "query": "产业催化密集落地，半导体芯片领涨市场，科创50ETF鹏华、科",
-   "jaccard": 0.333,
-   "rank_diff": 2.5,
-   "missed_by_bm25": 3,
+   "jaccard": 0.455,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 2,
    "missed_by_vector": 2,
    "example_top1": "产业催化密集落地，半导体芯片领涨市场，科创50ETF鹏华、科创50增强ETF鹏华涨超2%"
   },
@@ -76,7 +49,7 @@
    "type": "关键词式",
    "query": "产业 催化 密集 落地 半导体芯片 领涨",
    "jaccard": 0.143,
-   "rank_diff": 1.0,
+   "rank_diff": 0.5,
    "missed_by_bm25": 3,
    "missed_by_vector": 3,
    "example_top1": "产业催化密集落地，半导体芯片领涨市场，科创50ETF鹏华、科创50增强ETF鹏华涨超2%"
@@ -84,11 +57,29 @@
   {
    "type": "去数字泛化",
    "query": "产业催化密集落地，半导体芯片领涨市场，科创ETF鹏华、科创增",
-   "jaccard": 0.231,
-   "rank_diff": 2.33,
-   "missed_by_bm25": 3,
+   "jaccard": 0.333,
+   "rank_diff": 2.75,
+   "missed_by_bm25": 1,
    "missed_by_vector": 4,
    "example_top1": "产业催化密集落地，半导体芯片领涨市场，科创50ETF鹏华、科创50增强ETF鹏华涨超2%"
+  },
+  {
+   "type": "原标题式",
+   "query": "黄金交易提醒：通胀爆表、美元破位、加息板上钉钉，金价续跌失守",
+   "jaccard": 0.6,
+   "rank_diff": 1.67,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "黄金交易提醒：通胀爆表、美元破位、加息板上钉钉，金价续跌失守4000关口，“空头风暴”来了？"
+  },
+  {
+   "type": "关键词式",
+   "query": "黄金 交易 提醒 通胀 爆表 美元",
+   "jaccard": 0.455,
+   "rank_diff": 1.4,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "黄金交易提醒：美国通胀超预期+美联储官员放鹰，金价暴跌近3%，4000关口告急？"
   }
  ]
 }
