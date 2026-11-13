@@ -2,75 +2,75 @@
  "summary": {
   "n_queries": 7,
   "top_k": 8,
-  "avg_jaccard": 0.35,
-  "avg_rank_diff": 1.51,
-  "avg_missed_by_bm25": 2.14,
-  "avg_missed_by_vector": 2.86,
-  "conclusion": "两路召回集平均重合度仅 35%；即便重合的文档，两路名次平均相差 1.51 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.14 篇最终进入 Top8 的文档；只用向量则漏掉 2.86 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.275,
+  "avg_rank_diff": 1.77,
+  "avg_missed_by_bm25": 3.29,
+  "avg_missed_by_vector": 3.57,
+  "conclusion": "两路召回集平均重合度仅 28%；即便重合的文档，两路名次平均相差 1.77 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.29 篇最终进入 Top8 的文档；只用向量则漏掉 3.57 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "11月12日隔夜要闻：美股收高 金价跌破4000美元 黄仁勋",
+   "query": "“我算个什么东西”：黄仁勋离任英伟达 CEO 最后时刻心力交",
    "jaccard": 0.333,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
-   "example_top1": "11月12日隔夜要闻：美股收高 金价跌破4000美元 黄仁勋被爆出轨女下属 英伟达拟对其罢免"
+   "rank_diff": 1.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
+   "example_top1": "“我算个什么东西”：黄仁勋离任英伟达 CEO 最后时刻心力交瘁 把“随便”和“我不在乎”挂在"
   },
   {
    "type": "关键词式",
-   "query": "隔夜 要闻 美股 收高 金价 跌破",
-   "jaccard": 0.231,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
-   "example_top1": "11月12日隔夜要闻：美股收高 金价跌破4000美元 黄仁勋被爆出轨女下属 英伟达拟对其罢免"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "月日隔夜要闻：美股收高 金价跌破美元 黄仁勋被爆出轨女下属",
+   "query": "我算个 什么 东西 黄仁勋 离任 伟达",
    "jaccard": 0.143,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 6,
-   "example_top1": "11月12日隔夜要闻：美股收高 金价跌破4000美元 黄仁勋被爆出轨女下属 英伟达拟对其罢免"
+   "rank_diff": 1.0,
+   "missed_by_bm25": 5,
+   "missed_by_vector": 5,
+   "example_top1": "“我算个什么东西”：黄仁勋离任英伟达 CEO 最后时刻心力交瘁 把“随便”和“我不在乎”挂在"
   },
   {
    "type": "原标题式",
    "query": "黄金交易提醒：通胀爆表、美元破位、加息板上钉钉，金价续跌失守",
    "jaccard": 0.6,
-   "rank_diff": 2.83,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 2,
+   "rank_diff": 2.67,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
    "example_top1": "黄金交易提醒：通胀爆表、美元破位、加息板上钉钉，金价续跌失守4000关口，“空头风暴”来了？"
   },
   {
    "type": "关键词式",
    "query": "黄金 交易 提醒 通胀 爆表 美元",
-   "jaccard": 0.231,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 3,
+   "jaccard": 0.333,
+   "rank_diff": 2.25,
+   "missed_by_bm25": 2,
    "missed_by_vector": 3,
    "example_top1": "黄金交易提醒：通胀爆表、美元破位、加息板上钉钉，金价续跌失守4000关口，“空头风暴”来了？"
   },
   {
    "type": "原标题式",
-   "query": "央行：用好债市非银大额赎回互换便利，维护股票、债券、外汇等金",
-   "jaccard": 0.455,
-   "rank_diff": 1.6,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "央行：用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行"
+   "query": "上证指数开盘报3673.06点，跌0.21%。 深证成指开盘",
+   "jaccard": 0.143,
+   "rank_diff": 2.5,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 5,
+   "example_top1": "上证指数开盘报3673.06点，跌0.21%。 深证成指开盘报11361.82点"
   },
   {
    "type": "关键词式",
-   "query": "央行 债市 非银 大额 赎回 互换",
-   "jaccard": 0.455,
-   "rank_diff": 1.8,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "央行：用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行"
+   "query": "上证指数 开盘 深证 成指 开盘",
+   "jaccard": 0.143,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 4,
+   "example_top1": "上证指数开盘报3673.06点，跌0.21%。 深证成指开盘报11361.82点"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "上证指数开盘报点，跌。 深证成指开盘报点",
+   "jaccard": 0.231,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 3,
+   "example_top1": "上证指数开盘报3673.06点，跌0.21%。 深证成指开盘报11361.82点"
   }
  ]
 }
