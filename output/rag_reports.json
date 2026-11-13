@@ -1,207 +1,113 @@
 {
  "engine": "template(降级)",
- "n_clusters": 53,
+ "n_clusters": 52,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.7,
+ "elapsed": 5.2,
  "reports": [
   {
-   "key": "38f03aee69dfd10f",
-   "label": "11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜均跌 美联储加息押注升温 欧洲市场逼",
+   "key": "590563d89cd2efe1",
+   "label": "11月12日隔夜要闻：美股收高 金价跌破4000美元 黄仁勋被爆出轨女下属 英伟达拟对其罢免",
    "cached": false,
    "sections": {
-    "事件概述": "「11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜均跌 美联储加息押注升温 欧洲市场逼」由 68 篇报道聚合而成，覆盖 3 家媒体，热度 0.882（爆点），所属板块类目：半导体。",
-    "关键信息": "11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜均跌 美联储加息押注；大宗商品综述：布伦特一度跌破90美元 金铜均跌 美联储加息押注升温；11月12日隔夜要闻：美股收高 金价跌破4000美元 黄仁勋被爆出轨女下属 英伟",
+    "事件概述": "「11月12日隔夜要闻：美股收高 金价跌破4000美元 黄仁勋被爆出轨女下属 英伟达拟对其罢免」由 97 篇报道聚合而成，覆盖 4 家媒体，热度 0.843（爆点），所属板块类目：半导体。",
+    "关键信息": "11月12日隔夜要闻：美股收高 金价跌破4000美元 黄仁勋被爆出轨女下属 英伟；11月13日隔夜要闻：美股收跌 油价上涨 英伟达官宣黄仁勋辞职；连曝两宗婚外情，英伟达董事会据悉准备罢免黄仁勋",
     "市场影响": "关联板块代码：BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜均跌 美联储加息押注升温 欧洲市场逼近历史高点",
+     "title": "11月12日隔夜要闻：美股收高 金价跌破4000美元 黄仁勋被爆出轨女下属 英伟达拟对其罢免",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyiiai2019061.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniymmzr3988171.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "大宗商品综述：布伦特一度跌破90美元 金铜均跌 美联储加息押注升温",
+     "title": "11月13日隔夜要闻：美股收跌 油价上涨 英伟达官宣黄仁勋辞职",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyiaun8786952.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniypvhf1021853.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "11月12日隔夜要闻：美股收高 金价跌破4000美元 黄仁勋被爆出轨女下属 英伟达拟对其罢免",
+     "title": "连曝两宗婚外情，英伟达董事会据悉准备罢免黄仁勋",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniymmzr3988171.shtml",
-     "rrf": 0.03055,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniymmzi1345184.shtml",
+     "rrf": 0.03031,
      "bm25_rank": 7,
-     "vec_rank": 4
+     "vec_rank": 5
     },
     {
      "n": 4,
-     "title": "美联储加息预期升温，美股全线收跌，英伟达继续大跌，两天市值蒸发近3万亿元",
+     "title": "分析师悲观研判：失去黄仁勋，英伟达前景不明",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-11/doc-iniyiiai2063653.shtml",
-     "rrf": 0.0303,
-     "bm25_rank": 6,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "原油：油价延续跌势 市场押注伊朗局势进一步降温",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyiauh5441967.shtml",
-     "rrf": 0.02996,
-     "bm25_rank": 3,
-     "vec_rank": 11
-    },
-    {
-     "n": 6,
-     "title": "11月11日收盘：美股收跌 英伟达跌超5% 美联储理事沃勒称12月或需加息50基点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyiauk2219547.shtml",
-     "rrf": 0.02957,
-     "bm25_rank": 13,
-     "vec_rank": 3
-    },
-    {
-     "n": 7,
-     "title": "今日比特币：跌破7.4万美元创三个月新低，美国通胀超预期推高美联储加息预期",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/tob/2026-11-11/doc-iniyixxy2027236.shtml",
-     "rrf": 0.02942,
-     "bm25_rank": 9,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "加息预期升温，美股三大股指收跌",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniyiiai2026253.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynyav1613757.shtml",
      "rrf": 0.02896,
      "bm25_rank": 4,
      "vec_rank": 15
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "11月11日隔夜要闻：美股收跌 布伦特一度跌破90美元 金铜均跌 美联储加息押注",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "2a43468433601a68",
-   "label": "产业催化密集落地，半导体芯片领涨市场，科创50ETF鹏华、科创50增强ETF鹏华涨超2%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「产业催化密集落地，半导体芯片领涨市场，科创50ETF鹏华、科创50增强ETF鹏华涨超2%」由 16 篇报道聚合而成，覆盖 3 家媒体，热度 0.73（爆点），所属板块类目：金融市场。",
-    "关键信息": "产业催化密集落地，半导体芯片领涨市场，科创50ETF鹏华、科创50增强ETF鹏华；创业板指涨超1%，科创50涨超4%，沪指涨0.21%，深成指涨0.59%，半导体；加仓，资金涌入这一方向",
-    "市场影响": "关联板块代码：BK0967、BK0884、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "产业催化密集落地，半导体芯片领涨市场，科创50ETF鹏华、科创50增强ETF鹏华涨超2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611123929339144.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "创业板指涨超1%，科创50涨超4%，沪指涨0.21%，深成指涨0.59%，半导体",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3198745",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "加仓，资金涌入这一方向",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-12/doc-iniyntuz3774525.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "科创50指数涨超3%，算力芯片、电子特气等方向领涨。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3198738",
-     "rrf": 0.03058,
-     "bm25_rank": 3,
-     "vec_rank": 8
     },
     {
      "n": 5,
-     "title": "A股半导体芯片股震荡走强，天普股份触及涨停，利扬芯片涨超12%，富瀚微、创耀科技",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3198043",
-     "rrf": 0.02879,
-     "bm25_rank": 19,
-     "vec_rank": 2
+     "title": "黄仁勋又被爆 与向他汇报的英伟达高管有婚外情 英伟达盘后大跌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniymmzp1881601.shtml",
+     "rrf": 0.02869,
+     "bm25_rank": 18,
+     "vec_rank": 3
     },
     {
      "n": 6,
-     "title": "三季度全球硅晶圆出货量同比增长13.4%，科创半导体设备ETF鹏华涨超2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611123929339376.html",
-     "rrf": 0.02878,
-     "bm25_rank": 4,
-     "vec_rank": 16
+     "title": "英伟达美股盘前跌超13%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/t/2026-11-12/doc-iniynyax3743787.shtml",
+     "rrf": 0.02735,
+     "bm25_rank": 22,
+     "vec_rank": 6
     },
     {
      "n": 7,
-     "title": "科创50指数上涨2.35% 水产概念、科技股走强 两市半日放量超2900亿",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611123929335769.html",
-     "rrf": 0.02791,
-     "bm25_rank": 7,
-     "vec_rank": 17
+     "title": "投资者静待黄仁勋命运落定，英伟达盘前下跌6%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynppa8524205.shtml",
+     "rrf": 0.02727,
+     "bm25_rank": 21,
+     "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "超2000亿资金力挺科技！源杰科技20CM涨停！硬科技宽基——双创50ETF华宝（588330）强势拉升4.62%！",
+     "title": "AI相关股票盘后下挫 英伟达据报计划罢免黄仁勋",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/fund/etf/2026-11-11/doc-iniykkpw8422911.shtml",
-     "rrf": 0.02712,
-     "bm25_rank": 22,
-     "vec_rank": 7
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniymsif1222323.shtml",
+     "rrf": 0.02613,
+     "bm25_rank": 11,
+     "vec_rank": 23
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "产业催化密集落地，半导体芯片领涨市场，科创50ETF鹏华、科创50增强ETF鹏华",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 0
+    "query": "11月12日隔夜要闻：美股收高 金价跌破4000美元 黄仁勋被爆出轨女下属 英伟",
+    "bm25_only": 1,
+    "vec_only": 3,
+    "both": 3,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "4d03842a58d07adf",
+   "key": "4b3805d4899e961b",
    "label": "黄金交易提醒：通胀爆表、美元破位、加息板上钉钉，金价续跌失守4000关口，“空头风暴”来了？",
    "cached": false,
    "sections": {
-    "事件概述": "「黄金交易提醒：通胀爆表、美元破位、加息板上钉钉，金价续跌失守4000关口，“空头风暴”来了？」由 16 篇报道聚合而成，覆盖 3 家媒体，热度 0.719（爆点），所属板块类目：国际市场。",
-    "关键信息": "黄金交易提醒：通胀爆表、美元破位、加息板上钉钉，金价续跌失守4000关口，“空头；黄金交易提醒：美国通胀超预期+美联储官员放鹰，金价暴跌近3%，4000关口告急？；美1国0月CPI影响持续发酵，金价失守4000美元关口 显现新一轮抛压风险",
+    "事件概述": "「黄金交易提醒：通胀爆表、美元破位、加息板上钉钉，金价续跌失守4000关口，“空头风暴”来了？」由 17 篇报道聚合而成，覆盖 4 家媒体，热度 0.681（爆点），所属板块类目：国际市场。",
+    "关键信息": "黄金交易提醒：通胀爆表、美元破位、加息板上钉钉，金价续跌失守4000关口，“空头；美1国0月CPI影响持续发酵，金价失守4000美元关口 显现新一轮抛压风险；光大期货1112黄金点评：12月加息预期升温，黄金失守4000美元关口",
     "市场影响": "关联板块代码：BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -217,21 +123,21 @@
     },
     {
      "n": 2,
-     "title": "黄金交易提醒：美国通胀超预期+美联储官员放鹰，金价暴跌近3%，4000关口告急？",
+     "title": "美1国0月CPI影响持续发酵，金价失守4000美元关口 显现新一轮抛压风险",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-11/doc-iniyiiae5367383.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-11-12/doc-iniymwrm3848535.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "美1国0月CPI影响持续发酵，金价失守4000美元关口 显现新一轮抛压风险",
+     "title": "光大期货1112黄金点评：12月加息预期升温，黄金失守4000美元关口",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-11-12/doc-iniymwrm3848535.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
-     "vec_rank": 3
+     "url": "https://finance.sina.com.cn/money/nmetal/gjshz/2026-11-12/doc-iniymsim1860393.shtml",
+     "rrf": 0.03105,
+     "bm25_rank": 2,
+     "vec_rank": 7
     },
     {
      "n": 4,
@@ -244,235 +150,329 @@
     },
     {
      "n": 5,
-     "title": "光大期货1112黄金点评：12月加息预期升温，黄金失守4000美元关口",
+     "title": "美加息预期强化 机构把脉金价走向",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/nmetal/gjshz/2026-11-12/doc-iniymsim1860393.shtml",
-     "rrf": 0.03083,
-     "bm25_rank": 2,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-12/doc-iniymmzi1323061.shtml",
+     "rrf": 0.02976,
+     "bm25_rank": 3,
+     "vec_rank": 12
     },
     {
      "n": 6,
      "title": "通胀顽固压制金价，黄金跌破4000美元整数关，谨防向下加速",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-12/doc-iniymwrm3848609.shtml",
-     "rrf": 0.02951,
+     "rrf": 0.02976,
      "bm25_rank": 12,
-     "vec_rank": 4
+     "vec_rank": 3
     },
     {
      "n": 7,
-     "title": "美通胀超预期，黄金一夜跌逾百点濒临4000美元大关",
+     "title": "金价创年内新低：美联储加息预期升温，美股同步下挫",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniyitsa2100326.shtml",
-     "rrf": 0.02944,
-     "bm25_rank": 10,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-13/doc-iniypekv3739408.shtml",
+     "rrf": 0.02971,
+     "bm25_rank": 11,
+     "vec_rank": 4
     },
     {
      "n": 8,
-     "title": "美加息预期强化 机构把脉金价走向",
+     "title": "美通胀超预期，黄金一夜跌逾百点濒临4000美元大关",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-12/doc-iniymmzi1323061.shtml",
-     "rrf": 0.02904,
-     "bm25_rank": 6,
-     "vec_rank": 12
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniyitsa2100326.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 9,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "黄金交易提醒：通胀爆表、美元破位、加息板上钉钉，金价续跌失守4000关口，“空头",
     "bm25_only": 1,
-    "vec_only": 2,
-    "both": 5,
+    "vec_only": 3,
+    "both": 4,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "bf1acf1f71f78910",
-   "label": "估值五周蒸发近万亿 Anthropic冲击史上第二大IPO 7位创始人套现18亿美元",
+   "key": "f4ffa839f197c199",
+   "label": "央行：用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行",
    "cached": false,
    "sections": {
-    "事件概述": "「估值五周蒸发近万亿 Anthropic冲击史上第二大IPO 7位创始人套现18亿美元」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.686（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "估值五周蒸发近万亿 Anthropic冲击史上第二大IPO 7位创始人套现18亿；Anthropic七名联合创始人拟在重磅IPO中套现17.5亿美元；高盛分析师：预测Anthropic到2030年营收将达6850亿美元",
-    "市场影响": "关联板块代码：BK0697。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "估值五周蒸发近万亿 Anthropic冲击史上第二大IPO 7位创始人套现18亿美元",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611123929330892.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "Anthropic七名联合创始人拟在重磅IPO中套现17.5亿美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhsen5669806.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "高盛分析师：预测Anthropic到2030年营收将达6850亿美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhsen5658092.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
-    },
-    {
-     "n": 4,
-     "title": "Anthropic拟通过IPO和私募配售筹至多904亿美元 有望超SpaceX纪录",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhwnn2342380.shtml",
-     "rrf": 0.02903,
-     "bm25_rank": 16,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "报道称：OpenAI以1.25万亿美元估值融资150亿美元",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611123929990721.html",
-     "rrf": 0.02828,
-     "bm25_rank": 4,
-     "vec_rank": 19
-    },
-    {
-     "n": 6,
-     "title": "报道：Anthropic重磅IPO已获数倍超额认购",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3198456",
-     "rrf": 0.02804,
-     "bm25_rank": 15,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "两日蒸发2.85万亿元！英伟达市值一度被微软“踩在脚下”",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611113928235048.html",
-     "rrf": 0.02744,
-     "bm25_rank": 10,
-     "vec_rank": 16
-    },
-    {
-     "n": 8,
-     "title": "Anthropic的投行考虑将IPO估值推高至1.5万亿美元以上。（英国金融时报",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3198005",
-     "rrf": 0.02727,
-     "bm25_rank": 21,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "估值五周蒸发近万亿 Anthropic冲击史上第二大IPO 7位创始人套现18亿",
-    "bm25_only": 2,
-    "vec_only": 3,
-    "both": 2,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "6f63e726f5279a36",
-   "label": "商品期货开盘，铝合金、沪银主力合约跌超3%，沪铝、沪金、BR橡胶跌超2%。豆二涨",
-   "cached": false,
-   "sections": {
-    "事件概述": "「商品期货开盘，铝合金、沪银主力合约跌超3%，沪铝、沪金、BR橡胶跌超2%。豆二涨」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.661（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "商品期货开盘，铝合金、沪银主力合约跌超3%，沪铝、沪金、BR橡胶跌超2%。豆二涨；商品期货开盘，棕榈油、20号胶主力合约涨超2%，丙烯、生猪、BR橡胶涨近2%。铂；开盘|国内期货主力合约跌多涨少 豆粕、豆二涨超2%",
+    "事件概述": "「央行：用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.611（爆点），所属板块类目：宏观政策。",
+    "关键信息": "央行：用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行；11月11日晚间新闻精选；想用债市非银大额赎回互换便利？需满足这些条件！",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "商品期货开盘，铝合金、沪银主力合约跌超3%，沪铝、沪金、BR橡胶跌超2%。豆二涨",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3198013",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
+     "title": "央行：用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/china/2026-11-11/doc-iniykefx1864645.shtml",
+     "rrf": 0.03252,
+     "bm25_rank": 2,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "商品期货开盘，棕榈油、20号胶主力合约涨超2%，丙烯、生猪、BR橡胶涨近2%。铂",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3198707",
-     "rrf": 0.032,
-     "bm25_rank": 2,
+     "title": "11月11日晚间新闻精选",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-11/doc-iniykqvx2266040.shtml",
+     "rrf": 0.03227,
+     "bm25_rank": 1,
      "vec_rank": 3
     },
     {
      "n": 3,
-     "title": "开盘|国内期货主力合约跌多涨少 豆粕、豆二涨超2%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-11/doc-iniyiiah2190297.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "title": "想用债市非银大额赎回互换便利？需满足这些条件！",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611123929328837.html",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
      "vec_rank": 2
     },
     {
      "n": 4,
-     "title": "国内商品期货夜盘开盘 主力合约大面积飘红",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611113928631864.html",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
+     "title": "周三美股盘前你需要了解的全球要闻",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198472",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
      "vec_rank": 4
     },
     {
      "n": 5,
-     "title": "华泰期货：沪铝昨日下跌 市场担忧未来供给过剩？",
+     "title": "专家解读来了！维护股票、债券、外汇等金融市场平稳运行，央行发布重要报告",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-11/doc-iniyipke2105431.shtml",
+     "url": "https://finance.sina.com.cn/china/2026-11-11/doc-iniykqvu8330765.shtml",
      "rrf": 0.03055,
      "bm25_rank": 4,
      "vec_rank": 7
     },
     {
      "n": 6,
-     "title": "收评|国内期货主力合约涨多跌少 集运欧线涨超4%",
+     "title": "公募基金强化全流程风险管理",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-11/doc-iniyixxw5284770.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 9,
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniypvhf1020323.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
      "vec_rank": 5
     },
     {
      "n": 7,
-     "title": "国内期货主力合约涨多跌少 葵花籽油等涨超2%",
+     "title": "一财社论：完善流动性管理，防范化解金融风险",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-12/doc-iniymsin8614462.shtml",
-     "rrf": 0.02944,
-     "bm25_rank": 10,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/roll/2026-11-12/doc-iniynyar1040471.shtml",
+     "rrf": 0.02878,
+     "bm25_rank": 9,
+     "vec_rank": 10
     },
     {
      "n": 8,
-     "title": "国债期货开盘，30年期主力合约跌0.14%，10年期主力合约跌0.03%，5年期",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3198028",
-     "rrf": 0.02904,
-     "bm25_rank": 6,
-     "vec_rank": 12
+     "title": "政策工具优化迭代 稳市机制加快完善",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-12/doc-iniykzmt2096179.shtml",
+     "rrf": 0.02867,
+     "bm25_rank": 14,
+     "vec_rank": 6
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "商品期货开盘，铝合金、沪银主力合约跌超3%，沪铝、沪金、BR橡胶跌超2%。豆二涨",
-    "bm25_only": 1,
+    "query": "央行：用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "b772382c7363fa6e",
+   "label": "上证指数开盘报3673.06点，跌0.21%。 深证成指开盘报11361.82点",
+   "cached": false,
+   "sections": {
+    "事件概述": "「上证指数开盘报3673.06点，跌0.21%。 深证成指开盘报11361.82点」由 15 篇报道聚合而成，覆盖 3 家媒体，热度 0.597（爆点），所属板块类目：金融市场。",
+    "关键信息": "上证指数开盘报3673.06点，跌0.21%。 深证成指开盘报11361.82点；牛市早报｜证监会：中国发展具有长期确定性，投资中国具备坚实的基础；中天期货:商品指数下跌减速震荡 白银低位震荡",
+    "市场影响": "关联板块代码：BK0967、BK0884。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "上证指数开盘报3673.06点，跌0.21%。 深证成指开盘报11361.82点",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198715",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "牛市早报｜证监会：中国发展具有长期确定性，投资中国具备坚实的基础",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniypvhp3750550.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 14,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "中天期货:商品指数下跌减速震荡 白银低位震荡",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-12/doc-iniyntut1091569.shtml",
+     "rrf": 0.02896,
+     "bm25_rank": 15,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "美股开盘三大指数涨跌不一 英伟达大跌13%市值蒸发超5000亿美元",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611123929971375.html",
+     "rrf": 0.0269,
+     "bm25_rank": 8,
+     "vec_rank": 22
+    },
+    {
+     "n": 5,
+     "title": "中证转债指数开盘上涨0.05%。中鼎转03、奥士转债、丰茂转债、振26转债、珂玛",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198718",
+     "rrf": 0.02643,
+     "bm25_rank": 21,
+     "vec_rank": 11
+    },
+    {
+     "n": 6,
+     "title": "A股开盘：超2700只个股飘红，三大指数集体高开",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-13/10731319.shtml",
+     "rrf": 0.02642,
+     "bm25_rank": 7,
+     "vec_rank": 27
+    },
+    {
+     "n": 7,
+     "title": "A股半导体产业链热度抬升 国产算力链配置价值凸显",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hyyj/2026-11-13/doc-iniypvhp3704651.shtml",
+     "rrf": 0.0256,
+     "bm25_rank": 13,
+     "vec_rank": 24
+    },
+    {
+     "n": 8,
+     "title": "中天期货:白银低位震荡 甲醇反弹修复",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-11/doc-iniykkpv1790097.shtml",
+     "rrf": 0.02552,
+     "bm25_rank": 10,
+     "vec_rank": 29
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "上证指数开盘报3673.06点，跌0.21%。 深证成指开盘报11361.82点",
+    "bm25_only": 2,
     "vec_only": 2,
-    "both": 5,
+    "both": 1,
+    "neither_topk": 3
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "24927e7f5fc6dea0",
+   "label": "商品期货开盘，棕榈油、20号胶主力合约涨超2%，丙烯、生猪、BR橡胶涨近2%。铂",
+   "cached": false,
+   "sections": {
+    "事件概述": "「商品期货开盘，棕榈油、20号胶主力合约涨超2%，丙烯、生猪、BR橡胶涨近2%。铂」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.56（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "商品期货开盘，棕榈油、20号胶主力合约涨超2%，丙烯、生猪、BR橡胶涨近2%。铂；国内期货主力合约涨多跌少 葵花籽油等涨超2%；收评|国内期货主力合约涨多跌少 集运欧线涨超4%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "商品期货开盘，棕榈油、20号胶主力合约涨超2%，丙烯、生猪、BR橡胶涨近2%。铂",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198707",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "国内期货主力合约涨多跌少 葵花籽油等涨超2%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-12/doc-iniymsin8614462.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "收评|国内期货主力合约涨多跌少 集运欧线涨超4%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-11/doc-iniyixxw5284770.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "开盘|国内期货主力合约涨多跌少 乙二醇（EG）涨超4%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-13/doc-iniypzqi1252430.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "国内商品期货夜盘开盘 主力合约大面积飘红",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611113928631864.html",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "光大期货1111热点追踪：资金涌入叠加低库存托底，橡胶反弹逾3%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-11/doc-iniyixya8525498.shtml",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "华泰期货：橡胶历史上涨行情回溯及启发",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-13/doc-iniypzqi1296996.shtml",
+     "rrf": 0.02927,
+     "bm25_rank": 12,
+     "vec_rank": 5
+    },
+    {
+     "n": 8,
+     "title": "华泰期货：泰国原料价格坚挺，预计橡胶仍将维持强势",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-12/doc-iniymsif1303158.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 9,
+     "vec_rank": 8
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "商品期货开盘，棕榈油、20号胶主力合约涨超2%，丙烯、生猪、BR橡胶涨近2%。铂",
+    "bm25_only": 0,
+    "vec_only": 2,
+    "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
