@@ -1,112 +1,18 @@
 {
  "engine": "template(降级)",
- "n_clusters": 47,
+ "n_clusters": 43,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.1,
+ "elapsed": 4.3,
  "reports": [
   {
-   "key": "3e76a9caee72c98e",
-   "label": "美股盘初，半导体指数跌1%。 英伟达涨1.5%，Ceberas Systems涨",
-   "cached": false,
-   "sections": {
-    "事件概述": "「美股盘初，半导体指数跌1%。 英伟达涨1.5%，Ceberas Systems涨」由 22 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：半导体。",
-    "关键信息": "美股盘初，半导体指数跌1%。 英伟达涨1.5%，Ceberas Systems涨；周五（11月13日），半导体ETF收跌2.99%，领跌美股行业ETF，科技行业E；英伟达回吐美股盘初涨幅，转跌1.3%。",
-    "市场影响": "关联板块代码：BK1036、BK1161、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "美股盘初，半导体指数跌1%。 英伟达涨1.5%，Ceberas Systems涨",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3199862",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "周五（11月13日），半导体ETF收跌2.99%，领跌美股行业ETF，科技行业E",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200026",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "英伟达回吐美股盘初涨幅，转跌1.3%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3199865",
-     "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "纳斯达克100指数跌超1%，标普跌0.4%，半导体指数下跌将近4%。英伟达跌2.",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3199872",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "美股半导体板块集体走低 费城半导体指数跌4.3%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611133931034640.html",
-     "rrf": 0.03062,
-     "bm25_rank": 2,
-     "vec_rank": 9
-    },
-    {
-     "n": 6,
-     "title": "美股三大股指小幅高开 英伟达反弹1.6%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611133931007134.html",
-     "rrf": 0.02924,
-     "bm25_rank": 6,
-     "vec_rank": 11
-    },
-    {
-     "n": 7,
-     "title": "英伟达高开低走 迅速跌超1%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611133931016361.html",
-     "rrf": 0.02924,
-     "bm25_rank": 11,
-     "vec_rank": 6
-    },
-    {
-     "n": 8,
-     "title": "英伟达股价跌幅扩大至2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611133931018279.html",
-     "rrf": 0.02862,
-     "bm25_rank": 13,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "美股盘初，半导体指数跌1%。 英伟达涨1.5%，Ceberas Systems涨",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "a2098b6931d6648f",
+   "key": "d7fbff79b72d17a9",
    "label": "美国国土安全部（DHS）部长Mullin：没有迹象表明，是威胁导致美国联邦航空管",
    "cached": false,
    "sections": {
-    "事件概述": "「美国国土安全部（DHS）部长Mullin：没有迹象表明，是威胁导致美国联邦航空管」由 14 篇报道聚合而成，覆盖 3 家媒体，热度 0.694（爆点），所属板块类目：交运物流。",
+    "事件概述": "「美国国土安全部（DHS）部长Mullin：没有迹象表明，是威胁导致美国联邦航空管」由 15 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：交运物流。",
     "关键信息": "美国国土安全部（DHS）部长Mullin：没有迹象表明，是威胁导致美国联邦航空管；美国国土安全部部长穆林：事态似乎正朝着正确的方向发展。 没有发生网络攻击，目前仍；微软：没有迹象表明美国联邦航空管理局（FAA）的全美停飞与（我司）任何服务有关。",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -162,8 +68,8 @@
      "title": "达菲证实：因出现“通信故障”，美国联邦航空管理局已发布全美地面停飞令",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrtxp0927230.shtml",
-     "rrf": 0.02927,
-     "bm25_rank": 12,
+     "rrf": 0.02947,
+     "bm25_rank": 11,
      "vec_rank": 5
     },
     {
@@ -180,8 +86,8 @@
      "title": "美国联邦航空管理局以特殊情况为由发布地面停飞令",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrtxq7700478.shtml",
-     "rrf": 0.0284,
-     "bm25_rank": 13,
+     "rrf": 0.02822,
+     "bm25_rank": 14,
      "vec_rank": 8
     }
    ],
@@ -196,106 +102,200 @@
    "elapsed": 0.0
   },
   {
-   "key": "8df841078930cb9a",
-   "label": "10月末社融、M2增速均超7% 专家：年内降息降准可能性下降",
+   "key": "d548e8e2fad565d8",
+   "label": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗口的活力",
    "cached": false,
    "sections": {
-    "事件概述": "「10月末社融、M2增速均超7% 专家：年内降息降准可能性下降」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.538（爆点），所属板块类目：宏观政策。",
-    "关键信息": "10月末社融、M2增速均超7% 专家：年内降息降准可能性下降；前10月社融增量中 债券和股票融资合计占比过半；央行重要数据！最新解读来了",
-    "市场影响": "关联板块代码：BK000199。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗口的活力」由 6 篇报道聚合而成，覆盖 4 家媒体，热度 0.612（爆点），所属板块类目：综合。",
+    "关键信息": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗；中国国际商会副秘书长徐梁：深圳将设置特色参访点 拓展经贸交流合作空间；2026年APEC工商领导人峰会，约147家深圳企业将与境内外企业探讨经贸合作",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "10月末社融、M2增速均超7% 专家：年内降息降准可能性下降",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3199857",
+     "title": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗口的活力",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-15/10732347.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "前10月社融增量中 债券和股票融资合计占比过半",
+     "title": "中国国际商会副秘书长徐梁：深圳将设置特色参访点 拓展经贸交流合作空间",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611153931384552.html",
+     "url": "https://finance.eastmoney.com/a/202611153931406025.html",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "央行重要数据！最新解读来了",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyrazv1149745.shtml",
-     "rrf": 0.02967,
-     "bm25_rank": 10,
-     "vec_rank": 5
+     "title": "2026年APEC工商领导人峰会，约147家深圳企业将与境内外企业探讨经贸合作",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200086",
+     "rrf": 0.03058,
+     "bm25_rank": 8,
+     "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "隔夜SHIBOR报1.2970%，下降3.50个基点。 7天SHIBOR报1.3",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3199533",
-     "rrf": 0.02932,
-     "bm25_rank": 4,
+     "title": "视频丨三个维度，解锁深圳的开放密码",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-15/doc-iniyupuh6595976.shtml",
+     "rrf": 0.02957,
+     "bm25_rank": 3,
      "vec_rank": 13
     },
     {
      "n": 5,
-     "title": "多元融资渠道互补发展 金融总量合理增长",
+     "title": "深圳准备就绪 以高水平服务保障APEC盛会",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyryfn7607534.shtml",
-     "rrf": 0.02705,
-     "bm25_rank": 12,
-     "vec_rank": 16
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyskvh7439719.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 9,
+     "vec_rank": 7
     },
     {
      "n": 6,
-     "title": "英国央行首席经济学家：明年或需进一步加息，伊朗冲突结束可能性极低",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytfyx2726460.shtml",
-     "rrf": 0.02583,
-     "bm25_rank": 20,
-     "vec_rank": 15
+     "title": "（深圳APEC）当中国经济特区遇上APEC：探寻亚太经贸合作新路径",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-14/10732078.shtml",
+     "rrf": 0.02914,
+     "bm25_rank": 4,
+     "vec_rank": 14
     },
     {
      "n": 7,
-     "title": "美联储原本预期今年降息，如今要再度迎战通胀",
+     "title": "超百家世界500强企业代表将参加APEC工商领导人峰会",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyrazv1148474.shtml",
-     "rrf": 0.02528,
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-15/doc-iniyupue9828827.shtml",
+     "rrf": 0.0289,
      "bm25_rank": 14,
-     "vec_rank": 25
+     "vec_rank": 5
     },
     {
      "n": 8,
-     "title": "美联储12月加息基本锁定 市场焦点转向明年1月",
+     "title": "APEC氛围拉满！迎接亚太宾朋 深圳准备好了",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrtxp0925587.shtml",
-     "rrf": 0.02504,
-     "bm25_rank": 23,
-     "vec_rank": 17
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyskvi3020026.shtml",
+     "rrf": 0.02879,
+     "bm25_rank": 11,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "10月末社融、M2增速均超7% 专家：年内降息降准可能性下降",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 2,
-    "neither_topk": 4
+    "query": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗",
+    "bm25_only": 2,
+    "vec_only": 3,
+    "both": 3,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "1b6a0823577315b4",
+   "key": "52a290915427aa57",
+   "label": "金饰克价较年内高点跌超500元，向太劝年轻人不要炒黄金，“炒跟赌没区别”",
+   "cached": false,
+   "sections": {
+    "事件概述": "「金饰克价较年内高点跌超500元，向太劝年轻人不要炒黄金，“炒跟赌没区别”」由 5 篇报道聚合而成，覆盖 2 家媒体，热度 0.581（爆点），所属板块类目：国际市场。",
+    "关键信息": "金饰克价较年内高点跌超500元，向太劝年轻人不要炒黄金，“炒跟赌没区别”；突遭抛售！黄金，重挫！金饰价格，连续四天下调，发生了什么？；金价，跌回一年前！20克大金镯子跌了10000元",
+    "市场影响": "关联板块代码：BK0732、BK0547。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "金饰克价较年内高点跌超500元，向太劝年轻人不要炒黄金，“炒跟赌没区别”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniyszsx0423455.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "突遭抛售！黄金，重挫！金饰价格，连续四天下调，发生了什么？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-15/doc-iniyvesc3144101.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "金价，跌回一年前！20克大金镯子跌了10000元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniysrcf2964896.shtml",
+     "rrf": 0.03062,
+     "bm25_rank": 9,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "标普500指数转跌，纳斯达克100指数跌超0.4%，费城半导体指数跌超2.2%，",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3199869",
+     "rrf": 0.03055,
+     "bm25_rank": 4,
+     "vec_rank": 7
+    },
+    {
+     "n": 5,
+     "title": "比特币跌至62000美元，日内跌超5%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611153931397955.html",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "韩国央行逢低买金 第三季度黄金ETF持仓增40%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuyka6430476.shtml",
+     "rrf": 0.03016,
+     "bm25_rank": 3,
+     "vec_rank": 10
+    },
+    {
+     "n": 7,
+     "title": "比特币跌破63000美元 日内跌超4%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611153931395066.html",
+     "rrf": 0.02885,
+     "bm25_rank": 6,
+     "vec_rank": 13
+    },
+    {
+     "n": 8,
+     "title": "黄金，正在重演2013年崩盘？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/cj/2026-11-14/doc-iniysvma7302263.shtml",
+     "rrf": 0.02743,
+     "bm25_rank": 7,
+     "vec_rank": 20
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "金饰克价较年内高点跌超500元，向太劝年轻人不要炒黄金，“炒跟赌没区别”",
+    "bm25_only": 3,
+    "vec_only": 1,
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "53e900ba7dcc9a04",
    "label": "国家医保局局长章轲：今年有两款商保创新药目录药品成功纳入基本医保目录",
    "cached": false,
    "sections": {
-    "事件概述": "「国家医保局局长章轲：今年有两款商保创新药目录药品成功纳入基本医保目录」由 7 篇报道聚合而成，覆盖 2 家媒体，热度 0.526（爆点），所属板块类目：生物医药。",
-    "关键信息": "国家医保局局长章轲：今年有两款商保创新药目录药品成功纳入基本医保目录；2026年商保创新药目录发布 11家企业12款药品成功纳入；2026年版国家基本医保药品目录即将发布",
+    "事件概述": "「国家医保局局长章轲：今年有两款商保创新药目录药品成功纳入基本医保目录」由 7 篇报道聚合而成，覆盖 2 家媒体，热度 0.562（爆点），所属板块类目：生物医药。",
+    "关键信息": "国家医保局局长章轲：今年有两款商保创新药目录药品成功纳入基本医保目录；2026年版国家基本医保药品目录即将发布；新增12种药品 2026年商业健康保险创新药品目录共有28种",
     "市场影响": "关联板块代码：BK0465、BK1044。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -311,24 +311,15 @@
     },
     {
      "n": 2,
-     "title": "2026年商保创新药目录发布 11家企业12款药品成功纳入",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611143931305114.html",
-     "rrf": 0.03105,
-     "bm25_rank": 7,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
      "title": "2026年版国家基本医保药品目录即将发布",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611143931294215.html",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
+     "rrf": 0.0308,
+     "bm25_rank": 7,
      "vec_rank": 3
     },
     {
-     "n": 4,
+     "n": 3,
      "title": "新增12种药品 2026年商业健康保险创新药品目录共有28种",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611143931301719.html",
@@ -337,142 +328,151 @@
      "vec_rank": 9
     },
     {
-     "n": 5,
-     "title": "再创新高！51个一类新药进入新版国家医保药品目录",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyskvi3028610.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "百万级CAR-T抗癌药首次纳入基本医保 患者自付降至10万元以内",
+     "n": 4,
+     "title": "2026年商保创新药目录发布 11家企业12款药品成功纳入",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611143931304977.html",
-     "rrf": 0.02983,
-     "bm25_rank": 2,
-     "vec_rank": 13
+     "url": "https://finance.eastmoney.com/a/202611143931305114.html",
+     "rrf": 0.03002,
+     "bm25_rank": 12,
+     "vec_rank": 2
     },
     {
-     "n": 7,
+     "n": 5,
      "title": "伏欣奇拜单抗（金蓓欣®）纳入国家医保，半年一针有望推动痛风实现临床治愈",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3200090",
-     "rrf": 0.02967,
-     "bm25_rank": 5,
-     "vec_rank": 10
+     "rrf": 0.02924,
+     "bm25_rank": 6,
+     "vec_rank": 11
+    },
+    {
+     "n": 6,
+     "title": "再创新高！51个一类新药进入新版国家医保药品目录",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyskvi3028610.shtml",
+     "rrf": 0.0289,
+     "bm25_rank": 14,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "百万级CAR-T抗癌药首次纳入基本医保 患者自付降至10万元以内",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611143931304977.html",
+     "rrf": 0.02879,
+     "bm25_rank": 2,
+     "vec_rank": 19
     },
     {
      "n": 8,
-     "title": "2026年医保目录公布，新增107种，明年1月1日执行",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyskvi3035239.shtml",
-     "rrf": 0.02932,
-     "bm25_rank": 13,
-     "vec_rank": 4
+     "title": "远大医药6款产品纳入2026年国家医保药品目录、商保创新药目录及推荐清单",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200192",
+     "rrf": 0.02769,
+     "bm25_rank": 8,
+     "vec_rank": 17
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "国家医保局局长章轲：今年有两款商保创新药目录药品成功纳入基本医保目录",
-    "bm25_only": 3,
-    "vec_only": 1,
-    "both": 4,
+    "bm25_only": 4,
+    "vec_only": 2,
+    "both": 2,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "15443e6ae6c36242",
-   "label": "刚刚，全线大跳水！31.87万人爆仓！资金大规模出逃，比特币发生了啥？",
+   "key": "182b40508c186564",
+   "label": "伊朗革命卫队：出动六架无人机袭击了巴林美军基地一防空雷达",
    "cached": false,
    "sections": {
-    "事件概述": "「刚刚，全线大跳水！31.87万人爆仓！资金大规模出逃，比特币发生了啥？」由 5 篇报道聚合而成，覆盖 2 家媒体，热度 0.508（高热），所属板块类目：国际市场。",
-    "关键信息": "刚刚，全线大跳水！31.87万人爆仓！资金大规模出逃，比特币发生了啥？；比特币跌破63000美元 日内跌超4%；受通胀担忧拖累，比特币跌破7万美元",
-    "市场影响": "关联板块代码：BK0830。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「伊朗革命卫队：出动六架无人机袭击了巴林美军基地一防空雷达」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.529（高热），所属板块类目：汽车出行。",
+    "关键信息": "伊朗革命卫队：出动六架无人机袭击了巴林美军基地一防空雷达；伊朗发布打击巴林美军基地视频；美军否认在巴林雷达遭伊朗袭击",
+    "市场影响": "关联板块代码：BK0704。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "刚刚，全线大跳水！31.87万人爆仓！资金大规模出逃，比特币发生了啥？",
+     "title": "伊朗革命卫队：出动六架无人机袭击了巴林美军基地一防空雷达",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-15/doc-iniyupue9816295.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuykf3208928.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "比特币跌破63000美元 日内跌超4%",
+     "title": "伊朗发布打击巴林美军基地视频",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611153931395066.html",
+     "url": "https://finance.eastmoney.com/a/202611153931461381.html",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "美军否认在巴林雷达遭伊朗袭击",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3199874",
      "rrf": 0.03175,
      "bm25_rank": 3,
      "vec_rank": 3
     },
     {
-     "n": 3,
-     "title": "受通胀担忧拖累，比特币跌破7万美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqfwi3745879.shtml",
-     "rrf": 0.03151,
-     "bm25_rank": 5,
-     "vec_rank": 2
-    },
-    {
      "n": 4,
-     "title": "比特币跌至62000美元，日内跌超5%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611153931397955.html",
-     "rrf": 0.03083,
-     "bm25_rank": 2,
-     "vec_rank": 8
+     "title": "伊朗称拦截并摧毁一架美MQ1无人机",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200130",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
     },
     {
      "n": 5,
-     "title": "比特币跌至三个月低点 加密货币持续承压",
+     "title": "巴林称遭伊朗无人机袭击 伊朗称“回应美国侵略”",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611153931391282.html",
-     "rrf": 0.02986,
-     "bm25_rank": 8,
+     "url": "https://finance.eastmoney.com/a/202611153931466582.html",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
      "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "比特币一度跌破6.8万美元创三个月新低，加密货币概念股集体下跌",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyriiv3482393.shtml",
-     "rrf": 0.02951,
-     "bm25_rank": 12,
-     "vec_rank": 4
+     "title": "伊朗称击落一架轨道飞行器无人机",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200203",
+     "rrf": 0.03009,
+     "bm25_rank": 8,
+     "vec_rank": 5
     },
     {
      "n": 7,
-     "title": "比特币一度跌破7万美元关口 债券收益率上行拖累加密货币市场",
+     "title": "伊朗数周来首次直接袭击巴林 同时重申与美国结束冲突仍有可能",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqfwf1243245.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 10,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvrfx3012576.shtml",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
      "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "盘前上涨！大量资金涌入，谁在抄底英伟达？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-13/doc-iniyrazx3541410.shtml",
-     "rrf": 0.02804,
-     "bm25_rank": 19,
-     "vec_rank": 5
+     "title": "伊朗革命卫队称处于最高战备状态",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611143931295638.html",
+     "rrf": 0.02964,
+     "bm25_rank": 6,
+     "vec_rank": 9
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "刚刚，全线大跳水！31.87万人爆仓！资金大规模出逃，比特币发生了啥？",
-    "bm25_only": 0,
-    "vec_only": 3,
-    "both": 5,
+    "query": "伊朗革命卫队：出动六架无人机袭击了巴林美军基地一防空雷达",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 7,
     "neither_topk": 0
    },
    "elapsed": 0.0
