@@ -1,11 +1,11 @@
 {
- "n_articles": 1334,
+ "n_articles": 1594,
  "mode": "vector",
- "edges": 424,
- "n_components": 1179,
- "n_clusters": 43,
- "n_noise_filtered": 0,
- "n_single_media_filtered": 43,
+ "edges": 610,
+ "n_components": 1375,
+ "n_clusters": 44,
+ "n_noise_filtered": 4,
+ "n_single_media_filtered": 65,
  "active_factors": [
   "burst",
   "coverage",
@@ -13,261 +13,260 @@
   "media"
  ],
  "calibration": {
-  "max_size": 13.0,
-  "max_first": 13.0,
-  "window_days": 3,
-  "n_media_total": 4
+  "max_size": 15.0,
+  "max_first": 15.0,
+  "window_days": 2,
+  "n_media_total": 5
  },
  "elapsed": 0.1,
  "level_dist": {
   "爆点": 4,
-  "高热": 8,
+  "高热": 9,
   "升温中": 13,
   "一般": 18
  },
  "top": [
   {
    "label": "提醒：北京时间10:00将公布中国10月规模以上工业增加值、社会消费品零售总额、",
-   "heat": 0.843,
+   "heat": 0.835,
    "level": "爆点",
-   "n": 13,
+   "n": 15,
    "media": 4,
    "cat": "宏观政策",
    "sectors": [],
    "factors": {
     "coverage": 1.0,
     "burst": 1.0,
-    "duration": 0.333,
-    "media": 1.0,
+    "duration": 0.5,
+    "media": 0.8,
     "social": null
    },
    "article_ids": [
-    247307,
-    247313,
-    247314,
-    247318,
-    247321,
-    247329,
-    247333,
-    247335,
-    247348,
-    247350,
-    247355,
-    247385,
-    247391
+    248296,
+    248302,
+    248303,
+    248307,
+    248310,
+    248318,
+    248322,
+    248324,
+    248337,
+    248339,
+    248344,
+    248374,
+    248380,
+    248739,
+    248826
+   ]
+  },
+  {
+   "label": "环球下周看点：英伟达迎财报日大考 Anthropic、GTA VI同日上市",
+   "heat": 0.677,
+   "level": "爆点",
+   "n": 10,
+   "media": 2,
+   "cat": "AI与大模型",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.865,
+    "burst": 0.396,
+    "duration": 1.0,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    247495,
+    247887,
+    248228,
+    248570,
+    248573,
+    248709,
+    248711,
+    248770,
+    248895,
+    248987
    ]
   },
   {
    "label": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗口的活力",
-   "heat": 0.671,
+   "heat": 0.648,
    "level": "爆点",
-   "n": 6,
+   "n": 5,
    "media": 4,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.737,
-    "burst": 0.263,
-    "duration": 0.667,
-    "media": 1.0,
+    "coverage": 0.646,
+    "burst": 0.646,
+    "duration": 0.5,
+    "media": 0.8,
     "social": null
    },
    "article_ids": [
-    246162,
-    246683,
-    246684,
-    246716,
-    246720,
-    246745
+    247666,
+    247667,
+    247700,
+    247704,
+    247729
    ]
   },
   {
    "label": "国家统计局：10月份，规上工业原煤产量3.8亿吨，同比下降5.8%，降幅比9月份",
-   "heat": 0.637,
+   "heat": 0.613,
    "level": "爆点",
    "n": 4,
    "media": 4,
    "cat": "宏观政策",
    "sectors": [],
    "factors": {
-    "coverage": 0.61,
-    "burst": 0.61,
-    "duration": 0.333,
-    "media": 1.0,
+    "coverage": 0.58,
+    "burst": 0.58,
+    "duration": 0.5,
+    "media": 0.8,
     "social": null
    },
    "article_ids": [
-    247338,
-    247343,
-    247353,
-    247461
+    248327,
+    248332,
+    248342,
+    248450
    ]
   },
   {
    "label": "2026年医保商保“双目录”在江苏苏州发布 医保目录新增107种药品",
-   "heat": 0.631,
-   "level": "爆点",
-   "n": 5,
-   "media": 3,
-   "cat": "生物医药",
-   "sectors": [
-    "BK0465"
-   ],
-   "factors": {
-    "coverage": 0.679,
-    "burst": 0.416,
-    "duration": 0.667,
-    "media": 0.75,
-    "social": null
-   },
-   "article_ids": [
-    246138,
-    246142,
-    246518,
-    246776,
-    247052
-   ]
-  },
-  {
-   "label": "金饰克价较年内高点跌超500元，向太劝年轻人不要炒黄金，“炒跟赌没区别”",
-   "heat": 0.618,
-   "level": "高热",
-   "n": 5,
-   "media": 2,
-   "cat": "国际市场",
-   "sectors": [
-    "BK0732",
-    "BK0547"
-   ],
-   "factors": {
-    "coverage": 0.679,
-    "burst": 0.61,
-    "duration": 0.667,
-    "media": 0.5,
-    "social": null
-   },
-   "article_ids": [
-    246155,
-    246160,
-    246189,
-    246218,
-    246762
-   ]
-  },
-  {
-   "label": "证监会：进一步深化市场稳定长效机制研究系统构建稳的机制、稳的力量、稳的生态，有效防范市场异常波动",
-   "heat": 0.618,
-   "level": "高热",
-   "n": 5,
-   "media": 2,
-   "cat": "金融市场",
-   "sectors": [],
-   "factors": {
-    "coverage": 0.679,
-    "burst": 0.61,
-    "duration": 0.667,
-    "media": 0.5,
-    "social": null
-   },
-   "article_ids": [
-    246169,
-    246170,
-    246171,
-    246177,
-    247050
-   ]
-  },
-  {
-   "label": "国家统计局：1—10月份，全国房地产开发投资57215亿元，同比下降21.6%",
-   "heat": 0.578,
+   "heat": 0.593,
    "level": "高热",
    "n": 4,
-   "media": 3,
-   "cat": "宏观政策",
+   "media": 2,
+   "cat": "生物医药",
    "sectors": [],
    "factors": {
-    "coverage": 0.61,
-    "burst": 0.61,
-    "duration": 0.333,
-    "media": 0.75,
+    "coverage": 0.58,
+    "burst": 0.396,
+    "duration": 1.0,
+    "media": 0.4,
     "social": null
    },
    "article_ids": [
-    247278,
-    247281,
-    247282,
-    247327
+    247488,
+    247760,
+    248041,
+    248598
    ]
   },
   {
-   "label": "受空管系统故障影响 14日美国仍有超3300架次航班被取消",
-   "heat": 0.577,
+   "label": "刚刚，全线大跳水！31.87万人爆仓！资金大规模出逃，比特币发生了啥？",
+   "heat": 0.593,
    "level": "高热",
    "n": 4,
    "media": 2,
    "cat": "综合",
-   "sectors": [],
+   "sectors": [
+    "BK0830"
+   ],
    "factors": {
-    "coverage": 0.61,
-    "burst": 0.525,
-    "duration": 0.667,
-    "media": 0.5,
+    "coverage": 0.58,
+    "burst": 0.396,
+    "duration": 1.0,
+    "media": 0.4,
     "social": null
    },
    "article_ids": [
-    246178,
-    246483,
-    246490,
-    246930
+    247547,
+    247644,
+    248148,
+    248926
    ]
   },
   {
    "label": "北交所开市五周年： 市场功能持续增强 创新型中小企业成长路更宽",
-   "heat": 0.571,
+   "heat": 0.569,
    "level": "高热",
    "n": 7,
    "media": 2,
    "cat": "综合",
    "sectors": [],
    "factors": {
-    "coverage": 0.788,
-    "burst": 0.61,
-    "duration": 0.333,
-    "media": 0.5,
+    "coverage": 0.75,
+    "burst": 0.58,
+    "duration": 0.5,
+    "media": 0.4,
     "social": null
    },
    "article_ids": [
-    246530,
-    246648,
-    246798,
-    246859,
-    247038,
-    247053,
-    247073
+    247502,
+    247626,
+    247782,
+    247845,
+    248027,
+    248042,
+    248063
    ]
   },
   {
-   "label": "伊朗革命卫队：出动六架无人机袭击了巴林美军基地一防空雷达",
-   "heat": 0.499,
+   "label": "国家统计局：1—10月份，全国房地产开发投资57215亿元，同比下降21.6%",
+   "heat": 0.566,
    "level": "高热",
    "n": 4,
-   "media": 2,
-   "cat": "汽车出行",
-   "sectors": [
-    "BK0704"
-   ],
+   "media": 3,
+   "cat": "宏观政策",
+   "sectors": [],
    "factors": {
-    "coverage": 0.61,
-    "burst": 0.525,
-    "duration": 0.333,
-    "media": 0.5,
+    "coverage": 0.58,
+    "burst": 0.58,
+    "duration": 0.5,
+    "media": 0.6,
     "social": null
    },
    "article_ids": [
-    246729,
-    246792,
-    246817,
-    247065
+    248267,
+    248270,
+    248271,
+    248316
+   ]
+  },
+  {
+   "label": "收评：国内期货主力合约跌多涨少 沪银大跌超6%",
+   "heat": 0.566,
+   "level": "高热",
+   "n": 4,
+   "media": 3,
+   "cat": "大宗与能化",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.58,
+    "burst": 0.58,
+    "duration": 0.5,
+    "media": 0.6,
+    "social": null
+   },
+   "article_ids": [
+    248486,
+    248954,
+    248956,
+    248962
+   ]
+  },
+  {
+   "label": "伊朗称2艘油轮触雷爆炸：一艘载有超200万桶原油 爆炸后沉没",
+   "heat": 0.559,
+   "level": "高热",
+   "n": 4,
+   "media": 2,
+   "cat": "综合",
+   "sectors": [],
+   "factors": {
+    "coverage": 0.58,
+    "burst": 0.25,
+    "duration": 1.0,
+    "media": 0.4,
+    "social": null
+   },
+   "article_ids": [
+    247484,
+    248049,
+    248108,
+    248981
    ]
   }
  ]
