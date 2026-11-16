@@ -5,109 +5,109 @@
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.3,
+ "elapsed": 5.3,
  "reports": [
   {
-   "key": "d7fbff79b72d17a9",
-   "label": "美国国土安全部（DHS）部长Mullin：没有迹象表明，是威胁导致美国联邦航空管",
+   "key": "21f7fbbbb8690753",
+   "label": "提醒：北京时间10:00将公布中国10月规模以上工业增加值、社会消费品零售总额、",
    "cached": false,
    "sections": {
-    "事件概述": "「美国国土安全部（DHS）部长Mullin：没有迹象表明，是威胁导致美国联邦航空管」由 15 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：交运物流。",
-    "关键信息": "美国国土安全部（DHS）部长Mullin：没有迹象表明，是威胁导致美国联邦航空管；美国国土安全部部长穆林：事态似乎正朝着正确的方向发展。 没有发生网络攻击，目前仍；微软：没有迹象表明美国联邦航空管理局（FAA）的全美停飞与（我司）任何服务有关。",
+    "事件概述": "「提醒：北京时间10:00将公布中国10月规模以上工业增加值、社会消费品零售总额、」由 13 篇报道聚合而成，覆盖 4 家媒体，热度 0.843（爆点），所属板块类目：宏观政策。",
+    "关键信息": "提醒：北京时间10:00将公布中国10月规模以上工业增加值、社会消费品零售总额、；速览！1—10月份国民经济运行数据公布；中国1至10月规模以上工业增加值同比 5.3%，前值 5.3%。",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "美国国土安全部（DHS）部长Mullin：没有迹象表明，是威胁导致美国联邦航空管",
+     "title": "提醒：北京时间10:00将公布中国10月规模以上工业增加值、社会消费品零售总额、",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200038",
+     "url": "https://wallstreetcn.com/livenews/3200317",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "美国国土安全部部长穆林：事态似乎正朝着正确的方向发展。 没有发生网络攻击，目前仍",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200078",
+     "title": "速览！1—10月份国民经济运行数据公布",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywwzf1277522.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "微软：没有迹象表明美国联邦航空管理局（FAA）的全美停飞与（我司）任何服务有关。",
+     "title": "中国1至10月规模以上工业增加值同比 5.3%，前值 5.3%。",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200057",
-     "rrf": 0.03175,
+     "url": "https://wallstreetcn.com/livenews/3200325",
+     "rrf": 0.0315,
      "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "美国国土安全部长穆林：未发现任何证据表明此次事件是网络攻击或人工智能所致。 仍在",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200080",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
      "vec_rank": 4
     },
     {
-     "n": 5,
-     "title": "微软否认与全美航班停飞事件有关",
+     "n": 4,
+     "title": "中国10月社会消费品零售总额同比 0.4%，前值 1.1%。",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200100",
+     "url": "https://wallstreetcn.com/livenews/3200327",
+     "rrf": 0.03102,
+     "bm25_rank": 6,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "10月全国规模以上工业增加值同比增长4.8%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywwza8955371.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 4,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "国家统计局：10月份规模以上工业增加值同比增长4.8%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywwza8937712.shtml",
      "rrf": 0.03031,
      "bm25_rank": 5,
      "vec_rank": 7
     },
     {
-     "n": 6,
-     "title": "达菲证实：因出现“通信故障”，美国联邦航空管理局已发布全美地面停飞令",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrtxp0927230.shtml",
-     "rrf": 0.02947,
-     "bm25_rank": 11,
-     "vec_rank": 5
-    },
-    {
      "n": 7,
-     "title": "美国称停飞事件非网络攻击或AI干预",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611143931297530.html",
-     "rrf": 0.02878,
-     "bm25_rank": 4,
-     "vec_rank": 16
+     "title": "国家统计局：1-10月社会消费商品和服务零售总额同比增长2.5%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200338",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "美国联邦航空管理局以特殊情况为由发布地面停飞令",
+     "title": "10月份国民经济运行总体平稳、向新向优",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrtxq7700478.shtml",
-     "rrf": 0.02822,
-     "bm25_rank": 14,
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywwza8935558.shtml",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
      "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "美国国土安全部（DHS）部长Mullin：没有迹象表明，是威胁导致美国联邦航空管",
-    "bm25_only": 1,
-    "vec_only": 2,
-    "both": 5,
+    "query": "提醒：北京时间10:00将公布中国10月规模以上工业增加值、社会消费品零售总额、",
+    "bm25_only": 0,
+    "vec_only": 0,
+    "both": 8,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "d548e8e2fad565d8",
+   "key": "00f09a1dd3fef64e",
    "label": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗口的活力",
    "cached": false,
    "sections": {
-    "事件概述": "「（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗口的活力」由 6 篇报道聚合而成，覆盖 4 家媒体，热度 0.612（爆点），所属板块类目：综合。",
-    "关键信息": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗；中国国际商会副秘书长徐梁：深圳将设置特色参访点 拓展经贸交流合作空间；2026年APEC工商领导人峰会，约147家深圳企业将与境内外企业探讨经贸合作",
+    "事件概述": "「（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗口的活力」由 6 篇报道聚合而成，覆盖 4 家媒体，热度 0.671（爆点），所属板块类目：综合。",
+    "关键信息": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗；中国国际商会副秘书长徐梁：深圳将设置特色参访点 拓展经贸交流合作空间；共享开放机遇 实现互利共赢！《APEC大使与CEO圆桌会》在深圳举办",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -132,76 +132,264 @@
     },
     {
      "n": 3,
-     "title": "2026年APEC工商领导人峰会，约147家深圳企业将与境内外企业探讨经贸合作",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200086",
-     "rrf": 0.03058,
-     "bm25_rank": 8,
-     "vec_rank": 3
+     "title": "共享开放机遇 实现互利共赢！《APEC大使与CEO圆桌会》在深圳举办",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/chanjing/cyxw/2026-11-15/doc-iniyvzvn9279870.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 3,
+     "vec_rank": 9
     },
     {
      "n": 4,
-     "title": "视频丨三个维度，解锁深圳的开放密码",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-15/doc-iniyupuh6595976.shtml",
-     "rrf": 0.02957,
-     "bm25_rank": 3,
-     "vec_rank": 13
+     "title": "2026年APEC工商领导人峰会，约147家深圳企业将与境内外企业探讨经贸合作",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200086",
+     "rrf": 0.03037,
+     "bm25_rank": 9,
+     "vec_rank": 3
     },
     {
      "n": 5,
-     "title": "深圳准备就绪 以高水平服务保障APEC盛会",
+     "title": "视频丨三个维度，解锁深圳的开放密码",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyskvh7439719.shtml",
-     "rrf": 0.02942,
-     "bm25_rank": 9,
-     "vec_rank": 7
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-15/doc-iniyupuh6595976.shtml",
+     "rrf": 0.02951,
+     "bm25_rank": 4,
+     "vec_rank": 12
     },
     {
      "n": 6,
      "title": "（深圳APEC）当中国经济特区遇上APEC：探寻亚太经贸合作新路径",
      "media": "中新网",
      "url": "https://www.chinanews.com.cn/cj/2026/11-14/10732078.shtml",
-     "rrf": 0.02914,
-     "bm25_rank": 4,
-     "vec_rank": 14
+     "rrf": 0.02908,
+     "bm25_rank": 5,
+     "vec_rank": 13
     },
     {
      "n": 7,
      "title": "超百家世界500强企业代表将参加APEC工商领导人峰会",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-11-15/doc-iniyupue9828827.shtml",
-     "rrf": 0.0289,
-     "bm25_rank": 14,
+     "rrf": 0.02872,
+     "bm25_rank": 15,
      "vec_rank": 5
     },
     {
      "n": 8,
-     "title": "APEC氛围拉满！迎接亚太宾朋 深圳准备好了",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyskvi3020026.shtml",
-     "rrf": 0.02879,
-     "bm25_rank": 11,
-     "vec_rank": 8
+     "title": "APEC工商领导人峰会将发布“深圳倡议”，系创办30年来首次",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200162",
+     "rrf": 0.02753,
+     "bm25_rank": 24,
+     "vec_rank": 4
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗",
-    "bm25_only": 2,
+    "bm25_only": 3,
     "vec_only": 3,
-    "both": 3,
+    "both": 2,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "52a290915427aa57",
+   "key": "8bb8e1acec1a3bba",
+   "label": "国家统计局：10月份，规上工业原煤产量3.8亿吨，同比下降5.8%，降幅比9月份",
+   "cached": false,
+   "sections": {
+    "事件概述": "「国家统计局：10月份，规上工业原煤产量3.8亿吨，同比下降5.8%，降幅比9月份」由 4 篇报道聚合而成，覆盖 4 家媒体，热度 0.637（爆点），所属板块类目：宏观政策。",
+    "关键信息": "国家统计局：10月份，规上工业原煤产量3.8亿吨，同比下降5.8%，降幅比9月份；国家统计局：10月规上工业原油加工量5830万吨 同比下降8.1%；国家统计局：10月规上工业天然气产量222亿立方米 同比增长0.8%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "国家统计局：10月份，规上工业原煤产量3.8亿吨，同比下降5.8%，降幅比9月份",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200345",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "国家统计局：10月规上工业原油加工量5830万吨 同比下降8.1%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611163931609527.html",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "国家统计局：10月规上工业天然气产量222亿立方米 同比增长0.8%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611163931609380.html",
+     "rrf": 0.03151,
+     "bm25_rank": 2,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "国家统计局公布2026年10月份能源生产情况",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-16/10732651.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
+     "vec_rank": 2
+    },
+    {
+     "n": 5,
+     "title": "国家统计局：10月份规上工业发电量7940亿千瓦时 同比下降2.1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-16/doc-iniywwza8941743.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "国家统计局：10月份规模以上工业增加值同比增长4.8%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywwza8937712.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 8,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "10月份国民经济运行总体平稳、向新向优",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywwza8935558.shtml",
+     "rrf": 0.0284,
+     "bm25_rank": 13,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "国家统计局：1—10月份，全国房地产开发投资57215亿元，同比下降21.6%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200335",
+     "rrf": 0.0278,
+     "bm25_rank": 10,
+     "vec_rank": 14
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "国家统计局：10月份，规上工业原煤产量3.8亿吨，同比下降5.8%，降幅比9月份",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "9f450277eb8190ee",
+   "label": "2026年医保商保“双目录”在江苏苏州发布 医保目录新增107种药品",
+   "cached": false,
+   "sections": {
+    "事件概述": "「2026年医保商保“双目录”在江苏苏州发布 医保目录新增107种药品」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.631（爆点），所属板块类目：生物医药。",
+    "关键信息": "2026年医保商保“双目录”在江苏苏州发布 医保目录新增107种药品；基本医保药品目录新增107种药品；2025年医保目录国谈药品采购金额数量双增长",
+    "市场影响": "关联板块代码：BK0465。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "2026年医保商保“双目录”在江苏苏州发布 医保目录新增107种药品",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-15/10732382.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "基本医保药品目录新增107种药品",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-15/doc-iniyucer3563452.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "2025年医保目录国谈药品采购金额数量双增长",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200191",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "2026年医保目录公布，新增107种，明年1月1日执行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyskvi3035239.shtml",
+     "rrf": 0.03102,
+     "bm25_rank": 6,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "伏欣奇拜单抗（金蓓欣®）纳入国家医保，半年一针有望推动痛风实现临床治愈",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200090",
+     "rrf": 0.02878,
+     "bm25_rank": 4,
+     "vec_rank": 16
+    },
+    {
+     "n": 6,
+     "title": "远大医药6款产品纳入2026年国家医保药品目录、商保创新药目录及推荐清单",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200192",
+     "rrf": 0.02872,
+     "bm25_rank": 5,
+     "vec_rank": 15
+    },
+    {
+     "n": 7,
+     "title": "2026年商保创新药目录发布 11家企业12款药品成功纳入",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611143931305114.html",
+     "rrf": 0.02867,
+     "bm25_rank": 14,
+     "vec_rank": 6
+    },
+    {
+     "n": 8,
+     "title": "复星医药：多款药品新纳入国家医保目录",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611153931425422.html",
+     "rrf": 0.0284,
+     "bm25_rank": 8,
+     "vec_rank": 13
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "2026年医保商保“双目录”在江苏苏州发布 医保目录新增107种药品",
+    "bm25_only": 3,
+    "vec_only": 1,
+    "both": 4,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "972c013f81c9415f",
    "label": "金饰克价较年内高点跌超500元，向太劝年轻人不要炒黄金，“炒跟赌没区别”",
    "cached": false,
    "sections": {
-    "事件概述": "「金饰克价较年内高点跌超500元，向太劝年轻人不要炒黄金，“炒跟赌没区别”」由 5 篇报道聚合而成，覆盖 2 家媒体，热度 0.581（爆点），所属板块类目：国际市场。",
-    "关键信息": "金饰克价较年内高点跌超500元，向太劝年轻人不要炒黄金，“炒跟赌没区别”；突遭抛售！黄金，重挫！金饰价格，连续四天下调，发生了什么？；金价，跌回一年前！20克大金镯子跌了10000元",
+    "事件概述": "「金饰克价较年内高点跌超500元，向太劝年轻人不要炒黄金，“炒跟赌没区别”」由 5 篇报道聚合而成，覆盖 2 家媒体，热度 0.618（高热），所属板块类目：国际市场。",
+    "关键信息": "金饰克价较年内高点跌超500元，向太劝年轻人不要炒黄金，“炒跟赌没区别”；突遭抛售！黄金，重挫！金饰价格，连续四天下调，发生了什么？；比特币跌至62000美元，日内跌超5%",
     "市场影响": "关联板块代码：BK0732、BK0547。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -226,254 +414,66 @@
     },
     {
      "n": 3,
-     "title": "金价，跌回一年前！20克大金镯子跌了10000元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniysrcf2964896.shtml",
-     "rrf": 0.03062,
-     "bm25_rank": 9,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "标普500指数转跌，纳斯达克100指数跌超0.4%，费城半导体指数跌超2.2%，",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3199869",
-     "rrf": 0.03055,
-     "bm25_rank": 4,
-     "vec_rank": 7
-    },
-    {
-     "n": 5,
      "title": "比特币跌至62000美元，日内跌超5%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611153931397955.html",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
+     "rrf": 0.03033,
+     "bm25_rank": 4,
+     "vec_rank": 8
+    },
+    {
+     "n": 4,
+     "title": "9吨流出 Vs 94吨出逃！黄金暴跌背后，三股抛压轮番碾压",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/nmetal/roll/2026-11-16/doc-iniywste8967708.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 8,
      "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "金价，跌回一年前！20克大金镯子跌了10000元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniysrcf2964896.shtml",
+     "rrf": 0.02983,
+     "bm25_rank": 13,
+     "vec_rank": 2
     },
     {
      "n": 6,
      "title": "韩国央行逢低买金 第三季度黄金ETF持仓增40%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuyka6430476.shtml",
-     "rrf": 0.03016,
-     "bm25_rank": 3,
-     "vec_rank": 10
+     "rrf": 0.02826,
+     "bm25_rank": 7,
+     "vec_rank": 15
     },
     {
      "n": 7,
      "title": "比特币跌破63000美元 日内跌超4%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611153931395066.html",
-     "rrf": 0.02885,
+     "rrf": 0.0275,
      "bm25_rank": 6,
-     "vec_rank": 13
+     "vec_rank": 21
     },
     {
      "n": 8,
-     "title": "黄金，正在重演2013年崩盘？",
+     "title": "国际金价月内冲高回落 黄金类基金业绩分化显著",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/cj/2026-11-14/doc-iniysvma7302263.shtml",
-     "rrf": 0.02743,
-     "bm25_rank": 7,
-     "vec_rank": 20
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywnmk5850509.shtml",
+     "rrf": 0.02742,
+     "bm25_rank": 15,
+     "vec_rank": 11
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "金饰克价较年内高点跌超500元，向太劝年轻人不要炒黄金，“炒跟赌没区别”",
-    "bm25_only": 3,
+    "bm25_only": 2,
     "vec_only": 1,
     "both": 4,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "53e900ba7dcc9a04",
-   "label": "国家医保局局长章轲：今年有两款商保创新药目录药品成功纳入基本医保目录",
-   "cached": false,
-   "sections": {
-    "事件概述": "「国家医保局局长章轲：今年有两款商保创新药目录药品成功纳入基本医保目录」由 7 篇报道聚合而成，覆盖 2 家媒体，热度 0.562（爆点），所属板块类目：生物医药。",
-    "关键信息": "国家医保局局长章轲：今年有两款商保创新药目录药品成功纳入基本医保目录；2026年版国家基本医保药品目录即将发布；新增12种药品 2026年商业健康保险创新药品目录共有28种",
-    "市场影响": "关联板块代码：BK0465、BK1044。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "国家医保局局长章轲：今年有两款商保创新药目录药品成功纳入基本医保目录",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611143931299716.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "2026年版国家基本医保药品目录即将发布",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611143931294215.html",
-     "rrf": 0.0308,
-     "bm25_rank": 7,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "新增12种药品 2026年商业健康保险创新药品目录共有28种",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611143931301719.html",
-     "rrf": 0.03037,
-     "bm25_rank": 3,
-     "vec_rank": 9
-    },
-    {
-     "n": 4,
-     "title": "2026年商保创新药目录发布 11家企业12款药品成功纳入",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611143931305114.html",
-     "rrf": 0.03002,
-     "bm25_rank": 12,
-     "vec_rank": 2
-    },
-    {
-     "n": 5,
-     "title": "伏欣奇拜单抗（金蓓欣®）纳入国家医保，半年一针有望推动痛风实现临床治愈",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200090",
-     "rrf": 0.02924,
-     "bm25_rank": 6,
-     "vec_rank": 11
-    },
-    {
-     "n": 6,
-     "title": "再创新高！51个一类新药进入新版国家医保药品目录",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyskvi3028610.shtml",
-     "rrf": 0.0289,
-     "bm25_rank": 14,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "百万级CAR-T抗癌药首次纳入基本医保 患者自付降至10万元以内",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611143931304977.html",
-     "rrf": 0.02879,
-     "bm25_rank": 2,
-     "vec_rank": 19
-    },
-    {
-     "n": 8,
-     "title": "远大医药6款产品纳入2026年国家医保药品目录、商保创新药目录及推荐清单",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200192",
-     "rrf": 0.02769,
-     "bm25_rank": 8,
-     "vec_rank": 17
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "国家医保局局长章轲：今年有两款商保创新药目录药品成功纳入基本医保目录",
-    "bm25_only": 4,
-    "vec_only": 2,
-    "both": 2,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "182b40508c186564",
-   "label": "伊朗革命卫队：出动六架无人机袭击了巴林美军基地一防空雷达",
-   "cached": false,
-   "sections": {
-    "事件概述": "「伊朗革命卫队：出动六架无人机袭击了巴林美军基地一防空雷达」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.529（高热），所属板块类目：汽车出行。",
-    "关键信息": "伊朗革命卫队：出动六架无人机袭击了巴林美军基地一防空雷达；伊朗发布打击巴林美军基地视频；美军否认在巴林雷达遭伊朗袭击",
-    "市场影响": "关联板块代码：BK0704。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "伊朗革命卫队：出动六架无人机袭击了巴林美军基地一防空雷达",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuykf3208928.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "伊朗发布打击巴林美军基地视频",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611153931461381.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "美军否认在巴林雷达遭伊朗袭击",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3199874",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "伊朗称拦截并摧毁一架美MQ1无人机",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200130",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "巴林称遭伊朗无人机袭击 伊朗称“回应美国侵略”",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611153931466582.html",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "伊朗称击落一架轨道飞行器无人机",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200203",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "伊朗数周来首次直接袭击巴林 同时重申与美国结束冲突仍有可能",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvrfx3012576.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "伊朗革命卫队称处于最高战备状态",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611143931295638.html",
-     "rrf": 0.02964,
-     "bm25_rank": 6,
-     "vec_rank": 9
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "伊朗革命卫队：出动六架无人机袭击了巴林美军基地一防空雷达",
-    "bm25_only": 1,
-    "vec_only": 0,
-    "both": 7,
-    "neither_topk": 0
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }
