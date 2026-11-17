@@ -1,193 +1,287 @@
 {
  "engine": "template(降级)",
- "n_clusters": 44,
+ "n_clusters": 55,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.5,
+ "elapsed": 5.7,
  "reports": [
   {
-   "key": "7c7b09682ec4c5a1",
-   "label": "提醒：北京时间10:00将公布中国10月规模以上工业增加值、社会消费品零售总额、",
+   "key": "05bdfa3b7821d82d",
+   "label": "十月份中国经济保持总体平稳、向新向优发展态势“稳”的特质明显，“稳”的底气增强（权威发布）",
    "cached": false,
    "sections": {
-    "事件概述": "「提醒：北京时间10:00将公布中国10月规模以上工业增加值、社会消费品零售总额、」由 15 篇报道聚合而成，覆盖 4 家媒体，热度 0.835（爆点），所属板块类目：宏观政策。",
-    "关键信息": "提醒：北京时间10:00将公布中国10月规模以上工业增加值、社会消费品零售总额、；速览！1—10月份国民经济运行数据公布；中国1至10月规模以上工业增加值同比 5.3%，前值 5.3%。",
+    "事件概述": "「十月份中国经济保持总体平稳、向新向优发展态势“稳”的特质明显，“稳”的底气增强（权威发布）」由 21 篇报道聚合而成，覆盖 4 家媒体，热度 0.875（爆点），所属板块类目：宏观政策。",
+    "关键信息": "十月份中国经济保持总体平稳、向新向优发展态势“稳”的特质明显，“稳”的底气增强（；10月国民经济运行“成绩单”出炉 继续保持总体平稳、向新向优发展态势；国家统计局：总的来看，10月份国民经济总体平稳，延续动能向新、结构向优的发展态势",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "提醒：北京时间10:00将公布中国10月规模以上工业增加值、社会消费品零售总额、",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200317",
+     "title": "十月份中国经济保持总体平稳、向新向优发展态势“稳”的特质明显，“稳”的底气增强（权威发布）",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-17/doc-iniyyrkt2424637.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "速览！1—10月份国民经济运行数据公布",
+     "title": "10月国民经济运行“成绩单”出炉 继续保持总体平稳、向新向优发展态势",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywwzf1277522.shtml",
+     "url": "https://finance.sina.com.cn/stock/roll/2026-11-17/doc-iniyyvsr2348237.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "国家统计局：总的来看，10月份国民经济总体平稳，延续动能向新、结构向优的发展态势",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200343",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "10月国民经济运行总体平稳、向新向优",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-16/10732619.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "10月份国民经济运行总体平稳、向新向优",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywwza8935558.shtml",
+     "rrf": 0.02988,
+     "bm25_rank": 9,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "10月份国民经济运行总体平稳、向新向优 实现全年预期目标有支撑有条件",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-17/doc-iniyyeux2614802.shtml",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "生产消费就业三大底盘稳稳托住！10月中国经济答卷“韧性十足”",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-17/10733176.shtml",
+     "rrf": 0.02967,
+     "bm25_rank": 5,
+     "vec_rank": 10
+    },
+    {
+     "n": 8,
+     "title": "一组数据看10月份国民经济运行总体平稳、向新向优",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-16/doc-iniyxynt1031265.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 6,
+     "vec_rank": 9
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "十月份中国经济保持总体平稳、向新向优发展态势“稳”的特质明显，“稳”的底气增强（",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "62fb7bd920acebb5",
+   "label": "港股收评：恒指涨0.49% 科指跌0.3% 内银股活跃 AI相关概念股下挫 智谱跌超13%",
+   "cached": false,
+   "sections": {
+    "事件概述": "「港股收评：恒指涨0.49% 科指跌0.3% 内银股活跃 AI相关概念股下挫 智谱跌超13%」由 17 篇报道聚合而成，覆盖 4 家媒体，热度 0.769（爆点），所属板块类目：半导体。",
+    "关键信息": "港股收评：恒指涨0.49% 科指跌0.3% 内银股活跃 AI相关概念股下挫 智谱；港股高开高走，恒生指数、恒生科技指数涨幅扩大至1%；快讯：恒指高开0.3% 恒科指涨0.41% 科网股普涨 存储概念股走弱",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "港股收评：恒指涨0.49% 科指跌0.3% 内银股活跃 AI相关概念股下挫 智谱跌超13%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-16/doc-iniyxirf6030713.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "港股高开高走，恒生指数、恒生科技指数涨幅扩大至1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-16/doc-iniywwza8942255.shtml",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
+     "vec_rank": 5
+    },
+    {
+     "n": 3,
+     "title": "快讯：恒指高开0.3% 恒科指涨0.41% 科网股普涨 存储概念股走弱",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-16/doc-iniywste9027941.shtml",
+     "rrf": 0.03041,
+     "bm25_rank": 10,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "美股纳指低开1.2% 芯片股集体下挫",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611163932124688.html",
+     "rrf": 0.03012,
+     "bm25_rank": 4,
+     "vec_rank": 9
+    },
+    {
+     "n": 5,
+     "title": "快讯：恒指低开0.98% 恒科指跌1.09% 科网股普跌 航空股逆势活跃",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-17/doc-iniyyzyp2281384.shtml",
+     "rrf": 0.02996,
+     "bm25_rank": 11,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "华泰|港股策略：重点关注财报后盈利企稳个股",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-16/doc-iniywsth5743977.shtml",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "港股应用软件板块全线重挫 MINIMAX跌超14% 智谱跌逾12%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-16/doc-iniywwzi2468391.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 2,
+     "vec_rank": 14
+    },
+    {
+     "n": 8,
+     "title": "美股加密货币概念股走低 Coinbase跌超5%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611163932136442.html",
+     "rrf": 0.02822,
+     "bm25_rank": 3,
+     "vec_rank": 21
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "港股收评：恒指涨0.49% 科指跌0.3% 内银股活跃 AI相关概念股下挫 智谱",
+    "bm25_only": 3,
+    "vec_only": 2,
+    "both": 3,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "8da06cf8e7e34dd5",
+   "label": "11月17日收盘：美股低开低走 纳指重挫逾2% 英伟达财报前夕领跌芯片板块 市场关注Anthro",
+   "cached": false,
+   "sections": {
+    "事件概述": "「11月17日收盘：美股低开低走 纳指重挫逾2% 英伟达财报前夕领跌芯片板块 市场关注Anthro」由 14 篇报道聚合而成，覆盖 3 家媒体，热度 0.613（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "11月17日收盘：美股低开低走 纳指重挫逾2% 英伟达财报前夕领跌芯片板块 市场；美股纳指低开1.2% 芯片股集体下挫；开盘：三大股指齐跌，英伟达拖累，AI 板块下挫",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "11月17日收盘：美股低开低走 纳指重挫逾2% 英伟达财报前夕领跌芯片板块 市场关注Anthropic IPO",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyyrkp1999331.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "美股纳指低开1.2% 芯片股集体下挫",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611163932124688.html",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "中国1至10月规模以上工业增加值同比 5.3%，前值 5.3%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200325",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "中国10月社会消费品零售总额同比 0.4%，前值 1.1%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200327",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "10月全国规模以上工业增加值同比增长4.8%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywwza8955371.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "国家统计局：10月份规模以上工业增加值同比增长4.8%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywwza8937712.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 5,
-     "vec_rank": 7
-    },
-    {
-     "n": 7,
-     "title": "国家统计局：1-10月社会消费商品和服务零售总额同比增长2.5%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200338",
-     "rrf": 0.02986,
-     "bm25_rank": 8,
-     "vec_rank": 6
-    },
-    {
-     "n": 8,
-     "title": "国家统计局：2026年1—10月份社会消费品零售总额增长1.0%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-16/doc-iniyxynv2245708.shtml",
-     "rrf": 0.02963,
-     "bm25_rank": 7,
-     "vec_rank": 8
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "提醒：北京时间10:00将公布中国10月规模以上工业增加值、社会消费品零售总额、",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 8,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "7eadd3f3060e0fe8",
-   "label": "环球下周看点：英伟达迎财报日大考 Anthropic、GTA VI同日上市",
-   "cached": false,
-   "sections": {
-    "事件概述": "「环球下周看点：英伟达迎财报日大考 Anthropic、GTA VI同日上市」由 10 篇报道聚合而成，覆盖 2 家媒体，热度 0.677（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "环球下周看点：英伟达迎财报日大考 Anthropic、GTA VI同日上市；开盘：三大股指齐跌，英伟达拖累，AI 板块下挫；盛宝银行：英伟达将迎黄仁勋离任后首次大考，业绩指引及管理层交接是关键",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "环球下周看点：英伟达迎财报日大考 Anthropic、GTA VI同日上市",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611153931387581.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
      "title": "开盘：三大股指齐跌，英伟达拖累，AI 板块下挫",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyxynv2268901.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "盛宝银行：英伟达将迎黄仁勋离任后首次大考，业绩指引及管理层交接是关键",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyxirf6021118.shtml",
      "rrf": 0.03126,
-     "bm25_rank": 3,
-     "vec_rank": 5
+     "bm25_rank": 5,
+     "vec_rank": 3
     },
     {
      "n": 4,
-     "title": "美国股市早盘下跌 科技股抛售持续",
+     "title": "英伟达财报、Anthropic IPO前夕，全球股市走低",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyyeux2566850.shtml",
-     "rrf": 0.02904,
-     "bm25_rank": 12,
-     "vec_rank": 6
-    },
-    {
-     "n": 5,
-     "title": "盘前：科技股抛售潮延续至新一周 纳指期货跌0.90%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyxynt1013469.shtml",
-     "rrf": 0.02899,
-     "bm25_rank": 9,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyxpxc6009559.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 4,
      "vec_rank": 9
     },
     {
-     "n": 6,
-     "title": "AI行情降温：Anthropic迎来上市大考，华尔街十大IPO平均跌超20%",
+     "n": 5,
+     "title": "昨夜，美股“恐慌指数”新高",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyxiqy5617979.shtml",
-     "rrf": 0.02686,
-     "bm25_rank": 4,
-     "vec_rank": 29
+     "url": "https://finance.sina.com.cn/wm/2026-11-17/doc-iniyyzym5471209.shtml",
+     "rrf": 0.02885,
+     "bm25_rank": 6,
+     "vec_rank": 13
+    },
+    {
+     "n": 6,
+     "title": "美国债市：美债中期品种领涨 大型科技股普跌",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyyvsp5535655.shtml",
+     "rrf": 0.02878,
+     "bm25_rank": 9,
+     "vec_rank": 10
     },
     {
      "n": 7,
-     "title": "突然，直线拉升！英伟达，大消息！",
+     "title": "盘前：科技股抛售潮延续至新一周 纳指期货跌0.90%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-16/doc-iniywnmk5858581.shtml",
-     "rrf": 0.02643,
-     "bm25_rank": 21,
-     "vec_rank": 11
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-16/doc-iniyxynt1013469.shtml",
+     "rrf": 0.02867,
+     "bm25_rank": 14,
+     "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "三A股公司同日提示风险：股价低于1元，或退市！",
+     "title": "美股芯片股暗盘大涨，英伟达直线拉升，金银油下挫，比特币涨破65000美元",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-16/doc-iniyxuev1119976.shtml",
-     "rrf": 0.01613,
-     "bm25_rank": 2,
-     "vec_rank": null
+     "url": "https://finance.sina.com.cn/wm/2026-11-16/doc-iniywsth5743213.shtml",
+     "rrf": 0.02724,
+     "bm25_rank": 16,
+     "vec_rank": 11
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "环球下周看点：英伟达迎财报日大考 Anthropic、GTA VI同日上市",
+    "query": "11月17日收盘：美股低开低走 纳指重挫逾2% 英伟达财报前夕领跌芯片板块 市场",
     "bm25_only": 2,
     "vec_only": 1,
     "both": 3,
@@ -196,105 +290,11 @@
    "elapsed": 0.0
   },
   {
-   "key": "b6191f69e80f8d3d",
-   "label": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗口的活力",
-   "cached": false,
-   "sections": {
-    "事件概述": "「（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗口的活力」由 5 篇报道聚合而成，覆盖 4 家媒体，热度 0.648（爆点），所属板块类目：综合。",
-    "关键信息": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗；中国国际商会副秘书长徐梁：深圳将设置特色参访点 拓展经贸交流合作空间；共享开放机遇 实现互利共赢！《APEC大使与CEO圆桌会》在深圳举办",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗口的活力",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-15/10732347.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "中国国际商会副秘书长徐梁：深圳将设置特色参访点 拓展经贸交流合作空间",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611153931406025.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "共享开放机遇 实现互利共赢！《APEC大使与CEO圆桌会》在深圳举办",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/chanjing/cyxw/2026-11-15/doc-iniyvzvn9279870.shtml",
-     "rrf": 0.03058,
-     "bm25_rank": 3,
-     "vec_rank": 8
-    },
-    {
-     "n": 4,
-     "title": "视频丨三个维度，解锁深圳的开放密码",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-15/doc-iniyupuh6595976.shtml",
-     "rrf": 0.02951,
-     "bm25_rank": 4,
-     "vec_rank": 12
-    },
-    {
-     "n": 5,
-     "title": "超百家世界500强企业代表将参加APEC工商领导人峰会",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-15/doc-iniyupue9828827.shtml",
-     "rrf": 0.02845,
-     "bm25_rank": 18,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "（深圳APEC）AI上APEC：从共识到场景 企业出海赋能亚太数智协作生态",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-16/10733148.shtml",
-     "rrf": 0.02822,
-     "bm25_rank": 8,
-     "vec_rank": 14
-    },
-    {
-     "n": 7,
-     "title": "中国贸促会副会长李庆霜：美国参会企业占外方经济体20%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200159",
-     "rrf": 0.02758,
-     "bm25_rank": 22,
-     "vec_rank": 5
-    },
-    {
-     "n": 8,
-     "title": "（深圳APEC）今年中国与APEC经济体已达成近50项经贸领域务实成果",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-16/10733052.shtml",
-     "rrf": 0.02744,
-     "bm25_rank": 10,
-     "vec_rank": 16
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "（深圳APEC）中国国际商会副秘书长徐梁：让深圳企业登上APEC舞台，展现开放窗",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 3,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "ad553454e5bd60ca",
+   "key": "a6ee6450c05882d3",
    "label": "国家统计局：10月份，规上工业原煤产量3.8亿吨，同比下降5.8%，降幅比9月份",
    "cached": false,
    "sections": {
-    "事件概述": "「国家统计局：10月份，规上工业原煤产量3.8亿吨，同比下降5.8%，降幅比9月份」由 4 篇报道聚合而成，覆盖 4 家媒体，热度 0.613（爆点），所属板块类目：宏观政策。",
+    "事件概述": "「国家统计局：10月份，规上工业原煤产量3.8亿吨，同比下降5.8%，降幅比9月份」由 4 篇报道聚合而成，覆盖 4 家媒体，热度 0.553（爆点），所属板块类目：宏观政策。",
     "关键信息": "国家统计局：10月份，规上工业原煤产量3.8亿吨，同比下降5.8%，降幅比9月份；国家统计局：10月规上工业原油加工量5830万吨 同比下降8.1%；国家统计局：10月规上工业天然气产量222亿立方米 同比增长0.8%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -368,9 +368,9 @@
      "title": "国家统计局：1—10月份，全国房地产开发投资57215亿元，同比下降21.6%",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3200335",
-     "rrf": 0.0278,
+     "rrf": 0.02727,
      "bm25_rank": 10,
-     "vec_rank": 14
+     "vec_rank": 17
     }
    ],
    "degraded": 1,
@@ -384,95 +384,95 @@
    "elapsed": 0.0
   },
   {
-   "key": "28c32ed24db50676",
-   "label": "2026年医保商保“双目录”在江苏苏州发布 医保目录新增107种药品",
+   "key": "22b098be1f9d84a9",
+   "label": "收评：国内期货主力合约跌多涨少 沪银大跌超6%",
    "cached": false,
    "sections": {
-    "事件概述": "「2026年医保商保“双目录”在江苏苏州发布 医保目录新增107种药品」由 4 篇报道聚合而成，覆盖 2 家媒体，热度 0.593（高热），所属板块类目：生物医药。",
-    "关键信息": "2026年医保商保“双目录”在江苏苏州发布 医保目录新增107种药品；2025年医保目录国谈药品采购金额数量双增长；基本医保药品目录新增107种药品",
+    "事件概述": "「收评：国内期货主力合约跌多涨少 沪银大跌超6%」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.524（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "收评：国内期货主力合约跌多涨少 沪银大跌超6%；午评：国内期货主力合约跌多涨少 燃油跌超6%；国债期货开盘，30年期主力合约跌0.28%，10年期主力合约跌0.04%，5年期",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "2026年医保商保“双目录”在江苏苏州发布 医保目录新增107种药品",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-15/10732382.shtml",
+     "title": "收评：国内期货主力合约跌多涨少 沪银大跌超6%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-16/doc-iniyxirc2390554.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "2025年医保目录国谈药品采购金额数量双增长",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200191",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "基本医保药品目录新增107种药品",
+     "title": "午评：国内期货主力合约跌多涨少 燃油跌超6%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-15/doc-iniyucer3563452.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-17/doc-iniyzhhi5480288.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
-     "n": 4,
-     "title": "2026医保目录揭晓：科创板药企集体进阶，原研可及性持续提升",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/csjzbj/2026-11-16/doc-iniyxufc2691204.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "远大医药6款产品纳入2026年国家医保药品目录、商保创新药目录及推荐清单",
+     "n": 3,
+     "title": "国债期货开盘，30年期主力合约跌0.28%，10年期主力合约跌0.04%，5年期",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3200192",
-     "rrf": 0.02951,
-     "bm25_rank": 4,
-     "vec_rank": 12
-    },
-    {
-     "n": 6,
-     "title": "复星医药：多款药品新纳入国家医保目录",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611153931425422.html",
-     "rrf": 0.02944,
-     "bm25_rank": 6,
-     "vec_rank": 10
-    },
-    {
-     "n": 7,
-     "title": "51个一类新药纳入新版医保目录 多家上市公司产品迎商业化新机遇",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hyyj/2026-11-16/doc-iniyvzvq6047603.shtml",
-     "rrf": 0.02896,
-     "bm25_rank": 15,
+     "url": "https://wallstreetcn.com/livenews/3200300",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
      "vec_rank": 4
     },
     {
-     "n": 8,
-     "title": "恒瑞医药：多款药品纳入国家医保目录",
+     "n": 4,
+     "title": "国内部分商品期货夜盘收盘 主力合约几乎全线下跌",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611153931450993.html",
-     "rrf": 0.02837,
+     "url": "https://finance.eastmoney.com/a/202611163932149694.html",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "光大期货能源化工类日报20261116",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-16/doc-iniywsth5821065.shtml",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "光大期货1116热点追踪：沪银重挫6% 白银为何比黄金跌得更狠？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/2026-11-16/doc-iniyxirf6019732.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 9,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "华泰期货：双焦现货延续走弱，盘面震荡反弹",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-16/doc-iniywwzf1271534.shtml",
+     "rrf": 0.02947,
      "bm25_rank": 5,
-     "vec_rank": 17
+     "vec_rank": 11
+    },
+    {
+     "n": 8,
+     "title": "集体大跌！原因找到了",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/2026-11-16/doc-iniyxiqy5658753.shtml",
+     "rrf": 0.02736,
+     "bm25_rank": 19,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "2026年医保商保“双目录”在江苏苏州发布 医保目录新增107种药品",
-    "bm25_only": 3,
-    "vec_only": 1,
-    "both": 4,
+    "query": "收评：国内期货主力合约跌多涨少 沪银大跌超6%",
+    "bm25_only": 1,
+    "vec_only": 2,
+    "both": 5,
     "neither_topk": 0
    },
    "elapsed": 0.0
