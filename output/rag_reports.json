@@ -1,20 +1,20 @@
 {
  "engine": "template(降级)",
- "n_clusters": 51,
+ "n_clusters": 49,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.8,
+ "elapsed": 4.9,
  "reports": [
   {
-   "key": "2fb2bef467a61866",
+   "key": "7f3af34339dfd21a",
    "label": "11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易记录曝光 美联储",
    "cached": false,
    "sections": {
-    "事件概述": "「11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易记录曝光 美联储」由 78 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易；Anthropic上市首日，大涨17%！科技股、芯片股高开低走；Anthropic首秀市值达1.3万亿美元 又一巨型AI公司登陆纳斯达克",
-    "市场影响": "关联板块代码：BK0697、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易记录曝光 美联储」由 118 篇报道聚合而成，覆盖 3 家媒体，热度 0.906（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易；Anthropic上市，美国经济命运与AI进一步深度绑定；Anthropic首秀市值达1.3万亿美元 又一巨型AI公司登陆纳斯达克",
+    "市场影响": "关联板块代码：BK1036、BK0697、BK0459、BK0800、BK1361。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
@@ -29,86 +29,86 @@
     },
     {
      "n": 2,
-     "title": "Anthropic上市首日，大涨17%！科技股、芯片股高开低走",
+     "title": "Anthropic上市，美国经济命运与AI进一步深度绑定",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-20/doc-inizitct0487373.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 8,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkyxc0201943.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 6,
+     "vec_rank": 10
     },
     {
      "n": 3,
      "title": "Anthropic首秀市值达1.3万亿美元 又一巨型AI公司登陆纳斯达克",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizinvp5782425.shtml",
-     "rrf": 0.02951,
-     "bm25_rank": 4,
-     "vec_rank": 12
+     "rrf": 0.02908,
+     "bm25_rank": 5,
+     "vec_rank": 13
     },
     {
      "n": 4,
-     "title": "11月20日隔夜要闻：油价震荡 标普500指数六连跌 Anthropic首秀大涨难提振美股 伊朗加大对油轮的袭击",
+     "title": "Anthropic上市首日，大涨17%！科技股、芯片股高开低走",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizinvq7375587.shtml",
-     "rrf": 0.02903,
-     "bm25_rank": 16,
-     "vec_rank": 3
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-20/doc-inizitct0487373.shtml",
+     "rrf": 0.02885,
+     "bm25_rank": 13,
+     "vec_rank": 6
     },
     {
      "n": 5,
-     "title": "Anthropic超级IPO不负华尔街热捧，但未能重振AI股交易",
+     "title": "11月20日隔夜要闻：油价震荡 标普500指数六连跌 Anthropic首秀大涨难提振美股 伊朗加大对油轮的袭击",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizixmk7246398.shtml",
-     "rrf": 0.02878,
-     "bm25_rank": 10,
-     "vec_rank": 9
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizinvq7375587.shtml",
+     "rrf": 0.02869,
+     "bm25_rank": 18,
+     "vec_rank": 3
     },
     {
      "n": 6,
      "title": "特朗普9月交易记录曝光：加仓英伟达、SpaceX、帕兰提尔，多家企业斩获联邦大单",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizihpu4238779.shtml",
-     "rrf": 0.02863,
+     "rrf": 0.02818,
      "bm25_rank": 2,
-     "vec_rank": 20
+     "vec_rank": 23
     },
     {
      "n": 7,
-     "title": "11月20日收盘：三大股指均跌超2% 道指跌破5万点大关 Anthropic首秀收涨17%",
+     "title": "Anthropic超级IPO不负华尔街热捧，但未能重振AI股交易",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizinvs4124102.shtml",
-     "rrf": 0.02731,
-     "bm25_rank": 9,
-     "vec_rank": 18
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizixmk7246398.shtml",
+     "rrf": 0.02783,
+     "bm25_rank": 15,
+     "vec_rank": 9
     },
     {
      "n": 8,
      "title": "Anthropic IPO 后成为全球第七大市值公司",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizitct0473353.shtml",
-     "rrf": 0.02729,
-     "bm25_rank": 5,
-     "vec_rank": 24
+     "rrf": 0.02655,
+     "bm25_rank": 7,
+     "vec_rank": 26
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易",
-    "bm25_only": 3,
-    "vec_only": 1,
-    "both": 2,
-    "neither_topk": 2
+    "bm25_only": 4,
+    "vec_only": 2,
+    "both": 1,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "b83ada40082f64a2",
+   "key": "96ab37932210a13b",
    "label": "快讯：现货黄金失守3710美元/盎司，日内跌0.40%。现货白银跌破45美元/盎司，日内跌0.5",
    "cached": false,
    "sections": {
-    "事件概述": "「快讯：现货黄金失守3710美元/盎司，日内跌0.40%。现货白银跌破45美元/盎司，日内跌0.5」由 35 篇报道聚合而成，覆盖 3 家媒体，热度 0.775（爆点），所属板块类目：国际市场。",
+    "事件概述": "「快讯：现货黄金失守3710美元/盎司，日内跌0.40%。现货白银跌破45美元/盎司，日内跌0.5」由 28 篇报道聚合而成，覆盖 3 家媒体，热度 0.759（爆点），所属板块类目：国际市场。",
     "关键信息": "快讯：现货黄金失守3710美元/盎司，日内跌0.40%。现货白银跌破45美元/盎；快讯：现货黄金失守3600美元/盎司关口；现货黄金失守3700美元/盎司",
-    "市场影响": "关联板块代码：BK1616、BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "市场影响": "关联板块代码：BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
@@ -150,20 +150,20 @@
     },
     {
      "n": 5,
-     "title": "现货白银日内跌幅达5.0%，报45.01美元/盎司。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3202052",
+     "title": "快讯：现货黄金日内大跌3.00%，现报3516.24美元/盎司",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-20/doc-inizkctf5653367.shtml",
      "rrf": 0.03078,
      "bm25_rank": 4,
      "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "现货白银跌破45美元",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611183934350484.html",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
+     "title": "现货黄金跌超2%，跌至3550美元/盎司下方。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3202955",
+     "rrf": 0.03009,
+     "bm25_rank": 8,
      "vec_rank": 5
     },
     {
@@ -171,36 +171,130 @@
      "title": "现货黄金，直线跌破3600美元",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-20/doc-inizitct0484620.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 7,
-     "vec_rank": 10
+     "rrf": 0.02986,
+     "bm25_rank": 6,
+     "vec_rank": 8
     },
     {
      "n": 8,
-     "title": "现货黄金跌超2%，跌至3550美元/盎司下方。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3202955",
-     "rrf": 0.02921,
-     "bm25_rank": 10,
+     "title": "现货黄金创14个月新低 机构称美国通胀与油价是止跌关键信号",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-19/doc-inizhvyc0869485.shtml",
+     "rrf": 0.02985,
+     "bm25_rank": 7,
      "vec_rank": 7
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "快讯：现货黄金失守3710美元/盎司，日内跌0.40%。现货白银跌破45美元/盎",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
+    "bm25_only": 0,
+    "vec_only": 0,
+    "both": 8,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "1685cc303b33e8ea",
+   "key": "8e68867468a44059",
+   "label": "港股午评：恒指跌1.89%失守23000点 科指跌2% 科网股普跌 黄金股走弱 腾讯跌超6%",
+   "cached": false,
+   "sections": {
+    "事件概述": "「港股午评：恒指跌1.89%失守23000点 科指跌2% 科网股普跌 黄金股走弱 腾讯跌超6%」由 16 篇报道聚合而成，覆盖 3 家媒体，热度 0.687（爆点），所属板块类目：金融市场。",
+    "关键信息": "港股午评：恒指跌1.89%失守23000点 科指跌2% 科网股普跌 黄金股走弱 ；港股持续走低，恒生指数失守23000点，恒生科技指数跌2.5%；港股跌幅进一步扩大，恒生指数跌超2%，腾讯领跌成分股",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "港股午评：恒指跌1.89%失守23000点 科指跌2% 科网股普跌 黄金股走弱 腾讯跌超6%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-19/doc-inizfunn4638786.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "港股持续走低，恒生指数失守23000点，恒生科技指数跌2.5%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-19/doc-inizfqem1135798.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "港股跌幅进一步扩大，恒生指数跌超2%，腾讯领跌成分股",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-19/doc-inizfunk7826606.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "港股午盘：恒指跌1.71% 网易领跌成分股",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611203935972682.html",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "快讯：恒指低开1.05% 恒科指跌0.97% 科网股、黄金股低迷",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-19/doc-inizfqef0494620.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "游戏收入下滑拖累业绩 网易港股开盘跌逾13%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-20/doc-inizixmn3996461.shtml",
+     "rrf": 0.02927,
+     "bm25_rank": 5,
+     "vec_rank": 12
+    },
+    {
+     "n": 7,
+     "title": "现货黄金失守3700美元/盎司",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611193934907765.html",
+     "rrf": 0.02735,
+     "bm25_rank": 6,
+     "vec_rank": 22
+    },
+    {
+     "n": 8,
+     "title": "【异动】股息率冲上6%，港股红利低波ETF招商(520550)融资余额被加仓到新高！底气在哪？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/fund/jjh/2026-11-20/doc-inizixmn4103546.shtml",
+     "rrf": 0.02516,
+     "bm25_rank": 20,
+     "vec_rank": 19
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "港股午评：恒指跌1.89%失守23000点 科指跌2% 科网股普跌 黄金股走弱 ",
+    "bm25_only": 2,
+    "vec_only": 0,
+    "both": 5,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "3cb3cb26c63b728a",
    "label": "商品期货开盘，液化气、原油、燃料油、沪铜主力合约跌超4%，国际铜、聚乙烯、聚丙烯",
    "cached": false,
    "sections": {
-    "事件概述": "「商品期货开盘，液化气、原油、燃料油、沪铜主力合约跌超4%，国际铜、聚乙烯、聚丙烯」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.601（爆点），所属板块类目：大宗与能化。",
+    "事件概述": "「商品期货开盘，液化气、原油、燃料油、沪铜主力合约跌超4%，国际铜、聚乙烯、聚丙烯」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.629（爆点），所属板块类目：大宗与能化。",
     "关键信息": "商品期货开盘，液化气、原油、燃料油、沪铜主力合约跌超4%，国际铜、聚乙烯、聚丙烯；开盘|国内期货主力合约跌多涨少 液化石油气（LPG）、SC原油跌近5%；国内部分商品期货夜盘收盘 主力合约大面积飘绿",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -228,37 +322,37 @@
      "n": 3,
      "title": "国内部分商品期货夜盘收盘 主力合约大面积飘绿",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611183934325246.html",
-     "rrf": 0.0315,
+     "url": "https://finance.eastmoney.com/a/202611203936492284.html",
+     "rrf": 0.03102,
      "bm25_rank": 3,
-     "vec_rank": 4
+     "vec_rank": 6
     },
     {
      "n": 4,
-     "title": "收评|国内期货主力合约跌多涨少，铂、乙二醇（EG）跌超4%",
+     "title": "收评：主力合约涨跌互现 钯、沪银跌超7%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-18/doc-inizcvvc4837313.shtml",
-     "rrf": 0.0308,
-     "bm25_rank": 7,
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-20/doc-inizkizm0364280.shtml",
+     "rrf": 0.03058,
+     "bm25_rank": 8,
      "vec_rank": 3
     },
     {
      "n": 5,
-     "title": "开盘|国内期货主力合约涨跌互现，焦炭涨近4%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-20/doc-inizitcq4106140.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
-     "vec_rank": 5
+     "title": "国内部分商品期货夜盘收盘 主力合约多数上涨",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611193935387675.html",
+     "rrf": 0.03055,
+     "bm25_rank": 7,
+     "vec_rank": 4
     },
     {
      "n": 6,
-     "title": "收评|国内期货主力合约跌多涨少，苹果跌超7%",
+     "title": "开盘|国内期货主力合约涨跌互现，焦炭涨近4%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-19/doc-inizfyuh7840207.shtml",
-     "rrf": 0.03009,
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-20/doc-inizitcq4106140.shtml",
+     "rrf": 0.03031,
      "bm25_rank": 5,
-     "vec_rank": 8
+     "vec_rank": 7
     },
     {
      "n": 7,
@@ -271,31 +365,31 @@
     },
     {
      "n": 8,
-     "title": "光大期货1118热点追踪：板块情绪低迷叠加装置重启，乙二醇继续下挫",
+     "title": "收评|国内期货主力合约跌多涨少，苹果跌超7%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-18/doc-inizcvvc4829596.shtml",
-     "rrf": 0.02944,
-     "bm25_rank": 10,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-19/doc-inizfyuh7840207.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
+     "vec_rank": 8
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "商品期货开盘，液化气、原油、燃料油、沪铜主力合约跌超4%，国际铜、聚乙烯、聚丙烯",
     "bm25_only": 1,
-    "vec_only": 1,
-    "both": 6,
+    "vec_only": 0,
+    "both": 7,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "d0062878b026b0bf",
+   "key": "a51060df131f4cb8",
    "label": "习近平在亚太经合组织第三十三次领导人非正式会议上的讲话（全文）。（新华社）",
    "cached": false,
    "sections": {
-    "事件概述": "「习近平在亚太经合组织第三十三次领导人非正式会议上的讲话（全文）。（新华社）」由 14 篇报道聚合而成，覆盖 2 家媒体，热度 0.581（爆点），所属板块类目：综合。",
-    "关键信息": "习近平在亚太经合组织第三十三次领导人非正式会议上的讲话（全文）。（新华社）；习近平在亚太经合组织第三十三次领导人非正式会议欢迎晚宴上的祝酒辞（全文）；习近平将出席亚太经合组织第三十三次领导人非正式会议",
+    "事件概述": "「习近平在亚太经合组织第三十三次领导人非正式会议上的讲话（全文）。（新华社）」由 12 篇报道聚合而成，覆盖 2 家媒体，热度 0.623（高热），所属板块类目：综合。",
+    "关键信息": "习近平在亚太经合组织第三十三次领导人非正式会议上的讲话（全文）。（新华社）；习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话；习近平将出席亚太经合组织第三十三次领导人非正式会议",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -311,39 +405,39 @@
     },
     {
      "n": 2,
-     "title": "习近平在亚太经合组织第三十三次领导人非正式会议欢迎晚宴上的祝酒辞（全文）",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/china/2026-11-18/doc-inizehkz1551411.shtml",
-     "rrf": 0.03175,
+     "title": "习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3202300",
+     "rrf": 0.032,
      "bm25_rank": 2,
-     "vec_rank": 4
+     "vec_rank": 3
     },
     {
      "n": 3,
      "title": "习近平将出席亚太经合组织第三十三次领导人非正式会议",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3202261",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
+     "rrf": 0.032,
+     "bm25_rank": 3,
      "vec_rank": 2
     },
     {
      "n": 4,
-     "title": "习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话",
+     "title": "中澳总理年度会晤联合成果声明（全文）",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3202300",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
+     "url": "https://wallstreetcn.com/livenews/3203435",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
     },
     {
      "n": 5,
      "title": "习近平将会见美国总统特朗普",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3202336",
-     "rrf": 0.03054,
+     "rrf": 0.03077,
      "bm25_rank": 5,
-     "vec_rank": 6
+     "vec_rank": 5
     },
     {
      "n": 6,
@@ -359,120 +453,26 @@
      "title": "习近平：携手搭建亚太共同体的“四梁八柱”",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3202303",
-     "rrf": 0.02942,
-     "bm25_rank": 9,
-     "vec_rank": 7
+     "rrf": 0.02963,
+     "bm25_rank": 7,
+     "vec_rank": 8
     },
     {
      "n": 8,
-     "title": "习近平迎接美国总统特朗普",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/china/2026-11-18/doc-inizeacc1608669.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 7,
-     "vec_rank": 10
+     "title": "习近平谈建设亚太共同体",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3202302",
+     "rrf": 0.02896,
+     "bm25_rank": 15,
+     "vec_rank": 4
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "习近平在亚太经合组织第三十三次领导人非正式会议上的讲话（全文）。（新华社）",
-    "bm25_only": 2,
+    "bm25_only": 1,
     "vec_only": 1,
-    "both": 5,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "357034abe06d7ac7",
-   "label": "午间涨跌停股分析：23只涨停股、22只跌停股 光刻胶概念活跃 格林达3天2板 红宝丽涨停",
-   "cached": false,
-   "sections": {
-    "事件概述": "「午间涨跌停股分析：23只涨停股、22只跌停股 光刻胶概念活跃 格林达3天2板 红宝丽涨停」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.547（爆点），所属板块类目：半导体。",
-    "关键信息": "午间涨跌停股分析：23只涨停股、22只跌停股 光刻胶概念活跃 格林达3天2板 红；7分钟，3股直线涨停！外围变数，引爆这一赛道；11月19日午间收评：科创50指数半日涨近1%，光刻胶概念股逆势活跃",
-    "市场影响": "关联板块代码：BK0459、BK0732。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "午间涨跌停股分析：23只涨停股、22只跌停股 光刻胶概念活跃 格林达3天2板 红宝丽涨停",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611193934918977.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "7分钟，3股直线涨停！外围变数，引爆这一赛道",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-19/doc-inizfuni6329694.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "11月19日午间收评：科创50指数半日涨近1%，光刻胶概念股逆势活跃",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3202327",
-     "rrf": 0.03151,
-     "bm25_rank": 2,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "A股光刻机、光刻胶概念低开回升，盛剑科技4连板，光华科技涨停，晶赛科技、广立微涨",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3202937",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "2分钟涨停！603931、002165直线拉升",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-19/doc-inizfqem6412962.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "11月20日午间收评：沪指半日跌1.57%，PCB概念股逆势走强",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3202992",
-     "rrf": 0.02967,
-     "bm25_rank": 5,
-     "vec_rank": 10
-    },
-    {
-     "n": 7,
-     "title": "002771，秒涨停！002642，1分钟涨停！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-20/doc-inizixmn4044765.shtml",
-     "rrf": 0.02904,
-     "bm25_rank": 12,
-     "vec_rank": 6
-    },
-    {
-     "n": 8,
-     "title": "异动！603960直线涨停",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-20/doc-inizixmr0500899.shtml",
-     "rrf": 0.02867,
-     "bm25_rank": 6,
-     "vec_rank": 14
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "午间涨跌停股分析：23只涨停股、22只跌停股 光刻胶概念活跃 格林达3天2板 红",
-    "bm25_only": 2,
-    "vec_only": 1,
-    "both": 5,
+    "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
