@@ -5,16 +5,16 @@
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.5,
+ "elapsed": 4.0,
  "reports": [
   {
-   "key": "f9943a2bc3b06059",
+   "key": "200995b366f8cfc2",
    "label": "11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易记录曝光 美联储",
    "cached": false,
    "sections": {
-    "事件概述": "「11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易记录曝光 美联储」由 116 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易；Anthropic上市，美国经济命运与AI进一步深度绑定；Anthropic首秀市值达1.3万亿美元 又一巨型AI公司登陆纳斯达克",
-    "市场影响": "关联板块代码：BK1036、BK0697、BK0459、BK0800、BK1361。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易记录曝光 美联储」由 95 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易；Anthropic上市，美国经济命运与AI进一步深度绑定；特朗普9月交易记录曝光：加仓英伟达、SpaceX、帕兰提尔，多家企业斩获联邦大单",
+    "市场影响": "关联板块代码：BK1036、BK0459、BK0697、BK1361、BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
@@ -38,47 +38,47 @@
     },
     {
      "n": 3,
-     "title": "Anthropic首秀市值达1.3万亿美元 又一巨型AI公司登陆纳斯达克",
+     "title": "特朗普9月交易记录曝光：加仓英伟达、SpaceX、帕兰提尔，多家企业斩获联邦大单",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizinvp5782425.shtml",
-     "rrf": 0.02908,
-     "bm25_rank": 5,
-     "vec_rank": 13
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizihpu4238779.shtml",
+     "rrf": 0.02929,
+     "bm25_rank": 2,
+     "vec_rank": 16
     },
     {
      "n": 4,
-     "title": "Anthropic上市首日，大涨17%！科技股、芯片股高开低走",
+     "title": "Anthropic首秀市值达1.3万亿美元 又一巨型AI公司登陆纳斯达克",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-20/doc-inizitct0487373.shtml",
-     "rrf": 0.02831,
-     "bm25_rank": 16,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizinvp5782425.shtml",
+     "rrf": 0.02927,
+     "bm25_rank": 5,
+     "vec_rank": 12
     },
     {
      "n": 5,
      "title": "11月20日隔夜要闻：油价震荡 标普500指数六连跌 Anthropic首秀大涨难提振美股 伊朗加大对油轮的袭击",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizinvq7375587.shtml",
-     "rrf": 0.02822,
-     "bm25_rank": 21,
+     "rrf": 0.02792,
+     "bm25_rank": 23,
      "vec_rank": 3
     },
     {
      "n": 6,
-     "title": "特朗普9月交易记录曝光：加仓英伟达、SpaceX、帕兰提尔，多家企业斩获联邦大单",
+     "title": "Anthropic上市首日，大涨17%！科技股、芯片股高开低走",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizihpu4238779.shtml",
-     "rrf": 0.02818,
-     "bm25_rank": 2,
-     "vec_rank": 23
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-20/doc-inizitct0487373.shtml",
+     "rrf": 0.02791,
+     "bm25_rank": 17,
+     "vec_rank": 7
     },
     {
      "n": 7,
      "title": "Anthropic超级IPO不负华尔街热捧，但未能重振AI股交易",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizixmk7246398.shtml",
-     "rrf": 0.02748,
-     "bm25_rank": 17,
+     "rrf": 0.02731,
+     "bm25_rank": 18,
      "vec_rank": 9
     },
     {
@@ -86,9 +86,9 @@
      "title": "Anthropic IPO 后成为全球第七大市值公司",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizitct0473353.shtml",
-     "rrf": 0.02642,
-     "bm25_rank": 7,
-     "vec_rank": 27
+     "rrf": 0.02721,
+     "bm25_rank": 8,
+     "vec_rank": 20
     }
    ],
    "degraded": 1,
@@ -102,12 +102,12 @@
    "elapsed": 0.0
   },
   {
-   "key": "679366ccbacb1131",
+   "key": "bfcc7a2a5d650ff1",
    "label": "黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新14个月低点，一度失守3600关口",
    "cached": false,
    "sections": {
-    "事件概述": "「黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新14个月低点，一度失守3600关口」由 23 篇报道聚合而成，覆盖 3 家媒体，热度 0.637（爆点），所属板块类目：国际市场。",
-    "关键信息": "黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新14个月低点，一度失守36；今日黄金：跌至14个月新低，美联储加息预期升温致金价本周重挫9%；黄金自14个月低点反弹，逢低买盘暂时缓解美联储加息压力",
+    "事件概述": "「黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新14个月低点，一度失守3600关口」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.596（爆点），所属板块类目：国际市场。",
+    "关键信息": "黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新14个月低点，一度失守36；今日黄金：跌至14个月新低，美联储加息预期升温致金价本周重挫9%；快讯：现货黄金失守3600美元/盎司关口",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -126,175 +126,175 @@
      "title": "今日黄金：跌至14个月新低，美联储加息预期升温致金价本周重挫9%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizh3971414.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
-    },
-    {
-     "n": 3,
-     "title": "黄金自14个月低点反弹，逢低买盘暂时缓解美联储加息压力",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizfyuk4581825.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "快讯：现货黄金失守3600美元/盎司关口",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-20/doc-inizitcq4053844.shtml",
-     "rrf": 0.0308,
-     "bm25_rank": 7,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "“紧缩风暴”来袭！美元行至19个月新高，黄金一度失守3700美元",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-19/doc-inizfunc0485085.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 8,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "金价失守3700美元！黄金避险神话破灭？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-19/doc-inizhrrx6099249.shtml",
-     "rrf": 0.02967,
-     "bm25_rank": 5,
-     "vec_rank": 10
-    },
-    {
-     "n": 7,
-     "title": "“破防式”大跌！国内金价回落至去年4月水平，上期所出手！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hyyj/2026-11-20/doc-inizkyww7156223.shtml",
-     "rrf": 0.02957,
-     "bm25_rank": 3,
-     "vec_rank": 13
-    },
-    {
-     "n": 8,
-     "title": "美联储“鹰派”阴云压顶 金价连失四大整数关口",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/roll/2026-11-21/doc-iniznakn3602747.shtml",
-     "rrf": 0.02951,
-     "bm25_rank": 4,
-     "vec_rank": 12
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新14个月低点，一度失守36",
-    "bm25_only": 3,
-    "vec_only": 0,
-    "both": 5,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "a95dcb37b578a227",
-   "label": "内盘期货夜市多数下跌，LPG收跌超7%，燃油跌超4%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「内盘期货夜市多数下跌，LPG收跌超7%，燃油跌超4%」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.521（爆点），所属板块类目：大宗与能化。",
-    "关键信息": "内盘期货夜市多数下跌，LPG收跌超7%，燃油跌超4%；内盘期货夜市普遍上涨，焦炭、焦煤涨约4%；国内部分商品期货夜盘收盘 主力合约大面积飘绿",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "内盘期货夜市多数下跌，LPG收跌超7%，燃油跌超4%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3203447",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "内盘期货夜市普遍上涨，焦炭、焦煤涨约4%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3202662",
      "rrf": 0.032,
      "bm25_rank": 2,
      "vec_rank": 3
     },
     {
      "n": 3,
-     "title": "国内部分商品期货夜盘收盘 主力合约大面积飘绿",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203936492284.html",
-     "rrf": 0.03175,
-     "bm25_rank": 4,
+     "title": "快讯：现货黄金失守3600美元/盎司关口",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-20/doc-inizitcq4053844.shtml",
+     "rrf": 0.03151,
+     "bm25_rank": 5,
      "vec_rank": 2
     },
     {
      "n": 4,
-     "title": "国内部分商品期货夜盘收盘 主力合约多数上涨",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611193935387675.html",
-     "rrf": 0.03102,
-     "bm25_rank": 3,
-     "vec_rank": 6
+     "title": "现货黄金创14个月新低 机构称美国通胀与油价是止跌关键信号",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-19/doc-inizhvyc0869485.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 6,
+     "vec_rank": 5
     },
     {
      "n": 5,
-     "title": "收评|国内期货主力合约跌多涨少，苹果跌超7%",
+     "title": "“破防式”大跌！国内金价回落至去年4月水平，上期所出手！",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-19/doc-inizfyuh7840207.shtml",
-     "rrf": 0.0276,
-     "bm25_rank": 11,
-     "vec_rank": 14
+     "url": "https://finance.sina.com.cn/stock/hyyj/2026-11-20/doc-inizkyww7156223.shtml",
+     "rrf": 0.03016,
+     "bm25_rank": 3,
+     "vec_rank": 10
     },
     {
      "n": 6,
-     "title": "中概股开盘多数下跌",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203936463165.html",
-     "rrf": 0.02758,
-     "bm25_rank": 7,
-     "vec_rank": 19
+     "title": "美联储“鹰派”阴云压顶 金价连失四大整数关口",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/roll/2026-11-21/doc-iniznakn3602747.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 4,
+     "vec_rank": 9
     },
     {
      "n": 7,
-     "title": "盘前：纳指期货跌1.94% Anthropic跌超13%",
+     "title": "光大期货1120黄金点评：黄金接连失守关键位置，弱势格局何时休？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkyww7109290.shtml",
+     "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-20/doc-inizkizh3927346.shtml",
+     "rrf": 0.02991,
+     "bm25_rank": 10,
+     "vec_rank": 4
+    },
+    {
+     "n": 8,
+     "title": "国际金价创一年多新低 黄金消费热潮背后这几点要知道",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-21/10735605.shtml",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
+     "vec_rank": 8
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新14个月低点，一度失守36",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "3105f23be47afb13",
+   "label": "快讯：恒指低开1.57% 恒科指跌2.95% 科网股、黄金股低迷 网易跌超13%",
+   "cached": false,
+   "sections": {
+    "事件概述": "「快讯：恒指低开1.57% 恒科指跌2.95% 科网股、黄金股低迷 网易跌超13%」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.558（爆点），所属板块类目：金融市场。",
+    "关键信息": "快讯：恒指低开1.57% 恒科指跌2.95% 科网股、黄金股低迷 网易跌超13%；恒生科技指数跌幅扩大至4% 网易领跌成分股；游戏收入下滑拖累业绩 网易港股开盘跌逾13%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "快讯：恒指低开1.57% 恒科指跌2.95% 科网股、黄金股低迷 网易跌超13%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-20/doc-inizixmn3992937.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "恒生科技指数跌幅扩大至4% 网易领跌成分股",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-20/doc-inizixmk7265188.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "游戏收入下滑拖累业绩 网易港股开盘跌逾13%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-20/doc-inizixmn3996461.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "美股纳指低开1.2% 科技股集体下挫 Anthropic上市次日跌超9%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611203936458449.html",
+     "rrf": 0.03009,
+     "bm25_rank": 5,
+     "vec_rank": 8
+    },
+    {
+     "n": 5,
+     "title": "恒指跌幅扩大至2%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3202957",
+     "rrf": 0.0284,
+     "bm25_rank": 8,
+     "vec_rank": 13
+    },
+    {
+     "n": 6,
+     "title": "A股开盘：超5300只个股飘绿，三大指数集体低开",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735054.shtml",
+     "rrf": 0.02797,
+     "bm25_rank": 18,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "创业板指跌超3%，沪指跌1.7%，深成指跌2.64%，AI漫剧、贵金属、家电、军",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3202942",
      "rrf": 0.02686,
      "bm25_rank": 13,
      "vec_rank": 16
     },
     {
      "n": 8,
-     "title": "刚刚，集体大跌！抛售为哪般？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-20/doc-inizkize7213180.shtml",
-     "rrf": 0.02614,
-     "bm25_rank": 16,
-     "vec_rank": 17
+     "title": "中概股开盘多数下跌",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611203936463165.html",
+     "rrf": 0.02658,
+     "bm25_rank": 20,
+     "vec_rank": 11
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "内盘期货夜市多数下跌，LPG收跌超7%，燃油跌超4%",
+    "query": "快讯：恒指低开1.57% 恒科指跌2.95% 科网股、黄金股低迷 网易跌超13%",
     "bm25_only": 1,
-    "vec_only": 0,
+    "vec_only": 1,
     "both": 4,
-    "neither_topk": 3
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "c9a40240fd2f1cca",
+   "key": "fbd46280a080e07c",
    "label": "比特币跌破62000美元创近五个月新低，AI股抛售潮重挫风险偏好",
    "cached": false,
    "sections": {
-    "事件概述": "「比特币跌破62000美元创近五个月新低，AI股抛售潮重挫风险偏好」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.481（爆点），所属板块类目：国际市场。",
+    "事件概述": "「比特币跌破62000美元创近五个月新低，AI股抛售潮重挫风险偏好」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.512（爆点），所属板块类目：国际市场。",
     "关键信息": "比特币跌破62000美元创近五个月新低，AI股抛售潮重挫风险偏好；比特币跌破6万美元 投资者撤离风险资产；比特币跌破61000美元，日内跌1.59%",
     "市场影响": "关联板块代码：BK0830。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -314,8 +314,8 @@
      "title": "比特币跌破6万美元 投资者撤离风险资产",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfew3864157.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
@@ -332,45 +332,45 @@
      "title": "比特币跌破57000美元 日内跌超4%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611213936798456.html",
-     "rrf": 0.03128,
-     "bm25_rank": 2,
-     "vec_rank": 6
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
     },
     {
      "n": 5,
-     "title": "比特币跌至6.35万美元，美联储加息预期持续打压加密货币市场",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizfyuh7841844.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
+     "title": "比特币自7月以来首次跌破6万美元 日内下跌5%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611203936529855.html",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
      "vec_rank": 4
     },
     {
      "n": 6,
-     "title": "比特币自7月以来首次跌破6万美元 日内下跌5%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203936529855.html",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
      "title": "比特币跌至两年多低点 风险资产抛售加剧下行压力",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmruv0012034.shtml",
-     "rrf": 0.02985,
+     "rrf": 0.03008,
      "bm25_rank": 7,
-     "vec_rank": 7
+     "vec_rank": 6
     },
     {
-     "n": 8,
+     "n": 7,
      "title": "比特币遭遇抛售：与股票同步下跌，加密资产再度通不过 “数字黄金”考验",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfez0180144.shtml",
-     "rrf": 0.02797,
-     "bm25_rank": 11,
-     "vec_rank": 12
+     "rrf": 0.02858,
+     "bm25_rank": 9,
+     "vec_rank": 11
+    },
+    {
+     "n": 8,
+     "title": "在Anthropic与SpaceX IPO前夕，比特币出现高度相似的抛售行情",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfeu7065319.shtml",
+     "rrf": 0.02669,
+     "bm25_rank": 17,
+     "vec_rank": 13
     }
    ],
    "degraded": 1,
@@ -378,102 +378,102 @@
     "query": "比特币跌破62000美元创近五个月新低，AI股抛售潮重挫风险偏好",
     "bm25_only": 0,
     "vec_only": 0,
-    "both": 7,
-    "neither_topk": 1
+    "both": 6,
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "ebc354e736f83e4b",
-   "label": "港股收评：恒指跌1.95% 科指跌2.33% 科网股普跌 光通信板块逆势活跃 腾讯跌超6%",
+   "key": "19021af6f6c21c4a",
+   "label": "日本10月CPI创11个月新高，凯投宏观预计日本央行明年年中将利率上调至2.5%",
    "cached": false,
    "sections": {
-    "事件概述": "「港股收评：恒指跌1.95% 科指跌2.33% 科网股普跌 光通信板块逆势活跃 腾讯跌超6%」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.481（爆点），所属板块类目：金融市场。",
-    "关键信息": "港股收评：恒指跌1.95% 科指跌2.33% 科网股普跌 光通信板块逆势活跃 腾；恒生科技指数跌幅扩大至4% 网易领跌成分股；游戏收入下滑拖累业绩 网易港股开盘跌逾13%",
+    "事件概述": "「日本10月CPI创11个月新高，凯投宏观预计日本央行明年年中将利率上调至2.5%」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.489（爆点），所属板块类目：宏观政策。",
+    "关键信息": "日本10月CPI创11个月新高，凯投宏观预计日本央行明年年中将利率上调至2.5%；日本CPI涨幅创年内最快，支持日本央行加息预期；日本央行12月加息概率升至72%，政府拟重启能源补贴",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "港股收评：恒指跌1.95% 科指跌2.33% 科网股普跌 光通信板块逆势活跃 腾讯跌超6%",
+     "title": "日本10月CPI创11个月新高，凯投宏观预计日本央行明年年中将利率上调至2.5%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-19/doc-inizhfac6233718.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizh3995544.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "恒生科技指数跌幅扩大至4% 网易领跌成分股",
+     "title": "日本CPI涨幅创年内最快，支持日本央行加息预期",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-20/doc-inizixmk7265188.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizitct0478473.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "游戏收入下滑拖累业绩 网易港股开盘跌逾13%",
+     "title": "日本央行12月加息概率升至72%，政府拟重启能源补贴",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-20/doc-inizixmn3996461.shtml",
-     "rrf": 0.03151,
-     "bm25_rank": 2,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "快讯：恒指低开1.57% 恒科指跌2.95% 科网股、黄金股低迷 网易跌超13%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-20/doc-inizixmn3992937.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
+     "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-11-20/doc-inizixmr0433446.shtml",
+     "rrf": 0.03102,
+     "bm25_rank": 6,
      "vec_rank": 3
     },
     {
-     "n": 5,
-     "title": "【异动】股息率冲上6%，港股红利低波ETF招商(520550)融资余额被加仓到新高！底气在哪？",
+     "n": 4,
+     "title": "CPI数据不及预期，日本央行12月加息会生变数吗？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/fund/jjh/2026-11-20/doc-inizixmn4103546.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
+     "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-20/doc-inizixmk7245735.shtml",
+     "rrf": 0.02988,
+     "bm25_rank": 9,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "日本10月核心通胀飙升至年内最高 12月加息已经板上钉钉？",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611203935948592.html",
+     "rrf": 0.02986,
+     "bm25_rank": 8,
+     "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "11月20日午间收评：沪指半日跌1.57%，PCB概念股逆势走强",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3202992",
-     "rrf": 0.02896,
-     "bm25_rank": 4,
-     "vec_rank": 15
+     "title": "欧洲央行管委Nagel：12月应将利率上调至限制性区间",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkywv5490989.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 7,
+     "vec_rank": 8
     },
     {
      "n": 7,
-     "title": "腾讯和联想集团卖空股数双双暴增逾300%！多重利空共振压制港股",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203935954416.html",
-     "rrf": 0.02814,
-     "bm25_rank": 6,
-     "vec_rank": 17
+     "title": "日本10月份核心通胀率升至2.2%，强化近期加息理由",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizitcq4059161.shtml",
+     "rrf": 0.02674,
+     "bm25_rank": 30,
+     "vec_rank": 4
     },
     {
      "n": 8,
-     "title": "11月20日午间新闻精选",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203935971921.html",
-     "rrf": 0.01562,
-     "bm25_rank": null,
-     "vec_rank": 4
+     "title": "据美国纽约联储数据，上个交易日（11月19日）担保隔夜融资利率（SOFR）报3.",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203411",
+     "rrf": 0.02613,
+     "bm25_rank": 23,
+     "vec_rank": 11
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "港股收评：恒指跌1.95% 科指跌2.33% 科网股普跌 光通信板块逆势活跃 腾",
-    "bm25_only": 2,
-    "vec_only": 1,
+    "query": "日本10月CPI创11个月新高，凯投宏观预计日本央行明年年中将利率上调至2.5%",
+    "bm25_only": 0,
+    "vec_only": 2,
     "both": 5,
-    "neither_topk": 0
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }
