@@ -2,29 +2,29 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.498,
-  "avg_rank_diff": 1.08,
-  "avg_missed_by_bm25": 1.67,
-  "avg_missed_by_vector": 2.33,
-  "conclusion": "两路召回集平均重合度仅 50%；即便重合的文档，两路名次平均相差 1.08 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 1.67 篇最终进入 Top8 的文档；只用向量则漏掉 2.33 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.257,
+  "avg_rank_diff": 0.98,
+  "avg_missed_by_bm25": 3.33,
+  "avg_missed_by_vector": 2.89,
+  "conclusion": "两路召回集平均重合度仅 26%；即便重合的文档，两路名次平均相差 0.98 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.33 篇最终进入 Top8 的文档；只用向量则漏掉 2.89 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
    "query": "11月20日外盘头条：Anthropic首秀市值达1.3万亿",
    "jaccard": 0.231,
-   "rank_diff": 2.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
+   "rank_diff": 1.67,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 2,
    "example_top1": "11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易记录曝光 美"
   },
   {
    "type": "关键词式",
    "query": "日外 头条 首秀 市值 万亿美元 特朗普",
    "jaccard": 0.143,
-   "rank_diff": 1.0,
+   "rank_diff": 0.5,
    "missed_by_bm25": 4,
-   "missed_by_vector": 5,
+   "missed_by_vector": 3,
    "example_top1": "11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易记录曝光 美"
   },
   {
@@ -33,62 +33,62 @@
    "jaccard": 0.143,
    "rank_diff": 0.0,
    "missed_by_bm25": 4,
-   "missed_by_vector": 5,
+   "missed_by_vector": 3,
    "example_top1": "11月20日外盘头条：Anthropic首秀市值达1.3万亿美元 特朗普9月交易记录曝光 美"
   },
   {
    "type": "原标题式",
-   "query": "快讯：现货黄金失守3710美元/盎司，日内跌0.40%。现货",
-   "jaccard": 1.0,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 0,
-   "example_top1": "快讯：现货黄金失守3710美元/盎司，日内跌0.40%。现货白银跌破45美元/盎司，日内跌0"
+   "query": "黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新14个",
+   "jaccard": 0.231,
+   "rank_diff": 0.67,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 3,
+   "example_top1": "黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新14个月低点，一度失守3600关口"
   },
   {
    "type": "关键词式",
-   "query": "快讯 现货 黄金 失守 美元 盎司",
-   "jaccard": 0.6,
-   "rank_diff": 0.5,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 2,
-   "example_top1": "快讯：现货黄金失守3600美元/盎司关口"
+   "query": "黄金 交易 提醒 美联储 加息 预期",
+   "jaccard": 0.333,
+   "rank_diff": 1.25,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 1,
+   "example_top1": "黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新14个月低点，一度失守3600关口"
   },
   {
    "type": "去数字泛化",
-   "query": "快讯：现货黄金失守美元/盎司，日内跌。现货白银跌破美元/盎司",
-   "jaccard": 1.0,
-   "rank_diff": 1.5,
-   "missed_by_bm25": 0,
-   "missed_by_vector": 0,
-   "example_top1": "快讯：现货黄金失守3710美元/盎司，日内跌0.40%。现货白银跌破45美元/盎司，日内跌0"
+   "query": "黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新个月低",
+   "jaccard": 0.333,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
+   "example_top1": "黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新14个月低点，一度失守3600关口"
   },
   {
    "type": "原标题式",
-   "query": "港股午评：恒指跌1.89%失守23000点 科指跌2% 科网",
-   "jaccard": 0.455,
-   "rank_diff": 0.4,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "港股午评：恒指跌1.89%失守23000点 科指跌2% 科网股普跌 黄金股走弱 腾讯跌超6%"
+   "query": "内盘期货夜市多数下跌，LPG收跌超7%，燃油跌超4%",
+   "jaccard": 0.333,
+   "rank_diff": 1.5,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 4,
+   "example_top1": "内盘期货夜市多数下跌，LPG收跌超7%，燃油跌超4%"
   },
   {
    "type": "关键词式",
-   "query": "港股 午评 恒指 失守 科指 科网",
-   "jaccard": 0.455,
-   "rank_diff": 2.2,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 1,
-   "example_top1": "港股午评：恒指跌1.89%失守23000点 科指跌2% 科网股普跌 黄金股走弱 腾讯跌超6%"
+   "query": "内盘 期货 夜市 多数 下跌 收跌超",
+   "jaccard": 0.231,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 4,
+   "missed_by_vector": 4,
+   "example_top1": "内盘期货夜市多数下跌，LPG收跌超7%，燃油跌超4%"
   },
   {
    "type": "去数字泛化",
-   "query": "港股午评：恒指跌失守点 科指跌 科网股普跌 黄金股走弱 腾讯",
-   "jaccard": 0.455,
-   "rank_diff": 0.6,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 3,
-   "example_top1": "港股午评：恒指跌1.89%失守23000点 科指跌2% 科网股普跌 黄金股走弱 腾讯跌超6%"
+   "query": "内盘期货夜市多数下跌，LPG收跌超，燃油跌超",
+   "jaccard": 0.333,
+   "rank_diff": 1.25,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 4,
+   "example_top1": "内盘期货夜市多数下跌，LPG收跌超7%，燃油跌超4%"
   }
  ]
 }
