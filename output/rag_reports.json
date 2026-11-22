@@ -1,227 +1,133 @@
 {
  "engine": "template(降级)",
- "n_clusters": 49,
+ "n_clusters": 52,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.8,
+ "elapsed": 4.4,
  "reports": [
   {
-   "key": "209c96de74b05c51",
-   "label": "11月21日隔夜要闻：美股全线下挫 英伟达市值跌出前三 黄金创3月份以来最大单周跌幅 避险买盘推",
+   "key": "5d5d13a9e58bf033",
+   "label": "美股费城半导体指数跌超5%，英伟达跌4.35%，博通跌6.76%，美光跌7.75",
    "cached": false,
    "sections": {
-    "事件概述": "「11月21日隔夜要闻：美股全线下挫 英伟达市值跌出前三 黄金创3月份以来最大单周跌幅 避险买盘推」由 50 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "11月21日隔夜要闻：美股全线下挫 英伟达市值跌出前三 黄金创3月份以来最大单周；仅一个多月 英伟达市值距纪录高点已跌掉一个亚马逊；跌破3600，黄金势创3月来最惨一周",
-    "市场影响": "关联板块代码：BK1036、BK0459、BK1361、BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「美股费城半导体指数跌超5%，英伟达跌4.35%，博通跌6.76%，美光跌7.75」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "美股费城半导体指数跌超5%，英伟达跌4.35%，博通跌6.76%，美光跌7.75；美股再次走弱 费城半导体指数跌幅扩大至5%；Anthropic跌超12%，刷新日低，逼近85美元。 在Anthropic的“",
+    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "11月21日隔夜要闻：美股全线下挫 英伟达市值跌出前三 黄金创3月份以来最大单周跌幅 避险买盘推动美债大涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmwaq3638651.shtml",
+     "title": "美股费城半导体指数跌超5%，英伟达跌4.35%，博通跌6.76%，美光跌7.75",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203449",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "仅一个多月 英伟达市值距纪录高点已跌掉一个亚马逊",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznakk6772708.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
+     "title": "美股再次走弱 费城半导体指数跌幅扩大至5%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611203936508783.html",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "跌破3600，黄金势创3月来最惨一周",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-11-20/doc-inizkcth7231536.shtml",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "黄金创3月份以来最大单周跌幅 美联储鹰派信号和AI股票大跌构成压力",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmwan6852758.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 3,
-     "vec_rank": 15
-    },
-    {
-     "n": 5,
-     "title": "市值一夜蒸发近5000亿美元！英伟达遭遇重挫 黄仁勋回归变数加大",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611213936792957.html",
-     "rrf": 0.02878,
-     "bm25_rank": 16,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "英伟达市值被谷歌超越",
+     "title": "Anthropic跌超12%，刷新日低，逼近85美元。 在Anthropic的“",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3203433",
-     "rrf": 0.02863,
-     "bm25_rank": 2,
-     "vec_rank": 20
-    },
-    {
-     "n": 7,
-     "title": "英伟达股价创2025年6月以来新低 总市值降至3.36万亿美元被谷歌超越",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203936473670.html",
-     "rrf": 0.02837,
-     "bm25_rank": 5,
-     "vec_rank": 17
-    },
-    {
-     "n": 8,
-     "title": "英伟达股价跌幅扩大至6.1%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203936526595.html",
-     "rrf": 0.0278,
-     "bm25_rank": 14,
-     "vec_rank": 10
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "11月21日隔夜要闻：美股全线下挫 英伟达市值跌出前三 黄金创3月份以来最大单周",
-    "bm25_only": 3,
-    "vec_only": 1,
-    "both": 3,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "ffa6a2247131865f",
-   "label": "国际金价在AI股抛售潮中跌向3500美元，较历史峰值已经回撤超37%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「国际金价在AI股抛售潮中跌向3500美元，较历史峰值已经回撤超37%」由 10 篇报道聚合而成，覆盖 4 家媒体，热度 0.629（爆点），所属板块类目：国际市场。",
-    "关键信息": "国际金价在AI股抛售潮中跌向3500美元，较历史峰值已经回撤超37%；国际金价创一年多新低 黄金消费热潮背后这几点要知道；（经济观察）金价跌势凌厉 波动或将持续",
-    "市场影响": "关联板块代码：BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "国际金价在AI股抛售潮中跌向3500美元，较历史峰值已经回撤超37%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3203621",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "国际金价创一年多新低 黄金消费热潮背后这几点要知道",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-21/10735605.shtml",
+     "url": "https://wallstreetcn.com/livenews/3203464",
      "rrf": 0.03175,
      "bm25_rank": 2,
      "vec_rank": 4
     },
     {
-     "n": 3,
-     "title": "（经济观察）金价跌势凌厉 波动或将持续",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-21/10735752.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
+     "n": 4,
+     "title": "费城半导体指数跌幅扩大至5% 报8946.81点",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611203936507563.html",
+     "rrf": 0.03126,
+     "bm25_rank": 5,
      "vec_rank": 3
     },
     {
-     "n": 4,
-     "title": "“破防式”大跌！国内金价回落至去年4月水平，上期所出手！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hyyj/2026-11-20/doc-inizkyww7156223.shtml",
-     "rrf": 0.03105,
-     "bm25_rank": 7,
-     "vec_rank": 2
-    },
-    {
      "n": 5,
-     "title": "今日黄金：跌至14个月新低，美联储加息预期升温致金价本周重挫9%",
+     "title": "英伟达单日暴跌14%，但斌回应“清盘线”：部分基金只能被动减仓",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizh3971414.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
+     "url": "https://finance.sina.com.cn/roll/2026-11-21/doc-iniznthe3406469.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
     },
     {
      "n": 6,
-     "title": "黄金连连溃败 逼近3500美元关口！华尔街齐呼：已跌入超卖区域",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611223936875812.html",
-     "rrf": 0.02879,
-     "bm25_rank": 8,
-     "vec_rank": 11
+     "title": "纳斯达克100指数跌幅扩大至超过2%，成分股闪迪跌11.6%，西部数据、美光、希",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203451",
+     "rrf": 0.03008,
+     "bm25_rank": 6,
+     "vec_rank": 7
     },
     {
      "n": 7,
-     "title": "金价走低带火线下购金：豫园某柜台一上午卖出60余只金手镯",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-21/10735622.shtml",
-     "rrf": 0.02857,
-     "bm25_rank": 10,
-     "vec_rank": 10
+     "title": "英伟达跌超6%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611203936530528.html",
+     "rrf": 0.02988,
+     "bm25_rank": 9,
+     "vec_rank": 5
     },
     {
      "n": 8,
-     "title": "比特币跌破62000美元创近五个月新低，AI股抛售潮重挫风险偏好",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizh3964542.shtml",
-     "rrf": 0.02783,
-     "bm25_rank": 15,
-     "vec_rank": 9
+     "title": "MSCI新兴市场股票指数跌3.1%。 当前，美股纳斯达克100指数跌2.6%，半",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203466",
+     "rrf": 0.02899,
+     "bm25_rank": 8,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "国际金价在AI股抛售潮中跌向3500美元，较历史峰值已经回撤超37%",
+    "query": "美股费城半导体指数跌超5%，英伟达跌4.35%，博通跌6.76%，美光跌7.75",
     "bm25_only": 1,
-    "vec_only": 0,
-    "both": 5,
-    "neither_topk": 2
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "0391c7fc331f392a",
-   "label": "比特币跌破62000美元创近五个月新低，AI股抛售潮重挫风险偏好",
+   "key": "26cc9cae9c24396e",
+   "label": "比特币涨穿60000美元，日内涨2.53%。 以太坊涨穿1700美元，日内涨5.",
    "cached": false,
    "sections": {
-    "事件概述": "「比特币跌破62000美元创近五个月新低，AI股抛售潮重挫风险偏好」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.567（爆点），所属板块类目：国际市场。",
-    "关键信息": "比特币跌破62000美元创近五个月新低，AI股抛售潮重挫风险偏好；比特币跌破6万美元 投资者撤离风险资产；比特币跌破57000美元 日内跌超4%",
+    "事件概述": "「比特币涨穿60000美元，日内涨2.53%。 以太坊涨穿1700美元，日内涨5.」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.691（爆点），所属板块类目：国际市场。",
+    "关键信息": "比特币涨穿60000美元，日内涨2.53%。 以太坊涨穿1700美元，日内涨5.；比特币升破61000美元 日内涨1.58%；比特币跌破57000美元 日内跌超4%",
     "市场影响": "关联板块代码：BK0830。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "比特币跌破62000美元创近五个月新低，AI股抛售潮重挫风险偏好",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizh3964542.shtml",
+     "title": "比特币涨穿60000美元，日内涨2.53%。 以太坊涨穿1700美元，日内涨5.",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203685",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "比特币跌破6万美元 投资者撤离风险资产",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfew3864157.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 3,
+     "title": "比特币升破61000美元 日内涨1.58%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611223936919940.html",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
@@ -229,9 +135,9 @@
      "title": "比特币跌破57000美元 日内跌超4%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611213936798456.html",
-     "rrf": 0.03151,
-     "bm25_rank": 2,
-     "vec_rank": 5
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
     },
     {
      "n": 4,
@@ -244,235 +150,329 @@
     },
     {
      "n": 5,
-     "title": "比特币自7月以来首次跌破6万美元 日内下跌5%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203936529855.html",
-     "rrf": 0.03033,
-     "bm25_rank": 8,
-     "vec_rank": 4
+     "title": "一觉醒来，黄金跌超2%逼近3500美元，国际油价走高，比特币跌破60000美元，加密货币近30万人爆仓",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-11-21/doc-inizmwam5179153.shtml",
+     "rrf": 0.02988,
+     "bm25_rank": 5,
+     "vec_rank": 9
     },
     {
      "n": 6,
-     "title": "比特币跌至两年多低点 风险资产抛售加剧下行压力",
+     "title": "比特币跌破6万美元 投资者撤离风险资产",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmruv0012034.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfew3864157.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 6,
+     "vec_rank": 10
     },
     {
      "n": 7,
-     "title": "比特币遭遇抛售：与股票同步下跌，加密资产再度通不过 “数字黄金”考验",
+     "title": "暗盘原油、金价、比特币集体走高 美伊冲突传来新消息",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfez0180144.shtml",
-     "rrf": 0.02797,
-     "bm25_rank": 12,
-     "vec_rank": 11
-    },
-    {
-     "n": 8,
-     "title": "加密货币正在淡出时代潮流 投资者开始厌倦",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizpqmu3159375.shtml",
-     "rrf": 0.02748,
-     "bm25_rank": 17,
-     "vec_rank": 9
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "比特币跌破62000美元创近五个月新低，AI股抛售潮重挫风险偏好",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 6,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "256825b8e29a7aa8",
-   "label": "财政部：1-10月证券交易印花税2511亿元 同比增长54.1%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「财政部：1-10月证券交易印花税2511亿元 同比增长54.1%」由 6 篇报道聚合而成，覆盖 2 家媒体，热度 0.486（爆点），所属板块类目：宏观政策。",
-    "关键信息": "10月证券交易印花税120亿触底，下滑34%逼近两年低点，这个数据如何看？；财政部：1-10月证券交易印花税2511亿元 同比增长54.1%；财政部：1-10月全国财政收入195671亿元 同比增长4.9%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "10月证券交易印花税120亿触底，下滑34%逼近两年低点，这个数据如何看？",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-21/doc-iniznakn3628877.shtml",
-     "rrf": 0.03252,
-     "bm25_rank": 1,
-     "vec_rank": 2
-    },
-    {
-     "n": 2,
-     "title": "财政部：1-10月证券交易印花税2511亿元 同比增长54.1%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/china/2026-11-20/doc-inizkqie3933082.shtml",
-     "rrf": 0.03252,
-     "bm25_rank": 2,
-     "vec_rank": 1
-    },
-    {
-     "n": 3,
-     "title": "财政部：1-10月全国财政收入195671亿元 同比增长4.9%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/china/2026-11-20/doc-inizkqie3934457.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "足球世界杯效应持续 10月中国销售彩票同比增长19.4%",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735516.shtml",
-     "rrf": 0.03033,
-     "bm25_rank": 4,
+     "url": "https://finance.sina.com.cn/world/gjcj/2026-11-22/doc-inizqfik6192912.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 9,
      "vec_rank": 8
     },
     {
-     "n": 5,
-     "title": "财政收支运行平稳有序",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-22/doc-inizqmrk2882026.shtml",
-     "rrf": 0.03008,
-     "bm25_rank": 7,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "今年1-10月中国财政收入同比增长4.9%",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735509.shtml",
-     "rrf": 0.02957,
-     "bm25_rank": 13,
-     "vec_rank": 3
-    },
-    {
-     "n": 7,
-     "title": "前10个月全国一般公共预算收入平稳增长",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-21/doc-inizmwaq3617027.shtml",
-     "rrf": 0.02942,
-     "bm25_rank": 9,
-     "vec_rank": 7
-    },
-    {
      "n": 8,
-     "title": "熊园：10月财政收入增、支出慢，如何理解？",
+     "title": "警报！美元冲击波，强势来袭！影响有多大？",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/stockzmt/2026-11-22/doc-inizqmrn9100731.shtml",
-     "rrf": 0.02773,
-     "bm25_rank": 21,
-     "vec_rank": 5
+     "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznaki5114303.shtml",
+     "rrf": 0.02881,
+     "bm25_rank": 7,
+     "vec_rank": 12
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "财政部：1-10月证券交易印花税2511亿元 同比增长54.1%",
-    "bm25_only": 0,
-    "vec_only": 3,
-    "both": 5,
+    "query": "比特币涨穿60000美元，日内涨2.53%。 以太坊涨穿1700美元，日内涨5.",
+    "bm25_only": 3,
+    "vec_only": 1,
+    "both": 4,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "beabdce8d5bf3e55",
-   "label": "港股午评：恒指跌1.71% 科指跌3.14% 科网股低迷 芯片股下挫 网易跌超17%",
+   "key": "8d3c513678e7f86c",
+   "label": "沪深交易所逐年提高降费举措力度 2021年以来已累计让利超70亿元",
    "cached": false,
    "sections": {
-    "事件概述": "「港股午评：恒指跌1.71% 科指跌3.14% 科网股低迷 芯片股下挫 网易跌超17%」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.444（高热），所属板块类目：金融市场。",
-    "关键信息": "港股午评：恒指跌1.71% 科指跌3.14% 科网股低迷 芯片股下挫 网易跌超1；美股纳指低开1.2% 科技股集体下挫 Anthropic上市次日跌超9%；英伟达跌超6%",
+    "事件概述": "「沪深交易所逐年提高降费举措力度 2021年以来已累计让利超70亿元」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.655（爆点），所属板块类目：金融市场。",
+    "关键信息": "沪深交易所逐年提高降费举措力度 2021年以来已累计让利超70亿元；沪深交易所再降费：年内整体让利合计超46亿元；沪深交易所、中国结算集体降费",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "港股午评：恒指跌1.71% 科指跌3.14% 科网股低迷 芯片股下挫 网易跌超17%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-20/doc-inizkctk3995691.shtml",
+     "title": "沪深交易所逐年提高降费举措力度 2021年以来已累计让利超70亿元",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611223936937060.html",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "美股纳指低开1.2% 科技股集体下挫 Anthropic上市次日跌超9%",
+     "title": "沪深交易所再降费：年内整体让利合计超46亿元",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203936458449.html",
+     "url": "https://finance.eastmoney.com/a/202611223936938713.html",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "沪深交易所、中国结算集体降费",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/china/2026-11-22/doc-inizrhuw5919916.shtml",
      "rrf": 0.03175,
      "bm25_rank": 3,
      "vec_rank": 3
     },
     {
-     "n": 3,
-     "title": "英伟达跌超6%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203936530528.html",
-     "rrf": 0.02983,
-     "bm25_rank": 2,
-     "vec_rank": 13
-    },
-    {
      "n": 4,
-     "title": "中概股开盘多数下跌",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203936463165.html",
-     "rrf": 0.02964,
-     "bm25_rank": 9,
-     "vec_rank": 6
+     "title": "上交所：预计本年度沪市整体降费金额超过24亿元",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-22/10736167.shtml",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
     },
     {
      "n": 5,
-     "title": "【异动】股息率冲上6%，港股红利低波ETF招商(520550)融资余额被加仓到新高！底气在哪？",
+     "title": "A股交易迎新一批降费措施",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/fund/jjh/2026-11-20/doc-inizixmn4103546.shtml",
-     "rrf": 0.02867,
-     "bm25_rank": 6,
-     "vec_rank": 14
+     "url": "https://finance.sina.com.cn/stock/wbstock/2026-11-22/doc-inizrhuw5964242.shtml",
+     "rrf": 0.03055,
+     "bm25_rank": 4,
+     "vec_rank": 7
     },
     {
      "n": 6,
-     "title": "11月20日午间收评：沪指半日跌1.57%，PCB概念股逆势走强",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3202992",
-     "rrf": 0.02828,
-     "bm25_rank": 4,
-     "vec_rank": 19
+     "title": "沪深交易所、中国结算推出一揽子降费措施",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611223936924891.html",
+     "rrf": 0.03031,
+     "bm25_rank": 7,
+     "vec_rank": 5
     },
     {
      "n": 7,
-     "title": "Anthropic跌超12%，刷新日低，逼近85美元。 在Anthropic的“",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3203464",
-     "rrf": 0.02753,
+     "title": "刚刚，A股利好！上交所、深交所、北交所，集体宣布！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-22/doc-inizrhuw5925388.shtml",
+     "rrf": 0.0292,
      "bm25_rank": 8,
-     "vec_rank": 18
+     "vec_rank": 9
     },
     {
      "n": 8,
-     "title": "11月20日午间新闻精选",
+     "title": "交易所降低融资保证金比例下限 可带来增量资金近4000亿元",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203935971921.html",
-     "rrf": 0.02749,
-     "bm25_rank": 28,
-     "vec_rank": 2
+     "url": "https://finance.eastmoney.com/a/202611223936924279.html",
+     "rrf": 0.02857,
+     "bm25_rank": 10,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "港股午评：恒指跌1.71% 科指跌3.14% 科网股低迷 芯片股下挫 网易跌超1",
-    "bm25_only": 4,
+    "query": "沪深交易所逐年提高降费举措力度 2021年以来已累计让利超70亿元",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 6,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "ae9b56e9c44c8e9b",
+   "label": "伊朗称袭击美军驻巴林基地并击落两架无人机，霍尔木兹海峡两艘油轮遇袭",
+   "cached": false,
+   "sections": {
+    "事件概述": "「伊朗称袭击美军驻巴林基地并击落两架无人机，霍尔木兹海峡两艘油轮遇袭」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.638（爆点），所属板块类目：综合。",
+    "关键信息": "伊朗称袭击美军驻巴林基地并击落两架无人机，霍尔木兹海峡两艘油轮遇袭；伊朗称美军掩护油轮非法通行，霍尔木兹海峡触雷事故不断；伊朗称击落第58架美军“死神”无人机",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "伊朗称袭击美军驻巴林基地并击落两架无人机，霍尔木兹海峡两艘油轮遇袭",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizqwfe2803603.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "伊朗称美军掩护油轮非法通行，霍尔木兹海峡触雷事故不断",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203668",
+     "rrf": 0.03128,
+     "bm25_rank": 6,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "伊朗称击落第58架美军“死神”无人机",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611213936793396.html",
+     "rrf": 0.03058,
+     "bm25_rank": 3,
+     "vec_rank": 8
+    },
+    {
+     "n": 4,
+     "title": "伊朗打击美基地博弈再度升温",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611223936874484.html",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "两艘油轮接连在驶出霍尔木兹海峡时遇袭",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611213936830581.html",
+     "rrf": 0.03041,
+     "bm25_rank": 2,
+     "vec_rank": 10
+    },
+    {
+     "n": 6,
+     "title": "总台记者观察丨伊美博弈加剧 双方需重新审视各自战略目标",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/gjcj/2026-11-22/doc-inizqfin2932158.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 9,
+     "vec_rank": 3
+    },
+    {
+     "n": 7,
+     "title": "巴林称伊朗袭击造成2人受伤",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203747",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "伊朗袭击美国在巴林的两个军事基地",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-22/doc-inizputq6324483.shtml",
+     "rrf": 0.02951,
+     "bm25_rank": 12,
+     "vec_rank": 4
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "伊朗称袭击美军驻巴林基地并击落两架无人机，霍尔木兹海峡两艘油轮遇袭",
+    "bm25_only": 1,
     "vec_only": 2,
-    "both": 2,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "80f86155bc76c4bc",
+   "label": "黄金连连溃败 逼近3500美元关口！华尔街齐呼：已跌入超卖区域",
+   "cached": false,
+   "sections": {
+    "事件概述": "「黄金连连溃败 逼近3500美元关口！华尔街齐呼：已跌入超卖区域」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.634（爆点），所属板块类目：国际市场。",
+    "关键信息": "黄金连连溃败 逼近3500美元关口！华尔街齐呼：已跌入超卖区域；国际金价创一年多新低 黄金消费热潮背后这几点要知道；国际金价跌破3600美元，价格连跌带动金饰需求",
+    "市场影响": "关联板块代码：BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "黄金连连溃败 逼近3500美元关口！华尔街齐呼：已跌入超卖区域",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611223936875812.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "国际金价创一年多新低 黄金消费热潮背后这几点要知道",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-21/10735605.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 2,
+     "vec_rank": 6
+    },
+    {
+     "n": 3,
+     "title": "国际金价跌破3600美元，价格连跌带动金饰需求",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-11-22/doc-inizrpay8790277.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 6,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "美联储“鹰派”阴云压顶 金价连失四大整数关口",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/roll/2026-11-21/doc-iniznakn3602747.shtml",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "一觉醒来，黄金跌超2%逼近3500美元，国际油价走高，比特币跌破60000美元，加密货币近30万人爆仓",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/world/2026-11-21/doc-inizmwam5179153.shtml",
+     "rrf": 0.0308,
+     "bm25_rank": 3,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "国际金价在AI股抛售潮中跌向3500美元，较历史峰值已经回撤超37%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203621",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "（经济观察）金价跌势凌厉 波动或将持续",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-21/10735752.shtml",
+     "rrf": 0.02976,
+     "bm25_rank": 12,
+     "vec_rank": 3
+    },
+    {
+     "n": 8,
+     "title": "警报！美元冲击波，强势来袭！影响有多大？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznaki5114303.shtml",
+     "rrf": 0.02804,
+     "bm25_rank": 8,
+     "vec_rank": 15
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "黄金连连溃败 逼近3500美元关口！华尔街齐呼：已跌入超卖区域",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
