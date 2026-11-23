@@ -1,206 +1,206 @@
 {
  "engine": "template(降级)",
- "n_clusters": 52,
+ "n_clusters": 48,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 4.4,
+ "elapsed": 4.9,
  "reports": [
   {
-   "key": "5d5d13a9e58bf033",
-   "label": "美股费城半导体指数跌超5%，英伟达跌4.35%，博通跌6.76%，美光跌7.75",
+   "key": "066ca824a32fa1dc",
+   "label": "财经早报丨A股三大利好！降保证金、推做市、降费用，监管层稳市打出“组合拳”丨2026年11月23",
    "cached": false,
    "sections": {
-    "事件概述": "「美股费城半导体指数跌超5%，英伟达跌4.35%，博通跌6.76%，美光跌7.75」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "美股费城半导体指数跌超5%，英伟达跌4.35%，博通跌6.76%，美光跌7.75；美股再次走弱 费城半导体指数跌幅扩大至5%；Anthropic跌超12%，刷新日低，逼近85美元。 在Anthropic的“",
-    "市场影响": "关联板块代码：BK1036、BK0459。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「财经早报丨A股三大利好！降保证金、推做市、降费用，监管层稳市打出“组合拳”丨2026年11月23」由 19 篇报道聚合而成，覆盖 3 家媒体，热度 0.749（爆点），所属板块类目：金融市场。",
+    "关键信息": "财经早报丨A股三大利好！降保证金、推做市、降费用，监管层稳市打出“组合拳”丨20；降保证金、推做市、降费用 监管层稳市打出“组合拳”；利好来了！刚刚，监管层“三箭齐发”！近4000亿增量资金即将进场",
+    "市场影响": "关联板块代码：BK0596。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "美股费城半导体指数跌超5%，英伟达跌4.35%，博通跌6.76%，美光跌7.75",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3203449",
+     "title": "财经早报丨A股三大利好！降保证金、推做市、降费用，监管层稳市打出“组合拳”丨2026年11月23日",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/y/2026-11-23/doc-inizskhn2378724.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "美股再次走弱 费城半导体指数跌幅扩大至5%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203936508783.html",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
+     "title": "降保证金、推做市、降费用 监管层稳市打出“组合拳”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-inizrxsq5738317.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 2,
+     "vec_rank": 6
     },
     {
      "n": 3,
-     "title": "Anthropic跌超12%，刷新日低，逼近85美元。 在Anthropic的“",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3203464",
-     "rrf": 0.03175,
-     "bm25_rank": 2,
-     "vec_rank": 4
+     "title": "利好来了！刚刚，监管层“三箭齐发”！近4000亿增量资金即将进场",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-22/doc-inizrhuy2697617.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
     },
     {
      "n": 4,
-     "title": "费城半导体指数跌幅扩大至5% 报8946.81点",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203936507563.html",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
+     "title": "A股利好！近4000亿增量资金来了，三大交易所集体发布",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-22/doc-inizrhuy2715626.shtml",
+     "rrf": 0.03102,
+     "bm25_rank": 6,
      "vec_rank": 3
     },
     {
      "n": 5,
-     "title": "英伟达单日暴跌14%，但斌回应“清盘线”：部分基金只能被动减仓",
+     "title": "刚刚，A股利好！上交所、深交所、北交所，集体宣布！",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-21/doc-iniznthe3406469.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 4,
-     "vec_rank": 6
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-22/doc-inizrhuw5925388.shtml",
+     "rrf": 0.03083,
+     "bm25_rank": 8,
+     "vec_rank": 2
     },
     {
      "n": 6,
-     "title": "纳斯达克100指数跌幅扩大至超过2%，成分股闪迪跌11.6%，西部数据、美光、希",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3203451",
-     "rrf": 0.03008,
-     "bm25_rank": 6,
-     "vec_rank": 7
+     "title": "重磅时刻！A股，迎三大“新政”！影响几何？最新解读来了",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-22/doc-inizrpaw2633184.shtml",
+     "rrf": 0.03055,
+     "bm25_rank": 7,
+     "vec_rank": 4
     },
     {
      "n": 7,
-     "title": "英伟达跌超6%",
+     "title": "中国银河证券杨超：A股三大“新政”精准发力 有效稳住市场基本面与中长期预期",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611203936530528.html",
-     "rrf": 0.02988,
-     "bm25_rank": 9,
-     "vec_rank": 5
+     "url": "https://finance.eastmoney.com/a/202611223936949690.html",
+     "rrf": 0.03012,
+     "bm25_rank": 4,
+     "vec_rank": 9
     },
     {
      "n": 8,
-     "title": "MSCI新兴市场股票指数跌3.1%。 当前，美股纳斯达克100指数跌2.6%，半",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3203466",
-     "rrf": 0.02899,
-     "bm25_rank": 8,
-     "vec_rank": 10
+     "title": "周末重磅！监管层发布一揽子稳市举措",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-22/doc-inizrhva8844006.shtml",
+     "rrf": 0.02927,
+     "bm25_rank": 5,
+     "vec_rank": 12
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "美股费城半导体指数跌超5%，英伟达跌4.35%，博通跌6.76%，美光跌7.75",
-    "bm25_only": 1,
-    "vec_only": 1,
+    "query": "财经早报丨A股三大利好！降保证金、推做市、降费用，监管层稳市打出“组合拳”丨20",
+    "bm25_only": 2,
+    "vec_only": 0,
     "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "26cc9cae9c24396e",
-   "label": "比特币涨穿60000美元，日内涨2.53%。 以太坊涨穿1700美元，日内涨5.",
+   "key": "d662e9b01bb362f7",
+   "label": "幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿的托班，打造“一",
    "cached": false,
    "sections": {
-    "事件概述": "「比特币涨穿60000美元，日内涨2.53%。 以太坊涨穿1700美元，日内涨5.」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.691（爆点），所属板块类目：国际市场。",
-    "关键信息": "比特币涨穿60000美元，日内涨2.53%。 以太坊涨穿1700美元，日内涨5.；比特币升破61000美元 日内涨1.58%；比特币跌破57000美元 日内跌超4%",
-    "市场影响": "关联板块代码：BK0830。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿的托班，打造“一」由 9 篇报道聚合而成，覆盖 3 家媒体，热度 0.672（爆点），所属板块类目：综合。",
+    "关键信息": "幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿；四部门发布托育、养老新政：支持有条件的幼儿园举办面向2~3岁幼儿的托班；正式获批！中山这所中学将改造",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "比特币涨穿60000美元，日内涨2.53%。 以太坊涨穿1700美元，日内涨5.",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3203685",
+     "title": "幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿的托班，打造“一刻钟托育服务圈”",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-23/doc-inizsuwn0730645.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "比特币升破61000美元 日内涨1.58%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611223936919940.html",
+     "title": "四部门发布托育、养老新政：支持有条件的幼儿园举办面向2~3岁幼儿的托班",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-inizsuwh2331788.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "比特币跌破57000美元 日内跌超4%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611213936798456.html",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "比特币跌破61000美元，日内跌1.59%",
+     "title": "正式获批！中山这所中学将改造",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/t/2026-11-20/doc-inizmfet5377877.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "一觉醒来，黄金跌超2%逼近3500美元，国际油价走高，比特币跌破60000美元，加密货币近30万人爆仓",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-11-21/doc-inizmwam5179153.shtml",
-     "rrf": 0.02988,
-     "bm25_rank": 5,
-     "vec_rank": 9
-    },
-    {
-     "n": 6,
-     "title": "比特币跌破6万美元 投资者撤离风险资产",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfew3864157.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-22/doc-inizqmrn9123505.shtml",
      "rrf": 0.02944,
      "bm25_rank": 6,
      "vec_rank": 10
     },
     {
-     "n": 7,
-     "title": "暗盘原油、金价、比特币集体走高 美伊冲突传来新消息",
+     "n": 4,
+     "title": "【工作动态】县教育局：组织召开义务教育优质均衡发展整改推进会",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/gjcj/2026-11-22/doc-inizqfik6192912.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
+     "url": "https://finance.sina.com.cn/wm/2026-11-21/doc-inizpcvy3295299.shtml",
+     "rrf": 0.02896,
+     "bm25_rank": 4,
+     "vec_rank": 15
+    },
+    {
+     "n": 5,
+     "title": "四部门：鼓励发展适合养老场景的人工智能体、服务机器人、智能穿戴设备、外骨骼等新产品",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203861",
+     "rrf": 0.02781,
+     "bm25_rank": 19,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "一老一小服务体系建设实施方案来了！打造一刻钟托育服务圈",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/wbstock/2026-11-23/doc-inizsuwe5582203.shtml",
+     "rrf": 0.02712,
+     "bm25_rank": 22,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "推进2000个公办养老机构改造升级家门口的养老院要升级了",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/wbstock/2026-11-23/doc-inizsuwk8409779.shtml",
+     "rrf": 0.02705,
+     "bm25_rank": 21,
      "vec_rank": 8
     },
     {
      "n": 8,
-     "title": "警报！美元冲击波，强势来袭！影响有多大？",
+     "title": "打造15分钟老年友好生活圈 “邻里相帮”互助养老",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznaki5114303.shtml",
-     "rrf": 0.02881,
-     "bm25_rank": 7,
-     "vec_rank": 12
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-22/doc-inizrpaw2619822.shtml",
+     "rrf": 0.02648,
+     "bm25_rank": 10,
+     "vec_rank": 22
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "比特币涨穿60000美元，日内涨2.53%。 以太坊涨穿1700美元，日内涨5.",
-    "bm25_only": 3,
-    "vec_only": 1,
-    "both": 4,
-    "neither_topk": 0
+    "query": "幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿",
+    "bm25_only": 2,
+    "vec_only": 3,
+    "both": 2,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "8d3c513678e7f86c",
+   "key": "2ce49559d223e63f",
    "label": "沪深交易所逐年提高降费举措力度 2021年以来已累计让利超70亿元",
    "cached": false,
    "sections": {
-    "事件概述": "「沪深交易所逐年提高降费举措力度 2021年以来已累计让利超70亿元」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.655（爆点），所属板块类目：金融市场。",
+    "事件概述": "「沪深交易所逐年提高降费举措力度 2021年以来已累计让利超70亿元」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.628（爆点），所属板块类目：金融市场。",
     "关键信息": "沪深交易所逐年提高降费举措力度 2021年以来已累计让利超70亿元；沪深交易所再降费：年内整体让利合计超46亿元；沪深交易所、中国结算集体降费",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -256,8 +256,8 @@
      "title": "沪深交易所、中国结算推出一揽子降费措施",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611223936924891.html",
-     "rrf": 0.03031,
-     "bm25_rank": 7,
+     "rrf": 0.03009,
+     "bm25_rank": 8,
      "vec_rank": 5
     },
     {
@@ -265,37 +265,37 @@
      "title": "刚刚，A股利好！上交所、深交所、北交所，集体宣布！",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-22/doc-inizrhuw5925388.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
+     "rrf": 0.02837,
+     "bm25_rank": 10,
+     "vec_rank": 11
     },
     {
      "n": 8,
      "title": "交易所降低融资保证金比例下限 可带来增量资金近4000亿元",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611223936924279.html",
-     "rrf": 0.02857,
-     "bm25_rank": 10,
-     "vec_rank": 10
+     "rrf": 0.02778,
+     "bm25_rank": 12,
+     "vec_rank": 12
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "沪深交易所逐年提高降费举措力度 2021年以来已累计让利超70亿元",
-    "bm25_only": 1,
+    "bm25_only": 0,
     "vec_only": 0,
     "both": 6,
-    "neither_topk": 1
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "ae9b56e9c44c8e9b",
+   "key": "89030dd4f82267ea",
    "label": "伊朗称袭击美军驻巴林基地并击落两架无人机，霍尔木兹海峡两艘油轮遇袭",
    "cached": false,
    "sections": {
-    "事件概述": "「伊朗称袭击美军驻巴林基地并击落两架无人机，霍尔木兹海峡两艘油轮遇袭」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.638（爆点），所属板块类目：综合。",
-    "关键信息": "伊朗称袭击美军驻巴林基地并击落两架无人机，霍尔木兹海峡两艘油轮遇袭；伊朗称美军掩护油轮非法通行，霍尔木兹海峡触雷事故不断；伊朗称击落第58架美军“死神”无人机",
+    "事件概述": "「伊朗称袭击美军驻巴林基地并击落两架无人机，霍尔木兹海峡两艘油轮遇袭」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.61（爆点），所属板块类目：综合。",
+    "关键信息": "伊朗称袭击美军驻巴林基地并击落两架无人机，霍尔木兹海峡两艘油轮遇袭；伊朗称美军掩护油轮非法通行，霍尔木兹海峡触雷事故不断；伊朗打击美基地博弈再度升温",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
@@ -314,164 +314,164 @@
      "title": "伊朗称美军掩护油轮非法通行，霍尔木兹海峡触雷事故不断",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3203668",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
+     "rrf": 0.03151,
+     "bm25_rank": 5,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "伊朗称击落第58架美军“死神”无人机",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611213936793396.html",
-     "rrf": 0.03058,
-     "bm25_rank": 3,
-     "vec_rank": 8
-    },
-    {
-     "n": 4,
      "title": "伊朗打击美基地博弈再度升温",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611223936874484.html",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
+     "rrf": 0.03078,
+     "bm25_rank": 4,
      "vec_rank": 6
     },
     {
-     "n": 5,
+     "n": 4,
      "title": "两艘油轮接连在驶出霍尔木兹海峡时遇袭",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611213936830581.html",
-     "rrf": 0.03041,
+     "rrf": 0.03062,
      "bm25_rank": 2,
-     "vec_rank": 10
+     "vec_rank": 9
     },
     {
-     "n": 6,
+     "n": 5,
      "title": "总台记者观察丨伊美博弈加剧 双方需重新审视各自战略目标",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/world/gjcj/2026-11-22/doc-inizqfin2932158.shtml",
-     "rrf": 0.03037,
-     "bm25_rank": 9,
+     "rrf": 0.03058,
+     "bm25_rank": 8,
      "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "伊朗伊斯兰革命卫队对巴林美军基地进行打击",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611223936858367.html",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
+     "vec_rank": 8
     },
     {
      "n": 7,
      "title": "巴林称伊朗袭击造成2人受伤",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3203747",
-     "rrf": 0.02963,
-     "bm25_rank": 8,
+     "rrf": 0.02985,
+     "bm25_rank": 7,
      "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "伊朗袭击美国在巴林的两个军事基地",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/7x24/2026-11-22/doc-inizputq6324483.shtml",
-     "rrf": 0.02951,
-     "bm25_rank": 12,
-     "vec_rank": 4
+     "title": "伊朗革命卫队称击落第19架美军MQ-1型无人机",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611213936831961.html",
+     "rrf": 0.02976,
+     "bm25_rank": 3,
+     "vec_rank": 12
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "伊朗称袭击美军驻巴林基地并击落两架无人机，霍尔木兹海峡两艘油轮遇袭",
-    "bm25_only": 1,
-    "vec_only": 2,
-    "both": 5,
+    "bm25_only": 2,
+    "vec_only": 0,
+    "both": 6,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "80f86155bc76c4bc",
-   "label": "黄金连连溃败 逼近3500美元关口！华尔街齐呼：已跌入超卖区域",
+   "key": "c7660fa6be3b91f2",
+   "label": "视频|11月23日主动ETF持仓：茅台、美的、宁德位列前三，宁德时代被12只主动ETF持有（名单",
    "cached": false,
    "sections": {
-    "事件概述": "「黄金连连溃败 逼近3500美元关口！华尔街齐呼：已跌入超卖区域」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.634（爆点），所属板块类目：国际市场。",
-    "关键信息": "黄金连连溃败 逼近3500美元关口！华尔街齐呼：已跌入超卖区域；国际金价创一年多新低 黄金消费热潮背后这几点要知道；国际金价跌破3600美元，价格连跌带动金饰需求",
-    "市场影响": "关联板块代码：BK0732、BK1617。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「视频|11月23日主动ETF持仓：茅台、美的、宁德位列前三，宁德时代被12只主动ETF持有（名单」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.601（高热），所属板块类目：综合。",
+    "关键信息": "视频|11月23日主动ETF持仓：茅台、美的、宁德位列前三，宁德时代被12只主动；周一上市！18只“每日明牌”基金，来了；大举扫货首批主动ETF 15家券商自营现身十大持有人名单",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "黄金连连溃败 逼近3500美元关口！华尔街齐呼：已跌入超卖区域",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611223936875812.html",
+     "title": "视频|11月23日主动ETF持仓：茅台、美的、宁德位列前三，宁德时代被12只主动ETF持有（名单）",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/fund/etf/2026-11-23/doc-inizsuwk8368102.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "国际金价创一年多新低 黄金消费热潮背后这几点要知道",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-21/10735605.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 2,
-     "vec_rank": 6
-    },
-    {
-     "n": 3,
-     "title": "国际金价跌破3600美元，价格连跌带动金饰需求",
+     "title": "周一上市！18只“每日明牌”基金，来了",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-22/doc-inizrpay8790277.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 6,
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-22/doc-inizqfis1472014.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
      "vec_rank": 2
     },
     {
-     "n": 4,
-     "title": "美联储“鹰派”阴云压顶 金价连失四大整数关口",
+     "n": 3,
+     "title": "大举扫货首批主动ETF 15家券商自营现身十大持有人名单",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/roll/2026-11-21/doc-iniznakn3602747.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "一觉醒来，黄金跌超2%逼近3500美元，国际油价走高，比特币跌破60000美元，加密货币近30万人爆仓",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-11-21/doc-inizmwam5179153.shtml",
-     "rrf": 0.0308,
-     "bm25_rank": 3,
-     "vec_rank": 7
-    },
-    {
-     "n": 6,
-     "title": "国际金价在AI股抛售潮中跌向3500美元，较历史峰值已经回撤超37%",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3203621",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-inizrxss2516895.shtml",
      "rrf": 0.03077,
      "bm25_rank": 5,
      "vec_rank": 5
     },
     {
-     "n": 7,
-     "title": "（经济观察）金价跌势凌厉 波动或将持续",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-21/10735752.shtml",
-     "rrf": 0.02976,
-     "bm25_rank": 12,
+     "n": 4,
+     "title": "首批18只主动ETF明日集体上市，这些行业被重仓配置",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-22/doc-inizqrxh2850128.shtml",
+     "rrf": 0.03037,
+     "bm25_rank": 9,
      "vec_rank": 3
     },
     {
-     "n": 8,
-     "title": "警报！美元冲击波，强势来袭！影响有多大？",
+     "n": 5,
+     "title": "券商也“扫货”首批主动ETF，国泰海通覆盖9只产品居首，招商、申万宏源紧随其后",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznaki5114303.shtml",
-     "rrf": 0.02804,
+     "url": "https://finance.sina.com.cn/roll/2026-11-21/doc-iniznnyc4971446.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 4,
+     "vec_rank": 8
+    },
+    {
+     "n": 6,
+     "title": "首批18只主动ETF正式上市 建仓期净值初现分化",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-inizskhn2358270.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "首批主动ETF在沪深交易所上市",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-23/10736338.shtml",
+     "rrf": 0.02991,
+     "bm25_rank": 10,
+     "vec_rank": 4
+    },
+    {
+     "n": 8,
+     "title": "下周关注丨首批18只主动ETF将上市，这些投资机会最靠谱",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-22/doc-inizqmrk2893062.shtml",
+     "rrf": 0.02963,
      "bm25_rank": 8,
-     "vec_rank": 15
+     "vec_rank": 7
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "黄金连连溃败 逼近3500美元关口！华尔街齐呼：已跌入超卖区域",
-    "bm25_only": 1,
-    "vec_only": 1,
+    "query": "视频|11月23日主动ETF持仓：茅台、美的、宁德位列前三，宁德时代被12只主动",
+    "bm25_only": 0,
+    "vec_only": 2,
     "both": 6,
     "neither_topk": 0
    },
