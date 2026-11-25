@@ -1,20 +1,20 @@
 {
  "engine": "template(降级)",
- "n_clusters": 38,
+ "n_clusters": 42,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.5,
+ "elapsed": 5.8,
  "reports": [
   {
-   "key": "474e9d28bcbdca4d",
+   "key": "ddb163ecf5c28b98",
    "label": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI股票随涨 Ant",
    "cached": false,
    "sections": {
-    "事件概述": "「11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI股票随涨 Ant」由 112 篇报道聚合而成，覆盖 4 家媒体，热度 0.875（爆点），所属板块类目：半导体。",
-    "关键信息": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI；美国股市：美股上演惊人反弹 黄仁勋回归点燃科技股涨势；黄仁勋复职后韩股大涨，一度触发SideCar机制暂停程序化买盘",
-    "市场影响": "关联板块代码：BK0800、BK1161、BK0815、BK0732、BK0638。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI股票随涨 Ant」由 116 篇报道聚合而成，覆盖 4 家媒体，热度 0.875（爆点），所属板块类目：半导体。",
+    "关键信息": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI；11月25日隔夜要闻：美股涨跌不一 科技股下跌提振避险需求 油价上涨 铜价走低 ；美国股市：美股上演惊人反弹 黄仁勋回归点燃科技股涨势",
+    "市场影响": "关联板块代码：BK0800、BK1161、BK1015。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
@@ -29,251 +29,345 @@
     },
     {
      "n": 2,
-     "title": "美国股市：美股上演惊人反弹 黄仁勋回归点燃科技股涨势",
+     "title": "11月25日隔夜要闻：美股涨跌不一 科技股下跌提振避险需求 油价上涨 铜价走低 金价下挫",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizupfn2004725.shtml",
-     "rrf": 0.03126,
-     "bm25_rank": 5,
-     "vec_rank": 3
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwwnr1891351.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "黄仁勋复职后韩股大涨，一度触发SideCar机制暂停程序化买盘",
+     "title": "美国股市：美股上演惊人反弹 黄仁勋回归点燃科技股涨势",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizutph5196370.shtml",
-     "rrf": 0.02901,
-     "bm25_rank": 11,
-     "vec_rank": 7
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizupfn2004725.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 6,
+     "vec_rank": 4
     },
     {
      "n": 4,
-     "title": "黄仁勋复职带动AI相关股票普涨 英伟达市值数小时增逾1万亿美元",
+     "title": "11月25日收盘：美股涨跌不一 芯片板块重挫 英伟达跌近6% Anthropic跌破IPO发行价",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-inizuarw0392235.shtml",
-     "rrf": 0.02867,
-     "bm25_rank": 6,
-     "vec_rank": 14
-    },
-    {
-     "n": 5,
-     "title": "今日比特币：徘徊于6万美元附近，美股反弹未能扭转加密货币资金流出趋势",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmi2266845.shtml",
-     "rrf": 0.02861,
-     "bm25_rank": 4,
-     "vec_rank": 17
-    },
-    {
-     "n": 6,
-     "title": "黄仁勋强势回归英伟达，SK海力士美国上市股票暴涨20%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizutpn7855220.shtml",
-     "rrf": 0.02819,
-     "bm25_rank": 9,
-     "vec_rank": 13
-    },
-    {
-     "n": 7,
-     "title": "黄仁勋回归英伟达，美股一举收复上周逾半跌幅",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizutpn7903135.shtml",
-     "rrf": 0.02788,
-     "bm25_rank": 20,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwwnr1839951.shtml",
+     "rrf": 0.02947,
+     "bm25_rank": 11,
      "vec_rank": 5
     },
     {
-     "n": 8,
-     "title": "英伟达暴涨31.48%，“黄仁勋行情”引爆美股，纳指狂飙6.5%，道指涨近1500点",
+     "n": 5,
+     "title": "黄仁勋复职后韩股大涨，一度触发SideCar机制暂停程序化买盘",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-24/doc-inizutph5119681.shtml",
-     "rrf": 0.02782,
-     "bm25_rank": 22,
-     "vec_rank": 4
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizutph5196370.shtml",
+     "rrf": 0.02801,
+     "bm25_rank": 14,
+     "vec_rank": 9
+    },
+    {
+     "n": 6,
+     "title": "黄仁勋复职带动AI相关股票普涨 英伟达市值数小时增逾1万亿美元",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-inizuarw0392235.shtml",
+     "rrf": 0.02791,
+     "bm25_rank": 7,
+     "vec_rank": 17
+    },
+    {
+     "n": 7,
+     "title": "今日比特币：徘徊于6万美元附近，美股反弹未能扭转加密货币资金流出趋势",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmi2266845.shtml",
+     "rrf": 0.02788,
+     "bm25_rank": 5,
+     "vec_rank": 20
+    },
+    {
+     "n": 8,
+     "title": "黄仁勋强势回归英伟达，SK海力士美国上市股票暴涨20%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizutpn7855220.shtml",
+     "rrf": 0.02765,
+     "bm25_rank": 9,
+     "vec_rank": 16
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI",
     "bm25_only": 2,
-    "vec_only": 3,
-    "both": 2,
-    "neither_topk": 1
+    "vec_only": 1,
+    "both": 3,
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "134b9bd920ea8016",
-   "label": "幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿的托班，打造“一",
+   "key": "70ee9ea30e906c88",
+   "label": "《“一老一小”服务体系建设实施方案》发布 到2030年婴幼儿入托率将提高6%",
    "cached": false,
    "sections": {
-    "事件概述": "「幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿的托班，打造“一」由 21 篇报道聚合而成，覆盖 4 家媒体，热度 0.705（爆点），所属板块类目：综合。",
-    "关键信息": "幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿；明确了！幼儿园要招2-3岁娃，浙江标准→；四部门发布托育、养老新政：支持有条件的幼儿园举办面向2~3岁幼儿的托班",
+    "事件概述": "「《“一老一小”服务体系建设实施方案》发布 到2030年婴幼儿入托率将提高6%」由 18 篇报道聚合而成，覆盖 2 家媒体，热度 0.564（爆点），所属板块类目：综合。",
+    "关键信息": "《“一老一小”服务体系建设实施方案》发布 到2030年婴幼儿入托率将提高6%；事关“一老一小”！养老托育最新举措；涉及婴幼儿入托、加装电梯，四部门发文",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿的托班，打造“一刻钟托育服务圈”",
+     "title": "《“一老一小”服务体系建设实施方案》发布 到2030年婴幼儿入托率将提高6%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-23/doc-inizsuwn0730645.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizuars2154380.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "明确了！幼儿园要招2-3岁娃，浙江标准→",
+     "title": "事关“一老一小”！养老托育最新举措",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-24/doc-inizvkme7726290.shtml",
-     "rrf": 0.032,
+     "url": "https://finance.sina.com.cn/wm/2026-11-23/doc-iniztwiy0460219.shtml",
+     "rrf": 0.03175,
      "bm25_rank": 3,
-     "vec_rank": 2
+     "vec_rank": 3
     },
     {
      "n": 3,
-     "title": "四部门发布托育、养老新政：支持有条件的幼儿园举办面向2~3岁幼儿的托班",
+     "title": "涉及婴幼儿入托、加装电梯，四部门发文",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-inizsuwh2331788.shtml",
-     "rrf": 0.03175,
+     "url": "https://finance.sina.com.cn/wm/2026-11-24/doc-inizvecm2248445.shtml",
+     "rrf": 0.03151,
      "bm25_rank": 2,
-     "vec_rank": 4
+     "vec_rank": 5
     },
     {
      "n": 4,
-     "title": "幼儿园要招2岁孩子了",
+     "title": "到2030年社区养老服务机构和设施覆盖率将达70%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-24/doc-inizvkmi2183903.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 4,
-     "vec_rank": 3
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizuhxq2029837.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 6,
+     "vec_rank": 2
     },
     {
      "n": 5,
-     "title": "“一老一小”新政来了！改造2000个养老机构、打造“一刻钟托育服务圈”",
+     "title": "幼儿园要招2岁孩子了",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvecm2300504.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
-    },
-    {
-     "n": 6,
-     "title": "江西出台幼儿园收费新规，明年起施行",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-23/doc-iniztwiu2196173.shtml",
-     "rrf": 0.02814,
-     "bm25_rank": 6,
-     "vec_rank": 17
-    },
-    {
-     "n": 7,
-     "title": "打造“一刻钟托育服务圈”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizuhxn5275899.shtml",
-     "rrf": 0.02686,
-     "bm25_rank": 16,
-     "vec_rank": 13
-    },
-    {
-     "n": 8,
-     "title": "西安11家幼儿园被撤销登记",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/wm/2026-11-23/doc-iniztwis5403173.shtml",
-     "rrf": 0.02633,
-     "bm25_rank": 8,
-     "vec_rank": 26
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿",
-    "bm25_only": 2,
-    "vec_only": 0,
-    "both": 5,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "ede742692ea04279",
-   "label": "贝森特警告美联储“别过度收紧”、交易员下调加息押注，黄金八个月最大周跌后反弹近2%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「贝森特警告美联储“别过度收紧”、交易员下调加息押注，黄金八个月最大周跌后反弹近2%」由 8 篇报道聚合而成，覆盖 2 家媒体，热度 0.524（爆点），所属板块类目：国际市场。",
-    "关键信息": "贝森特警告美联储“别过度收紧”、交易员下调加息押注，黄金八个月最大周跌后反弹近2；逢低买盘入场推动黄金反弹 上周曾创3月以来最差单周表现；美银警告：美股下跌或迫使美联储提前结束加息",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "贝森特警告美联储“别过度收紧”、交易员下调加息押注，黄金八个月最大周跌后反弹近2%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-11-23/doc-inizsqqn8415710.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "逢低买盘入场推动黄金反弹 上周曾创3月以来最差单周表现",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-inizszeh8320961.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "美银警告：美股下跌或迫使美联储提前结束加息",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-11-23/doc-inizszek0704354.shtml",
+     "url": "https://finance.sina.com.cn/wm/2026-11-24/doc-inizvkmi2183903.shtml",
      "rrf": 0.03101,
      "bm25_rank": 5,
      "vec_rank": 4
     },
     {
-     "n": 4,
-     "title": "金价远未脱离险境 美国PCE等数据将带来考验",
+     "n": 6,
+     "title": "我国加强“一老一小”服务体系建设",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmk8980020.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-iniztwiw8158940.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 4,
      "vec_rank": 8
     },
     {
-     "n": 5,
-     "title": "AI市场剧烈震荡，考验沃什的加息策略",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvzia8951424.shtml",
-     "rrf": 0.02885,
-     "bm25_rank": 6,
-     "vec_rank": 13
-    },
-    {
-     "n": 6,
-     "title": "美联储加息，大消息！黄金，直线拉升！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-11-23/doc-inizsuwe5536176.shtml",
-     "rrf": 0.02804,
-     "bm25_rank": 8,
-     "vec_rank": 15
-    },
-    {
      "n": 7,
-     "title": "贝莱德：预计2027年通胀降温，市场押注美联储加息过度",
+     "title": "视频丨四部门方案出炉！“一刻钟托育服务圈”、老幼共托来了",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvecm2272481.shtml",
-     "rrf": 0.02764,
-     "bm25_rank": 3,
-     "vec_rank": 25
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-iniztwiy0464898.shtml",
+     "rrf": 0.03008,
+     "bm25_rank": 7,
+     "vec_rank": 6
     },
     {
      "n": 8,
-     "title": "今日比特币：徘徊于6万美元附近，美股反弹未能扭转加密货币资金流出趋势",
+     "title": "我国将打造“一刻钟托育服务圈”",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmi2266845.shtml",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizuarq5346699.shtml",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "《“一老一小”服务体系建设实施方案》发布 到2030年婴幼儿入托率将提高6%",
+    "bm25_only": 1,
+    "vec_only": 0,
+    "both": 7,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "a0a98ca97c6b781c",
+   "label": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海力士领衔权重股全",
+   "cached": false,
+   "sections": {
+    "事件概述": "「韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海力士领衔权重股全」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.564（爆点），所属板块类目：半导体。",
+    "关键信息": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海；日股收盘：日经225指数暴涨3.9%创近四个月最大单日涨幅，爱德万测试与铠侠领衔；日经225指数收盘上涨3.9%，报58,644.63点。 日本东证指数收盘上涨2",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海力士领衔权重股全线飙升",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmi2234770.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "日股收盘：日经225指数暴涨3.9%创近四个月最大单日涨幅，爱德万测试与铠侠领衔芯片股狂飙",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmk9014789.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 2,
+     "vec_rank": 6
+    },
+    {
+     "n": 3,
+     "title": "日经225指数收盘上涨3.9%，报58,644.63点。 日本东证指数收盘上涨2",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204732",
+     "rrf": 0.03125,
+     "bm25_rank": 4,
+     "vec_rank": 4
+    },
+    {
+     "n": 4,
+     "title": "黄仁勋复职后韩股大涨，一度触发SideCar机制暂停程序化买盘",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizutph5196370.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 6,
+     "vec_rank": 10
+    },
+    {
+     "n": 5,
+     "title": "日韩股市集体收涨 韩国KOSPI指数收涨6.32%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611243938383527.html",
+     "rrf": 0.02863,
+     "bm25_rank": 20,
+     "vec_rank": 2
+    },
+    {
+     "n": 6,
+     "title": "黄仁勋回归，韩股周二早盘大涨近7%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmh0068444.shtml",
+     "rrf": 0.02821,
+     "bm25_rank": 18,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "早间要闻汇总",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204693",
+     "rrf": 0.02545,
+     "bm25_rank": 11,
+     "vec_rank": 28
+    },
+    {
+     "n": 8,
+     "title": "高盛加入看空阵营 下调三星、SK海力士目标价",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvzhx9934163.shtml",
+     "rrf": 0.01587,
+     "bm25_rank": 3,
+     "vec_rank": null
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海",
+    "bm25_only": 2,
+    "vec_only": 2,
+    "both": 3,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "c560d17cd60f1374",
+   "label": "WTI原油日内涨幅达2.0%，报81.84美元/桶；布伦特原油日内涨幅达2.0%",
+   "cached": false,
+   "sections": {
+    "事件概述": "「WTI原油日内涨幅达2.0%，报81.84美元/桶；布伦特原油日内涨幅达2.0%」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.498（爆点），所属板块类目：国际市场。",
+    "关键信息": "WTI原油日内涨幅达2.0%，报81.84美元/桶；布伦特原油日内涨幅达2.0%；美油、布油期货日内跌超4%；三艘油轮触雷，布伦特原油为何只跌不涨？",
+    "市场影响": "关联板块代码：BK1361。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "WTI原油日内涨幅达2.0%，报81.84美元/桶；布伦特原油日内涨幅达2.0%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205181",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "美油、布油期货日内跌超4%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611233937708673.html",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "三艘油轮触雷，布伦特原油为何只跌不涨？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-24/doc-inizvkmk8975949.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 4,
+     "vec_rank": 8
+    },
+    {
+     "n": 4,
+     "title": "今日原油：短暂上涨，供应过剩预期限制涨幅",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-inizszeh8367338.shtml",
+     "rrf": 0.02967,
+     "bm25_rank": 5,
+     "vec_rank": 10
+    },
+    {
+     "n": 5,
+     "title": "光大期货：能源化工类日报11.24",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-24/doc-inizuxve5115421.shtml",
+     "rrf": 0.02844,
+     "bm25_rank": 14,
+     "vec_rank": 7
+    },
+    {
+     "n": 6,
+     "title": "上期所原油主力合约跌超4%，报559.2元/桶；燃油主力合约大跌5%，报3535",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204707",
+     "rrf": 0.02838,
+     "bm25_rank": 12,
+     "vec_rank": 9
+    },
+    {
+     "n": 7,
+     "title": "比特币、以太坊目前维持4%的日内涨幅 分别报63200美元、1800美元",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611233937691069.html",
+     "rrf": 0.02831,
+     "bm25_rank": 6,
+     "vec_rank": 16
+    },
+    {
+     "n": 8,
+     "title": "油价下跌：交易员权衡供应前景与航运风险",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvuyz9991759.shtml",
      "rrf": 0.02742,
      "bm25_rank": 15,
      "vec_rank": 11
@@ -281,199 +375,105 @@
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "贝森特警告美联储“别过度收紧”、交易员下调加息押注，黄金八个月最大周跌后反弹近2",
-    "bm25_only": 3,
+    "query": "WTI原油日内涨幅达2.0%，报81.84美元/桶；布伦特原油日内涨幅达2.0%",
+    "bm25_only": 2,
     "vec_only": 1,
     "both": 3,
-    "neither_topk": 1
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "197cff3fc13afb93",
-   "label": "财经早报丨A股三大利好！降保证金、推做市、降费用，监管层稳市打出“组合拳”丨2026年11月23",
+   "key": "d20663bb2f3d52ce",
+   "label": "Anthropic股价跌幅扩大至13.6%，盘中市值跌破1万亿美元关口。",
    "cached": false,
    "sections": {
-    "事件概述": "「财经早报丨A股三大利好！降保证金、推做市、降费用，监管层稳市打出“组合拳”丨2026年11月23」由 7 篇报道聚合而成，覆盖 2 家媒体，热度 0.516（高热），所属板块类目：综合。",
-    "关键信息": "财经早报丨A股三大利好！降保证金、推做市、降费用，监管层稳市打出“组合拳”丨20；四大证券报齐发文：资本市场稳市机制建设向深而行；三项新政发布 稳市场“组合拳”来了",
+    "事件概述": "「Anthropic股价跌幅扩大至13.6%，盘中市值跌破1万亿美元关口。」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.475（高热），所属板块类目：AI与大模型。",
+    "关键信息": "Anthropic股价跌幅扩大至13.6%，盘中市值跌破1万亿美元关口。；Anthropic跌幅扩大至10% 刷新上市以来新低；沪指盘中跌破3500点整数关口",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "财经早报丨A股三大利好！降保证金、推做市、降费用，监管层稳市打出“组合拳”丨2026年11月23日",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/y/2026-11-23/doc-inizskhn2378724.shtml",
+     "title": "Anthropic股价跌幅扩大至13.6%，盘中市值跌破1万亿美元关口。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205135",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "四大证券报齐发文：资本市场稳市机制建设向深而行",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-24/doc-inizutpk1949610.shtml",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "三项新政发布 稳市场“组合拳”来了",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-23/doc-inizskhs0795989.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 4,
-     "vec_rank": 5
-    },
-    {
-     "n": 4,
-     "title": "中信证券：市场调整已经前置 看好明年行情宽度拓展",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-23/doc-inizsqqk2284334.shtml",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "操盘必读：影响股市利好或利空消息_2026年11月23日_财经新闻",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/cpbd/2026-11-23/doc-inizskhq8481575.shtml",
-     "rrf": 0.03062,
-     "bm25_rank": 9,
-     "vec_rank": 2
-    },
-    {
-     "n": 6,
-     "title": "主动ETF助力长钱入市，稳市组合拳催化A股修复",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-iniztrzu5495042.shtml",
-     "rrf": 0.03058,
-     "bm25_rank": 3,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "A股利好？宁泉开放申购了，6月底精准暴论：AI热门股将跌八九成",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-23/doc-inizskhk5602421.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 8,
-     "vec_rank": 9
-    },
-    {
-     "n": 8,
-     "title": "三箭齐发稳市场，A股走出V型反弹",
-     "media": "中新网",
-     "url": "https://www.chinanews.com.cn/cj/2026/11-23/10736708.shtml",
-     "rrf": 0.02692,
-     "bm25_rank": 25,
-     "vec_rank": 6
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "财经早报丨A股三大利好！降保证金、推做市、降费用，监管层稳市打出“组合拳”丨20",
-    "bm25_only": 1,
-    "vec_only": 2,
-    "both": 5,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "135824b33d828c4d",
-   "label": "港股收评：恒指跌0.12% 科指跌0.09% 汽车股走弱 黄金股强势 零跑汽车跌近13%",
-   "cached": false,
-   "sections": {
-    "事件概述": "「港股收评：恒指跌0.12% 科指跌0.09% 汽车股走弱 黄金股强势 零跑汽车跌近13%」由 7 篇报道聚合而成，覆盖 2 家媒体，热度 0.516（高热），所属板块类目：半导体。",
-    "关键信息": "港股收评：恒指跌0.12% 科指跌0.09% 汽车股走弱 黄金股强势 零跑汽车跌；恒生科技指数跌幅扩大逾2% 零跑汽车领跌成份股；零跑汽车大跌13%：市值跌破400亿 第三季经营亏损3000万",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "港股收评：恒指跌0.12% 科指跌0.09% 汽车股走弱 黄金股强势 零跑汽车跌近13%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-23/doc-iniztfna2303283.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "恒生科技指数跌幅扩大逾2% 零跑汽车领跌成份股",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-23/doc-inizsqqq0761591.shtml",
+     "title": "Anthropic跌幅扩大至10% 刷新上市以来新低",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611243938831346.html",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "零跑汽车大跌13%：市值跌破400亿 第三季经营亏损3000万",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/s/2026-11-23/doc-iniztsaa0559212.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 3,
-     "vec_rank": 6
+     "title": "沪指盘中跌破3500点整数关口",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611253939426968.html",
+     "rrf": 0.02861,
+     "bm25_rank": 4,
+     "vec_rank": 17
     },
     {
      "n": 4,
-     "title": "港股跌幅扩大，恒生科技指数跌逾1%",
+     "title": "Anthropic股价跌破83美元IPO发行价，但分析师整体依旧看好",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/2026-11-24/doc-inizvecn8992509.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "快讯：恒指低开1.08% 恒科指跌1.92% 科网股普跌 黄金股逆势活跃 百度跌超4%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-23/doc-inizsqqn8417985.shtml",
-     "rrf": 0.03037,
-     "bm25_rank": 9,
-     "vec_rank": 3
-    },
-    {
-     "n": 6,
-     "title": "三大指数均跌逾1%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-23/doc-inizsuwe5526995.shtml",
-     "rrf": 0.02854,
-     "bm25_rank": 16,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizwfqx2074510.shtml",
+     "rrf": 0.02837,
+     "bm25_rank": 17,
      "vec_rank": 5
     },
     {
-     "n": 7,
-     "title": "港股国产GPU设计股走弱 壁仞科技跌近10%",
+     "n": 5,
+     "title": "费城半导体指数跌幅扩大至9% 报8721.36点",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611243938376151.html",
-     "rrf": 0.02782,
-     "bm25_rank": 4,
-     "vec_rank": 22
+     "url": "https://finance.eastmoney.com/a/202611243938836021.html",
+     "rrf": 0.02819,
+     "bm25_rank": 9,
+     "vec_rank": 13
+    },
+    {
+     "n": 6,
+     "title": "退市警报拉响！002482，股价跌破1元，公司紧急宣布回购！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/s/2026-11-23/doc-iniztsaa0536878.shtml",
+     "rrf": 0.02804,
+     "bm25_rank": 5,
+     "vec_rank": 19
+    },
+    {
+     "n": 7,
+     "title": "Anthropic盘前跌破83美元IPO发行价",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvuzi4811735.shtml",
+     "rrf": 0.02767,
+     "bm25_rank": 23,
+     "vec_rank": 4
     },
     {
      "n": 8,
-     "title": "早间要闻汇总",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3204693",
-     "rrf": 0.02655,
-     "bm25_rank": 26,
-     "vec_rank": 7
+     "title": "Anthropic上市不到一周跌破发行价",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizwfqy8843651.shtml",
+     "rrf": 0.02737,
+     "bm25_rank": 27,
+     "vec_rank": 3
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "港股收评：恒指跌0.12% 科指跌0.09% 汽车股走弱 黄金股强势 零跑汽车跌",
-    "bm25_only": 1,
+    "query": "Anthropic股价跌幅扩大至13.6%，盘中市值跌破1万亿美元关口。",
+    "bm25_only": 2,
     "vec_only": 3,
-    "both": 4,
-    "neither_topk": 0
+    "both": 2,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }

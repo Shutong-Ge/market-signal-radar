@@ -1,85 +1,94 @@
 {
  "summary": {
-  "n_queries": 8,
+  "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.301,
-  "avg_rank_diff": 1.09,
-  "avg_missed_by_bm25": 2.62,
-  "avg_missed_by_vector": 3.38,
-  "conclusion": "两路召回集平均重合度仅 30%；即便重合的文档，两路名次平均相差 1.09 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.62 篇最终进入 Top8 的文档；只用向量则漏掉 3.38 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.402,
+  "avg_rank_diff": 1.81,
+  "avg_missed_by_bm25": 2.22,
+  "avg_missed_by_vector": 1.78,
+  "conclusion": "两路召回集平均重合度仅 40%；即便重合的文档，两路名次平均相差 1.81 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.22 篇最终进入 Top8 的文档；只用向量则漏掉 1.78 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
    "query": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏",
    "jaccard": 0.143,
-   "rank_diff": 1.5,
+   "rank_diff": 0.5,
    "missed_by_bm25": 4,
-   "missed_by_vector": 3,
+   "missed_by_vector": 2,
    "example_top1": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI股票随涨 A"
   },
   {
    "type": "关键词式",
    "query": "隔夜 要闻 美股 反弹 中概 普涨",
-   "jaccard": 0.231,
-   "rank_diff": 0.33,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 3,
+   "jaccard": 0.333,
+   "rank_diff": 1.25,
+   "missed_by_bm25": 2,
+   "missed_by_vector": 2,
    "example_top1": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI股票随涨 A"
   },
   {
    "type": "去数字泛化",
    "query": "月日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返",
-   "jaccard": 0.231,
-   "rank_diff": 2.0,
+   "jaccard": 0.333,
+   "rank_diff": 3.0,
    "missed_by_bm25": 3,
-   "missed_by_vector": 3,
+   "missed_by_vector": 1,
    "example_top1": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI股票随涨 A"
   },
   {
    "type": "原标题式",
-   "query": "幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举",
-   "jaccard": 0.333,
-   "rank_diff": 0.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 4,
-   "example_top1": "幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿的托班，打造"
+   "query": "《“一老一小”服务体系建设实施方案》发布 到2030年婴幼儿",
+   "jaccard": 0.6,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "《“一老一小”服务体系建设实施方案》发布 到2030年婴幼儿入托率将提高6%"
   },
   {
    "type": "关键词式",
-   "query": "幼儿园 要招 孩子 支持 条件 幼儿园",
-   "jaccard": 0.455,
-   "rank_diff": 0.6,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿的托班，打造"
+   "query": "一老 一小 服务体系 建设 实施方案 婴幼儿",
+   "jaccard": 0.6,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "涉及婴幼儿入托、加装电梯，四部门发文"
   },
   {
    "type": "去数字泛化",
-   "query": "幼儿园要招岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办",
-   "jaccard": 0.333,
-   "rank_diff": 1.0,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 4,
-   "example_top1": "幼儿园要招2岁孩子了！支持有条件的幼儿园实施改造和改扩建，举办面向2岁至3岁幼儿的托班，打造"
+   "query": "《“一老一小”服务体系建设实施方案》发布 到年婴幼儿入托率将",
+   "jaccard": 1.0,
+   "rank_diff": 1.25,
+   "missed_by_bm25": 0,
+   "missed_by_vector": 0,
+   "example_top1": "《“一老一小”服务体系建设实施方案》发布 到2030年婴幼儿入托率将提高6%"
   },
   {
    "type": "原标题式",
-   "query": "贝森特警告美联储“别过度收紧”、交易员下调加息押注，黄金八个",
-   "jaccard": 0.455,
-   "rank_diff": 2.6,
-   "missed_by_bm25": 1,
-   "missed_by_vector": 2,
-   "example_top1": "贝森特警告美联储“别过度收紧”、交易员下调加息押注，黄金八个月最大周跌后反弹近2%"
+   "query": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触",
+   "jaccard": 0.231,
+   "rank_diff": 2.33,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
+   "example_top1": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海力士领衔权重"
   },
   {
    "type": "关键词式",
-   "query": "贝森特 警告 美联储 过度 收紧 交易员",
+   "query": "韩股 收盘 暴涨 收复 大关 盘中",
+   "jaccard": 0.143,
+   "rank_diff": 1.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
+   "example_top1": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海力士领衔权重"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "韩股收盘：KOSPI暴涨收复点大关 盘中触发买方熔断 三星、",
    "jaccard": 0.231,
-   "rank_diff": 0.67,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 5,
-   "example_top1": "贝森特警告美联储“别过度收紧”、交易员下调加息押注，黄金八个月最大周跌后反弹近2%"
+   "rank_diff": 3.0,
+   "missed_by_bm25": 3,
+   "missed_by_vector": 3,
+   "example_top1": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海力士领衔权重"
   }
  ]
 }
