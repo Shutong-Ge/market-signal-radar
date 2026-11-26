@@ -5,108 +5,390 @@
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.7,
+ "elapsed": 5.6,
  "reports": [
   {
-   "key": "a8df5472afb13761",
-   "label": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI股票随涨 Ant",
+   "key": "677f6a35f48eb7a1",
+   "label": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 标普纳指跌幅收窄",
    "cached": false,
    "sections": {
-    "事件概述": "「11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI股票随涨 Ant」由 72 篇报道聚合而成，覆盖 4 家媒体，热度 0.875（爆点），所属板块类目：半导体。",
-    "关键信息": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI；11月25日隔夜要闻：美股涨跌不一 科技股下跌提振避险需求 油价上涨 铜价走低 ；美国股市：美股上演惊人反弹 黄仁勋回归点燃科技股涨势",
-    "市场影响": "关联板块代码：BK0800、BK1015、BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 标普纳指跌幅收窄」由 48 篇报道聚合而成，覆盖 3 家媒体，热度 0.827（爆点），所属板块类目：半导体。",
+    "关键信息": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 ；11月26日隔夜要闻：美股低开反弹 标普或下调英伟达评级 万斯力挺黄仁勋 爱奇艺；美股三大指数拉升 纳指跌幅收窄至2%",
+    "市场影响": "关联板块代码：BK0800、BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI股票随涨 Anthropic收跌",
+     "title": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 标普纳指跌幅收窄至不足1%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizupfs0280256.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyzmp9128647.shtml",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "11月25日隔夜要闻：美股涨跌不一 科技股下跌提振避险需求 油价上涨 铜价走低 金价下挫",
+     "title": "11月26日隔夜要闻：美股低开反弹 标普或下调英伟达评级 万斯力挺黄仁勋 爱奇艺收纳斯达克不合规通知",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwwnr1891351.shtml",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyzms8307866.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "美国股市：美股上演惊人反弹 黄仁勋回归点燃科技股涨势",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizupfn2004725.shtml",
-     "rrf": 0.03078,
-     "bm25_rank": 6,
+     "title": "美股三大指数拉升 纳指跌幅收窄至2%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611263939934562.html",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
      "vec_rank": 4
     },
     {
      "n": 4,
-     "title": "11月25日收盘：美股涨跌不一 芯片板块重挫 英伟达跌近6% Anthropic跌破IPO发行价",
+     "title": "清晨，深V大反弹！抄底资金，突然涌入！",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwwnr1839951.shtml",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
-     "vec_rank": 5
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-26/doc-inizzftp1445058.shtml",
+     "rrf": 0.02967,
+     "bm25_rank": 5,
+     "vec_rank": 10
     },
     {
      "n": 5,
-     "title": "今日比特币：徘徊于6万美元附近，美股反弹未能扭转加密货币资金流出趋势",
+     "title": "美国债市：国债上涨 科技股反弹之际早间买盘消退",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmi2266845.shtml",
-     "rrf": 0.02861,
-     "bm25_rank": 4,
-     "vec_rank": 17
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyzmp9125053.shtml",
+     "rrf": 0.02927,
+     "bm25_rank": 12,
+     "vec_rank": 5
     },
     {
      "n": 6,
-     "title": "黄仁勋强势回归英伟达，SK海力士美国上市股票暴涨20%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizutpn7855220.shtml",
-     "rrf": 0.02826,
-     "bm25_rank": 7,
+     "title": "纳斯达克100指数跌幅收窄至不足2%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611253938850152.html",
+     "rrf": 0.02896,
+     "bm25_rank": 4,
      "vec_rank": 15
     },
     {
      "n": 7,
-     "title": "黄仁勋复职后韩股大涨，一度触发SideCar机制暂停程序化买盘",
+     "title": "美国股市：逢低买盘助美股收窄跌幅 纳斯达克100指数短暂进入熊市",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizutph5196370.shtml",
-     "rrf": 0.02817,
-     "bm25_rank": 12,
-     "vec_rank": 10
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizzftt3813532.shtml",
+     "rrf": 0.02691,
+     "bm25_rank": 18,
+     "vec_rank": 11
     },
     {
      "n": 8,
-     "title": "黄仁勋回归首日：A股高开回落，机构称估值修复仍待业绩验证",
+     "title": "德银：市场避险情绪再度回归",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvkme7730830.shtml",
-     "rrf": 0.02778,
-     "bm25_rank": 24,
-     "vec_rank": 3
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyqvz4073559.shtml",
+     "rrf": 0.02558,
+     "bm25_rank": 11,
+     "vec_rank": 27
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI",
+    "query": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 ",
     "bm25_only": 2,
     "vec_only": 1,
-    "both": 4,
-    "neither_topk": 1
+    "both": 3,
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "007a3a290d9402d2",
+   "key": "58cf1f6a6f9a4780",
+   "label": "【创业板指高开低走尾盘翻绿，全市场炸板率超50%】 市场全天高开回落，三大指数涨",
+   "cached": false,
+   "sections": {
+    "事件概述": "「【创业板指高开低走尾盘翻绿，全市场炸板率超50%】 市场全天高开回落，三大指数涨」由 22 篇报道聚合而成，覆盖 4 家媒体，热度 0.686（爆点），所属板块类目：金融市场。",
+    "关键信息": "【创业板指高开低走尾盘翻绿，全市场炸板率超50%】 市场全天高开回落，三大指数涨；创业板指尾盘翻绿，早盘一度涨超4%。；深成指翻绿 早盘一度涨近2.6%",
+    "市场影响": "关联板块代码：BK1015、BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "【创业板指高开低走尾盘翻绿，全市场炸板率超50%】 市场全天高开回落，三大指数涨",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204751",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "创业板指尾盘翻绿，早盘一度涨超4%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204743",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "深成指翻绿 早盘一度涨近2.6%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611243938373718.html",
+     "rrf": 0.03175,
+     "bm25_rank": 3,
+     "vec_rank": 3
+    },
+    {
+     "n": 4,
+     "title": "A股反弹 三大股指高开",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-26/10737931.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 4,
+     "vec_rank": 6
+    },
+    {
+     "n": 5,
+     "title": "市场午后震荡回落，创业板指涨幅收窄至1%以内，早盘一度涨超4%，沪指、深成指涨幅",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204716",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
+     "vec_rank": 4
+    },
+    {
+     "n": 6,
+     "title": "创业板指再度翻绿，此前一度涨超2%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3206094",
+     "rrf": 0.02988,
+     "bm25_rank": 9,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "600829，尾盘封板！一则消息引爆，相关概念股大面积涨停",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-11-25/doc-inizxtsc9544238.shtml",
+     "rrf": 0.02942,
+     "bm25_rank": 7,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "快讯：恒指高开0.15% 恒科指跌0.41% 黄金股低迷 存储概念股低开",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-25/doc-inizxaup1882549.shtml",
+     "rrf": 0.02831,
+     "bm25_rank": 6,
+     "vec_rank": 16
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "【创业板指高开低走尾盘翻绿，全市场炸板率超50%】 市场全天高开回落，三大指数涨",
+    "bm25_only": 2,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "5593ebe9bd7529ca",
+   "label": "标普500指数下跌1.6%，纳斯达克100指数下跌2.9%。 Anthropic",
+   "cached": false,
+   "sections": {
+    "事件概述": "「标普500指数下跌1.6%，纳斯达克100指数下跌2.9%。 Anthropic」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.607（爆点），所属板块类目：AI与大模型。",
+    "关键信息": "纳斯达克指数跌幅扩大至2.5%；标普500指数下跌1.6%，纳斯达克100指数下跌2.9%。 Anthropic；11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 ",
+    "市场影响": "关联板块代码：BK0697。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "纳斯达克指数跌幅扩大至2.5%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611253938843556.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "标普500指数下跌1.6%，纳斯达克100指数下跌2.9%。 Anthropic",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205865",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 标普纳指跌幅收窄至不足1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyzmp9128647.shtml",
+     "rrf": 0.03102,
+     "bm25_rank": 3,
+     "vec_rank": 6
+    },
+    {
+     "n": 4,
+     "title": "Anthropic股价拉升翻红 此前一度跌9.5%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611263939927284.html",
+     "rrf": 0.03101,
+     "bm25_rank": 5,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "纳斯达克100指数跌幅收窄至不足2%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611253938850152.html",
+     "rrf": 0.03083,
+     "bm25_rank": 8,
+     "vec_rank": 2
+    },
+    {
+     "n": 6,
+     "title": "道指低开高走，半导体大跌，英伟达跌超5%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/bxjj/2026-11-25/doc-inizwwns8656625.shtml",
+     "rrf": 0.03012,
+     "bm25_rank": 4,
+     "vec_rank": 9
+    },
+    {
+     "n": 7,
+     "title": "开盘：三大股指齐跌，AI 板块承压，市场消化最新通胀数据与关税消息",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizykpx1715155.shtml",
+     "rrf": 0.02859,
+     "bm25_rank": 12,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "美股期货走低，纳斯达克100指数期货现跌1.1%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205360",
+     "rrf": 0.02788,
+     "bm25_rank": 20,
+     "vec_rank": 5
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "标普500指数下跌1.6%，纳斯达克100指数下跌2.9%。 Anthropic",
+    "bm25_only": 1,
+    "vec_only": 2,
+    "both": 5,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "d64b00d7858dd18a",
+   "label": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海力士领衔权重股全",
+   "cached": false,
+   "sections": {
+    "事件概述": "「韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海力士领衔权重股全」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.585（爆点），所属板块类目：综合。",
+    "关键信息": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海；日经225指数收盘上涨3.9%，报58,644.63点。 日本东证指数收盘上涨2；日股收盘：日经225指数暴涨3.9%创近四个月最大单日涨幅，爱德万测试与铠侠领衔",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海力士领衔权重股全线飙升",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmi2234770.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "日经225指数收盘上涨3.9%，报58,644.63点。 日本东证指数收盘上涨2",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204732",
+     "rrf": 0.0315,
+     "bm25_rank": 4,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "日股收盘：日经225指数暴涨3.9%创近四个月最大单日涨幅，爱德万测试与铠侠领衔芯片股狂飙",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmk9014789.shtml",
+     "rrf": 0.03128,
+     "bm25_rank": 2,
+     "vec_rank": 6
+    },
+    {
+     "n": 4,
+     "title": "日韩股市集体收涨 韩国KOSPI指数收涨6.32%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611243938383527.html",
+     "rrf": 0.02912,
+     "bm25_rank": 17,
+     "vec_rank": 2
+    },
+    {
+     "n": 5,
+     "title": "黄仁勋回归，韩股周二早盘大涨近7%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmh0068444.shtml",
+     "rrf": 0.02908,
+     "bm25_rank": 13,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "清晨，深V大反弹！抄底资金，突然涌入！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-26/doc-inizzftp1445058.shtml",
+     "rrf": 0.02797,
+     "bm25_rank": 11,
+     "vec_rank": 12
+    },
+    {
+     "n": 7,
+     "title": "非洲股市收盘播报｜周三（11月25日），南非富时/JSE非洲领先40可交易指数收",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205846",
+     "rrf": 0.0234,
+     "bm25_rank": 27,
+     "vec_rank": 24
+    },
+    {
+     "n": 8,
+     "title": "高盛加入看空阵营 下调三星、SK海力士目标价",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvzhx9934163.shtml",
+     "rrf": 0.01587,
+     "bm25_rank": 3,
+     "vec_rank": null
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海",
+    "bm25_only": 1,
+    "vec_only": 2,
+    "both": 3,
+    "neither_topk": 2
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "3f04e4d90a8c8aa8",
    "label": "财经早报丨陈吉宁被查，上海市委：坚决拥护党中央决定，黄仁勋称英伟达不需要接班人计划丨2026年1",
    "cached": false,
    "sections": {
-    "事件概述": "「财经早报丨陈吉宁被查，上海市委：坚决拥护党中央决定，黄仁勋称英伟达不需要接班人计划丨2026年1」由 21 篇报道聚合而成，覆盖 3 家媒体，热度 0.669（爆点），所属板块类目：综合。",
+    "事件概述": "「财经早报丨陈吉宁被查，上海市委：坚决拥护党中央决定，黄仁勋称英伟达不需要接班人计划丨2026年1」由 12 篇报道聚合而成，覆盖 3 家媒体，热度 0.534（高热），所属板块类目：半导体。",
     "关键信息": "财经早报丨陈吉宁被查，上海市委：坚决拥护党中央决定，黄仁勋称英伟达不需要接班人计；复职次日召开“最艰难的公司会议” 黄仁勋致歉并称英伟达不需要接班人计划；11月25日外盘头条：黄仁勋致歉并称英伟达不需要接班人计划 LME收紧持仓规则 ",
     "市场影响": "关联板块代码：BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -135,345 +417,63 @@
      "title": "11月25日外盘头条：黄仁勋致歉并称英伟达不需要接班人计划 LME收紧持仓规则 美国消费者信心升至近两年最高",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwwnr1857747.shtml",
-     "rrf": 0.03037,
+     "rrf": 0.03126,
      "bm25_rank": 3,
-     "vec_rank": 9
-    },
-    {
-     "n": 4,
-     "title": "视频|黄仁勋复职计划曝光!特朗普、万斯等高官电话轰炸 极限施压英伟达董事会 民主党:将动用全部权力彻查",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/2026-11-24/doc-inizvecm2282182.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
-     "vec_rank": 8
-    },
-    {
-     "n": 5,
-     "title": "黄仁勋回来了，英伟达暂时赢回“确定性”",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-24/doc-inizvzia8883809.shtml",
-     "rrf": 0.02872,
-     "bm25_rank": 15,
      "vec_rank": 5
     },
     {
-     "n": 6,
-     "title": "黄仁勋复职引爆英伟达股价大涨 多家大行：阴霾暂消 监管风险仍存",
+     "n": 4,
+     "title": "黄仁勋回来了，英伟达暂时赢回“确定性”",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-11-25/doc-inizxian8649015.shtml",
-     "rrf": 0.0284,
-     "bm25_rank": 8,
-     "vec_rank": 13
-    },
-    {
-     "n": 7,
-     "title": "中方回应黄仁勋重返英伟达",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/china/2026-11-24/doc-inizvkmi2256364.shtml",
-     "rrf": 0.02688,
-     "bm25_rank": 17,
-     "vec_rank": 12
-    },
-    {
-     "n": 8,
-     "title": "视频丨特朗普曝黄仁勋回归内幕：如果他在美国受到不公，他可以选择去中国，他们会愿意满足他的一切条件！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/2026-11-24/doc-inizvecm2290218.shtml",
-     "rrf": 0.02658,
-     "bm25_rank": 11,
-     "vec_rank": 20
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "财经早报丨陈吉宁被查，上海市委：坚决拥护党中央决定，黄仁勋称英伟达不需要接班人计",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 2,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "ed1606f57c454462",
-   "label": "标普500指数下跌1.6%，纳斯达克100指数下跌2.9%。 Anthropic",
-   "cached": false,
-   "sections": {
-    "事件概述": "「标普500指数下跌1.6%，纳斯达克100指数下跌2.9%。 Anthropic」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.565（爆点），所属板块类目：AI与大模型。",
-    "关键信息": "纳斯达克指数跌幅扩大至2.5%；标普500指数下跌1.6%，纳斯达克100指数下跌2.9%。 Anthropic；Anthropic股价拉升翻红 此前一度跌9.5%",
-    "市场影响": "关联板块代码：BK0697。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "纳斯达克指数跌幅扩大至2.5%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611253938843556.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "标普500指数下跌1.6%，纳斯达克100指数下跌2.9%。 Anthropic",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3205865",
-     "rrf": 0.032,
-     "bm25_rank": 2,
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-24/doc-inizvzia8883809.shtml",
+     "rrf": 0.03016,
+     "bm25_rank": 10,
      "vec_rank": 3
     },
     {
-     "n": 3,
-     "title": "Anthropic股价拉升翻红 此前一度跌9.5%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611263939927284.html",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "纳斯达克100指数跌幅收窄至不足2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611253938850152.html",
-     "rrf": 0.03105,
-     "bm25_rank": 7,
-     "vec_rank": 2
-    },
-    {
      "n": 5,
-     "title": "道指低开高走，半导体大跌，英伟达跌超5%",
+     "title": "黄仁勋复职引爆英伟达股价大涨 多家大行：阴霾暂消 监管风险仍存",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/bxjj/2026-11-25/doc-inizwwns8656625.shtml",
-     "rrf": 0.03058,
-     "bm25_rank": 3,
+     "url": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-11-25/doc-inizxian8649015.shtml",
+     "rrf": 0.02986,
+     "bm25_rank": 6,
      "vec_rank": 8
     },
     {
      "n": 6,
-     "title": "开盘：三大股指齐跌，AI 板块承压，市场消化最新通胀数据与关税消息",
+     "title": "中方回应黄仁勋重返英伟达",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizykpx1715155.shtml",
+     "url": "https://finance.sina.com.cn/china/2026-11-24/doc-inizvkmi2256364.shtml",
      "rrf": 0.02901,
      "bm25_rank": 11,
      "vec_rank": 7
     },
     {
      "n": 7,
-     "title": "美股期货走低，纳斯达克100指数期货现跌1.1%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3205360",
-     "rrf": 0.02854,
-     "bm25_rank": 16,
-     "vec_rank": 5
-    },
-    {
-     "n": 8,
-     "title": "AI之忧加剧科技股抛售 纳斯达克100指数迈向熊市",
+     "title": "揭秘黄仁勋重返英伟达内幕：万斯通过两项关键保证推动董事会改变立场",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizyqvt9288497.shtml",
-     "rrf": 0.02821,
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmk8987667.shtml",
+     "rrf": 0.02729,
      "bm25_rank": 5,
-     "vec_rank": 18
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "标普500指数下跌1.6%，纳斯达克100指数下跌2.9%。 Anthropic",
-    "bm25_only": 1,
-    "vec_only": 2,
-    "both": 5,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "a43d7046a3591f5a",
-   "label": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海力士领衔权重股全",
-   "cached": false,
-   "sections": {
-    "事件概述": "「韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海力士领衔权重股全」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.539（爆点），所属板块类目：半导体。",
-    "关键信息": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海；日股收盘：日经225指数暴涨3.9%创近四个月最大单日涨幅，爱德万测试与铠侠领衔；日经225指数收盘上涨3.9%，报58,644.63点。 日本东证指数收盘上涨2",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海力士领衔权重股全线飙升",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmi2234770.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "日股收盘：日经225指数暴涨3.9%创近四个月最大单日涨幅，爱德万测试与铠侠领衔芯片股狂飙",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmk9014789.shtml",
-     "rrf": 0.03128,
-     "bm25_rank": 2,
-     "vec_rank": 6
-    },
-    {
-     "n": 3,
-     "title": "日经225指数收盘上涨3.9%，报58,644.63点。 日本东证指数收盘上涨2",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3204732",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "黄仁勋复职后韩股大涨，一度触发SideCar机制暂停程序化买盘",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizutph5196370.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 6,
-     "vec_rank": 11
-    },
-    {
-     "n": 5,
-     "title": "日韩股市集体收涨 韩国KOSPI指数收涨6.32%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611243938383527.html",
-     "rrf": 0.02879,
-     "bm25_rank": 19,
-     "vec_rank": 2
-    },
-    {
-     "n": 6,
-     "title": "黄仁勋回归，韩股周二早盘大涨近7%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmh0068444.shtml",
-     "rrf": 0.02788,
-     "bm25_rank": 20,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "早间要闻汇总",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3204693",
-     "rrf": 0.02613,
-     "bm25_rank": 11,
-     "vec_rank": 23
-    },
-    {
-     "n": 8,
-     "title": "非洲股市收盘播报｜周三（11月25日），南非富时/JSE非洲领先40可交易指数收",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3205846",
-     "rrf": 0.02395,
-     "bm25_rank": 23,
      "vec_rank": 24
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "韩股收盘：KOSPI暴涨6.32%收复5000点大关 盘中触发买方熔断 三星、海",
-    "bm25_only": 1,
-    "vec_only": 2,
-    "both": 3,
-    "neither_topk": 2
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "6286e9ecb1315244",
-   "label": "商品期货收盘，20号胶、焦煤、烧碱主力合约涨超2%。燃料油跌近3%，沥青、国际铜",
-   "cached": false,
-   "sections": {
-    "事件概述": "「商品期货收盘，20号胶、焦煤、烧碱主力合约涨超2%。燃料油跌近3%，沥青、国际铜」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.504（高热），所属板块类目：大宗与能化。",
-    "关键信息": "商品期货收盘，20号胶、焦煤、烧碱主力合约涨超2%。燃料油跌近3%，沥青、国际铜；国内商品期货收盘 主力合约互有涨跌；开盘|国内期货主力合约涨多跌少，沥青涨超3%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "商品期货收盘，20号胶、焦煤、烧碱主力合约涨超2%。燃料油跌近3%，沥青、国际铜",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3204748",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "国内商品期货收盘 主力合约互有涨跌",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611243938397880.html",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "开盘|国内期货主力合约涨多跌少，沥青涨超3%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-25/doc-inizxauq8638395.shtml",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "光大期货1125热点追踪：产量约束叠加贴水修复，焦煤盘中涨逾5%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-25/doc-inizxtsc9478590.shtml",
-     "rrf": 0.03055,
-     "bm25_rank": 7,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "收评|国内期货主力合约涨跌不一，沪锡跌超9%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-25/doc-inizxtsh8553345.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 5,
-     "vec_rank": 6
-    },
-    {
-     "n": 6,
-     "title": "上期所原油主力合约跌超4%，报559.2元/桶；燃油主力合约大跌5%，报3535",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3204707",
-     "rrf": 0.03009,
-     "bm25_rank": 8,
-     "vec_rank": 5
-    },
-    {
-     "n": 7,
-     "title": "国债期货早盘收盘，30年期主力合约跌0.15%，10年期主力合约跌0.00%，5",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3205394",
-     "rrf": 0.02932,
-     "bm25_rank": 4,
-     "vec_rank": 13
     },
     {
      "n": 8,
-     "title": "开盘|国内期货主力合约涨多跌少，沪银涨近6%",
+     "title": "黄仁勋复职，英伟达争议未止",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-24/doc-inizuxvh1870014.shtml",
-     "rrf": 0.02904,
-     "bm25_rank": 6,
-     "vec_rank": 12
+     "url": "https://finance.sina.com.cn/stock/t/2026-11-24/doc-inizvuza0024115.shtml",
+     "rrf": 0.02711,
+     "bm25_rank": 18,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "商品期货收盘，20号胶、焦煤、烧碱主力合约涨超2%。燃料油跌近3%，沥青、国际铜",
-    "bm25_only": 2,
-    "vec_only": 0,
-    "both": 6,
-    "neither_topk": 0
+    "query": "财经早报丨陈吉宁被查，上海市委：坚决拥护党中央决定，黄仁勋称英伟达不需要接班人计",
+    "bm25_only": 1,
+    "vec_only": 2,
+    "both": 4,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }
