@@ -1,114 +1,20 @@
 {
  "engine": "template(降级)",
- "n_clusters": 47,
+ "n_clusters": 51,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
  "citation_marker_rate": null,
- "elapsed": 5.3,
+ "elapsed": 5.7,
  "reports": [
   {
-   "key": "64e975c4a494d6e6",
-   "label": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 标普纳指跌幅收窄",
-   "cached": false,
-   "sections": {
-    "事件概述": "「11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 标普纳指跌幅收窄」由 20 篇报道聚合而成，覆盖 3 家媒体，热度 0.9（爆点），所属板块类目：国际市场。",
-    "关键信息": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 ；11月26日隔夜要闻：美股低开反弹 标普或下调英伟达评级 万斯力挺黄仁勋 爱奇艺；美股三大指数拉升 纳指跌幅收窄至2%",
-    "市场影响": "关联板块代码：BK0800、BK1161。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 标普纳指跌幅收窄至不足1%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyzmp9128647.shtml",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "11月26日隔夜要闻：美股低开反弹 标普或下调英伟达评级 万斯力挺黄仁勋 爱奇艺收纳斯达克不合规通知",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyzms8307866.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "美股三大指数拉升 纳指跌幅收窄至2%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611263939934562.html",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "清晨，深V大反弹！抄底资金，突然涌入！",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-26/doc-inizzftp1445058.shtml",
-     "rrf": 0.03012,
-     "bm25_rank": 4,
-     "vec_rank": 9
-    },
-    {
-     "n": 5,
-     "title": "美国债市：国债上涨 科技股反弹之际早间买盘消退",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyzmp9125053.shtml",
-     "rrf": 0.02947,
-     "bm25_rank": 11,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "美国股市：逢低买盘助美股收窄跌幅 纳斯达克100指数短暂进入熊市",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizzftt3813532.shtml",
-     "rrf": 0.02744,
-     "bm25_rank": 16,
-     "vec_rank": 10
-    },
-    {
-     "n": 7,
-     "title": "德银：市场避险情绪再度回归",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyqvz4073559.shtml",
-     "rrf": 0.02605,
-     "bm25_rank": 10,
-     "vec_rank": 25
-    },
-    {
-     "n": 8,
-     "title": "美元兑加元走低，日内跌幅扩大至超过0.5%，加拿大央行行长发出通胀警告。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3205164",
-     "rrf": 0.02519,
-     "bm25_rank": 13,
-     "vec_rank": 27
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 ",
-    "bm25_only": 1,
-    "vec_only": 1,
-    "both": 3,
-    "neither_topk": 3
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "2dd99e0ea37005da",
+   "key": "711ff895c740086b",
    "label": "港股收评：恒指跌1.14%失守22000点 科指跌2.56% 芯片股低迷 锂电池股下挫 宁德时代",
    "cached": false,
    "sections": {
-    "事件概述": "「港股收评：恒指跌1.14%失守22000点 科指跌2.56% 芯片股低迷 锂电池股下挫 宁德时代」由 18 篇报道聚合而成，覆盖 3 家媒体，热度 0.896（爆点），所属板块类目：金融市场。",
+    "事件概述": "「港股收评：恒指跌1.14%失守22000点 科指跌2.56% 芯片股低迷 锂电池股下挫 宁德时代」由 32 篇报道聚合而成，覆盖 4 家媒体，热度 0.875（爆点），所属板块类目：金融市场。",
     "关键信息": "港股收评：恒指跌1.14%失守22000点 科指跌2.56% 芯片股低迷 锂电池；宁德时代股价大跌，机构称锂电盈利、排产预期承压；港股冲高回落，恒生科技指数跌超1%，早盘涨超2%",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "市场影响": "关联板块代码：BK0433、BK0479。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
@@ -144,63 +50,63 @@
      "title": "宁德时代跌超6%创19个月新低 A+H股总市值跌破1万亿",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611253939430564.html",
-     "rrf": 0.03031,
+     "rrf": 0.03077,
      "bm25_rank": 5,
-     "vec_rank": 7
+     "vec_rank": 5
     },
     {
      "n": 5,
-     "title": "港股午评：恒指涨0.21% 科指涨0.2% 科网股活跃 半导体板块走弱 华虹宏力跌超13%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-25/doc-inizxian8676353.shtml",
-     "rrf": 0.02991,
-     "bm25_rank": 10,
+     "title": "创业板指跌超3%，宁德时代跌超6%，股价创19个月新低，半导体芯片、算力硬件、机",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205433",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
      "vec_rank": 4
     },
     {
      "n": 6,
-     "title": "创业板指跌超3%，宁德时代跌超6%，股价创19个月新低，半导体芯片、算力硬件、机",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3205433",
-     "rrf": 0.02986,
-     "bm25_rank": 8,
+     "title": "港股午评：恒指涨1.86%重回22000点 科指涨2.63% 科网股普涨 黄金股回暖 智谱涨超13%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-26/doc-inizzsip3783674.shtml",
+     "rrf": 0.02944,
+     "bm25_rank": 10,
      "vec_rank": 6
     },
     {
      "n": 7,
-     "title": "快讯：恒指高开0.15% 恒科指跌0.41% 黄金股低迷 存储概念股低开",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-25/doc-inizxaup1882549.shtml",
-     "rrf": 0.02908,
-     "bm25_rank": 13,
-     "vec_rank": 5
-    },
-    {
-     "n": 8,
      "title": "沪指失守3500点！磨底行情下，企稳信号看这几点",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-25/doc-inizykpy8464626.shtml",
-     "rrf": 0.0276,
-     "bm25_rank": 14,
-     "vec_rank": 11
+     "rrf": 0.02819,
+     "bm25_rank": 13,
+     "vec_rank": 9
+    },
+    {
+     "n": 8,
+     "title": "港股午后大涨，恒生科技指数涨超5%，恒生指数涨近2%；半导体、光通信、PCB等板",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3206779",
+     "rrf": 0.02694,
+     "bm25_rank": 19,
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "港股收评：恒指跌1.14%失守22000点 科指跌2.56% 芯片股低迷 锂电池",
     "bm25_only": 0,
-    "vec_only": 2,
+    "vec_only": 1,
     "both": 5,
-    "neither_topk": 1
+    "neither_topk": 2
    },
    "elapsed": 0.0
   },
   {
-   "key": "87f0ea58ac30864b",
+   "key": "a371b480c6d1d07e",
    "label": "德国DAX 30指数初步收涨2.39%，报25292.54点。 法国股指初步收涨",
    "cached": false,
    "sections": {
-    "事件概述": "「德国DAX 30指数初步收涨2.39%，报25292.54点。 法国股指初步收涨」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.721（爆点），所属板块类目：综合。",
+    "事件概述": "「德国DAX 30指数初步收涨2.39%，报25292.54点。 法国股指初步收涨」由 9 篇报道聚合而成，覆盖 2 家媒体，热度 0.653（爆点），所属板块类目：综合。",
     "关键信息": "德国DAX 30指数初步收涨2.39%，报25292.54点。 法国股指初步收涨；意大利银行板块初步收跌超3%；欧洲主要股指集体收涨 德国DAX指数涨超2%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -253,6 +159,15 @@
     },
     {
      "n": 6,
+     "title": "提醒：日内请重点关注（以下均为北京时间）",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3206113",
+     "rrf": 0.02288,
+     "bm25_rank": 30,
+     "vec_rank": 25
+    },
+    {
+     "n": 7,
      "title": "欧洲STOXX 600指数涨幅扩大至2%，报638.63点。",
      "media": "华尔街见闻",
      "url": "https://wallstreetcn.com/livenews/3206540",
@@ -261,134 +176,219 @@
      "vec_rank": 5
     },
     {
-     "n": 7,
-     "title": "上期所原油期货2701合约夜盘收涨2.25%，报582.90元人民币/桶。 沪金",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3205180",
-     "rrf": 0.01515,
-     "bm25_rank": 6,
-     "vec_rank": null
-    },
-    {
      "n": 8,
      "title": "以色列议会初步通过限制总理任期的法案",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611253939908717.html",
-     "rrf": 0.01493,
-     "bm25_rank": 7,
+     "rrf": 0.01515,
+     "bm25_rank": 6,
      "vec_rank": null
     }
    ],
    "degraded": 1,
    "retrieval": {
     "query": "德国DAX 30指数初步收涨2.39%，报25292.54点。 法国股指初步收涨",
-    "bm25_only": 2,
+    "bm25_only": 1,
     "vec_only": 1,
     "both": 5,
-    "neither_topk": 0
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "8234ee7b6c6a9895",
-   "label": "日本10年期国债收益率下行5.5个基点至2.665%。",
+   "key": "e6c9aa37bd93c731",
+   "label": "内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%，铁矿石跌约2.3%",
    "cached": false,
    "sections": {
-    "事件概述": "「日本10年期国债收益率下行5.5个基点至2.665%。」由 4 篇报道聚合而成，覆盖 3 家媒体，热度 0.627（爆点），所属板块类目：宏观政策。",
-    "关键信息": "日本10年期国债收益率下行5.5个基点至2.665%。；日本30年期国债收益率下跌5个基点至3.90%；印度10年期国债收益率上行5个基点至7.21%。",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "事件概述": "「内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%，铁矿石跌约2.3%」由 13 篇报道聚合而成，覆盖 3 家媒体，热度 0.638（爆点），所属板块类目：大宗与能化。",
+    "关键信息": "内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%，铁矿石跌约2.3%；国内部分商品期货夜盘收盘 主力合约涨多跌少；光大期货1125热点追踪：产量约束叠加贴水修复，焦煤盘中涨逾5%",
+    "市场影响": "关联板块代码：BK1361。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
    },
    "citations": [
     {
      "n": 1,
-     "title": "日本10年期国债收益率下行5.5个基点至2.665%。",
+     "title": "内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%，铁矿石跌约2.3%",
      "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3205410",
+     "url": "https://wallstreetcn.com/livenews/3206520",
      "rrf": 0.03279,
      "bm25_rank": 1,
      "vec_rank": 1
     },
     {
      "n": 2,
-     "title": "日本30年期国债收益率下跌5个基点至3.90%",
+     "title": "国内部分商品期货夜盘收盘 主力合约涨多跌少",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611263940969891.html",
+     "rrf": 0.032,
+     "bm25_rank": 3,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "光大期货1125热点追踪：产量约束叠加贴水修复，焦煤盘中涨逾5%",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizzsik8250453.shtml",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-25/doc-inizxtsc9478590.shtml",
+     "rrf": 0.03105,
+     "bm25_rank": 2,
+     "vec_rank": 7
+    },
+    {
+     "n": 4,
+     "title": "开盘|国内期货主力合约涨多跌少，沪银、乙二醇（EG）涨超3%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-27/doc-inkacqym1107004.shtml",
+     "rrf": 0.03078,
+     "bm25_rank": 6,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "国内商品期市夜盘收盘涨跌参半 油脂油料涨幅居前",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611263940972248.html",
+     "rrf": 0.03037,
+     "bm25_rank": 9,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "夜盘期货收盘：沪铜跌超2% 沪锡跌超6%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611263939926825.html",
+     "rrf": 0.03009,
+     "bm25_rank": 8,
+     "vec_rank": 5
+    },
+    {
+     "n": 7,
+     "title": "收评|国内期货主力合约涨跌不一，沪锡跌超9%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-25/doc-inizxtsh8553345.shtml",
+     "rrf": 0.02967,
+     "bm25_rank": 5,
+     "vec_rank": 10
+    },
+    {
+     "n": 8,
+     "title": "【点石成金】供应增量不及预期，焦煤快速收基差",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/2026-11-25/doc-inizxxye8564909.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 7,
+     "vec_rank": 8
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%，铁矿石跌约2.3%",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 0
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "55fd9ef9f2430d17",
+   "label": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 标普纳指跌幅收窄",
+   "cached": false,
+   "sections": {
+    "事件概述": "「11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 标普纳指跌幅收窄」由 10 篇报道聚合而成，覆盖 3 家媒体，热度 0.613（爆点），所属板块类目：国际市场。",
+    "关键信息": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 ；11月26日隔夜要闻：美股低开反弹 标普或下调英伟达评级 万斯力挺黄仁勋 爱奇艺；美股三大指数拉升 纳指跌幅收窄至2%",
+    "市场影响": "关联板块代码：BK0800。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 标普纳指跌幅收窄至不足1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyzmp9128647.shtml",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "11月26日隔夜要闻：美股低开反弹 标普或下调英伟达评级 万斯力挺黄仁勋 爱奇艺收纳斯达克不合规通知",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyzms8307866.shtml",
      "rrf": 0.03226,
      "bm25_rank": 2,
      "vec_rank": 2
     },
     {
      "n": 3,
-     "title": "印度10年期国债收益率上行5个基点至7.21%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3206103",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "美国30年期国债收益率当日下跌10个基点至5.22%",
+     "title": "美股三大指数拉升 纳指跌幅收窄至2%",
      "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611253939917228.html",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
+     "url": "https://finance.eastmoney.com/a/202611263939934562.html",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
      "vec_rank": 4
     },
     {
-     "n": 5,
-     "title": "英国两年期国债收益率上升8个基点至4.86%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611263940885814.html",
-     "rrf": 0.02964,
-     "bm25_rank": 9,
-     "vec_rank": 6
+     "n": 4,
+     "title": "清晨，深V大反弹！抄底资金，突然涌入！",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-26/doc-inizzftp1445058.shtml",
+     "rrf": 0.03055,
+     "bm25_rank": 4,
+     "vec_rank": 7
     },
     {
-     "n": 6,
-     "title": "日本拍卖40年期国债，认购倍数2.63，过去12个月均值为2.75。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3205403",
+     "n": 5,
+     "title": "美国债市：国债上涨 科技股反弹之际早间买盘消退",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyzmp9125053.shtml",
      "rrf": 0.02947,
      "bm25_rank": 11,
      "vec_rank": 5
     },
     {
+     "n": 6,
+     "title": "美国股市：逢低买盘助美股收窄跌幅 纳斯达克100指数短暂进入熊市",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizzftt3813532.shtml",
+     "rrf": 0.02822,
+     "bm25_rank": 14,
+     "vec_rank": 8
+    },
+    {
      "n": 7,
-     "title": "英国2年期国债收益率跌至4.7623% 为11月10日以来的最低水平",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611253939905418.html",
-     "rrf": 0.02944,
+     "title": "开盘：三大股指齐跌，AI 板块承压，市场消化最新通胀数据与关税消息",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizykpx1715155.shtml",
+     "rrf": 0.02652,
      "bm25_rank": 6,
-     "vec_rank": 10
+     "vec_rank": 28
     },
     {
      "n": 8,
-     "title": "美国5年期国债中标收益率为4.719% 预售发行前收益率为4.716%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611253938858646.html",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
+     "title": "德银：市场避险情绪再度回归",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizyqvz4073559.shtml",
+     "rrf": 0.02648,
+     "bm25_rank": 10,
+     "vec_rank": 22
     }
    ],
    "degraded": 1,
    "retrieval": {
-    "query": "日本10年期国债收益率下行5.5个基点至2.665%。",
+    "query": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 ",
     "bm25_only": 1,
     "vec_only": 2,
-    "both": 5,
-    "neither_topk": 0
+    "both": 4,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   },
   {
-   "key": "0acb2cd48aa8e0a2",
+   "key": "01443b096675eee3",
    "label": "日本央行审议委员田村直树：中东局势走向仍不明朗，将继续关注其对经济和物价的影响。",
    "cached": false,
    "sections": {
-    "事件概述": "「日本央行审议委员田村直树：中东局势走向仍不明朗，将继续关注其对经济和物价的影响。」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.616（高热），所属板块类目：宏观政策。",
+    "事件概述": "「日本央行审议委员田村直树：中东局势走向仍不明朗，将继续关注其对经济和物价的影响。」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.592（爆点），所属板块类目：宏观政策。",
     "关键信息": "日本央行审议委员田村直树：中东局势走向仍不明朗，将继续关注其对经济和物价的影响。；日本央行审议委员田村直树：若通胀出现超出目标的迹象，应加快加息步伐；日本央行审议委员田村直树：股市和资产价格走势是衡量金融状况时将考虑的因素之一",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -435,9 +435,9 @@
      "title": "日本央行12月行动预期升温？鹰派委员放话：必要时或加息50个基点",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1433884.shtml",
-     "rrf": 0.03054,
+     "rrf": 0.03077,
      "bm25_rank": 5,
-     "vec_rank": 6
+     "vec_rank": 5
     },
     {
      "n": 6,
@@ -450,21 +450,21 @@
     },
     {
      "n": 7,
-     "title": "中东紧张局势搅动市场 油价继续上涨",
+     "title": "东京通胀加速 日本央行警惕物价压力",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-11-26/doc-inkaaawz8944315.shtml",
-     "rrf": 0.02858,
-     "bm25_rank": 9,
-     "vec_rank": 11
+     "url": "https://finance.sina.com.cn/world/2026-11-27/doc-inkacqys5585937.shtml",
+     "rrf": 0.02963,
+     "bm25_rank": 8,
+     "vec_rank": 7
     },
     {
      "n": 8,
-     "title": "交易员权衡供应前景、中东局势再度紧张，国际油价下行",
+     "title": "中东紧张局势搅动市场 油价继续上涨",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizyeha8559137.shtml",
-     "rrf": 0.02742,
+     "url": "https://finance.sina.com.cn/world/2026-11-26/doc-inkaaawz8944315.shtml",
+     "rrf": 0.02837,
      "bm25_rank": 11,
-     "vec_rank": 15
+     "vec_rank": 10
     }
    ],
    "degraded": 1,
@@ -472,8 +472,8 @@
     "query": "日本央行审议委员田村直树：中东局势走向仍不明朗，将继续关注其对经济和物价的影响。",
     "bm25_only": 0,
     "vec_only": 0,
-    "both": 6,
-    "neither_topk": 2
+    "both": 7,
+    "neither_topk": 1
    },
    "elapsed": 0.0
   }

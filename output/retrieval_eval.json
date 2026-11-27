@@ -2,45 +2,18 @@
  "summary": {
   "n_queries": 9,
   "top_k": 8,
-  "avg_jaccard": 0.337,
-  "avg_rank_diff": 1.18,
-  "avg_missed_by_bm25": 3.0,
-  "avg_missed_by_vector": 2.78,
-  "conclusion": "两路召回集平均重合度仅 34%；即便重合的文档，两路名次平均相差 1.18 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 3.0 篇最终进入 Top8 的文档；只用向量则漏掉 2.78 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
+  "avg_jaccard": 0.433,
+  "avg_rank_diff": 1.24,
+  "avg_missed_by_bm25": 2.33,
+  "avg_missed_by_vector": 1.78,
+  "conclusion": "两路召回集平均重合度仅 43%；即便重合的文档，两路名次平均相差 1.24 位——重合≠等价，排名分歧正是融合的价值来源。若只用 BM25，平均每个 query 漏掉 2.33 篇最终进入 Top8 的文档；只用向量则漏掉 1.78 篇。RRF 只用排名不用分数，规避了两路分数量纲不可比的问题。"
  },
  "per_query": [
   {
    "type": "原标题式",
-   "query": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 ",
-   "jaccard": 0.231,
-   "rank_diff": 1.67,
-   "missed_by_bm25": 3,
-   "missed_by_vector": 5,
-   "example_top1": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 标普纳指跌幅"
-  },
-  {
-   "type": "关键词式",
-   "query": "日美股 收盘 通胀 放缓 周三 反弹",
-   "jaccard": 0.231,
-   "rank_diff": 1.33,
-   "missed_by_bm25": 4,
-   "missed_by_vector": 4,
-   "example_top1": "11月26日隔夜要闻：美股低开反弹 标普或下调英伟达评级 万斯力挺黄仁勋 爱奇艺收纳斯达克不"
-  },
-  {
-   "type": "去数字泛化",
-   "query": "月日美股收盘：月通胀仍未放缓 道指周三反弹收高 抹去点跌幅",
-   "jaccard": 0.333,
-   "rank_diff": 2.0,
-   "missed_by_bm25": 2,
-   "missed_by_vector": 3,
-   "example_top1": "11月26日隔夜要闻：美股低开反弹 标普或下调英伟达评级 万斯力挺黄仁勋 爱奇艺收纳斯达克不"
-  },
-  {
-   "type": "原标题式",
    "query": "港股收评：恒指跌1.14%失守22000点 科指跌2.56%",
    "jaccard": 0.333,
-   "rank_diff": 0.75,
+   "rank_diff": 0.25,
    "missed_by_bm25": 4,
    "missed_by_vector": 1,
    "example_top1": "港股收评：恒指跌1.14%失守22000点 科指跌2.56% 芯片股低迷 锂电池股下挫 宁德"
@@ -49,25 +22,25 @@
    "type": "关键词式",
    "query": "港股 收评 恒指 失守 科指 芯片",
    "jaccard": 0.333,
-   "rank_diff": 1.25,
+   "rank_diff": 0.75,
    "missed_by_bm25": 3,
-   "missed_by_vector": 1,
+   "missed_by_vector": 2,
    "example_top1": "港股收评：恒指跌1.14%失守22000点 科指跌2.56% 芯片股低迷 锂电池股下挫 宁德"
   },
   {
    "type": "去数字泛化",
    "query": "港股收评：恒指跌失守点 科指跌 芯片股低迷 锂电池股下挫 宁",
    "jaccard": 0.333,
-   "rank_diff": 0.5,
+   "rank_diff": 0.75,
    "missed_by_bm25": 3,
-   "missed_by_vector": 4,
+   "missed_by_vector": 2,
    "example_top1": "港股收评：恒指跌1.14%失守22000点 科指跌2.56% 芯片股低迷 锂电池股下挫 宁德"
   },
   {
    "type": "原标题式",
    "query": "德国DAX 30指数初步收涨2.39%，报25292.54点",
    "jaccard": 0.333,
-   "rank_diff": 0.75,
+   "rank_diff": 1.25,
    "missed_by_bm25": 3,
    "missed_by_vector": 2,
    "example_top1": "德国DAX 30指数初步收涨2.39%，报25292.54点。 法国股指初步收涨"
@@ -89,6 +62,33 @@
    "missed_by_bm25": 3,
    "missed_by_vector": 2,
    "example_top1": "德国DAX 30指数初步收涨2.39%，报25292.54点。 法国股指初步收涨"
+  },
+  {
+   "type": "原标题式",
+   "query": "内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%",
+   "jaccard": 0.6,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%，铁矿石跌约2.3%"
+  },
+  {
+   "type": "关键词式",
+   "query": "内盘 期货 夜市 涨跌 各异 乙二醇",
+   "jaccard": 0.455,
+   "rank_diff": 1.8,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 2,
+   "example_top1": "内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%，铁矿石跌约2.3%"
+  },
+  {
+   "type": "去数字泛化",
+   "query": "内盘期货夜市涨跌各异，乙二醇收涨将近，焦煤涨，铁矿石跌约",
+   "jaccard": 0.6,
+   "rank_diff": 2.0,
+   "missed_by_bm25": 1,
+   "missed_by_vector": 1,
+   "example_top1": "内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%，铁矿石跌约2.3%"
   }
  ]
 }
