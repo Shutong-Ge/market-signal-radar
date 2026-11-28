@@ -1,6 +1,6 @@
 {
  "engine": "template(降级)",
- "n_clusters": 52,
+ "n_clusters": 55,
  "n_reports": 5,
  "n_cached": 0,
  "n_degraded": 5,
@@ -8,11 +8,11 @@
  "elapsed": 3.5,
  "reports": [
   {
-   "key": "a9192ea338da9fb0",
+   "key": "ff5b24528043fc4b",
    "label": "大奇迹日！场内多只科技类ETF报收涨停！双创赛道弹性突出，科创芯片指数涨超17%，高“光”指数涨",
    "cached": false,
    "sections": {
-    "事件概述": "「大奇迹日！场内多只科技类ETF报收涨停！双创赛道弹性突出，科创芯片指数涨超17%，高“光”指数涨」由 41 篇报道聚合而成，覆盖 4 家媒体，热度 0.875（爆点），所属板块类目：金融市场。",
+    "事件概述": "「大奇迹日！场内多只科技类ETF报收涨停！双创赛道弹性突出，科创芯片指数涨超17%，高“光”指数涨」由 37 篇报道聚合而成，覆盖 4 家媒体，热度 0.77（爆点），所属板块类目：金融市场。",
     "关键信息": "大奇迹日！场内多只科技类ETF报收涨停！双创赛道弹性突出，科创芯片指数涨超17%；A股午评：大科技“奇迹日”，超4600只个股上涨；近160只ETF，涨停！",
     "市场影响": "关联板块代码：BK0433、BK0479。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -56,15 +56,6 @@
     },
     {
      "n": 5,
-     "title": "苹果微软等终端巨头上调产品售价，科创芯片设计ETF天弘大涨超3.5%，成交额超1亿元为同标的第一",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611273941565276.html",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
-    },
-    {
-     "n": 6,
      "title": "“20cm”涨停刷屏！网友：“今天涨得让我热泪盈眶”",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-27/doc-inkaencz1075099.shtml",
@@ -73,13 +64,22 @@
      "vec_rank": 4
     },
     {
-     "n": 7,
+     "n": 6,
      "title": "创业板指涨逾6% 科创50涨超8%",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611273941568012.html",
      "rrf": 0.02924,
      "bm25_rank": 6,
      "vec_rank": 11
+    },
+    {
+     "n": 7,
+     "title": "苹果微软等终端巨头上调产品售价，科创芯片设计ETF天弘大涨超3.5%，成交额超1亿元为同标的第一",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611273941565276.html",
+     "rrf": 0.0292,
+     "bm25_rank": 8,
+     "vec_rank": 9
     },
     {
      "n": 8,
@@ -94,19 +94,301 @@
    "degraded": 1,
    "retrieval": {
     "query": "大奇迹日！场内多只科技类ETF报收涨停！双创赛道弹性突出，科创芯片指数涨超17%",
-    "bm25_only": 1,
+    "bm25_only": 2,
     "vec_only": 2,
-    "both": 5,
+    "both": 4,
     "neither_topk": 0
    },
    "elapsed": 0.0
   },
   {
-   "key": "4dd759e8985370ac",
+   "key": "cc0d9110a48017a8",
+   "label": "国常会：加力发挥“国家队”稳市作用 进一步优化中央汇金公司的类“平准基金”功能",
+   "cached": false,
+   "sections": {
+    "事件概述": "「国常会：加力发挥“国家队”稳市作用 进一步优化中央汇金公司的类“平准基金”功能」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.656（爆点），所属板块类目：综合。",
+    "关键信息": "国常会：加力发挥“国家队”稳市作用 进一步优化中央汇金公司的类“平准基金”功能；监管部门：将全力维护资本市场平稳运行；\"国家队\"入市护盘过程中 各类机构均表现为净买入",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "国常会：加力发挥“国家队”稳市作用 进一步优化中央汇金公司的类“平准基金”功能",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611273941563340.html",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "监管部门：将全力维护资本市场平稳运行",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaefwk5510021.shtml",
+     "rrf": 0.03226,
+     "bm25_rank": 2,
+     "vec_rank": 2
+    },
+    {
+     "n": 3,
+     "title": "\"国家队\"入市护盘过程中 各类机构均表现为净买入",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-27/doc-inkaczqf1139752.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 4,
+     "title": "刚刚！国常会重磅定调！加力发挥“国家队”稳市作用",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-27/doc-inkaczqh7848698.shtml",
+     "rrf": 0.03102,
+     "bm25_rank": 6,
+     "vec_rank": 3
+    },
+    {
+     "n": 5,
+     "title": "如何理解国常会对资本市场的最新定调？ 专家解读来了",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/china/2026-11-27/doc-inkaefwk5509100.shtml",
+     "rrf": 0.03054,
+     "bm25_rank": 5,
+     "vec_rank": 6
+    },
+    {
+     "n": 6,
+     "title": "视频解读丨国常会首提“国家队”，如何影响你我他？",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-28/doc-inkaheph7450188.shtml",
+     "rrf": 0.03033,
+     "bm25_rank": 8,
+     "vec_rank": 4
+    },
+    {
+     "n": 7,
+     "title": "稳市合力增强 “国家队”护盘过程中各类机构均为净买入",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaefwc1029737.shtml",
+     "rrf": 0.02921,
+     "bm25_rank": 10,
+     "vec_rank": 7
+    },
+    {
+     "n": 8,
+     "title": "国常委盘中稳市意义非凡",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-27/doc-inkaencz1089291.shtml",
+     "rrf": 0.02858,
+     "bm25_rank": 11,
+     "vec_rank": 9
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "国常会：加力发挥“国家队”稳市作用 进一步优化中央汇金公司的类“平准基金”功能",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "cb9f190827bdc336",
+   "label": "国家统计局：1—10月份规模以上工业企业利润保持较快增长，电子行业对利润增长支撑作用明显",
+   "cached": false,
+   "sections": {
+    "事件概述": "「国家统计局：1—10月份规模以上工业企业利润保持较快增长，电子行业对利润增长支撑作用明显」由 5 篇报道聚合而成，覆盖 3 家媒体，热度 0.595（爆点），所属板块类目：宏观政策。",
+    "关键信息": "国家统计局：1—10月份规模以上工业企业利润保持较快增长，电子行业对利润增长支撑；国家统计局：1-10月份规模以上工业企业利润保持较快增长；国家统计局：1-10月份全国规模以上工业企业利润增长16.0%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "国家统计局：1—10月份规模以上工业企业利润保持较快增长，电子行业对利润增长支撑作用明显",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3206699",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "国家统计局：1-10月份规模以上工业企业利润保持较快增长",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738543.shtml",
+     "rrf": 0.032,
+     "bm25_rank": 2,
+     "vec_rank": 3
+    },
+    {
+     "n": 3,
+     "title": "国家统计局：1-10月份全国规模以上工业企业利润增长16.0%",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738531.shtml",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "支撑明显、引领凸显，增长16%！“数”读前10月规上工业企业利润",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaewtz3093165.shtml",
+     "rrf": 0.0315,
+     "bm25_rank": 3,
+     "vec_rank": 4
+    },
+    {
+     "n": 5,
+     "title": "前10月规上工业企业利润同比增长16%——工业经济新动能快速成长",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-28/doc-inkahepf0600183.shtml",
+     "rrf": 0.03077,
+     "bm25_rank": 5,
+     "vec_rank": 5
+    },
+    {
+     "n": 6,
+     "title": "1-10月云浮经济运行保持向好态势 规上工业增加值同比增长19.1%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/wm/2026-11-27/doc-inkacvhp3325893.shtml",
+     "rrf": 0.02862,
+     "bm25_rank": 13,
+     "vec_rank": 7
+    },
+    {
+     "n": 7,
+     "title": "老百姓花钱逻辑变了，内需潜力没变",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaefwe7883698.shtml",
+     "rrf": 0.02817,
+     "bm25_rank": 12,
+     "vec_rank": 10
+    },
+    {
+     "n": 8,
+     "title": "英国10月汽车产量同比增长4.8%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkacqym1065845.shtml",
+     "rrf": 0.02808,
+     "bm25_rank": 7,
+     "vec_rank": 16
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "国家统计局：1—10月份规模以上工业企业利润保持较快增长，电子行业对利润增长支撑",
+    "bm25_only": 1,
+    "vec_only": 1,
+    "both": 5,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "14076938c73c0c72",
+   "label": "国际贵金属期货持续走高，COMEX黄金涨幅扩大至3%，站上3700美元/盎司；C",
+   "cached": false,
+   "sections": {
+    "事件概述": "「国际贵金属期货持续走高，COMEX黄金涨幅扩大至3%，站上3700美元/盎司；C」由 8 篇报道聚合而成，覆盖 3 家媒体，热度 0.541（爆点），所属板块类目：国际市场。",
+    "关键信息": "国际贵金属期货持续走高，COMEX黄金涨幅扩大至3%，站上3700美元/盎司；C；现货黄金站上3600美元/盎司，日内涨0.97%。；国际金价周五涨超2.4%，本周现货白银涨6.3%",
+    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
+    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
+   },
+   "citations": [
+    {
+     "n": 1,
+     "title": "国际贵金属期货持续走高，COMEX黄金涨幅扩大至3%，站上3700美元/盎司；C",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3207195",
+     "rrf": 0.03279,
+     "bm25_rank": 1,
+     "vec_rank": 1
+    },
+    {
+     "n": 2,
+     "title": "现货黄金站上3600美元/盎司，日内涨0.97%。",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3206721",
+     "rrf": 0.03175,
+     "bm25_rank": 2,
+     "vec_rank": 4
+    },
+    {
+     "n": 3,
+     "title": "国际金价周五涨超2.4%，本周现货白银涨6.3%",
+     "media": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3207280",
+     "rrf": 0.03175,
+     "bm25_rank": 4,
+     "vec_rank": 2
+    },
+    {
+     "n": 4,
+     "title": "金价大涨，伦敦现货黄金最高触及3666.71美元/盎司",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-27/doc-inkaefwk5521690.shtml",
+     "rrf": 0.03126,
+     "bm25_rank": 3,
+     "vec_rank": 5
+    },
+    {
+     "n": 5,
+     "title": "黄金配置为何仍要看“周期”？",
+     "media": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-28/10739170.shtml",
+     "rrf": 0.0308,
+     "bm25_rank": 7,
+     "vec_rank": 3
+    },
+    {
+     "n": 6,
+     "title": "现货黄金日内涨2%",
+     "media": "东方财富",
+     "url": "https://finance.eastmoney.com/a/202611273941565892.html",
+     "rrf": 0.02944,
+     "bm25_rank": 10,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
+     "title": "金银遭遇深度回调",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-11-27/doc-inkacksq7916291.shtml",
+     "rrf": 0.02941,
+     "bm25_rank": 8,
+     "vec_rank": 8
+    },
+    {
+     "n": 8,
+     "title": "银价跌破40美元关口后反弹 上行弹性尚待工业需求驱动",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-28/doc-inkaftxr2805667.shtml",
+     "rrf": 0.02838,
+     "bm25_rank": 9,
+     "vec_rank": 12
+    }
+   ],
+   "degraded": 1,
+   "retrieval": {
+    "query": "国际贵金属期货持续走高，COMEX黄金涨幅扩大至3%，站上3700美元/盎司；C",
+    "bm25_only": 0,
+    "vec_only": 1,
+    "both": 6,
+    "neither_topk": 1
+   },
+   "elapsed": 0.0
+  },
+  {
+   "key": "1dea9a33661a433a",
    "label": "内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%，铁矿石跌约2.3%",
    "cached": false,
    "sections": {
-    "事件概述": "「内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%，铁矿石跌约2.3%」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.684（爆点），所属板块类目：大宗与能化。",
+    "事件概述": "「内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%，铁矿石跌约2.3%」由 7 篇报道聚合而成，覆盖 3 家媒体，热度 0.54（爆点），所属板块类目：大宗与能化。",
     "关键信息": "内盘期货夜市涨跌各异，乙二醇收涨将近2.7%，焦煤涨0.8%，铁矿石跌约2.3%；国内部分商品期货夜盘收盘 主力合约涨多跌少；夜盘期货收盘：沪锌收涨1.59% 沪铅收涨1.51%",
     "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
     "关注要点": "建议人工复核该事件的后续进展与板块联动。"
@@ -144,8 +426,8 @@
      "title": "国内商品期市夜盘收盘涨跌参半 油脂油料涨幅居前",
      "media": "东方财富",
      "url": "https://finance.eastmoney.com/a/202611263940972248.html",
-     "rrf": 0.03101,
-     "bm25_rank": 5,
+     "rrf": 0.03078,
+     "bm25_rank": 6,
      "vec_rank": 4
     },
     {
@@ -153,12 +435,21 @@
      "title": "开盘|国内期货主力合约涨多跌少，沪银、乙二醇（EG）涨超3%",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-27/doc-inkacqym1107004.shtml",
-     "rrf": 0.03054,
-     "bm25_rank": 6,
+     "rrf": 0.03077,
+     "bm25_rank": 5,
      "vec_rank": 5
     },
     {
      "n": 6,
+     "title": "收评|国内期货主力合约涨多跌少，燃料油涨近7%",
+     "media": "新浪财经",
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-26/doc-inizzwrh8225260.shtml",
+     "rrf": 0.02964,
+     "bm25_rank": 9,
+     "vec_rank": 6
+    },
+    {
+     "n": 7,
      "title": "午后，这些品种集体飙涨！行情有望延续？",
      "media": "新浪财经",
      "url": "https://finance.sina.com.cn/money/future/2026-11-26/doc-inkaaaxc1364829.shtml",
@@ -167,22 +458,13 @@
      "vec_rank": 7
     },
     {
-     "n": 7,
-     "title": "开盘|国内期货主力合约涨多跌少，燃料油涨超6%",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-26/doc-inizzmzn8178942.shtml",
-     "rrf": 0.02924,
-     "bm25_rank": 11,
-     "vec_rank": 6
-    },
-    {
      "n": 8,
-     "title": "港库低位，基差高企，乙二醇再度上涨",
+     "title": "中天期货:焦煤继续走强 螺纹继续反弹",
      "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/money/future/2026-11-26/doc-inkaaaxe8222201.shtml",
-     "rrf": 0.02921,
-     "bm25_rank": 7,
-     "vec_rank": 10
+     "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-27/doc-inkaeneh5568167.shtml",
+     "rrf": 0.02929,
+     "bm25_rank": 2,
+     "vec_rank": 16
     }
    ],
    "degraded": 1,
@@ -191,288 +473,6 @@
     "bm25_only": 1,
     "vec_only": 1,
     "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "f351d9e0f5f7b22e",
-   "label": "国常会：加力发挥“国家队”稳市作用 进一步优化中央汇金公司的类“平准基金”功能",
-   "cached": false,
-   "sections": {
-    "事件概述": "「国常会：加力发挥“国家队”稳市作用 进一步优化中央汇金公司的类“平准基金”功能」由 11 篇报道聚合而成，覆盖 3 家媒体，热度 0.643（爆点），所属板块类目：综合。",
-    "关键信息": "国常会：加力发挥“国家队”稳市作用 进一步优化中央汇金公司的类“平准基金”功能；监管部门：将全力维护资本市场平稳运行；\"国家队\"入市护盘过程中 各类机构均表现为净买入",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "国常会：加力发挥“国家队”稳市作用 进一步优化中央汇金公司的类“平准基金”功能",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611273941563340.html",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "监管部门：将全力维护资本市场平稳运行",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaefwk5510021.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "\"国家队\"入市护盘过程中 各类机构均表现为净买入",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-27/doc-inkaczqf1139752.shtml",
-     "rrf": 0.0315,
-     "bm25_rank": 3,
-     "vec_rank": 4
-    },
-    {
-     "n": 4,
-     "title": "刚刚！国常会重磅定调！加力发挥“国家队”稳市作用",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-27/doc-inkaczqh7848698.shtml",
-     "rrf": 0.03102,
-     "bm25_rank": 6,
-     "vec_rank": 3
-    },
-    {
-     "n": 5,
-     "title": "如何理解国常会对资本市场的最新定调？ 专家解读来了",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/china/2026-11-27/doc-inkaefwk5509100.shtml",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "稳市合力增强 “国家队”护盘过程中各类机构均为净买入",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaefwc1029737.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 8,
-     "vec_rank": 6
-    },
-    {
-     "n": 7,
-     "title": "国常委盘中稳市意义非凡",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/marketresearch/2026-11-27/doc-inkaencz1089291.shtml",
-     "rrf": 0.0292,
-     "bm25_rank": 9,
-     "vec_rank": 8
-    },
-    {
-     "n": 8,
-     "title": "主播说联播丨国常会这一部署，突出一个“稳”字",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/roll/2026-11-27/doc-inkaewtw7757659.shtml",
-     "rrf": 0.02881,
-     "bm25_rank": 12,
-     "vec_rank": 7
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "国常会：加力发挥“国家队”稳市作用 进一步优化中央汇金公司的类“平准基金”功能",
-    "bm25_only": 0,
-    "vec_only": 2,
-    "both": 6,
-    "neither_topk": 0
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "8e107225707e8d54",
-   "label": "日本央行审议委员田村直树：中东局势走向仍不明朗，将继续关注其对经济和物价的影响。",
-   "cached": false,
-   "sections": {
-    "事件概述": "「日本央行审议委员田村直树：中东局势走向仍不明朗，将继续关注其对经济和物价的影响。」由 6 篇报道聚合而成，覆盖 3 家媒体，热度 0.551（爆点），所属板块类目：宏观政策。",
-    "关键信息": "日本央行审议委员田村直树：中东局势走向仍不明朗，将继续关注其对经济和物价的影响。；日本央行审议委员田村直树：若通胀出现超出目标的迹象，应加快加息步伐；日本央行审议委员田村直树：股市和资产价格走势是衡量金融状况时将考虑的因素之一",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "日本央行审议委员田村直树：中东局势走向仍不明朗，将继续关注其对经济和物价的影响。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3206128",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "日本央行审议委员田村直树：若通胀出现超出目标的迹象，应加快加息步伐",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizzwrc8955065.shtml",
-     "rrf": 0.03226,
-     "bm25_rank": 2,
-     "vec_rank": 2
-    },
-    {
-     "n": 3,
-     "title": "日本央行审议委员田村直树：股市和资产价格走势是衡量金融状况时将考虑的因素之一",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611263940496639.html",
-     "rrf": 0.03175,
-     "bm25_rank": 3,
-     "vec_rank": 3
-    },
-    {
-     "n": 4,
-     "title": "日本央行审议委员田村直树：设想是每隔几个月加息一次 每次加息25个基点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizzwrf1365161.shtml",
-     "rrf": 0.03125,
-     "bm25_rank": 4,
-     "vec_rank": 4
-    },
-    {
-     "n": 5,
-     "title": "日本央行12月行动预期升温？鹰派委员放话：必要时或加息50个基点",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1433884.shtml",
-     "rrf": 0.03077,
-     "bm25_rank": 5,
-     "vec_rank": 5
-    },
-    {
-     "n": 6,
-     "title": "日本央行鹰派委员寻求快速加息 认为利率需提高至中性水平",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizzmzm1510476.shtml",
-     "rrf": 0.02986,
-     "bm25_rank": 6,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "东京通胀加速 日本央行警惕物价压力",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-11-27/doc-inkacqys5585937.shtml",
-     "rrf": 0.02985,
-     "bm25_rank": 7,
-     "vec_rank": 7
-    },
-    {
-     "n": 8,
-     "title": "中东紧张局势搅动市场 油价继续上涨",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/world/2026-11-26/doc-inkaaawz8944315.shtml",
-     "rrf": 0.02857,
-     "bm25_rank": 10,
-     "vec_rank": 10
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "日本央行审议委员田村直树：中东局势走向仍不明朗，将继续关注其对经济和物价的影响。",
-    "bm25_only": 0,
-    "vec_only": 0,
-    "both": 7,
-    "neither_topk": 1
-   },
-   "elapsed": 0.0
-  },
-  {
-   "key": "bdb96508ecceed3e",
-   "label": "周四（11月26日）欧市尾盘，法国10年期国债收益率跌1个基点，刷新日低至4.7",
-   "cached": false,
-   "sections": {
-    "事件概述": "「周四（11月26日）欧市尾盘，法国10年期国债收益率跌1个基点，刷新日低至4.7」由 7 篇报道聚合而成，覆盖 2 家媒体，热度 0.542（爆点），所属板块类目：宏观政策。",
-    "关键信息": "周四（11月26日）欧市尾盘，法国10年期国债收益率跌1个基点，刷新日低至4.7；两年期德债收益率跌4个基点；英国长端国债收益率本周跌约6个基点",
-    "市场影响": "关联板块代码：本簇未携带板块标签。（LLM 不可用，未生成研判，以上为检索与统计事实）",
-    "关注要点": "建议人工复核该事件的后续进展与板块联动。"
-   },
-   "citations": [
-    {
-     "n": 1,
-     "title": "周四（11月26日）欧市尾盘，法国10年期国债收益率跌1个基点，刷新日低至4.7",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3206572",
-     "rrf": 0.03279,
-     "bm25_rank": 1,
-     "vec_rank": 1
-    },
-    {
-     "n": 2,
-     "title": "两年期德债收益率跌4个基点",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3205873",
-     "rrf": 0.032,
-     "bm25_rank": 2,
-     "vec_rank": 3
-    },
-    {
-     "n": 3,
-     "title": "英国长端国债收益率本周跌约6个基点",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3207216",
-     "rrf": 0.032,
-     "bm25_rank": 3,
-     "vec_rank": 2
-    },
-    {
-     "n": 4,
-     "title": "欧洲债市：股市上涨之际英国和德国国债下跌 英债表现落后",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkaayau8008567.shtml",
-     "rrf": 0.02967,
-     "bm25_rank": 10,
-     "vec_rank": 5
-    },
-    {
-     "n": 5,
-     "title": "欧洲债市：风险情绪提振意大利和法国国债表现 英债及德债走低",
-     "media": "新浪财经",
-     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafazt0939638.shtml",
-     "rrf": 0.02951,
-     "bm25_rank": 12,
-     "vec_rank": 4
-    },
-    {
-     "n": 6,
-     "title": "美国国债收益率继续攀升 10年期收益率升至当日高点4.93%",
-     "media": "东方财富",
-     "url": "https://finance.eastmoney.com/a/202611283942112081.html",
-     "rrf": 0.02941,
-     "bm25_rank": 8,
-     "vec_rank": 8
-    },
-    {
-     "n": 7,
-     "title": "美国10年期国债收益率涨至4.93%，刷新日高；标普涨1.5%，刷新日高。 费城",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3207214",
-     "rrf": 0.02924,
-     "bm25_rank": 6,
-     "vec_rank": 11
-    },
-    {
-     "n": 8,
-     "title": "日本30年期国债收益率下行5个基点至3.90%。",
-     "media": "华尔街见闻",
-     "url": "https://wallstreetcn.com/livenews/3206119",
-     "rrf": 0.02896,
-     "bm25_rank": 4,
-     "vec_rank": 15
-    }
-   ],
-   "degraded": 1,
-   "retrieval": {
-    "query": "周四（11月26日）欧市尾盘，法国10年期国债收益率跌1个基点，刷新日低至4.7",
-    "bm25_only": 2,
-    "vec_only": 2,
-    "both": 4,
     "neither_topk": 0
    },
    "elapsed": 0.0
